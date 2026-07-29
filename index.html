@@ -644,18 +644,34 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
     const qNorm = qLower.replace(/[-\s]/g, '');
     const chosungMode = isChosungQuery(q);
 
-    return SLANG_DB.filter(function(item){
-      if(chosungMode){
+    if(chosungMode){
+      return SLANG_DB.filter(function(item){
         return getChosung(item.kr).includes(q);
-      }
+      }).slice(0, 8);
+    }
+
+    // Rank matches so an exact/prefix hit on the term itself always beats a
+    // match that only happens to show up inside another entry's definition
+    // text (e.g. searching "영크크" should never rank "늙크크" first just
+    // because 늙크크's definition mentions 영크크).
+    const scored = [];
+    SLANG_DB.forEach(function(item){
       const romNorm = item.rom.toLowerCase().replace(/[-\s]/g, '');
-      return item.kr.includes(q)
-        || romNorm.includes(qNorm)
-        || item.meaningEn.toLowerCase().includes(qLower)
-        || item.meaningEs.toLowerCase().includes(qLower)
-        || item.catEn.toLowerCase().includes(qLower)
-        || item.catKr.includes(q);
-    }).slice(0, 8);
+      let rank = -1;
+      if(item.kr === q) rank = 0;
+      else if(item.kr.startsWith(q)) rank = 1;
+      else if(item.kr.includes(q)) rank = 2;
+      else if(romNorm === qNorm) rank = 3;
+      else if(romNorm.startsWith(qNorm)) rank = 4;
+      else if(romNorm.includes(qNorm)) rank = 5;
+      else if(item.meaningEn.toLowerCase().includes(qLower) || item.meaningEs.toLowerCase().includes(qLower)) rank = 6;
+      else if(item.catEn.toLowerCase().includes(qLower) || item.catKr.includes(q)) rank = 7;
+
+      if(rank !== -1) scored.push({ item: item, rank: rank });
+    });
+
+    scored.sort(function(a, b){ return a.rank - b.rank; });
+    return scored.slice(0, 8).map(function(s){ return s.item; });
   }
 
   function shortGloss(item){
