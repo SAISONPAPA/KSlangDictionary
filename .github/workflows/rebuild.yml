@@ -1,0 +1,50 @@
+name: Rebuild site data
+
+# Fires only when the word-list source file itself changes — NOT when the
+# generated output (word/*.html, data/*.xlsx, main pages) changes. This is
+# what prevents an infinite loop: the bot's own commit below only touches
+# generated files, so it never re-triggers this workflow.
+"on":
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_kslang_db.py"
+  workflow_dispatch: {}   # lets you click "Run workflow" manually on GitHub too
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Safety check word list
+        run: python3 scripts/safety_check.py
+
+      - name: Rebuild xlsx database
+        run: python3 scripts/build_kslang_db.py
+
+      - name: Rebuild word pages (word/*.html)
+        run: python3 scripts/generate_word_pages.py
+
+      - name: Rebuild main site pages (index/category/trending/submit)
+        run: python3 scripts/update_main_pages.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-rebuild: sync site with build_kslang_db.py [skip ci]"
+          git push
