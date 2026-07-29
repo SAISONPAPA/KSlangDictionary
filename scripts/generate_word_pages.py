@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Generates one lightweight, SEO-friendly static HTML page per K-SLANG dictionary
+Generates one lightweight, SEO-friendly static HTML page per HelloKSlang dictionary
 word (517 pages), from the same source data used for the xlsx / main site.
 
 No server, no database — just run this script and it writes word/*.html files.
@@ -178,7 +178,7 @@ SHARED_CSS = """
 
 HEADER_HTML = """<header>
   <div class="nav">
-    <a href="../index.html" class="logo"><span>K-SLANG</span><span class="dot">.</span><span class="logo-badge">Dictionary</span></a>
+    <a href="../index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge">Dictionary</span></a>
     <nav class="nav-links">
       <a href="../index.html#dictionary">사전 Dictionary</a>
       <a href="../trending.html">트렌드 Trending</a>
@@ -198,7 +198,7 @@ HEADER_HTML = """<header>
 FOOTER_HTML = """<footer>
   <div class="foot-row">
     <div>
-      <div class="foot-logo">K-SLANG.</div>
+      <div class="foot-logo">HelloKSlang.</div>
       <div class="foot-tag">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
     </div>
     <a href="../privacy.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">Privacy Policy</a>
@@ -236,7 +236,7 @@ def build_page(item, category_kr, category_en, related):
     kr, rom, en_short, meaning_en, meaning_es, ex_kr, ex_en, ex_es, where, status = item
     slug = slugify(rom)
     cat_url = CATEGORY_URL.get(category_en, "category.html")
-    title = f"{kr} ({rom}) Meaning — K-SLANG Dictionary"
+    title = f"{kr} ({rom}) Meaning — HelloKSlang Dictionary"
     meta_desc = meaning_en if len(meaning_en) <= 155 else meaning_en[:152].rsplit(" ", 1)[0] + "…"
 
     related_html = ""
@@ -256,7 +256,7 @@ def build_page(item, category_kr, category_en, related):
         "description": meaning_en,
         "inDefinedTermSet": {
             "@type": "DefinedTermSet",
-            "name": "K-SLANG Dictionary",
+            "name": "HelloKSlang Dictionary",
         },
     }
     json_ld = (

@@ -1,4 +1,4 @@
-# K-SLANG — K-Pop & K-Drama Slang Dictionary
+# HelloKSlang — K-Pop & K-Drama Slang Dictionary
 
 A slang dictionary for international (English/Spanish-speaking) K-pop and K-drama fans, aged roughly 10–30. Look up a word, hear it pronounced, browse by category, or see what's newly trending.
 
@@ -44,7 +44,7 @@ All four pages (`index.html`, `category.html`, `trending.html`, `submit.html`) n
 
 ## 🔍 The 517 individual word pages (`word/*.html`) — why they exist
 
-These exist purely for **Google search traffic**. Someone searching "daebak meaning" or "jonbeo 뜻" can land directly on `word/dae-bak.html` or `word/jon-beo.html` instead of needing to already know about K-SLANG and use its search bar. Each page:
+These exist purely for **Google search traffic**. Someone searching "daebak meaning" or "jonbeo 뜻" can land directly on `word/dae-bak.html` or `word/jon-beo.html` instead of needing to already know about HelloKSlang and use its search bar. Each page:
 
 - Has its own unique `<title>` and `<meta description>` (what shows up in Google results)
 - Includes `DefinedTerm` structured data (JSON-LD) so Google can potentially show a rich snippet
