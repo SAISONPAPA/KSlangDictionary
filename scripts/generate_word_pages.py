@@ -20,6 +20,7 @@ OUTPUT_DIR = os.path.join(SCRIPT_DIR, "..", "word")
 
 # Single place to update if the domain ever changes again.
 SITE_URL = "https://hellokslang.com"
+GA_ID = "G-F475ZTL1ZV"
 
 CATEGORY_URL = {
     "Idol Essentials": "category.html?cat=Idol%20Essentials",
@@ -273,6 +274,14 @@ def build_page(item, category_kr, category_en, related):
     html_out = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA_ID}');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>

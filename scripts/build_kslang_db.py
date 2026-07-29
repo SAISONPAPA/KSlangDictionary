@@ -2771,7 +2771,7 @@ MEME = [
      "이 밈 몰랐어? 완전 늙크크네.", "You didn't know this meme? You're totally out of touch.",
      "¿No conocías este meme? Estás totalmente desactualizado.",
      "Comment sections, self-deprecating jokes", "Verified (web-checked)"),
-("영크크", "yeong-keu-keu", "Totally in the loop",
+    ("영크크", "yeong-keu-keu", "Totally in the loop",
      "\"Young creator crew\" — from the title of a CORTIS song, now used to jokingly praise someone for being completely on top of current trends and memes. The positive opposite of 늙크크.",
      "\"Young creator crew\": del título de una canción de CORTIS, ahora usado para elogiar en broma a alguien por estar completamente al tanto de las tendencias y memes actuales. El opuesto positivo de 늙크크.",
      "이 밈 벌써 알아? 완전 영크크네.", "You already know this meme? You're totally in the loop.",
