@@ -238,6 +238,11 @@ def build_page(item, category_kr, category_en, related):
     cat_url = CATEGORY_URL.get(category_en, "category.html")
     title = f"{kr} ({rom}) Meaning — HelloKSlang Dictionary"
     meta_desc = meaning_en if len(meaning_en) <= 155 else meaning_en[:152].rsplit(" ", 1)[0] + "…"
+    # Pre-escape for the JS string literal in onclick="playPronunciation('...', this)".
+    # (Kept out of the f-string itself — f-string expressions can't contain
+    # backslashes on Python versions before 3.12, and the GitHub Actions
+    # runner uses 3.11.)
+    kr_js_escaped = kr.replace("'", "\\'")
 
     related_html = ""
     for r in related:
@@ -291,7 +296,7 @@ def build_page(item, category_kr, category_en, related):
   <div class="word-card">
     <div class="kr-huge">{esc(kr)}</div>
     <div class="rom-row">
-      <button class="play-btn" onclick="playPronunciation('{kr.replace("'", "\\'")}', this)" aria-label="Play pronunciation">▶</button>
+      <button class="play-btn" onclick="playPronunciation('{kr_js_escaped}', this)" aria-label="Play pronunciation">▶</button>
       <span class="rom">{esc(rom)}</span>
     </div>
 
