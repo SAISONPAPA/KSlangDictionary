@@ -166,6 +166,17 @@ ZH_CN_TRANSLATIONS = {
 
 ---
 
+## 🌐 Language persistence & active nav indicator
+
+Two UX fixes (2026-07-30):
+
+- **Language choice now persists across pages.** The selected language (EN/ES/繁/简) is saved to `localStorage` (`kslang_lang` key) every time `setLang()` runs, and every page reads it back on load — so clicking from index → category → trending etc. no longer silently resets to English. Applies to index/category/trending/submit/whatsnew (word pages don't have a toggle, they show all languages statically, so this doesn't apply there).
+- **Current page is now highlighted in the nav** — a pink underline (desktop) / pink text (mobile menu) shows which of the 5 main sections you're on. Each page hardcodes `class="active"` on its own matching nav link.
+
+If you ever add a 6th main page, remember to: (1) add the `localStorage`-aware `currentLang` init + `setLang()` persistence + a `setLang(currentLang);` call at the end of its init sequence, and (2) mark its own nav link `class="active"` — copy the pattern from any existing page.
+
+---
+
 ## Word list makeup (651 terms)
 
 | Category | Count |

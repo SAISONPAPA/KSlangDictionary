@@ -149,9 +149,13 @@ def main():
 {FOOTER_HTML}
 
 <script>
-  var currentLang = 'en';
+  var currentLang = (function(){{
+    try {{ return localStorage.getItem('kslang_lang') || 'en'; }}
+    catch(e){{ return 'en'; }}
+  }})();
   function setLang(lang){{
     currentLang = lang;
+    try {{ localStorage.setItem('kslang_lang', lang); }} catch(e){{}}
     document.querySelectorAll('[data-en]').forEach(function(el){{
       el.textContent = el.getAttribute('data-' + lang);
     }});
@@ -173,6 +177,11 @@ def main():
       if(menu) menu.classList.remove('open');
     }});
   }});
+
+  // Apply whatever language the visitor picked last time (persisted via
+  // localStorage in setLang above) — without this, every fresh page load
+  // would silently reset back to English.
+  setLang(currentLang);
 </script>
 </body>
 </html>
@@ -318,6 +327,8 @@ SHARED_CSS = """
     transition: width .25s ease;
   }
   .nav-links a:hover::after{ width:100%; animation: holoShift 2s linear infinite; }
+  .nav-links a.active{ color: var(--ink); }
+  .nav-links a.active::after{ width:100%; background: var(--pink); }
 
   .nav-right{ display:flex; align-items:center; gap: 14px; }
   .lang-switch{
@@ -374,6 +385,7 @@ SHARED_CSS = """
     color: var(--ink);
     border-bottom: 1px solid var(--line);
   }
+  .mobile-menu a.active{ color: var(--pink); }
   .mobile-menu a:last-child{ border-bottom:none; }
 
   .play-btn{
@@ -506,7 +518,7 @@ HEADER_HTML = """<header>
     <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario" data-zh="詞典" data-cn="词典">Dictionary</span></a>
     <nav class="nav-links">
       <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典">사전 Dictionary</a>
-      <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息">신규 What's New</a>
+      <a href="whatsnew.html" class="active" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息">신규 What's New</a>
       <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类">카테고리 Categories</a>
       <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门">대세 Popular</a>
       <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇">제보하기 Submit a word</a>
@@ -523,7 +535,7 @@ HEADER_HTML = """<header>
   </div>
   <div class="mobile-menu" id="mobileMenu">
     <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典">사전 Dictionary</a>
-    <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息">신규 What's New</a>
+    <a href="whatsnew.html" class="active" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息">신규 What's New</a>
     <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类">카테고리 Categories</a>
     <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门">대세 Popular</a>
     <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇">제보하기 Submit a word</a>
