@@ -52,5 +52,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || git commit -m "Auto-rebuild: sync site with build_kslang_db.py [skip ci]"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Auto-rebuild: sync site with build_kslang_db.py [skip ci]"
+          # If another run (e.g. a manual "Run workflow" click racing against
+          # this same push) already updated main in the meantime, rebase our
+          # commit on top instead of failing outright. Our changes are always
+          # a full regeneration from the same source data, so this is safe —
+          # worst case we just re-push the same regenerated files.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and retrying..."
+            git pull --rebase --autostash origin main
+          done
           git push
