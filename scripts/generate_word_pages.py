@@ -134,6 +134,7 @@ SHARED_CSS = """
   .meaning-block h2{ font-family: var(--mono); font-size: 11.5px; letter-spacing:1.2px; text-transform:uppercase; color: var(--pink); margin-bottom: 8px; }
   .meaning-block p{ font-size: 16px; font-weight:600; color: var(--ink); line-height:1.6; }
   .meaning-es{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
+  .meaning-zh{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
 
   .example-block{
     margin-top: 24px; background: var(--surface-2); border-left: 3px solid var(--pink);
@@ -247,6 +248,15 @@ def build_page(item, category_kr, category_en, related):
     # runner uses 3.11.)
     kr_js_escaped = kr.replace("'", "\\'")
 
+    zh = db.ZH_TW_TRANSLATIONS.get(kr)
+    if zh:
+        meaning_zh, ex_zh = zh
+        meaning_zh_html = f'\n      <p class="meaning-zh" lang="zh-Hant">{esc(meaning_zh)}</p>'
+        ex_zh_html = f'\n      <div class="ex-trans" lang="zh-Hant">→ "{esc(ex_zh)}"</div>'
+    else:
+        meaning_zh_html = ""
+        ex_zh_html = ""
+
     related_html = ""
     for r in related:
         r_kr, r_rom, r_en_short, r_meaning_en = r[0], r[1], r[2], r[3]
@@ -314,13 +324,13 @@ def build_page(item, category_kr, category_en, related):
     <div class="meaning-block">
       <h2>Meaning</h2>
       <p>{esc(meaning_en)}</p>
-      <p class="meaning-es">{esc(meaning_es)}</p>
+      <p class="meaning-es">{esc(meaning_es)}</p>{meaning_zh_html}
     </div>
 
     <div class="example-block">
       <div class="ex-kr">"{esc(ex_kr)}"</div>
       <div class="ex-trans">→ "{esc(ex_en)}"</div>
-      <div class="ex-trans">→ "{esc(ex_es)}"</div>
+      <div class="ex-trans">→ "{esc(ex_es)}"</div>{ex_zh_html}
     </div>
 
     <div class="source-note">Commonly seen on: {esc(where)}</div>

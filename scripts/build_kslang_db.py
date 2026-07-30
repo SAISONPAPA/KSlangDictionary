@@ -3958,6 +3958,47 @@ NEW_WORDS_LOG = [
     ("2026-07-29", ["영크크"]),
 ]
 
+# ---------------------------------------------------------------------------
+# ZH_TW_TRANSLATIONS — Traditional Chinese (繁體中文) support, added for the
+# Greater China market (Taiwan/Hong Kong first; mainland China uses simplified
+# characters and would need a separate SIMPLIFIED dict later if added).
+#
+# Deliberately kept as a SEPARATE lookup table rather than new fields on the
+# IDOL/FANDOM/BROADCAST/MEME/DATING tuples above — this means:
+#   1. The existing 651-word database is completely untouched (zero risk).
+#   2. Translation can be added incrementally, a handful of words at a time,
+#      without ever leaving the data in a half-migrated state.
+#   3. Any word NOT in this dict yet simply falls back to English on the
+#      site (see meaningZh/exZh fallback logic in the generator scripts) —
+#      the 繁體 toggle button always works, it just shows English for
+#      words that haven't been translated yet.
+#
+# Format: "한글 단어" : ("繁體中文 뜻풀이", "繁體中文 예문")
+# ---------------------------------------------------------------------------
+ZH_TW_TRANSLATIONS = {
+    "최애": ("你的本命成員——字面意思是「最被愛的」。", "在BTS裡我的本命是Jungkook。"),
+    "대박": ("用來表示某件事很厲害或令人驚訝的感嘆詞。", "天啊，這是真的嗎？"),
+    "데뷔": ("練習生訓練結束後，偶像或團體正式發行、演出的第一次。", "那個團體在2023年出道。"),
+    "컴백": ("團體或歌手發行新作品並展開完整宣傳活動（新歌、造型、活動期）。", "聽說我們家下個月要回歸了！"),
+    "팬싸": ("粉絲透過專輯抽籤，短暫與偶像見面並拿到簽名的活動。", "抽中簽名會了，好緊張。"),
+    "덕질": ("積極參與並持續關注自己喜歡的事物。", "最近忙著追星。"),
+    "스밍": ("大量播放一首歌，以提升排行榜成績。", "現在去刷串流吧！"),
+    "썸": ("正式交往前彼此有好感、關係曖昧不明的階段，源自英文「something」。", "那兩個人最近好像在曖昧。"),
+    "짝사랑": ("得不到回應的單方面愛戀。", "我還記得高中時單戀過的那個人。"),
+    "헐": ("表示震驚或驚訝的感嘆詞。", "什麼，真的假的？"),
+    "인정": ("表示同意或承認某件事是真的。", "那句話我完全認同。"),
+    "갓생": ("過著自律、高度充實的生活。", "最近過著神級人生，每天都運動。"),
+    "존맛탱": ("用來強調某樣東西超級好吃的俗語。", "這個辣炒年糕超級無敵好吃。"),
+    "굿즈": ("官方粉絲周邊商品。", "這次的周邊系列真的好好看。"),
+    "조공": ("粉絲為支持偶像所送的餐車、咖啡車或禮物，稱為「應援物資」。", "生日應援送了咖啡車。"),
+    "늙크크": ("「영크크」（源自CORTIS歌曲〈young creator crew〉）的反義玩笑用語——調侃某人跟不上最新潮流和迷因，不管實際年齡多大。", "你不知道這個迷因？真的跟不上潮流耶。"),
+    "감다살": ("「感覺完全活著」的縮寫——稱讚某人品味或幽默感很棒。", "選這張迷因圖的人品味真好。"),
+    "기대컨": ("「期待控制」的縮寫——事先刻意降低期待，避免失望。", "抱著降低期待去看，結果反而很不錯。"),
+    "동결건조": ("字面意思是「冷凍乾燥」——用來表達希望能把某個瞬間或感覺永遠留住。", "好想把這一刻冷凍保存下來。"),
+    "톤망진창": ("妝容或穿搭的色調完全不協調、很不搭。", "那個妝容色調也太不搭了吧。"),
+    "영크크": ("「年輕創作者團隊」——源自CORTIS歌曲標題，現在用來開玩笑稱讚某人完全跟得上最新潮流和迷因。是「늙크크」的正面反義詞。", "這個迷因你已經知道了？真的很跟得上潮流耶。"),
+}
+
 HEADERS = [
     "ID", "Term (KR)", "Romanization", "Category (KR)", "Category (EN)",
     "Meaning (EN)", "Meaning (ES)", "Example (KR)", "Example (EN)", "Example (ES)",

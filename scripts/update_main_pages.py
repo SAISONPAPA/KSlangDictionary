@@ -25,10 +25,12 @@ def main():
     data = []
     for cat_kr, cat_en, terms in db.CATEGORIES:
         for (kr, rom, en_short, meaning_en, meaning_es, ex_kr, ex_en, ex_es, where, status) in terms:
+            zh = db.ZH_TW_TRANSLATIONS.get(kr)
+            meaning_zh, ex_zh = zh if zh else (meaning_en, ex_en)
             data.append({
                 "kr": kr, "rom": rom, "catKr": cat_kr, "catEn": cat_en,
-                "meaningEn": meaning_en, "meaningEs": meaning_es,
-                "exKr": ex_kr, "exEn": ex_en, "exEs": ex_es, "where": where,
+                "meaningEn": meaning_en, "meaningEs": meaning_es, "meaningZh": meaning_zh,
+                "exKr": ex_kr, "exEn": ex_en, "exEs": ex_es, "exZh": ex_zh, "where": where,
             })
     new_json = json.dumps(data, ensure_ascii=False)
 
@@ -44,7 +46,7 @@ def main():
             continue
         with open(path, "w", encoding="utf-8") as f:
             f.write(new_html)
-        print(f"{fname}: updated ({len(data)} terms)")
+        print(f"{fname}: updated ({len(data)} terms, {len(db.ZH_TW_TRANSLATIONS)} with 繁中 translation)")
 
 
 if __name__ == "__main__":

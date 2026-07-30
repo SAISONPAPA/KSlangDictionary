@@ -141,6 +141,25 @@ There is **no live database and no backend**. The 650-word dictionary is a plain
 - Anyone can view the full word list via "View Page Source" — there's no scraping protection.
 - **To add a word: edit `scripts/build_kslang_db.py` and push to `main`.** GitHub Actions handles regenerating the xlsx, all 650+ word pages, and the embedded array in the 4 main pages automatically — see "Automated rebuilds" above. You no longer need to manually copy anything between files.
 
+## 🈶 Traditional Chinese (繁體中文) support — in progress
+
+Added for the Greater China market (Taiwan/Hong Kong). This is a **separate, incremental effort** from the main word list — see `ZH_TW_TRANSLATIONS` near the top of `scripts/build_kslang_db.py`:
+
+```python
+ZH_TW_TRANSLATIONS = {
+    "최애": ("你的本命成員——字面意思是「最被愛的」。", "在BTS裡我的本命是Jungkook。"),
+    # ... add more here, a few at a time
+}
+```
+
+- **21 of 650 words** translated so far (the 5 Popular picks, the 1 What's New word, and other high-traffic terms like 최애/대박/컴백/데뷔).
+- The 繁 toggle button works site-wide (index/category/trending/submit/whatsnew + every `word/*.html` page) **right now** — words without a translation yet just fall back to showing English, so nothing ever looks broken or blank.
+- To add more: add entries to `ZH_TW_TRANSLATIONS`, then run `update_main_pages.py` + `generate_word_pages.py` + `generate_whatsnew.py` (or push and let GitHub Actions do it).
+- `privacy.html` intentionally has no language toggle at all (legal page, kept simple).
+- Not yet done: simplified Chinese (mainland China) — would need its own separate dict later, same pattern.
+
+---
+
 ## Word list makeup (650 terms)
 
 | Category | Count |
