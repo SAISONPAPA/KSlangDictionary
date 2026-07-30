@@ -154,6 +154,7 @@ ZH_TW_TRANSLATIONS = {
 
 - **334 of 650 words** translated so far — **"아이돌 필수 용어 / Idol Essentials" (149) and "온라인 밈 / Online Memes" (177) categories are now fully translated**, plus 8 extra high-traffic words from other categories.
 - The 繁 toggle button works site-wide (index/category/trending/submit/whatsnew + every `word/*.html` page) **right now** — words without a translation yet just fall back to showing English, so nothing ever looks broken or blank.
+- `data/kslang-slang-database.xlsx` now also has **"Meaning (ZH-TW)" and "Example (ZH-TW)" columns**, so the spreadsheet stays a true mirror of what's live on the site (this was a gap fixed on 2026-07-30 — the xlsx used to only show EN/ES even after 繁體 support went live everywhere else).
 - To add more: add entries to `ZH_TW_TRANSLATIONS`, then run `update_main_pages.py` + `generate_word_pages.py` + `generate_whatsnew.py` (or push and let GitHub Actions do it).
 - Remaining categories, in priority order: Broadcast & Variety (~123 left) → Fandom Feels (~118 left) → Dating & Romance (~82 left).
 - `privacy.html` intentionally has no language toggle at all (legal page, kept simple).

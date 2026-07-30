@@ -4318,7 +4318,8 @@ ZH_TW_TRANSLATIONS = {
 
 HEADERS = [
     "ID", "Term (KR)", "Romanization", "Category (KR)", "Category (EN)",
-    "Meaning (EN)", "Meaning (ES)", "Example (KR)", "Example (EN)", "Example (ES)",
+    "Meaning (EN)", "Meaning (ES)", "Meaning (ZH-TW)",
+    "Example (KR)", "Example (EN)", "Example (ES)", "Example (ZH-TW)",
     "Where It's Used", "Status", "Date Added",
 ]
 
@@ -4430,12 +4431,14 @@ for cat_kr, cat_en, terms in CATEGORIES:
     for (kr, rom, en_short, meaning_en, meaning_es, ex_kr, ex_en, ex_es, where, status) in terms:
         counters[cat_en] += 1
         term_id = f"{prefix_map[cat_en]}-{counters[cat_en]:03d}"
-        row = [term_id, kr, rom, cat_kr, cat_en, meaning_en, meaning_es, ex_kr, ex_en, ex_es, where, status, TODAY]
+        zh = ZH_TW_TRANSLATIONS.get(kr)
+        meaning_zh, ex_zh = zh if zh else (meaning_en, ex_en)
+        row = [term_id, kr, rom, cat_kr, cat_en, meaning_en, meaning_es, meaning_zh, ex_kr, ex_en, ex_es, ex_zh, where, status, TODAY]
         for c, val in enumerate(row, start=1):
             cell = ws.cell(row=row_idx, column=c, value=val)
             cell.font = Font(name="Arial", size=10.5, color="1B1330")
             cell.border = border
-            cell.alignment = Alignment(vertical="top", wrap_text=(c in (6, 7, 8, 9, 10, 11)))
+            cell.alignment = Alignment(vertical="top", wrap_text=(c in (6, 7, 8, 9, 10, 11, 12, 13)))
             cell.fill = cat_fills[cat_en]
         ws.row_dimensions[row_idx].height = 46
         row_idx += 1
@@ -4443,7 +4446,7 @@ for cat_kr, cat_en, terms in CATEGORIES:
 last_row = row_idx - 1
 ws.auto_filter.ref = f"A1:{get_column_letter(len(HEADERS))}{last_row}"
 
-widths = [11, 12, 15, 15, 16, 34, 34, 26, 26, 26, 26, 22, 12]
+widths = [11, 12, 15, 15, 16, 34, 34, 30, 26, 26, 26, 24, 26, 22, 12]
 for i, w in enumerate(widths, start=1):
     ws.column_dimensions[get_column_letter(i)].width = w
 
