@@ -342,6 +342,7 @@
 
   .browse-list{ margin-top: 24px; }
   .browse-card{
+    display: block;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: 18px;
@@ -349,7 +350,9 @@
     margin-bottom: 14px;
     position: relative;
     overflow: hidden;
+    transition: border-color .2s;
   }
+  .browse-card:hover{ border-color: var(--pink); }
   .browse-card::before{
     content:"";
     position:absolute;
@@ -779,21 +782,26 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
       : "Curator-picked favorites for now — once there's enough real search traffic, this list will reflect what people actually search for most.";
   }
 
+  function slugify(rom){
+    return rom.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+  }
+
   function renderTrendingList(){
     const listEl = document.getElementById('browseList');
     if(!listEl) return;
     const es = currentLang === 'es';
     listEl.innerHTML = trendingList.map(function(item, i){
       const rankBadge = '<span class="rank-badge">' + String(i + 1).padStart(2, '0') + '</span>';
-      return '<div class="browse-card">' +
+      const slug = slugify(item.rom);
+      return '<a class="browse-card" href="word/' + slug + '.html">' +
         '<div class="browse-card-top">' +
           rankBadge +
           '<div class="kr-big">' + item.kr + '</div>' +
-          '<div class="rom-big"><span class="play-btn-sm" onclick="playPronunciation(\'' + item.kr + '\', this)">▶</span>' + item.rom + '</div>' +
+          '<div class="rom-big"><span class="play-btn-sm" onclick="event.preventDefault(); event.stopPropagation(); playPronunciation(\'' + item.kr + '\', this)">▶</span>' + item.rom + '</div>' +
         '</div>' +
         '<p class="def">' + (es ? item.meaningEs : item.meaningEn) + '</p>' +
         '<div class="example"><b>"' + item.exKr + '"</b><br>→ "' + (es ? item.exEs : item.exEn) + '"</div>' +
-      '</div>';
+      '</a>';
     }).join('');
   }
 

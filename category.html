@@ -342,6 +342,7 @@
 
   .browse-list{ margin-top: 24px; }
   .browse-card{
+    display: block;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: 18px;
@@ -349,7 +350,9 @@
     margin-bottom: 14px;
     position: relative;
     overflow: hidden;
+    transition: border-color .2s;
   }
+  .browse-card:hover{ border-color: var(--pink); }
   .browse-card::before{
     content:"";
     position:absolute;
@@ -839,6 +842,10 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
     }
   }
 
+  function slugify(rom){
+    return rom.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+  }
+
   function renderBrowsePage(){
     const listEl = document.getElementById('browseList');
     if(!listEl) return;
@@ -851,15 +858,16 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
     } else {
       listEl.innerHTML = pageItems.map(function(item){
         const catLabel = CATEGORY_META[item.catEn] ? CATEGORY_META[item.catEn][es ? 'es' : 'en'] : item.catEn;
-        return '<div class="browse-card">' +
+        const slug = slugify(item.rom);
+        return '<a class="browse-card" href="word/' + slug + '.html">' +
           '<div class="browse-card-top">' +
             '<div class="kr-big">' + item.kr + '</div>' +
-            '<div class="rom-big"><span class="play-btn-sm" onclick="playPronunciation(\'' + item.kr + '\', this)">▶</span>' + item.rom + '</div>' +
+            '<div class="rom-big"><span class="play-btn-sm" onclick="event.preventDefault(); event.stopPropagation(); playPronunciation(\'' + item.kr + '\', this)">▶</span>' + item.rom + '</div>' +
             '<span class="cat-pill">' + catLabel + '</span>' +
           '</div>' +
           '<p class="def">' + (es ? item.meaningEs : item.meaningEn) + '</p>' +
           '<div class="example"><b>"' + item.exKr + '"</b><br>→ "' + (es ? item.exEs : item.exEn) + '"</div>' +
-        '</div>';
+        '</a>';
       }).join('');
     }
     renderBrowsePagination();
