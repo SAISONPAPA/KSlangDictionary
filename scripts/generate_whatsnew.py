@@ -79,7 +79,7 @@ def main():
           <div class="rom-big">{esc(rom)}</div>
           <span class="cat-pill">{esc(cat_kr)} · {esc(cat_en)}</span>
         </div>
-        <p class="def">{esc(meaning_en)}</p>
+        <p class="def" data-en="{esc(meaning_en)}" data-es="{esc(meaning_es)}">{esc(meaning_en)}</p>
       </a>'''
         if not cards:
             continue
@@ -94,6 +94,12 @@ def main():
         print("WARNING: terms in NEW_WORDS_LOG not found in CATEGORIES (skipped):")
         for d, t in missing:
             print(f"  {d}: {t}")
+
+    word_label_en = "word" if total_new == 1 else "words"
+    word_label_es = "palabra" if total_new == 1 else "palabras"
+    added_label_es = "agregada" if total_new == 1 else "agregadas"
+    sub_en = f"{total_new} {word_label_en} added so far — newest first. (Words added before this page existed aren't shown here.)"
+    sub_es = f"{total_new} {word_label_es} {added_label_es} hasta ahora — las más recientes primero. (Las palabras agregadas antes de esta página no aparecen aquí.)"
 
     html_out = f'''<!DOCTYPE html>
 <html lang="en">
@@ -124,10 +130,10 @@ def main():
 
 <main class="wrap">
   <section class="page-head">
-    <a href="index.html" class="back-link">&larr; Back to search</a>
-    <span class="section-eyebrow">Updates</span>
-    <h1 class="page-title">What's New</h1>
-    <p class="page-sub">{total_new} word{'s' if total_new != 1 else ''} added so far — newest first. (Words added before this page existed aren't shown here.)</p>
+    <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda">&larr; Back to search</a>
+    <span class="section-eyebrow" data-en="Updates" data-es="Novedades">Updates</span>
+    <h1 class="page-title" data-en="What's New" data-es="Novedades">What's New</h1>
+    <p class="page-sub" data-en="{esc(sub_en)}" data-es="{esc(sub_es)}">{esc(sub_en)}</p>
   </section>
 
   <div class="new-feed">{groups_html}
@@ -137,6 +143,20 @@ def main():
 {FOOTER_HTML}
 
 <script>
+  var currentLang = 'en';
+  function setLang(lang){{
+    currentLang = lang;
+    document.querySelectorAll('[data-en]').forEach(function(el){{
+      el.textContent = el.getAttribute('data-' + lang);
+    }});
+    document.querySelectorAll('[data-en-html]').forEach(function(el){{
+      el.innerHTML = el.getAttribute('data-' + lang + '-html');
+    }});
+    document.querySelectorAll('.lang-btn').forEach(function(btn){{
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    }});
+    document.documentElement.lang = lang;
+  }}
   function toggleMobileMenu(){{
     var menu = document.getElementById('mobileMenu');
     if(menu) menu.classList.toggle('open');
@@ -476,24 +496,28 @@ PAGE_CSS = """
 
 HEADER_HTML = """<header>
   <div class="wrap nav">
-    <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge">Dictionary</span></a>
+    <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario">Dictionary</span></a>
     <nav class="nav-links">
-      <a href="index.html#dictionary">사전 Dictionary</a>
-      <a href="trending.html">트렌드 Trending</a>
-      <a href="category.html">카테고리 Categories</a>
-      <a href="whatsnew.html">신규 What's New</a>
-      <a href="submit.html">제보하기 Submit a word</a>
+      <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario">사전 Dictionary</a>
+      <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
+      <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
+      <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades">신규 What's New</a>
+      <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra">제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
+      </div>
       <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>
   </div>
   <div class="mobile-menu" id="mobileMenu">
-    <a href="index.html#dictionary">사전 Dictionary</a>
-    <a href="trending.html">트렌드 Trending</a>
-    <a href="category.html">카테고리 Categories</a>
-    <a href="whatsnew.html">신규 What's New</a>
-    <a href="submit.html">제보하기 Submit a word</a>
+    <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario">사전 Dictionary</a>
+    <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
+    <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
+    <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades">신규 What's New</a>
+    <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra">제보하기 Submit a word</a>
   </div>
 </header>"""
 
