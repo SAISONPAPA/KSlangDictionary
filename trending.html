@@ -12,7 +12,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trending Now — HelloKSlang</title>
+<title>Popular Right Now — HelloKSlang</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -459,7 +459,7 @@
       <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario">사전 Dictionary</a>
       <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades">신규 What's New</a>
       <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
-      <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
+      <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular">대세 Popular</a>
       <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra">제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
@@ -474,7 +474,7 @@
     <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario">사전 Dictionary</a>
       <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades">신규 What's New</a>
       <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
-      <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
+      <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular">대세 Popular</a>
       <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra">제보하기 Submit a word</a>
   </div>
 </header>
@@ -748,10 +748,12 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
     window.speechSynthesis.speak(utter);
   }
 
-  // ---- Trending page: curated picks based on genuinely recent (last ~3 months) slang ----
-  // Last refreshed: 2026-07-27. Sourced from a dated 2026-07-24 Korean media roundup of
-  // freshly-emerged slang (아시아투데이, "2026 상반기 신조어 총정리"), cross-checked for safety.
-  // To refresh later: swap in newly-verified recent terms and update the date above.
+  // ---- Popular page: curator-picked fan-favorite words ----
+  // Note: this used to be framed around "genuinely recent (last 3 months)"
+  // slang specifically, but now that whatsnew.html covers recency, this
+  // page is repositioned as "Popular" — fan-favorite picks for now, meant
+  // to eventually be swapped for real search-volume data once there's
+  // enough site traffic (see search_word GA4 event in index.html).
   const TRENDING_ORDER = ['늙크크', '감다살', '기대컨', '동결건조', '톤망진창'];
   let trendingList = [];
 
@@ -770,11 +772,11 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
     const titleEl = document.getElementById('browseTitle');
     const subEl = document.getElementById('browseSub');
     if(!eyebrowEl) return;
-    eyebrowEl.textContent = es ? 'Últimos 3 meses' : 'Last 3 months';
-    titleEl.textContent = '지금 뜨는 슬랭 · ' + (es ? 'Tendencias ahora' : 'Trending Now');
+    eyebrowEl.textContent = es ? 'Popular' : 'Popular';
+    titleEl.textContent = '요즘 대세 · ' + (es ? 'Popular ahora' : 'Popular Right Now');
     subEl.textContent = es
-      ? '5 palabras que empezaron a usarse recién en los últimos 3 meses — no los clásicos del fandom de siempre.'
-      : "5 words that only started catching on in the last 3 months — not the old-school fandom staples.";
+      ? 'Selección curada por ahora — cuando tengamos suficiente tráfico real, esta lista reflejará lo que la gente busca más.'
+      : "Curator-picked favorites for now — once there's enough real search traffic, this list will reflect what people actually search for most.";
   }
 
   function renderTrendingList(){
