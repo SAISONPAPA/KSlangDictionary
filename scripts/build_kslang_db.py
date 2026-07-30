@@ -3942,6 +3942,22 @@ CATEGORIES = [
     ("연애 · 썸 표현", "Dating & Romance", DATING),
 ]
 
+# ---------------------------------------------------------------------------
+# NEW_WORDS_LOG — powers the "What's New" page (whatsnew.html).
+#
+# The 651 words added before this log existed don't have real per-word
+# add-dates, so they're intentionally NOT backfilled here — "What's New"
+# only tracks words added from this point forward. Every time you add new
+# words to IDOL/FANDOM/BROADCAST/MEME/DATING above, also add one entry here
+# with today's date and the exact Korean terms you added (must match the
+# `kr` field exactly). Newest entries should go at the top of the list.
+#
+# Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
+# ---------------------------------------------------------------------------
+NEW_WORDS_LOG = [
+    ("2026-07-29", ["영크크"]),
+]
+
 HEADERS = [
     "ID", "Term (KR)", "Romanization", "Category (KR)", "Category (EN)",
     "Meaning (EN)", "Meaning (ES)", "Example (KR)", "Example (EN)", "Example (ES)",
