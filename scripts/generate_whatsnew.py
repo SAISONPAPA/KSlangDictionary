@@ -73,6 +73,8 @@ def main():
             cat_url = CATEGORY_URL.get(cat_en, "category.html")
             zh = db.ZH_TW_TRANSLATIONS.get(kr)
             meaning_zh = zh[0] if zh else meaning_en
+            cn = db.ZH_CN_TRANSLATIONS.get(kr)
+            meaning_cn = cn[0] if cn else meaning_en
             total_new += 1
             cards += f'''
       <a class="new-card" href="word/{esc(slug)}.html">
@@ -81,7 +83,7 @@ def main():
           <div class="rom-big">{esc(rom)}</div>
           <span class="cat-pill">{esc(cat_kr)} · {esc(cat_en)}</span>
         </div>
-        <p class="def" data-en="{esc(meaning_en)}" data-es="{esc(meaning_es)}" data-zh="{esc(meaning_zh)}">{esc(meaning_en)}</p>
+        <p class="def" data-en="{esc(meaning_en)}" data-es="{esc(meaning_es)}" data-zh="{esc(meaning_zh)}" data-cn="{esc(meaning_cn)}">{esc(meaning_en)}</p>
       </a>'''
         if not cards:
             continue
@@ -103,6 +105,7 @@ def main():
     sub_en = f"{total_new} {word_label_en} added so far — newest first. (Words added before this page existed aren't shown here.)"
     sub_es = f"{total_new} {word_label_es} {added_label_es} hasta ahora — las más recientes primero. (Las palabras agregadas antes de esta página no aparecen aquí.)"
     sub_zh = f"目前已新增 {total_new} 個詞彙——最新排在最前面。（此頁面建立之前新增的詞彙不會顯示在這裡。）"
+    sub_cn = f"目前已新增 {total_new} 个词汇——最新排在最前面。（此页面建立之前新增的词汇不会显示在这里。）"
 
     html_out = f'''<!DOCTYPE html>
 <html lang="en">
@@ -133,10 +136,10 @@ def main():
 
 <main class="wrap">
   <section class="page-head">
-    <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda" data-zh="&larr; 返回搜尋">&larr; Back to search</a>
-    <span class="section-eyebrow" data-en="Updates" data-es="Novedades" data-zh="最新消息">Updates</span>
-    <h1 class="page-title" data-en="What's New" data-es="Novedades" data-zh="最新消息">What's New</h1>
-    <p class="page-sub" data-en="{esc(sub_en)}" data-es="{esc(sub_es)}" data-zh="{esc(sub_zh)}">{esc(sub_en)}</p>
+    <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda" data-zh="&larr; 返回搜尋" data-cn="&larr; 返回搜索">&larr; Back to search</a>
+    <span class="section-eyebrow" data-en="Updates" data-es="Novedades" data-zh="最新消息" data-cn="最新消息">Updates</span>
+    <h1 class="page-title" data-en="What's New" data-es="Novedades" data-zh="最新消息" data-cn="最新消息">What's New</h1>
+    <p class="page-sub" data-en="{esc(sub_en)}" data-es="{esc(sub_es)}" data-zh="{esc(sub_zh)}" data-cn="{esc(sub_cn)}">{esc(sub_en)}</p>
   </section>
 
   <div class="new-feed">{groups_html}
@@ -330,12 +333,13 @@ SHARED_CSS = """
     cursor:pointer;
     background:transparent;
     font-family: var(--mono);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
-    padding: 6px 12px;
+    padding: 6px 9px;
     border-radius: 999px;
     color: var(--ink-soft);
     transition: all .2s ease;
+    white-space: nowrap;
   }
   .lang-switch button.active{ background: var(--pink); color: #fff; }
   .lang-switch button:not(.active):hover{ color: var(--ink); }
@@ -499,29 +503,30 @@ PAGE_CSS = """
 
 HEADER_HTML = """<header>
   <div class="wrap nav">
-    <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario" data-zh="詞典">Dictionary</span></a>
+    <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario" data-zh="詞典" data-cn="词典">Dictionary</span></a>
     <nav class="nav-links">
-      <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典">사전 Dictionary</a>
-      <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息">신규 What's New</a>
-      <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類">카테고리 Categories</a>
-      <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門">대세 Popular</a>
-      <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙">제보하기 Submit a word</a>
+      <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典">사전 Dictionary</a>
+      <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息">신규 What's New</a>
+      <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类">카테고리 Categories</a>
+      <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门">대세 Popular</a>
+      <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇">제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
       <div class="lang-switch">
-        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
-        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">繁</button>
+        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">🇺🇸 EN</button>
+        <button class="lang-btn" data-lang="es" onclick="setLang('es')">🇪🇸 ES</button>
+        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">🇹🇼 繁</button>
+        <button class="lang-btn" data-lang="cn" onclick="setLang('cn')">🇨🇳 简</button>
       </div>
       <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>
   </div>
   <div class="mobile-menu" id="mobileMenu">
-    <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典">사전 Dictionary</a>
-    <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息">신규 What's New</a>
-    <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類">카테고리 Categories</a>
-    <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門">대세 Popular</a>
-    <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙">제보하기 Submit a word</a>
+    <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典">사전 Dictionary</a>
+    <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息">신규 What's New</a>
+    <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类">카테고리 Categories</a>
+    <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门">대세 Popular</a>
+    <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇">제보하기 Submit a word</a>
   </div>
 </header>"""
 
@@ -529,7 +534,7 @@ FOOTER_HTML = """<footer>
   <div class="wrap foot-row">
     <div>
       <div class="foot-logo">HelloKSlang.</div>
-      <div class="foot-tag" data-en="Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better." data-es="Hecho para quienes aman el K-pop, los K-dramas o la cultura coreana — y quieren entenderla un poco mejor." data-zh="為所有熱愛K-pop、韓劇或韓國文化，並想更了解這些內容的人所打造。">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
+      <div class="foot-tag" data-en="Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better." data-es="Hecho para quienes aman el K-pop, los K-dramas o la cultura coreana — y quieren entenderla un poco mejor." data-zh="為所有熱愛K-pop、韓劇或韓國文化，並想更了解這些內容的人所打造。" data-cn="为所有热爱K-pop、韩剧或韩国文化，并想更了解这些内容的人所打造。">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
     </div>
     <a href="privacy.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">Privacy Policy</a>
   </div>

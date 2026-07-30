@@ -135,6 +135,7 @@ SHARED_CSS = """
   .meaning-block p{ font-size: 16px; font-weight:600; color: var(--ink); line-height:1.6; }
   .meaning-es{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
   .meaning-zh{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
+  .meaning-cn{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
 
   .example-block{
     margin-top: 24px; background: var(--surface-2); border-left: 3px solid var(--pink);
@@ -257,6 +258,15 @@ def build_page(item, category_kr, category_en, related):
         meaning_zh_html = ""
         ex_zh_html = ""
 
+    cn = db.ZH_CN_TRANSLATIONS.get(kr)
+    if cn:
+        meaning_cn, ex_cn = cn
+        meaning_cn_html = f'\n      <p class="meaning-cn" lang="zh-Hans">{esc(meaning_cn)}</p>'
+        ex_cn_html = f'\n      <div class="ex-trans" lang="zh-Hans">→ "{esc(ex_cn)}"</div>'
+    else:
+        meaning_cn_html = ""
+        ex_cn_html = ""
+
     related_html = ""
     for r in related:
         r_kr, r_rom, r_en_short, r_meaning_en = r[0], r[1], r[2], r[3]
@@ -324,13 +334,13 @@ def build_page(item, category_kr, category_en, related):
     <div class="meaning-block">
       <h2>Meaning</h2>
       <p>{esc(meaning_en)}</p>
-      <p class="meaning-es">{esc(meaning_es)}</p>{meaning_zh_html}
+      <p class="meaning-es">{esc(meaning_es)}</p>{meaning_zh_html}{meaning_cn_html}
     </div>
 
     <div class="example-block">
       <div class="ex-kr">"{esc(ex_kr)}"</div>
       <div class="ex-trans">→ "{esc(ex_en)}"</div>
-      <div class="ex-trans">→ "{esc(ex_es)}"</div>{ex_zh_html}
+      <div class="ex-trans">→ "{esc(ex_es)}"</div>{ex_zh_html}{ex_cn_html}
     </div>
 
     <div class="source-note">Commonly seen on: {esc(where)}</div>
