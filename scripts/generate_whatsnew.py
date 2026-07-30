@@ -499,9 +499,9 @@ HEADER_HTML = """<header>
     <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario">Dictionary</span></a>
     <nav class="nav-links">
       <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario">사전 Dictionary</a>
-      <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
-      <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
       <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades">신규 What's New</a>
+      <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
+      <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
       <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra">제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
@@ -514,9 +514,9 @@ HEADER_HTML = """<header>
   </div>
   <div class="mobile-menu" id="mobileMenu">
     <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario">사전 Dictionary</a>
-    <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
-    <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
     <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades">신규 What's New</a>
+    <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías">카테고리 Categories</a>
+    <a href="trending.html" data-en="트렌드 Trending" data-es="트렌드 Tendencias">트렌드 Trending</a>
     <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra">제보하기 Submit a word</a>
   </div>
 </header>"""
