@@ -152,9 +152,10 @@ ZH_TW_TRANSLATIONS = {
 }
 ```
 
-- **21 of 650 words** translated so far (the 5 Popular picks, the 1 What's New word, and other high-traffic terms like 최애/대박/컴백/데뷔).
+- **167 of 650 words** translated so far — **the entire "아이돌 필수 용어 / Idol Essentials" category (149 words) is now fully translated**, plus 18 high-traffic words from other categories (Popular picks, What's New, etc.)
 - The 繁 toggle button works site-wide (index/category/trending/submit/whatsnew + every `word/*.html` page) **right now** — words without a translation yet just fall back to showing English, so nothing ever looks broken or blank.
 - To add more: add entries to `ZH_TW_TRANSLATIONS`, then run `update_main_pages.py` + `generate_word_pages.py` + `generate_whatsnew.py` (or push and let GitHub Actions do it).
+- Next categories to translate, in priority order: Online Memes (153) → Broadcast & Variety (101, minus whatever's already done) → Fandom Feels (95) → Dating & Romance (77).
 - `privacy.html` intentionally has no language toggle at all (legal page, kept simple).
 - Not yet done: simplified Chinese (mainland China) — would need its own separate dict later, same pattern.
 
