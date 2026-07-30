@@ -141,22 +141,28 @@ There is **no live database and no backend**. The 651-word dictionary is a plain
 - Anyone can view the full word list via "View Page Source" — there's no scraping protection.
 - **To add a word: edit `scripts/build_kslang_db.py` and push to `main`.** GitHub Actions handles regenerating the xlsx, all 651+ word pages, and the embedded array in the 4 main pages automatically — see "Automated rebuilds" above. You no longer need to manually copy anything between files.
 
-## 🈶 Traditional Chinese (繁體中文) support — ✅ Complete (651/651)
+## 🈶 Chinese support — ✅ Complete: Traditional (651/651) + Simplified (651/651)
 
-Added for the Greater China market (Taiwan/Hong Kong). All 651 words now have Traditional Chinese translations — see `ZH_TW_TRANSLATIONS` near the top of `scripts/build_kslang_db.py`:
+Two separate Chinese variants, both fully translated:
+
+- **繁體中文 (Traditional)** — for Taiwan/Hong Kong. See `ZH_TW_TRANSLATIONS` in `scripts/build_kslang_db.py`.
+- **简体中文 (Simplified)** — for mainland China. See `ZH_CN_TRANSLATIONS`, generated from `ZH_TW_TRANSLATIONS` via [OpenCC](https://github.com/BYVoid/OpenCC) (`tw2sp` profile, which converts both characters *and* Taiwan/mainland vocabulary differences — e.g. 網路→网络, 影片→视频), then manually spot-checked and fixed for a couple of known OpenCC 著/着 disambiguation bugs.
 
 ```python
 ZH_TW_TRANSLATIONS = {
     "최애": ("你的本命成員——字面意思是「最被愛的」。", "在BTS裡我的本命是Jungkook。"),
     # ... 651 entries total
 }
+ZH_CN_TRANSLATIONS = {
+    "최애": ("你的本命成员——字面意思是“最被爱的”。", "在BTS里我的本命是Jungkook。"),
+    # ... 651 entries total, auto-derived from ZH_TW_TRANSLATIONS
+}
 ```
 
-- The 繁 toggle button works site-wide (index/category/trending/submit/whatsnew + every `word/*.html` page).
-- `data/kslang-slang-database.xlsx` has matching "Meaning (ZH-TW)" and "Example (ZH-TW)" columns, so the spreadsheet is a true mirror of what's live on the site.
-- **Going forward, every new word added to the dictionary should also get a `ZH_TW_TRANSLATIONS` entry at the same time** — otherwise it'll silently fall back to showing English under the 繁 toggle (not broken, just incomplete). Run `update_main_pages.py` + `generate_word_pages.py` + `generate_whatsnew.py` after adding one (or push and let GitHub Actions do it).
+- The language toggle (🇺🇸 EN / 🇪🇸 ES / 🇹🇼 繁 / 🇨🇳 简) works site-wide — index/category/trending/submit/whatsnew + every `word/*.html` page.
+- `data/kslang-slang-database.xlsx` has matching "Meaning (ZH-TW)/(ZH-CN)" and "Example (ZH-TW)/(ZH-CN)" columns.
+- **Going forward, every new word should get both a `ZH_TW_TRANSLATIONS` entry AND a `ZH_CN_TRANSLATIONS` entry.** Easiest way: write the 繁體 entry by hand as usual, then run it through OpenCC (`tw2sp`) for the 简体 version — don't write simplified from scratch, and double-check for 著/着 before merging. Any word missing either falls back to showing English (not broken, just incomplete). Run `update_main_pages.py` + `generate_word_pages.py` + `generate_whatsnew.py` after adding one (or push and let GitHub Actions do it).
 - `privacy.html` intentionally has no language toggle at all (legal page, kept simple).
-- Not yet done: simplified Chinese (mainland China) — would need its own separate dict later, same pattern.
 
 ---
 
