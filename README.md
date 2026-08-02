@@ -141,6 +141,18 @@ There is **no live database and no backend**. The 651-word dictionary is a plain
 - Anyone can view the full word list via "View Page Source" — there's no scraping protection.
 - **To add a word: edit `scripts/build_kslang_db.py` and push to `main`.** GitHub Actions handles regenerating the xlsx, all 651+ word pages, and the embedded array in the 4 main pages automatically — see "Automated rebuilds" above. You no longer need to manually copy anything between files.
 
+## 🇯🇵 Japanese (日本語) support — ✅ Complete (651/651)
+
+Unlike ZH-CN (machine-converted from ZH-TW), Japan already has its own established idol-fandom vocabulary (e.g. 최애→推し, not a literal translation), so all 651 entries in `JA_TRANSLATIONS` were hand-written, same process as ZH-TW originally was.
+
+- All 5 categories fully translated: Idol Essentials (149), Online Memes (177), Fandom Feels (118), Broadcast & Variety (125), Dating & Romance (82).
+- The 🇯🇵 日 toggle button works site-wide (index/category/trending/submit/whatsnew + every `word/*.html` page).
+- `data/kslang-slang-database.xlsx` has a matching "Meaning (JA)"/"Example (JA)" column pair.
+- Mobile: at narrow widths the 5 language buttons collapse to flag-only (text label hidden) so the toggle doesn't overflow.
+- **Going forward, every new word should get EN/ES/ZH-TW/ZH-CN/JA all at once** to keep all 5 languages in sync — otherwise it'll silently fall back to English under whichever toggle is missing (not broken, just incomplete).
+
+---
+
 ## 🈶 Chinese support — ✅ Complete: Traditional (651/651) + Simplified (651/651)
 
 Two separate Chinese variants, both fully translated:
@@ -167,6 +179,8 @@ ZH_CN_TRANSLATIONS = {
 ---
 
 ## 🌐 Language persistence & active nav indicator
+
+- **Mobile language picker is a dropdown, not a button row** (2026-08-02). Once Japanese was added as a 5th language, five flag buttons in a row overflowed on narrow screens even with flag-only labels. Below the 860px breakpoint, `.lang-switch` (the button row) is hidden and `.lang-select` (a themed native `<select>`) takes over instead — same `setLang()` call either way. Desktop is unaffected. `setLang()` keeps both in sync, so switching language on desktop and later viewing on mobile shows the right value already selected.
 
 Two UX fixes (2026-07-30):
 

@@ -29,12 +29,14 @@ def main():
             meaning_zh, ex_zh = zh_tw if zh_tw else (meaning_en, ex_en)
             zh_cn = db.ZH_CN_TRANSLATIONS.get(kr)
             meaning_zh_cn, ex_zh_cn = zh_cn if zh_cn else (meaning_en, ex_en)
+            ja = db.JA_TRANSLATIONS.get(kr)
+            meaning_ja, ex_ja = ja if ja else (meaning_en, ex_en)
             data.append({
                 "kr": kr, "rom": rom, "catKr": cat_kr, "catEn": cat_en,
                 "meaningEn": meaning_en, "meaningEs": meaning_es,
-                "meaningZh": meaning_zh, "meaningZhCn": meaning_zh_cn,
+                "meaningZh": meaning_zh, "meaningZhCn": meaning_zh_cn, "meaningJa": meaning_ja,
                 "exKr": ex_kr, "exEn": ex_en, "exEs": ex_es,
-                "exZh": ex_zh, "exZhCn": ex_zh_cn, "where": where,
+                "exZh": ex_zh, "exZhCn": ex_zh_cn, "exJa": ex_ja, "where": where,
             })
     new_json = json.dumps(data, ensure_ascii=False)
 
@@ -50,7 +52,7 @@ def main():
             continue
         with open(path, "w", encoding="utf-8") as f:
             f.write(new_html)
-        print(f"{fname}: updated ({len(data)} terms, {len(db.ZH_TW_TRANSLATIONS)} 繁中 / {len(db.ZH_CN_TRANSLATIONS)} 简中)")
+        print(f"{fname}: updated ({len(data)} terms, {len(db.ZH_TW_TRANSLATIONS)} 繁中 / {len(db.ZH_CN_TRANSLATIONS)} 简中 / {len(db.JA_TRANSLATIONS)} 日本語)")
 
 
 if __name__ == "__main__":
