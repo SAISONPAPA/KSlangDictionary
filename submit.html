@@ -482,14 +482,14 @@
   <section class="section" id="submit" style="padding-top:56px;">
     <div class="section-head">
       <div>
-        <span class="section-eyebrow" data-en="Community" data-es="Comunidad" data-zh="社群" data-cn="社区">Community</span>
-        <h2 class="section-title" data-en="슬랭 제보하기 · Submit a Word" data-es="슬랭 제보하기 · Enviar una palabra" data-zh="슬랭 제보하기 · 提交詞彙" data-cn="슬랭 제보하기 · 提交词汇">슬랭 제보하기 · Submit a Word</h2>
+        <span class="section-eyebrow" data-en="Community" data-es="Comunidad" data-zh="社群" data-cn="社区" data-ja="コミュニティ">Community</span>
+        <h2 class="section-title" data-en="슬랭 제보하기 · Submit a Word" data-es="슬랭 제보하기 · Enviar una palabra" data-zh="슬랭 제보하기 · 提交詞彙" data-cn="슬랭 제보하기 · 提交词汇" data-ja="슬랭 제보하기 · 単語を送る">슬랭 제보하기 · Submit a Word</h2>
       </div>
     </div>
 
     <div class="submit-card">
       <div class="submit-intro">
-        <p data-en="Heard a word here that's not in the dictionary yet? Tell us — every submission gets reviewed by hand before it's added." data-es="¿Escuchaste una palabra que todavía no está en el diccionario? Cuéntanos — cada envío se revisa a mano antes de agregarse." data-zh="聽到還沒收錄在字典裡的詞彙嗎？告訴我們——每則提交都會經過人工審核才會加入。" data-cn="听到还没收录在字典里的词汇吗？告诉我们——每则提交都会经过人工审核才会加入。">Heard a word here that's not in the dictionary yet? Tell us — every submission gets reviewed by hand before it's added.</p>
+        <p data-en="Heard a word here that's not in the dictionary yet? Tell us — every submission gets reviewed by hand before it's added." data-es="¿Escuchaste una palabra que todavía no está en el diccionario? Cuéntanos — cada envío se revisa a mano antes de agregarse." data-zh="聽到還沒收錄在字典裡的詞彙嗎？告訴我們——每則提交都會經過人工審核才會加入。" data-cn="听到还没收录在字典里的词汇吗？告诉我们——每则提交都会经过人工审核才会加入。" data-ja="まだ辞書に載っていない単語を聞いたことがありますか？教えてください——すべての投稿は追加される前に手作業で確認されます。">Heard a word here that's not in the dictionary yet? Tell us — every submission gets reviewed by hand before it's added.</p>
       </div>
 
       <form id="submitForm" class="form-grid" onsubmit="return handleSubmitForm(event)">
@@ -501,60 +501,60 @@
         <input type="hidden" name="_subject" value="New K-Slang word submission">
 
         <div class="form-field">
-          <label data-en="Korean word *" data-es="Palabra en coreano *" data-zh="韓文單字 *" data-cn="韩文单字 *">Korean word *</label>
-          <input type="text" name="term_kr" required placeholder="예: 갑통알" data-en-placeholder="e.g. 갑통알" data-es-placeholder="ej. 갑통알">
+          <label data-en="Korean word *" data-es="Palabra en coreano *" data-zh="韓文單字 *" data-cn="韩文单字 *" data-ja="韓国語の単語 *">Korean word *</label>
+          <input type="text" name="term_kr" required placeholder="예: 갑통알" data-en-placeholder="e.g. 갑통알" data-es-placeholder="ej. 갑통알" data-zh-placeholder="例：갑통알" data-cn-placeholder="例：갑통알" data-ja-placeholder="例：갑통알">
         </div>
 
         <div class="form-field">
-          <label data-en="Romanization" data-es="Romanización" data-zh="羅馬拼音" data-cn="罗马拼音"><span>Romanization</span><span class="opt" data-en="(optional)" data-es="(opcional)" data-zh="（選填）" data-cn="（选填）">(optional)</span></label>
-          <input type="text" name="romanization" placeholder="e.g. gap-tong-al" data-en-placeholder="e.g. gap-tong-al" data-es-placeholder="ej. gap-tong-al">
+          <label data-en="Romanization" data-es="Romanización" data-zh="羅馬拼音" data-cn="罗马拼音" data-ja="ローマ字表記"><span>Romanization</span><span class="opt" data-en="(optional)" data-es="(opcional)" data-zh="（選填）" data-cn="（选填）" data-ja="（任意）">(optional)</span></label>
+          <input type="text" name="romanization" placeholder="e.g. gap-tong-al" data-en-placeholder="e.g. gap-tong-al" data-es-placeholder="ej. gap-tong-al" data-zh-placeholder="例：gap-tong-al" data-cn-placeholder="例：gap-tong-al" data-ja-placeholder="例：gap-tong-al">
         </div>
 
         <div class="form-field">
-          <label data-en="Category" data-es="Categoría" data-zh="分類" data-cn="分类">Category</label>
+          <label data-en="Category" data-es="Categoría" data-zh="分類" data-cn="分类" data-ja="カテゴリー">Category</label>
           <select name="category">
-            <option value="아이돌 필수 용어" data-en="아이돌 필수 용어 · Idol Essentials" data-es="아이돌 필수 용어 · Esenciales de ídolos" data-zh="아이돌 필수 용어 · 偶像必備用語" data-cn="아이돌 필수 용어 · 偶像必备用语">아이돌 필수 용어 · Idol Essentials</option>
-            <option value="팬덤 표현" data-en="팬덤 표현 · Fandom Feels" data-es="팬덤 표현 · Sentimientos del fandom" data-zh="팬덤 표현 · 飯圈用語" data-cn="팬덤 표현 · 饭圈用语">팬덤 표현 · Fandom Feels</option>
-            <option value="방송·예능" data-en="방송·예능 · Broadcast &amp; Variety" data-es="방송·예능 · TV y variedades" data-zh="방송·예능 · 電視・綜藝" data-cn="방송·예능 · 电视・综艺">방송·예능 · Broadcast &amp; Variety</option>
-            <option value="온라인 밈" data-en="온라인 밈 · Online Memes" data-es="온라인 밈 · Memes en línea" data-zh="온라인 밈 · 網路迷因" data-cn="온라인 밈 · 网络迷因">온라인 밈 · Online Memes</option>
-            <option value="연애·썸 표현" data-en="연애·썸 표현 · Dating &amp; Romance" data-es="연애·썸 표현 · Citas y romance" data-zh="연애·썸 표현 · 戀愛・曖昧用語" data-cn="연애·썸 표현 · 恋爱・暧昧用语">연애·썸 표현 · Dating &amp; Romance</option>
-            <option value="기타" data-en="기타 · Other" data-es="기타 · Otra" data-zh="기타 · 其他" data-cn="기타 · 其他">기타 · Other</option>
+            <option value="아이돌 필수 용어" data-en="아이돌 필수 용어 · Idol Essentials" data-es="아이돌 필수 용어 · Esenciales de ídolos" data-zh="아이돌 필수 용어 · 偶像必備用語" data-cn="아이돌 필수 용어 · 偶像必备用语" data-ja="아이돌 필수 용어 · アイドル基本用語">아이돌 필수 용어 · Idol Essentials</option>
+            <option value="팬덤 표현" data-en="팬덤 표현 · Fandom Feels" data-es="팬덤 표현 · Sentimientos del fandom" data-zh="팬덤 표현 · 飯圈用語" data-cn="팬덤 표현 · 饭圈用语" data-ja="팬덤 표현 · ファンダム表現">팬덤 표현 · Fandom Feels</option>
+            <option value="방송·예능" data-en="방송·예능 · Broadcast &amp; Variety" data-es="방송·예능 · TV y variedades" data-zh="방송·예능 · 電視・綜藝" data-cn="방송·예능 · 电视・综艺" data-ja="방송·예능 · 放送・バラエティ">방송·예능 · Broadcast &amp; Variety</option>
+            <option value="온라인 밈" data-en="온라인 밈 · Online Memes" data-es="온라인 밈 · Memes en línea" data-zh="온라인 밈 · 網路迷因" data-cn="온라인 밈 · 网络迷因" data-ja="온라인 밈 · ネットミーム">온라인 밈 · Online Memes</option>
+            <option value="연애·썸 표현" data-en="연애·썸 표현 · Dating &amp; Romance" data-es="연애·썸 표현 · Citas y romance" data-zh="연애·썸 표현 · 戀愛・曖昧用語" data-cn="연애·썸 표현 · 恋爱・暧昧用语" data-ja="연애·썸 표현 · 恋愛・気になる関係">연애·썸 표현 · Dating &amp; Romance</option>
+            <option value="기타" data-en="기타 · Other" data-es="기타 · Otra" data-zh="기타 · 其他" data-cn="기타 · 其他" data-ja="기타 · その他">기타 · Other</option>
           </select>
         </div>
 
         <div class="form-field">
-          <label data-en="Your email" data-es="Tu correo" data-zh="你的信箱" data-cn="你的邮箱"><span>Your email</span><span class="opt" data-en="(optional, in case we have questions)" data-es="(opcional, por si tenemos preguntas)" data-zh="（選填，方便我們有問題時聯繫你）" data-cn="（选填，方便我们有问题时联系你）">(optional, in case we have questions)</span></label>
+          <label data-en="Your email" data-es="Tu correo" data-zh="你的信箱" data-cn="你的邮箱" data-ja="メールアドレス"><span>Your email</span><span class="opt" data-en="(optional, in case we have questions)" data-es="(opcional, por si tenemos preguntas)" data-zh="（選填，方便我們有問題時聯繫你）" data-cn="（选填，方便我们有问题时联系你）" data-ja="（任意、質問がある場合のため）">(optional, in case we have questions)</span></label>
           <input type="email" name="email" placeholder="you@example.com">
         </div>
 
         <div class="form-field full">
-          <label data-en="What does it mean?" data-es="¿Qué significa?" data-zh="這是什麼意思？" data-cn="这是什么意思？">What does it mean?</label>
-          <textarea name="meaning" required placeholder="Explain it like you would to a friend who just got into K-pop." data-en-placeholder="Explain it like you would to a friend who just got into K-pop." data-es-placeholder="Explícalo como se lo dirías a una amiga nueva en el K-pop."></textarea>
+          <label data-en="What does it mean?" data-es="¿Qué significa?" data-zh="這是什麼意思？" data-cn="这是什么意思？" data-ja="どういう意味ですか？">What does it mean?</label>
+          <textarea name="meaning" required placeholder="Explain it like you would to a friend who just got into K-pop." data-en-placeholder="Explain it like you would to a friend who just got into K-pop." data-es-placeholder="Explícalo como se lo dirías a una amiga nueva en el K-pop." data-zh-placeholder="用跟剛入坑K-pop的朋友解釋的方式來說明。" data-cn-placeholder="用跟刚入坑K-pop的朋友解释的方式来说明。" data-ja-placeholder="K-popを好きになったばかりの友達に説明するように書いてください。"></textarea>
         </div>
 
         <div class="form-field full">
-          <label data-en="Example sentence" data-es="Frase de ejemplo" data-zh="例句" data-cn="例句"><span>Example sentence</span><span class="opt" data-en="(optional)" data-es="(opcional)" data-zh="（選填）" data-cn="（选填）">(optional)</span></label>
-          <textarea name="example" placeholder="A real sentence you've seen or heard it used in." data-en-placeholder="A real sentence you've seen or heard it used in." data-es-placeholder="Una frase real donde la hayas visto o escuchado usar."></textarea>
+          <label data-en="Example sentence" data-es="Frase de ejemplo" data-zh="例句" data-cn="例句" data-ja="例文"><span>Example sentence</span><span class="opt" data-en="(optional)" data-es="(opcional)" data-zh="（選填）" data-cn="（选填）" data-ja="（任意）">(optional)</span></label>
+          <textarea name="example" placeholder="A real sentence you've seen or heard it used in." data-en-placeholder="A real sentence you've seen or heard it used in." data-es-placeholder="Una frase real donde la hayas visto o escuchado usar." data-zh-placeholder="你實際看過或聽過使用這個詞的真實句子。" data-cn-placeholder="你实际看过或听过使用这个词的真实句子。" data-ja-placeholder="実際にその言葉が使われているのを見たり聞いたりした本物の文。"></textarea>
         </div>
 
         <div class="form-field full">
-          <label data-en="Where did you see/hear it?" data-es="¿Dónde la viste u oíste?" data-zh="你在哪裡看到／聽到的？" data-cn="你在哪里看到／听到的？"><span>Where did you see/hear it?</span><span class="opt" data-en="(optional)" data-es="(opcional)" data-zh="（選填）" data-cn="（选填）">(optional)</span></label>
-          <input type="text" name="source" placeholder="e.g. a Weverse live, a variety show, a fan tweet..." data-en-placeholder="e.g. a Weverse live, a variety show, a fan tweet..." data-es-placeholder="ej. un live de Weverse, un programa, un tweet de fans...">
+          <label data-en="Where did you see/hear it?" data-es="¿Dónde la viste u oíste?" data-zh="你在哪裡看到／聽到的？" data-cn="你在哪里看到／听到的？" data-ja="どこで見聞きしましたか？"><span>Where did you see/hear it?</span><span class="opt" data-en="(optional)" data-es="(opcional)" data-zh="（選填）" data-cn="（选填）" data-ja="（任意）">(optional)</span></label>
+          <input type="text" name="source" placeholder="e.g. a Weverse live, a variety show, a fan tweet..." data-en-placeholder="e.g. a Weverse live, a variety show, a fan tweet..." data-es-placeholder="ej. un live de Weverse, un programa, un tweet de fans..." data-zh-placeholder="例如：Weverse直播、綜藝節目、粉絲推文……" data-cn-placeholder="例如：Weverse直播、综艺节目、粉丝推文……" data-ja-placeholder="例：Weverseライブ、バラエティ番組、ファンのツイートなど…">
         </div>
 
         <div class="submit-actions">
-          <button type="submit" class="submit-btn" id="submitBtn" data-en="Send Submission" data-es="Enviar palabra" data-zh="送出提交" data-cn="送出提交">Send Submission</button>
-          <span class="submit-note" data-en="Reviewed by hand — no spam, we promise." data-es="Revisado a mano — sin spam, lo prometemos." data-zh="人工審核——保證不會有垃圾訊息。" data-cn="人工审核——保证不会有垃圾信息。">Reviewed by hand — no spam, we promise.</span>
+          <button type="submit" class="submit-btn" id="submitBtn" data-en="Send Submission" data-es="Enviar palabra" data-zh="送出提交" data-cn="送出提交" data-ja="送信する">Send Submission</button>
+          <span class="submit-note" data-en="Reviewed by hand — no spam, we promise." data-es="Revisado a mano — sin spam, lo prometemos." data-zh="人工審核——保證不會有垃圾訊息。" data-cn="人工审核——保证不会有垃圾信息。" data-ja="手作業で確認します——スパムは一切ありません、約束します。">Reviewed by hand — no spam, we promise.</span>
         </div>
       </form>
 
       <div class="submit-feedback success" id="submitSuccess">
         <span class="fb-icon">✓</span>
-        <span data-en="Thanks for the submission! We'll review it and add it soon 🙌" data-es="¡Gracias por tu aporte! Lo revisaremos y lo añadiremos pronto 🙌" data-zh="感謝你的提交！我們會盡快審核並加入 🙌" data-cn="感谢你的提交！我们会尽快审核并加入 🙌">Thanks for the submission! We'll review it and add it soon 🙌</span>
+        <span data-en="Thanks for the submission! We'll review it and add it soon 🙌" data-es="¡Gracias por tu aporte! Lo revisaremos y lo añadiremos pronto 🙌" data-zh="感謝你的提交！我們會盡快審核並加入 🙌" data-cn="感谢你的提交！我们会尽快审核并加入 🙌" data-ja="投稿ありがとうございます！確認して近日中に追加します 🙌">Thanks for the submission! We'll review it and add it soon 🙌</span>
       </div>
       <div class="submit-feedback error" id="submitError">
         <span class="fb-icon">⚠</span>
-        <span data-en="Something went wrong sending this. Please try again in a moment." data-es="Hubo un problema al enviar esto. Inténtalo de nuevo en un momento." data-zh="傳送時發生錯誤，請稍後再試一次。" data-cn="发送时发生错误，请稍后再试一次。">Something went wrong sending this. Please try again in a moment.</span>
+        <span data-en="Something went wrong sending this. Please try again in a moment." data-es="Hubo un problema al enviar esto. Inténtalo de nuevo en un momento." data-zh="傳送時發生錯誤，請稍後再試一次。" data-cn="发送时发生错误，请稍后再试一次。" data-ja="送信中に問題が発生しました。少し時間をおいて再度お試しください。">Something went wrong sending this. Please try again in a moment.</span>
       </div>
     </div>
   </section>
