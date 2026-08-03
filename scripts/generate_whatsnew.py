@@ -126,6 +126,18 @@ def main():
 <title>What's New — HelloKSlang Dictionary</title>
 <meta name="description" content="The newest K-pop and K-drama slang words added to HelloKSlang Dictionary, newest first.">
 <link rel="canonical" href="https://hellokslang.com/whatsnew.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hellokslang.com/whatsnew.html">
+<meta property="og:site_name" content="HelloKSlang">
+<meta property="og:title" content="What's New — HelloKSlang Dictionary">
+<meta property="og:description" content="The newest K-pop and K-drama slang words added to HelloKSlang Dictionary, newest first.">
+<meta property="og:image" content="https://hellokslang.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What's New — HelloKSlang Dictionary">
+<meta name="twitter:description" content="The newest K-pop and K-drama slang words added to HelloKSlang Dictionary, newest first.">
+<meta name="twitter:image" content="https://hellokslang.com/assets/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -583,6 +595,7 @@ FOOTER_HTML = """<footer>
       <div class="foot-logo">HelloKSlang.</div>
       <div class="foot-tag" data-en="Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better." data-es="Hecho para quienes aman el K-pop, los K-dramas o la cultura coreana — y quieren entenderla un poco mejor." data-zh="為所有熱愛K-pop、韓劇或韓國文化，並想更了解這些內容的人所打造。" data-cn="为所有热爱K-pop、韩剧或韩国文化，并想更了解这些内容的人所打造。" data-ja="K-popやK-dramaや韓国文化が好きで、もっと理解したい人のために作りました。">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
     </div>
+    <a href="about.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;" data-en="About" data-es="Acerca de" data-zh="關於我們" data-cn="关于我们" data-ja="About">About</a>
     <a href="privacy.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">Privacy Policy</a>
   </div>
 </footer>"""

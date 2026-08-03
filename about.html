@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F475ZTL1ZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-F475ZTL1ZV');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — HelloKSlang</title>
+<meta name="description" content="What HelloKSlang is, why it exists, and how the dictionary keeps growing.">
+<link rel="canonical" href="https://hellokslang.com/about.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hellokslang.com/about.html">
+<meta property="og:site_name" content="HelloKSlang">
+<meta property="og:title" content="About — HelloKSlang">
+<meta property="og:description" content="What HelloKSlang is, why it exists, and how the dictionary keeps growing.">
+<meta property="og:image" content="https://hellokslang.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About — HelloKSlang">
+<meta name="twitter:description" content="What HelloKSlang is, why it exists, and how the dictionary keeps growing.">
+<meta name="twitter:image" content="https://hellokslang.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0D0817;
+    --surface: #17111F;
+    --surface-2: #1E1729;
+    --line: #2E2440;
+    --ink: #F6F2FB;
+    --ink-soft: #A99FBD;
+    --pink: #FF3D9A;
+    --violet: #A855F7;
+    --cyan: #38BDF8;
+    --gold: #FBBF24;
+    --holo: linear-gradient(115deg, #FF3D9A 0%, #A855F7 25%, #38BDF8 50%, #FBBF24 75%, #FF3D9A 100%);
+    --display: 'Black Han Sans', sans-serif;
+    --body: 'Plus Jakarta Sans', sans-serif;
+    --mono: 'JetBrains Mono', monospace;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    overflow-x: hidden;
+  }
+  body::before, body::after{
+    content:""; position:fixed; width:480px; height:480px; border-radius:50%;
+    filter: blur(150px); opacity:.2; z-index:0; pointer-events:none;
+  }
+  body::before{ background: var(--pink); top:-160px; left:-160px; }
+  body::after{ background: var(--cyan); bottom:-180px; right:-160px; }
+
+  .wrap{ max-width: 1100px; margin: 0 auto; padding: 0 24px; position:relative; z-index:1; }
+
+  a{ color:inherit; text-decoration:none; }
+
+  header{ position: sticky; top:0; z-index:50; background: rgba(13,8,23,.85); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .nav{ display:flex; align-items:center; justify-content:space-between; padding: 16px 24px; gap: 20px; }
+  .logo{ display:flex; align-items:baseline; gap:2px; font-family: var(--display); font-size: 21px; white-space:nowrap; }
+  .logo .dot{ color: var(--pink); }
+  .logo-badge{ font-family: var(--mono); font-size: 11px; font-weight:700; color: var(--ink-soft); background: var(--surface-2); padding: 3px 8px; border-radius:999px; margin-left:8px; }
+  .nav-links{ display:flex; gap: 24px; font-size: 13.5px; font-weight:600; color: var(--ink-soft); flex:1; justify-content:center; }
+  .nav-links a{ position:relative; padding: 6px 0; transition: color .2s; }
+  .nav-links a:hover{ color: var(--ink); }
+  .nav-links a::after{
+    content:"";
+    position:absolute; left:0; bottom:-2px;
+    width:0%; height:2px;
+    background: var(--holo);
+    background-size: 300% 300%;
+    transition: width .25s ease;
+  }
+  .nav-links a:hover::after{ width:100%; animation: holoShift 2s linear infinite; }
+  .nav-links a.active{ color: var(--ink); }
+  .nav-links a.active::after{ width:100%; background: var(--pink); }
+
+  .nav-right{ display:flex; align-items:center; gap: 14px; }
+  .lang-switch{
+    display:flex;
+    align-items:center;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 3px;
+  }
+  .lang-switch button{
+    border:none;
+    cursor:pointer;
+    background:transparent;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 9px;
+    border-radius: 999px;
+    color: var(--ink-soft);
+    transition: all .2s ease;
+    white-space: nowrap;
+  }
+  .lang-switch button.active{ background: var(--pink); color: #fff; }
+  .lang-switch button:not(.active):hover{ color: var(--ink); }
+
+  .lang-select{
+    display:none;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 7px 26px 7px 12px;
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A99FBD' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  .lang-select option{ background: var(--surface); color: var(--ink); }
+
+  .menu-toggle{
+    display:none;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    color: var(--ink);
+    font-size: 18px;
+    padding: 6px 12px;
+    cursor:pointer;
+  }
+  .mobile-menu{
+    display:none;
+    flex-direction:column;
+    padding: 8px 24px 20px;
+    border-top: 1px solid var(--line);
+  }
+  .mobile-menu.open{ display:flex; }
+  .mobile-menu a{
+    padding: 14px 0;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+    border-bottom: 1px solid var(--line);
+  }
+  .mobile-menu a.active{ color: var(--pink); }
+  .mobile-menu a:last-child{ border-bottom:none; }
+
+  @keyframes holoShift{
+    0%{ background-position: 0% 50%; }
+    100%{ background-position: 300% 50%; }
+  }
+
+  footer{ border-top: 1px solid var(--line); margin-top: 80px; padding: 40px 0 60px; }
+  .foot-row{ display:flex; justify-content:space-between; align-items:flex-end; gap: 20px; flex-wrap:wrap; }
+  .foot-logo{ font-family: var(--display); font-size: 18px; margin-bottom:6px; }
+  .foot-tag{ font-size: 13px; color: var(--ink-soft); max-width: 480px; line-height:1.6; }
+  .foot-links{ display:flex; gap:18px; flex-wrap:wrap; }
+  .foot-links a{ font-size:12.5px; color:var(--ink-soft); font-weight:600; }
+  .foot-links a:hover{ color: var(--ink); }
+
+  @media (max-width: 860px){
+    .nav-links{ display:none; }
+    .menu-toggle{ display:flex; }
+    .lang-switch{ display:none; }
+    .lang-select{ display:block; }
+  }
+  @media (max-width: 420px){
+    .logo-badge{ display:none; }
+  }
+
+  /* ---------- about page ---------- */
+  .about-hero{ padding: 64px 0 8px; }
+  .back-link{ display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:700; color: var(--violet); margin-bottom:22px; }
+  .back-link:hover{ text-decoration:underline; }
+  .section-eyebrow{ font-family: var(--mono); font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color: var(--pink); margin-bottom:8px; display:block; }
+  .about-title{ font-family: var(--display); font-size: clamp(30px, 5vw, 48px); line-height:1.15; color: var(--ink); max-width: 720px; }
+
+  .about-body{ max-width: 680px; padding: 32px 0 60px; }
+  .about-body p{ font-size: 16px; line-height:1.75; color: var(--ink-soft); margin-bottom: 22px; }
+  .about-body p strong{ color: var(--ink); }
+
+  .about-stats{
+    display:grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+    margin: 8px 0 40px; max-width: 680px;
+  }
+  .stat-card{
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+    padding: 18px; text-align:center;
+  }
+  .stat-num{ font-family: var(--display); font-size: 26px; background: var(--holo); background-size:300% 300%; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; animation: holoShift 6s ease infinite; }
+  .stat-label{ font-family: var(--mono); font-size: 10.5px; color: var(--ink-soft); margin-top:4px; letter-spacing:.4px; }
+  @media (max-width: 560px){ .about-stats{ grid-template-columns: 1fr; } }
+
+  .about-ctas{ display:flex; gap:14px; flex-wrap:wrap; padding-bottom: 40px; }
+  .cta-btn{
+    display:inline-flex; align-items:center; gap:8px; padding: 13px 22px; border-radius: 999px;
+    font-weight:700; font-size:14.5px; transition: transform .15s ease;
+  }
+  .cta-primary{ background: var(--holo); background-size:300% 300%; color:#1B1330; animation: holoShift 6s ease infinite; }
+  .cta-secondary{ background: var(--surface); border:1px solid var(--line); color: var(--ink); }
+  .cta-btn:hover{ transform: translateY(-2px); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario" data-zh="詞典" data-cn="词典" data-ja="辞書">Dictionary</span></a>
+    <nav class="nav-links">
+      <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典" data-ja="사전 辞書">사전 Dictionary</a>
+      <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息" data-ja="신규 新着">신규 What's New</a>
+      <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类" data-ja="카테고리 カテゴリー">카테고리 Categories</a>
+      <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门" data-ja="대세 人気">대세 Popular</a>
+      <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇" data-ja="제보하기 単語を送る">제보하기 Submit a word</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">🇺🇸<span class="lang-label"> EN</span></button>
+        <button class="lang-btn" data-lang="es" onclick="setLang('es')">🇪🇸<span class="lang-label"> ES</span></button>
+        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">🇹🇼<span class="lang-label"> 繁</span></button>
+        <button class="lang-btn" data-lang="cn" onclick="setLang('cn')">🇨🇳<span class="lang-label"> 简</span></button>
+        <button class="lang-btn" data-lang="ja" onclick="setLang('ja')">🇯🇵<span class="lang-label"> 日</span></button>
+      </div>
+      <select class="lang-select" id="langSelect" onchange="setLang(this.value)" aria-label="Language">
+        <option value="en">🇺🇸 EN</option>
+        <option value="es">🇪🇸 ES</option>
+        <option value="zh">🇹🇼 繁</option>
+        <option value="cn">🇨🇳 简</option>
+        <option value="ja">🇯🇵 日</option>
+      </select>
+      <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典" data-ja="사전 辞書">사전 Dictionary</a>
+    <a href="whatsnew.html" data-en="신규 What's New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息" data-ja="신규 新着">신규 What's New</a>
+    <a href="category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类" data-ja="카테고리 カテゴリー">카테고리 Categories</a>
+    <a href="trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门" data-ja="대세 人気">대세 Popular</a>
+    <a href="submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇" data-ja="제보하기 単語を送る">제보하기 Submit a word</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="about-hero">
+    <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda" data-zh="&larr; 返回搜尋" data-cn="&larr; 返回搜索" data-ja="&larr; 検索に戻る">&larr; Back to search</a>
+    <span class="section-eyebrow" data-en="About" data-es="Acerca de" data-zh="關於我們" data-cn="关于我们" data-ja="About">About</span>
+    <h1 class="about-title" data-en="What is HelloKSlang?" data-es="¿Qué es HelloKSlang?" data-zh="HelloKSlang是什麼？" data-cn="HelloKSlang是什么？" data-ja="HelloKSlangとは？">What is HelloKSlang?</h1>
+  </section>
+
+  <section class="about-body">
+    <p data-en="HelloKSlang is a free dictionary for K-pop and K-drama slang — the words your bias uses, the terms flooding the comments section, the abbreviations you see everywhere in Korean fan culture but nobody quite explains."
+       data-es="HelloKSlang es un diccionario gratuito de jerga de K-pop y K-dramas — las palabras que usa tu bias, los términos que llenan los comentarios, las abreviaturas que aparecen por todas partes en la cultura fan coreana y que nadie termina de explicar."
+       data-zh="HelloKSlang是一個免費的K-pop和韓劇流行語詞典——你的本命常說的那些話、留言區裡滿滿的用語、韓國飯圈文化裡到處都是卻沒人解釋清楚的縮寫。"
+       data-cn="HelloKSlang是一个免费的K-pop和韩剧流行语词典——你的本命常说的那些话、留言区里满满的用语、韩国饭圈文化里到处都是却没人解释清楚的缩写。"
+       data-ja="HelloKSlangは、K-popやK-dramaのスラングを集めた無料辞書です——あなたの推しがよく使う言葉、コメント欄にあふれる用語、韓国のファン文化のあちこちにあるのに誰も説明してくれない略語。">
+      HelloKSlang is a free dictionary for K-pop and K-drama slang — the words your bias uses, the terms flooding the comments section, the abbreviations you see everywhere in Korean fan culture but nobody quite explains.
+    </p>
+    <p data-en="We built it because looking up Korean slang usually means digging through old forum threads or hoping someone answers in a Discord. HelloKSlang is meant to be the shortcut: type the word, get the meaning, the romanization, and a real example sentence — no Korean fluency required."
+       data-es="Lo creamos porque buscar jerga coreana normalmente significa rebuscar en viejos hilos de foros o esperar que alguien responda en un Discord. HelloKSlang quiere ser el atajo: escribe la palabra, obtén el significado, la romanización y un ejemplo real — sin necesidad de hablar coreano."
+       data-zh="我們做這個網站，是因為查韓文流行語通常得翻遍論壇舊文，或是在Discord裡發問然後祈禱有人回覆。HelloKSlang想成為那個捷徑：輸入單字，就能得到意思、羅馬拼音，還有真實例句——完全不需要會韓文。"
+       data-cn="我们做这个网站，是因为查韩文流行语通常得翻遍论坛旧帖，或是在Discord里发问然后祈祷有人回复。HelloKSlang想成为那个捷径：输入单词，就能得到意思、罗马拼音，还有真实例句——完全不需要会韩文。"
+       data-ja="韓国語のスラングを調べるのは、たいてい古い掲示板を漁ったり、Discordで質問して誰かの返信を祈ったりすることになりがちです。HelloKSlangはその近道になりたいと思って作りました：単語を入力すれば、意味、ローマ字表記、実際の例文が手に入ります——韓国語ができなくても大丈夫です。">
+      We built it because looking up Korean slang usually means digging through old forum threads or hoping someone answers in a Discord. HelloKSlang is meant to be the shortcut: type the word, get the meaning, the romanization, and a real example sentence — no Korean fluency required.
+    </p>
+    <p data-en="New slang shows up every week, so the dictionary keeps growing. Heard a word here that's not in it yet? Submit it — every entry gets reviewed by hand before it's added."
+       data-es="Cada semana aparece jerga nueva, así que el diccionario sigue creciendo. ¿Escuchaste una palabra que todavía no está aquí? Envíala — cada entrada se revisa a mano antes de agregarse."
+       data-zh="新的流行語每週都在冒出來，所以詞典會持續增加。聽到還沒收錄的單字嗎？歡迎提交——每則投稿在加入之前都會經過人工審核。"
+       data-cn="新的流行语每周都在冒出来，所以词典会持续增加。听到还没收录的单词吗？欢迎提交——每则投稿在加入之前都会经过人工审核。"
+       data-ja="新しいスラングは毎週登場するので、辞書は成長し続けます。まだ載っていない単語を聞いたことがありますか？ぜひ投稿してください——すべての投稿は追加される前に手作業で確認されます。">
+      New slang shows up every week, so the dictionary keeps growing. Heard a word here that's not in it yet? Submit it — every entry gets reviewed by hand before it's added.
+    </p>
+    <p data-en="HelloKSlang is a small, independent, ad-free project. It isn't affiliated with any entertainment company, idol, or drama."
+       data-es="HelloKSlang es un proyecto pequeño, independiente y sin publicidad. No está afiliado a ninguna empresa de entretenimiento, ídolo o drama."
+       data-zh="HelloKSlang是一個小型、獨立、無廣告的專案，與任何娛樂公司、偶像或戲劇都沒有關聯。"
+       data-cn="HelloKSlang是一个小型、独立、无广告的项目，与任何娱乐公司、偶像或电视剧都没有关联。"
+       data-ja="HelloKSlangは小さな、独立した、広告のないプロジェクトです。芸能事務所、アイドル、ドラマとは一切関係ありません。">
+      HelloKSlang is a small, independent, ad-free project. It isn't affiliated with any entertainment company, idol, or drama.
+    </p>
+  </section>
+
+  <section class="about-stats">
+    <div class="stat-card">
+      <div class="stat-num">651</div>
+      <div class="stat-label" data-en="WORDS" data-es="PALABRAS" data-zh="詞彙" data-cn="词汇" data-ja="単語">WORDS</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">5</div>
+      <div class="stat-label" data-en="CATEGORIES" data-es="CATEGORÍAS" data-zh="分類" data-cn="分类" data-ja="カテゴリー">CATEGORIES</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">5</div>
+      <div class="stat-label" data-en="LANGUAGES" data-es="IDIOMAS" data-zh="語言" data-cn="语言" data-ja="言語">LANGUAGES</div>
+    </div>
+  </section>
+
+  <div class="about-ctas">
+    <a href="index.html#dictionary" class="cta-btn cta-primary" data-en="Browse the dictionary" data-es="Explorar el diccionario" data-zh="瀏覽詞典" data-cn="浏览词典" data-ja="辞書を見る">Browse the dictionary</a>
+    <a href="submit.html" class="cta-btn cta-secondary" data-en="Submit a word" data-es="Enviar una palabra" data-zh="提交詞彙" data-cn="提交词汇" data-ja="単語を送る">Submit a word</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div>
+      <div class="foot-logo">HelloKSlang.</div>
+      <div class="foot-tag" data-en="Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better." data-es="Hecho para quienes aman el K-pop, los K-dramas o la cultura coreana — y quieren entenderla un poco mejor." data-zh="為所有熱愛K-pop、韓劇或韓國文化，並想更了解這些內容的人所打造。" data-cn="为所有热爱K-pop、韩剧或韩国文化，并想更了解这些内容的人所打造。" data-ja="K-popやK-dramaや韓国文化が好きで、もっと理解したい人のために作りました。">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
+    </div>
+    <div class="foot-links">
+      <a href="about.html" class="active" data-en="About" data-es="Acerca de" data-zh="關於我們" data-cn="关于我们" data-ja="About">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  let currentLang = (function(){
+    try { return localStorage.getItem('kslang_lang') || 'en'; }
+    catch(e){ return 'en'; }
+  })();
+
+  function setLang(lang){
+    currentLang = lang;
+    try { localStorage.setItem('kslang_lang', lang); } catch(e){}
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('[data-en-html]').forEach(function(el){
+      el.innerHTML = el.getAttribute('data-' + lang + '-html');
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    var selectEl = document.getElementById('langSelect');
+    if(selectEl) selectEl.value = lang;
+    document.documentElement.lang = lang;
+  }
+
+  function toggleMobileMenu(){
+    var menu = document.getElementById('mobileMenu');
+    if(menu) menu.classList.toggle('open');
+  }
+  document.querySelectorAll('.mobile-menu a').forEach(function(a){
+    a.addEventListener('click', function(){
+      var menu = document.getElementById('mobileMenu');
+      if(menu) menu.classList.remove('open');
+    });
+  });
+
+  // Apply whatever language the visitor picked last time (persisted via
+  // localStorage in setLang above) — without this, every fresh page load
+  // would silently reset back to English.
+  setLang(currentLang);
+</script>
+
+</body>
+</html>

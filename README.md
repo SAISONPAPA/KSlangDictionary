@@ -178,6 +178,24 @@ ZH_CN_TRANSLATIONS = {
 
 ---
 
+## ℹ️ About page
+
+Added 2026-08-03. `about.html` explains what the site is, why it exists, and links to browse/submit — full 5-language support (EN/ES/ZH-TW/ZH-CN/JA), same as the main pages. Linked from the footer of every page (next to Privacy Policy) rather than the main nav, to avoid crowding the 5-item nav further.
+
+Static file, not script-generated (no dynamic word data involved), so edit `about.html` directly if the copy needs to change. Included in `sitemap.xml` and has full OG/Twitter Card tags.
+
+---
+
+## 📱 Social share preview (Open Graph)
+
+Added 2026-08-03 for the Instagram push. Every page (main pages + all `word/*.html`) now has `og:title`/`og:description`/`og:image` + Twitter Card tags, so links shared to Instagram bio/stories, KakaoTalk, Discord, X, etc. show a proper preview instead of a blank box.
+
+- Image: `assets/og-image.png` (1200×630, generated with the site's actual fonts — see `/home/claude/og_work/make_og.py` if regenerating, not currently in the repo's own scripts folder).
+- **Deliberately does not mention word count or number of languages in the image** — those numbers will keep changing, and a static image can't. If you ever want to update the image (new tagline, redesign), regenerate it and it applies automatically everywhere since every page points to the same `/assets/og-image.png` file.
+- Word pages reuse the same site-wide image rather than a per-word custom image (that'd mean generating 650+ unique images — worth reconsidering later if it turns out to matter for click-through).
+
+---
+
 ## 🌐 Language persistence & active nav indicator
 
 - **Mobile language picker is a dropdown, not a button row** (2026-08-02). Once Japanese was added as a 5th language, five flag buttons in a row overflowed on narrow screens even with flag-only labels. Below the 860px breakpoint, `.lang-switch` (the button row) is hidden and `.lang-select` (a themed native `<select>`) takes over instead — same `setLang()` call either way. Desktop is unaffected. `setLang()` keeps both in sync, so switching language on desktop and later viewing on mobile shows the right value already selected.

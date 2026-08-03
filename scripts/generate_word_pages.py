@@ -207,6 +207,7 @@ FOOTER_HTML = """<footer>
       <div class="foot-logo">HelloKSlang.</div>
       <div class="foot-tag">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
     </div>
+    <a href="../about.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">About</a>
     <a href="../privacy.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">Privacy Policy</a>
   </div>
 </footer>"""
@@ -319,6 +320,18 @@ def build_page(item, category_kr, category_en, related):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(meta_desc)}">
 <link rel="canonical" href="{SITE_URL}/word/{esc(slug)}.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{SITE_URL}/word/{esc(slug)}.html">
+<meta property="og:site_name" content="HelloKSlang">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(meta_desc)}">
+<meta property="og:image" content="{SITE_URL}/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(meta_desc)}">
+<meta name="twitter:image" content="{SITE_URL}/assets/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">

@@ -25,6 +25,7 @@ STATIC_PAGES = [
     ("trending.html", "0.7", "weekly"),
     ("whatsnew.html", "0.8", "daily"),
     ("submit.html", "0.5", "monthly"),
+    ("about.html", "0.6", "monthly"),
 ]
 
 
