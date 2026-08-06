@@ -178,6 +178,12 @@ ZH_CN_TRANSLATIONS = {
 
 ---
 
+## 📧 Contact page
+
+Added 2026-08-04 for the AdSense application checklist (Google wants a working contact method, not just an About page). `contact.html` — same chrome/pattern as `about.html`, full 5-language support, `mailto:kslangdictionary@gmail.com` link plus a pointer to the Submit-a-word form for actual slang submissions. Linked from every page's footer (About → Contact → Privacy Policy) and included in `sitemap.xml`.
+
+---
+
 ## ℹ️ About page
 
 Added 2026-08-03. `about.html` explains what the site is, why it exists, and links to browse/submit — full 5-language support (EN/ES/ZH-TW/ZH-CN/JA), same as the main pages. Linked from the footer of every page (next to Privacy Policy) rather than the main nav, to avoid crowding the 5-item nav further.
