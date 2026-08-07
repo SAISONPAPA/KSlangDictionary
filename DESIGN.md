@@ -14,10 +14,20 @@ colors:
   card-ink-soft: "#5B5248"
   garnet: "#B21B3E"
   garnet-bright: "#D42953"
+  garnet-light: "#F0567E"
   brass: "#B4923F"
+  badge-text-brass: "#7A6224"
   caption-black: "#100E13"
   caption-ink: "#FDF8EE"
   caption-ink-soft: "#B8AF9F"
+  foil-dark: "#6E5419"
+  foil-mid: "#C9A64C"
+  foil-light: "#EBD08A"
+  foil-deep: "#7A5E1E"
+  foil-warm: "#B5924A"
+  success-green: "#2E7D5A"
+  success-green-bg: "rgba(46,125,90,.12)"
+  success-green-border: "rgba(46,125,90,.28)"
 typography:
   display-kr:
     fontFamily: "'Black Han Sans', sans-serif"
@@ -50,16 +60,85 @@ typography:
     fontSize: "11px"
     fontWeight: 700
     letterSpacing: "0.4px"
+  label-sm:
+    fontFamily: "'JetBrains Mono', monospace"
+    fontSize: "10px"
+    fontWeight: 700
+    letterSpacing: "0.5px"
   romanization:
     fontFamily: "'JetBrains Mono', monospace"
     fontSize: "14.5px"
     fontWeight: 400
     letterSpacing: "normal"
+  page-title:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "clamp(28px, 4.5vw, 42px)"
+    fontWeight: 400
+    lineHeight: 1.15
+  page-title-wide:
+    fontFamily: "'Bricolage Grotesque', sans-serif"
+    fontSize: "clamp(28px, 5vw, 44px)"
+    fontWeight: 700
+    lineHeight: 1.2
+  page-title-narrow:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "clamp(28px, 4.5vw, 40px)"
+    fontWeight: 400
+    lineHeight: 1.15
+  section-title-compact:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "clamp(26px, 4vw, 34px)"
+    fontWeight: 400
+  card-term-word:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "clamp(42px, 8.5vw, 62px)"
+    fontWeight: 400
+    lineHeight: 1
+  list-card-term-whatsnew:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "20px"
+    fontWeight: 400
+  list-card-term-category:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "25px"
+    fontWeight: 400
+  list-card-term-trending:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "27px"
+    fontWeight: 400
+  stat-numeral:
+    fontFamily: "'Black Han Sans', sans-serif"
+    fontSize: "26px"
+    fontWeight: 400
+  nav-wordmark:
+    fontFamily: "'Bricolage Grotesque', sans-serif"
+    fontSize: "22px"
+    fontWeight: 700
+    letterSpacing: "0.2px"
+  footer-wordmark:
+    fontFamily: "'Bricolage Grotesque', sans-serif"
+    fontSize: "18px"
+    fontWeight: 700
+  meta-link:
+    fontFamily: "'Hanken Grotesk', sans-serif"
+    fontSize: "13.5px"
+    fontWeight: 700
+  footer-tag:
+    fontFamily: "'Hanken Grotesk', sans-serif"
+    fontSize: "13px"
+    fontWeight: 400
+    lineHeight: 1.5
+  footer-link:
+    fontFamily: "'Hanken Grotesk', sans-serif"
+    fontSize: "12.5px"
+    fontWeight: 600
 rounded:
   card: "16px"
   ui: "14px"
   related-card: "12px"
   caption-bar: "10px"
+  skip-link: "8px"
+  focus-ring: "4px"
   pill: "999px"
 spacing:
   page-max: "1180px"
@@ -102,6 +181,36 @@ components:
     textColor: "{colors.ink-cream}"
     rounded: "{rounded.ui}"
     typography: "{typography.body}"
+  skip-link:
+    backgroundColor: "{colors.garnet}"
+    textColor: "#FFFFFF"
+    rounded: "{rounded.skip-link}"
+    typography: "{typography.meta-link}"
+    padding: "0.75rem 1.25rem"
+  tab-filter:
+    backgroundColor: "{colors.charcoal-surface}"
+    textColor: "{colors.ink-cream-soft}"
+    rounded: "{rounded.pill}"
+    height: "40px"
+  tab-filter-active:
+    backgroundColor: "{colors.garnet}"
+    textColor: "#FFFFFF"
+  page-btn:
+    backgroundColor: "{colors.charcoal-surface}"
+    textColor: "{colors.ink-cream}"
+    rounded: "10px"
+    size: "42px"
+  page-btn-active:
+    backgroundColor: "{colors.garnet}"
+    textColor: "#FFFFFF"
+  feedback-success:
+    backgroundColor: "{colors.success-green-bg}"
+    textColor: "{colors.success-green}"
+    rounded: "{rounded.ui}"
+  feedback-error:
+    backgroundColor: "rgba(178,27,62,.1)"
+    textColor: "{colors.garnet}"
+    rounded: "{rounded.ui}"
 ---
 
 # Design System: HelloKSlang Dictionary
@@ -122,6 +231,7 @@ Garnet is the single committed interactive/ink accent across both materials; bra
 - One foil-stamp treatment, spent on one hero term per card, nowhere else
 - Card-cornered radii (14–16px) everywhere the card system itself lives; pill radii (999px) reserved for UI chrome (nav, tags, buttons)
 - Two build-specific realizations of the same card object: a 3D flip on the interactive search surface, a static perforated seam on the SEO-facing word template
+- One shared chrome (header/footer/nav) reused byte-for-byte across all 9 templates — index, word (651 pages), category, trending, whatsnew, about, contact, submit, and privacy
 
 ## Colors
 
@@ -130,12 +240,17 @@ The palette is a deliberate two-material system: cool charcoal darks for the sit
 ### Primary
 - **Garnet** (`#B21B3E`): the single committed interactive/ink accent — search submit button, play buttons, active language pill, card top-edge stripe, focus/selection color, link-hover underline. Used at rest.
 - **Garnet Bright** (`#D42953`): the hover/active state of garnet — search submit hover, play-button hover, active nav underline, focus ring color, and the color of "stroke" emphasis text in the hero headline.
+- **Garnet Light** (`#F0567E`): a lightened garnet reserved specifically for small active-state *text* on dark chrome (`.mobile-menu a.active`, `.foot-links a.active`) — garnet-bright measures 3.75:1 there and fails WCAG AA for that text size; garnet-light measures 5.2–5.6:1. Never used for backgrounds or large elements, where garnet/garnet-bright still apply — this role exists purely to keep small active-nav text readable.
 
 ### Secondary
 - **Brass** (`#B4923F`): the secondary accent, reserved for category/status language — the "Dictionary" logo badge, category tags and pills, search-result category chips, back-link color. Never used for primary interactive affordances; it marks metadata, garnet marks action.
+- **Badge Text Brass** (`#7A6224`): the deep-brass text color paired with the translucent brass badge background (`rgba(180,146,63,.16)`) — every category tag/pill/chip across every surface uses this exact pairing.
 
 ### Tertiary
-- **Foil Gradient** (`linear-gradient(115deg, #6E5419, #C9A64C, #EBD08A, #C9A64C, #7A5E1E, #B5924A, #6E5419)`): an engraved metallic multi-stop gradient, clipped to text (`background-clip: text`), reserved for exactly one element per card — the hero Korean term. Not a general-purpose gradient-text device.
+- **Foil Gradient** (`linear-gradient(115deg, #6E5419, #C9A64C, #EBD08A, #C9A64C, #7A5E1E, #B5924A, #6E5419)`): an engraved metallic multi-stop gradient, clipped to text (`background-clip: text`), reserved for exactly one element per card — the hero Korean term. Not a general-purpose gradient-text device. Individual named stops — **Foil Dark** (`#6E5419`), **Foil Mid** (`#C9A64C`), **Foil Light** (`#EBD08A`), **Foil Deep** (`#7A5E1E`), **Foil Warm** (`#B5924A`) — appear identically wherever the foil treatment is reused (index.html's card term, the word template, about.html's stat-card numerals), never recombined into a different gradient.
+
+### Semantic (functional feedback, submit.html only)
+- **Success Green** (`#2E7D5A`, background `rgba(46,125,90,.12)`, border `rgba(46,125,90,.28)`): the one deliberate departure from the garnet/brass palette. No color in the core system represents "this worked" — universal success/error semantics shouldn't be reinterpreted through brand hue, so this is a genuinely new, intentional addition, not drift. The error state reuses **Garnet** directly (`rgba(178,27,62,.1)` background) rather than introducing a second red.
 
 ### Neutral — Charcoal (chrome/backdrop material)
 - **Charcoal Backdrop** (`#151217`): page background, the "room" the cards sit in.
@@ -178,17 +293,34 @@ The palette is a deliberate two-material system: cool charcoal darks for the sit
 - **Headline** (700, 19px, Bricolage Grotesque): section headings like "Related words."
 - **Body** (400–700, 15.5–16.5px, Hanken Grotesk, line-height 1.5–1.6): definitions and example prose on the card back.
 - **Body Lead** (500, 1.05rem, line-height 1.6): the hero subhead beneath the search headline.
-- **Label** (700, 10–11px, JetBrains Mono, uppercase, letter-spacing 0.4–1.2px): category tags, section eyelabels ("Meaning", "Real usage"), badges.
+- **Label** (700, 11px, JetBrains Mono, uppercase, letter-spacing 0.4px): category tags, section eyelabels ("Meaning", "Real usage"), badges.
+- **Label Small** (700, 10px, JetBrains Mono, uppercase, letter-spacing 0.5px): the compact variant used for the nav "Dictionary" wordmark badge specifically — one step down from Label where the chrome context is tighter.
 - **Romanization/Mono** (400, italic, 14.5–15.5px, JetBrains Mono): romanized term display, source/timecode lines.
+- **Page Title** (400, `clamp(28px, 4.5vw, 42px)`, Black Han Sans, line-height 1.15): the secondary heading role for every non-homepage page — privacy's "Privacy Policy" uses this exact clamp. Two siblings cover the pages whose fluid maximum differs because their actual heading text is longer or shorter: **Page Title Wide** (`clamp(28px, 5vw, 44px)`, Bricolage Grotesque — about/contact, whose short two-word headings can afford to grow larger) and **Page Title Narrow** (`clamp(28px, 4.5vw, 40px)`, Black Han Sans — category/trending/whatsnew's browse/feed titles). The 28px minimum is identical across all three; only the fluid ceiling differs, by design, per page. **Section Title Compact** (`clamp(26px, 4vw, 34px)`) is submit.html's own smaller heading role, since its card takes visual priority over the page title there.
+- **Card Term (Word Template)** (400, `clamp(42px, 8.5vw, 62px)`, line-height 1): the word template's hero-term size — a sibling of Card Term above, larger because the word page has no search box competing for the viewport.
+- **List Card Term**: the compact term size inside dense grids — 20px (whatsnew's dated feed), 25px (category's binder-sleeve grid), 27px (trending's ranked list). Each is sized to its own grid's density, not a single shared value, but all three inherit Card Term's font/weight/line-height rules. **Stat Numeral** (26px) is the same foil-treated Black Han Sans applied to about.html's 651/5/5 counters — a fourth compact instance of the same "small hero number" pattern.
+
+### Chrome typography (nav/footer, identical across all 9 templates)
+- **Nav Wordmark** (700, 22px, Bricolage Grotesque, letter-spacing 0.2px): the "HelloKSlang" logo in the header.
+- **Footer Wordmark** (700, 18px, Bricolage Grotesque): "HelloKSlang." in the footer.
+- **Meta Link** (700, 13.5px, Hanken Grotesk): back-links ("← Back to search") and the skip-link label — anything that's a small, bold, garnet/brass-colored navigational aside rather than body prose.
+- **Footer Tag** (400, 13px, Hanken Grotesk, line-height 1.5): the footer's one-line site description.
+- **Footer Link** (600, 12.5px, Hanken Grotesk): About/Contact/Privacy Policy footer links.
+
+These five chrome roles are reused byte-for-byte across every page precisely because they're chrome, not content — the whole point is that the header and footer feel identical no matter which page you're on.
 
 ### Named Rules
 **The Korean-Carries-Bilingual-Type Rule.** Any heading that mixes Korean and Latin script in one line (the hero tagline, the card term) is set entirely in Black Han Sans, not split across two font families — the Korean face is treated as the display face for the whole system's bilingual moments, not a special case bolted onto a Latin headline font.
+
+**The Chrome-Matches-Exactly Rule.** Header and footer typography (Nav Wordmark, Footer Wordmark, Meta Link, Footer Tag, Footer Link) is never approximated or redrawn per page — every extension surface copies these five roles verbatim from the flagship. A page that "roughly matches" the chrome scale has drifted; only an exact match counts.
 
 ## Layout
 
 Two container widths, by surface role: the full chrome (header/footer/nav) spans up to 1180px; the word-detail template's content column narrows to 860px, since a single card and its related-word grid don't need the wider measure. Both use a consistent 28px side gutter that collapses to 18–22px under 640px.
 
 The homepage is a single centered hero: tagline, then a card-shaped search bar, then (on search) one result card filling the frame. The word template stacks vertically: back-link, category pill, the card object, then a two-column related-word grid (collapsing to one column under 640px).
+
+The remaining surfaces follow two simpler patterns rather than inventing new layout grammar: **content pages** (about, contact, privacy, submit) are a back-link, a page-title heading, and a single content column — a card-object for submit's form and contact's email card, a plain dark reading surface for privacy's long-form legal text; **list pages** (category, trending, whatsnew) are a back-link, a page-title heading, optional filter tabs, and a grid or stack of compact list-cards (see Components → List Cards).
 
 Responsive behavior is chrome-first: the desktop language-switch button row and horizontal nav links disappear under 860px in favor of a hamburger mobile menu and a native `<select>` language dropdown — this swap exists specifically because five language buttons overflow at narrow widths.
 
@@ -208,6 +340,8 @@ The system is a hybrid: the chrome layer is flat (no shadows on header, nav, or 
 ## Shapes
 
 Two distinct corner languages, assigned by role, never mixed within the same element. **The Card Corners, Not Pills Rule.** Anything that is the card system itself — the card object, related-word cards, the caption bar — uses moderate rounding (16px card radius, 12px related-card, 10px caption bar): grounded and card-like, explicitly not the fully-pill/bubbly language of the site's prior "holographic" identity. Anything that is UI chrome — the lang-switch, tag/chip pills, CTA buttons, the search box's outer shell — uses full pill radii (999px) or the 14px `--radius-ui` value. The card's perforated seam (a dashed horizontal rule with two punch-hole circles cut into the card edge) is the system's one custom silhouette device, used only at the front/back boundary of the card object.
+
+Two smaller, single-purpose radii round out the scale: **8px** for the skip-link's single visible corner (`border-radius: 0 0 8px 0` — a tab peeking from the top-left edge, not a full pill or a card), and **4px** for the `:focus-visible` outline radius system-wide.
 
 ## Components
 
@@ -233,8 +367,22 @@ Two distinct corner languages, assigned by role, never mixed within the same ele
 - **Focus:** border shifts to garnet-bright, plus a soft 4px garnet-bright glow ring (`box-shadow: 0 0 0 4px rgba(212,41,83,.16)`) on `:focus-within` — a "structural" focus response, not ambient decoration.
 
 ### Navigation
-- **Style:** sticky header, blurred translucent charcoal (`backdrop-filter: blur(10px)`), hairline bottom border. Nav links get a garnet-bright underline that scales in from the left on hover/active. Active page state is a solid underline plus lightened text; the same active state on mobile becomes garnet-bright text with no underline.
+- **Style:** sticky header, blurred translucent charcoal (`backdrop-filter: blur(10px)`), hairline bottom border. Nav links get a garnet-bright underline that scales in from the left on hover/active. Active page state is a solid underline plus lightened text; the same active state on mobile becomes **garnet-light** (not garnet-bright — see Colors → Semantic) text with no underline, since that state is small text on dark chrome and needs the AA-safe variant.
 - **Language switch:** a pill-shaped segmented control (desktop) with the active language filled garnet-solid; collapses to a native `<select>` styled to match (arrow icon, pill radius) below 860px. Toggle state and page-active-nav state are both driven by the same `--ease-flip` easing curve used for the card flip, tying chrome motion to the card motion.
+- **Skip link:** the first focusable element in `<body>` on every page, visually hidden (`left:-999px`) until `:focus`, then a garnet tab with an 8px single-corner radius pinned to the top-left. Targets `id="main"` on the page's `<main>` element (index.html targets `#dictionary` specifically, its hero section).
+
+### List Cards (compact card-grid variants)
+Three surfaces show many small cards at once rather than one large card: category.html's binder-sleeve browse grid, trending.html's ranked chart list, and whatsnew.html's dated feed. All three reuse the exact cardstock-plus-grain material and the 3px garnet top stripe from the main Card component, just at a denser scale (20–27px term size instead of 42–62px, 12px card radius instead of 16px) — they are compact instances of the same object, not a separate material.
+- **Rank badge** (trending.html only): a circular outline badge with the foil-text gradient clipped to the rank number (`01`–`05`), reusing the exact same gradient as the hero-term foil treatment rather than a flat color, so a chart position reads as "stamped," not printed.
+- **Category tabs / pagination** (category.html): pill-shaped filter buttons (`min-height: 40px`) and pagination buttons (`42×42px`) — sized to clear the 44px touch-target guideline rather than the tighter 30–38px chrome-icon sizing used elsewhere.
+
+### Icon Buttons & Touch Targets
+- **Play button** (34px word template / 30px index.html) and **play button small** (18px, list-card rows): circular, garnet fill, inline SVG triangle. Both get an invisible `::before` hit-area expansion (`inset: -5px` to `-13px` depending on visual size) pushing the actual tappable region toward 44×44px without inflating the visible circle — density and touch-target compliance are handled as two separate layers, not traded against each other.
+- **The Real-Button Rule.** Every clickable icon control is a real `<button>` (or `<a>`) with an `aria-label`, never a styled `<span>` with an `onclick` — this was a corrected regression: the list-card play buttons were originally unfocusable spans.
+
+### Feedback States (submit.html)
+- **Success:** `success-green` text on `success-green-bg`, `success-green-border` hairline, inline SVG checkmark.
+- **Error:** `garnet` text on a matching translucent garnet background, inline SVG warning glyph. Deliberately reuses the core accent rather than adding a second red.
 
 ### The Card (signature component)
 The recurring object the whole product is built around, realized two different ways depending on the surface's job:
@@ -251,6 +399,10 @@ The recurring object the whole product is built around, realized two different w
 - **Do** use card-style moderate radii (14–16px) for the card system and full pill radii (999px) for UI chrome; never blend the two within one element.
 - **Do** author all icons (search, play, menu, arrow, dropdown chevron) as inline SVG.
 - **Do** keep the word-template card's front/back zones both statically visible (no flip gate) since those pages are SEO/crawler-facing; reserve the JS-triggered 3D flip for the interactive search result only.
+- **Do** copy the five chrome typography roles (Nav Wordmark, Footer Wordmark, Meta Link, Footer Tag, Footer Link) verbatim onto every new page — never approximate the header/footer scale.
+- **Do** give every page a real `<h1>` on its actual subject (the word template's hero term, submit's page heading) — a page with no `<h1>` or one whose only heading starts at `<h2>` is an accessibility regression, not a style choice.
+- **Do** pair every icon-only interactive control with a real `<button>`/`<a>` element, an `aria-label`, and an invisible hit-area expansion toward 44×44px.
+- **Do** use garnet-light, not garnet-bright, for small active-state text on dark chrome — garnet-bright is for backgrounds, large elements, and underlines, where its lower contrast is fine.
 
 ### Don't:
 - **Don't** use unicode emoji as functional icons anywhere in the system — every icon in the shipped build is inline SVG.

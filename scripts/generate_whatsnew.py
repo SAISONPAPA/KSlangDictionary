@@ -153,10 +153,11 @@ def main():
   same cardstock miniatures as every other card grid in the system.
   FINISH: unreviewed and undocumented is unfinished.
 -->
+<a class="skip-link" href="#main">Skip to content</a>
 
 {HEADER_HTML}
 
-<main class="wrap">
+<main class="wrap" id="main">
   <section class="page-head">
     <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda" data-zh="&larr; 返回搜尋" data-cn="&larr; 返回搜索" data-ja="&larr; 検索に戻る">&larr; Back to search</a>
     <h1 class="page-title" data-en="What's New" data-es="Novedades" data-zh="最新消息" data-cn="最新消息" data-ja="新着">What's New</h1>
@@ -225,7 +226,6 @@ SHARED_CSS = """
     --line-strong: rgba(243,236,221,0.22);
     --ink: #F3ECDD;
     --ink-soft: #A79E92;
-    --ink-faint: #6E665C;
 
     --card-face: #F2E9D8;
     --card-face-hi: #F8F1E3;
@@ -235,6 +235,7 @@ SHARED_CSS = """
 
     --garnet: #B21B3E;
     --garnet-bright: #D42953;
+    --garnet-light: #F0567E;
     --brass: #B4923F;
     --brass-soft: rgba(180,146,63,.16);
 
@@ -263,6 +264,14 @@ SHARED_CSS = """
   a{ color:inherit; text-decoration:none; }
   ::selection{ background: var(--garnet); color: var(--card-face-hi); }
   :focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 3px; border-radius: 4px; }
+  .skip-link{
+    position:absolute; left:-999px; top:0;
+    background: var(--garnet); color:#fff;
+    padding: 0.75rem 1.25rem; z-index: 200;
+    border-radius: 0 0 8px 0;
+    font-weight:700; font-size:13.5px;
+  }
+  .skip-link:focus{ left:0; }
   .wrap{ max-width: 1180px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 1; }
   @media (prefers-reduced-motion: reduce){ *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; } }
 
@@ -317,7 +326,7 @@ SHARED_CSS = """
   .mobile-menu{ display:none; flex-direction:column; background: var(--surface); border-top: 1px solid var(--line); padding: 6px 28px 18px; }
   .mobile-menu.open{ display:flex; }
   .mobile-menu a{ padding: 14px 0; font-weight: 700; font-size: 15px; color: var(--ink); border-bottom: 1px solid var(--line); }
-  .mobile-menu a.active{ color: var(--garnet-bright); }
+  .mobile-menu a.active{ color: var(--garnet-light); }
   .mobile-menu a:last-child{ border-bottom:none; }
 
   /* ---------- footer ---------- */

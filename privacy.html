@@ -39,7 +39,6 @@
     --line-strong: rgba(243,236,221,0.22);
     --ink: #F3ECDD;
     --ink-soft: #A79E92;
-    --ink-faint: #6E665C;
 
     --card-face: #F2E9D8;
     --card-face-hi: #F8F1E3;
@@ -49,6 +48,7 @@
 
     --garnet: #B21B3E;
     --garnet-bright: #D42953;
+    --garnet-light: #F0567E;
     --brass: #B4923F;
     --brass-soft: rgba(180,146,63,.16);
 
@@ -77,6 +77,14 @@
   a{ color:inherit; text-decoration:none; }
   ::selection{ background: var(--garnet); color: var(--card-face-hi); }
   :focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 3px; border-radius: 4px; }
+  .skip-link{
+    position:absolute; left:-999px; top:0;
+    background: var(--garnet); color:#fff;
+    padding: 0.75rem 1.25rem; z-index: 200;
+    border-radius: 0 0 8px 0;
+    font-weight:700; font-size:13.5px;
+  }
+  .skip-link:focus{ left:0; }
   .wrap{ max-width: 1180px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 1; }
   @media (prefers-reduced-motion: reduce){ *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; } }
 
@@ -120,7 +128,7 @@
   .foot-links{ display:flex; gap:18px; flex-wrap:wrap; }
   .foot-links a{ font-size:12.5px; color:var(--ink-soft); font-weight:600; }
   .foot-links a:hover{ color: var(--ink); }
-  .foot-links a.active{ color: var(--garnet-bright); }
+  .foot-links a.active{ color: var(--garnet-light); }
 
   @media (max-width: 420px){ .logo-badge{ display:none; } }
   @media (max-width: 860px){ .nav-links{ display:none; } .menu-toggle{ display:flex; } }
@@ -164,6 +172,7 @@
   card metaphor here. Chrome (header/footer) matches every other surface.
   FINISH: unreviewed and undocumented is unfinished.
 -->
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header>
   <div class="wrap nav">
@@ -188,7 +197,7 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap" id="main">
   <section class="legal-head">
     <a href="index.html" class="back-link">&larr; Back to K-Slang Dictionary</a>
     <h1 class="legal-title">Privacy Policy</h1>

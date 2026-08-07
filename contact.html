@@ -39,7 +39,6 @@
     --line-strong: rgba(243,236,221,0.22);
     --ink: #F3ECDD;
     --ink-soft: #A79E92;
-    --ink-faint: #6E665C;
 
     --card-face: #F2E9D8;
     --card-face-hi: #F8F1E3;
@@ -49,6 +48,7 @@
 
     --garnet: #B21B3E;
     --garnet-bright: #D42953;
+    --garnet-light: #F0567E;
     --brass: #B4923F;
     --brass-soft: rgba(180,146,63,.16);
 
@@ -75,6 +75,14 @@
   a{ color:inherit; text-decoration:none; }
   ::selection{ background: var(--garnet); color: var(--card-face-hi); }
   :focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 3px; border-radius: 4px; }
+  .skip-link{
+    position:absolute; left:-999px; top:0;
+    background: var(--garnet); color:#fff;
+    padding: 0.75rem 1.25rem; z-index: 200;
+    border-radius: 0 0 8px 0;
+    font-weight:700; font-size:13.5px;
+  }
+  .skip-link:focus{ left:0; }
   .wrap{ max-width: 1100px; margin: 0 auto; padding: 0 24px; position:relative; z-index:1; }
   @media (prefers-reduced-motion: reduce){ *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; } }
 
@@ -129,7 +137,7 @@
   .foot-links{ display:flex; gap:18px; flex-wrap:wrap; }
   .foot-links a{ font-size:12.5px; color:var(--ink-soft); font-weight:600; }
   .foot-links a:hover{ color: var(--ink); }
-  .foot-links a.active{ color: var(--garnet-bright); }
+  .foot-links a.active{ color: var(--garnet-light); }
 
   @media (max-width: 860px){
     .nav-links{ display:none; }
@@ -183,6 +191,7 @@
   card made from the same cardstock as the dictionary's own entries.
   FINISH: unreviewed and undocumented is unfinished.
 -->
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header>
   <div class="wrap nav">
@@ -221,7 +230,7 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap" id="main">
   <section class="about-hero">
     <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda" data-zh="&larr; 返回搜尋" data-cn="&larr; 返回搜索" data-ja="&larr; 検索に戻る">&larr; Back to search</a>
     <h1 class="about-title" data-en="Get in touch" data-es="Ponte en contacto" data-zh="與我們聯繫" data-cn="与我们联系" data-ja="お問い合わせ">Get in touch</h1>

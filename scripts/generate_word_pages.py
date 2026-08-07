@@ -155,7 +155,6 @@ SHARED_CSS = """
     --line-strong: rgba(243,236,221,0.22);
     --ink: #F3ECDD;
     --ink-soft: #A79E92;
-    --ink-faint: #6E665C;
 
     --card-face: #F2E9D8;
     --card-face-hi: #F8F1E3;
@@ -191,6 +190,14 @@ SHARED_CSS = """
   a{ color:inherit; text-decoration:none; }
   ::selection{ background: var(--garnet); color: var(--card-face-hi); }
   :focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 3px; border-radius: 4px; }
+  .skip-link{
+    position:absolute; left:-999px; top:0;
+    background: var(--garnet); color:#fff;
+    padding: 0.75rem 1.25rem; z-index: 200;
+    border-radius: 0 0 8px 0;
+    font-weight:700; font-size:13.5px;
+  }
+  .skip-link:focus{ left:0; }
   .wrap{ max-width: 860px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 1; }
   @media (prefers-reduced-motion: reduce){ *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; } }
 
@@ -295,10 +302,14 @@ SHARED_CSS = """
   .rom-row{ display:flex; align-items:center; gap: 10px; margin-top: 16px; }
   .rom-row .rom{ font-family: var(--mono); font-style: italic; font-size: 15.5px; color: var(--card-ink-soft); }
   .play-btn{
+    position:relative;
     width: 34px; height:34px; border-radius:50%; background: var(--garnet); color:#fff;
     display:inline-flex; align-items:center; justify-content:center; cursor:pointer; flex-shrink:0;
     transition: background .2s var(--ease-flip); border: none;
   }
+  /* invisible hit-area expansion toward the 44px touch-target guideline,
+     without inflating the visual circle */
+  .play-btn::before{ content:""; position:absolute; inset:-5px; }
   .play-btn svg{ width:13px; height:13px; }
   .play-btn:hover{ background: var(--garnet-bright); }
   .play-btn.playing{ background: var(--garnet-bright); animation: playPulse .6s ease-in-out infinite; }
@@ -608,17 +619,18 @@ def build_page(item, category_kr, category_en, related):
 </head>
 <body>
 {DIRECTION_CONTRACT_HTML}
+<a class="skip-link" href="#main">Skip to content</a>
 
 {HEADER_HTML}
 
-<main class="wrap">
+<main class="wrap" id="main">
   <a href="../index.html" class="back-link" {data_attrs('back_link')}>&larr; Back to K-Slang Dictionary</a>
   <a href="../{esc(cat_url)}" class="cat-pill" {cat_pill_attrs}>{esc(category_kr)} · {esc(category_en)}</a>
 
   <div class="card-object">
     <div class="card-front-zone">
       <span class="card-tag">{esc(category_en)}</span>
-      <div class="kr-huge foil-text">{esc(kr)}</div>
+      <h1 class="kr-huge foil-text">{esc(kr)}</h1>
       <div class="rom-row">
         <button class="play-btn" onclick="playPronunciation('{kr_js_escaped}', this)" aria-label="Play pronunciation"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5-9-5.5z" fill="currentColor"/></svg></button>
         <span class="rom">{esc(rom)}</span>

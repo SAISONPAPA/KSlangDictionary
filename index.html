@@ -39,7 +39,6 @@
     --line-strong: rgba(243,236,221,0.22);
     --ink: #F3ECDD;
     --ink-soft: #A79E92;
-    --ink-faint: #6E665C;
 
     --card-face: #F2E9D8;
     --card-face-hi: #F8F1E3;
@@ -49,6 +48,7 @@
 
     --garnet: #B21B3E;
     --garnet-bright: #D42953;
+    --garnet-light: #F0567E;
     --brass: #B4923F;
     --brass-soft: rgba(180,146,63,.16);
 
@@ -257,7 +257,7 @@
     color: var(--ink);
     border-bottom: 1px solid var(--line);
   }
-  .mobile-menu a.active{ color: var(--garnet-bright); }
+  .mobile-menu a.active{ color: var(--garnet-light); }
   .mobile-menu a:last-child{ border-bottom:none; }
 
   /* ---------- hero / search page ---------- */
@@ -511,6 +511,7 @@
     margin-bottom: 16px;
   }
   .play-btn{
+    position:relative;
     width: 30px; height:30px;
     border-radius:50%;
     background: var(--garnet);
@@ -522,6 +523,9 @@
     flex-shrink:0;
     transition: background .2s var(--ease-flip);
   }
+  /* invisible hit-area expansion toward the 44px touch-target guideline,
+     without inflating the visual circle */
+  .play-btn::before{ content:""; position:absolute; inset:-7px; }
   .play-btn svg{ width:12px; height:12px; }
   .play-btn:hover{ background: var(--garnet-bright); }
   .play-btn.playing{ background: var(--garnet-bright); animation: playPulse .6s ease-in-out infinite; }
