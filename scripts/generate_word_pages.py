@@ -62,7 +62,8 @@ UI = {
     "seen_on": {"en": "Commonly seen on:", "es": "Uso frecuente en:", "zh": "常見於：", "cn": "常见于：", "ja": "よく見られる場所："},
     "search_full": {"en": "Search the full dictionary", "es": "Buscar en todo el diccionario", "zh": "搜尋完整詞典", "cn": "搜索完整词典", "ja": "辞書全体を検索"},
     "related_h3": {"en": "Related words", "es": "Palabras relacionadas", "zh": "相關詞彙", "cn": "相关词汇", "ja": "関連する単語"},
-    "about": {"en": "About", "es": "Acerca de", "zh": "關於我們", "cn": "关于我们", "ja": "About"},
+    "about": {"en": "About", "es": "Acerca de", "zh": "關於我們", "cn": "关于我们", "ja": "サイトについて"},
+    "privacy": {"en": "Privacy Policy", "es": "Política de privacidad", "zh": "隱私權政策", "cn": "隐私政策", "ja": "プライバシーポリシー"},
     "contact": {"en": "Contact", "es": "Contacto", "zh": "聯絡我們", "cn": "联系我们", "ja": "お問い合わせ"},
     "foot_tag": {
         "en": "Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.",
@@ -438,7 +439,7 @@ FOOTER_HTML = f"""<footer>
     <div class="foot-links">
       <a href="../about.html" {data_attrs('about')}>About</a>
       <a href="../contact.html" {data_attrs('contact')}>Contact</a>
-      <a href="../privacy.html">Privacy Policy</a>
+      <a href="../privacy.html" {data_attrs('privacy')}>Privacy Policy</a>
     </div>
   </div>
 </footer>"""
