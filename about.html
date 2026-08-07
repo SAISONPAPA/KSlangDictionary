@@ -29,148 +29,107 @@
 <meta name="twitter:image" content="https://hellokslang.com/assets/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg: #0D0817;
-    --surface: #17111F;
-    --surface-2: #1E1729;
-    --line: #2E2440;
-    --ink: #F6F2FB;
-    --ink-soft: #A99FBD;
-    --pink: #FF3D9A;
-    --violet: #A855F7;
-    --cyan: #38BDF8;
-    --gold: #FBBF24;
-    --holo: linear-gradient(115deg, #FF3D9A 0%, #A855F7 25%, #38BDF8 50%, #FBBF24 75%, #FF3D9A 100%);
-    --display: 'Black Han Sans', sans-serif;
-    --body: 'Plus Jakarta Sans', sans-serif;
+    --bg: #151217;
+    --surface: #1E1A22;
+    --surface-2: #27222C;
+    --line: rgba(243,236,221,0.12);
+    --line-strong: rgba(243,236,221,0.22);
+    --ink: #F3ECDD;
+    --ink-soft: #A79E92;
+    --ink-faint: #6E665C;
+
+    --card-face: #F2E9D8;
+    --card-face-hi: #F8F1E3;
+    --card-ink: #211B16;
+    --card-ink-soft: #5B5248;
+    --card-line: rgba(33,27,22,.14);
+
+    --garnet: #B21B3E;
+    --garnet-bright: #D42953;
+    --brass: #B4923F;
+    --brass-soft: rgba(180,146,63,.16);
+
+    --radius-card: 16px;
+    --radius-ui: 14px;
+    --ease-flip: cubic-bezier(0.16, 1, 0.3, 1);
+
+    --font-kr: 'Black Han Sans', sans-serif;
+    --display: 'Bricolage Grotesque', sans-serif;
+    --body: 'Hanken Grotesk', sans-serif;
     --mono: 'JetBrains Mono', monospace;
   }
   *{ box-sizing:border-box; margin:0; padding:0; }
   body{
-    background: var(--bg);
-    color: var(--ink);
-    font-family: var(--body);
-    -webkit-font-smoothing: antialiased;
-    position: relative;
-    overflow-x: hidden;
+    background: var(--bg); color: var(--ink); font-family: var(--body);
+    font-size: 16px; line-height: 1.5;
+    -webkit-font-smoothing: antialiased; position: relative; overflow-x: hidden;
   }
-  body::before, body::after{
-    content:""; position:fixed; width:480px; height:480px; border-radius:50%;
-    filter: blur(150px); opacity:.2; z-index:0; pointer-events:none;
+  body::before{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background: radial-gradient(120% 90% at 50% 8%, rgba(255,255,255,.05), rgba(0,0,0,0) 55%),
+                radial-gradient(140% 100% at 50% 100%, rgba(0,0,0,.35), rgba(0,0,0,0) 60%);
   }
-  body::before{ background: var(--pink); top:-160px; left:-160px; }
-  body::after{ background: var(--cyan); bottom:-180px; right:-160px; }
-
-  .wrap{ max-width: 1100px; margin: 0 auto; padding: 0 24px; position:relative; z-index:1; }
-
   a{ color:inherit; text-decoration:none; }
+  ::selection{ background: var(--garnet); color: var(--card-face-hi); }
+  :focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 3px; border-radius: 4px; }
+  .wrap{ max-width: 1100px; margin: 0 auto; padding: 0 24px; position:relative; z-index:1; }
+  @media (prefers-reduced-motion: reduce){ *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; } }
 
-  header{ position: sticky; top:0; z-index:50; background: rgba(13,8,23,.85); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  header{ position: sticky; top:0; z-index:50; background: rgba(21,18,23,.86); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
   .nav{ display:flex; align-items:center; justify-content:space-between; padding: 16px 24px; gap: 20px; }
-  .logo{ display:flex; align-items:baseline; gap:2px; font-family: var(--display); font-size: 21px; white-space:nowrap; }
-  .logo .dot{ color: var(--pink); }
-  .logo-badge{ font-family: var(--mono); font-size: 11px; font-weight:700; color: var(--ink-soft); background: var(--surface-2); padding: 3px 8px; border-radius:999px; margin-left:8px; }
-  .nav-links{ display:flex; gap: 24px; font-size: 13.5px; font-weight:600; color: var(--ink-soft); flex:1; justify-content:center; }
-  .nav-links a{ position:relative; padding: 6px 0; transition: color .2s; }
+  .logo{ display:flex; align-items:center; gap: 8px; font-family: var(--display); font-weight:700; font-size: 22px; letter-spacing: 0.2px; white-space:nowrap; }
+  .logo .dot{ color: var(--garnet-bright); }
+  .logo-badge{ font-family: var(--mono); font-size: 10px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; color: var(--brass); background: var(--brass-soft); border:1px solid rgba(180,146,63,.35); padding: 3px 8px; border-radius:999px; white-space:nowrap; }
+  .nav-links{ display:flex; gap: 32px; font-size: 14.5px; font-weight:600; color: var(--ink-soft); flex:1; justify-content:center; }
+  .nav-links a{ position:relative; padding: 6px 0; transition: color .2s var(--ease-flip); }
   .nav-links a:hover{ color: var(--ink); }
   .nav-links a::after{
-    content:"";
-    position:absolute; left:0; bottom:-2px;
-    width:0%; height:2px;
-    background: var(--holo);
-    background-size: 300% 300%;
-    transition: width .25s ease;
+    content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px;
+    background: var(--garnet-bright); transform: scaleX(0); transform-origin:left;
+    transition: transform .25s var(--ease-flip);
   }
-  .nav-links a:hover::after{ width:100%; animation: holoShift 2s linear infinite; }
-  .nav-links a.active{ color: var(--ink); }
-  .nav-links a.active::after{ width:100%; background: var(--pink); }
+  .nav-links a:hover::after{ transform: scaleX(1); }
 
   .nav-right{ display:flex; align-items:center; gap: 14px; }
-  .lang-switch{
-    display:flex;
-    align-items:center;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 3px;
-  }
+  .lang-switch{ display:flex; align-items:center; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
   .lang-switch button{
-    border:none;
-    cursor:pointer;
-    background:transparent;
-    font-family: var(--mono);
-    font-size: 11px;
-    font-weight: 700;
-    padding: 6px 9px;
-    border-radius: 999px;
-    color: var(--ink-soft);
-    transition: all .2s ease;
-    white-space: nowrap;
+    border:none; cursor:pointer; background:transparent; font-family: var(--mono); font-size: 11px; font-weight: 700;
+    padding: 6px 9px; border-radius: 999px; color: var(--ink-soft); transition: all .2s var(--ease-flip); white-space: nowrap;
   }
-  .lang-switch button.active{ background: var(--pink); color: #fff; }
+  .lang-switch button.active{ background: var(--garnet); color: #fff; }
   .lang-switch button:not(.active):hover{ color: var(--ink); }
 
   .lang-select{
-    display:none;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 7px 26px 7px 12px;
-    color: var(--ink);
-    font-family: var(--mono);
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A99FBD' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
+    display:none; background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+    padding: 7px 26px 7px 12px; color: var(--ink); font-family: var(--mono); font-size: 12px; font-weight: 700;
+    cursor: pointer; appearance: none; -webkit-appearance: none; -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A79E92' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 10px center;
   }
   .lang-select option{ background: var(--surface); color: var(--ink); }
 
   .menu-toggle{
-    display:none;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    color: var(--ink);
-    font-size: 18px;
-    padding: 6px 12px;
-    cursor:pointer;
+    display:none; align-items:center; justify-content:center; width:38px; height:38px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px; color: var(--ink); cursor:pointer;
   }
-  .mobile-menu{
-    display:none;
-    flex-direction:column;
-    padding: 8px 24px 20px;
-    border-top: 1px solid var(--line);
-  }
+  .menu-toggle:hover{ border-color: var(--garnet-bright); }
+  .menu-toggle svg{ width:18px; height:18px; }
+  .mobile-menu{ display:none; flex-direction:column; padding: 8px 24px 20px; border-top: 1px solid var(--line); background: var(--surface); }
   .mobile-menu.open{ display:flex; }
-  .mobile-menu a{
-    padding: 14px 0;
-    font-weight: 700;
-    font-size: 15px;
-    color: var(--ink);
-    border-bottom: 1px solid var(--line);
-  }
-  .mobile-menu a.active{ color: var(--pink); }
+  .mobile-menu a{ padding: 14px 0; font-weight: 700; font-size: 15px; color: var(--ink); border-bottom: 1px solid var(--line); }
   .mobile-menu a:last-child{ border-bottom:none; }
 
-  @keyframes holoShift{
-    0%{ background-position: 0% 50%; }
-    100%{ background-position: 300% 50%; }
-  }
-
-  footer{ border-top: 1px solid var(--line); margin-top: 80px; padding: 40px 0 60px; }
+  footer{ border-top: 1px solid var(--line); margin-top: 80px; padding: 40px 0 60px; position:relative; z-index:1; }
   .foot-row{ display:flex; justify-content:space-between; align-items:flex-end; gap: 20px; flex-wrap:wrap; }
-  .foot-logo{ font-family: var(--display); font-size: 18px; margin-bottom:6px; }
-  .foot-tag{ font-size: 13px; color: var(--ink-soft); max-width: 480px; line-height:1.6; }
+  .foot-logo{ font-family: var(--display); font-weight:700; font-size: 18px; color: var(--ink); }
+  .foot-tag{ font-size: 13px; line-height: 1.5; color: var(--ink-soft); margin-top:6px; max-width: 480px; }
   .foot-links{ display:flex; gap:18px; flex-wrap:wrap; }
   .foot-links a{ font-size:12.5px; color:var(--ink-soft); font-weight:600; }
   .foot-links a:hover{ color: var(--ink); }
+  .foot-links a.active{ color: var(--garnet-bright); }
 
   @media (max-width: 860px){
     .nav-links{ display:none; }
@@ -178,44 +137,56 @@
     .lang-switch{ display:none; }
     .lang-select{ display:block; }
   }
-  @media (max-width: 420px){
-    .logo-badge{ display:none; }
-  }
+  @media (max-width: 420px){ .logo-badge{ display:none; } }
 
   /* ---------- about page ---------- */
   .about-hero{ padding: 64px 0 8px; }
-  .back-link{ display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:700; color: var(--violet); margin-bottom:22px; }
+  .back-link{ display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:700; color: var(--brass); margin-bottom:22px; }
   .back-link:hover{ text-decoration:underline; }
-  .section-eyebrow{ font-family: var(--mono); font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color: var(--pink); margin-bottom:8px; display:block; }
-  .about-title{ font-family: var(--display); font-size: clamp(30px, 5vw, 48px); line-height:1.15; color: var(--ink); max-width: 720px; }
+  .about-title{ font-family: var(--display); font-weight:700; font-size: clamp(28px, 5vw, 44px); line-height:1.2; color: var(--ink); max-width: 720px; }
 
-  .about-body{ max-width: 680px; padding: 32px 0 60px; }
+  .about-body{ max-width: 680px; padding: 28px 0 40px; }
   .about-body p{ font-size: 16px; line-height:1.75; color: var(--ink-soft); margin-bottom: 22px; }
   .about-body p strong{ color: var(--ink); }
 
-  .about-stats{
-    display:grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
-    margin: 8px 0 40px; max-width: 680px;
-  }
+  .about-stats{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 8px 0 40px; max-width: 680px; }
   .stat-card{
-    background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
-    padding: 18px; text-align:center;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/filter%3E%3C/svg%3E"),
+      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 30%, var(--card-face) 100%);
+    background-size: 140px 140px, cover;
+    background-blend-mode: multiply, normal;
+    border: 1px solid var(--card-line); border-radius: var(--radius-card);
+    padding: 18px; text-align:center; position:relative; overflow:hidden;
   }
-  .stat-num{ font-family: var(--display); font-size: 26px; background: var(--holo); background-size:300% 300%; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; animation: holoShift 6s ease infinite; }
-  .stat-label{ font-family: var(--mono); font-size: 10.5px; color: var(--ink-soft); margin-top:4px; letter-spacing:.4px; }
+  .stat-card::before{ content:""; position:absolute; top:0; left:0; right:0; height:3px; background: var(--garnet); }
+  .stat-num{
+    font-family: var(--font-kr); font-size: 26px;
+    background-image: linear-gradient(115deg, #6E5419 0%, #C9A64C 20%, #EBD08A 32%, #C9A64C 44%, #7A5E1E 62%, #B5924A 80%, #6E5419 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .stat-label{ font-family: var(--mono); font-size: 10.5px; color: var(--card-ink-soft); margin-top:4px; letter-spacing:.4px; }
   @media (max-width: 560px){ .about-stats{ grid-template-columns: 1fr; } }
 
   .about-ctas{ display:flex; gap:14px; flex-wrap:wrap; padding-bottom: 40px; }
-  .cta-btn{
-    display:inline-flex; align-items:center; gap:8px; padding: 13px 22px; border-radius: 999px;
-    font-weight:700; font-size:14.5px; transition: transform .15s ease;
-  }
-  .cta-primary{ background: var(--holo); background-size:300% 300%; color:#1B1330; animation: holoShift 6s ease infinite; }
+  .cta-btn{ display:inline-flex; align-items:center; gap:8px; padding: 13px 22px; border-radius: 999px; font-weight:700; font-size:14.5px; transition: transform .15s var(--ease-flip); }
+  .cta-primary{ background: var(--garnet); color:#fff; }
+  .cta-primary:hover{ background: var(--garnet-bright); }
   .cta-secondary{ background: var(--surface); border:1px solid var(--line); color: var(--ink); }
+  .cta-secondary:hover{ border-color: var(--garnet-bright); }
   .cta-btn:hover{ transform: translateY(-2px); }
 </style>
 </head>
 <body>
+<!--
+  DIRECTION CONTRACT (extends the established Photocard Pull world; see
+  DESIGN.md — this is an ordinary surface extension, not a new direction)
+  THESIS: content pages carry the same photocard-binder world at rest —
+  charcoal chrome, cardstock cards reserved for small iconic facts (the
+  stat tiles), garnet/brass accents, no new composition invented.
+  FIRST VIEWPORT: back-link, heading, three stat cards, two CTAs.
+  FINISH: unreviewed and undocumented is unfinished.
+-->
 
 <header>
   <div class="wrap nav">
@@ -229,20 +200,20 @@
     </nav>
     <div class="nav-right">
       <div class="lang-switch">
-        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">🇺🇸<span class="lang-label"> EN</span></button>
-        <button class="lang-btn" data-lang="es" onclick="setLang('es')">🇪🇸<span class="lang-label"> ES</span></button>
-        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">🇹🇼<span class="lang-label"> 繁</span></button>
-        <button class="lang-btn" data-lang="cn" onclick="setLang('cn')">🇨🇳<span class="lang-label"> 简</span></button>
-        <button class="lang-btn" data-lang="ja" onclick="setLang('ja')">🇯🇵<span class="lang-label"> 日</span></button>
+        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
+        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">繁</button>
+        <button class="lang-btn" data-lang="cn" onclick="setLang('cn')">简</button>
+        <button class="lang-btn" data-lang="ja" onclick="setLang('ja')">日</button>
       </div>
       <select class="lang-select" id="langSelect" onchange="setLang(this.value)" aria-label="Language">
-        <option value="en">🇺🇸 EN</option>
-        <option value="es">🇪🇸 ES</option>
-        <option value="zh">🇹🇼 繁</option>
-        <option value="cn">🇨🇳 简</option>
-        <option value="ja">🇯🇵 日</option>
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="zh">繁</option>
+        <option value="cn">简</option>
+        <option value="ja">日</option>
       </select>
-      <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
+      <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg></button>
     </div>
   </div>
   <div class="mobile-menu" id="mobileMenu">
@@ -257,7 +228,6 @@
 <main class="wrap">
   <section class="about-hero">
     <a href="index.html" class="back-link" data-en="&larr; Back to search" data-es="&larr; Volver a la búsqueda" data-zh="&larr; 返回搜尋" data-cn="&larr; 返回搜索" data-ja="&larr; 検索に戻る">&larr; Back to search</a>
-    <span class="section-eyebrow" data-en="About" data-es="Acerca de" data-zh="關於我們" data-cn="关于我们" data-ja="About">About</span>
     <h1 class="about-title" data-en="What is HelloKSlang?" data-es="¿Qué es HelloKSlang?" data-zh="HelloKSlang是什麼？" data-cn="HelloKSlang是什么？" data-ja="HelloKSlangとは？">What is HelloKSlang?</h1>
   </section>
 

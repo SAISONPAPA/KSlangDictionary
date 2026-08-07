@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-06T00:00:00Z",
+  "title": "Design System: HelloKSlang Dictionary",
+  "extensions": {
+    "colorMeta": {
+      "garnet": { "role": "primary", "displayName": "Garnet", "canonical": "#B21B3E", "tonalRamp": ["#2A0812", "#4A0E1F", "#71142F", "#98193F", "#B21B3E", "#C42548", "#D8546E", "#EDA6B7"] },
+      "garnet-bright": { "role": "primary", "displayName": "Garnet Bright", "canonical": "#D42953", "tonalRamp": ["#330A17", "#5C122A", "#8A1A3D", "#B22049", "#D42953", "#E15277", "#EC85A0", "#F6C3D2"] },
+      "brass": { "role": "secondary", "displayName": "Brass", "canonical": "#B4923F", "tonalRamp": ["#2B2211", "#4B3B1B", "#725A29", "#977634", "#B4923F", "#C4A65E", "#D8C28C", "#ECE0C2"] },
+      "charcoal-backdrop": { "role": "neutral", "displayName": "Charcoal Backdrop", "canonical": "#151217", "tonalRamp": ["#050405", "#0D0B0E", "#151217", "#211E24", "#332E37", "#4C4650", "#6F6870", "#9C97A0"] },
+      "charcoal-surface": { "role": "neutral", "displayName": "Charcoal Surface", "canonical": "#1E1A22", "tonalRamp": ["#0A090B", "#141117", "#1E1A22", "#2C2731", "#413A46", "#5C5462", "#847C8C", "#B6B0BC"] },
+      "charcoal-surface-raised": { "role": "neutral", "displayName": "Charcoal Surface Raised", "canonical": "#27222C", "tonalRamp": ["#0E0C10", "#191620", "#27222C", "#37303D", "#4E4553", "#6C6272", "#948A9B", "#C3BBC7"] },
+      "ink-cream": { "role": "neutral", "displayName": "Cream Ink", "canonical": "#F3ECDD", "tonalRamp": ["#3D3628", "#5E543E", "#8A7C5D", "#B7A87F", "#DACCA5", "#F3ECDD", "#F8F3E9", "#FCFAF4"] },
+      "ink-cream-soft": { "role": "neutral", "displayName": "Cream Ink Soft", "canonical": "#A79E92", "tonalRamp": ["#2A2620", "#453F35", "#655C4D", "#847A69", "#A79E92", "#BFB8AE", "#D6D1CA", "#EDEAE6"] },
+      "ink-cream-faint": { "role": "neutral", "displayName": "Cream Ink Faint", "canonical": "#6E665C", "tonalRamp": ["#1A1815", "#2C2924", "#453F38", "#5A544A", "#6E665C", "#8C8578", "#B0AAA0", "#D5D1C9"] },
+      "cardstock": { "role": "neutral", "displayName": "Cardstock", "canonical": "#F2E9D8", "tonalRamp": ["#3E3419", "#5F4F27", "#8A7238", "#B79A50", "#D8C387", "#F2E9D8", "#F7F1E5", "#FBF8F1"] },
+      "cardstock-hi": { "role": "neutral", "displayName": "Cardstock Hi", "canonical": "#F8F1E3", "tonalRamp": ["#403619", "#615028", "#8D7439", "#BB9E52", "#DDC98D", "#F8F1E3", "#FAF5EA", "#FDFAF4"] },
+      "card-ink": { "role": "neutral", "displayName": "Card Ink", "canonical": "#211B16", "tonalRamp": ["#0B0908", "#130F0C", "#211B16", "#352B22", "#4F4032", "#6F5B47", "#988069", "#C9B7A5"] },
+      "card-ink-soft": { "role": "neutral", "displayName": "Card Ink Soft", "canonical": "#5B5248", "tonalRamp": ["#171412", "#26221D", "#3B342C", "#4A4239", "#5B5248", "#7B7166", "#A29688", "#C9C0B4"] },
+      "foil-gradient": { "role": "tertiary", "displayName": "Foil Stamp Gradient", "canonical": "linear-gradient(115deg, #6E5419 0%, #C9A64C 20%, #EBD08A 32%, #C9A64C 44%, #7A5E1E 62%, #B5924A 80%, #6E5419 100%)", "tonalRamp": ["#6E5419", "#846117", "#9A712A", "#B58539", "#C9A64C", "#D9BC6D", "#EBD08A", "#F5E4BE"] },
+      "caption-black": { "role": "neutral", "displayName": "Caption Black", "canonical": "#100E13", "tonalRamp": ["#000000", "#08070A", "#100E13", "#1D1A22", "#302B36", "#494150", "#69606F", "#948C9B"] },
+      "caption-ink": { "role": "neutral", "displayName": "Caption Ink", "canonical": "#FDF8EE", "tonalRamp": ["#3F3928", "#61573F", "#8D7F5D", "#B9AA80", "#DBCEA6", "#FDF8EE", "#FEFBF4", "#FFFEFA"] },
+      "caption-ink-soft": { "role": "neutral", "displayName": "Caption Ink Soft", "canonical": "#B8AF9F", "tonalRamp": ["#2E2B24", "#4A453B", "#6C665A", "#8E8779", "#B8AF9F", "#CBC4B9", "#DFDAD2", "#F2EFEA"] }
+    },
+    "typographyMeta": {
+      "display-kr": { "displayName": "Korean Display (Black Han Sans)", "purpose": "Hero headline (bilingual Korean+English lines) — the Korean face carries mixed-script headings, not a Latin display face." },
+      "card-term": { "displayName": "Card Term (Black Han Sans, foil-stamped)", "purpose": "The single hero Korean term on a card front, always paired with .foil-text." },
+      "headline": { "displayName": "Headline (Bricolage Grotesque)", "purpose": "Section headings, wordmark, UI voice." },
+      "body": { "displayName": "Body (Hanken Grotesk)", "purpose": "Definitions, example prose, general copy." },
+      "body-lead": { "displayName": "Body Lead (Hanken Grotesk)", "purpose": "Hero subhead beneath the search headline." },
+      "label": { "displayName": "Label (JetBrains Mono)", "purpose": "Category tags, section eyelabels, badges — uppercase mono, printed-metadata voice." },
+      "romanization": { "displayName": "Romanization (JetBrains Mono italic)", "purpose": "Romanized term display, source/timecode lines." }
+    },
+    "shadows": [
+      { "name": "card-lift-search", "value": "0 24px 60px -24px rgba(0,0,0,.5)", "purpose": "Resting elevation of the search-result flip card off the charcoal backdrop." },
+      { "name": "card-lift-word", "value": "0 28px 70px -28px rgba(0,0,0,.55)", "purpose": "Resting elevation of the word-template card object." },
+      { "name": "dropdown-lift", "value": "0 24px 60px -20px rgba(0,0,0,.6)", "purpose": "Search-result dropdown panel." },
+      { "name": "related-card-hover", "value": "0 14px 30px -16px rgba(0,0,0,.5)", "purpose": "Hover-only lift on related-word cards, paired with translateY(-2px)." },
+      { "name": "caption-bar-inset", "value": "inset 0 0 0 1px rgba(243,236,221,.06)", "purpose": "Hairline inner edge on the caption bar; keeps it reading as inset, not raised." },
+      { "name": "search-focus-glow", "value": "0 0 0 4px rgba(212,41,83,.16)", "purpose": "Structural focus response on the search box, paired with a garnet-bright border shift." }
+    ],
+    "motion": [
+      { "name": "ease-flip", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "System-wide easing: card flip, nav underline, chip/button hover, lang-switch state, related-card hover lift." },
+      { "name": "card-flip-duration", "value": "600ms", "purpose": "3D rotateY flip duration on the search-result card; disabled under prefers-reduced-motion." },
+      { "name": "play-pulse", "value": "playPulse 0.6s ease-in-out infinite (scale 1 to 1.18)", "purpose": "Playing-state pulse on the pronunciation play button." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "420px" },
+      { "name": "md", "value": "640px" },
+      { "name": "lg", "value": "860px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Card Object (Word Template)",
+      "kind": "custom",
+      "refersTo": "card-object",
+      "description": "The signature two-zone card: front (foil-stamped Korean term + romanization) and back (meaning + captioned example), divided by a static perforated seam. Never flip-gated on SEO-facing pages.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-front\"><span class=\"ds-card-tag\">Idol Essentials</span><div class=\"ds-card-term\">컴백</div><div class=\"ds-rom-row\"><button class=\"ds-play-btn\" aria-label=\"Play\"><svg viewBox=\"0 0 16 16\"><path d=\"M4 2.5v11l9-5.5-9-5.5z\" fill=\"currentColor\"/></svg></button><span class=\"ds-rom\">keom-baek</span></div></div><div class=\"ds-card-seam\"></div><div class=\"ds-card-back\"><h2 class=\"ds-eyelabel\">Meaning</h2><p class=\"ds-def\">A group or artist's new release along with its full promotion cycle.</p></div></div>",
+      "css": ".ds-card{background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\"),linear-gradient(160deg,#F2E9D8 0%,#F8F1E3 30%,#F2E9D8 100%);background-size:140px 140px,cover;background-blend-mode:multiply,normal;color:#211B16;border:1px solid rgba(33,27,22,.14);border-radius:16px;position:relative;overflow:hidden;box-shadow:0 28px 70px -28px rgba(0,0,0,.55);} .ds-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:#B21B3E;} .ds-card-front{padding:36px 36px 26px;} .ds-card-tag{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:rgba(180,146,63,.16);color:#7A6224;margin-bottom:18px;} .ds-card-term{font-family:'Black Han Sans',sans-serif;font-size:clamp(42px,8.5vw,62px);line-height:1;background-image:linear-gradient(115deg,#6E5419 0%,#C9A64C 20%,#EBD08A 32%,#C9A64C 44%,#7A5E1E 62%,#B5924A 80%,#6E5419 100%);-webkit-background-clip:text;background-clip:text;color:transparent;} .ds-rom-row{display:flex;align-items:center;gap:10px;margin-top:16px;} .ds-rom{font-family:'JetBrains Mono',monospace;font-style:italic;font-size:15.5px;color:#5B5248;} .ds-play-btn{width:34px;height:34px;border-radius:50%;background:#B21B3E;color:#fff;display:inline-flex;align-items:center;justify-content:center;border:none;cursor:pointer;transition:background .2s cubic-bezier(0.16,1,0.3,1);} .ds-play-btn svg{width:13px;height:13px;} .ds-play-btn:hover{background:#D42953;} .ds-card-seam{position:relative;height:1px;margin:0 28px;background:repeating-linear-gradient(90deg,rgba(33,27,22,.14) 0 8px,transparent 8px 16px);} .ds-card-back{padding:26px 36px 34px;} .ds-eyelabel{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:#B21B3E;margin-bottom:10px;} .ds-def{font-size:16.5px;font-weight:700;color:#211B16;line-height:1.6;}"
+    },
+    {
+      "name": "Caption Bar",
+      "kind": "custom",
+      "refersTo": "caption-bar",
+      "description": "Example sentence styled as a burned-in fansub video caption — a third material, distinct from both the charcoal chrome and the cardstock card it sits inside.",
+      "html": "<div class=\"ds-caption-bar\"><div class=\"ds-cap-kr\">\"다음 달에 우리 애들 컴백한대!\"</div><div class=\"ds-cap-trans\">&rarr; \"I heard our group is having a comeback next month!\"</div><div class=\"ds-cap-timecode\">Commonly seen on: Weverse notices, fan X/Twitter</div></div>",
+      "css": ".ds-caption-bar{background:#100E13;border-radius:10px;padding:16px 20px;box-shadow:inset 0 0 0 1px rgba(243,236,221,.06);} .ds-cap-kr{font-size:16px;font-weight:800;color:#FDF8EE;line-height:1.5;} .ds-cap-trans{margin-top:8px;font-size:13px;color:#B8AF9F;line-height:1.55;} .ds-cap-timecode{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.4px;color:#6E665C;margin-top:12px;}"
+    },
+    {
+      "name": "Search Box",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "The homepage search field: pill-cornered charcoal shell with a circular garnet submit button, structural focus glow.",
+      "html": "<div class=\"ds-search-box\"><div class=\"ds-search-inner\"><span class=\"ds-search-icon\"><svg viewBox=\"0 0 20 20\"><circle cx=\"9\" cy=\"9\" r=\"6.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"13.7\" y1=\"13.7\" x2=\"18\" y2=\"18\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg></span><input type=\"text\" placeholder=\"Search a word\"/><button class=\"ds-search-submit\" aria-label=\"Search\"><svg viewBox=\"0 0 20 20\"><path d=\"M4 10h11M11 5l5 5-5 5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button></div></div>",
+      "css": ".ds-search-box{background:#1E1A22;border:1.5px solid rgba(243,236,221,0.22);border-radius:14px;padding:4px;transition:border-color .2s cubic-bezier(0.16,1,0.3,1),box-shadow .2s cubic-bezier(0.16,1,0.3,1);} .ds-search-box:focus-within{border-color:#D42953;box-shadow:0 0 0 4px rgba(212,41,83,.16);} .ds-search-inner{display:flex;align-items:center;gap:12px;border-radius:10px;padding:6px 6px 6px 20px;} .ds-search-icon{color:#A79E92;display:flex;} .ds-search-icon svg{width:18px;height:18px;} .ds-search-inner input{flex:1;border:none;outline:none;background:transparent;font-family:'Hanken Grotesk',sans-serif;font-size:16px;font-weight:600;color:#F3ECDD;} .ds-search-inner input::placeholder{color:#A79E92;font-weight:500;opacity:.8;} .ds-search-submit{border:none;cursor:pointer;background:#B21B3E;color:#fff;width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background .2s cubic-bezier(0.16,1,0.3,1),transform .2s cubic-bezier(0.16,1,0.3,1);} .ds-search-submit svg{width:17px;height:17px;} .ds-search-submit:hover{background:#D42953;transform:translateY(-1px);} .ds-search-submit:focus-visible{outline:2px solid #D42953;outline-offset:3px;}"
+    },
+    {
+      "name": "Category Tag Chip",
+      "kind": "chip",
+      "refersTo": "chip-category-tag",
+      "description": "Brass-tinted metadata badge, reused for search-result category chips and word-page category pills.",
+      "html": "<span class=\"ds-chip\">Idol Essentials</span>",
+      "css": ".ds-chip{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:rgba(180,146,63,.16);color:#7A6224;}"
+    },
+    {
+      "name": "CTA Buttons (Primary/Secondary)",
+      "kind": "button",
+      "refersTo": "cta-primary",
+      "description": "Pill-radius call-to-action pair on the word template: garnet-filled primary, hairline-bordered secondary.",
+      "html": "<div class=\"ds-cta-row\"><a class=\"ds-cta ds-cta-primary\" href=\"#\">Browse more words</a><a class=\"ds-cta ds-cta-secondary\" href=\"#\">Search the full dictionary</a></div>",
+      "css": ".ds-cta-row{display:flex;gap:14px;flex-wrap:wrap;} .ds-cta{font-weight:700;font-size:13.5px;padding:12px 22px;border-radius:999px;transition:all .2s cubic-bezier(0.16,1,0.3,1);text-decoration:none;} .ds-cta-primary{background:#B21B3E;color:#fff;} .ds-cta-primary:hover{background:#D42953;} .ds-cta-secondary{background:rgba(33,27,22,.06);color:#211B16;border:1px solid rgba(33,27,22,.14);} .ds-cta-secondary:hover{border-color:#B21B3E;} .ds-cta:focus-visible{outline:2px solid #D42953;outline-offset:3px;}"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "nav",
+      "refersTo": "chip-lang-switch-active",
+      "description": "Pill-shaped segmented language control (desktop); collapses to a styled native select below 860px.",
+      "html": "<div class=\"ds-lang-switch\"><button class=\"ds-lang-btn ds-active\">EN</button><button class=\"ds-lang-btn\">ES</button><button class=\"ds-lang-btn\">繁</button><button class=\"ds-lang-btn\">简</button><button class=\"ds-lang-btn\">日</button></div>",
+      "css": ".ds-lang-switch{display:flex;align-items:center;background:#1E1A22;border:1px solid rgba(243,236,221,0.12);border-radius:999px;padding:3px;} .ds-lang-btn{border:none;cursor:pointer;background:transparent;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;padding:6px 9px;border-radius:999px;color:#A79E92;transition:all .2s cubic-bezier(0.16,1,0.3,1);} .ds-lang-btn:hover{color:#F3ECDD;} .ds-lang-btn.ds-active{background:#B21B3E;color:#fff;} .ds-lang-btn:focus-visible{outline:2px solid #D42953;outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Photocard Pull",
+    "overview": "HelloKSlang is built as a photocard binder, not a search-engine results page. Every lookup is a pull: a single card resolves out of a dark, gallery-lit backdrop, printed on warm cardstock with an ecru fiber grain, foil-stamped on its one hero term, and read across two zones — the name on the front, the story on the back. The build's own direction contract states its refusal plainly: neither the pastel-hologram-photocard cliché (soft gradients, sparkle, holographic sheen everywhere) nor its opposite, the generic clean-SaaS-dictionary look. It also deliberately steers away from the near-black-plus-neon-glow \"AI dark mode\" that a slang/AI-adjacent product could easily default to — the backdrop here reads as studio darkness behind a physical object, not ambient glow.\n\nThe system is genuinely bi-material: a charcoal, backlit \"photography backdrop\" world for site chrome (nav, search, footer), and a warm, textured \"cardstock\" world for the one recurring object that is the whole product — the word card. The two zones never blend into each other; the card is always a discrete printed object sitting in front of a dark room, not a panel embedded in the page.\n\nGarnet is the single committed interactive/ink accent across both materials; brass is reserved for category and status labels; the foil-stamp gradient is spent on exactly one thing per card — the hero Korean term — and nowhere else. This scarcity is deliberate and load-bearing, not an oversight.",
+    "keyCharacteristics": [
+      "A dark charcoal chrome layer and a warm ecru cardstock card layer, never merged into one flat surface",
+      "Fractal-noise grain, multiplied into the card fill, standing in for gradients wherever \"material\" is being claimed",
+      "One foil-stamp treatment, spent on one hero term per card, nowhere else",
+      "Card-cornered radii (14–16px) everywhere the card system itself lives; pill radii (999px) reserved for UI chrome (nav, tags, buttons)",
+      "Two build-specific realizations of the same card object: a 3D flip on the interactive search surface, a static perforated seam on the SEO-facing word template"
+    ],
+    "rules": [
+      { "name": "The Grain, Not Gradient Rule", "body": "Card surfaces get their material read from a multiplied fractal-noise SVG texture blended over a two-stop gradient (background-blend-mode: multiply), never a flat or unblended gradient alone. This was a specific fix after review flagged flat gradients as insufficiently material — the grain is what makes the card read as printed stock rather than a colored panel.", "section": "colors" },
+      { "name": "The One Foil Rule", "body": "The foil-stamp gradient is spent on exactly one element per card: the hero Korean term. It is never applied to body text, buttons, or more than one heading per card. An earlier version added a repeating hairline overlay on top of the gradient and it was reverted — it aliased against thin Hangul strokes at small sizes and made whole glyphs read as a solid block.", "section": "colors" },
+      { "name": "The Garnet-Acts, Brass-Labels Rule", "body": "Garnet is reserved for interactive/action affordances (buttons, active states, focus, links). Brass is reserved for passive metadata (category tags, badges, status labels). The two accents are never swapped in role.", "section": "colors" },
+      { "name": "The Korean-Carries-Bilingual-Type Rule", "body": "Any heading that mixes Korean and Latin script in one line (the hero tagline, the card term) is set entirely in Black Han Sans, not split across two font families.", "section": "typography" },
+      { "name": "The One Light Source Rule", "body": "Depth comes from a single implied overhead light (the vignette plus the card's downward shadow), never from multiple colored glows or ambient blur blobs. This is the specific device the direction contract uses to keep the dark backdrop from reading as the \"neon AI dark mode\" cliché it was built to avoid.", "section": "elevation" },
+      { "name": "The Card Corners, Not Pills Rule", "body": "Anything that is the card system itself uses moderate rounding (16px card, 12px related-card, 10px caption bar). Anything that is UI chrome uses full pill radii (999px) or 14px. Never mixed within one element.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do build card material from a multiplied fractal-noise grain over a gradient, never a flat or unblended gradient (background-blend-mode: multiply).",
+      "Do reserve the foil-stamp gradient for exactly one hero term per card.",
+      "Do use garnet for action/interactive elements and brass for passive metadata labels — never swap the two roles.",
+      "Do use card-style moderate radii (14–16px) for the card system and full pill radii (999px) for UI chrome; never blend the two within one element.",
+      "Do author all icons (search, play, menu, arrow, dropdown chevron) as inline SVG.",
+      "Do keep the word-template card's front/back zones both statically visible (no flip gate) since those pages are SEO/crawler-facing; reserve the JS-triggered 3D flip for the interactive search result only."
+    ],
+    "donts": [
+      "Don't use unicode emoji as functional icons anywhere in the system — every icon in the shipped build is inline SVG.",
+      "Don't add colored left/right border accents to cards. The build's own accent device is a top-edge stripe (::before, 3px, garnet) — not a side rail — and that is the only border-accent form the system uses.",
+      "Don't default to the near-black-plus-neon-glow \"AI dark mode\" look. Depth here comes from one implied overhead light source (vignette + card shadow), not colored ambient glow.",
+      "Don't apply the foil-stamp gradient to more than one element per card, or add a repeating hairline texture on top of it — a hairline+gradient version was built and reverted because it broke Hangul glyph legibility at small sizes.",
+      "Don't revert to the prior identity's fully-pill/rounded-999px card language. Pills are for UI chrome only; the card object itself is deliberately more grounded (14–16px)."
+    ]
+  }
+}

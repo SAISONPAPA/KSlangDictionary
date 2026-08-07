@@ -28,211 +28,357 @@
 <meta name="twitter:image" content="https://hellokslang.com/assets/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "DefinedTerm", "name": "계약연애 (gye-yak-yeon-ae)", "description": "A fake \"contract relationship\" arranged for practical reasons — a very common K-drama plot device.", "inDefinedTermSet": {"@type": "DefinedTermSet", "name": "HelloKSlang Dictionary"}}
 </script>
 <style>
 
   :root{
-    --bg: #0D0817;
-    --surface: #17111F;
-    --surface-2: #1E1729;
-    --line: #2E2440;
-    --ink: #F6F2FB;
-    --ink-soft: #A99FBD;
-    --pink: #FF3D9A;
-    --violet: #A855F7;
-    --cyan: #38BDF8;
-    --gold: #FBBF24;
-    --holo: linear-gradient(115deg, #FF3D9A 0%, #A855F7 25%, #38BDF8 50%, #FBBF24 75%, #FF3D9A 100%);
-    --display: 'Black Han Sans', sans-serif;
-    --body: 'Plus Jakarta Sans', sans-serif;
+    --bg: #151217;
+    --surface: #1E1A22;
+    --surface-2: #27222C;
+    --line: rgba(243,236,221,0.12);
+    --line-strong: rgba(243,236,221,0.22);
+    --ink: #F3ECDD;
+    --ink-soft: #A79E92;
+    --ink-faint: #6E665C;
+
+    --card-face: #F2E9D8;
+    --card-face-hi: #F8F1E3;
+    --card-ink: #211B16;
+    --card-ink-soft: #5B5248;
+    --card-line: rgba(33,27,22,.14);
+
+    --garnet: #B21B3E;
+    --garnet-bright: #D42953;
+    --brass: #B4923F;
+    --brass-soft: rgba(180,146,63,.16);
+
+    --radius-card: 16px;
+    --radius-ui: 14px;
+    --ease-flip: cubic-bezier(0.16, 1, 0.3, 1);
+
+    --font-kr: 'Black Han Sans', sans-serif;
+    --display: 'Bricolage Grotesque', sans-serif;
+    --body: 'Hanken Grotesk', sans-serif;
     --mono: 'JetBrains Mono', monospace;
   }
   *{ box-sizing: border-box; margin:0; padding:0; }
   body{
     background: var(--bg); color: var(--ink); font-family: var(--body);
+    font-size: 16px; line-height: 1.5;
     -webkit-font-smoothing: antialiased; overflow-x: hidden; position: relative;
   }
-  body::before, body::after{
-    content:""; position:fixed; width: 420px; height: 420px; border-radius:50%;
-    filter: blur(140px); opacity:.22; z-index:0; pointer-events:none;
+  body::before{
+    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+    background: radial-gradient(120% 90% at 50% 8%, rgba(255,255,255,.05), rgba(0,0,0,0) 55%),
+                radial-gradient(140% 100% at 50% 100%, rgba(0,0,0,.35), rgba(0,0,0,0) 60%);
   }
-  body::before{ background: var(--pink); top:-120px; left:-120px; }
-  body::after{ background: var(--cyan); bottom:-140px; right:-120px; }
   a{ color:inherit; text-decoration:none; }
+  ::selection{ background: var(--garnet); color: var(--card-face-hi); }
+  :focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 3px; border-radius: 4px; }
   .wrap{ max-width: 860px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 1; }
-  @keyframes holoShift{ 0%,100%{ background-position: 0% 50%; } 50%{ background-position: 100% 50%; } }
-  @keyframes playPulse{ 0%,100%{ transform: scale(1); } 50%{ transform: scale(1.18); } }
   @media (prefers-reduced-motion: reduce){ *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; } }
 
   header{
     position: sticky; top: 0; z-index: 50;
-    background: rgba(13,8,23,0.72); backdrop-filter: blur(14px);
+    background: rgba(21,18,23,0.86); backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--line);
   }
-  .nav{ display:flex; align-items:center; justify-content:space-between; height: 76px; max-width:1180px; margin:0 auto; padding:0 28px; }
-  .logo{ display:flex; align-items:center; gap: 8px; font-family: var(--display); font-size: 24px; letter-spacing: 0.5px; }
-  .logo .dot{ color: var(--pink); }
+  .nav{ display:flex; align-items:center; justify-content:space-between; height: 76px; max-width:1180px; margin:0 auto; padding:0 28px; gap:20px; }
+  .logo{ display:flex; align-items:center; gap: 8px; font-family: var(--display); font-weight:700; font-size: 22px; }
+  .logo .dot{ color: var(--garnet-bright); }
   .logo-badge{
     font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
-    color: var(--violet); background: rgba(168,85,247,.15); border: 1px solid rgba(168,85,247,.4);
+    color: var(--brass); background: var(--brass-soft); border: 1px solid rgba(180,146,63,.35);
     padding: 3px 8px; border-radius: 999px; white-space: nowrap;
   }
   .nav-links{ display:flex; gap: 28px; font-weight: 600; font-size: 14px; color: var(--ink-soft); }
+  .nav-links a{ position:relative; padding:6px 0; transition:color .2s var(--ease-flip); }
   .nav-links a:hover{ color: var(--ink); }
+  .nav-links a::after{
+    content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px;
+    background: var(--garnet-bright); transform: scaleX(0); transform-origin:left;
+    transition: transform .25s var(--ease-flip);
+  }
+  .nav-links a:hover::after{ transform: scaleX(1); }
+
+  .nav-right{ display:flex; align-items:center; gap:14px; }
+  .lang-switch{ display:flex; align-items:center; background: var(--surface); border:1px solid var(--line); border-radius:999px; padding:3px; }
+  .lang-switch button{
+    border:none; cursor:pointer; background:transparent; font-family: var(--mono); font-size:11px; font-weight:700;
+    padding:6px 9px; border-radius:999px; color: var(--ink-soft); transition: all .2s var(--ease-flip); white-space:nowrap;
+  }
+  .lang-switch button.active{ background: var(--garnet); color:#fff; }
+  .lang-switch button:not(.active):hover{ color: var(--ink); }
+  .lang-select{
+    display:none; background: var(--surface); border:1px solid var(--line); border-radius:999px;
+    padding:7px 26px 7px 12px; color: var(--ink); font-family: var(--mono); font-size:12px; font-weight:700;
+    cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A79E92' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position: right 10px center;
+  }
+  .lang-select option{ background: var(--surface); color: var(--ink); }
+
   .menu-toggle{
     display:none; width: 38px; height: 38px; align-items:center; justify-content:center;
     border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
-    font-size: 16px; cursor:pointer; flex-shrink:0;
+    cursor:pointer; flex-shrink:0;
   }
-  .menu-toggle:hover{ border-color: var(--pink); }
+  .menu-toggle:hover{ border-color: var(--garnet-bright); }
+  .menu-toggle svg{ width:18px; height:18px; }
   .mobile-menu{ display:none; flex-direction:column; background: var(--surface); border-top: 1px solid var(--line); padding: 6px 28px 18px; }
   .mobile-menu.open{ display:flex; }
   .mobile-menu a{ padding: 14px 0; font-weight: 700; font-size: 15px; color: var(--ink); border-bottom: 1px solid var(--line); }
   .mobile-menu a:last-child{ border-bottom:none; }
 
   main{ padding: 44px 0 60px; }
-  .back-link{ display:inline-flex; align-items:center; gap: 6px; font-size: 13.5px; font-weight: 700; color: var(--violet); margin-bottom: 26px; }
+  .back-link{ display:inline-flex; align-items:center; gap: 6px; font-size: 13.5px; font-weight: 700; color: var(--brass); margin-bottom: 26px; }
   .back-link:hover{ text-decoration: underline; }
   .cat-pill{
-    display:inline-block; font-size: 11px; font-weight:700; letter-spacing:.4px; text-transform:uppercase;
-    padding: 5px 12px; border-radius: 999px; background: rgba(168,85,247,.15); color: var(--violet); margin-bottom: 18px;
+    display:inline-block; font-family: var(--mono); font-size: 11px; font-weight:700; letter-spacing:.4px; text-transform:uppercase;
+    padding: 5px 12px; border-radius: 999px; background: var(--brass-soft); color: var(--brass); margin-bottom: 18px;
   }
-  .cat-pill:hover{ background: rgba(168,85,247,.28); }
+  .cat-pill:hover{ background: rgba(180,146,63,.28); }
 
-  .word-card{
-    background: var(--surface); border: 1px solid var(--line); border-radius: 22px;
-    padding: 36px; position: relative; overflow: hidden;
+  /* ---------- the card: one object, front zone on top, back zone below a
+     perforated seam — both always visible, never gated behind a flip, so
+     the page is legible to a crawler and instant to a reader ---------- */
+  .card-object{
+    /* cardstock: fractal-noise grain multiplied into the fill, not a flat
+       color ramp — the fiber texture of a printed card, not a gradient */
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 30%, var(--card-face) 100%);
+    background-size: 140px 140px, cover;
+    background-blend-mode: multiply, normal;
+    color: var(--card-ink);
+    border: 1px solid var(--card-line);
+    border-radius: var(--radius-card);
+    overflow: hidden;
+    box-shadow: 0 28px 70px -28px rgba(0,0,0,.55);
+    position: relative;
   }
-  .word-card::before{
-    content:""; position:absolute; top:0; left:0; right:0; height: 3px;
-    background: var(--holo); background-size: 300% 300%; animation: holoShift 6s ease infinite;
+  .card-object::before{
+    content:""; position:absolute; top:0; left:0; right:0; height: 3px; background: var(--garnet);
   }
-  .kr-huge{ font-family: var(--display); font-size: clamp(44px, 9vw, 64px); line-height:1; color: var(--ink); }
-  .rom-row{ display:flex; align-items:center; gap: 10px; margin-top: 12px; }
-  .rom-row .rom{ font-family: var(--mono); font-size: 16px; color: var(--ink-soft); }
+  .card-front-zone{ padding: 36px 36px 26px; }
+  .card-tag{
+    display:inline-block; font-family: var(--mono); font-size: 10.5px; font-weight:700; letter-spacing:.4px; text-transform:uppercase;
+    padding: 4px 10px; border-radius: 999px; background: var(--brass-soft); color: #7A6224; margin-bottom: 18px;
+  }
+  /* foil stamp: an engraved metallic fill (fine hairline + brass gradient),
+     not a plain gradient wash — reserved for the one hero term per card */
+  .foil-text{
+    /* metallic multi-stop gradient only — a repeating hairline overlay was
+       tried and dropped: it aliased against thin Hangul strokes at small
+       sizes and made whole glyphs read as a solid block. Dark stops are
+       kept deep enough to hold contrast against the cardstock ground. */
+    background-image: linear-gradient(115deg, #6E5419 0%, #C9A64C 20%, #EBD08A 32%, #C9A64C 44%, #7A5E1E 62%, #B5924A 80%, #6E5419 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .kr-huge{ font-family: var(--font-kr); font-size: clamp(42px, 8.5vw, 62px); line-height:1; }
+  .rom-row{ display:flex; align-items:center; gap: 10px; margin-top: 16px; }
+  .rom-row .rom{ font-family: var(--mono); font-style: italic; font-size: 15.5px; color: var(--card-ink-soft); }
   .play-btn{
-    width: 34px; height:34px; border-radius:50%; background: var(--pink); color:#fff;
+    width: 34px; height:34px; border-radius:50%; background: var(--garnet); color:#fff;
     display:inline-flex; align-items:center; justify-content:center; cursor:pointer; flex-shrink:0;
-    transition: background .2s ease; border: none; font-size: 13px;
+    transition: background .2s var(--ease-flip); border: none;
   }
-  .play-btn:hover{ background: var(--violet); }
-  .play-btn.playing{ background: var(--violet); animation: playPulse .6s ease-in-out infinite; }
+  .play-btn svg{ width:13px; height:13px; }
+  .play-btn:hover{ background: var(--garnet-bright); }
+  .play-btn.playing{ background: var(--garnet-bright); animation: playPulse .6s ease-in-out infinite; }
+  @keyframes playPulse{ 0%,100%{ transform: scale(1); } 50%{ transform: scale(1.18); } }
 
-  .meaning-block{ margin-top: 28px; }
-  .meaning-block h2{ font-family: var(--mono); font-size: 11.5px; letter-spacing:1.2px; text-transform:uppercase; color: var(--pink); margin-bottom: 8px; }
-  .meaning-block p{ font-size: 16px; font-weight:600; color: var(--ink); line-height:1.6; }
-  .meaning-es{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
-  .meaning-zh{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
-  .meaning-cn{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
-  .meaning-ja{ margin-top: 6px; font-size: 14px; color: var(--ink-soft); font-weight:500; line-height:1.6; }
-
-  .example-block{
-    margin-top: 24px; background: var(--surface-2); border-left: 3px solid var(--pink);
-    padding: 16px 20px; border-radius: 0 12px 12px 0;
+  /* the seam — a perforated tear line between the card's two zones */
+  .card-seam{
+    position:relative; height:1px; margin: 0 28px;
+    background: repeating-linear-gradient(90deg, var(--card-line) 0 8px, transparent 8px 16px);
   }
-  .example-block .ex-kr{ font-size: 15px; font-weight:700; color: var(--ink); }
-  .example-block .ex-trans{ margin-top: 6px; font-size: 13.5px; color: var(--ink-soft); }
-  .example-block .ex-trans + .ex-trans{ margin-top: 3px; }
-
-  .source-note{ margin-top: 20px; font-family: var(--mono); font-size: 12px; color: var(--ink-soft); }
-
-  .cta-row{ margin-top: 32px; display:flex; gap: 14px; flex-wrap:wrap; }
-  .cta-btn{
-    font-weight: 700; font-size: 13.5px; padding: 12px 22px; border-radius: 999px; transition: all .2s;
+  .card-seam::before, .card-seam::after{
+    content:""; position:absolute; top:50%; width:16px; height:16px; border-radius:50%;
+    background: var(--bg); transform: translateY(-50%);
   }
-  .cta-primary{ background: var(--pink); color:#fff; }
-  .cta-primary:hover{ background: var(--violet); }
-  .cta-secondary{ background: var(--surface-2); color: var(--ink); border: 1px solid var(--line); }
-  .cta-secondary:hover{ border-color: var(--pink); }
+  .card-seam::before{ left:-36px; }
+  .card-seam::after{ right:-36px; }
+
+  .card-back-zone{ padding: 26px 36px 34px; }
+  .meaning-block h2{ font-family: var(--mono); font-size: 11px; letter-spacing:1.2px; text-transform:uppercase; color: var(--garnet); margin-bottom: 10px; }
+  .meaning-block p{ font-size: 16.5px; font-weight:700; color: var(--card-ink); line-height:1.6; }
+  .meaning-es, .meaning-zh, .meaning-cn, .meaning-ja{ margin-top: 7px; font-size: 14px; color: var(--card-ink-soft); font-weight:500; line-height:1.6; }
+
+  /* the caption bar — the example sentence rendered like a burned-in
+     fansub caption, since captioning real usage is the whole product */
+  .caption-block{ margin-top: 26px; }
+  .caption-block h2{ font-family: var(--mono); font-size: 11px; letter-spacing:1.2px; text-transform:uppercase; color: var(--garnet); margin-bottom: 10px; }
+  .caption-bar{
+    background: #100E13; border-radius: 10px; padding: 16px 20px;
+    box-shadow: inset 0 0 0 1px rgba(243,236,221,.06);
+  }
+  .caption-bar .cap-kr{ font-size: 16px; font-weight:800; color: #FDF8EE; line-height:1.5; }
+  .caption-bar .cap-trans{ margin-top: 8px; font-size: 13px; color: #B8AF9F; line-height:1.55; }
+  .caption-bar .cap-trans + .cap-trans{ margin-top: 4px; }
+  .caption-bar .cap-timecode{ font-family: var(--mono); font-size: 10px; letter-spacing:.4px; color: #6E665C; margin-top: 12px; }
+
+  .cta-row{ margin-top: 30px; display:flex; gap: 14px; flex-wrap:wrap; }
+  .cta-btn{ font-weight: 700; font-size: 13.5px; padding: 12px 22px; border-radius: 999px; transition: all .2s var(--ease-flip); }
+  .cta-primary{ background: var(--garnet); color:#fff; }
+  .cta-primary:hover{ background: var(--garnet-bright); }
+  .cta-secondary{ background: rgba(33,27,22,.06); color: var(--card-ink); border: 1px solid var(--card-line); }
+  .cta-secondary:hover{ border-color: var(--garnet); }
 
   .related{ margin-top: 48px; }
-  .related h3{ font-family: var(--display); font-size: 20px; margin-bottom: 16px; color: var(--ink); }
+  .related h3{ font-family: var(--display); font-weight:700; font-size: 19px; margin-bottom: 16px; color: var(--ink); }
   .related-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .related-card{
-    background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; transition: border-color .2s;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 100%);
+    background-size: 140px 140px, cover;
+    background-blend-mode: multiply, normal;
+    border: 1px solid var(--card-line); border-radius: 12px; padding: 16px 18px; transition: transform .15s var(--ease-flip), box-shadow .15s var(--ease-flip);
   }
-  .related-card:hover{ border-color: var(--pink); }
-  .related-card .r-kr{ font-family: var(--display); font-size: 19px; color: var(--ink); }
-  .related-card .r-gloss{ margin-top: 4px; font-size: 12px; color: var(--ink-soft); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .related-card:hover{ transform: translateY(-2px); box-shadow: 0 14px 30px -16px rgba(0,0,0,.5); }
+  .related-card .r-kr{ font-family: var(--font-kr); font-size: 19px; color: var(--card-ink); }
+  .related-card .r-gloss{ margin-top: 4px; font-size: 12px; color: var(--card-ink-soft); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
   footer{ margin-top: 40px; border-top: 1px solid var(--line); padding: 32px 0; position: relative; z-index: 1; }
   .foot-row{ max-width:1180px; margin:0 auto; padding:0 28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 14px; }
-  .foot-logo{ font-family: var(--display); font-size: 17px; color: var(--ink); }
+  .foot-logo{ font-family: var(--display); font-weight:700; font-size: 16px; color: var(--ink); }
   .foot-tag{ font-size: 12.5px; color: var(--ink-soft); margin-top:4px; max-width: 440px; }
+  .foot-links{ display:flex; gap:18px; flex-wrap:wrap; }
+  .foot-links a{ font-size:12.5px; color:var(--ink-soft); font-weight:600; }
+  .foot-links a:hover{ color: var(--ink); }
 
   @media (max-width: 640px){
     .nav-links{ display:none; }
     .menu-toggle{ display:flex; }
-    .word-card{ padding: 24px; }
+    .lang-switch{ display:none; }
+    .lang-select{ display:block; }
+    .card-front-zone{ padding: 24px 22px 18px; }
+    .card-back-zone{ padding: 18px 22px 26px; }
+    .card-seam{ margin: 0 18px; }
+    .card-seam::before{ left:-27px; }
+    .card-seam::after{ right:-27px; }
     .related-grid{ grid-template-columns: 1fr; }
+  }
+  @media (max-width: 420px){
+    .logo-badge{ display:none; }
   }
 </style>
 </head>
 <body>
+<!--
+  DIRECTION CONTRACT
+  THESIS: The dictionary is a photocard binder — every entry is a two-sided
+  card. Refuses both the pastel-hologram photocard cliche and the generic
+  clean-SaaS-dictionary opposite.
+  OWN-WORLD: Charcoal card-photography backdrop (#151217); ecru cardstock
+  card face (#F2E9D8, fractal-noise grain multiplied into the fill, not a
+  flat gradient); garnet foil (#B21B3E) as the committed accent; brass foil
+  (#B4923F) for stat labels; an engraved foil-stamp treatment reserved for
+  the hero term. Black Han Sans (Korean term), Bricolage Grotesque (Latin
+  display/UI), Hanken Grotesk (body), JetBrains Mono (romanization). Card
+  corners, not pills.
+  STORY: A fan arrives already holding one word. The card shows its name on
+  top, its full story below a static seam — no flip gate, so the page stays
+  legible to a crawler and instant to a reader. The example sentence renders
+  as a burned-in fansub caption. The site's language toggle carries over to
+  this page's chrome; stacked multi-language content stays always-visible.
+  FIRST VIEWPORT: category tag, then the card: term, seam, romanization +
+  meanings + captioned example.
+  FORM: word-template candidate 6/7, seed ae84ab06, "Show-and-Tell Caption
+  Card", inside the world assigned by seed 15184609 (candidate 4/7).
+  FINISH: unreviewed and undocumented is unfinished; this build ends with
+  the finish review, the verdict, and DESIGN.md.
+-->
 
 <header>
   <div class="nav">
-    <a href="../index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge">Dictionary</span></a>
+    <a href="../index.html" class="logo"><span>HelloKSlang</span><span class="dot">.</span><span class="logo-badge" data-en="Dictionary" data-es="Diccionario" data-zh="詞典" data-cn="词典" data-ja="辞書">Dictionary</span></a>
     <nav class="nav-links">
-      <a href="../index.html#dictionary">사전 Dictionary</a>
-      <a href="../whatsnew.html">신규 What's New</a>
-      <a href="../category.html">카테고리 Categories</a>
-      <a href="../trending.html">대세 Popular</a>
-      <a href="../submit.html">제보하기 Submit a word</a>
+      <a href="../index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典" data-ja="사전 辞書">사전 Dictionary</a>
+      <a href="../whatsnew.html" data-en="신규 What&#x27;s New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息" data-ja="신규 新着">신규 What's New</a>
+      <a href="../category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类" data-ja="카테고리 カテゴリー">카테고리 Categories</a>
+      <a href="../trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门" data-ja="대세 人気">대세 Popular</a>
+      <a href="../submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇" data-ja="제보하기 単語を送る">제보하기 Submit a word</a>
     </nav>
-    <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu">☰</button>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+        <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
+        <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">繁</button>
+        <button class="lang-btn" data-lang="cn" onclick="setLang('cn')">简</button>
+        <button class="lang-btn" data-lang="ja" onclick="setLang('ja')">日</button>
+      </div>
+      <select class="lang-select" id="langSelect" onchange="setLang(this.value)" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="zh">繁</option>
+        <option value="cn">简</option>
+        <option value="ja">日</option>
+      </select>
+      <button class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()" aria-label="Menu"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg></button>
+    </div>
   </div>
   <div class="mobile-menu" id="mobileMenu">
-    <a href="../index.html#dictionary">사전 Dictionary</a>
-    <a href="../whatsnew.html">신규 What's New</a>
-    <a href="../category.html">카테고리 Categories</a>
-    <a href="../trending.html">대세 Popular</a>
-    <a href="../submit.html">제보하기 Submit a word</a>
+    <a href="../index.html#dictionary" data-en="사전 Dictionary" data-es="사전 Diccionario" data-zh="사전 詞典" data-cn="사전 词典" data-ja="사전 辞書">사전 Dictionary</a>
+    <a href="../whatsnew.html" data-en="신규 What&#x27;s New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息" data-ja="신규 新着">신규 What's New</a>
+    <a href="../category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类" data-ja="카테고리 カテゴリー">카테고리 Categories</a>
+    <a href="../trending.html" data-en="대세 Popular" data-es="대세 Popular" data-zh="대세 熱門" data-cn="대세 热门" data-ja="대세 人気">대세 Popular</a>
+    <a href="../submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇" data-ja="제보하기 単語を送る">제보하기 Submit a word</a>
   </div>
 </header>
 
 <main class="wrap">
-  <a href="../index.html" class="back-link">&larr; Back to K-Slang Dictionary</a>
-  <a href="../category.html?cat=Dating%20%26%20Romance" class="cat-pill">연애 · 썸 표현 · Dating &amp; Romance</a>
+  <a href="../index.html" class="back-link" data-en="← Back to K-Slang Dictionary" data-es="← Volver al diccionario" data-zh="← 返回詞典" data-cn="← 返回词典" data-ja="← 辞書に戻る">&larr; Back to K-Slang Dictionary</a>
+  <a href="../category.html?cat=Dating%20%26%20Romance" class="cat-pill" data-en="연애 · 썸 표현 · Dating &amp; Romance" data-es="연애 · 썸 표현 · Citas y romance" data-zh="연애 · 썸 표현 · 戀愛與曖昧" data-cn="연애 · 썸 표현 · 恋爱与暧昧" data-ja="연애 · 썸 표현 · 恋愛表現">연애 · 썸 표현 · Dating &amp; Romance</a>
 
-  <div class="word-card">
-    <div class="kr-huge">계약연애</div>
-    <div class="rom-row">
-      <button class="play-btn" onclick="playPronunciation('계약연애', this)" aria-label="Play pronunciation">▶</button>
-      <span class="rom">gye-yak-yeon-ae</span>
+  <div class="card-object">
+    <div class="card-front-zone">
+      <span class="card-tag">Dating &amp; Romance</span>
+      <div class="kr-huge foil-text">계약연애</div>
+      <div class="rom-row">
+        <button class="play-btn" onclick="playPronunciation('계약연애', this)" aria-label="Play pronunciation"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5-9-5.5z" fill="currentColor"/></svg></button>
+        <span class="rom">gye-yak-yeon-ae</span>
+      </div>
     </div>
 
-    <div class="meaning-block">
-      <h2>Meaning</h2>
-      <p>A fake &quot;contract relationship&quot; arranged for practical reasons — a very common K-drama plot device.</p>
-      <p class="meaning-es">Una falsa &quot;relación por contrato&quot; arreglada por razones prácticas, un recurso argumental muy común en K-dramas.</p>
+    <div class="card-seam" aria-hidden="true"></div>
+
+    <div class="card-back-zone">
+      <div class="meaning-block">
+        <h2 data-en="Meaning" data-es="Significado" data-zh="意思" data-cn="意思" data-ja="意味">Meaning</h2>
+        <p>A fake &quot;contract relationship&quot; arranged for practical reasons — a very common K-drama plot device.</p>
+        <p class="meaning-es">Una falsa &quot;relación por contrato&quot; arreglada por razones prácticas, un recurso argumental muy común en K-dramas.</p>
       <p class="meaning-zh" lang="zh-Hant">因現實考量而假裝交往的「契約戀愛」，是韓劇非常常見的劇情設定。</p>
       <p class="meaning-cn" lang="zh-Hans">因现实考量而假装交往的“契约恋爱”，是韩剧非常常见的剧情设置。</p>
       <p class="meaning-ja" lang="ja">現実的な理由で仕組まれた偽の「契約恋愛」——韓国ドラマで非常によくある設定。</p>
-    </div>
+      </div>
 
-    <div class="example-block">
-      <div class="ex-kr">"이 드라마 계약연애물이야."</div>
-      <div class="ex-trans">→ "This drama is a contract-relationship story."</div>
-      <div class="ex-trans">→ "Este drama es de esos con relación por contrato."</div>
-      <div class="ex-trans" lang="zh-Hant">→ "這部劇是契約戀愛劇情。"</div>
-      <div class="ex-trans" lang="zh-Hans">→ "这部剧是契约恋爱剧情。"</div>
-      <div class="ex-trans" lang="ja">→ "このドラマ、契約恋愛ものだよ。"</div>
-    </div>
+      <div class="caption-block">
+        <h2 data-en="Real usage" data-es="Uso real" data-zh="實際用法" data-cn="实际用法" data-ja="実際の使い方">Real usage</h2>
+        <div class="caption-bar">
+          <div class="cap-kr">"이 드라마 계약연애물이야."</div>
+          <div class="cap-trans">→ "This drama is a contract-relationship story."</div>
+          <div class="cap-trans">→ "Este drama es de esos con relación por contrato."</div>
+        <div class="cap-trans" lang="zh-Hant">→ "這部劇是契約戀愛劇情。"</div>
+        <div class="cap-trans" lang="zh-Hans">→ "这部剧是契约恋爱剧情。"</div>
+        <div class="cap-trans" lang="ja">→ "このドラマ、契約恋愛ものだよ。"</div>
+          <div class="cap-timecode"><span data-en="Commonly seen on:" data-es="Uso frecuente en:" data-zh="常見於：" data-cn="常见于：" data-ja="よく見られる場所：">Commonly seen on:</span> K-drama genre talk</div>
+        </div>
+      </div>
 
-    <div class="source-note">Commonly seen on: K-drama genre talk</div>
-
-    <div class="cta-row">
-      <a href="../category.html?cat=Dating%20%26%20Romance" class="cta-btn cta-primary">Browse more Dating &amp; Romance words</a>
-      <a href="../index.html#dictionary" class="cta-btn cta-secondary">Search the full dictionary</a>
+      <div class="cta-row">
+        <a href="../category.html?cat=Dating%20%26%20Romance" class="cta-btn cta-primary" data-en="Browse more Dating &amp; Romance words" data-es="Ver más palabras de Citas y romance" data-zh="瀏覽更多「戀愛與曖昧」相關詞彙" data-cn="浏览更多「恋爱与暧昧」相关词汇" data-ja="「恋愛表現」の単語をもっと見る">Browse more Dating &amp; Romance words</a>
+        <a href="../index.html#dictionary" class="cta-btn cta-secondary" data-en="Search the full dictionary" data-es="Buscar en todo el diccionario" data-zh="搜尋完整詞典" data-cn="搜索完整词典" data-ja="辞書全体を検索">Search the full dictionary</a>
+      </div>
     </div>
   </div>
 
   <div class="related">
-    <h3>Related words</h3>
+    <h3 data-en="Related words" data-es="Palabras relacionadas" data-zh="相關詞彙" data-cn="相关词汇" data-ja="関連する単語">Related words</h3>
     <div class="related-grid">
       <a class="related-card" href="nu-na.html">
         <div class="r-kr">누나</div>
@@ -258,12 +404,12 @@
   <div class="foot-row">
     <div>
       <div class="foot-logo">HelloKSlang.</div>
-      <div class="foot-tag">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
+      <div class="foot-tag" data-en="Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better." data-es="Hecho para quienes aman el K-pop, los K-dramas o la cultura coreana — y quieren entenderla un poco mejor." data-zh="為所有熱愛K-pop、韓劇或韓國文化，並想更了解這些內容的人所打造。" data-cn="为所有热爱K-pop、韩剧或韩国文化，并想更了解这些内容的人所打造。" data-ja="K-popやK-dramaや韓国文化が好きで、もっと理解したい人のために作りました。">Made for anyone who loves K-pop, K-dramas, or Korean culture — and wants to understand it a little better.</div>
     </div>
-    <div style="display:flex; gap:18px; flex-wrap:wrap;">
-      <a href="../about.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">About</a>
-      <a href="../contact.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">Contact</a>
-      <a href="../privacy.html" style="font-size:12.5px; color:var(--ink-soft); font-weight:600;">Privacy Policy</a>
+    <div class="foot-links">
+      <a href="../about.html" data-en="About" data-es="Acerca de" data-zh="關於我們" data-cn="关于我们" data-ja="About">About</a>
+      <a href="../contact.html" data-en="Contact" data-es="Contacto" data-zh="聯絡我們" data-cn="联系我们" data-ja="お問い合わせ">Contact</a>
+      <a href="../privacy.html">Privacy Policy</a>
     </div>
   </div>
 </footer>
@@ -292,6 +438,30 @@
     }
     window.speechSynthesis.speak(utter);
   }
+
+  var currentLang = (function(){
+    try { return localStorage.getItem('kslang_lang') || 'en'; }
+    catch(e){ return 'en'; }
+  })();
+
+  function setLang(lang){
+    currentLang = lang;
+    try { localStorage.setItem('kslang_lang', lang); } catch(e){}
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    var selectEl = document.getElementById('langSelect');
+    if(selectEl) selectEl.value = lang;
+    document.documentElement.lang = lang;
+  }
+
+  // Apply whatever language the visitor picked last time (persisted via
+  // localStorage in setLang above) — without this, every fresh page load
+  // would silently reset back to English.
+  setLang(currentLang);
 </script>
 </body>
 </html>

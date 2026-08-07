@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "#2e7d5a",
+        "createdAt": "2026-08-07T13:48:59.861Z",
+        "reason": "User confirmed #2E7D5A is intentional"
+      }
+    ]
+  }
+}
