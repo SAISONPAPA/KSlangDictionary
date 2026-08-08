@@ -540,20 +540,39 @@
     line-height:1.5;
     margin-bottom: 16px;
   }
+  /* the caption bar — the example sentence rendered like a burned-in
+     fansub caption, matching the same component on the word template and
+     the category/trending list-cards (a third material, deliberately
+     distinct from the cardstock card it sits inside) */
   .card-back .example{
-    background: rgba(33,27,22,.06);
-    border-radius: var(--radius-card) / 10px;
-    padding: 14px 16px;
-    font-size: 13px;
-    color: var(--card-ink-soft);
-    line-height:1.6;
+    background: #100E13;
+    border-radius: 10px;
+    padding: 16px 20px;
+    box-shadow: inset 0 0 0 1px rgba(243,236,221,.06);
     margin-bottom: 16px;
   }
-  .card-back .example b{ color: var(--card-ink); font-style: italic; }
+  .card-back .example b{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #FDF8EE;
+    line-height: 1.5;
+    font-style: normal;
+  }
+  .card-back .example span{
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #B8AF9F;
+    line-height: 1.55;
+  }
   .card-back .source-tag{
+    display: block;
+    margin-top: 12px;
     font-family: var(--mono);
-    font-size: 11.5px;
-    color: var(--card-ink-soft);
+    font-size: 10px;
+    letter-spacing: .4px;
+    color: #6E665C;
   }
 
   /* ---------- footer ---------- */
@@ -697,10 +716,10 @@
           </div>
           <p class="def" id="selDef"></p>
           <div class="example">
-            <b id="selExKr"></b><br>
+            <b id="selExKr"></b>
             <span id="selExTrans"></span>
+            <span class="source-tag" id="selSource"></span>
           </div>
-          <span class="source-tag" id="selSource"></span>
         </div>
       </div>
     </div>
