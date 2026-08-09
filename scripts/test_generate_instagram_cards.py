@@ -29,7 +29,7 @@ def test_find_word_returns_known_word():
     assert word["rom"] == "keom-baek"
     assert word["en_short"] == "Comeback"
     assert word["cat_en"] == "Idol Essentials"
-    assert "comeback" in word["meaning_en"].lower()
+    assert "new release" in word["meaning_en"].lower()
 
 
 def test_find_word_raises_with_suggestions_for_typo():
