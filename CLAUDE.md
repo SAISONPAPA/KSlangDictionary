@@ -120,6 +120,13 @@ python3 generate_sitemap.py    # → sitemap.xml
 - 카테고리 5개를 요일별 테마로 로테이션 (월 아이돌용어 → 화 밈 → 수 팬덤 → 목 방송예능 → 금 연애썸)
 - 인스타그램 자동 게시는 아이디/비번 공유 방식이 아니라 **Meta Business Suite(무료, 공식 OAuth 방식)**로 해야 함 — 계정 정지 위험 없음.
 - 해시태그는 3~5개면 충분 (많이 넣던 시절 지남). 저장/공유 유도 문구가 2026년 알고리즘에서 제일 중요한 신호.
+- `scripts/generate_instagram_cards.py` — 카드뉴스 PNG 자동 생성 도구. 5개 빌드 스크립트와 달리 자동 파이프라인에 안 걸려있음 (수동 실행).
+  ```bash
+  cd scripts
+  python generate_instagram_cards.py --carousel "컴백"   # 요일별 로테이션용 4장 세트
+  python generate_instagram_cards.py --new-word           # NEW_WORDS_LOG 최신 항목 → 신규 단어 1장씩
+  ```
+  출력은 `assets/instagram/<날짜>-<로마자슬러그>/slide-N.png`. 폰트는 `assets/fonts/`의 로컬 파일 사용 (Pillow는 폰트 폴백을 안 해줌 — 위 "겪었던 버그들" #3과 같은 함정).
 
 ## 대기 중인 작업
 
