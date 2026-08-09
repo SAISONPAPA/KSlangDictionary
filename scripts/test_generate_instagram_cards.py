@@ -21,3 +21,28 @@ def test_missing_font_raises_clear_error(tmp_path, monkeypatch):
         assert False, "expected FileNotFoundError"
     except FileNotFoundError as e:
         assert "BlackHanSans-Regular.ttf" in str(e)
+
+
+def test_find_word_returns_known_word():
+    word = gic.find_word("컴백")
+    assert word["kr"] == "컴백"
+    assert word["rom"] == "keom-baek"
+    assert word["en_short"] == "Comeback"
+    assert word["cat_en"] == "Idol Essentials"
+    assert "comeback" in word["meaning_en"].lower()
+
+
+def test_find_word_raises_with_suggestions_for_typo():
+    try:
+        gic.find_word("컴벡")  # typo of 컴백
+        assert False, "expected WordNotFoundError"
+    except gic.WordNotFoundError as e:
+        assert "컴벡" in str(e)
+
+
+def test_find_word_raises_for_nonsense_input():
+    try:
+        gic.find_word("zzz-not-a-real-word-zzz")
+        assert False, "expected WordNotFoundError"
+    except gic.WordNotFoundError as e:
+        assert "not found" in str(e).lower()

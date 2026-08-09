@@ -86,5 +86,30 @@ def load_font(name, size):
     return ImageFont.truetype(path, size)
 
 
+class WordNotFoundError(Exception):
+    pass
+
+
+def find_word(kr):
+    for cat_kr, cat_en, terms in db.CATEGORIES:
+        for row in terms:
+            (w_kr, rom, en_short, meaning_en, meaning_es,
+             ex_kr, ex_en, ex_es, where, status) = row
+            if w_kr == kr:
+                return {
+                    "kr": w_kr, "rom": rom, "en_short": en_short,
+                    "meaning_en": meaning_en, "meaning_es": meaning_es,
+                    "ex_kr": ex_kr, "ex_en": ex_en, "ex_es": ex_es,
+                    "where": where, "status": status,
+                    "cat_kr": cat_kr, "cat_en": cat_en,
+                }
+    all_kr = [row[0] for _, _, terms in db.CATEGORIES for row in terms]
+    close = difflib.get_close_matches(kr, all_kr, n=5)
+    suggestion = f" Did you mean: {', '.join(close)}?" if close else ""
+    raise WordNotFoundError(
+        f'"{kr}" not found in build_kslang_db.py.{suggestion}'
+    )
+
+
 if __name__ == "__main__":
     pass
