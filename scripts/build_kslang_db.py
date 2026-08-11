@@ -1619,6 +1619,12 @@ FANDOM = [
      "이번엔 무슨 망고주스 시켜볼까?", "What silly dare should we try this time?",
      "¿Qué reto tonto deberíamos intentar esta vez?",
      "K-pop fan messaging app culture, 2026 slang", "Verified (web-checked)"),
+    ("오살힘", "o-sal-him", "Strength to get through today",
+     "Short for \"오늘을 살아갈 힘\" (\"the strength to live through today\") — a fandom term for the emotional boost fans get from seeing content of their bias, extended to anything that gives you a little push to get through the day.",
+     "Abreviatura de \"오늘을 살아갈 힘\" (\"la fuerza para vivir hoy\"): término de fandom para el impulso emocional que sienten los fans al ver contenido de su bias, extendido a cualquier cosa que te dé un empujoncito para pasar el día.",
+     "오늘 오빠 브이앱 보고 오살힘 얻었다.", "Watching his V Live today gave me the strength to get through today.",
+     "Ver su V Live hoy me dio la fuerza para pasar el día.",
+     "Fan communities, Twitter/X, Instagram, 2026 slang", "Verified (web-checked)"),
 ]
 
 BROADCAST = [
@@ -3437,6 +3443,24 @@ MEME = [
      "저 사람 이 게임 완전 고인물이야.", "That person is a total veteran at this game.",
      "Esa persona es una veterana total en este juego.",
      "Gaming/community culture", "Draft — please double-check"),
+    ("아우라 파밍", "a-u-ra pa-ming", "Aura farming",
+     "Deliberately (or effortlessly) building up your \"aura\" — cool, main-character energy — through small stylish moments. Borrowed from an English-language TikTok meme and adopted by Korean Gen Z/Alpha.",
+     "Cultivar deliberadamente (o sin esfuerzo) tu \"aura\": ese factor de genialidad tipo protagonista, a través de pequeños momentos con estilo. Prestado de un meme de TikTok en inglés y adoptado por la Generación Z/Alpha coreana.",
+     "쟤 방금 그 텀블러 캐치 완전 아우라 파밍이었어.", "Did you see him catch that tumbler? Total aura farming.",
+     "¿Viste cómo atrapó ese vaso? Puro aura farming.",
+     "TikTok, Gen Z social media, 2026 slang", "Verified (web-checked)"),
+    ("밤티", "bam-ti", "Lame/uncool (teasing)",
+     "A mild dig meaning ugly, lame, or outdated — used to teasingly call out a person's look, style, or a design choice. Originated from an avatar-customization game where a user named \"밤티\" got mocked for their avatar; the screenshot went viral.",
+     "Una pulla suave que significa feo, poco cool o anticuado, usada para burlarse en broma del look, el estilo o una elección de diseño de alguien. Se originó en un juego de personalización de avatares donde un usuario llamado \"밤티\" fue objeto de burla por su avatar; la captura se volvió viral.",
+     "오늘 코디 살짝 밤티네.", "Today's outfit is a little lame, not gonna lie.",
+     "Tu look de hoy está un poco anticuado, la verdad.",
+     "Instagram, general SNS, Gen Z conversation, 2026 slang", "Verified (web-checked)"),
+    ("주먹자로", "ju-meok-ja-ro", "Broke-diet joke (Mounjaro pun)",
+     "Wordplay twisting the pronunciation of 마운자로 (Mounjaro, the weight-loss injection) into 주먹자로 — a self-deprecating 2026 joke about not being able to afford the drug, so \"dieting\" by starving instead. Said as an exaggerated joke, not a literal plan.",
+     "Juego de palabras que retuerce la pronunciación de 마운자로 (Mounjaro, la inyección para bajar de peso) en 주먹자로: una broma autocrítica de 2026 sobre no poder pagar el medicamento, así que la \"dieta\" es simplemente pasar hambre. Se dice en tono exagerado, no como plan real.",
+     "이번 달 카드값 보고 그냥 주먹자로 하기로 했어.", "Saw my card bill this month and decided to just do the broke-people Mounjaro diet.",
+     "Vi el estado de mi tarjeta este mes y decidí hacer la dieta de los pobres.",
+     "Social media, self-deprecating diet jokes, 2026 slang", "Verified (per user, 2026-08-11)"),
 ]
 
 DATING = [
@@ -3955,6 +3979,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-08-11", ["아우라 파밍", "오살힘", "밤티", "주먹자로"]),
     ("2026-07-29", ["영크크"]),
 ]
 
@@ -4637,6 +4662,10 @@ ZH_TW_TRANSLATIONS = {
     "사내연애": ("與同公司同事交往，是韓劇常見的劇情套路，辦公室戀情。", "這部劇的辦公室戀情發展真的很讓人心動。"),
     "불소": ("「燃燒的相親」——雙方一見面就火花四射、氣氛熱烈的相親。", "聽說這禮拜安排了火花四射的相親，好期待。"),
     "패완얼": ("「時尚的完成是臉」的簡稱——意指帥氣或漂亮的長相能撐起任何穿搭。", "果然臉才是關鍵，穿什麼都好看。"),
+    "아우라 파밍": ("刻意（或毫不費力地）透過幾個有型的瞬間，累積自己的「氣場」——如同主角般的酷感。源自英文圈的TikTok迷因，後來被韓國Z世代／α世代採用。", "你看到他接住那個水壺了嗎？完全在攢氣場。"),
+    "오살힘": ("「今天活下去的力量」的縮寫——粉絲看到本命的內容後獲得的情緒能量，也可延伸指任何能讓你撐過一天的小小動力。", "今天看完歐巴的V Live，得到了活下去的力量。"),
+    "밤티": ("帶點調侃意味的詞，意思是醜、俗氣或過時——用來半開玩笑地吐槽某人的造型、風格或設計。源自一款頭像自訂遊戲，一位暱稱「밤티」的使用者因頭像被嘲笑，截圖因此爆紅。", "你今天這身穿搭有點土耶。"),
+    "주먹자로": ("把瘦身針劑「Mounjaro（韓文音譯마운자로）」的發音故意唸歪成「주먹자로」的雙關語——2026年初流行的自嘲哏，意思是打不起針，只好用挨餓來「減肥」。是誇張搞笑的說法，不是真的行動指南。", "看到這個月的卡費，我決定乾脆挨餓瘦身算了。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -5302,6 +5331,10 @@ ZH_CN_TRANSLATIONS = {
     "사내연애": ("与同公司同事交往，是韩剧常见的剧情套路，办公室恋情。", "这部剧的办公室恋情发展真的很让人心动。"),
     "불소": ("“燃烧的相亲”——双方一见面就火花四射、气氛热烈的相亲。", "听说这礼拜安排了火花四射的相亲，好期待。"),
     "패완얼": ("“时尚的完成是脸”的简称——意指帅气或漂亮的长相能撑起任何穿搭。", "果然脸才是关键，穿什么都好看。"),
+    "아우라 파밍": ("刻意（或毫不费力地）通过几个有型的瞬间，累积自己的「气场」——如同主角般的酷感。源自英文圈的TikTok迷因，后来被韩国Z世代／α世代采用。", "你看到他接住那个水壶了吗？完全在攒气场。"),
+    "오살힘": ("「今天活下去的力量」的缩写——粉丝看到本命的内容后获得的情绪能量，也可延伸指任何能让你撑过一天的小小动力。", "今天看完欧巴的V Live，得到了活下去的力量。"),
+    "밤티": ("带点调侃意味的词，意思是丑、俗气或过时——用来半开玩笑地吐槽某人的造型、风格或设计。源自一款头像自订游戏，一位暱称「밤티」的用户因头像被嘲笑，截屏因此爆红。", "你今天这身穿搭有点土耶。"),
+    "주먹자로": ("把瘦身针剂「Mounjaro（韩文音译마운자로）」的发音故意念歪成「주먹자로」的双关语——2026年初流行的自嘲哏，意思是打不起针，只好用挨饿来「减肥」。是夸张搞笑的说法，不是真的行动指南。", "看到这个月的卡费，我决定干脆挨饿瘦身算了。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -5981,6 +6014,10 @@ JA_TRANSLATIONS = {
     "사내연애": ("同じ会社の同僚と付き合うこと——ドラマによくあるトロープ。", "このドラマの社内恋愛展開、本当にドキドキする。"),
     "불소": ("「燃える合コン」——一瞬で強い相性や火花が生まれる合コン。", "今週火花散る合コンがセッティングされたって、楽しみ。"),
     "패완얼": ("「ファッションの完成は顔」の略——どんなにシンプルな服でも、整った顔立ちが引き立てるという言葉。", "やっぱり顔が全て、何着ても似合う。"),
+    "아우라 파밍": ("「オーラ」（かっこよさ、主人公感）を、さりげなく、あるいは意図的に見せつける行為。英語圏のTikTokミームが由来で、韓国のZ世代・α世代に広まった。", "さっきの水筒キャッチ、完全にオーラ稼いでたよね。"),
+    "오살힘": ("「오늘을 살아갈 힘（今日を生きる力）」の略——推しのコンテンツを見て得る心のエネルギーを指すファンダム用語。日常で元気をくれる何かにも使える。", "今日オッパのVライブ見て、生きる力もらった。"),
+    "밤티": ("ブサイク、ダサい、古臭いという意味の軽いディス言葉——誰かの見た目やスタイル、デザインを冗談っぽくいじるときに使う。アバターカスタマイズゲームで「밤티」というユーザーがアバターをからかわれたスクショが元ネタでバズった。", "今日のコーデ、ちょっとダサいね。"),
+    "주먹자로": ("痩身注射「マンジャロ（韓国語表記마운자로）」の発音をもじった言葉遊び「주먹자로」——2026年初頭に流行った自虐ネタで、注射代が払えないから飢えて「ダイエット」するという意味。誇張したジョークであって、本当の計画ではない。", "今月のカード明細見て、もう食費削ってダイエットすることにした。"),
 }
 
 HEADERS = [

@@ -1371,6 +1371,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/o-sal-him.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/dae-bak.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2877,6 +2882,21 @@
   </url>
   <url>
     <loc>https://hellokslang.com/word/go-in-mul.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/a-u-ra-pa-ming.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/bam-ti.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/ju-meok-ja-ro.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
