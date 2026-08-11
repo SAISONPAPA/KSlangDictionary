@@ -64,6 +64,7 @@
     --mono: 'JetBrains Mono', monospace;
   }
   *{ box-sizing: border-box; margin:0; padding:0; }
+  html{ overflow-x: hidden; }
   body{
     background: var(--bg); color: var(--ink); font-family: var(--body);
     font-size: 16px; line-height: 1.5;
@@ -249,6 +250,7 @@
     background-size: 140px 140px, cover;
     background-blend-mode: multiply, normal;
     border: 1px solid var(--card-line); border-radius: 12px; padding: 16px 18px; transition: transform .15s var(--ease-flip), box-shadow .15s var(--ease-flip);
+    min-width: 0;
   }
   .related-card:hover{ transform: translateY(-2px); box-shadow: 0 14px 30px -16px rgba(0,0,0,.5); }
   .related-card .r-kr{ font-family: var(--font-kr); font-size: 19px; color: var(--card-ink); }
