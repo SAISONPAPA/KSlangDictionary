@@ -53,7 +53,7 @@ UI = {
     "dict_nav": {"en": "사전 Dictionary", "es": "사전 Diccionario", "zh": "사전 詞典", "cn": "사전 词典", "ja": "사전 辞書"},
     "whatsnew_nav": {"en": "신규 What's New", "es": "신규 Novedades", "zh": "신규 最新消息", "cn": "신규 最新消息", "ja": "신규 新着"},
     "category_nav": {"en": "카테고리 Categories", "es": "카테고리 Categorías", "zh": "카테고리 分類", "cn": "카테고리 分类", "ja": "카테고리 カテゴリー"},
-    "trending_nav": {"en": "대세 Popular", "es": "대세 Popular", "zh": "대세 熱門", "cn": "대세 热门", "ja": "대세 人気"},
+    "trending_nav": {"en": "추천 Editor's Picks", "es": "추천 Selección", "zh": "추천 編輯精選", "cn": "추천 编辑精选", "ja": "추천 編集部ピック"},
     "submit_nav": {"en": "제보하기 Submit a word", "es": "제보하기 Enviar una palabra", "zh": "제보하기 提交詞彙", "cn": "제보하기 提交词汇", "ja": "제보하기 単語を送る"},
     "dict_badge": {"en": "Dictionary", "es": "Diccionario", "zh": "詞典", "cn": "词典", "ja": "辞書"},
     "back_link": {"en": "← Back to K-Slang Dictionary", "es": "← Volver al diccionario", "zh": "← 返回詞典", "cn": "← 返回词典", "ja": "← 辞書に戻る"},
@@ -402,7 +402,7 @@ HEADER_HTML = f"""<header>
       <a href="../index.html#dictionary" {data_attrs('dict_nav')}>사전 Dictionary</a>
       <a href="../whatsnew.html" {data_attrs('whatsnew_nav')}>신규 What's New</a>
       <a href="../category.html" {data_attrs('category_nav')}>카테고리 Categories</a>
-      <a href="../trending.html" {data_attrs('trending_nav')}>대세 Popular</a>
+      <a href="../trending.html" {data_attrs('trending_nav')}>추천 Editor's Picks</a>
       <a href="../submit.html" {data_attrs('submit_nav')}>제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
@@ -427,7 +427,7 @@ HEADER_HTML = f"""<header>
     <a href="../index.html#dictionary" {data_attrs('dict_nav')}>사전 Dictionary</a>
     <a href="../whatsnew.html" {data_attrs('whatsnew_nav')}>신규 What's New</a>
     <a href="../category.html" {data_attrs('category_nav')}>카테고리 Categories</a>
-    <a href="../trending.html" {data_attrs('trending_nav')}>대세 Popular</a>
+    <a href="../trending.html" {data_attrs('trending_nav')}>추천 Editor's Picks</a>
     <a href="../submit.html" {data_attrs('submit_nav')}>제보하기 Submit a word</a>
   </div>
 </header>"""
