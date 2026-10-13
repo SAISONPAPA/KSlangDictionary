@@ -537,6 +537,9 @@ def build_page(item, category_kr, category_en, related):
         meaning_ja_html = ""
         ex_ja_html = ""
 
+    # 폴꾸 sticker on the card corner — stable per word (derived from the slug)
+    pin_sticker = ["♥", "✦", "ㅋㅋ", "★", "♪"][sum(map(ord, slugify(rom))) % 5]
+
     related_html = ""
     for r in related:
         r_kr, r_rom, r_en_short, r_meaning_en = r[0], r[1], r[2], r[3]
@@ -619,6 +622,7 @@ def build_page(item, category_kr, category_en, related):
 {json_ld}
 <style>
 {SHARED_CSS}</style>
+<link rel="stylesheet" href="../assets/pokku.css">
 </head>
 <body>
 {DIRECTION_CONTRACT_HTML}
@@ -630,6 +634,9 @@ def build_page(item, category_kr, category_en, related):
   <a href="../index.html" class="back-link" {data_attrs('back_link')}>&larr; Back to K-Slang Dictionary</a>
   <a href="../{esc(cat_url)}" class="cat-pill" {cat_pill_attrs}>{esc(category_kr)} · {esc(category_en)}</a>
 
+  <div class="card-pin">
+  <span class="pin-tape" aria-hidden="true"></span>
+  <span class="pin-stk" aria-hidden="true">{pin_sticker}</span>
   <div class="card-object">
     <div class="card-front-zone">
       <span class="card-tag">{esc(category_en)}</span>
@@ -664,6 +671,7 @@ def build_page(item, category_kr, category_en, related):
         <a href="../index.html#dictionary" class="cta-btn cta-secondary" {data_attrs('search_full')}>Search the full dictionary</a>
       </div>
     </div>
+  </div>
   </div>
 
   <div class="related">
