@@ -6285,6 +6285,95 @@ DETAILS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# COLLECTIONS — topic guides at /guides/<slug>.html (scripts/generate_collections.py)
+#
+# A guide is NOT just a word list: a short intro, themed sections, and each
+# word's existing 5-language meaning, linking through to its word page.
+# Only publish a guide when there are enough solid entries for it — prefer
+# words whose status is Verified. Every `kr` listed here must exist above.
+# ---------------------------------------------------------------------------
+
+GUIDES_HUB = {
+    "title": {"en": "Korean Slang Guides", "es": "Guías de jerga coreana", "zh": "韓語流行語主題指南", "cn": "韩语流行语主题指南", "ja": "韓国語スラング・ガイド"},
+    "intro": {
+        "en": "Hand-picked collections that explain Korean slang by topic — start with the one that matches what you keep seeing online.",
+        "es": "Colecciones seleccionadas a mano que explican la jerga coreana por temas. Empieza por la que coincide con lo que más ves en internet.",
+        "zh": "依主題精選整理的韓語流行語說明——從你最常在網路上看到的那一類開始吧。",
+        "cn": "按主题精选整理的韩语流行语说明——从你最常在网上看到的那一类开始吧。",
+        "ja": "テーマ別に厳選して解説した韓国語スラング集。ネットでよく見かけるものに近いテーマから読んでみて。",
+    },
+}
+
+COLLECTIONS = [
+    {
+        "slug": "korean-slang-for-kpop-fans",
+        "title": {"en": "Korean Slang for K-pop Fans", "es": "Jerga coreana para fans del K-pop", "zh": "K-pop粉絲必懂的韓語流行語", "cn": "K-pop粉丝必懂的韩语流行语", "ja": "K-POPファンのための韓国語スラング"},
+        "intro": {
+            "en": "Korean fandoms have their own vocabulary — for picking favorites, falling into (and out of) a fandom, and everything fans do together. These are the words you'll keep running into in comments, fan communities and livestream chats, each with a short explanation and a link to its full card.",
+            "es": "Los fandoms coreanos tienen su propio vocabulario: para elegir favoritos, entrar (y salir) de un fandom y todo lo que los fans hacen juntos. Estas son las palabras que verás una y otra vez en comentarios, comunidades de fans y chats de transmisiones en vivo, cada una con una breve explicación y un enlace a su tarjeta completa.",
+            "zh": "韓國粉絲圈有自己的一套詞彙——用來選出最愛、入坑（和脫坑），以及粉絲們一起做的各種事。這些是你在留言區、粉絲社群和直播聊天室會一再看到的詞，每個都附上簡短說明和完整卡片的連結。",
+            "cn": "韩国粉丝圈有自己的一套词汇——用来选出最爱、入坑（和脱坑），以及粉丝们一起做的各种事。这些是你在评论区、粉丝社群和直播聊天室会一再看到的词，每个都附上简短说明和完整卡片的链接。",
+            "ja": "韓国のファンダムには独自の言葉がある——推しを決めるとき、沼に落ちる（そして抜ける）とき、ファン同士でいろいろするとき。コメント欄やファンコミュニティ、ライブ配信のチャットで何度も目にする言葉を、短い説明と詳しいカードへのリンク付きでまとめた。",
+        },
+        "sections": [
+            {"heading": {"en": "Picking your favorites", "es": "Elegir a tus favoritos", "zh": "選出你的最愛", "cn": "选出你的最爱", "ja": "推しを決める"},
+             "words": ["최애", "차애", "갠팬", "잡덕", "순덕"]},
+            {"heading": {"en": "Falling in — and out", "es": "Entrar al fandom… y salir", "zh": "入坑與脫坑", "cn": "入坑与脱坑", "ja": "沼落ちと沼抜け"},
+             "words": ["입덕", "덕질", "덕밍아웃", "일코", "휴덕", "탈덕"]},
+            {"heading": {"en": "What fans do", "es": "Lo que hacen los fans", "zh": "粉絲在做什麼", "cn": "粉丝在做什么", "ja": "ファンの活動"},
+             "words": ["스밍", "총공", "팬싸", "생카", "홈마", "응원봉", "포카", "직캠"]},
+            {"heading": {"en": "Fan feelings", "es": "Sentimientos de fan", "zh": "粉絲的心情", "cn": "粉丝的心情", "ja": "ファン心理"},
+             "words": ["덕계못", "어덕행덕", "오살힘", "숨멎멤버", "현생"]},
+            {"heading": {"en": "Comeback season", "es": "Temporada de comeback", "zh": "回歸季", "cn": "回归季", "ja": "カムバックの季節"},
+             "words": ["컴백", "티저", "콘셉트", "데뷔", "막내"]},
+        ],
+    },
+    {
+        "slug": "korean-internet-slang",
+        "title": {"en": "Korean Internet Slang", "es": "Jerga coreana de internet", "zh": "韓國網路流行語", "cn": "韩国网络流行语", "ja": "韓国のネットスラング"},
+        "intro": {
+            "en": "The words Korean comment sections and group chats can't stop using — reactions, compliments, everyday struggles and pure nonsense. Most of them are playful, so keep them for friends and online spaces rather than school or work.",
+            "es": "Las palabras que los comentarios y los chats grupales coreanos no dejan de usar: reacciones, elogios, luchas cotidianas y puro disparate. La mayoría son juguetonas, así que úsalas con amigos y en internet, no en clase ni en el trabajo.",
+            "zh": "韓國留言區和群組聊天裡停不下來的那些詞——反應、稱讚、日常小崩潰，還有純粹的胡鬧。大多數語氣都很俏皮，適合朋友之間和網路上，不適合學校或職場。",
+            "cn": "韩国评论区和群聊里停不下来的那些词——反应、称赞、日常小崩溃，还有纯粹的胡闹。大多数语气都很俏皮，适合朋友之间和网上，不适合学校或职场。",
+            "ja": "韓国のコメント欄やグループチャットで止まらない言葉たち——リアクション、ほめ言葉、日常のぼやき、そしてただのノリ。ほとんどがふざけた言い方なので、学校や職場ではなく、友達同士やネットで使おう。",
+        },
+        "sections": [
+            {"heading": {"en": "Reactions", "es": "Reacciones", "zh": "反應", "cn": "反应", "ja": "リアクション"},
+             "words": ["킹받다", "억텐", "찐텐", "갑톡튀", "억까", "레게노", "가즈아", "야르"]},
+            {"heading": {"en": "Praise & vibes", "es": "Elogios y vibras", "zh": "稱讚與氛圍", "cn": "称赞与氛围", "ja": "ほめ言葉とバイブス"},
+             "words": ["감다살", "감다뒤", "느좋", "영크크", "늙크크", "럭키비키", "고트"]},
+            {"heading": {"en": "Everyday life", "es": "Vida diaria", "zh": "日常生活", "cn": "日常生活", "ja": "日常のあれこれ"},
+             "words": ["소확행", "저메추", "기대컨", "동결건조", "워라밸", "갑통알", "월급로그아웃"]},
+            {"heading": {"en": "Just for laughs", "es": "Solo para reír", "zh": "純粹搞笑", "cn": "纯粹搞笑", "ja": "笑えることば"},
+             "words": ["진지스칸", "톤망진창", "테무인간", "밤티", "아우라 파밍"]},
+        ],
+    },
+    {
+        "slug": "korean-chat-abbreviations",
+        "title": {"en": "Korean Chat Abbreviations", "es": "Abreviaturas coreanas de chat", "zh": "韓文聊天縮寫", "cn": "韩文聊天缩写", "ja": "韓国語チャットの略語"},
+        "intro": {
+            "en": "Korean texting loves shortcuts: lone consonants for laughs and quick replies, whole phrases squeezed into a few syllables, even numbers that sound like words. Here's how to read them.",
+            "es": "Los mensajes en coreano aman los atajos: consonantes sueltas para reír y responder rápido, frases enteras comprimidas en pocas sílabas e incluso números que suenan a palabras. Así se leen.",
+            "zh": "韓文聊天超愛縮寫：單打子音來表示笑或快速回覆、整句話濃縮成幾個字，甚至用聽起來像單字的數字。來看看怎麼讀懂它們。",
+            "cn": "韩文聊天超爱缩写：单打辅音来表示笑或快速回复、整句话浓缩成几个字，甚至用听起来像单词的数字。来看看怎么读懂它们。",
+            "ja": "韓国語のチャットは略語だらけ——笑いや短い返事は子音だけ、フレーズは数文字に圧縮、さらには言葉のように聞こえる数字まで。読み方を見ていこう。",
+        },
+        "sections": [
+            {"heading": {"en": "Consonants only", "es": "Solo consonantes", "zh": "只打子音", "cn": "只打辅音", "ja": "子音だけ"},
+             "words": ["ㅋㅋ", "ㅎㅎ", "ㄹㅇ", "ㅈㅈ", "ㅋㅋㅋㄹㅌㅅ"]},
+            {"heading": {"en": "Phrases squeezed short", "es": "Frases abreviadas", "zh": "濃縮成幾個字的句子", "cn": "浓缩成几个字的句子", "ja": "フレーズの略語"},
+             "words": ["알잘딱깔센", "사바사", "저메추", "졌잘싸", "억까", "갑톡튀", "책없쾌", "크더싼", "느좋"]},
+            {"heading": {"en": "Numbers as words", "es": "Números que suenan a palabras", "zh": "用數字說話", "cn": "用数字说话", "ja": "数字で言う言葉"},
+             "words": ["1004", "8282"]},
+            {"heading": {"en": "Fan shorthand", "es": "Abreviaturas de fans", "zh": "粉絲縮寫", "cn": "粉丝缩写", "ja": "ファンの略語"},
+             "words": ["덕계못", "어덕행덕", "갠팬", "생카", "오살힘", "문찐"]},
+        ],
+    },
+]
+
+
 HEADERS = [
     "ID", "Term (KR)", "Romanization", "Category (KR)", "Category (EN)",
     "Meaning (EN)", "Meaning (ES)", "Meaning (ZH-TW)", "Meaning (ZH-CN)", "Meaning (JA)",

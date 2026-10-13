@@ -43,6 +43,15 @@ def main():
     for path, priority, freq in STATIC_PAGES:
         urls.append((f"{SITE_URL}/{path}", priority, freq))
 
+    # topic guides (scripts/generate_collections.py)
+    guide_count = 0
+    if getattr(db, "COLLECTIONS", None):
+        urls.append((f"{SITE_URL}/guides/", "0.8", "weekly"))
+        guide_count += 1
+        for c in db.COLLECTIONS:
+            urls.append((f"{SITE_URL}/guides/{c['slug']}.html", "0.8", "weekly"))
+            guide_count += 1
+
     total_words = 0
     for cat_kr, cat_en, terms in db.CATEGORIES:
         for t in terms:
@@ -65,7 +74,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
-    print(f"sitemap.xml generated: {len(STATIC_PAGES)} static pages + {total_words} word pages = {len(urls)} URLs total")
+    print(f"sitemap.xml generated: {len(STATIC_PAGES)} static pages + {guide_count} guide pages + {total_words} word pages = {len(urls)} URLs total")
 
 
 if __name__ == "__main__":

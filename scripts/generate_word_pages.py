@@ -68,6 +68,7 @@ UI = {
     "tone_h2": {"en": "Tone", "es": "Tono", "zh": "語氣", "cn": "语气", "ja": "トーン"},
     "similar_h2": {"en": "Similar expressions", "es": "Expresiones similares", "zh": "相似說法", "cn": "相似说法", "ja": "似た表現"},
     "sources_h2": {"en": "Sources", "es": "Fuentes", "zh": "參考來源", "cn": "参考来源", "ja": "出典"},
+    "featured_h2": {"en": "Featured in", "es": "Aparece en", "zh": "收錄於", "cn": "收录于", "ja": "掲載ガイド"},
     "share_btn": {"en": "Share this word", "es": "Compartir esta palabra", "zh": "分享這個詞", "cn": "分享这个词", "ja": "この単語をシェア"},
     "share_copied": {"en": "Link copied!", "es": "¡Enlace copiado!", "zh": "已複製連結！", "cn": "已复制链接！", "ja": "リンクをコピーしました！"},
     "about": {"en": "About", "es": "Acerca de", "zh": "關於我們", "cn": "关于我们", "ja": "サイトについて"},
@@ -547,6 +548,27 @@ LANGS = ("en", "es", "zh", "cn", "ja")
 DETAILS = getattr(db, "DETAILS", {})
 REGISTER_LABELS = getattr(db, "REGISTER_LABELS", {})
 BY_KR = {}  # kr -> item tuple, filled in main()
+# kr -> list of guides (COLLECTIONS) that feature the word
+GUIDES_BY_WORD = {}
+for _c in getattr(db, "COLLECTIONS", []):
+    for _s in _c["sections"]:
+        for _w in _s["words"]:
+            GUIDES_BY_WORD.setdefault(_w, []).append(_c)
+
+
+def render_featured(kr):
+    """Links to the topic guides this word appears in (any word, details or not)."""
+    guides = GUIDES_BY_WORD.get(kr)
+    if not guides:
+        return ""
+    chips = "".join(
+        f'\n          <a class="similar-chip" href="../guides/{esc(g["slug"])}.html" '
+        + " ".join(f'data-{l}="{esc(g["title"][l])}"' for l in LANGS)
+        + f'>{esc(g["title"]["en"])}</a>'
+        for g in guides
+    )
+    return (f'      <div class="detail-block">\n        <h2 {data_attrs("featured_h2")}>Featured in</h2>\n'
+            f'        <div class="similar-row">{chips}\n        </div>\n      </div>\n')
 
 
 def _lx_paragraphs(texts):
@@ -652,7 +674,7 @@ def build_page(item, category_kr, category_en, related):
     # 폴꾸 sticker on the card corner — stable per word (derived from the slug)
     pin_sticker = ["♥", "✦", "ㅋㅋ", "★", "♪"][sum(map(ord, slugify(rom))) % 5]
 
-    details_html = render_details(kr)
+    details_html = render_details(kr) + render_featured(kr)
     copied_attrs = " ".join(f'data-copied-{l}="{esc(UI["share_copied"][l])}"' for l in LANGS)
 
     related_html = ""

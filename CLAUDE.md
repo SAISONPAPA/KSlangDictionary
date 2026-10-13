@@ -55,6 +55,7 @@ kslang-repo/
   assets/pokku.css      — 폴꾸 스티커 레이어, 전 페이지 공용 (위 "디자인" 참고)
   data/kslang-slang-database.xlsx  — build_kslang_db.py로 생성됨
   word/*.html            — 단어별 개별 페이지 651개, generate_word_pages.py로 생성됨
+  guides/*.html          — 주제별 가이드(허브 + 컬렉션), generate_collections.py로 생성됨 (직접 수정 금지)
   scripts/
     build_kslang_db.py       — ⭐ SINGLE SOURCE OF TRUTH. 모든 단어 데이터 + 4개 번역 딕셔너리
     generate_word_pages.py   — word/*.html 651개 재생성
@@ -72,6 +73,7 @@ cd scripts
 python3 safety_check.py        # 반드시 제일 먼저
 python3 build_kslang_db.py     # → data/kslang-slang-database.xlsx
 python3 generate_word_pages.py # → word/*.html (651개)
+python3 generate_collections.py # → guides/index.html + guides/<slug>.html (주제별 가이드)
 python3 update_main_pages.py   # → index/category/trending/submit의 SLANG_DB
 python3 generate_whatsnew.py   # → whatsnew.html
 python3 generate_sitemap.py    # → sitemap.xml
@@ -113,6 +115,7 @@ python3 generate_sitemap.py    # → sitemap.xml
 - `sources`는 **직접 열어서 내용 확인한 페이지만**. 못 찾으면 비워둘 것 (최애·감다살처럼). 유래가 불확실하면 불확실하다고 쓸 것 (대박 참고 — 국립국어원도 미확정이라고 함). 지어낸 통계·인용·가사·실존 인물 예문 금지.
 - 출처로 확인되면 그 단어 `status`를 "Verified (web-checked)"로 올림.
 - 관련 단어는 `similar` → 같은 `tags` → 같은 카테고리 순으로 채워짐 (`pick_related`).
+- 주제별 가이드는 `COLLECTIONS`(같은 파일): 제목·소개·묶음 제목은 5개 언어, 단어 설명은 기존 5개 언어 뜻을 그대로 씀. **검증된 단어 위주**로 넣고, 단어 수가 부족한 주제는 억지로 만들지 말 것. 가이드에 실린 단어는 word 페이지에 "Featured in" 링크가 자동으로 붙음.
 - UI 라벨 키 추가할 땐 **기존 키 이름과 겹치지 않는지** 확인 (`usage_h2`는 이미 "Real usage"로 쓰는 중 — 새 섹션은 `howto_h2`).
 
 번체→간체는 OpenCC(`tw2sp` 프로필)로 자동 변환 가능하지만, **일본어는 자동변환 불가** — 일본에 이미 정착된 고유 팬덤 용어가 있어서(예: 최애→推し) 매번 손으로 새로 써야 함.

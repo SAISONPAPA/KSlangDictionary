@@ -36,6 +36,26 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/guides/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/guides/korean-slang-for-kpop-fans.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/guides/korean-internet-slang.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/guides/korean-chat-abbreviations.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/keom-baek.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -733,7 +733,7 @@
   /* explore: two dark binder-shelf cards */
   .explore-grid{
     display:grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 18px;
   }
   .explore-card{
@@ -819,6 +819,7 @@
     .hero-card{ max-width: 560px; }
     .trend-grid{ grid-template-columns: 1fr 1fr; }
     .trend-card:last-child{ grid-column: span 2; min-height: 0; }
+    .explore-grid{ grid-template-columns: 1fr; }
     .section-head{ flex-direction: column; align-items: flex-start; }
     .cta{ flex-direction: column; align-items: flex-start; }
   }
@@ -971,6 +972,7 @@
   .explore-icon{ border: 3px solid var(--card-face-hi); color: var(--sticker-ink); transition: transform .35s var(--ease-pop); }
   .explore-card:nth-child(1) .explore-icon{ background: var(--pop-pink); transform: rotate(-7deg); }
   .explore-card:nth-child(2) .explore-icon{ background: var(--pop-mint); transform: rotate(6deg); }
+  .explore-card:nth-child(3) .explore-icon{ background: var(--pop-lemon); transform: rotate(-4deg); }
   .explore-card:hover .explore-icon{ transform: rotate(0) scale(1.1); }
 
   /* CTA: confetti stickers on the garnet band */
@@ -1206,6 +1208,14 @@
           <p data-en="The latest words added to the dictionary — straight from comment sections and variety clips." data-es="Las palabras más recientes del diccionario, directo de los comentarios y los clips de variedades." data-zh="字典最新加入的詞彙——直接來自留言區與綜藝片段。" data-cn="词典最新加入的词汇——直接来自评论区和综艺片段。" data-ja="辞書に追加されたばかりの言葉——コメント欄やバラエティのクリップから。">The latest words added to the dictionary — straight from comment sections and variety clips.</p>
         </div>
         <span class="explore-icon" aria-hidden="true" lang="ko">신</span>
+      </a>
+      <a class="explore-card" href="guides/">
+        <div>
+          <p class="kicker">03 · <span data-en="Learn" data-es="Aprender" data-zh="學習" data-cn="学习" data-ja="学ぶ">Learn</span></p>
+          <h3 data-en="Topic guides" data-es="Guías por tema" data-zh="主題指南" data-cn="主题指南" data-ja="テーマ別ガイド">Topic guides</h3>
+          <p data-en="K-pop fan talk, internet slang, chat abbreviations — explained in context." data-es="Jerga de fans del K-pop, de internet y abreviaturas de chat, explicadas en contexto." data-zh="K-pop粉絲用語、網路流行語、聊天縮寫——放在情境裡解釋。" data-cn="K-pop粉丝用语、网络流行语、聊天缩写——放在语境里解释。" data-ja="K-POPファン用語、ネットスラング、チャットの略語を、使われる場面と一緒に解説。">K-pop fan talk, internet slang, chat abbreviations — explained in context.</p>
+        </div>
+        <span class="explore-icon" aria-hidden="true" lang="ko">꿀</span>
       </a>
     </div>
   </section>

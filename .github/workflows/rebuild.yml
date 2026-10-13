@@ -38,6 +38,9 @@ jobs:
       - name: Rebuild word pages (word/*.html)
         run: python3 scripts/generate_word_pages.py
 
+      - name: Rebuild topic guides (guides/*.html)
+        run: python3 scripts/generate_collections.py
+
       - name: Rebuild main site pages (index/category/trending/submit)
         run: python3 scripts/update_main_pages.py
 
