@@ -144,6 +144,7 @@ def main():
 <style>
 {SHARED_CSS}{PAGE_CSS}
 </style>
+<link rel="stylesheet" href="assets/pokku.css">
 </head>
 <body>
 <!--

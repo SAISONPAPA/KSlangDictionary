@@ -1,0 +1,168 @@
+/* =====================================================================
+   HelloKSlang — 폴꾸 (photocard-decorating) layer
+   ---------------------------------------------------------------------
+   Shared by every page. Fans decorate their photocards with washi tape
+   and stickers; this file adds that layer on top of each page's own
+   photocard styles. Linked AFTER each page's <style>, so it overrides.
+
+   Rules of the layer:
+   - garnet / cardstock / brass foil stay the design system
+   - pop colors are sticker ink only: sticker fills, tape, sparkles —
+     never body text on the dark ground, never a gradient wash
+   - decoration never covers reading text; long-form cards (forms,
+     legal text) get tape but stay level
+   ===================================================================== */
+
+:root{
+  --pop-pink: #FF6FAE;
+  --pop-lilac: #B9A2FF;
+  --pop-mint: #74E3C4;
+  --pop-lemon: #FFE16B;
+  --sticker-ink: #1F1418;
+  --sticker-edge: #F8F1E3;
+  --ease-pop: cubic-bezier(.34, 1.56, .64, 1);
+  --tape-lilac: repeating-linear-gradient(135deg, rgba(185,162,255,.78) 0 8px, rgba(205,188,255,.78) 8px 16px);
+  --tape-pink: repeating-linear-gradient(135deg, rgba(255,111,174,.72) 0 8px, rgba(255,150,196,.72) 8px 16px);
+  --tape-mint: repeating-linear-gradient(135deg, rgba(116,227,196,.75) 0 8px, rgba(150,236,212,.75) 8px 16px);
+}
+
+/* ---------- header: one-line nav labels ---------- */
+.nav-links{ gap: 24px; font-size: 14px; }
+.nav-links a{ white-space: nowrap; }
+@media (max-width: 1260px){
+  .logo-badge{ display: none; }
+  .nav-links{ gap: 20px; }
+}
+@media (max-width: 1120px){
+  .nav-links{ display: none; }
+  .menu-toggle{ display: flex; }
+}
+
+/* ---------- back link → die-cut sticker ---------- */
+.back-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--pop-lilac);
+  color: var(--sticker-ink) !important;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 3px solid var(--sticker-edge);
+  box-shadow: 0 6px 14px -7px rgba(0,0,0,.6);
+  transform: rotate(-2deg);
+  transition: transform .3s var(--ease-pop);
+  margin-bottom: 14px;
+}
+.back-link:hover{ text-decoration: none !important; transform: rotate(0) scale(1.05); }
+
+/* ---------- page titles get a twinkling sparkle ---------- */
+.browse-title, .page-title, .section-title, .about-title, .legal-title{
+  position: relative;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  padding-right: .75em;
+}
+.back-link + .browse-title, .back-link + .page-title, .back-link + .about-title,
+.back-link + .legal-title{ margin-top: 4px; }
+.browse-title::after, .page-title::after, .section-title::after,
+.about-title::after, .legal-title::after{
+  content: "✦";
+  position: absolute;
+  right: 0;
+  top: -.2em;
+  font-size: .5em;
+  line-height: 1;
+  color: var(--pop-lemon);
+  animation: pokkuTwinkle 2.4s ease-in-out infinite;
+}
+@keyframes pokkuTwinkle{
+  0%,100%{ transform: rotate(0) scale(1); opacity: 1; }
+  50%{ transform: rotate(20deg) scale(.75); opacity: .7; }
+}
+
+/* ---------- washi tape (shared by every taped card) ---------- */
+.browse-card, .new-card, .stat-card, .email-card, .submit-card, .legal-card{
+  overflow: visible;
+}
+.browse-card::before, .new-card::before, .stat-card::before,
+.email-card::before, .submit-card::before, .legal-card::before{
+  border-radius: var(--radius-card) var(--radius-card) 0 0;
+}
+.browse-card::after, .new-card::after, .stat-card::after,
+.email-card::after, .submit-card::after, .legal-card::after{
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: -11px;
+  left: 22px;
+  width: 78px;
+  height: 22px;
+  background: var(--tape-lilac);
+  box-shadow: 0 2px 6px -2px rgba(0,0,0,.35);
+  transform: rotate(-7deg);
+  pointer-events: none;
+}
+/* tape color + side cycle through the grid */
+.browse-card:nth-child(3n+2)::after, .new-card:nth-child(3n+2)::after, .stat-card:nth-child(3n+2)::after{
+  left: auto; right: 24px; background: var(--tape-pink); transform: rotate(6deg);
+}
+.browse-card:nth-child(3n)::after, .new-card:nth-child(3n)::after, .stat-card:nth-child(3n)::after{
+  left: 50%; margin-left: -39px; background: var(--tape-mint); transform: rotate(-3deg);
+}
+.submit-card::after, .legal-card::after{ left: 50%; margin-left: -50px; width: 100px; height: 26px; top: -13px; }
+.legal-card::after{ background: var(--tape-pink); transform: rotate(4deg); }
+
+/* ---------- list cards: pinned at slightly different angles ---------- */
+.browse-card, .new-card, .stat-card{
+  transition: transform .35s var(--ease-pop), box-shadow .3s ease;
+}
+.browse-card:nth-child(odd), .new-card:nth-child(odd), .stat-card:nth-child(odd){ transform: rotate(-.7deg); }
+.browse-card:nth-child(even), .new-card:nth-child(even), .stat-card:nth-child(even){ transform: rotate(.6deg); }
+.browse-card:hover, .new-card:hover, .stat-card:hover{
+  transform: rotate(0) translateY(-5px);
+  box-shadow: 0 22px 44px -20px rgba(0,0,0,.6);
+}
+.email-card{ transform: rotate(-1.4deg); transition: transform .35s var(--ease-pop); }
+.email-card:hover{ transform: rotate(0) translateY(-3px); }
+
+/* ---------- small stickers ---------- */
+/* trending rank → round sticker, colors cycle by rank */
+.rank-badge{
+  background: var(--pop-lemon) !important;
+  color: var(--sticker-ink) !important;
+  border: 3px solid var(--sticker-edge) !important;
+  box-shadow: 0 5px 12px -6px rgba(0,0,0,.55);
+  transform: rotate(-8deg);
+  font-weight: 800;
+}
+.browse-card:nth-child(3n+2) .rank-badge{ background: var(--pop-pink) !important; transform: rotate(7deg); }
+.browse-card:nth-child(3n) .rank-badge{ background: var(--pop-mint) !important; transform: rotate(-4deg); }
+
+/* what's-new date → sticker label */
+.date-label{
+  display: inline-block;
+  background: var(--pop-lemon);
+  color: var(--sticker-ink) !important;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 3px solid var(--sticker-edge);
+  box-shadow: 0 5px 12px -6px rgba(0,0,0,.55);
+  transform: rotate(-2deg);
+}
+
+/* category filter tabs: hover goes sticker-pink, active tilts like a sticker */
+.tab-btn{ transition: transform .25s var(--ease-pop), background .2s, color .2s, border-color .2s; }
+.tab-btn:hover:not(.active){ background: var(--pop-pink); color: var(--sticker-ink); border-color: var(--sticker-edge); }
+.tab-btn.active{ transform: rotate(-2deg); border-color: var(--sticker-edge) !important; }
+
+/* buttons get a little wiggle */
+.cta-btn, .submit-btn{ transition: transform .3s var(--ease-pop), background .2s; }
+.cta-btn:hover, .submit-btn:hover:not(:disabled){ transform: rotate(-2deg) translateY(-2px) scale(1.03); }
+
+@media (prefers-reduced-motion: reduce){
+  .browse-title::after, .page-title::after, .section-title::after,
+  .about-title::after, .legal-title::after{ animation: none; }
+}
