@@ -836,6 +836,167 @@
     .cta-btn{ width: 100%; text-align: center; }
   }
 
+  /* ---------- home: 폴꾸 layer ----------
+     Fans decorate photocards with washi tape and stickers. The cardstock,
+     garnet and brass stay the system; the pop colors below are sticker ink
+     only — never body text on the dark ground, never a gradient wash. */
+  :root{
+    --pop-pink: #FF6FAE;
+    --pop-lilac: #B9A2FF;
+    --pop-mint: #74E3C4;
+    --pop-lemon: #FFE16B;
+    --sticker-ink: #1F1418;
+    --ease-pop: cubic-bezier(.34, 1.56, .64, 1);
+  }
+
+  /* die-cut sticker: a pop fill with a cream cut-line border */
+  .stk{
+    position: absolute;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-kr);
+    color: var(--sticker-ink);
+    border: 3px solid var(--card-face-hi);
+    box-shadow: 0 6px 14px -6px rgba(0,0,0,.55);
+    transform: rotate(var(--r, 0deg));
+    pointer-events: none;
+    white-space: nowrap;
+    animation: stickerPop .55s var(--ease-pop) both;
+    animation-delay: var(--d, .2s);
+  }
+  @keyframes stickerPop{
+    0%{ transform: rotate(var(--r, 0deg)) scale(0); opacity: 0; }
+    100%{ transform: rotate(var(--r, 0deg)) scale(1); opacity: 1; }
+  }
+
+  /* hero eyebrow becomes a sticker */
+  .hero-eyebrow{
+    display: inline-block;
+    background: var(--pop-pink);
+    color: var(--sticker-ink);
+    padding: 6px 14px 5px;
+    border-radius: 10px;
+    border: 3px solid var(--card-face-hi);
+    transform: rotate(-3deg);
+    box-shadow: 0 8px 18px -8px rgba(0,0,0,.6);
+  }
+  .hero h1{ font-size: clamp(2.7rem, 6vw, 5rem); position: relative; }
+  html[lang="ja"] .hero h1, html[lang="zh"] .hero h1, html[lang="cn"] .hero h1{
+    font-size: clamp(2rem, 4.6vw, 4rem);
+    line-height: 1.18;
+    letter-spacing: 0;
+  }
+  /* wavy marker underline drawn as a background so it follows each wrapped
+     line of the highlight (text-decoration wavy painted a stray copy) */
+  .hero h1 .stroke{
+    color: var(--pop-pink);
+    text-decoration: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='8' viewBox='0 0 16 8'%3E%3Cpath d='M0 4 Q4 0 8 4 T16 4' fill='none' stroke='%23FFE16B' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E") repeat-x left bottom / 16px 8px;
+    padding-bottom: .14em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .hero h1::after{
+    content: "✦";
+    position: absolute;
+    top: -.35em;
+    right: 0;
+    font-size: .5em;
+    line-height: 1;
+    color: var(--pop-lemon);
+    animation: twinkle 2.4s ease-in-out infinite;
+  }
+  @keyframes twinkle{
+    0%,100%{ transform: rotate(0) scale(1); opacity: 1; }
+    50%{ transform: rotate(20deg) scale(.75); opacity: .7; }
+  }
+
+  /* chips: each one a different sticker on hover */
+  .chip{ transition: transform .25s var(--ease-pop), background .2s, color .2s, border-color .2s; }
+  .chip:nth-of-type(1):hover{ background: var(--pop-pink); }
+  .chip:nth-of-type(2):hover{ background: var(--pop-lilac); }
+  .chip:nth-of-type(3):hover{ background: var(--pop-mint); }
+  .chip:hover{ color: var(--sticker-ink); border-color: var(--card-face-hi); transform: rotate(-4deg) scale(1.06); }
+
+  /* the hero card: tilted, taped, stickered */
+  .hero-card{ padding: 18px 10px; }
+  .hero-card .card-flip-viewport{
+    transform: rotate(-2.5deg);
+    transition: transform .45s var(--ease-pop);
+  }
+  .hero-card:hover .card-flip-viewport{ transform: rotate(-.5deg) translateY(-4px); }
+  .tape{
+    position: absolute;
+    z-index: 4;
+    width: 120px; height: 30px;
+    background: repeating-linear-gradient(135deg, rgba(185,162,255,.78) 0 8px, rgba(205,188,255,.78) 8px 16px);
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,.35);
+    transform: rotate(var(--r, -4deg));
+    pointer-events: none;
+  }
+  .hero-card .tape{ top: 2px; left: 50%; margin-left: -60px; --r: -6deg; }
+  .stk-bubble{ top: -6px; left: -14px; --r: -10deg; --d: .35s; background: var(--pop-pink); font-size: 18px; padding: 8px 14px; border-radius: 18px 18px 18px 4px; }
+  .stk-label{ bottom: 0; right: 30px; --r: 8deg; --d: .5s; background: var(--pop-lemon); font-size: 17px; padding: 7px 12px; border-radius: 10px; }
+  .stk-heart{ top: -4px; right: -10px; --r: 12deg; --d: .65s; background: var(--pop-mint); width: 46px; height: 46px; border-radius: 50%; font-size: 20px; }
+  .stk-star{ bottom: 18px; left: -10px; --r: -14deg; --d: .8s; background: var(--pop-lilac); font-size: 15px; padding: 7px 11px; border-radius: 999px; }
+
+  /* section kickers get a sparkle */
+  .kicker::before{ content: "✦ "; color: var(--pop-pink); }
+
+  /* trending: pinned at slightly different angles, taped, ranked */
+  .trend-grid{ padding-top: 8px; }
+  .trend-card{ overflow: visible; transition: transform .35s var(--ease-pop), box-shadow .3s var(--ease-flip); }
+  .trend-card:nth-child(1){ transform: rotate(-1.6deg); }
+  .trend-card:nth-child(2){ transform: rotate(1.2deg); }
+  .trend-card:nth-child(3){ transform: rotate(-.8deg); }
+  .trend-card:hover{ transform: rotate(0) translateY(-8px) scale(1.02); }
+  .trend-card::before{ border-radius: var(--radius-card) var(--radius-card) 0 0; }
+  .trend-card .tape{ top: -12px; left: 22px; width: 84px; height: 24px; --r: -8deg; }
+  .trend-card:nth-child(2) .tape{ --r: 7deg; background: repeating-linear-gradient(135deg, rgba(255,111,174,.72) 0 8px, rgba(255,150,196,.72) 8px 16px); }
+  .trend-card:nth-child(3) .tape{ background: repeating-linear-gradient(135deg, rgba(116,227,196,.75) 0 8px, rgba(150,236,212,.75) 8px 16px); }
+  .trend-stk{
+    top: -14px; right: -10px;
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    font-size: 20px;
+    --r: 10deg;
+  }
+  .trend-card:nth-child(1) .trend-stk{ background: var(--pop-lemon); --d: .2s; }
+  .trend-card:nth-child(2) .trend-stk{ background: var(--pop-lilac); --r: -12deg; --d: .3s; }
+  .trend-card:nth-child(3) .trend-stk{ background: var(--pop-pink); --d: .4s; }
+
+  /* explore icons: sticker tiles */
+  .explore-icon{ border: 3px solid var(--card-face-hi); color: var(--sticker-ink); transition: transform .35s var(--ease-pop); }
+  .explore-card:nth-child(1) .explore-icon{ background: var(--pop-pink); transform: rotate(-7deg); }
+  .explore-card:nth-child(2) .explore-icon{ background: var(--pop-mint); transform: rotate(6deg); }
+  .explore-card:hover .explore-icon{ transform: rotate(0) scale(1.1); }
+
+  /* CTA: confetti stickers on the garnet band */
+  .cta{ position: relative; }
+  .cta .stk{ animation: none; }
+  .cta .stk-a{ top: -16px; right: 18%; --r: 10deg; background: var(--pop-lemon); font-size: 18px; padding: 6px 12px; border-radius: 12px; }
+  .cta .stk-b{ bottom: -14px; left: 34%; --r: -8deg; background: var(--pop-mint); width: 44px; height: 44px; border-radius: 50%; font-size: 20px; }
+
+  @media (prefers-reduced-motion: reduce){
+    .stk{ animation: none; }
+    .hero h1::after{ animation: none; }
+  }
+  @media (max-width: 960px){
+    .hero-card{ padding: 18px 14px 22px; margin: 0 auto; width: 100%; }
+  }
+  @media (max-width: 600px){
+    .hero-card{ padding: 18px 6px 22px; }
+    .stk-bubble{ left: -2px; font-size: 15px; padding: 6px 11px; }
+    .stk-label{ right: 20px; font-size: 14px; padding: 5px 9px; }
+    .stk-heart{ right: -2px; width: 40px; height: 40px; font-size: 17px; }
+    .stk-star{ left: -2px; font-size: 11px; }
+    .trend-stk{ right: -4px; }
+    .cta{ padding-top: 40px; }
+    .cta .stk-a{ right: 16px; }
+  }
+
   /* ---------- footer ---------- */
   footer{
     margin-top: 40px;
@@ -975,6 +1136,11 @@
 
     <!-- the pull: today's card is dealt on load; a search swaps in the result, front-first, then flips -->
     <div class="hero-card">
+      <span class="tape" aria-hidden="true"></span>
+      <span class="stk stk-bubble" aria-hidden="true" lang="ko">ㅋㅋㅋㅋ</span>
+      <span class="stk stk-label" aria-hidden="true" lang="ko">진짜?!</span>
+      <span class="stk stk-heart" aria-hidden="true">♥</span>
+      <span class="stk stk-star" aria-hidden="true" lang="ko">대박 ✦</span>
       <div class="card-flip-viewport" id="resultCard">
         <div class="card-flip" id="cardFlip">
           <div class="card-face card-front">
@@ -1046,6 +1212,8 @@
   <!-- CTA — submit a word -->
   <section class="home-section">
     <div class="cta">
+      <span class="stk stk-a" aria-hidden="true" lang="ko">ㅋㅋ</span>
+      <span class="stk stk-b" aria-hidden="true">♥</span>
       <div>
         <h2 data-en="Get the reference. Be in on it." data-es="Entiende la referencia. Sé parte del chiste." data-zh="看懂梗，一起笑。" data-cn="看懂梗，一起笑。" data-ja="ネタがわかれば、もっと楽しい。">Get the reference. Be in on it.</h2>
         <p data-en="Heard a word we don't have yet? Send it in — every card in this binder started as a fan's question." data-es="¿Escuchaste una palabra que aún no tenemos? Envíala: cada carta de esta colección empezó como la pregunta de un fan." data-zh="聽到我們還沒收錄的詞嗎？告訴我們——這本卡冊裡的每張卡，都始於一位粉絲的提問。" data-cn="听到我们还没收录的词吗？告诉我们——这本卡册里的每张卡，都始于一位粉丝的提问。" data-ja="まだ載っていない言葉を見つけた？送ってください——このバインダーのカードは、どれもファンの疑問から生まれました。">Heard a word we don't have yet? Send it in — every card in this binder started as a fan's question.</p>
@@ -1328,7 +1496,10 @@ const SLANG_DB = [{"kr": "컴백", "rom": "keom-baek", "catKr": "아이돌 필�
       .filter(Boolean);
     grid.innerHTML = items.map(function(item, i){
       const idx = SLANG_DB.indexOf(item);
+      const stickers = ['🔥', '✨', '💬'];
       return '<button type="button" class="trend-card" onclick="selectWordByIndex(' + idx + ')">' +
+        '<span class="tape" aria-hidden="true"></span>' +
+        '<span class="stk trend-stk" aria-hidden="true">' + stickers[i % stickers.length] + '</span>' +
         '<span class="trend-num">0' + (i + 1) + ' / ' + item.catEn + '</span>' +
         '<span class="trend-kr foil-text" lang="ko">' + item.kr + '</span>' +
         '<span class="trend-rom">' + item.rom + '</span>' +
