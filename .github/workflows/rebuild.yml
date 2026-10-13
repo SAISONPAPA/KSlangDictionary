@@ -41,6 +41,9 @@ jobs:
       - name: Rebuild topic guides (guides/*.html)
         run: python3 scripts/generate_collections.py
 
+      - name: Rebuild mini quiz (quiz/index.html)
+        run: python3 scripts/generate_quiz.py
+
       - name: Rebuild main site pages (index/category/trending/submit)
         run: python3 scripts/update_main_pages.py
 

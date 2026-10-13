@@ -775,6 +775,25 @@
     font-size: 28px;
   }
 
+  /* decode: quiz teaser — one taped photocard + copy */
+  .decode{ display:grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 40px; align-items:center; }
+  .decode-card{
+    position: relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap: 10px;
+    min-height: 230px; padding: 30px 24px; color: var(--card-ink);
+    background: linear-gradient(135deg, var(--card-face) 0%, var(--card-face-hi) 42%, var(--card-face) 100%);
+    border: 1px solid var(--card-line); border-radius: var(--radius-card);
+    box-shadow: 0 24px 50px -24px rgba(0,0,0,.6); transform: rotate(-2deg);
+    transition: transform .35s cubic-bezier(.34,1.56,.64,1);
+  }
+  .decode-card:hover{ transform: rotate(0) translateY(-4px); }
+  .decode-card .tape{ top: -12px; left: 50%; margin-left: -50px; width: 100px; height: 26px; --r: -5deg; }
+  .decode-stk{ top: -14px; right: -12px; width: 50px; height: 50px; border-radius: 50%; background: var(--pop-lemon, #FFE16B); font-size: 24px; --r: 10deg; }
+  .decode-word{ font-family: var(--font-kr); font-size: clamp(52px, 8vw, 72px); line-height: 1; }
+  .decode-q{ font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: .5px; color: var(--card-ink-soft); }
+  .decode-copy h2{ font-family: var(--display); font-weight: 800; font-size: clamp(1.7rem, 3.2vw, 2.4rem); line-height: 1.12; letter-spacing: -0.03em; margin-top: 8px; color: var(--ink); }
+  .decode-copy p:not(.kicker){ margin-top: 12px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); max-width: 480px; }
+  .decode-btn{ display:inline-block; margin-top: 20px; }
+
   /* CTA: one solid garnet band — the committed accent, no gradient */
   .cta{
     display:flex;
@@ -820,6 +839,8 @@
     .trend-grid{ grid-template-columns: 1fr 1fr; }
     .trend-card:last-child{ grid-column: span 2; min-height: 0; }
     .explore-grid{ grid-template-columns: 1fr; }
+    .decode{ grid-template-columns: 1fr; gap: 30px; }
+    .decode-card{ max-width: 420px; }
     .section-head{ flex-direction: column; align-items: flex-start; }
     .cta{ flex-direction: column; align-items: flex-start; }
   }
@@ -1217,6 +1238,24 @@
         </div>
         <span class="explore-icon" aria-hidden="true" lang="ko">꿀</span>
       </a>
+    </div>
+  </section>
+
+  <!-- DECODE — quiz teaser -->
+  <section class="home-section" id="decode">
+    <div class="decode">
+      <a class="decode-card" href="quiz/" aria-label="Open the quiz">
+        <span class="tape" aria-hidden="true"></span>
+        <span class="stk decode-stk" aria-hidden="true">?</span>
+        <span class="decode-word foil-text" lang="ko">감다살</span>
+        <span class="decode-q" data-en="What does it mean?" data-es="¿Qué significa?" data-zh="這是什麼意思？" data-cn="这是什么意思？" data-ja="どういう意味？">What does it mean?</span>
+      </a>
+      <div class="decode-copy">
+        <p class="kicker" data-en="Can you decode this?" data-es="¿Puedes descifrarlo?" data-zh="你看得懂嗎？" data-cn="你看得懂吗？" data-ja="解読できる？">Can you decode this?</p>
+        <h2 data-en="Test yourself in 12 quick questions" data-es="Ponte a prueba con 12 preguntas rápidas" data-zh="用12道快問快答測試自己" data-cn="用12道快问快答测试自己" data-ja="12問のクイズで腕試し">Test yourself in 12 quick questions</h2>
+        <p data-en="Pick the Korean word that fits — every answer shows the meaning and links to the full card." data-es="Elige la palabra coreana que encaja: cada respuesta muestra el significado y enlaza a su tarjeta." data-zh="選出符合的韓文單字——每題都會顯示意思並連到完整卡片。" data-cn="选出符合的韩文单词——每题都会显示意思并链接到完整卡片。" data-ja="当てはまる韓国語を選ぼう。答えごとに意味とカードへのリンクが表示される。">Pick the Korean word that fits — every answer shows the meaning and links to the full card.</p>
+        <a class="cta-btn decode-btn" href="quiz/" data-en="Take the quiz →" data-es="Hacer el quiz →" data-zh="開始測驗 →" data-cn="开始测验 →" data-ja="クイズに挑戦 →">Take the quiz →</a>
+      </div>
     </div>
   </section>
 

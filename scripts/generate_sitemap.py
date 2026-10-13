@@ -52,6 +52,11 @@ def main():
             urls.append((f"{SITE_URL}/guides/{c['slug']}.html", "0.8", "weekly"))
             guide_count += 1
 
+    # mini quiz (scripts/generate_quiz.py)
+    if getattr(db, "QUIZ", None):
+        urls.append((f"{SITE_URL}/quiz/", "0.7", "monthly"))
+        guide_count += 1
+
     total_words = 0
     for cat_kr, cat_en, terms in db.CATEGORIES:
         for t in terms:
@@ -74,7 +79,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
-    print(f"sitemap.xml generated: {len(STATIC_PAGES)} static pages + {guide_count} guide pages + {total_words} word pages = {len(urls)} URLs total")
+    print(f"sitemap.xml generated: {len(STATIC_PAGES)} static pages + {guide_count} guide/quiz pages + {total_words} word pages = {len(urls)} URLs total")
 
 
 if __name__ == "__main__":

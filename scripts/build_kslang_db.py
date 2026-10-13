@@ -1633,7 +1633,7 @@ BROADCAST = [
      "Una exclamación para algo impresionantemente bueno o sorprendente.",
      "대박, 이거 실화야?", "No way, is this actually real?",
      "¡Increíble! ¿Esto es real de verdad?",
-     "Everywhere — broadcast captions, casual speech", "Draft — please double-check"),
+     "Everywhere — broadcast captions, casual speech", "Verified (web-checked)"),
     ("사이다", "sa-i-da", "Refreshing / satisfying",
      "A moment that feels satisfying — a comeback, a blunt truth spoken, karma landing.",
      "Un momento que se siente satisfactorio, como una revancha o una verdad dicha sin rodeos.",
@@ -6371,6 +6371,114 @@ COLLECTIONS = [
              "words": ["덕계못", "어덕행덕", "갠팬", "생카", "오살힘", "문찐"]},
         ],
     },
+]
+
+
+# ---------------------------------------------------------------------------
+# QUIZ — the mini quiz at /quiz/ (scripts/generate_quiz.py)
+#
+# Every option is a Korean word from this database (so the same question
+# works in all five languages). Two kinds of question:
+#   "meaning"   — the word's own five-language meaning is shown; pick the word
+#   "situation" — a hand-written situation (five languages); pick the word
+#                 that fits. Optional "note" explains why, five languages.
+# Use Verified words only, and make sure exactly ONE option fits.
+# ---------------------------------------------------------------------------
+
+QUIZ_UI = {
+    "title": {"en": "Can You Decode This? — Korean Slang Quiz", "es": "¿Puedes descifrarlo? — Quiz de jerga coreana", "zh": "你看得懂嗎？——韓語流行語小測驗", "cn": "你看得懂吗？——韩语流行语小测验", "ja": "解読できる？——韓国語スラング・クイズ"},
+    "intro": {
+        "en": "12 quick questions on K-pop fan talk, internet slang and chat abbreviations. Pick the Korean word that fits — every answer comes with an explanation and a link to the full card.",
+        "es": "12 preguntas rápidas sobre jerga de fans del K-pop, de internet y abreviaturas de chat. Elige la palabra coreana que encaja: cada respuesta trae una explicación y un enlace a su tarjeta completa.",
+        "zh": "12題快問快答，主題是K-pop粉絲用語、網路流行語和聊天縮寫。選出符合的韓文單字——每題都附上解說和完整卡片的連結。",
+        "cn": "12道快问快答，主题是K-pop粉丝用语、网络流行语和聊天缩写。选出符合的韩文单词——每题都附上解说和完整卡片的链接。",
+        "ja": "K-POPファン用語・ネットスラング・チャットの略語から12問。当てはまる韓国語を選ぼう。答えごとに解説と詳しいカードへのリンク付き。",
+    },
+    "ask_meaning": {"en": "Which word means this?", "es": "¿Qué palabra significa esto?", "zh": "哪個詞是這個意思？", "cn": "哪个词是这个意思？", "ja": "この意味の言葉はどれ？"},
+    "ask_situation": {"en": "Which word fits?", "es": "¿Qué palabra encaja?", "zh": "哪個詞最適合？", "cn": "哪个词最合适？", "ja": "ぴったりの言葉はどれ？"},
+    "correct": {"en": "Correct!", "es": "¡Correcto!", "zh": "答對了！", "cn": "答对了！", "ja": "正解！"},
+    "wrong": {"en": "Not quite — the answer is", "es": "Casi — la respuesta es", "zh": "差一點——答案是", "cn": "差一点——答案是", "ja": "おしい！正解は"},
+    "see_card": {"en": "See the full card →", "es": "Ver la tarjeta completa →", "zh": "看完整卡片 →", "cn": "看完整卡片 →", "ja": "カードを詳しく見る →"},
+    "next": {"en": "Next question", "es": "Siguiente pregunta", "zh": "下一題", "cn": "下一题", "ja": "次の問題"},
+    "finish": {"en": "See my score", "es": "Ver mi puntuación", "zh": "看我的分數", "cn": "看我的分数", "ja": "結果を見る"},
+    "start": {"en": "Start the quiz", "es": "Empezar el quiz", "zh": "開始測驗", "cn": "开始测验", "ja": "クイズを始める"},
+    "score_label": {"en": "Your score", "es": "Tu puntuación", "zh": "你的分數", "cn": "你的分数", "ja": "あなたのスコア"},
+    "result_high": {"en": "영크크 energy — you're totally in the loop.", "es": "Energía 영크크: estás totalmente al día.", "zh": "영크크等級——你完全跟得上潮流。", "cn": "영크크级别——你完全跟得上潮流。", "ja": "영크크レベル——完全に最先端！"},
+    "result_mid": {"en": "Nice! You know more than most — a few more cards and you're fluent.", "es": "¡Bien! Sabes más que la mayoría: unas cuantas tarjetas más y lo dominas.", "zh": "不錯！你懂的比大多數人多——再多看幾張卡就能融會貫通。", "cn": "不错！你懂的比大多数人多——再多看几张卡就能融会贯通。", "ja": "いいね！かなり詳しい方。あと少しカードを読めばマスター。"},
+    "result_low": {"en": "A little 늙크크 for now — the guides below will catch you up fast.", "es": "Un poco 늙크크 por ahora: las guías de abajo te pondrán al día rápido.", "zh": "目前有點늙크크——下面的指南能讓你很快跟上。", "cn": "目前有点늙크크——下面的指南能让你很快跟上。", "ja": "今はちょっと늙크크かも。下のガイドですぐ追いつける！"},
+    "retry": {"en": "Try again", "es": "Intentar de nuevo", "zh": "再玩一次", "cn": "再玩一次", "ja": "もう一度"},
+    "keep_learning": {"en": "Keep learning", "es": "Sigue aprendiendo", "zh": "繼續學習", "cn": "继续学习", "ja": "もっと学ぶ"},
+}
+
+QUIZ = [
+    {"type": "meaning", "answer": "입덕", "options": ["입덕", "탈덕", "휴덕", "덕질"]},
+    {"type": "meaning", "answer": "감다살", "options": ["감다살", "감다뒤", "억까", "현생"]},
+    {"type": "situation", "answer": "영크크", "options": ["영크크", "늙크크", "감다뒤", "탈덕"],
+     "situation": {
+         "en": "Your friend already knows a meme that only came out this morning. You tease-praise them:",
+         "es": "Tu amigo ya conoce un meme que salió apenas esta mañana. Lo elogias en broma:",
+         "zh": "朋友已經知道今天早上才出現的迷因。你半開玩笑地稱讚他：",
+         "cn": "朋友已经知道今天早上才出现的梗。你半开玩笑地称赞他：",
+         "ja": "今朝出たばかりのミームを友達がもう知っている。からかい半分でほめるなら：",
+     }},
+    {"type": "meaning", "answer": "억텐", "options": ["억텐", "찐텐", "억까", "갑톡튀"]},
+    {"type": "situation", "answer": "킹받다", "options": ["킹받다", "소확행", "찐텐", "동결건조"],
+     "situation": {
+         "en": "A cast member on a variety show makes a smug face so annoying that you can't stop laughing.",
+         "es": "Alguien en un programa de variedades pone una cara tan presumida y molesta que no puedes parar de reír.",
+         "zh": "綜藝節目裡有人擺出一張欠揍到讓你笑個不停的得意臉。",
+         "cn": "综艺节目里有人摆出一张欠揍到让你笑个不停的得意脸。",
+         "ja": "バラエティ番組で出演者がムカつくほどのドヤ顔をして、笑いが止まらない。",
+     },
+     "note": {
+         "en": "킹받다 is irritation you can laugh at — not real anger.",
+         "es": "킹받다 es una molestia que da risa, no enojo real.",
+         "zh": "킹받다是讓人想笑的火大，不是真的生氣。",
+         "cn": "킹받다是让人想笑的火大，不是真的生气。",
+         "ja": "킹받다は笑えるイラつきで、本気の怒りではない。",
+     }},
+    {"type": "meaning", "answer": "덕계못", "options": ["덕계못", "어덕행덕", "오살힘", "덕메"]},
+    {"type": "situation", "answer": "졌잘싸", "options": ["졌잘싸", "억까", "가즈아", "동결건조"],
+     "situation": {
+         "en": "Your team lost the final, but everyone played their hearts out. In the comments you write:",
+         "es": "Tu equipo perdió la final, pero todos lo dieron todo. En los comentarios escribes:",
+         "zh": "你支持的隊伍輸了決賽，但每個人都拚盡全力。你在留言區寫下：",
+         "cn": "你支持的队伍输了决赛，但每个人都拼尽全力。你在评论区写下：",
+         "ja": "応援しているチームが決勝で負けたけれど、全員が全力を出し切った。コメント欄に書くなら：",
+     }},
+    {"type": "meaning", "answer": "사바사", "options": ["사바사", "저메추", "졌잘싸", "크더싼"]},
+    {"type": "situation", "answer": "저메추", "options": ["저메추", "사바사", "갑통알", "생카"],
+     "situation": {
+         "en": "It's 7 p.m., you have no idea what to eat, so you ask the group chat for ideas:",
+         "es": "Son las 7 de la tarde, no tienes idea de qué cenar y le pides ideas al chat grupal:",
+         "zh": "晚上7點，完全不知道要吃什麼，於是在群組裡問大家：",
+         "cn": "晚上7点，完全不知道吃什么，于是在群里问大家：",
+         "ja": "夜7時、何を食べるか全然決まらないので、グループチャットでみんなに聞く：",
+     }},
+    {"type": "situation", "answer": "대박", "options": ["대박", "탈덕", "현생", "저메추"],
+     "situation": {
+         "en": "Your favorite group suddenly announces a surprise comeback. Your first reaction:",
+         "es": "Tu grupo favorito anuncia de repente un comeback sorpresa. Tu primera reacción:",
+         "zh": "你最喜歡的團體突然宣布驚喜回歸。你的第一個反應：",
+         "cn": "你最喜欢的团体突然宣布惊喜回归。你的第一反应：",
+         "ja": "好きなグループがサプライズでカムバックを発表。最初のリアクションは：",
+     }},
+    {"type": "situation", "answer": "ㅋㅋ", "options": ["ㅋㅋ", "ㄹㅇ", "ㅈㅈ", "8282"],
+     "situation": {
+         "en": "Someone posts something hilarious in the group chat and you type a quick laugh:",
+         "es": "Alguien publica algo divertidísimo en el chat grupal y escribes una risa rápida:",
+         "zh": "有人在群組裡發了超好笑的東西，你快速打個笑：",
+         "cn": "有人在群里发了超好笑的东西，你快速打个笑：",
+         "ja": "誰かがグループチャットに爆笑ネタを投稿。すぐに笑いを返すなら：",
+     }},
+    {"type": "situation", "answer": "ㄹㅇ", "options": ["ㄹㅇ", "1004", "ㅈㅈ", "8282"],
+     "situation": {
+         "en": "Your friend says the new album is the best one yet, and you totally agree — \"for real\":",
+         "es": "Tu amigo dice que el nuevo álbum es el mejor hasta ahora y estás totalmente de acuerdo, \"en serio\":",
+         "zh": "朋友說新專輯是目前最好的一張，你完全同意——「真的」：",
+         "cn": "朋友说新专辑是目前最好的一张，你完全同意——“真的”：",
+         "ja": "友達が「新しいアルバムは今までで一番」と言い、完全に同意。「マジで」と返すなら：",
+     }},
 ]
 
 
