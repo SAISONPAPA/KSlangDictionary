@@ -234,6 +234,25 @@
   .caption-bar .cap-timecode{ font-family: var(--mono); font-size: 10px; letter-spacing:.4px; color: #6E665C; margin-top: 12px; }
 
   .cta-row{ margin-top: 30px; display:flex; gap: 14px; flex-wrap:wrap; }
+  /* ---- optional deep-dive sections (DETAILS in build_kslang_db.py) ----
+     Unlike the stacked meaning/example above, these longer blocks show only
+     the reader's language: all five are in the HTML (crawlers read them,
+     English is the no-JS default), and html[lang] picks the visible one. */
+  .detail-block{ margin-top: 26px; }
+  .detail-block h2{ font-family: var(--mono); font-size: 11px; letter-spacing:1.2px; text-transform:uppercase; color: var(--garnet); margin-bottom: 8px; }
+  .detail-block p{ font-size: 15px; color: var(--card-ink); line-height:1.65; }
+  .lx{ display:none; }
+  html[lang="en"] .lx[data-l="en"], html[lang="es"] .lx[data-l="es"], html[lang="zh"] .lx[data-l="zh"],
+  html[lang="cn"] .lx[data-l="cn"], html[lang="ja"] .lx[data-l="ja"]{ display:block; }
+  .tone-pill{ display:inline-block; font-size: 13px; font-weight:700; color: var(--card-ink); background: rgba(33,27,22,.07); border: 1px solid var(--card-line); border-radius: 10px; padding: 7px 12px; }
+  .similar-row{ display:flex; flex-wrap:wrap; gap: 8px; }
+  .similar-chip{ display:inline-flex; align-items:baseline; gap: 7px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--card-line); background: var(--card-face-hi); color: var(--card-ink); font-size: 13px; transition: border-color .2s; }
+  .similar-chip b{ font-family: var(--font-kr); font-weight:400; font-size: 16px; }
+  .similar-chip:hover{ border-color: var(--garnet); }
+  .source-list{ list-style:none; padding:0; margin:0; }
+  .source-list li{ font-size: 13px; color: var(--card-ink-soft); line-height:1.55; margin-bottom: 6px; }
+  .source-list a{ color: var(--garnet); font-weight:700; text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
+  .share-btn{ cursor:pointer; font-family: inherit; border: 1.5px dashed var(--card-ink-soft); background: transparent; color: var(--card-ink); }
   .cta-btn{ font-weight: 700; font-size: 13.5px; padding: 12px 22px; border-radius: 999px; transition: all .2s var(--ease-flip); }
   .cta-primary{ background: var(--garnet); color:#fff; }
   .cta-primary:hover{ background: var(--garnet-bright); }
@@ -388,9 +407,11 @@
         </div>
       </div>
 
+
       <div class="cta-row">
         <a href="../category.html?cat=Online%20Memes" class="cta-btn cta-primary" data-en="Browse more Online Memes words" data-es="Ver más palabras de Memes de internet" data-zh="瀏覽更多「網路迷因」相關詞彙" data-cn="浏览更多「网络迷因」相关词汇" data-ja="「ネットミーム」の単語をもっと見る">Browse more Online Memes words</a>
         <a href="../index.html#dictionary" class="cta-btn cta-secondary" data-en="Search the full dictionary" data-es="Buscar en todo el diccionario" data-zh="搜尋完整詞典" data-cn="搜索完整词典" data-ja="辞書全体を検索">Search the full dictionary</a>
+        <button type="button" class="cta-btn share-btn" onclick="shareWord(this)" data-en="Share this word" data-es="Compartir esta palabra" data-zh="分享這個詞" data-cn="分享这个词" data-ja="この単語をシェア" data-copied-en="Link copied!" data-copied-es="¡Enlace copiado!" data-copied-zh="已複製連結！" data-copied-cn="已复制链接！" data-copied-ja="リンクをコピーしました！">Share this word</button>
       </div>
     </div>
   </div>
@@ -413,7 +434,7 @@
       </a>
       <a class="related-card" href="king-bat-da.html">
         <div class="r-kr">킹받다</div>
-        <div class="r-gloss">A playful blend of &quot;king&quot; + 받다 (&quot;to receive/feel&quot;), meaning something is really irritating.</div>
+        <div class="r-gloss">A playful blend of English &quot;king&quot; + 열받다 (&quot;to get mad&quot;) — something is SO annoying, usually in a funny way rather than real anger.</div>
       </a>
     </div>
   </div>
@@ -475,6 +496,25 @@
     var selectEl = document.getElementById('langSelect');
     if(selectEl) selectEl.value = lang;
     document.documentElement.lang = lang;
+  }
+
+  // Share: native share sheet on phones, copy-link fallback elsewhere.
+  function shareWord(btn){
+    var data = { title: document.title, url: location.href };
+    if(navigator.share){
+      navigator.share(data).catch(function(){});
+      return;
+    }
+    var done = function(){
+      var original = btn.textContent;
+      btn.textContent = btn.getAttribute('data-copied-' + currentLang) || 'Link copied!';
+      setTimeout(function(){ btn.textContent = btn.getAttribute('data-' + currentLang) || original; }, 1800);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(location.href).then(done, function(){ window.prompt('Copy this link:', location.href); });
+    } else {
+      window.prompt('Copy this link:', location.href);
+    }
   }
 
   // Apply whatever language the visitor picked last time (persisted via

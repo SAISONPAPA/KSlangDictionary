@@ -2442,11 +2442,11 @@ MEME = [
      "Esta es una prueba innegable.",
      "Debates, comment sections", "Draft — please double-check"),
     ("킹받다", "king-bat-da", "Infuriating",
-     "A playful blend of \"king\" + 받다 (\"to receive/feel\"), meaning something is really irritating.",
-     "Una mezcla juguetona de \"rey\" + \"recibir\", que significa que algo es muy irritante.",
+     "A playful blend of English \"king\" + 열받다 (\"to get mad\") — something is SO annoying, usually in a funny way rather than real anger.",
+     "Una mezcla juguetona del inglés \"king\" + 열받다 (\"enojarse\"): algo que molesta muchísimo, normalmente de forma graciosa más que con enojo real.",
      "이거 진짜 킹받네.", "This is seriously infuriating.",
      "Esto es de verdad muy irritante.",
-     "Comments, reaction posts", "Draft — please double-check"),
+     "Comments, reaction posts", "Verified (web-checked)"),
     ("극혐", "geuk-hyeom", "Extremely disgusting",
      "A strong expression of dislike or disgust.",
      "Una expresión fuerte de disgusto o rechazo.",
@@ -4179,7 +4179,7 @@ ZH_TW_TRANSLATIONS = {
     "급식체": ("青少年之間流行的誇張、詼諧網路用語。", "別太誇張地用學生體講話。"),
     "인생네컷": ("韓國流行的四格拍貼機照片形式。", "跟朋友去拍了大頭貼。"),
     "빼박": ("「拔不出插不進」的簡稱——意思是完全沒有辯解餘地。", "這是鐵證如山的證據。"),
-    "킹받다": ("「king」加上「받다」（受到、感覺到）的結合，形容某件事真的很惹怒人。", "這個真的很讓人King怒。"),
+    "킹받다": ("英文「king」加上「열받다」（生氣）的組合，表示某件事超級讓人火大——通常是好笑的那種氣，而不是真的發怒。", "這個真的很讓人King怒。"),
     "극혐": ("表達強烈厭惡或反感的用語。", "那個味道真的超噁心。"),
     "오지다": ("形容某件事很厲害或很誇張的俚語。", "這次演唱會真的太狂了。"),
     "낫닝겐": ("形容超乎常人的天賦或實力，即「不是人類」。", "那個人的舞蹈實力根本不是人類等級。"),
@@ -4854,7 +4854,7 @@ ZH_CN_TRANSLATIONS = {
     "급식체": ("青少年之间流行的夸张、诙谐网络用语。", "别太夸张地用学生体讲话。"),
     "인생네컷": ("韩国流行的四格拍贴机照片形式。", "跟朋友去拍了大头贴。"),
     "빼박": ("“拔不出插不进”的简称——意思是完全没有辩解余地。", "这是铁证如山的证据。"),
-    "킹받다": ("“king”加上“받다”（受到、感觉到）的结合，形容某件事真的很惹怒人。", "这个真的很让人King怒。"),
+    "킹받다": ("英文“king”加上“열받다”（生气）的组合，表示某件事超级让人火大——通常是好笑的那种气，而不是真的发怒。", "这个真的很让人King怒。"),
     "극혐": ("表达强烈厌恶或反感的用语。", "那个味道真的超恶心。"),
     "오지다": ("形容某件事很厉害或很夸张的俚语。", "这次演唱会真的太狂了。"),
     "낫닝겐": ("形容超乎常人的天赋或实力，即“不是人类”。", "那个人的舞蹈实力根本不是人类等级。"),
@@ -5516,7 +5516,7 @@ JA_TRANSLATIONS = {
     "급식체": ("10代の間で流行る、大げさで遊び心のあるネットスラング。", "学生スラング使いすぎないでよ。"),
     "인생네컷": ("4枚の小さな写真がプリントされる、韓国発の人気フォトブース形式。", "友達と人生4カット撮ってきた。"),
     "빼박": ("「抜くことも押し込むこともできない」の略——言い逃れのしようがないこと。", "これは言い逃れできない証拠だよ。"),
-    "킹받다": ("「king」と받다（受け取る）を組み合わせた言葉で、すごくイライラすることを表す。", "これマジでイライラする。"),
+    "킹받다": ("英語の「king」と열받다（腹が立つ）を組み合わせた言葉。めちゃくちゃイラッとすることを表すが、本気の怒りより「笑えるイラつき」に使うことが多い。", "これマジでイライラする。"),
     "극혐": ("強い嫌悪や不快感を表す言葉。", "あの匂い、マジで激嫌。"),
     "오지다": ("何かが印象的にすごい、または極端であることを表すスラング。", "今回のコンサート、マジでエグかった。"),
     "낫닝겐": ("人間離れしたレベルの才能や実力を表す言葉。", "あの人のダンス実力、人間離れしてる。"),
@@ -6019,6 +6019,271 @@ JA_TRANSLATIONS = {
     "밤티": ("ブサイク、ダサい、古臭いという意味の軽いディス言葉——誰かの見た目やスタイル、デザインを冗談っぽくいじるときに使う。アバターカスタマイズゲームで「밤티」というユーザーがアバターをからかわれたスクショが元ネタでバズった。", "今日のコーデ、ちょっとダサいね。"),
     "주먹자로": ("痩身注射「マンジャロ（韓国語表記마운자로）」の発音をもじった言葉遊び「주먹자로」——2026年初頭に流行った自虐ネタで、注射代が払えないから飢えて「ダイエット」するという意味。誇張したジョークであって、本当の計画ではない。", "今月のカード明細見て、もう食費削ってダイエットすることにした。"),
 }
+
+# ---------------------------------------------------------------------------
+# DETAILS — optional deep-dive content for individual word pages.
+#
+# Same pattern as the translation dicts: a SEPARATE lookup keyed by the exact
+# `kr` value, so the 10-field tuples above stay untouched. A word that isn't
+# in here (or is missing a field) simply doesn't show that section — never
+# pad a field just to fill it.
+#
+# Fields (all optional):
+#   "nuance"   — literal meaning vs. how it's actually used   {en, es, zh, cn, ja}
+#   "usage"    — when to use it, and when NOT to               {en, es, zh, cn, ja}
+#   "culture"  — background that can be confirmed             {en, es, zh, cn, ja}
+#   "register" — one of REGISTER_LABELS keys (tone/formality)
+#   "similar"  — other `kr` values that exist in this database
+#   "tags"     — topic tags (see TAG_LABELS) used for collections/situations
+#   "sources"  — ONLY pages that were actually opened and checked:
+#                {"title", "publisher", "date", "url"}
+#
+# Rules: no guessed origins stated as fact, no invented stats or quotes, no
+# lyrics, no real-person examples. If an origin is disputed, say so.
+# ---------------------------------------------------------------------------
+
+REGISTER_LABELS = {
+    "casual": {
+        "en": "Casual — friends, fandom, and online chat",
+        "es": "Informal — entre amigos, en el fandom y en chats",
+        "zh": "非正式——朋友之間、粉絲圈與網路聊天",
+        "cn": "非正式——朋友之间、粉丝圈和网络聊天",
+        "ja": "カジュアル——友達同士・ファン同士・ネットで",
+    },
+    "everyday": {
+        "en": "Everyday — fine in most casual speech; swap for something politer in formal settings",
+        "es": "Cotidiano — sirve en casi cualquier conversación informal; en contextos formales usa algo más cortés",
+        "zh": "日常——一般口語都能用；正式場合請換成更禮貌的說法",
+        "cn": "日常——一般口语都能用；正式场合请换成更礼貌的说法",
+        "ja": "日常語——くだけた会話ならほぼOK。改まった場では丁寧な言い方に",
+    },
+    "text": {
+        "en": "Text only — typed in chats and comments, not said out loud",
+        "es": "Solo por escrito — se usa en chats y comentarios, no se dice en voz alta",
+        "zh": "僅限文字——用在聊天和留言，不會唸出來",
+        "cn": "仅限文字——用在聊天和评论里，不会念出来",
+        "ja": "文字だけ——チャットやコメントで使い、声には出さない",
+    },
+}
+
+TAG_LABELS = {
+    "kpop-fan":  {"en": "K-pop fan talk", "es": "Jerga de fans del K-pop", "zh": "K-pop粉絲用語", "cn": "K-pop粉丝用语", "ja": "K-POPファン用語"},
+    "internet":  {"en": "Internet slang", "es": "Jerga de internet", "zh": "網路流行語", "cn": "网络流行语", "ja": "ネットスラング"},
+    "chat":      {"en": "Chat & texting", "es": "Chat y mensajes", "zh": "聊天用語", "cn": "聊天用语", "ja": "チャット用語"},
+    "reaction":  {"en": "Reactions", "es": "Reacciones", "zh": "反應用語", "cn": "反应用语", "ja": "リアクション"},
+    "surprise":  {"en": "Surprise", "es": "Sorpresa", "zh": "驚訝", "cn": "惊讶", "ja": "驚き"},
+    "funny":     {"en": "Funny moments", "es": "Momentos graciosos", "zh": "好笑的時候", "cn": "好笑的时候", "ja": "笑えるとき"},
+    "praise":    {"en": "Praise & hype", "es": "Elogios", "zh": "稱讚", "cn": "称赞", "ja": "ほめ言葉"},
+    "annoyed":   {"en": "Annoyed (jokingly)", "es": "Molestia (en broma)", "zh": "（開玩笑地）生氣", "cn": "（开玩笑地）生气", "ja": "（冗談で）イラッ"},
+    "favorites": {"en": "Favorites", "es": "Favoritos", "zh": "最愛", "cn": "最爱", "ja": "お気に入り"},
+}
+
+DETAILS = {
+    "최애": {
+        "nuance": {
+            "en": "Built from the characters 最 (most) and 愛 (love), so it literally means \"most loved.\" Fans use it for the one member they like above everyone else — but it isn't limited to idols: your 최애 song, show, food or character works too.",
+            "es": "Viene de los caracteres 最 (más) y 愛 (amor), así que literalmente significa \"el más amado\". Los fans lo usan para el miembro que más les gusta, pero no se limita a ídolos: también puede ser tu canción, serie, comida o personaje favorito.",
+            "zh": "由「最」和「愛」兩個漢字組成，字面意思就是「最愛的」。粉絲用來指團裡最喜歡的成員，但不只限於偶像——最喜歡的歌、劇、食物或角色也都能叫최애。",
+            "cn": "由“最”和“爱”两个汉字组成，字面意思就是“最爱的”。粉丝用来指团里最喜欢的成员，但不只限于偶像——最喜欢的歌、剧、食物或角色也都能叫최애。",
+            "ja": "漢字の「最」と「愛」でできた言葉で、直訳は「いちばん愛している」。ファンがグループの中で一番好きなメンバーを指すのに使うが、アイドルに限らず、一番好きな曲・ドラマ・食べ物・キャラクターにも使える。",
+        },
+        "usage": {
+            "en": "Use it when you're comparing favorites with friends or other fans: \"내 최애는 ___\" (\"My favorite is ___\"). It's warm and light, and it often comes paired with 차애 — your second favorite.",
+            "es": "Úsalo al hablar de favoritos con amigos u otros fans: \"내 최애는 ___\" (\"Mi favorito es ___\"). Es cálido y ligero, y a menudo va junto a 차애, tu segundo favorito.",
+            "zh": "和朋友或其他粉絲聊最愛時使用：「내 최애는 ___」（我的最愛是___）。語氣溫暖輕鬆，常和차애（第二喜歡的）一起出現。",
+            "cn": "和朋友或其他粉丝聊最爱时使用：“내 최애는 ___”（我的最爱是___）。语气温暖轻松，常和차애（第二喜欢的）一起出现。",
+            "ja": "友達やファン同士で推しの話をするときに使う：「내 최애는 ___」（私の一番は___）。温かく軽いニュアンスで、二番目の推しを表す차애とセットで使われることも多い。",
+        },
+        "culture": {
+            "en": "Fan talk is full of ranking — who's your first, who's your second — and 최애 / 차애 give fans a quick way to say it. Japanese fans use 推し (oshi) in a very similar way.",
+            "es": "En el fandom se habla mucho de rankings —quién es tu primero, quién tu segundo— y 최애 / 차애 permiten decirlo rápido. Los fans japoneses usan 推し (oshi) de forma muy parecida.",
+            "zh": "粉絲之間很常聊「第一是誰、第二是誰」，최애／차애就是最快的說法。日本粉絲用「推し」的方式也很類似。",
+            "cn": "粉丝之间很常聊“第一是谁、第二是谁”，최애／차애就是最快的说法。日本粉丝用“推し”的方式也很类似。",
+            "ja": "ファン同士では「一番は誰？二番は？」という話題が定番で、최애／차애はそれを一言で言える言葉。日本のファンが使う「推し」とよく似た使い方をする。",
+        },
+        "register": "everyday",
+        "similar": ["차애", "최애캐", "입덕"],
+        "tags": ["kpop-fan", "favorites"],
+    },
+    "입덕": {
+        "nuance": {
+            "en": "Literally \"entering 덕\": 入 (enter) plus 덕 from 덕후, the Korean form of the Japanese word otaku. It doesn't just mean liking something — it marks the moment you cross the line and become a real fan.",
+            "es": "Literalmente \"entrar en el 덕\": 入 (entrar) más 덕 de 덕후, la versión coreana de la palabra japonesa otaku. No es solo que algo te guste: marca el momento en que cruzas la línea y te vuelves fan de verdad.",
+            "zh": "字面是「進入덕」：入（進入）加上덕후的「덕」，덕후是日文otaku的韓式說法。不只是「喜歡」而已，而是指正式跨過那條線、成為真粉絲的那一刻。",
+            "cn": "字面是“进入덕”：入（进入）加上덕후的“덕”，덕후是日语otaku的韩式说法。不只是“喜欢”而已，而是指正式跨过那条线、成为真粉丝的那一刻。",
+            "ja": "直訳は「덕に入る」。入（入る）に、日本語の「オタク」を韓国風にした덕후の「덕」を組み合わせた言葉。ただ好きなだけでなく、本格的にファンになった瞬間を指す。いわゆる「沼落ち」。",
+        },
+        "usage": {
+            "en": "Usually told as a little story: \"이 무대 보고 입덕했어\" (\"This stage is what got me\"). Fans often call the clip that did it their 입덕영상.",
+            "es": "Normalmente se cuenta como una pequeña historia: \"이 무대 보고 입덕했어\" (\"Este escenario fue el que me atrapó\"). Muchos fans llaman 입덕영상 al video que lo provocó.",
+            "zh": "通常像說故事一樣使用：「이 무대 보고 입덕했어」（看了這個舞台就入坑了）。粉絲常把讓自己入坑的影片叫做입덕영상。",
+            "cn": "通常像讲故事一样使用：“이 무대 보고 입덕했어”（看了这个舞台就入坑了）。粉丝常把让自己入坑的视频叫做입덕영상。",
+            "ja": "ちょっとした思い出話として使うことが多い：「이 무대 보고 입덕했어」（このステージで沼落ちした）。きっかけになった動画は입덕영상と呼ばれる。",
+        },
+        "culture": {
+            "en": "It belongs to a whole vocabulary for a fan's life cycle: 덕질 for fan activities, 휴덕 for taking a break, and 탈덕 for leaving a fandom.",
+            "es": "Forma parte de todo un vocabulario sobre la vida de un fan: 덕질 para las actividades de fan, 휴덕 para tomarse un descanso y 탈덕 para dejar un fandom.",
+            "zh": "它屬於一整套描述粉絲生命週期的詞：덕질是追星活動、휴덕是暫時休息、탈덕是脫粉。",
+            "cn": "它属于一整套描述粉丝生命周期的词：덕질是追星活动、휴덕是暂时休息、탈덕是脱粉。",
+            "ja": "ファン活動のライフサイクルを表す言葉の一つ。덕질はオタ活、휴덕はお休み、탈덕はファンをやめること。",
+        },
+        "register": "casual",
+        "similar": ["탈덕", "덕질", "입덕영상", "휴덕"],
+        "tags": ["kpop-fan"],
+        "sources": [
+            {"title": "덕후 용어 사전, 들어는 보셨나요?", "publisher": "TenAsia", "date": "2014-08-07",
+             "url": "https://www.tenasia.co.kr/article/2014080745384"},
+        ],
+    },
+    "영크크": {
+        "nuance": {
+            "en": "Short for \"Young Creator Crew,\" a phrase the group CORTIS took up as its slogan and made into a song. Online it turned into a compliment for anyone who's quick on trends — it has nothing to do with how old you actually are.",
+            "es": "Abreviatura de \"Young Creator Crew\", una frase que el grupo CORTIS adoptó como lema y convirtió en canción. En internet se volvió un cumplido para quien está al día con las tendencias, sin importar su edad real.",
+            "zh": "「Young Creator Crew」的縮寫，是團體CORTIS拿來當口號、後來做成歌曲的一句話。在網路上變成稱讚人「跟得上潮流」的說法，跟實際年齡無關。",
+            "cn": "“Young Creator Crew”的缩写，是团体CORTIS拿来当口号、后来做成歌曲的一句话。在网上变成称赞人“跟得上潮流”的说法，跟实际年龄无关。",
+            "ja": "「Young Creator Crew」の略。グループCORTISがスローガンとして掲げ、曲にもしたフレーズ。ネットでは「流行に敏感な人」へのほめ言葉になり、実際の年齢とは関係ない。",
+        },
+        "usage": {
+            "en": "Tease-praise a friend who already knows the newest meme: \"벌써 알아? 완전 영크크네.\" It's playful, so keep it for friends and comment sections.",
+            "es": "Para elogiar en broma a un amigo que ya conoce el meme más nuevo: \"벌써 알아? 완전 영크크네.\" Es juguetón, así que úsalo con amigos y en comentarios.",
+            "zh": "用來半開玩笑地稱讚已經知道最新迷因的朋友：「벌써 알아? 완전 영크크네.」語氣很俏皮，適合朋友之間和留言區。",
+            "cn": "用来半开玩笑地称赞已经知道最新梗的朋友：“벌써 알아? 완전 영크크네.”语气很俏皮，适合朋友之间和评论区。",
+            "ja": "最新ミームをもう知っている友達を、からかい半分でほめるときに：「벌써 알아? 완전 영크크네.」ふざけたノリなので、友達同士やコメント欄向け。",
+        },
+        "culture": {
+            "en": "It has a joking counterpart, 늙크크 (\"old creator crew\"), for people who are behind on trends — a neat example of a K-pop catchphrase turning into everyday internet slang.",
+            "es": "Tiene una contraparte en broma, 늙크크 (\"old creator crew\"), para quien va atrasado con las tendencias: un buen ejemplo de cómo una frase del K-pop se vuelve jerga cotidiana de internet.",
+            "zh": "它有個開玩笑的反義詞늙크크（old creator crew），用來形容跟不上潮流的人——是K-pop口號變成日常網路用語的好例子。",
+            "cn": "它有个开玩笑的反义词늙크크（old creator crew），用来形容跟不上潮流的人——是K-pop口号变成日常网络用语的好例子。",
+            "ja": "流行に疎い人をからかう反対語늙크크（old creator crew）もある。K-POPのキャッチフレーズが日常のネットスラングになった分かりやすい例。",
+        },
+        "register": "casual",
+        "similar": ["늙크크", "감다살"],
+        "tags": ["internet", "praise", "kpop-fan"],
+        "sources": [
+            {"title": "A typo became a meme: Rising group CORTIS explains the viral charm behind its unusual lyrics",
+             "publisher": "The Korea Times", "date": "2026-06-06",
+             "url": "https://www.koreatimes.co.kr/amp/entertainment/k-pop/20260606/a-typo-became-a-meme-rising-group-cortis-explains-the-viral-charm-behind-its-unusual-lyrics"},
+        ],
+    },
+    "감다살": {
+        "nuance": {
+            "en": "Read it as 감 (sense, instinct) + 다 살았다 (\"is fully alive\") — someone's sense is \"fully alive.\" It praises taste, timing, or a well-judged choice, not intelligence.",
+            "es": "Se lee como 감 (sentido, instinto) + 다 살았다 (\"está totalmente vivo\"): el buen ojo de alguien está \"bien vivo\". Elogia el gusto, el timing o una buena elección, no la inteligencia.",
+            "zh": "可以拆成감（感覺、品味）＋다 살았다（完全活著）——某人的品味「完全在線」。稱讚的是眼光、時機或選擇得好，而不是聰明。",
+            "cn": "可以拆成감（感觉、品味）＋다 살았다（完全活着）——某人的品味“完全在线”。称赞的是眼光、时机或选择得好，而不是聪明。",
+            "ja": "감（センス・勘）＋다 살았다（完全に生きてる）と読むと分かりやすい。「センスが冴えわたってる」という意味で、頭の良さではなく、センスやタイミング、選び方のうまさをほめる。",
+        },
+        "usage": {
+            "en": "Drop it when someone nails a choice — the perfect meme reply, a great outfit, a sharp edit: \"이 짤 고른 사람 감다살이다.\"",
+            "es": "Úsalo cuando alguien acierta de lleno: la respuesta con el meme perfecto, un gran outfit, una edición genial: \"이 짤 고른 사람 감다살이다.\"",
+            "zh": "當有人選得超準時用——完美的迷因回覆、很會穿搭、剪得很好的影片：「이 짤 고른 사람 감다살이다.」",
+            "cn": "当有人选得超准时用——完美的梗图回复、很会穿搭、剪得很好的视频：“이 짤 고른 사람 감다살이다.”",
+            "ja": "誰かが絶妙なチョイスをしたときに：完璧なミーム返し、いい服、上手い編集など。「이 짤 고른 사람 감다살이다.」",
+        },
+        "culture": {
+            "en": "Its opposite is 감다뒤 (\"sense is dead\"), for a choice that completely misses.",
+            "es": "Su opuesto es 감다뒤 (\"el sentido está muerto\"), para una elección que falla por completo.",
+            "zh": "反義詞是감다뒤（品味死了），用在完全選錯的時候。",
+            "cn": "反义词是감다뒤（品味死了），用在完全选错的时候。",
+            "ja": "反対語は감다뒤（センスが死んでる）。完全に外したチョイスに使う。",
+        },
+        "register": "casual",
+        "similar": ["감다뒤", "영크크"],
+        "tags": ["internet", "praise"],
+    },
+    "킹받다": {
+        "nuance": {
+            "en": "A blend of English \"king\" and 열받다 (\"to get mad\"). The \"king\" just turns the volume up, so it reads like \"SO annoying\" — but it's usually funny-annoying, not real anger.",
+            "es": "Mezcla del inglés \"king\" y 열받다 (\"enojarse\"). El \"king\" solo sube el volumen, así que suena a \"¡qué fastidio!\", pero casi siempre es un fastidio gracioso, no enojo real.",
+            "zh": "英文「king」和열받다（生氣）的組合。「king」只是加強語氣，聽起來像「超火大」——但通常是好笑的那種火大，不是真的生氣。",
+            "cn": "英文“king”和열받다（生气）的组合。“king”只是加强语气，听起来像“超火大”——但通常是好笑的那种火大，不是真的生气。",
+            "ja": "英語の「king」と열받다（腹が立つ）を合わせた言葉。「king」は強調で、「めっちゃムカつく」という感じだが、本気の怒りより「笑えるイラつき」に使うことが多い。",
+        },
+        "usage": {
+            "en": "Great for things that irritate you in a way that makes you laugh: a smug face, a friend's teasing, a cliffhanger ending. Skip it when someone is genuinely upset, and don't use it with elders or at work.",
+            "es": "Ideal para cosas que te irritan de una forma que da risa: una cara presumida, las bromas de un amigo, un final con cliffhanger. Evítalo cuando alguien está molesto de verdad, y no lo uses con mayores ni en el trabajo.",
+            "zh": "適合用在讓人又氣又想笑的事情上：欠揍的表情、朋友的捉弄、吊人胃口的結尾。對方真的在生氣時別用，也不要對長輩或在職場使用。",
+            "cn": "适合用在让人又气又想笑的事情上：欠揍的表情、朋友的捉弄、吊人胃口的结尾。对方真的在生气时别用，也不要对长辈或在职场使用。",
+            "ja": "思わず笑ってしまうイラつきにぴったり：ドヤ顔、友達のいじり、気になるところで終わる回など。相手が本気で怒っているときは避け、目上の人や職場では使わない。",
+        },
+        "culture": {
+            "en": "It spread from YouTube and social media into TV captions and became a staple of Gen Z speech.",
+            "es": "Se extendió de YouTube y las redes sociales a los subtítulos de la TV y se volvió un básico del habla de la Generación Z.",
+            "zh": "從YouTube和社群媒體擴散到電視字幕，成為Z世代的常用語。",
+            "cn": "从YouTube和社交媒体扩散到电视字幕，成为Z世代的常用语。",
+            "ja": "YouTubeやSNSからテレビの字幕にまで広がり、Z世代の定番の言葉になった。",
+        },
+        "register": "casual",
+        "similar": ["킹왕짱", "웃프다"],
+        "tags": ["internet", "reaction", "annoyed", "funny"],
+        "sources": [
+            {"title": "이 말 모르면 Z세대랑 소통 불가! ‘킹받네’ 해석해드립니다", "publisher": "Careet", "date": "2021-10-15",
+             "url": "https://www.careet.net/526"},
+        ],
+    },
+    "ㅋㅋ": {
+        "nuance": {
+            "en": "ㅋ is the first sound of laughs like 크크 and 킥킥, so typing it works like \"lol.\" More ㅋ usually means a bigger laugh: ㅋㅋ is a light chuckle, ㅋㅋㅋㅋㅋ is actually laughing.",
+            "es": "ㅋ es el primer sonido de risas como 크크 y 킥킥, así que escribirlo funciona como \"jaja\". Más ㅋ suele significar más risa: ㅋㅋ es una risita, ㅋㅋㅋㅋㅋ es reírse de verdad.",
+            "zh": "ㅋ是크크、킥킥這類笑聲的第一個音，打出來就像「哈哈」。ㅋ越多通常代表笑得越大聲：ㅋㅋ是輕輕一笑，ㅋㅋㅋㅋㅋ就是真的在笑。",
+            "cn": "ㅋ是크크、킥킥这类笑声的第一个音，打出来就像“哈哈”。ㅋ越多通常代表笑得越厉害：ㅋㅋ是轻轻一笑，ㅋㅋㅋㅋㅋ就是真的在笑。",
+            "ja": "ㅋは크크や킥킥のような笑い声の最初の音で、打つと「笑」「w」のような役割になる。ㅋが多いほど大笑いで、ㅋㅋは軽い笑い、ㅋㅋㅋㅋㅋは本気で笑っている感じ。",
+        },
+        "usage": {
+            "en": "Text only. Just one or two can feel dry, so most people type at least ㅋㅋㅋ. Next to ㅎㅎ, which often feels softer and more polite, ㅋㅋ reads as a real laugh.",
+            "es": "Solo por escrito. Uno o dos pueden sonar secos, así que la mayoría escribe al menos ㅋㅋㅋ. Comparado con ㅎㅎ, que suele sentirse más suave y cortés, ㅋㅋ se lee como una risa de verdad.",
+            "zh": "只用在文字上。只打一兩個可能顯得冷淡，所以大多數人至少打ㅋㅋㅋ。和常給人比較溫和、禮貌感覺的ㅎㅎ相比，ㅋㅋ更像是真的在笑。",
+            "cn": "只用在文字上。只打一两个可能显得冷淡，所以大多数人至少打ㅋㅋㅋ。和常给人比较温和、礼貌感觉的ㅎㅎ相比，ㅋㅋ更像是真的在笑。",
+            "ja": "文字だけで使う。1〜2個だとそっけなく見えることがあるので、多くの人は最低でもㅋㅋㅋと打つ。やわらかく丁寧な印象になりやすいㅎㅎに比べ、ㅋㅋは本当に笑っている感じ。",
+        },
+        "culture": {
+            "en": "In spoken Korean, ㅋ-sounds such as 킥킥 and 키득키득 describe a laugh you're trying to hold in — which fits how ㅋㅋ gets typed under your breath.",
+            "es": "En el coreano hablado, sonidos con ㅋ como 킥킥 y 키득키득 describen una risa que intentas contener, lo que encaja con cómo se escribe ㅋㅋ por lo bajo.",
+            "zh": "在韓語口語裡，킥킥、키득키득這類ㅋ開頭的聲音形容的是「憋著的笑」——正好符合ㅋㅋ偷偷笑著打字的感覺。",
+            "cn": "在韩语口语里，킥킥、키득키득这类ㅋ开头的声音形容的是“憋着的笑”——正好符合ㅋㅋ偷偷笑着打字的感觉。",
+            "ja": "話し言葉では、킥킥や키득키득のようなㅋの音は「こらえきれずに漏れる笑い」を表す。ㅋㅋをこっそり笑いながら打つ感じにぴったり。",
+        },
+        "register": "text",
+        "similar": ["ㅎㅎ", "ㅋㅋㅋㄹㅌㅅ"],
+        "tags": ["chat", "funny", "internet"],
+        "sources": [
+            {"title": "우리말의 웃음 표현들", "publisher": "한국교육신문 (The Korean Teachers News)", "date": "2011-01-01",
+             "url": "https://hangyo.com/mobile/article.html?no=76124"},
+        ],
+    },
+    "대박": {
+        "nuance": {
+            "en": "It can mean a jackpot or a huge hit (\"대박 났다\" — \"it was a huge success\"), but said on its own it's an all-purpose \"wow\" for anything amazing or shocking.",
+            "es": "Puede significar un premio gordo o un gran éxito (\"대박 났다\": \"fue un exitazo\"), pero dicho solo es un \"¡guau!\" para todo lo increíble o impactante.",
+            "zh": "可以指中大獎或大成功（「대박 났다」——大賣、大成功），但單獨說的時候就是萬用的「哇」，用在任何厲害或驚人的事情上。",
+            "cn": "可以指中大奖或大成功（“대박 났다”——大卖、大成功），但单独说的时候就是万能的“哇”，用在任何厉害或惊人的事情上。",
+            "ja": "「大当たり」「大ヒット」の意味にもなる（「대박 났다」＝大成功した）が、単独で言うと、すごいこと・驚くことに何でも使える「やばい！」「すごっ！」になる。",
+        },
+        "usage": {
+            "en": "React to good news, a great stage, or a wild plot twist: \"대박!\" Your tone does the work — excited for good news, wide-eyed for shocking news. Fine with friends; in formal settings say \"정말 대단하네요\" instead.",
+            "es": "Para reaccionar a buenas noticias, un gran escenario o un giro loco: \"¡대박!\" El tono hace el trabajo: emocionado para lo bueno, con ojos de sorpresa para lo impactante. Bien entre amigos; en contextos formales di \"정말 대단하네요\".",
+            "zh": "聽到好消息、看到很棒的舞台或瘋狂的劇情轉折時說：「대박!」語氣決定意思——好消息就興奮地說，嚇人的消息就瞪大眼睛說。朋友之間沒問題；正式場合改說「정말 대단하네요」。",
+            "cn": "听到好消息、看到很棒的舞台或疯狂的剧情反转时说：“대박!”语气决定意思——好消息就兴奋地说，吓人的消息就瞪大眼睛说。朋友之间没问题；正式场合改说“정말 대단하네요”。",
+            "ja": "うれしい知らせ、最高のステージ、まさかの展開に：「대박!」意味は口調しだい。いい知らせなら興奮気味に、衝撃的な知らせなら目を丸くして。友達同士ならOK、改まった場では「정말 대단하네요」と言う。",
+        },
+        "culture": {
+            "en": "Where the word comes from isn't settled. A National Institute of Korean Language column weighed several theories — a big ship, a gambling term, the big gourd from the folktale of Heungbu — and found none of them confirmed.",
+            "es": "Su origen no está claro. Una columna del Instituto Nacional de la Lengua Coreana analizó varias teorías —un barco grande, un término de apuestas, la calabaza gigante del cuento de Heungbu— y ninguna quedó confirmada.",
+            "zh": "這個詞的來源並沒有定論。國立國語院的一篇專欄比較了幾種說法——大船、賭博用語、興夫傳裡的大葫蘆——結論是沒有一種能確定。",
+            "cn": "这个词的来源并没有定论。国立国语院的一篇专栏比较了几种说法——大船、赌博用语、兴夫传里的大葫芦——结论是没有一种能确定。",
+            "ja": "語源ははっきりしていない。国立国語院のコラムでは、大きな船、賭博の用語、昔話『フンブとノルブ』の大きなひょうたんなど複数の説を検討したが、どれも確定できないとしている。",
+        },
+        "register": "everyday",
+        "similar": ["헐", "미쳤다", "실화냐", "레전드"],
+        "tags": ["reaction", "surprise", "praise"],
+        "sources": [
+            {"title": "잘못 알고 있는 어원 몇 가지(4) — 새국어생활 제15권 제4호", "publisher": "국립국어원 (National Institute of Korean Language)", "date": "2005",
+             "url": "https://www.korean.go.kr/nkview/nklife/2005_4/2005_0406.pdf"},
+        ],
+    },
+}
+
 
 HEADERS = [
     "ID", "Term (KR)", "Romanization", "Category (KR)", "Category (EN)",

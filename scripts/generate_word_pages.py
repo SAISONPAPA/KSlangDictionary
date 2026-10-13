@@ -62,6 +62,14 @@ UI = {
     "seen_on": {"en": "Commonly seen on:", "es": "Uso frecuente en:", "zh": "常見於：", "cn": "常见于：", "ja": "よく見られる場所："},
     "search_full": {"en": "Search the full dictionary", "es": "Buscar en todo el diccionario", "zh": "搜尋完整詞典", "cn": "搜索完整词典", "ja": "辞書全体を検索"},
     "related_h3": {"en": "Related words", "es": "Palabras relacionadas", "zh": "相關詞彙", "cn": "相关词汇", "ja": "関連する単語"},
+    "nuance_h2": {"en": "Nuance", "es": "Matiz", "zh": "細微語感", "cn": "细微语感", "ja": "ニュアンス"},
+    "howto_h2": {"en": "When to use it", "es": "Cuándo usarlo", "zh": "什麼時候用", "cn": "什么时候用", "ja": "使い方"},
+    "culture_h2": {"en": "Cultural context", "es": "Contexto cultural", "zh": "文化背景", "cn": "文化背景", "ja": "文化的な背景"},
+    "tone_h2": {"en": "Tone", "es": "Tono", "zh": "語氣", "cn": "语气", "ja": "トーン"},
+    "similar_h2": {"en": "Similar expressions", "es": "Expresiones similares", "zh": "相似說法", "cn": "相似说法", "ja": "似た表現"},
+    "sources_h2": {"en": "Sources", "es": "Fuentes", "zh": "參考來源", "cn": "参考来源", "ja": "出典"},
+    "share_btn": {"en": "Share this word", "es": "Compartir esta palabra", "zh": "分享這個詞", "cn": "分享这个词", "ja": "この単語をシェア"},
+    "share_copied": {"en": "Link copied!", "es": "¡Enlace copiado!", "zh": "已複製連結！", "cn": "已复制链接！", "ja": "リンクをコピーしました！"},
     "about": {"en": "About", "es": "Acerca de", "zh": "關於我們", "cn": "关于我们", "ja": "サイトについて"},
     "privacy": {"en": "Privacy Policy", "es": "Política de privacidad", "zh": "隱私權政策", "cn": "隐私政策", "ja": "プライバシーポリシー"},
     "contact": {"en": "Contact", "es": "Contacto", "zh": "聯絡我們", "cn": "联系我们", "ja": "お問い合わせ"},
@@ -348,6 +356,25 @@ SHARED_CSS = """
   .caption-bar .cap-timecode{ font-family: var(--mono); font-size: 10px; letter-spacing:.4px; color: #6E665C; margin-top: 12px; }
 
   .cta-row{ margin-top: 30px; display:flex; gap: 14px; flex-wrap:wrap; }
+  /* ---- optional deep-dive sections (DETAILS in build_kslang_db.py) ----
+     Unlike the stacked meaning/example above, these longer blocks show only
+     the reader's language: all five are in the HTML (crawlers read them,
+     English is the no-JS default), and html[lang] picks the visible one. */
+  .detail-block{ margin-top: 26px; }
+  .detail-block h2{ font-family: var(--mono); font-size: 11px; letter-spacing:1.2px; text-transform:uppercase; color: var(--garnet); margin-bottom: 8px; }
+  .detail-block p{ font-size: 15px; color: var(--card-ink); line-height:1.65; }
+  .lx{ display:none; }
+  html[lang="en"] .lx[data-l="en"], html[lang="es"] .lx[data-l="es"], html[lang="zh"] .lx[data-l="zh"],
+  html[lang="cn"] .lx[data-l="cn"], html[lang="ja"] .lx[data-l="ja"]{ display:block; }
+  .tone-pill{ display:inline-block; font-size: 13px; font-weight:700; color: var(--card-ink); background: rgba(33,27,22,.07); border: 1px solid var(--card-line); border-radius: 10px; padding: 7px 12px; }
+  .similar-row{ display:flex; flex-wrap:wrap; gap: 8px; }
+  .similar-chip{ display:inline-flex; align-items:baseline; gap: 7px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--card-line); background: var(--card-face-hi); color: var(--card-ink); font-size: 13px; transition: border-color .2s; }
+  .similar-chip b{ font-family: var(--font-kr); font-weight:400; font-size: 16px; }
+  .similar-chip:hover{ border-color: var(--garnet); }
+  .source-list{ list-style:none; padding:0; margin:0; }
+  .source-list li{ font-size: 13px; color: var(--card-ink-soft); line-height:1.55; margin-bottom: 6px; }
+  .source-list a{ color: var(--garnet); font-weight:700; text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
+  .share-btn{ cursor:pointer; font-family: inherit; border: 1.5px dashed var(--card-ink-soft); background: transparent; color: var(--card-ink); }
   .cta-btn{ font-weight: 700; font-size: 13.5px; padding: 12px 22px; border-radius: 999px; transition: all .2s var(--ease-flip); }
   .cta-primary{ background: var(--garnet); color:#fff; }
   .cta-primary:hover{ background: var(--garnet-bright); }
@@ -490,11 +517,96 @@ SCRIPT_TEMPLATE = """<script>
     document.documentElement.lang = lang;
   }
 
+  // Share: native share sheet on phones, copy-link fallback elsewhere.
+  function shareWord(btn){
+    var data = { title: document.title, url: location.href };
+    if(navigator.share){
+      navigator.share(data).catch(function(){});
+      return;
+    }
+    var done = function(){
+      var original = btn.textContent;
+      btn.textContent = btn.getAttribute('data-copied-' + currentLang) || 'Link copied!';
+      setTimeout(function(){ btn.textContent = btn.getAttribute('data-' + currentLang) || original; }, 1800);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(location.href).then(done, function(){ window.prompt('Copy this link:', location.href); });
+    } else {
+      window.prompt('Copy this link:', location.href);
+    }
+  }
+
   // Apply whatever language the visitor picked last time (persisted via
   // localStorage in setLang above) — without this, every fresh page load
   // would silently reset back to English.
   setLang(currentLang);
 </script>"""
+
+
+LANGS = ("en", "es", "zh", "cn", "ja")
+DETAILS = getattr(db, "DETAILS", {})
+REGISTER_LABELS = getattr(db, "REGISTER_LABELS", {})
+BY_KR = {}  # kr -> item tuple, filled in main()
+
+
+def _lx_paragraphs(texts):
+    """One <p> per language; CSS shows only the reader's language."""
+    return "".join(
+        f'\n        <p class="lx" data-l="{l}" lang="{ {"zh": "zh-Hant", "cn": "zh-Hans"}.get(l, l) }">{esc(texts[l])}</p>'
+        for l in LANGS if texts.get(l)
+    )
+
+
+def render_details(kr):
+    """Optional deep-dive sections for a word. Anything missing is skipped."""
+    d = DETAILS.get(kr)
+    if not d:
+        return ""
+    out = []
+    for field, label in (("nuance", "nuance_h2"), ("usage", "howto_h2"), ("culture", "culture_h2")):
+        if d.get(field):
+            out.append(f'      <div class="detail-block">\n        <h2 {data_attrs(label)}>{UI[label]["en"]}</h2>{_lx_paragraphs(d[field])}\n      </div>')
+    if d.get("register") in REGISTER_LABELS:
+        labels = REGISTER_LABELS[d["register"]]
+        out.append(f'      <div class="detail-block">\n        <h2 {data_attrs("tone_h2")}>Tone</h2>\n        <span class="tone-pill" '
+                   + " ".join(f'data-{l}="{esc(labels[l])}"' for l in LANGS) + f'>{esc(labels["en"])}</span>\n      </div>')
+    sims = [BY_KR[s] for s in d.get("similar", []) if s in BY_KR and s != kr]
+    if sims:
+        chips = "".join(
+            f'\n          <a class="similar-chip" href="{esc(slugify(s[1]))}.html"><b>{esc(s[0])}</b>{esc(s[2])}</a>'
+            for s in sims
+        )
+        out.append(f'      <div class="detail-block">\n        <h2 {data_attrs("similar_h2")}>Similar expressions</h2>\n        <div class="similar-row">{chips}\n        </div>\n      </div>')
+    if d.get("sources"):
+        items = "".join(
+            f'\n          <li><a href="{esc(s["url"])}" target="_blank" rel="noopener nofollow">{esc(s["title"])}</a> — {esc(s["publisher"])}, {esc(s["date"])}</li>'
+            for s in d["sources"]
+        )
+        out.append(f'      <div class="detail-block">\n        <h2 {data_attrs("sources_h2")}>Sources</h2>\n        <ul class="source-list">{items}\n        </ul>\n      </div>')
+    return "\n".join(out) + ("\n" if out else "")
+
+
+def pick_related(item, cat_en, all_items, idx, n=4):
+    """Related words: similar expressions first, then words sharing a topic
+    tag, then the old same-category fill so every page still gets n."""
+    kr = item[0]
+    picked, seen = [], {kr}
+    def add(it):
+        if it and it[0] not in seen and len(picked) < n:
+            picked.append(it); seen.add(it[0])
+    d = DETAILS.get(kr, {})
+    for s in d.get("similar", []):
+        add(BY_KR.get(s))
+    tags = set(d.get("tags", []))
+    if tags:
+        for other, od in DETAILS.items():
+            if tags & set(od.get("tags", [])):
+                add(BY_KR.get(other))
+    same_cat = [it for (ck, ce, it) in all_items if ce == cat_en and it[0] != kr]
+    start = idx % max(1, len(same_cat))
+    for it in same_cat[start:] + same_cat[:start]:
+        add(it)
+    return picked
 
 
 def build_page(item, category_kr, category_en, related):
@@ -539,6 +651,9 @@ def build_page(item, category_kr, category_en, related):
 
     # 폴꾸 sticker on the card corner — stable per word (derived from the slug)
     pin_sticker = ["♥", "✦", "ㅋㅋ", "★", "♪"][sum(map(ord, slugify(rom))) % 5]
+
+    details_html = render_details(kr)
+    copied_attrs = " ".join(f'data-copied-{l}="{esc(UI["share_copied"][l])}"' for l in LANGS)
 
     related_html = ""
     for r in related:
@@ -666,9 +781,11 @@ def build_page(item, category_kr, category_en, related):
         </div>
       </div>
 
+{details_html}
       <div class="cta-row">
         <a href="../{esc(cat_url)}" class="cta-btn cta-primary" {cta_primary_attrs}>Browse more {esc(category_en)} words</a>
         <a href="../index.html#dictionary" class="cta-btn cta-secondary" {data_attrs('search_full')}>Search the full dictionary</a>
+        <button type="button" class="cta-btn share-btn" onclick="shareWord(this)" {data_attrs('share_btn')} {copied_attrs}>Share this word</button>
       </div>
     </div>
   </div>
@@ -697,13 +814,10 @@ def main():
         for t in terms:
             all_items.append((cat_kr, cat_en, t))
 
+    BY_KR.update({it[0]: it for (_, _, it) in all_items})
     count = 0
     for idx, (cat_kr, cat_en, item) in enumerate(all_items):
-        # pick 4 related words from same category, not including this one
-        same_cat = [it for (ck, ce, it) in all_items if ce == cat_en and it[0] != item[0]]
-        related = same_cat[idx % max(1, len(same_cat)) : idx % max(1, len(same_cat)) + 4]
-        if len(related) < 4:
-            related = (related + same_cat)[:4]
+        related = pick_related(item, cat_en, all_items, idx)
 
         slug, page_html = build_page(item, cat_kr, cat_en, related)
         out_path = os.path.join(OUTPUT_DIR, slug + ".html")

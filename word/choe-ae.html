@@ -234,6 +234,25 @@
   .caption-bar .cap-timecode{ font-family: var(--mono); font-size: 10px; letter-spacing:.4px; color: #6E665C; margin-top: 12px; }
 
   .cta-row{ margin-top: 30px; display:flex; gap: 14px; flex-wrap:wrap; }
+  /* ---- optional deep-dive sections (DETAILS in build_kslang_db.py) ----
+     Unlike the stacked meaning/example above, these longer blocks show only
+     the reader's language: all five are in the HTML (crawlers read them,
+     English is the no-JS default), and html[lang] picks the visible one. */
+  .detail-block{ margin-top: 26px; }
+  .detail-block h2{ font-family: var(--mono); font-size: 11px; letter-spacing:1.2px; text-transform:uppercase; color: var(--garnet); margin-bottom: 8px; }
+  .detail-block p{ font-size: 15px; color: var(--card-ink); line-height:1.65; }
+  .lx{ display:none; }
+  html[lang="en"] .lx[data-l="en"], html[lang="es"] .lx[data-l="es"], html[lang="zh"] .lx[data-l="zh"],
+  html[lang="cn"] .lx[data-l="cn"], html[lang="ja"] .lx[data-l="ja"]{ display:block; }
+  .tone-pill{ display:inline-block; font-size: 13px; font-weight:700; color: var(--card-ink); background: rgba(33,27,22,.07); border: 1px solid var(--card-line); border-radius: 10px; padding: 7px 12px; }
+  .similar-row{ display:flex; flex-wrap:wrap; gap: 8px; }
+  .similar-chip{ display:inline-flex; align-items:baseline; gap: 7px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--card-line); background: var(--card-face-hi); color: var(--card-ink); font-size: 13px; transition: border-color .2s; }
+  .similar-chip b{ font-family: var(--font-kr); font-weight:400; font-size: 16px; }
+  .similar-chip:hover{ border-color: var(--garnet); }
+  .source-list{ list-style:none; padding:0; margin:0; }
+  .source-list li{ font-size: 13px; color: var(--card-ink-soft); line-height:1.55; margin-bottom: 6px; }
+  .source-list a{ color: var(--garnet); font-weight:700; text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
+  .share-btn{ cursor:pointer; font-family: inherit; border: 1.5px dashed var(--card-ink-soft); background: transparent; color: var(--card-ink); }
   .cta-btn{ font-weight: 700; font-size: 13.5px; padding: 12px 22px; border-radius: 999px; transition: all .2s var(--ease-flip); }
   .cta-primary{ background: var(--garnet); color:#fff; }
   .cta-primary:hover{ background: var(--garnet-bright); }
@@ -388,9 +407,47 @@
         </div>
       </div>
 
+      <div class="detail-block">
+        <h2 data-en="Nuance" data-es="Matiz" data-zh="細微語感" data-cn="细微语感" data-ja="ニュアンス">Nuance</h2>
+        <p class="lx" data-l="en" lang="en">Built from the characters 最 (most) and 愛 (love), so it literally means &quot;most loved.&quot; Fans use it for the one member they like above everyone else — but it isn&#x27;t limited to idols: your 최애 song, show, food or character works too.</p>
+        <p class="lx" data-l="es" lang="es">Viene de los caracteres 最 (más) y 愛 (amor), así que literalmente significa &quot;el más amado&quot;. Los fans lo usan para el miembro que más les gusta, pero no se limita a ídolos: también puede ser tu canción, serie, comida o personaje favorito.</p>
+        <p class="lx" data-l="zh" lang="zh-Hant">由「最」和「愛」兩個漢字組成，字面意思就是「最愛的」。粉絲用來指團裡最喜歡的成員，但不只限於偶像——最喜歡的歌、劇、食物或角色也都能叫최애。</p>
+        <p class="lx" data-l="cn" lang="zh-Hans">由“最”和“爱”两个汉字组成，字面意思就是“最爱的”。粉丝用来指团里最喜欢的成员，但不只限于偶像——最喜欢的歌、剧、食物或角色也都能叫최애。</p>
+        <p class="lx" data-l="ja" lang="ja">漢字の「最」と「愛」でできた言葉で、直訳は「いちばん愛している」。ファンがグループの中で一番好きなメンバーを指すのに使うが、アイドルに限らず、一番好きな曲・ドラマ・食べ物・キャラクターにも使える。</p>
+      </div>
+      <div class="detail-block">
+        <h2 data-en="When to use it" data-es="Cuándo usarlo" data-zh="什麼時候用" data-cn="什么时候用" data-ja="使い方">When to use it</h2>
+        <p class="lx" data-l="en" lang="en">Use it when you&#x27;re comparing favorites with friends or other fans: &quot;내 최애는 ___&quot; (&quot;My favorite is ___&quot;). It&#x27;s warm and light, and it often comes paired with 차애 — your second favorite.</p>
+        <p class="lx" data-l="es" lang="es">Úsalo al hablar de favoritos con amigos u otros fans: &quot;내 최애는 ___&quot; (&quot;Mi favorito es ___&quot;). Es cálido y ligero, y a menudo va junto a 차애, tu segundo favorito.</p>
+        <p class="lx" data-l="zh" lang="zh-Hant">和朋友或其他粉絲聊最愛時使用：「내 최애는 ___」（我的最愛是___）。語氣溫暖輕鬆，常和차애（第二喜歡的）一起出現。</p>
+        <p class="lx" data-l="cn" lang="zh-Hans">和朋友或其他粉丝聊最爱时使用：“내 최애는 ___”（我的最爱是___）。语气温暖轻松，常和차애（第二喜欢的）一起出现。</p>
+        <p class="lx" data-l="ja" lang="ja">友達やファン同士で推しの話をするときに使う：「내 최애는 ___」（私の一番は___）。温かく軽いニュアンスで、二番目の推しを表す차애とセットで使われることも多い。</p>
+      </div>
+      <div class="detail-block">
+        <h2 data-en="Cultural context" data-es="Contexto cultural" data-zh="文化背景" data-cn="文化背景" data-ja="文化的な背景">Cultural context</h2>
+        <p class="lx" data-l="en" lang="en">Fan talk is full of ranking — who&#x27;s your first, who&#x27;s your second — and 최애 / 차애 give fans a quick way to say it. Japanese fans use 推し (oshi) in a very similar way.</p>
+        <p class="lx" data-l="es" lang="es">En el fandom se habla mucho de rankings —quién es tu primero, quién tu segundo— y 최애 / 차애 permiten decirlo rápido. Los fans japoneses usan 推し (oshi) de forma muy parecida.</p>
+        <p class="lx" data-l="zh" lang="zh-Hant">粉絲之間很常聊「第一是誰、第二是誰」，최애／차애就是最快的說法。日本粉絲用「推し」的方式也很類似。</p>
+        <p class="lx" data-l="cn" lang="zh-Hans">粉丝之间很常聊“第一是谁、第二是谁”，최애／차애就是最快的说法。日本粉丝用“推し”的方式也很类似。</p>
+        <p class="lx" data-l="ja" lang="ja">ファン同士では「一番は誰？二番は？」という話題が定番で、최애／차애はそれを一言で言える言葉。日本のファンが使う「推し」とよく似た使い方をする。</p>
+      </div>
+      <div class="detail-block">
+        <h2 data-en="Tone" data-es="Tono" data-zh="語氣" data-cn="语气" data-ja="トーン">Tone</h2>
+        <span class="tone-pill" data-en="Everyday — fine in most casual speech; swap for something politer in formal settings" data-es="Cotidiano — sirve en casi cualquier conversación informal; en contextos formales usa algo más cortés" data-zh="日常——一般口語都能用；正式場合請換成更禮貌的說法" data-cn="日常——一般口语都能用；正式场合请换成更礼貌的说法" data-ja="日常語——くだけた会話ならほぼOK。改まった場では丁寧な言い方に">Everyday — fine in most casual speech; swap for something politer in formal settings</span>
+      </div>
+      <div class="detail-block">
+        <h2 data-en="Similar expressions" data-es="Expresiones similares" data-zh="相似說法" data-cn="相似说法" data-ja="似た表現">Similar expressions</h2>
+        <div class="similar-row">
+          <a class="similar-chip" href="cha-ae.html"><b>차애</b>Second bias</a>
+          <a class="similar-chip" href="choe-ae-kae.html"><b>최애캐</b>Favorite fictional character</a>
+          <a class="similar-chip" href="ip-deok.html"><b>입덕</b>Becoming a fan</a>
+        </div>
+      </div>
+
       <div class="cta-row">
         <a href="../category.html?cat=Fandom%20Feels" class="cta-btn cta-primary" data-en="Browse more Fandom Feels words" data-es="Ver más palabras de Sentimientos del fandom" data-zh="瀏覽更多「飯圈心情」相關詞彙" data-cn="浏览更多「饭圈心情」相关词汇" data-ja="「ファンダムの気持ち」の単語をもっと見る">Browse more Fandom Feels words</a>
         <a href="../index.html#dictionary" class="cta-btn cta-secondary" data-en="Search the full dictionary" data-es="Buscar en todo el diccionario" data-zh="搜尋完整詞典" data-cn="搜索完整词典" data-ja="辞書全体を検索">Search the full dictionary</a>
+        <button type="button" class="cta-btn share-btn" onclick="shareWord(this)" data-en="Share this word" data-es="Compartir esta palabra" data-zh="分享這個詞" data-cn="分享这个词" data-ja="この単語をシェア" data-copied-en="Link copied!" data-copied-es="¡Enlace copiado!" data-copied-zh="已複製連結！" data-copied-cn="已复制链接！" data-copied-ja="リンクをコピーしました！">Share this word</button>
       </div>
     </div>
   </div>
@@ -399,21 +456,21 @@
   <div class="related">
     <h3 data-en="Related words" data-es="Palabras relacionadas" data-zh="相關詞彙" data-cn="相关词汇" data-ja="関連する単語">Related words</h3>
     <div class="related-grid">
-      <a class="related-card" href="eo-deok-haeng-deok.html">
-        <div class="r-kr">어덕행덕</div>
-        <div class="r-gloss">Short for &quot;since you&#x27;re going to be a fan anyway, be a happy one&quot; — embracing your fandom fully.</div>
+      <a class="related-card" href="cha-ae.html">
+        <div class="r-kr">차애</div>
+        <div class="r-gloss">Your second-favorite member.</div>
       </a>
-      <a class="related-card" href="sum-meoj-mem-beo.html">
-        <div class="r-kr">숨멎멤버</div>
-        <div class="r-gloss">&quot;Breath-stopping member&quot; — a member so good-looking they take your breath away.</div>
+      <a class="related-card" href="choe-ae-kae.html">
+        <div class="r-kr">최애캐</div>
+        <div class="r-gloss">Short for &quot;favorite character&quot; — someone&#x27;s favorite character in a show, webtoon, or game (distinct from an idol bias).</div>
       </a>
-      <a class="related-card" href="meo-geul.html">
-        <div class="r-kr">머글</div>
-        <div class="r-gloss">Borrowed from Harry Potter — a non-fan, an ordinary person outside the fandom.</div>
+      <a class="related-card" href="ip-deok.html">
+        <div class="r-kr">입덕</div>
+        <div class="r-gloss">The moment you officially fall into a fandom.</div>
       </a>
-      <a class="related-card" href="hom-ma.html">
-        <div class="r-kr">홈마</div>
-        <div class="r-gloss">&quot;Homepage master&quot; — a fan who takes and shares high-quality photos of an idol.</div>
+      <a class="related-card" href="yeong-keu-keu.html">
+        <div class="r-kr">영크크</div>
+        <div class="r-gloss">&quot;Young creator crew&quot; — from the title of a CORTIS song, now used to jokingly praise someone for being completely on top of current trends and memes. The positive opposite of 늙크크.</div>
       </a>
     </div>
   </div>
@@ -475,6 +532,25 @@
     var selectEl = document.getElementById('langSelect');
     if(selectEl) selectEl.value = lang;
     document.documentElement.lang = lang;
+  }
+
+  // Share: native share sheet on phones, copy-link fallback elsewhere.
+  function shareWord(btn){
+    var data = { title: document.title, url: location.href };
+    if(navigator.share){
+      navigator.share(data).catch(function(){});
+      return;
+    }
+    var done = function(){
+      var original = btn.textContent;
+      btn.textContent = btn.getAttribute('data-copied-' + currentLang) || 'Link copied!';
+      setTimeout(function(){ btn.textContent = btn.getAttribute('data-' + currentLang) || original; }, 1800);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(location.href).then(done, function(){ window.prompt('Copy this link:', location.href); });
+    } else {
+      window.prompt('Copy this link:', location.href);
+    }
   }
 
   // Apply whatever language the visitor picked last time (persisted via
