@@ -13,9 +13,27 @@
 
 ## 디자인
 
-**리뉴얼 진행 중.** Claude Code + Impeccable 플러그인으로 기존 홀로그램 다크 테마를 완전히 새 디자인으로 교체할 예정. 기존 디자인에 종속된 내용은 이 문서에서 의도적으로 빼놓았으니, 새 디자인이 정해지면 이 섹션에 새 색상/폰트/톤을 채워 넣을 것.
+**컨셉: 포토카드 바인더 + 폴꾸(포토카드 꾸미기) 레이어** — 2026년 10월 리뉴얼 완료. 옛 홀로그램 다크 테마(핑크/보라/시안 그라데이션)는 폐기.
 
-⚠️ 단, 디자인이 바뀌어도 **다음 기능들은 그대로 유지해야 함** (비주얼과 무관하게 사이트 핵심 기능이라 디자인 리뉴얼 때 실수로 빠뜨리기 쉬움):
+### 기본 시스템 (자세한 토큰은 `DESIGN.md`)
+- 배경 차콜 `#151217`, 카드는 크림 카드스톡 `#F2E9D8`(그레인 텍스처), 메인 악센트 가넷 `#B21B3E`, 단어 제목은 브라스/골드 포일
+- 폰트: **Black Han Sans**(한글 단어·칩·스티커), **Bricolage Grotesque**(영문 제목/UI), **Hanken Grotesk**(본문), **JetBrains Mono**(로마자·라벨)
+
+### 폴꾸 레이어 — `assets/pokku.css`
+- **전 페이지 공용 파일 하나**. 메인 페이지는 `assets/pokku.css`, word 페이지는 `../assets/pokku.css`로 각 페이지 `<style>` **뒤에** 링크돼서 덮어씀. 톤 바꿀 땐 이 파일만 고치면 됨.
+- 팝 컬러: `--pop-pink #FF6FAE` / `--pop-lilac #B9A2FF` / `--pop-mint #74E3C4` / `--pop-lemon #FFE16B`
+  - ⚠️ **스티커·마스킹테이프·반짝이 전용.** 어두운 배경 위 본문 텍스트나 그라데이션 배경에 쓰지 말 것 (옛 홀로그램 톤으로 돌아가는 지름길). 메인 악센트는 계속 가넷.
+- 구성 요소: die-cut 스티커(팝 컬러 + 크림 테두리 3px), 마스킹테이프(카드 `::after`), 반짝이 ✦, 살짝 기울어진 리스트 카드(±0.6~1.6deg), 튕기는 호버(`--ease-pop`)
+- **긴 글 카드(단어 상세 카드, 제보 폼, 개인정보)는 기울이지 않음** — 테이프/스티커만. 스티커가 읽는 글자를 가리면 안 됨 (모바일 390px에서 꼭 확인).
+- `prefers-reduced-motion`이면 스티커 등장 애니메이션·반짝임 끔.
+
+### 페이지별 메모
+- **홈(index.html)**: 2단 히어로 "Your bias said it. Now get the joke." + 오른쪽 실제 포토카드. 들어오면 오늘의 카드(`TODAYS_CARD_POOL`, 날짜별 로테이션)가 펼쳐지고 검색하면 결과로 플립. **오늘의 카드는 GA `search_word` 이벤트를 보내지 않음**(`dealCard` vs `selectWord` 분리 — 검색량 데이터 오염 방지). 아래로 트렌딩 3장(`HOME_TRENDING`) → 탐색 카드 → 가넷 CTA. 홈 전용 스티커 스타일은 index.html 안에 있음.
+- **헤더**: 메뉴 라벨은 한 줄 유지 — 1260px 이하 DICTIONARY 뱃지 숨김, 1120px 이하 햄버거 메뉴 (pokku.css).
+- **생성 파일**: whatsnew.html과 word/*.html의 꾸미기는 각각 `generate_whatsnew.py`, `generate_word_pages.py` **템플릿 안에** 있음 — 생성된 HTML 직접 수정 금지. 단어 카드 모서리 스티커는 slug 기반으로 ♥ ✦ ㅋㅋ ★ ♪ 중 하나가 고정 선택됨.
+- 숫자(단어 개수 등)는 화면에 하드코딩하지 말 것 — About 통계도 "650+" 식으로.
+
+⚠️ 디자인을 또 바꾸더라도 **다음 기능들은 그대로 유지해야 함** (비주얼과 무관하게 사이트 핵심 기능이라 디자인 리뉴얼 때 실수로 빠뜨리기 쉬움):
 - 5개 언어 토글 (EN/ES/繁/简/日) — 데스크톱 버튼 + 모바일 드롭다운
 - localStorage 기반 언어 유지, 현재 페이지 네비 active 표시
 - 651개 word 페이지의 개별 SEO 메타태그·구조화 데이터(JSON-LD)
@@ -34,6 +52,7 @@ kslang-repo/
   privacy.html          — 개인정보처리방침 (언어 토글 없음, 영어 단일)
   robots.txt / sitemap.xml  — sitemap.xml은 generate_sitemap.py로 생성됨
   assets/og-image.png   — 소셜 공유 미리보기 이미지 (1200×630)
+  assets/pokku.css      — 폴꾸 스티커 레이어, 전 페이지 공용 (위 "디자인" 참고)
   data/kslang-slang-database.xlsx  — build_kslang_db.py로 생성됨
   word/*.html            — 단어별 개별 페이지 651개, generate_word_pages.py로 생성됨
   scripts/
@@ -59,6 +78,8 @@ python3 generate_sitemap.py    # → sitemap.xml
 ```
 
 `build_kslang_db.py`(즉 단어 데이터나 번역)를 바꿨으면 이 5개 스크립트를 **전부** 순서대로 다시 돌려야 함. 하나라도 빼먹으면 페이지들끼리 데이터가 어긋남.
+
+⚠️ 템플릿만 고쳐서 생성 스크립트 하나만 돌릴 때도 `build_kslang_db.py`가 import되면서 **xlsx가 바이트만 다르게 다시 써짐**(내용은 동일). 단어 데이터를 안 바꿨으면 커밋 전에 `git checkout -- data/kslang-slang-database.xlsx`로 되돌릴 것 — 안 그러면 쓸데없는 병합 충돌 원인이 됨.
 
 ## GitHub Actions 자동화
 
@@ -130,7 +151,7 @@ python3 generate_sitemap.py    # → sitemap.xml
 
 ## 대기 중인 작업
 
-- [ ] 디자인 리뉴얼 여부 결정 (Impeccable 목업 검토 후)
+- [x] 디자인 리뉴얼 — 포토카드 + 폴꾸 레이어로 전 페이지 적용 완료 (2026-10)
 - [ ] Instagram 카드뉴스/릴스 추가 제작
 - [ ] Google AdSense 신청 (도메인 숙성 + 트래픽 확보 후, About 페이지는 이미 만들어놓음)
 - [ ] 포르투갈어(브라질) 지원 — 원래 타겟(라틴아메리카)에 있는데 아직 없음, 큰 작업이라 별도 프로젝트로 취급할 것
