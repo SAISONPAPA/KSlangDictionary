@@ -1061,12 +1061,12 @@ FANDOM = [
      "이 팬아트 실물이랑 똑같아.", "This fanart looks exactly like them in real life.",
      "Este fanart se parece exactamente a la persona real.",
      "X/Twitter, Instagram", "Draft — please double-check"),
-    ("배댓", "bae-daet", "Belly comment",
-     "A \"belly comment\" — a witty first comment posted right under an official account's post.",
-     "Un \"comentario de vientre\": un comentario ingenioso publicado justo debajo de una publicación de una cuenta oficial.",
-     "배댓 진짜 웃겨서 캡처했어.", "The belly comment was so funny I took a screenshot.",
-     "El primer comentario fue tan gracioso que le tomé captura.",
-     "Official social posts", "Draft — please double-check"),
+    ("베댓", "be-daet", "Best comment",
+     "Short for 베스트 댓글 (\"best comment\"): the top-ranked, most-liked comment shown first under a post or article.",
+     "Abreviatura de 베스트 댓글 (\"mejor comentario\"): el comentario con más likes, que aparece primero bajo una publicación o noticia.",
+     "베댓 진짜 웃겨서 캡처했어.", "The top comment was so funny I took a screenshot.",
+     "El comentario destacado fue tan gracioso que le tomé captura.",
+     "Comment sections", "Draft — please double-check"),
     ("알티", "al-ti", "Retweet",
      "Retweet — sharing a post to your own followers on X/Twitter.",
      "Retweet: compartir una publicación con tus propios seguidores en X/Twitter.",
@@ -1325,18 +1325,18 @@ FANDOM = [
      "팬베이스에서 총공 공지 떴어.", "The fanbase account posted a coordinated-push notice.",
      "La cuenta del fanbase publicó un aviso de esfuerzo coordinado.",
      "X/Twitter fan culture", "Draft — please double-check"),
-    ("국내반", "guk-nae-ban", "Domestic fandom",
-     "\"Domestic half\" — the portion of a fandom based within Korea, as opposed to overseas.",
-     "\"Mitad doméstica\": la parte del fandom que reside dentro de Corea, en contraste con el extranjero.",
-     "국내반이랑 해외반이랑 반응이 다르네.", "The domestic and overseas fandoms are reacting differently.",
-     "El fandom nacional y el internacional están reaccionando distinto.",
-     "Fandom comparison talk", "Draft — please double-check"),
-    ("해외반", "hae-oe-ban", "Overseas fandom",
-     "\"Overseas half\" — the portion of a fandom based outside Korea.",
-     "\"Mitad extranjera\": la parte del fandom que reside fuera de Corea.",
-     "해외반이 스밍을 진짜 열심히 해.", "The overseas fandom streams really hard.",
-     "El fandom internacional hace streaming con muchísimo esfuerzo.",
-     "Fandom comparison talk", "Draft — please double-check"),
+    ("국내반", "guk-nae-ban", "Korean edition (album)",
+     "국내 + 盤 (\"record, edition\"): the Korean domestic release of an album, as opposed to overseas editions like the Japanese one.",
+     "국내 + 盤 (\"disco, edición\"): la edición coreana nacional de un álbum, frente a las ediciones extranjeras como la japonesa.",
+     "국내반이랑 일본반 구성이 달라.", "The Korean edition and the Japanese edition have different contents.",
+     "La edición coreana y la japonesa traen contenidos distintos.",
+     "Album collecting talk", "Draft — please double-check"),
+    ("해외반", "hae-oe-ban", "Overseas edition (album)",
+     "해외 + 盤 (\"record, edition\"): an album version released outside Korea — such as a Japanese or US edition — often with different photos, photocards or tracks.",
+     "해외 + 盤 (\"disco, edición\"): una versión del álbum lanzada fuera de Corea, como la edición japonesa o estadounidense, a menudo con fotos, photocards o canciones distintas.",
+     "해외반에만 들어 있는 포카가 따로 있대.", "I heard there are photocards that only come in the overseas edition.",
+     "Dicen que hay photocards que solo vienen en la edición internacional.",
+     "Album collecting talk", "Draft — please double-check"),
     ("스포", "seu-po", "Spoiler",
      "Short for \"spoiler\" — revealing plot details before others have seen them.",
      "Abreviatura de \"spoiler\": revelar detalles de la trama antes de que otros lo hayan visto.",
@@ -4355,7 +4355,7 @@ ZH_TW_TRANSLATIONS = {
     "취향저격": ("「正中喜好」——完全符合個人品味的事物。", "這次的概念完全戳中我的點。"),
     "팬픽": ("粉絲創作、以偶像或角色為主角的小說，同人小說。", "那篇同人小說的結局讓我哭了好幾天。"),
     "팬아트": ("粉絲創作的偶像或角色相關畫作，同人圖。", "這張同人圖跟本人一模一樣。"),
-    "배댓": ("「肚子留言」——搶在官方帳號貼文下第一時間發的機智留言。", "那則神留言太好笑了，我截圖了。"),
+    "베댓": ("베스트 댓글（最佳留言）的縮寫：貼文或新聞下按讚最多、排在最上面的留言。", "那則神留言太好笑了，我截圖了。"),
     "알티": ("轉推——把貼文分享給自己在X（推特）上的追蹤者。", "幫我轉推這則推文。"),
     "좋댓구알": ("「按讚、留言、訂閱、開啟小鈴鐺」的簡稱——YouTube上常見的支持請求。", "新影片上線了，記得按讚留言訂閱開小鈴鐺！"),
     "성지순례": ("「朝聖」——造訪與偶像有關的實際地點，例如拍攝地或家鄉景點。", "這間咖啡廳是本命常去的店，所以來朝聖了。"),
@@ -4399,8 +4399,8 @@ ZH_TW_TRANSLATIONS = {
     "팬서비스": ("偶像特地為取悅粉絲而做出的行為，如眨眼、比愛心或打招呼。", "粉絲福利真的很棒。"),
     "팬사이트": ("粉絲自行架設、專門介紹偶像或團體的網站。", "這個粉絲網站資料真的很多。"),
     "팬베이스": ("有組織地經營應援企劃與活動的粉絲帳號，常見於X（推特）。", "應援站發布了總攻公告。"),
-    "국내반": ("「國內組」——粉絲圈中位於韓國國內的部分，相對於海外組。", "國內飯跟海外飯反應不太一樣。"),
-    "해외반": ("「海外組」——粉絲圈中位於韓國以外地區的部分。", "海外飯刷榜真的很認真。"),
+    "국내반": ("國內盤——專輯在韓國國內發行的版本，相對於日本盤等海外版本。", "韓國盤和日本盤的內容不一樣。"),
+    "해외반": ("海外盤——在韓國以外發行的專輯版本（如日本盤、美國版），照片、小卡或收錄曲常不同。", "聽說有只放在海外盤裡的小卡。"),
     "스포": ("「劇透」的簡稱——在其他人看之前先透露劇情細節。", "別劇透，我還沒看！"),
     "무스포": ("「無劇透」——保證不會洩漏劇情細節的內容或留言。", "我會寫無劇透心得。"),
     "입덕영상": ("讓某人正式入坑成為粉絲的那支特定影片或片段。", "這就是我的入坑影片。"),
@@ -5027,7 +5027,7 @@ ZH_CN_TRANSLATIONS = {
     "취향저격": ("“正中喜好”——完全符合个人品味的事物。", "这次的概念完全戳中我的点。"),
     "팬픽": ("粉丝创作、以偶像或角色为主角的小说，同人小说。", "那篇同人小说的结局让我哭了好几天。"),
     "팬아트": ("粉丝创作的偶像或角色相关画作，同人图。", "这张同人图跟本人一模一样。"),
-    "배댓": ("“肚子留言”——抢在官方帐号贴文下第一时间发的机智留言。", "那则神留言太好笑了，我截屏了。"),
+    "베댓": ("베스트 댓글（最佳留言）的缩写：帖子或新闻下点赞最多、排在最上面的留言。", "那条神评论太好笑了，我截屏了。"),
     "알티": ("转推——把贴文分享给自己在X（推特）上的追踪者。", "帮我转推这则推文。"),
     "좋댓구알": ("“按赞、留言、订阅、打开小铃铛”的简称——YouTube上常见的支持请求。", "新视频上线了，记得按赞留言订阅开小铃铛！"),
     "성지순례": ("“朝圣”——造访与偶像有关的实际地点，例如拍摄地或家乡景点。", "这间咖啡厅是本命常去的店，所以来朝圣了。"),
@@ -5071,8 +5071,8 @@ ZH_CN_TRANSLATIONS = {
     "팬서비스": ("偶像特地为取悦粉丝而做出的行为，如眨眼、比爱心或打招呼。", "粉丝福利真的很棒。"),
     "팬사이트": ("粉丝自行架设、专门介绍偶像或团体的网站。", "这个粉丝网站数据真的很多。"),
     "팬베이스": ("有组织地经营应援企划与活动的粉丝帐号，常见于X（推特）。", "应援站发布了总攻公告。"),
-    "국내반": ("“国内组”——粉丝圈中位于韩国国内的部分，相对于海外组。", "国内饭跟海外饭反应不太一样。"),
-    "해외반": ("“海外组”——粉丝圈中位于韩国以外地区的部分。", "海外饭刷榜真的很认真。"),
+    "국내반": ("国内盘——专辑在韩国国内发行的版本，相对于日本盘等海外版本。", "韩国盘和日本盘的内容不一样。"),
+    "해외반": ("海外盘——在韩国以外发行的专辑版本（如日本盘、美国版），照片、小卡或收录曲常不同。", "听说有只放在海外盘里的小卡。"),
     "스포": ("“剧透”的简称——在其他人看之前先透露剧情细节。", "别剧透，我还没看！"),
     "무스포": ("“无剧透”——保证不会泄漏剧情细节的内容或留言。", "我会写无剧透心得。"),
     "입덕영상": ("让某人正式入坑成为粉丝的那支特定视频或片段。", "这就是我的入坑视频。"),
@@ -5702,7 +5702,7 @@ JA_TRANSLATIONS = {
     "취향저격": ("「タイプを撃ち抜かれた」——自分の好みに完璧に合うもの。", "今回のコンセプト、完全にドストライクだわ。"),
     "팬픽": ("アイドルやキャラクターを主人公にしたファン創作小説。", "あのファンフィクションの結末で何日も泣いた。"),
     "팬아트": ("アイドルやキャラクターのファンによる創作イラスト。", "このファンアート、本物そっくり。"),
-    "배댓": ("公式アカウントの投稿の下に一番乗りで書かれる気の利いたコメント。", "神コメント面白すぎてスクショした。"),
+    "베댓": ("베스트 댓글（ベストコメント）の略——投稿や記事の下で一番いいねが多く、上に表示されるコメント。", "ベストコメントが面白すぎてスクショした。"),
     "알티": ("X（旧Twitter）で投稿を自分のフォロワーにシェアすること。", "このツイート、リツイートして。"),
     "좋댓구알": ("「いいね、コメント、チャンネル登録、通知オン」の略——YouTubeでよくあるサポートのお願い。", "新しい動画上がりました、高評価コメント登録通知オンお願いします！"),
     "성지순례": ("「聖地巡礼」——撮影地や出身地など、推しに関係する実際の場所を訪れること。", "このカフェ推しの行きつけだから聖地巡礼しに来た。"),
@@ -5746,8 +5746,8 @@ JA_TRANSLATIONS = {
     "팬서비스": ("ウインクやハートサイン、挨拶など、ファンを喜ばせるためのアイドルの行動。", "ファンサービス本当に良かった。"),
     "팬사이트": ("アイドルやグループに特化したファン運営のウェブサイト。", "このファンサイト、資料が本当に多い。"),
     "팬베이스": ("グループのためのプロジェクトやキャンペーンを運営する、組織化されたファンアカウント（X/Twitterに多い）。", "ファンベースが総攻撃の告知出した。"),
-    "국내반": ("「国内組」——海外ではなく、韓国国内を拠点とするファンダムの部分。", "国内担と海外担で反応が違うね。"),
-    "해외반": ("「海外組」——韓国以外を拠点とするファンダムの部分。", "海外担のストリーミング、本当に頑張ってる。"),
+    "국내반": ("国内盤——アルバムの韓国国内リリース版。日本盤など海外版との対比で使う。", "韓国盤と日本盤は構成が違う。"),
+    "해외반": ("海外盤——韓国以外でリリースされるアルバムの版（日本盤や米国盤など）。写真やトレカ、収録曲が違うことも多い。", "海外盤にしか入っていないトレカがあるらしい。"),
     "스포": ("「スポイラー」の略——他の人が見る前にストーリーの詳細を明かすこと。", "ネタバレしないで、まだ見てないんだから！"),
     "무스포": ("ストーリーの詳細を明かさないことが保証されたコンテンツやコメント。", "ネタバレなしでレビュー書くね。"),
     "입덕영상": ("誰かをファンダムに落とすきっかけとなった特定の動画やクリップ。", "これが私の沼落ち動画だよ。"),
@@ -18378,6 +18378,82 @@ DETAILS = {
                 "date": "2025-08-27",
                 "url": "https://www.careet.net/1723"
             }
+        ]
+    },
+    "베댓": {
+        "nuance": {
+            "en": "Short for 베스트 댓글 (\"best comment\"): the most-liked comment, pinned to the top of a post or news article. Witty ones get screenshotted and shared.",
+            "es": "Abreviatura de 베스트 댓글 (\"mejor comentario\"): el comentario con más likes, que aparece arriba de una publicación o noticia. Los más ingeniosos se capturan y comparten.",
+            "zh": "베스트 댓글（最佳留言）的縮寫：按讚最多、排在貼文或新聞最上面的留言。有梗的會被截圖轉傳。",
+            "cn": "베스트 댓글（最佳留言）的缩写：按赞最多、排在贴文或新闻最上面的留言。有梗的会被截屏转传。",
+            "ja": "베스트 댓글（ベストコメント）の略。いいねが一番多く、投稿や記事の上部に表示されるコメント。秀逸なものはスクショで拡散される。"
+        },
+        "usage": {
+            "en": "\"기사보다 베댓이 더 웃겨\" (\"The top comment is funnier than the article\").",
+            "es": "\"기사보다 베댓이 더 웃겨\" (\"El comentario destacado es más gracioso que la noticia\").",
+            "zh": "「기사보다 베댓이 더 웃겨」（最佳留言比新聞本身還好笑）。",
+            "cn": "“기사보다 베댓이 더 웃겨”（最佳留言比新闻本身还好笑）。",
+            "ja": "「기사보다 베댓이 더 웃겨」（記事よりベストコメントの方が面白い）。"
+        },
+        "register": "casual",
+        "similar": [
+            "짤방",
+            "자체자막",
+            "떡밥"
+        ],
+        "tags": [
+            "internet",
+            "chat"
+        ]
+    },
+    "국내반": {
+        "nuance": {
+            "en": "국내 + 盤 (record, edition): the Korean release of an album. Collectors compare it with overseas editions, which can have different photos and photocards.",
+            "es": "국내 + 盤 (disco, edición): la edición coreana de un álbum. Los coleccionistas la comparan con las ediciones extranjeras, que pueden traer fotos y photocards distintas.",
+            "zh": "국내＋盤（唱片、版本）：專輯的韓國發行版。收藏者會拿它和照片、小卡不同的海外版比較。",
+            "cn": "국내＋盘（唱片、版本）：专辑的韩国发行版。收藏者会拿它和照片、小卡不同的海外版比较。",
+            "ja": "국내＋盤（レコード、版）。アルバムの韓国盤。写真やトレカが違う海外盤と比べるコレクターも多い。"
+        },
+        "usage": {
+            "en": "\"국내반 포카랑 일본반 포카 둘 다 모을 거야\" (\"I'm collecting both the Korean and Japanese edition photocards\").",
+            "es": "\"국내반 포카랑 일본반 포카 둘 다 모을 거야\" (\"Voy a coleccionar las photocards de la edición coreana y de la japonesa\").",
+            "zh": "「국내반 포카랑 일본반 포카 둘 다 모을 거야」（韓國盤和日本盤的小卡我都要收）。",
+            "cn": "“국내반 포카랑 일본반 포카 둘 다 모을 거야”（韩国盘和日本盘的小卡我都要收）。",
+            "ja": "「국내반 포카랑 일본반 포카 둘 다 모을 거야」（韓国盤と日本盤のトレカ、両方集める）。"
+        },
+        "register": "casual",
+        "similar": [
+            "해외반",
+            "초회한정반",
+            "앨범자켓"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "해외반": {
+        "nuance": {
+            "en": "해외 + 盤 (record, edition): an album edition released outside Korea, like a Japanese or US version, often with its own songs or photocards.",
+            "es": "해외 + 盤 (disco, edición): una edición del álbum lanzada fuera de Corea, como la japonesa o la estadounidense, a menudo con canciones o photocards propias.",
+            "zh": "해외＋盤（唱片、版本）：在韓國以外發行的專輯版本，如日本盤或美國版，常有獨家歌曲或小卡。",
+            "cn": "해외＋盘（唱片、版本）：在韩国以外发行的专辑版本，如日本盘或美国版，常有独家歌曲或小卡。",
+            "ja": "해외＋盤（レコード、版）。韓国以外で出るアルバムの版。日本盤や米国盤など、独自の曲やトレカが入ることも多い。"
+        },
+        "usage": {
+            "en": "\"해외반에만 있는 포카라 구하기 힘들어\" (\"That photocard is overseas-edition only, so it's hard to find\").",
+            "es": "\"해외반에만 있는 포카라 구하기 힘들어\" (\"Esa photocard solo viene en la edición internacional, es difícil conseguirla\").",
+            "zh": "「해외반에만 있는 포카라 구하기 힘들어」（那張小卡只有海外盤才有，很難入手）。",
+            "cn": "“해외반에만 있는 포카라 구하기 힘들어”（那张小卡只有海外盘才有，很难入手）。",
+            "ja": "「해외반에만 있는 포카라 구하기 힘들어」（海外盤限定のトレカだから入手困難）。"
+        },
+        "register": "casual",
+        "similar": [
+            "국내반",
+            "정발",
+            "초회한정반"
+        ],
+        "tags": [
+            "kpop-fan"
         ]
     },
 }
