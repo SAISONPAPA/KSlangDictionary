@@ -42,6 +42,7 @@ cd scripts && python3 -c "import build_kslang_db as d; print(sorted(t[0] for c i
 - 뜻·예문·nuance·usage(·culture)는 **en / es / zh(번체) / ja 직접 작성**. 간체는 스크립트가 OpenCC로 변환함. 일본어는 번역기 말투 말고 일본 팬들이 쓰는 표현으로(예: 최애→推し).
 - `rom`은 URL이 됨: 소문자·숫자·하이픈, 기존과 겹치면 안 됨. 초성 약어는 짧은 영문(`ok`, `gs`).
 - 예문은 일반 상황으로만. 실존 인물 이름을 넣지 말 것.
+- 실행 날짜와 같은 날짜의 `NEW_WORDS_LOG` 항목이 이미 있으면 새 항목을 만들지 말고 그 항목의 단어 목록에 합칠 것 (What's New에 같은 날짜가 두 번 보이지 않게).
 
 ## 2. 에디터 픽 교체
 
@@ -87,6 +88,7 @@ gh api repos/SAISONPAPA/KSlangDictionary/pulls -f base=main -f head=weekly/<YYYY
 ```
 
 PR 본문(`/tmp/pr.md`)은 **한국어**로, Jay가 폰에서 훑어보고 머지할 수 있게:
+(링크는 `[제목](URL)` 형식만. 백틱·따옴표로 감싸지 말 것 — 폰에서 링크가 깨짐.)
 1. 요약 한 줄 (새 단어 N개 / 픽 교체 / 퀴즈 4문제 교체 / 검사 결과)
 2. 새 단어 표: 단어 · 카테고리 · 한 줄 뜻(영어) · 출처 링크
 3. 에디터 픽: 이전 → 이후
