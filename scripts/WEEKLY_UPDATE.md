@@ -8,10 +8,12 @@ CLAUDE.md의 규칙(특히 "Jay의 단어 선정 규칙", DETAILS 규칙, 빌드
 ```bash
 cd <repo>   # SAISONPAPA/KSlangDictionary
 git fetch origin main
-gh pr list --state open --search "head:weekly/" --json number,title,headRefName
+# gh pr 명령은 GraphQL이라 막혀 있음 → REST API(gh api)만 사용
+gh api 'repos/SAISONPAPA/KSlangDictionary/pulls?state=open&per_page=50' --jq '[.[]|select(.head.ref|startswith("weekly/"))|{number,title}]'
 ```
 
-- **열려 있는 `weekly/` PR이 이미 있으면 새로 만들지 말 것.** Jay가 아직 머지를 안 한 거라서, 새 PR을 만들면 `build_kslang_db.py`에서 충돌이 남. 그 PR에 "이번 주 업데이트는 이 PR 머지 후로 미룸" 코멘트만 남기고 종료.
+- **열려 있는 `weekly/` PR이 이미 있으면 새로 만들지 말 것.** Jay가 아직 머지를 안 한 거라서, 새 PR을 만들면 `build_kslang_db.py`에서 충돌이 남. 그 PR에 "이번 주 업데이트는 이 PR 머지 후로 미룸" 코멘트만 남기고 종료:
+  `gh api repos/SAISONPAPA/KSlangDictionary/issues/<번호>/comments -f body='...'`
 - 없으면 브랜치 생성: `git checkout -B weekly/<YYYY-MM-DD> origin/main` (날짜는 KST 오늘).
 
 ## 1. 새 단어 추가 (목표 10개, 최소 0개)
@@ -80,7 +82,8 @@ python3 check_site.py            # 반드시 "check_site OK"가 나와야 함
 git add -A
 git -c user.name="Claude" -c user.email="noreply@anthropic.com" commit -m "Weekly update <YYYY-MM-DD>: N new words, picks, quiz"
 git push -u origin weekly/<YYYY-MM-DD>
-gh pr create --base main --head weekly/<YYYY-MM-DD> --title "주간 업데이트 <YYYY-MM-DD>" --body-file /tmp/pr.md
+gh api repos/SAISONPAPA/KSlangDictionary/pulls -f base=main -f head=weekly/<YYYY-MM-DD> \
+  -f title="주간 업데이트 <YYYY-MM-DD>" -F body=@/tmp/pr.md --jq .html_url
 ```
 
 PR 본문(`/tmp/pr.md`)은 **한국어**로, Jay가 폰에서 훑어보고 머지할 수 있게:
