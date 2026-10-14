@@ -42,25 +42,25 @@ IDOL = [
      "El miembro conocido por su apariencia sobresaliente.",
      "다들 그를 그룹의 비주얼이라고 불러.", "Everyone calls him the group's visual.",
      "Todos lo llaman el visual del grupo.",
-     "Fan profiles, interviews", "Draft — please double-check"),
+     "Fan profiles, interviews", "Verified (web-checked)"),
     ("리더", "ri-deo", "Leader",
      "The member responsible for leading the group.",
      "El miembro encargado de liderar al grupo.",
      "리더가 멤버들을 잘 챙겨.", "The leader takes good care of the members.",
      "El líder cuida bien a los miembros.",
-     "Interviews, variety shows", "Draft — please double-check"),
+     "Interviews, variety shows", "Verified (web-checked)"),
     ("메인보컬", "me-in-bo-keol", "Main vocalist",
      "The member with the lead singing role.",
      "El miembro con el rol principal de canto.",
      "메인보컬이 이번 곡 하이라이트를 맡았어.", "The main vocalist handles this song's highlight part.",
      "El vocalista principal canta la parte más destacada de esta canción.",
-     "Music show credits", "Draft — please double-check"),
+     "Music show credits", "Verified (web-checked)"),
     ("센터", "sen-teo", "Center",
      "The member positioned in the middle during choreography, often the visual focal point.",
      "El miembro posicionado en el centro durante la coreografía, suele ser el punto focal visual.",
      "이번 타이틀곡 센터는 누구야?", "Who's the center for this title track?",
      "¿Quién es el centro en esta canción título?",
-     "MV credits, fan discussions", "Draft — please double-check"),
+     "MV credits, fan discussions", "Verified (web-checked)"),
     ("티저", "ti-jeo", "Teaser",
      "A short preview released before a comeback.",
      "Un adelanto breve publicado antes de un comeback.",
@@ -126,7 +126,7 @@ IDOL = [
      "Un subgrupo más pequeño formado por miembros de un grupo más grande para un lanzamiento especial.",
      "이번엔 유닛으로 컴백한대.", "I heard this comeback is with just a unit.",
      "Escuché que este comeback es solo con una unidad.",
-     "Comeback announcements", "Draft — please double-check"),
+     "Comeback announcements", "Verified (web-checked)"),
     ("서브보컬", "seo-beu-bo-keol", "Sub-vocalist",
      "A member with a secondary singing role, ranking under the main vocalist.",
      "Un miembro con un rol de canto secundario, por debajo del vocalista principal.",
@@ -138,19 +138,19 @@ IDOL = [
      "Una posición vocal justo debajo del vocalista principal, con una parte importante de las voces de la canción.",
      "리드보컬 파트가 진짜 좋았어.", "The lead vocalist's part was really good.",
      "La parte del vocalista líder estuvo muy buena.",
-     "Music show credits, fan discussions", "Draft — please double-check"),
+     "Music show credits, fan discussions", "Verified (web-checked)"),
     ("메인댄서", "me-in-daen-seo", "Main dancer",
      "The member recognized as the group's strongest dancer.",
      "El miembro reconocido como el mejor bailarín del grupo.",
      "메인댄서 파트 봤어? 미쳤더라.", "Did you see the main dancer's part? It was insane.",
      "¿Viste la parte del bailarín principal? Estuvo increíble.",
-     "Choreography videos", "Draft — please double-check"),
+     "Choreography videos", "Verified (web-checked)"),
     ("메인래퍼", "me-in-rae-peo", "Main rapper",
      "The member who handles the primary rap parts in a group.",
      "El miembro que se encarga de las partes principales de rap en un grupo.",
      "메인래퍼가 이번 곡 가사도 썼대.", "I heard the main rapper wrote the lyrics for this song too.",
      "Escuché que el rapero principal también escribió la letra de esta canción.",
-     "Music show credits, interviews", "Draft — please double-check"),
+     "Music show credits, interviews", "Verified (web-checked)"),
     ("비하인드", "bi-ha-in-deu", "Behind-the-scenes",
      "Footage or content showing what happens off-camera, before or after the main shoot.",
      "Material que muestra lo que pasa fuera de cámara, antes o después de la grabación principal.",
@@ -162,19 +162,19 @@ IDOL = [
      "Literalmente \"danza grupal de cuchillo\": coreografía ejecutada en sincronía perfecta y precisa.",
      "이 그룹은 칼군무로 유명해.", "This group is famous for their razor-sharp choreography.",
      "Este grupo es famoso por su coreografía perfectamente sincronizada.",
-     "Performance reviews, fancams", "Draft — please double-check"),
+     "Performance reviews, fancams", "Verified (web-checked)"),
     ("킬링파트", "kil-ling-pa-teu", "Killing part",
      "The standout, most memorable hook section of a song.",
      "La sección más destacada y memorable (el gancho) de una canción.",
      "이 노래 킬링파트가 후렴 전에 나와.", "This song's killing part comes right before the chorus.",
      "La parte más pegajosa de esta canción viene justo antes del coro.",
-     "Song reviews, fancams", "Draft — please double-check"),
+     "Song reviews, fancams", "Verified (web-checked)"),
     ("후크송", "hu-keu-song", "Hook song",
      "A song built around one highly repetitive, catchy hook.",
      "Una canción construida alrededor de un gancho muy repetitivo y pegajoso.",
      "완전 후크송이라 한 번 들으면 계속 맴돌아.", "It's such a hook song that it gets stuck in your head after one listen.",
      "Es una canción tan pegajosa que se te queda en la cabeza después de escucharla una vez.",
-     "Music reviews", "Draft — please double-check"),
+     "Music reviews", "Verified (web-checked)"),
     ("데뷔조", "de-bwi-jo", "Debut lineup",
      "The final group of trainees selected to debut, especially from a survival show.",
      "El grupo final de aprendices seleccionados para debutar, especialmente de un programa de supervivencia.",
@@ -186,7 +186,7 @@ IDOL = [
      "Un programa de competencia donde los aprendices compiten por un lugar en un grupo que va a debutar.",
      "저 서바이벌 프로그램 요즘 완전 화제야.", "That survival show is a huge topic right now.",
      "Ese programa de supervivencia es tema de conversación en todas partes ahora.",
-     "Survival show fandom", "Draft — please double-check"),
+     "Survival show fandom", "Verified (web-checked)"),
     ("재계약", "jae-gye-yak", "Contract renewal",
      "Renewing an idol's contract with their agency.",
      "Renovar el contrato de un ídolo con su agencia.",
@@ -222,13 +222,13 @@ IDOL = [
      "Un lanzamiento sencillo, normalmente de una o dos canciones.",
      "이번엔 싱글로 조용히 컴백했어.", "This time they came back quietly with just a single.",
      "Esta vez volvieron discretamente solo con un sencillo.",
-     "Release announcements", "Draft — please double-check"),
+     "Release announcements", "Verified (web-checked)"),
     ("타이틀곡", "ta-i-teul-gok", "Title track",
      "The lead single of an album, promoted as its main song.",
      "El sencillo principal de un álbum, promocionado como su canción central.",
      "이번 타이틀곡 진짜 중독성 있다.", "This title track is seriously addictive.",
      "Esta canción título es muy pegajosa.",
-     "Music show performances", "Draft — please double-check"),
+     "Music show performances", "Verified (web-checked)"),
     ("수록곡", "su-rok-gok", "B-side track",
      "A non-title track included on an album, sometimes a fan favorite over the title track.",
      "Una canción del álbum que no es el sencillo principal; a veces se vuelve más popular que la canción título.",
@@ -240,7 +240,7 @@ IDOL = [
      "Un álbum de estudio de larga duración, a diferencia de un mini álbum o sencillo.",
      "드디어 첫 정규앨범 나왔어!", "Their first full album is finally out!",
      "¡Por fin salió su primer álbum de larga duración!",
-     "Release announcements", "Draft — please double-check"),
+     "Release announcements", "Verified (web-checked)"),
     ("미니앨범", "mi-ni-aelbeom", "Mini album",
      "A short-format album (EP), between a single and a full album in length.",
      "Un álbum de formato corto (EP), entre un sencillo y un álbum completo en duración.",
@@ -252,13 +252,13 @@ IDOL = [
      "La persona que crea la coreografía de baile de un grupo.",
      "이번 안무 안무가가 진짜 유명한 사람이래.", "I heard the choreographer for this one is really famous.",
      "Escuché que el coreógrafo de esta es muy famoso.",
-     "Credits, dance practice videos", "Draft — please double-check"),
+     "Credits, dance practice videos", "Verified (web-checked)"),
     ("작곡가", "jak-gok-ga", "Composer",
      "The person who writes the music for a song.",
      "La persona que compone la música de una canción.",
      "이 노래 작곡가가 다른 히트곡도 많이 만들었어.", "This song's composer has written a lot of other hits too.",
      "El compositor de esta canción ha escrito muchos otros éxitos también.",
-     "Album credits", "Draft — please double-check"),
+     "Album credits", "Verified (web-checked)"),
     ("작사가", "jak-sa-ga", "Lyricist",
      "The person who writes a song's lyrics.",
      "La persona que escribe la letra de una canción.",
@@ -366,7 +366,7 @@ IDOL = [
      "Ganar el primer lugar en un programa musical tres veces con la misma canción.",
      "이번 앨범으로 트리플크라운 달성했어!", "They achieved a triple crown with this album!",
      "¡Lograron un triple crown con este álbum!",
-     "Music show wins, chart news", "Draft — please double-check"),
+     "Music show wins, chart news", "Verified (web-checked)"),
     ("신인상", "sin-in-sang", "Rookie award",
      "An award given to a newly debuted artist recognized as a standout of the year.",
      "Un premio otorgado a un artista recién debutado reconocido como destacado del año.",
@@ -378,25 +378,25 @@ IDOL = [
      "\"Daesang\": el premio principal anual en una entrega de premios musicales, por encima de los premios por categoría.",
      "드디어 대상 받았어, 눈물 났어.", "They finally won the grand prize, I teared up.",
      "Por fin ganaron el gran premio, se me salieron las lágrimas.",
-     "Year-end award shows", "Draft — please double-check"),
+     "Year-end award shows", "Verified (web-checked)"),
     ("음악방송", "eum-ak-bang-song", "Music show",
      "A weekly TV program where artists perform and compete for the #1 spot.",
      "Un programa de TV semanal donde los artistas se presentan y compiten por el primer lugar.",
      "오늘 음악방송 스케줄 몇 시야?", "What time is today's music show taping?",
      "¿A qué hora es la grabación del programa musical de hoy?",
-     "Weekly broadcast schedules", "Draft — please double-check"),
+     "Weekly broadcast schedules", "Verified (web-checked)"),
     ("가요대전", "ga-yo-dae-jeon", "Year-end music festival",
      "A large year-end awards/performance event bringing together many artists.",
      "Un gran evento de premios y actuaciones de fin de año que reúne a muchos artistas.",
      "가요대전 라인업 진짜 화려하다.", "The year-end music festival lineup is seriously stacked.",
      "La alineación del festival de música de fin de año está increíble.",
-     "Year-end broadcasts", "Draft — please double-check"),
+     "Year-end broadcasts", "Verified (web-checked)"),
     ("컴백무대", "keom-baek-mu-dae", "Comeback stage",
      "An artist's first live performance of a new title track after a comeback.",
      "La primera presentación en vivo de un artista de una nueva canción título tras un comeback.",
      "컴백무대 보고 소름 돋았어.", "I got chills watching the comeback stage.",
      "Me dio piel de gallina ver la presentación de comeback.",
-     "Music show broadcasts", "Draft — please double-check"),
+     "Music show broadcasts", "Verified (web-checked)"),
     ("광고모델", "gwang-go-mo-del", "Brand ambassador",
      "A celebrity who officially represents and appears in ads for a brand.",
      "Una celebridad que representa oficialmente y aparece en anuncios de una marca.",
@@ -498,7 +498,7 @@ IDOL = [
      "\"Conducir en reversa\": cuando una canción antigua se vuelve popular de nuevo mucho después de su lanzamiento.",
      "이 노래 몇 년 만에 역주행하고 있어.", "This song is having a chart resurgence years after release.",
      "Esta canción está teniendo un resurgimiento en las listas años después de su lanzamiento.",
-     "Chart news", "Draft — please double-check"),
+     "Chart news", "Verified (web-checked)"),
     ("백댄서", "baek-daen-seo", "Backup dancer",
      "A dancer who performs alongside the main artist without being a featured member.",
      "Un bailarín que se presenta junto al artista principal sin ser un miembro destacado.",
@@ -522,7 +522,7 @@ IDOL = [
      "El miembro del personal responsable del horario y el apoyo diario de un ídolo.",
      "매니저가 항상 옆에서 챙겨줘.", "Their manager always looks after them closely.",
      "Su manager siempre lo cuida de cerca.",
-     "Behind-the-scenes talk", "Draft — please double-check"),
+     "Behind-the-scenes talk", "Verified (web-checked)"),
     ("로드매니저", "ro-deu-mae-ni-jeo", "Road manager",
      "A manager who travels with and directly accompanies an idol day to day.",
      "Un manager que viaja y acompaña directamente a un ídolo en su día a día.",
@@ -642,7 +642,7 @@ IDOL = [
      "Abreviatura de \"video musical\".",
      "뮤비 조회수 벌써 천만 넘었대.", "I heard the music video already passed ten million views.",
      "Escuché que el video musical ya superó los diez millones de vistas.",
-     "MV release talk", "Draft — please double-check"),
+     "MV release talk", "Verified (web-checked)"),
     ("안무영상", "an-mu-yeong-sang", "Dance practice video",
      "A video showing a group's choreography, usually filmed from a fixed overhead or straight-on angle.",
      "Un video que muestra la coreografía de un grupo, generalmente filmado desde un ángulo fijo cenital o frontal.",
@@ -906,7 +906,7 @@ IDOL = [
      "El saludo hablado o los comentarios que hace un ídolo entre canciones durante una presentación en vivo.",
      "무대멘트가 진짜 다정했어.", "Their stage talk was really warm and sweet.",
      "Su discurso en el escenario fue muy cálido y dulce.",
-     "Concert/fanmeet moments", "Draft — please double-check"),
+     "Concert/fanmeet moments", "Verified (web-checked)"),
     ("앨포", "ael-po", "Album photocard",
      "Short for 앨범 포토카드 — the random photocard that comes inside a K-pop album.",
      "Abreviatura de 앨범 포토카드: la photocard aleatoria que viene dentro de un álbum de K-pop.",
@@ -972,7 +972,7 @@ IDOL = [
      "\"All-kill\": una canción que llega al #1 en todas las principales listas musicales de Corea al mismo tiempo.",
      "공개 한 시간 만에 올킬했어!", "It got an all-kill within an hour of release!",
      "¡Logró un all-kill una hora después de salir!",
-     "Chart news", "Draft — please double-check"),
+     "Chart news", "Verified (web-checked)"),
     ("퍼올", "peo-ol", "Perfect all-kill",
      "Short for \"perfect all-kill\" — #1 on Korea's major real-time, daily and weekly charts all at once.",
      "Abreviatura de \"perfect all-kill\": #1 en las principales listas coreanas en tiempo real, diarias y semanales a la vez.",
@@ -1014,7 +1014,7 @@ IDOL = [
      "\"Girl crush\": un concepto o persona feroz y segura que otras mujeres admiran.",
      "이번 콘셉트 완전 걸크러시야.", "This concept is total girl crush.",
      "Este concepto es puro girl crush.",
-     "Comeback concepts", "Draft — please double-check"),
+     "Comeback concepts", "Verified (web-checked)"),
     ("하이틴", "ha-i-tin", "High-teen concept",
      "\"High teen\" — a concept inspired by American teen movies: lockers, cheerleaders, prom, bubblegum colors.",
      "\"High teen\": un concepto inspirado en películas adolescentes estadounidenses: casilleros, porristas, graduación, colores chicle.",
@@ -1026,7 +1026,7 @@ IDOL = [
      "Abreviatura de 사전녹화: la presentación pregrabada de un programa musical, filmada antes de la emisión en vivo con fans en el público.",
      "사녹 당첨돼서 새벽에 출발해.", "I won a pre-recording spot, so I'm leaving at dawn.",
      "Gané un lugar en la pregrabación, salgo de madrugada.",
-     "Music show fan culture", "Draft — please double-check"),
+     "Music show fan culture", "Verified (web-checked)"),
     ("팬콘", "paen-kon", "Fan concert",
      "Short for 팬 콘서트 — a show mixing a fan meeting's talk and games with a concert's full performances.",
      "Abreviatura de 팬 콘서트: un show que mezcla la charla y los juegos de un fan meeting con presentaciones completas de concierto.",
@@ -1078,7 +1078,7 @@ FANDOM = [
      "Alguien profundamente dedicado a una afición o fandom (del japonés \"otaku\").",
      "나 완전 아이돌 덕후야.", "I'm a total idol nerd.",
      "Soy una fan/otaku total de los ídolos.",
-     "Casual speech", "Draft — please double-check"),
+     "Casual speech", "Verified (web-checked)"),
     ("스밍", "seu-ming", "Streaming",
      "Mass-streaming a song to boost its chart performance.",
      "Transmitir una canción en masa para mejorar su posición en las listas.",
@@ -1108,7 +1108,7 @@ FANDOM = [
      "Aguantar o esperar algo tercamente, incluso cuando es difícil.",
      "컴백까지 존버 중이야.", "I'm hanging in there until the comeback.",
      "Estoy aguantando hasta el comeback.",
-     "Casual fan speech (informal, mildly coarse origin)", "Draft — please double-check"),
+     "Casual fan speech (informal, mildly coarse origin)", "Verified (web-checked)"),
     ("일코", "il-ko", "Acting normal",
      "Hiding your fan status from people around you (\"cosplaying as a normal person\").",
      "Ocultar tu condición de fan ante quienes te rodean.",
@@ -1126,7 +1126,7 @@ FANDOM = [
      "Un fan cuyo sueño (por ejemplo, conocer a su ídolo) se hizo realidad.",
      "드디어 팬싸 당첨! 나 성덕 됐어.", "I finally got picked for a fansign! I'm a successful fan now.",
      "¡Por fin me eligieron para el fansign! Ya soy una fan con suerte.",
-     "Fan celebration posts", "Draft — please double-check"),
+     "Fan celebration posts", "Verified (web-checked)"),
     ("찐팬", "jjin-paen", "Real fan",
      "A genuine, dedicated fan, as opposed to a casual one.",
      "Un fan genuino y dedicado, a diferencia de uno casual.",
@@ -1144,7 +1144,7 @@ FANDOM = [
      "Un \"tributo\": camiones de comida, de café o regalos que los fans envían para apoyar a un ídolo.",
      "생일 조공으로 커피차 보냈어.", "We sent a coffee truck as a birthday tribute.",
      "Enviamos un camión de café como tributo de cumpleaños.",
-     "Filming sets, birthdays", "Draft — please double-check"),
+     "Filming sets, birthdays", "Verified (web-checked)"),
     ("커플템", "keo-peul-tem", "Couple item",
      "A \"couple item\" — matching merch that fans buy to feel paired with their bias or each other.",
      "Un \"artículo de pareja\": mercancía a juego que los fans compran para sentirse conectados con su bias u otros fans.",
@@ -1168,7 +1168,7 @@ FANDOM = [
      "Abreviatura de \"perdón por no poder protegerte\", usada para consolar por una polémica o dificultad que enfrentó un ídolo.",
      "그 논란 진짜 억울했겠다, 지못미ㅠㅠ", "That controversy must have felt so unfair, I'm sorry we couldn't protect you.",
      "Esa polémica debió sentirse tan injusta, lamento no haber podido protegerte.",
-     "Fan comments during controversies", "Draft — please double-check"),
+     "Fan comments during controversies", "Verified (web-checked)"),
     ("취향저격", "chwi-hyang-jeo-gyeok", "Hits your exact type",
      "\"Type sniped\" — something that perfectly matches your personal taste.",
      "\"Le dieron directo a tu tipo\": algo que encaja perfectamente con tu gusto personal.",
@@ -1204,7 +1204,7 @@ FANDOM = [
      "Abreviatura de \"dale like, comenta, suscríbete y activa las notificaciones\", una petición común en YouTube.",
      "새 영상 올라왔어요, 좋댓구알 부탁해요!", "New video is up, please like, comment, subscribe, and turn on notifications!",
      "¡Subí video nuevo, por favor dale like, comenta, suscríbete y activa notificaciones!",
-     "YouTube fan channels", "Draft — please double-check"),
+     "YouTube fan channels", "Verified (web-checked)"),
     ("성지순례", "seong-ji-sul-lye", "Pilgrimage",
      "\"Pilgrimage\" — visiting a real-world place connected to your idol, like a filming location or hometown spot.",
      "\"Peregrinación\": visitar un lugar real conectado con tu ídolo, como una locación de grabación o su ciudad natal.",
@@ -1216,7 +1216,7 @@ FANDOM = [
      "El nombre oficial de un fandom, dado por la agencia o el grupo (como ARMY o BLINK).",
      "우리 팬덤명 발표됐대!", "They announced our fandom name!",
      "¡Anunciaron el nombre de nuestro fandom!",
-     "Fandom launch events", "Draft — please double-check"),
+     "Fandom launch events", "Verified (web-checked)"),
     ("덕계못", "deok-gye-mot", "Fans rarely win",
      "Short for \"fans don't win the lottery\" — meaning fans rarely get the lucky chance to actually meet their idol.",
      "Abreviatura de \"los fans no ganan la lotería\": los fans rara vez tienen la suerte de conocer realmente a su ídolo.",
@@ -1294,13 +1294,13 @@ FANDOM = [
      "\"Cañón\": el gran lente telefoto profesional que usan los fotógrafos fans para fotografiar ídolos a distancia.",
      "저 홈마 대포 렌즈 진짜 크다.", "That fan photographer's telephoto lens is huge.",
      "El lente telefoto de esa fotógrafa fan es enorme.",
-     "Fan photography talk", "Draft — please double-check"),
+     "Fan photography talk", "Verified (web-checked)"),
     ("응원법", "eung-won-beop", "Fan chant guide",
      "The set of organized chants and calls fans shout together during a song at concerts.",
      "El conjunto de cánticos y gritos organizados que los fans corean juntos durante una canción en los conciertos.",
      "이 노래 응원법 다 외웠어.", "I memorized all the fan chants for this song.",
      "Me memoricé todos los cánticos de esta canción.",
-     "Concert prep, fan guides", "Draft — please double-check"),
+     "Concert prep, fan guides", "Verified (web-checked)"),
     ("떼창", "tte-chang", "Crowd singalong",
      "The whole audience singing loudly together at a concert.",
      "Todo el público cantando en voz alta junto en un concierto.",
@@ -1348,7 +1348,7 @@ FANDOM = [
      "Un proyecto financiado por fans, como anuncios en el metro o camiones de café, para celebrar o apoyar a un ídolo.",
      "지하철역에 서포트 광고 걸렸대!", "I heard a support ad went up in the subway station!",
      "¡Escuché que pusieron un anuncio de apoyo de fans en la estación del metro!",
-     "Birthday/anniversary projects", "Draft — please double-check"),
+     "Birthday/anniversary projects", "Verified (web-checked)"),
     ("팬투표", "paen-tu-pyo", "Fan voting",
      "Voting done by fans to help an artist win an award or chart position.",
      "Votación realizada por los fans para ayudar a un artista a ganar un premio o posición en las listas.",
@@ -1438,13 +1438,13 @@ FANDOM = [
      "Comportamientos de los ídolos, como guiños, corazones o saludos, pensados específicamente para complacer a los fans.",
      "팬서비스 진짜 좋더라.", "Their fan service was really great.",
      "Su trato hacia los fans fue muy bueno.",
-     "Fansign/concert reviews", "Draft — please double-check"),
+     "Fansign/concert reviews", "Verified (web-checked)"),
     ("팬사이트", "paen-sa-i-teu", "Fan site",
      "A website run by fans dedicated to an idol or group.",
      "Un sitio web administrado por fans dedicado a un ídolo o grupo.",
      "이 팬사이트 자료 진짜 많아.", "This fan site has a ton of material.",
      "Este sitio de fans tiene muchísimo material.",
-     "Fan community resources", "Draft — please double-check"),
+     "Fan community resources", "Verified (web-checked)"),
     ("팬베이스", "paen-be-i-seu", "Fanbase account",
      "An organized fan account, often on X/Twitter, that runs projects and campaigns for a group.",
      "Una cuenta de fans organizada, a menudo en X/Twitter, que organiza proyectos y campañas para un grupo.",
@@ -1498,7 +1498,7 @@ FANDOM = [
      "El estilo de ropa personal y cotidiano de un ídolo, en contraste con los trajes de escenario.",
      "사복패션 진짜 취향이야.", "Their casual off-stage style is seriously my taste.",
      "Su estilo de ropa casual es realmente mi gusto.",
-     "Fashion fan accounts", "Draft — please double-check"),
+     "Fashion fan accounts", "Verified (web-checked)"),
     ("공항패션", "gong-hang-pae-syeon", "Airport fashion",
      "What idols wear specifically at the airport, a closely followed fan-fashion topic.",
      "Lo que los ídolos usan específicamente en el aeropuerto, un tema de moda muy seguido por los fans.",
@@ -1510,7 +1510,7 @@ FANDOM = [
      "Una versión relanzada de un álbum con canciones nuevas añadidas a la lista de canciones original.",
      "리패키지에 신곡 두 개 추가됐어.", "The repackage added two new songs.",
      "El repaquete agregó dos canciones nuevas.",
-     "Release announcements", "Draft — please double-check"),
+     "Release announcements", "Verified (web-checked)"),
     ("스페셜앨범", "seu-pe-syeol-aelbeom", "Special album",
      "A one-off album release outside a group's regular album cycle, often tied to an anniversary or season.",
      "Un lanzamiento de álbum único fuera del ciclo regular de un grupo, a menudo ligado a un aniversario o temporada.",
@@ -1570,7 +1570,7 @@ FANDOM = [
      "\"Seguimiento correspondido\": seguir de vuelta a alguien que te siguió, para que se sigan mutuamente.",
      "맞팔해요!", "Let's mutual follow!",
      "¡Sigámonos mutuamente!",
-     "X/Twitter fan culture", "Draft — please double-check"),
+     "X/Twitter fan culture", "Verified (web-checked)"),
     ("럭키박스", "leok-ki-bak-seu", "Lucky box",
      "A mystery merch box sold without revealing exactly which items are inside.",
      "Una caja misteriosa de mercancía vendida sin revelar exactamente qué artículos contiene.",
@@ -1600,7 +1600,7 @@ FANDOM = [
      "Un estuche de plástico duro y rígido usado para proteger una photocard de que se doble.",
      "귀한 포카는 탑로더에 넣어서 보관해.", "I keep my precious photocards stored in toploaders.",
      "Guardo mis photocards más valiosas en toploaders.",
-     "Photocard care talk", "Draft — please double-check"),
+     "Photocard care talk", "Verified (web-checked)"),
     ("포카거래", "po-ka-geo-rae", "Photocard trading",
      "Buying, selling, or trading photocards with other fans, usually to complete a collection.",
      "Comprar, vender o intercambiar photocards con otros fans, generalmente para completar una colección.",
@@ -1642,7 +1642,7 @@ FANDOM = [
      "Un evento de firma de autógrafos realizado por videollamada en lugar de en persona.",
      "영통팬싸 1분이 순삭이었어.", "The one minute of the video-call fan sign flew by instantly.",
      "El minuto de la firma por videollamada pasó volando.",
-     "Fansign events", "Draft — please double-check"),
+     "Fansign events", "Verified (web-checked)"),
     ("답글놀이", "dap-geul-nol-i", "Reply play",
      "\"Reply play\" — when an idol personally responds to fan comments online, delighting fans.",
      "\"Juego de respuestas\": cuando un ídolo responde personalmente a los comentarios de los fans en línea, encantándolos.",
@@ -1762,7 +1762,7 @@ FANDOM = [
      "Una app de suscripción pagada donde los idols envían mensajes y fotos de estilo personal a los fans.",
      "새벽에 버블 와서 잠 깼어.", "A Bubble message came at dawn and woke me up.",
      "Me llegó un mensaje de Bubble de madrugada y me despertó.",
-     "Fan platforms", "Draft — please double-check"),
+     "Fan platforms", "Verified (web-checked)"),
     ("위버스", "wi-beo-seu", "Weverse",
      "A global fan platform where many K-pop artists post updates, go live and read fan posts.",
      "Una plataforma global de fans donde muchos artistas de K-pop publican novedades, hacen directos y leen publicaciones de fans.",
@@ -1861,25 +1861,25 @@ BROADCAST = [
      "Un momento que se siente satisfactorio, como una revancha o una verdad dicha sin rodeos.",
      "그 장면 완전 사이다였어.", "That scene was so satisfying.",
      "Esa escena fue súper satisfactoria.",
-     "Drama/variety reaction posts", "Draft — please double-check"),
+     "Drama/variety reaction posts", "Verified (web-checked)"),
     ("고구마", "go-gu-ma", "Frustrating",
      "A stifling, frustrating feeling — the opposite of 사이다 — like a sweet potato stuck in your throat.",
      "Una sensación sofocante y frustrante, lo opuesto a 사이다.",
      "이 드라마 전개가 너무 고구마야.", "This drama's plot is so frustrating.",
      "La trama de este drama es muy frustrante.",
-     "Drama reaction posts", "Draft — please double-check"),
+     "Drama reaction posts", "Verified (web-checked)"),
     ("레전드", "re-jeon-deu", "Legendary",
      "Describes an unforgettable, iconic moment.",
      "Describe un momento inolvidable e icónico.",
      "이 무대는 레전드로 남을 거야.", "This stage will go down as legendary.",
      "Esta presentación quedará como legendaria.",
-     "Fan reactions, broadcast captions", "Draft — please double-check"),
+     "Fan reactions, broadcast captions", "Verified (web-checked)"),
     ("복불복", "bok-bul-bok", "Luck-based game",
      "A challenge or game where the outcome depends purely on luck.",
      "Un desafío o juego donde el resultado depende puramente de la suerte.",
      "오늘 복불복 게임에서 완전 졌어.", "I totally lost at today's luck-based game.",
      "Perdí totalmente en el juego de suerte de hoy.",
-     "Variety show segments", "Draft — please double-check"),
+     "Variety show segments", "Verified (web-checked)"),
     ("1도 없다", "il-do eop-da", "Not even a bit",
      "An emphatic way of saying \"none at all.\"",
      "Una forma enfática de decir \"nada en absoluto\".",
@@ -1909,7 +1909,7 @@ BROADCAST = [
      "La conexión natural entre miembros del elenco o coprotagonistas.",
      "저 둘 케미 진짜 좋다.", "Those two have such great chemistry.",
      "Esos dos tienen una química buenísima.",
-     "Variety shows, dramas", "Draft — please double-check"),
+     "Variety shows, dramas", "Verified (web-checked)"),
     ("예능감", "ye-neung-gam", "Comedic talent",
      "A natural sense of humor and timing suited for variety shows.",
      "Un sentido natural del humor y el tiempo cómico adecuado para programas de variedades.",
@@ -1921,31 +1921,31 @@ BROADCAST = [
      "Una \"regla nacional\", un estándar universalmente entendido.",
      "치킨엔 콜라가 국룰이지.", "Coke with fried chicken is just the unspoken rule.",
      "Cola con pollo frito es la regla no escrita.",
-     "Casual speech, food culture", "Draft — please double-check"),
+     "Casual speech, food culture", "Verified (web-checked)"),
     ("떡밥", "tteok-bap", "Teased content",
      "Hints or content dropped to build hype or speculation.",
      "Pistas o contenido publicado para generar expectativa o especulación.",
      "새 떡밥 떴어, 다들 봤어?", "New teaser content dropped, did everyone see it?",
      "Salió nuevo contenido de pistas, ¿todos lo vieron?",
-     "Fan theory threads", "Draft — please double-check"),
+     "Fan theory threads", "Verified (web-checked)"),
     ("갑분싸", "gap-bun-ssa", "Sudden awkward silence",
      "Short for \"suddenly the mood turns cold\" — an abrupt awkward moment.",
      "Abreviatura de \"de repente el ambiente se pone incómodo\".",
      "그 농담 하나로 갑분싸됐어.", "That one joke made things suddenly awkward.",
      "Ese chiste hizo que el ambiente se pusiera incómodo de repente.",
-     "Variety shows, casual speech", "Draft — please double-check"),
+     "Variety shows, casual speech", "Verified (web-checked)"),
     ("노잼", "no-jaem", "No fun / boring",
      "\"No fun\" — describes something boring or unentertaining.",
      "\"Sin diversión\": describe algo aburrido o poco entretenido.",
      "그 예능 완전 노잼이었어.", "That variety show was totally boring.",
      "Ese programa de variedades fue muy aburrido.",
-     "Casual reviews", "Draft — please double-check"),
+     "Casual reviews", "Verified (web-checked)"),
     ("꿀잼", "kkul-jaem", "Super fun",
      "\"Honey fun\" — describes something extremely entertaining.",
      "\"Diversión de miel\": describe algo extremadamente entretenido.",
      "이번 화 완전 꿀잼이었어.", "This episode was so much fun.",
      "Este episodio estuvo súper divertido.",
-     "Casual reviews", "Draft — please double-check"),
+     "Casual reviews", "Verified (web-checked)"),
     ("무편집", "mu-pyeon-jip", "Unedited",
      "Raw, unedited footage released as-is.",
      "Material crudo, sin editar, publicado tal cual.",
@@ -1963,13 +1963,13 @@ BROADCAST = [
      "Una imagen de reacción graciosa o meme compartida en comentarios y chats.",
      "이 짤방 완전 상황 그대로다.", "This reaction image is exactly the situation.",
      "Esta imagen de reacción describe la situación perfectamente.",
-     "Online forums, group chats", "Draft — please double-check"),
+     "Online forums, group chats", "Verified (web-checked)"),
     ("움짤", "um-jjal", "GIF",
      "A \"moving picture\" — a short looping GIF.",
      "Una \"imagen en movimiento\": un GIF corto en bucle.",
      "이 움짤 몇 번째 돌려보는지 몰라.", "I've lost count of how many times I've replayed this GIF.",
      "Perdí la cuenta de cuántas veces he visto este GIF.",
-     "Fan Twitter/X, Tumblr", "Draft — please double-check"),
+     "Fan Twitter/X, Tumblr", "Verified (web-checked)"),
     ("뇌절", "noe-jeol", "Overdone joke",
      "A joke or running bit that's been dragged on for far too long.",
      "Un chiste o gag recurrente que se ha alargado demasiado.",
@@ -1981,13 +1981,13 @@ BROADCAST = [
      "\"Nivel máximo\": el nivel más alto de habilidad o maestría (del mundo de los videojuegos).",
      "저 사람 편집 실력 만렙이야.", "That person's editing skills are maxed out.",
      "Las habilidades de edición de esa persona están al máximo nivel.",
-     "Casual praise", "Draft — please double-check"),
+     "Casual praise", "Verified (web-checked)"),
     ("오글거리다", "o-geul-geo-ri-da", "Cringe",
      "To cringe — feel secondhand embarrassment.",
      "Sentir vergüenza ajena, \"cringe\".",
      "그 대사 진짜 오글거렸어.", "That line was seriously cringe.",
      "Esa línea de diálogo dio mucha vergüenza ajena.",
-     "Drama reactions, casual speech", "Draft — please double-check"),
+     "Drama reactions, casual speech", "Verified (web-checked)"),
     ("나락", "na-rak", "The abyss",
      "\"The abyss\" — used when someone's reputation or career crashes badly.",
      "\"El abismo\": se usa cuando la reputación o carrera de alguien se desploma gravemente.",
@@ -1999,7 +1999,7 @@ BROADCAST = [
      "Subir repentinamente en popularidad, vistas o valor.",
      "이 영상 조회수 완전 떡상했어.", "This video's views totally skyrocketed.",
      "Las vistas de este video se dispararon por completo.",
-     "Content creator slang", "Draft — please double-check"),
+     "Content creator slang", "Verified (web-checked)"),
     ("떡락", "tteok-rak", "Plummet",
      "To suddenly plummet in popularity, views, or value — the opposite of 떡상.",
      "Caer repentinamente en popularidad, vistas o valor — lo opuesto a 떡상.",
@@ -2011,7 +2011,7 @@ BROADCAST = [
      "\"Aggro\" (del mundo gamer): comportamiento provocador para atraer reacciones o atención.",
      "그 제목 완전 어그로다.", "That title is total ragebait.",
      "Ese título es puro clickbait provocador.",
-     "YouTube titles, comment sections", "Draft — please double-check"),
+     "YouTube titles, comment sections", "Verified (web-checked)"),
     ("먹방", "meok-bang", "Mukbang",
      "\"Eating broadcast\" — a video of someone eating, often a large quantity, for viewers.",
      "\"Transmisión de comida\": un video de alguien comiendo, a menudo en gran cantidad, para los espectadores.",
@@ -2029,13 +2029,13 @@ BROADCAST = [
      "\"Subpersonaje\": una identidad alterna que interpreta una celebridad, separada de su identidad principal.",
      "이 캐릭터는 그 배우의 부캐야.", "This character is that actor's alter ego.",
      "Este personaje es el álter ego de ese actor.",
-     "Variety shows, comedy segments", "Draft — please double-check"),
+     "Variety shows, comedy segments", "Verified (web-checked)"),
     ("본캐", "bon-kae", "Main persona",
      "\"Main character\" — a person's original identity, as opposed to their 부캐 (alter ego).",
      "\"Personaje principal\": la identidad original de una persona, en contraste con su 부캐 (álter ego).",
      "본캐로 돌아오니까 어색하대.", "They said it felt weird going back to their main persona.",
      "Dijeron que se sintió raro volver a su personalidad principal.",
-     "Variety shows, comedy segments", "Draft — please double-check"),
+     "Variety shows, comedy segments", "Verified (web-checked)"),
     ("리얼버라이어티", "ri-eol-ba-ra-i-eo-ti", "Real variety",
      "\"Real variety\" — a semi-scripted variety format built around cast members' real reactions.",
      "\"Variedad real\": un formato de variedades semi-guionizado construido alrededor de las reacciones reales del elenco.",
@@ -2059,7 +2059,7 @@ BROADCAST = [
      "\"Gag corporal\": comedia física, tipo slapstick, hecha para causar risa.",
      "저 개그맨은 몸개그로 유명해.", "That comedian is famous for physical comedy.",
      "Ese comediante es famoso por su comedia física.",
-     "Comedy show reviews", "Draft — please double-check"),
+     "Comedy show reviews", "Verified (web-checked)"),
     ("애드리브", "ae-deu-ri-beu", "Ad-lib",
      "An unscripted, improvised line or reaction during a broadcast.",
      "Una línea o reacción improvisada, sin guion, durante una transmisión.",
@@ -2077,7 +2077,7 @@ BROADCAST = [
      "\"Publicidad trasera\": contenido patrocinado presentado como si fuera una reseña honesta y no pagada.",
      "그 유튜버 뒷광고 논란으로 시끄러웠잖아.", "That YouTuber caused a big stir with an undisclosed-sponsorship controversy.",
      "Ese youtuber causó mucho revuelo con una polémica de publicidad no declarada.",
-     "Influencer controversy discussions", "Draft — please double-check"),
+     "Influencer controversy discussions", "Verified (web-checked)"),
     ("혼밥", "hon-bap", "Eating alone",
      "Eating a meal by yourself, often at a restaurant, without feeling awkward about it.",
      "Comer solo, a menudo en un restaurante, sin sentirse incómodo por ello.",
@@ -2155,7 +2155,7 @@ BROADCAST = [
      "El guion escrito de un drama, película o programa.",
      "이번 화 대본 유출됐대.", "I heard this episode's script leaked.",
      "Escuché que se filtró el guion de este episodio.",
-     "Production news", "Draft — please double-check"),
+     "Production news", "Verified (web-checked)"),
     ("본업", "bon-eop", "Main career",
      "Someone's primary profession or craft, as opposed to a side activity.",
      "La profesión u oficio principal de alguien, en contraste con una actividad secundaria.",
@@ -2167,13 +2167,13 @@ BROADCAST = [
      "Un actor o papel secundario en un drama o película, en contraste con el protagonista.",
      "저 조연 배우 연기 진짜 잘한다.", "That supporting actor's performance is seriously good.",
      "La actuación de ese actor secundario es muy buena.",
-     "Drama cast talk", "Draft — please double-check"),
+     "Drama cast talk", "Verified (web-checked)"),
     ("신파", "sin-pa", "Melodrama",
      "An overly sentimental, tearjerker style of storytelling common in older Korean dramas and films.",
      "Un estilo de narrativa excesivamente sentimental y lacrimógeno, común en dramas y películas coreanas antiguas.",
      "이 영화 후반부는 완전 신파야.", "The back half of this movie is total melodrama.",
      "La segunda mitad de esta película es puro melodrama.",
-     "Film/drama critique", "Draft — please double-check"),
+     "Film/drama critique", "Verified (web-checked)"),
     ("클리셰", "keul-li-she", "Cliché",
      "A predictable, overused plot device or trope.",
      "Un recurso o arquetipo argumental predecible y sobreusado.",
@@ -2191,7 +2191,7 @@ BROADCAST = [
      "\"Recoger el anzuelo\": cuando un punto de la trama previamente insinuado finalmente se resuelve.",
      "드디어 떡밥회수 됐어!", "The foreshadowing finally paid off!",
      "¡Por fin se resolvió esa pista que habían dejado antes!",
-     "Drama theory threads", "Draft — please double-check"),
+     "Drama theory threads", "Verified (web-checked)"),
     ("열린결말", "yeol-lin-gyeol-mal", "Open ending",
      "An ending that leaves the story's resolution ambiguous or up to interpretation.",
      "Un final que deja la resolución de la historia ambigua o abierta a interpretación.",
@@ -2365,37 +2365,37 @@ BROADCAST = [
      "El Año Nuevo Lunar coreano, una de las festividades tradicionales más grandes, presentada a menudo en episodios especiales de dramas y variedades.",
      "설날 특집 방송 봤어?", "Did you watch the Lunar New Year special broadcast?",
      "¿Viste la transmisión especial del Año Nuevo Lunar?",
-     "Holiday broadcast specials", "Draft — please double-check"),
+     "Holiday broadcast specials", "Verified (web-checked)"),
     ("추석", "chu-seok", "Korean Thanksgiving",
      "A major Korean harvest holiday, similar in spirit to Thanksgiving, often the setting for family-drama episodes.",
      "Una importante festividad coreana de la cosecha, similar en espíritu al Día de Acción de Gracias, a menudo el escenario de episodios de dramas familiares.",
      "추석 연휴에 다 같이 모였어.", "We all gathered together for the Chuseok holiday.",
      "Todos nos reunimos para el feriado de Chuseok.",
-     "Holiday broadcast specials", "Draft — please double-check"),
+     "Holiday broadcast specials", "Verified (web-checked)"),
     ("세뱃돈", "se-baet-don", "New Year's money",
      "Money given to children by elders during Lunar New Year, after they perform a formal bow.",
      "Dinero que los mayores dan a los niños durante el Año Nuevo Lunar, después de que hacen una reverencia formal.",
      "세뱃돈 얼마 받았어?", "How much New Year's money did you get?",
      "¿Cuánto dinero de Año Nuevo recibiste?",
-     "Holiday culture talk", "Draft — please double-check"),
+     "Holiday culture talk", "Verified (web-checked)"),
     ("떡국", "tteok-guk", "Rice cake soup",
      "A rice cake soup traditionally eaten on Lunar New Year's Day, said to make you a year older.",
      "Una sopa de pasteles de arroz que se come tradicionalmente el día de Año Nuevo Lunar, se dice que te hace un año mayor.",
      "떡국 먹었으니까 이제 한 살 더 먹은 거야.", "Since I ate rice cake soup, I'm officially a year older now.",
      "Como comí sopa de pasteles de arroz, ya soy oficialmente un año mayor.",
-     "Holiday culture talk", "Draft — please double-check"),
+     "Holiday culture talk", "Verified (web-checked)"),
     ("한복", "han-bok", "Traditional Korean clothing",
      "Traditional Korean clothing, often worn during holidays, historical dramas, or special photoshoots.",
      "Ropa tradicional coreana, usada a menudo durante festividades, dramas históricos o sesiones de fotos especiales.",
      "한복 입은 모습 진짜 예뻤어.", "They looked so beautiful wearing hanbok.",
      "Se veía hermosa con el hanbok puesto.",
-     "Holiday photos, historical dramas", "Draft — please double-check"),
+     "Holiday photos, historical dramas", "Verified (web-checked)"),
     ("성묘", "seong-myo", "Ancestral grave visit",
      "Visiting and tending to ancestors' graves, a traditional holiday practice.",
      "Visitar y cuidar las tumbas de los ancestros, una práctica tradicional de las festividades.",
      "이번 추석에 성묘 다녀왔어.", "We went to visit the ancestral graves this Chuseok.",
      "Fuimos a visitar las tumbas de los ancestros este Chuseok.",
-     "Holiday culture, drama scenes", "Draft — please double-check"),
+     "Holiday culture, drama scenes", "Verified (web-checked)"),
     ("파일럿프로그램", "pa-il-leot-peu-ro-geu-raem", "Pilot program",
      "A trial episode or short run of a show, made to test audience reaction before a full series is greenlit.",
      "Un episodio de prueba o una serie corta de un programa, hecho para probar la reacción del público antes de aprobar una serie completa.",
@@ -2443,7 +2443,7 @@ BROADCAST = [
      "Abreviatura de \"banda sonora original\": la música presentada en un drama o película.",
      "이 드라마 OST가 진짜 명곡이야.", "This drama's OST is seriously a masterpiece.",
      "El OST de este drama es de verdad una obra maestra.",
-     "Drama soundtrack talk", "Draft — please double-check"),
+     "Drama soundtrack talk", "Verified (web-checked)"),
     ("삽입곡", "sap-ip-gok", "Insert song",
      "A song featured within a specific episode, distinct from the drama's main theme songs.",
      "Una canción presentada dentro de un episodio específico, distinta de los temas principales del drama.",
@@ -2545,7 +2545,7 @@ BROADCAST = [
      "Un actor de reparto cuya actuación destaca y roba la atención en sus escenas.",
      "이 조연배우 완전 신스틸러야.", "This supporting actor is a total scene stealer.",
      "Este actor secundario se roba la escena por completo.",
-     "Drama cast talk", "Draft — please double-check"),
+     "Drama cast talk", "Verified (web-checked)"),
     ("발연기", "bal-yeon-gi", "Wooden acting",
      "\"Foot acting\" — notably bad, stiff, or unconvincing acting.",
      "\"Actuación de pie\": una actuación notablemente mala, rígida o poco convincente.",
@@ -2599,13 +2599,13 @@ BROADCAST = [
      "Abreviatura de \"혼자 코인노래방\" (solo en un karaoke de monedas): ir a una cabina de karaoke de pago por canción tú solo.",
      "스트레스 받을 때 혼코노가 최고야.", "Solo karaoke is the best when I'm stressed.",
      "El karaoke solitario es lo mejor cuando estoy estresada.",
-     "Solo-culture lifestyle talk", "Draft — please double-check"),
+     "Solo-culture lifestyle talk", "Verified (web-checked)"),
     ("무야호", "mu-ya-ho", "Woohoo!",
      "A joyful shout of celebration — \"woohoo!\" — from a beloved variety-show clip.",
      "Un grito de celebración, \"¡yuju!\", de un querido clip de un programa de variedades.",
      "월급 들어왔다, 무야호!", "Payday — woohoo!",
      "¡Llegó el sueldo, yuju!",
-     "Celebrations", "Draft — please double-check"),
+     "Celebrations", "Verified (web-checked)"),
     ("병맛", "byeong-mat", "Absurd humor",
      "병신 (a slur) + 맛 (taste): deliberately absurd, nonsensical humor — weird in a funny way. The root word is offensive.",
      "병신 (un insulto) + 맛 (sabor): humor deliberadamente absurdo y sin sentido, raro pero gracioso. La raíz es ofensiva.",
@@ -2626,49 +2626,49 @@ MEME = [
      "Expresa acuerdo o reconoce algo como cierto.",
      "그 말 완전 인정이야.", "I totally agree with that.",
      "Estoy totalmente de acuerdo con eso.",
-     "Comments, casual chat", "Draft — please double-check"),
+     "Comments, casual chat", "Verified (web-checked)"),
     ("헐", "heol", "Whoa / OMG",
      "An exclamation of shock or surprise.",
      "Una exclamación de sorpresa o shock.",
      "헐, 진짜야?", "Whoa, really?",
      "¡Ay! ¿De verdad?",
-     "Everywhere in casual/online speech", "Draft — please double-check"),
+     "Everywhere in casual/online speech", "Verified (web-checked)"),
     ("TMI", "ti-em-a-i", "Too much information",
      "Sharing more detail than necessary, often jokingly.",
      "Compartir más detalles de los necesarios, a menudo en broma.",
      "TMI지만 나 어제 라면 세 개 먹었어.", "TMI, but I ate three packs of ramen yesterday.",
      "TMI, pero ayer comí tres paquetes de ramen.",
-     "Casual chat, social captions", "Draft — please double-check"),
+     "Casual chat, social captions", "Verified (web-checked)"),
     ("답정너", "dap-jeong-neo", "\"You've already decided the answer\"",
      "Describes a rhetorical question where the asker only wants one specific answer.",
      "Describe una pregunta retórica donde quien pregunta solo quiere una respuesta específica.",
      "왜 물어봐, 완전 답정너잖아.", "Why even ask, you've clearly already decided the answer.",
      "¿Para qué preguntas si ya tienes la respuesta decidida?",
-     "Casual chat", "Draft — please double-check"),
+     "Casual chat", "Verified (web-checked)"),
     ("갓생", "gat-saeng", "\"God-tier life\"",
      "Living a disciplined, highly productive lifestyle.",
      "Vivir un estilo de vida disciplinado y muy productivo.",
      "요즘 갓생 살고 있어, 매일 운동해.", "I've been living my best productive life lately, exercising every day.",
      "Últimamente vivo una vida súper disciplinada, hago ejercicio todos los días.",
-     "Self-improvement social posts", "Draft — please double-check"),
+     "Self-improvement social posts", "Verified (web-checked)"),
     ("만찢", "man-jjit", "\"Tore out of the comic\"",
      "Describes someone stunningly good-looking, like a manhwa character come to life.",
      "Describe a alguien increíblemente atractivo, como un personaje de manhwa.",
      "저 배우 진짜 만찢남이야.", "That actor looks like he tore straight out of a comic book.",
      "Ese actor parece salido directamente de un cómic.",
-     "Fan comments on looks", "Draft — please double-check"),
+     "Fan comments on looks", "Verified (web-checked)"),
     ("얼죽아", "eol-juk-a", "\"Freeze to death, still iced coffee\"",
      "Someone who drinks iced coffee even in freezing winter.",
      "Alguien que toma café helado incluso en pleno invierno.",
      "겨울인데도 아이스 아메리카노? 완전 얼죽아네.", "Iced Americano even in winter? Total ice-coffee-no-matter-what person.",
      "¿Americano helado incluso en invierno? Eres de las que toman café frío pase lo que pase.",
-     "Casual chat, memes", "Draft — please double-check"),
+     "Casual chat, memes", "Verified (web-checked)"),
     ("급식체", "geup-sik-che", "School-cafeteria speak",
      "Playful, exaggerated internet slang popular among teens.",
      "Jerga de internet juguetona y exagerada, popular entre adolescentes.",
      "급식체 너무 심하게 쓰지 마.", "Don't overdo the teen internet slang.",
      "No exageres con la jerga de adolescentes.",
-     "Teen social media", "Draft — please double-check"),
+     "Teen social media", "Verified (web-checked)"),
     ("인생네컷", "in-saeng-ne-keot", "Life four-cut",
      "A popular Korean photo-booth style that prints four small snapshots.",
      "Un estilo popular de fotomatón coreano con cuatro fotos pequeñas.",
@@ -2680,7 +2680,7 @@ MEME = [
      "Abreviatura que significa que no hay forma de evitarlo, es innegable.",
      "이건 빼박 증거야.", "This is undeniable proof.",
      "Esta es una prueba innegable.",
-     "Debates, comment sections", "Draft — please double-check"),
+     "Debates, comment sections", "Verified (web-checked)"),
     ("킹받다", "king-bat-da", "Infuriating",
      "A playful blend of English \"king\" + 열받다 (\"to get mad\") — something is SO annoying, usually in a funny way rather than real anger.",
      "Una mezcla juguetona del inglés \"king\" + 열받다 (\"enojarse\"): algo que molesta muchísimo, normalmente de forma graciosa más que con enojo real.",
@@ -2692,13 +2692,13 @@ MEME = [
      "Una expresión fuerte de disgusto o rechazo.",
      "그 냄새 진짜 극혐이야.", "That smell is absolutely disgusting.",
      "Ese olor es absolutamente repugnante.",
-     "Casual/online speech", "Draft — please double-check"),
+     "Casual/online speech", "Verified (web-checked)"),
     ("오지다", "o-ji-da", "Awesome / intense",
      "Slang meaning something is impressively great or extreme.",
      "Jerga que significa que algo es impresionantemente genial o extremo.",
      "이번 콘서트 진짜 오졌다.", "This concert was seriously amazing.",
      "Este concierto estuvo de verdad increíble.",
-     "Concert reviews, casual speech", "Draft — please double-check"),
+     "Concert reviews, casual speech", "Verified (web-checked)"),
     ("낫닝겐", "nat-ning-gen", "\"Not human\"",
      "Describes superhuman-level talent or skill.",
      "Describe un talento o habilidad de nivel sobrehumano.",
@@ -2782,13 +2782,13 @@ MEME = [
      "\"Cortar pérdidas\": terminar una relación o amistad, a menudo de forma abrupta.",
      "그 친구랑은 손절했어.", "I cut ties with that friend.",
      "Corté relación con ese amigo.",
-     "Casual speech, relationship talk", "Draft — please double-check"),
+     "Casual speech, relationship talk", "Verified (web-checked)"),
     ("흑화", "heu-kwa", "Turning dark",
      "\"Turning dark\" — a character or person becoming bitter, jaded, or villainous.",
      "\"Volverse oscuro\": un personaje o persona que se vuelve amargado, cínico o villano.",
      "그 캐릭터 흑화 진짜 소름 돋았어.", "That character's turn to the dark side gave me chills.",
      "El giro oscuro de ese personaje me puso la piel de gallina.",
-     "Drama/webtoon reactions", "Draft — please double-check"),
+     "Drama/webtoon reactions", "Verified (web-checked)"),
     ("극T", "geuk-ti", "Extremely logical type",
      "From MBTI's \"Thinking\" type taken to an extreme — someone very blunt and logic-over-feelings.",
      "Del tipo \"Thinking\" del MBTI llevado al extremo: alguien muy directo que prioriza la lógica sobre los sentimientos.",
@@ -2800,7 +2800,7 @@ MEME = [
      "Abreviatura de \"foto de perfil\" (프로필 사진).",
      "프사 바꿨네, 예쁘다.", "You changed your profile picture, it's pretty.",
      "Cambiaste tu foto de perfil, está linda.",
-     "Messaging apps, social media", "Draft — please double-check"),
+     "Messaging apps, social media", "Verified (web-checked)"),
     ("뇌피셜", "noe-pi-syeol", "Baseless assumption",
      "\"Brain + official\" — something you present as fact but is really just your own unverified guess.",
      "\"Cerebro + oficial\": algo que presentas como un hecho pero que en realidad es solo tu suposición sin verificar.",
@@ -2842,31 +2842,31 @@ MEME = [
      "\"Foto de la vida\": la mejor y más icónica foto de una persona.",
      "이거 완전 내 인생짤이야.", "This is totally my life photo.",
      "Esta es completamente mi mejor foto de la vida.",
-     "Social media captions", "Draft — please double-check"),
+     "Social media captions", "Verified (web-checked)"),
     ("얼굴천재", "eol-gul-cheon-jae", "Face genius",
      "\"Face genius\" — describes someone exceptionally good-looking.",
      "\"Genio de la cara\": describe a alguien excepcionalmente atractivo.",
      "저 배우 진짜 얼굴천재야.", "That actor is seriously a face genius.",
      "Ese actor es de verdad un genio de la cara.",
-     "Casual compliments", "Draft — please double-check"),
+     "Casual compliments", "Verified (web-checked)"),
     ("인싸", "in-sa", "Popular insider",
      "Short for \"insider\" — a socially popular, well-connected person.",
      "Abreviatura de \"insider\": una persona socialmente popular y bien conectada.",
      "쟤는 완전 인싸라 아는 사람이 엄청 많아.", "That person is such a popular insider, they know everyone.",
      "Esa persona es tan popular que conoce a todo el mundo.",
-     "Casual speech", "Draft — please double-check"),
+     "Casual speech", "Verified (web-checked)"),
     ("아싸", "a-ssa", "Loner",
      "Short for \"outsider\" — someone socially withdrawn, the opposite of 인싸.",
      "Abreviatura de \"outsider\": alguien socialmente retraído, lo opuesto a 인싸.",
      "나는 아싸라 모임 같은 거 잘 안 가.", "I'm a loner so I don't really go to group gatherings.",
      "Soy bastante solitario, así que no suelo ir a reuniones grupales.",
-     "Casual self-description", "Draft — please double-check"),
+     "Casual self-description", "Verified (web-checked)"),
     ("존맛탱", "jon-mat-taeng", "Insanely delicious",
      "An intensified slang way of saying something is incredibly delicious.",
      "Una forma coloquial e intensificada de decir que algo está increíblemente delicioso.",
      "이 떡볶이 존맛탱이야.", "This tteokbokki is insanely delicious.",
      "Este tteokbokki está increíblemente delicioso.",
-     "Food reviews, casual speech", "Draft — please double-check"),
+     "Food reviews, casual speech", "Verified (web-checked)"),
     ("갓띵작", "gat-ting-jak", "God-tier masterpiece",
      "A stylized way of writing \"god + masterpiece\" (갓+명작) to praise something as an all-time great.",
      "Una forma estilizada de escribir \"dios + obra maestra\" (갓+명작) para elogiar algo como excelente.",
@@ -2878,19 +2878,19 @@ MEME = [
      "Abreviatura de \"entrenamiento de hoy completado\": una etiqueta o pie de foto común en la cultura fitness.",
      "오운완! 오늘도 뿌듯하다.", "Today's workout done! Feeling proud today too.",
      "¡Entrenamiento de hoy completado! Me siento orgullosa otra vez hoy.",
-     "Fitness social media captions", "Draft — please double-check"),
+     "Fitness social media captions", "Verified (web-checked)"),
     ("무물보", "mu-mul-bo", "Ask me anything",
      "Short for \"ask me anything\" — inviting followers to ask any question.",
      "Abreviatura de \"pregúntame lo que sea\": invitar a los seguidores a hacer cualquier pregunta.",
      "오늘 무물보 받을게요!", "I'll take an ask-me-anything session today!",
      "¡Hoy voy a hacer una sesión de \"pregúntame lo que sea\"!",
-     "Livestreams, social media Q&As", "Draft — please double-check"),
+     "Livestreams, social media Q&As", "Verified (web-checked)"),
     ("스불재", "seu-bul-jae", "Self-inflicted disaster",
      "Short for \"a disaster you brought on yourself\" — trouble that's entirely your own fault.",
      "Abreviatura de \"un desastre que tú mismo provocaste\": un problema que es completamente tu propia culpa.",
      "숙제 미루다가 밤새는 건 스불재지.", "Pulling an all-nighter because you procrastinated is a self-inflicted disaster.",
      "Desvelarte por haber procrastinado es un desastre que tú mismo provocaste.",
-     "Casual self-deprecating speech", "Draft — please double-check"),
+     "Casual self-deprecating speech", "Verified (web-checked)"),
     ("정색", "jeong-saek", "Sudden seriousness",
      "To abruptly turn serious or deadpan, often in reaction to a joke that didn't land.",
      "Ponerse repentinamente serio o con cara de póker, a menudo en reacción a un chiste que no cayó bien.",
@@ -2902,13 +2902,13 @@ MEME = [
      "\"Viernes ardiente\": la noche del viernes, cuando la gente sale a divertirse tras la semana laboral.",
      "불금인데 뭐 하고 놀까?", "It's TGIF night, what should we do for fun?",
      "Es viernes de fiesta, ¿qué hacemos para divertirnos?",
-     "Casual weekend plans", "Draft — please double-check"),
+     "Casual weekend plans", "Verified (web-checked)"),
     ("칼퇴", "kal-toe", "Leaving work on time",
      "\"Knife + leave\" — leaving the office exactly on time, with zero unpaid overtime.",
      "\"Cuchillo + salida\": salir de la oficina exactamente a la hora, sin horas extra no pagadas.",
      "오늘은 칼퇴하고 싶다.", "I really want to leave work on time today.",
      "Hoy de verdad quiero salir del trabajo puntual.",
-     "Workplace casual speech", "Draft — please double-check"),
+     "Workplace casual speech", "Verified (web-checked)"),
     ("워라밸", "wo-ra-bael", "Work-life balance",
      "A shortened loanword for \"work-life balance.\"",
      "Un préstamo abreviado de \"work-life balance\" (equilibrio entre trabajo y vida personal).",
@@ -2950,61 +2950,61 @@ MEME = [
      "\"Mañana milagrosa\": levantarse temprano para ser productivo antes de que empiece el día.",
      "미라클모닝 실천한 지 일주일 됐어.", "It's been a week since I started doing the miracle morning routine.",
      "Ya llevo una semana practicando la rutina de la \"mañana milagrosa\".",
-     "Self-improvement social media", "Draft — please double-check"),
+     "Self-improvement social media", "Verified (web-checked)"),
     ("케바케", "ke-ba-ke", "Case by case",
      "A Konglish shorthand for \"case by case\" — it depends on the specific situation.",
      "Una abreviatura de \"case by case\" (caso por caso): depende de la situación específica.",
      "그건 케바케라 뭐라 말 못하겠어.", "That's really case by case, I can't say for sure.",
      "Eso depende del caso, no puedo asegurarlo.",
-     "Casual debates", "Draft — please double-check"),
+     "Casual debates", "Verified (web-checked)"),
     ("핑프", "ping-peu", "Too lazy to search",
      "Short for \"finger princess/prince\" — someone too lazy to search or type, who just asks others instead.",
      "Abreviatura de \"princesa/príncipe de dedo\": alguien demasiado perezoso para buscar o escribir, que simplemente le pregunta a otros.",
      "검색하면 바로 나오는데 핑프처럼 물어보지 마.", "Don't be a finger-princess and ask, it shows up instantly if you search.",
      "No seas floja y pregúntame, si buscas te sale al instante.",
-     "Online forums", "Draft — please double-check"),
+     "Online forums", "Verified (web-checked)"),
     ("뇌섹남", "noe-sek-nam", "Brainy attractive guy",
      "A man seen as attractive mainly because of his intelligence and wit, rather than his looks.",
      "Un hombre visto como atractivo principalmente por su inteligencia e ingenio, más que por su apariencia.",
      "저 사람 완전 뇌섹남이야.", "That guy is a total brainy attractive type.",
      "Ese chico es totalmente el tipo inteligente y atractivo.",
-     "Casual compliments", "Draft — please double-check"),
+     "Casual compliments", "Verified (web-checked)"),
     ("갓벽", "gat-byeok", "God-tier flawless",
      "\"God + perfect\" — describes something or someone completely flawless.",
      "\"Dios + perfecto\": describe algo o a alguien completamente impecable.",
      "이번 무대 갓벽이었어.", "This stage was god-tier flawless.",
      "Esta presentación fue absolutamente perfecta.",
-     "Performance reviews", "Draft — please double-check"),
+     "Performance reviews", "Verified (web-checked)"),
     ("순삭", "sun-sak", "Time flew by",
      "\"Moment-erased\" — describes time passing so fast it feels like it disappeared.",
      "\"Momento borrado\": describe el tiempo pasando tan rápido que se siente como si hubiera desaparecido.",
      "이 영화 순삭이었어.", "This movie flew by so fast.",
      "Esta película se sintió muy corta, el tiempo voló.",
-     "Media reviews", "Draft — please double-check"),
+     "Media reviews", "Verified (web-checked)"),
     ("웃프다", "ut-peu-da", "Funny but sad",
      "A blend of \"funny\" and \"sad\" — describes something simultaneously humorous and a little tragic.",
      "Una mezcla de \"gracioso\" y \"triste\": describe algo que es simultáneamente cómico y un poco trágico.",
      "이 상황 진짜 웃프다.", "This situation is seriously funny-but-sad.",
      "Esta situación es de verdad graciosa y triste a la vez.",
-     "Casual reactions", "Draft — please double-check"),
+     "Casual reactions", "Verified (web-checked)"),
     ("안물안궁", "an-mul-an-gung", "Nobody asked",
      "Short for \"didn't ask, not curious\" — a dismissive way of saying nobody wanted to know that.",
      "Abreviatura de \"no pregunté, no me interesa\": una forma despectiva de decir que a nadie le importaba eso.",
      "안물안궁인데 자꾸 말하네.", "Nobody asked, but they keep talking about it anyway.",
      "Nadie preguntó, pero sigue hablando de eso de todos modos.",
-     "Comment sections", "Draft — please double-check"),
+     "Comment sections", "Verified (web-checked)"),
     ("복세편살", "bok-se-pyeon-sal", "Live simply",
      "Short for \"let's live comfortably in this complicated world\" — a laid-back, low-stress life motto.",
      "Abreviatura de \"vivamos cómodamente en este mundo complicado\": un lema de vida relajado y de bajo estrés.",
      "복세편살이 내 인생 모토야.", "\"Live simply\" is my life motto.",
      "\"Vivir simple\" es mi lema de vida.",
-     "Casual life philosophy talk", "Draft — please double-check"),
+     "Casual life philosophy talk", "Verified (web-checked)"),
     ("별다줄", "byeol-da-jul", "They abbreviate everything",
      "Short for \"they even abbreviate the weirdest things\" — a joking comment about excessive Korean abbreviation slang.",
      "Abreviatura de \"hasta las cosas más raras las abrevian\": un comentario en broma sobre la jerga coreana de abreviar todo.",
      "요즘 신조어 보면 진짜 별다줄이야.", "Looking at slang these days, they really do abbreviate everything.",
      "Viendo la jerga de hoy, de verdad abrevian hasta lo imposible.",
-     "Meta-commentary on slang itself", "Draft — please double-check"),
+     "Meta-commentary on slang itself", "Verified (web-checked)"),
     ("커엽다", "keo-yeop-da", "Cute (stylized)",
      "A cutesy, deliberately \"mistyped\" way of writing 귀엽다 (\"cute\"), using visually similar characters.",
      "Una forma tierna y deliberadamente \"mal escrita\" de escribir 귀엽다 (\"lindo\"), usando caracteres visualmente similares.",
@@ -3034,7 +3034,7 @@ MEME = [
      "\"Starbucks + zona de estación\": vivir a poca distancia a pie de un Starbucks, usado en broma como jerga inmobiliaria.",
      "나 완전 스세권에 살아.", "I totally live in a Starbucks-adjacent spot.",
      "Vivo justo cerca de un Starbucks.",
-     "Casual lifestyle talk", "Draft — please double-check"),
+     "Casual lifestyle talk", "Verified (web-checked)"),
     ("갓성비", "gat-seong-bi", "Amazing value",
      "\"God + cost-performance\" — incredible value for money.",
      "\"Dios + relación calidad-precio\": un valor por el dinero increíble.",
@@ -3052,25 +3052,25 @@ MEME = [
      "\"Foto de la vida\": una foto posada tan buena que se convierte en la mejor foto de alguien.",
      "여기서 인생샷 건졌어!", "I got a once-in-a-lifetime shot here!",
      "¡Conseguí la mejor foto de mi vida aquí!",
-     "Travel/photo captions", "Draft — please double-check"),
+     "Travel/photo captions", "Verified (web-checked)"),
     ("맛집", "mat-jip", "Great restaurant",
      "\"Taste house\" — a restaurant known for being especially delicious.",
      "\"Casa del sabor\": un restaurante conocido por ser especialmente delicioso.",
      "여기 완전 숨은 맛집이야.", "This place is a total hidden gem restaurant.",
      "Este lugar es un restaurante escondido buenísimo.",
-     "Food recommendations", "Draft — please double-check"),
+     "Food recommendations", "Verified (web-checked)"),
     ("오지랖", "o-ji-rap", "Meddling",
      "Unsolicited interference or nosiness in other people's business.",
      "Interferencia o entrometimiento no solicitado en los asuntos de otras personas.",
      "그건 오지랖 아니야?", "Isn't that just meddling?",
      "¿Eso no es simplemente meterse donde no lo llaman?",
-     "Casual social commentary", "Draft — please double-check"),
+     "Casual social commentary", "Verified (web-checked)"),
     ("넘사벽", "neom-sa-byeok", "Untouchable level",
      "\"A wall too high to climb over\" — describes someone or something on a completely unreachable level compared to others.",
      "\"Un muro demasiado alto para escalar\": describe a alguien o algo en un nivel completamente inalcanzable comparado con otros.",
      "저 사람 실력은 넘사벽이야.", "That person's skill level is untouchable.",
      "El nivel de habilidad de esa persona es inalcanzable.",
-     "Comparison talk", "Draft — please double-check"),
+     "Comparison talk", "Verified (web-checked)"),
     ("급발진", "geup-bal-jin", "Overreaction",
      "\"Sudden acceleration\" (from car malfunctions) — an abrupt, disproportionate emotional reaction.",
      "\"Aceleración repentina\" (de fallos de autos): una reacción emocional abrupta y desproporcionada.",
@@ -3082,7 +3082,7 @@ MEME = [
      "\"Persona profesionalmente incómoda\": alguien que habitualmente encuentra defectos o se queja de todo.",
      "그냥 넘어가지, 프로불편러처럼 왜 그래.", "Just let it go, why be such a professional complainer about it.",
      "Solo déjalo pasar, no seas tan quejumbroso por todo.",
-     "Comment sections", "Draft — please double-check"),
+     "Comment sections", "Verified (web-checked)"),
     ("무개념", "mu-gae-nyeom", "Thoughtless",
      "\"No concept\" — describes someone who acts inconsiderately or without common sense.",
      "\"Sin concepto\": describe a alguien que actúa de forma desconsiderada o sin sentido común.",
@@ -3106,7 +3106,7 @@ MEME = [
      "Una escritura konglish de \"real\", usada igual que ㄹㅇ para decir \"en serio\".",
      "레알 이거 실화냐.", "For real, is this actually happening.",
      "En serio, ¿esto de verdad está pasando?",
-     "Casual chat, comments", "Draft — please double-check"),
+     "Casual chat, comments", "Verified (web-checked)"),
     ("대박사건", "dae-bak-sa-geon", "Huge incident",
      "\"Jackpot incident\" — a surprising, attention-grabbing event or scandal.",
      "\"Incidente de jackpot\": un evento o escándalo sorprendente que llama mucho la atención.",
@@ -3118,13 +3118,13 @@ MEME = [
      "\"Estoy loco\": una exclamación de asombro o incredulidad.",
      "이 무대 미쳤다.", "This stage is insane.",
      "Esta presentación está una locura.",
-     "Performance reactions", "Draft — please double-check"),
+     "Performance reactions", "Verified (web-checked)"),
     ("실화냐", "sil-hwa-nya", "Is this real?",
      "\"Is this a true story?\" — exclaiming disbelief at something surprising.",
      "\"¿Es esto una historia real?\": exclamar incredulidad ante algo sorprendente.",
      "이 가격 실화냐?", "Is this price for real?",
      "¿Este precio es en serio?",
-     "Shock reactions", "Draft — please double-check"),
+     "Shock reactions", "Verified (web-checked)"),
     ("샤갈", "sya-gal", "Ugh / geez",
      "A negative exclamation of annoyance or frustration, popularized by short-form video content — often said with a rhythmic \"sha-sha-sha-gal\" emphasis.",
      "Una exclamación negativa de fastidio o frustración, popularizada por contenido de video corto — a menudo dicha con un énfasis rítmico \"sha-sha-sha-gal\".",
@@ -3172,7 +3172,7 @@ MEME = [
      "Abreviatura de \"sin respuesta\": describe una situación o persona sin remedio.",
      "이 상황은 진짜 노답이다.", "This situation is seriously hopeless.",
      "Esta situación de verdad no tiene remedio.",
-     "Casual complaints", "Draft — please double-check"),
+     "Casual complaints", "Verified (web-checked)"),
     ("킹왕짱", "king-wang-jjang", "The absolute best",
      "An old-school emphatic slang stacking \"king,\" \"wang\" (king in Hanja), and \"jjang\" (best) together for extra emphasis.",
      "Una jerga antigua y enfática que apila \"king\", \"wang\" (rey en hanja) y \"jjang\" (el mejor) juntos para dar más énfasis.",
@@ -3190,7 +3190,7 @@ MEME = [
      "\"Comer vertiendo vs. comer mojando\": el clásico debate sobre si verter la salsa sobre el cerdo agridulce o mojar cada pieza.",
      "너는 부먹이야 찍먹이야?", "Are you team pour-it-on or team dip-it?",
      "¿Tú eres del equipo que vierte la salsa o del que moja?",
-     "Food culture debates", "Draft — please double-check"),
+     "Food culture debates", "Verified (web-checked)"),
     ("ㅋㅋ", "keu-keu", "Haha",
      "The most basic Korean text-laugh, made by repeating the consonant ㅋ — equivalent to \"haha\" or \"lol.\"",
      "La risa de texto coreana más básica, hecha repitiendo la consonante ㅋ, equivalente a \"jaja\" o \"lol\".",
@@ -3262,7 +3262,7 @@ MEME = [
      "\"Perro + ganancia\": un beneficio enorme e inesperado, o una ganancia con mucha suerte.",
      "1+1이었어, 완전 개이득!", "It was buy-one-get-one-free, what a huge win!",
      "¡Era de 2x1, qué ganancia enorme e inesperada!",
-     "Casual excited reactions", "Draft — please double-check"),
+     "Casual excited reactions", "Verified (web-checked)"),
     ("취향존중", "chwi-hyang-jon-jung", "To each their own",
      "\"Respecting taste\" — acknowledging that preferences differ and that's okay.",
      "\"Respetar el gusto\": reconocer que las preferencias difieren y que eso está bien.",
@@ -3274,19 +3274,19 @@ MEME = [
      "Abreviatura de \"self camera\": una foto que alguien se toma a sí mismo.",
      "셀카 찍어서 올렸어.", "I took a selfie and posted it.",
      "Me tomé una selfie y la subí.",
-     "Social media posts", "Draft — please double-check"),
+     "Social media posts", "Verified (web-checked)"),
     ("오지고지리고", "o-ji-go-ji-ri-go", "Amazing (teen slang)",
      "An exaggerated, playful teen slang phrase meaning something is amazing or impressive.",
      "Una frase de jerga adolescente exagerada y juguetona que significa que algo es increíble o impresionante.",
      "이거 완전 오지고지리고 렛츠고야.", "This is totally amazing, let's go!",
      "¡Esto es totalmente increíble, vamos!",
-     "Teen internet slang", "Draft — please double-check"),
+     "Teen internet slang", "Verified (web-checked)"),
     ("오조오억", "o-jo-o-eok", "An insane amount",
      "\"Five trillion, five hundred million\" — a playful exaggeration meaning an insanely huge amount.",
      "\"Cinco billones, quinientos millones\": una exageración juguetona que significa una cantidad increíblemente enorme.",
      "너 오조오억 번 사랑해.", "I love you like five trillion, five hundred million times.",
      "Te amo como cinco billones quinientos millones de veces.",
-     "Playful affection talk", "Draft — please double-check"),
+     "Playful affection talk", "Verified (web-checked)"),
     ("개꿀", "gae-kkul", "Super lucky",
      "\"Dog honey\" — describes something extremely great or lucky, similar to 개이득.",
      "\"Miel de perro\": describe algo extremadamente genial o afortunado, similar a 개이득.",
@@ -3298,19 +3298,19 @@ MEME = [
      "\"Insider nuclear\": una versión intensificada de 인싸, describiendo a alguien extremadamente popular y bien conectado socialmente.",
      "쟤는 학교에서 완전 핵인싸야.", "That person is a total super-popular insider at school.",
      "Esa persona es súper popular y conocida en la escuela.",
-     "Casual social commentary", "Draft — please double-check"),
+     "Casual social commentary", "Verified (web-checked)"),
     ("팩폭", "paek-pok", "Fact bombing",
      "\"Fact bombing\" — bluntly stating an uncomfortable truth that hits hard.",
      "\"Bombardeo de hechos\": decir sin rodeos una verdad incómoda que golpea fuerte.",
      "친구가 팩폭 날려서 할 말이 없었어.", "My friend hit me with a fact bomb and I had nothing to say.",
      "Mi amiga me soltó una verdad incómoda y no supe qué decir.",
-     "Casual honest advice", "Draft — please double-check"),
+     "Casual honest advice", "Verified (web-checked)"),
     ("근자감", "geun-ja-gam", "Baseless confidence",
      "Short for \"baseless confidence\" — unwarranted self-assurance without real skill or evidence to back it up.",
      "Abreviatura de \"confianza sin fundamento\": seguridad en uno mismo injustificada, sin habilidad o evidencia real que la respalde.",
      "그건 그냥 근자감 아니야?", "Isn't that just baseless confidence?",
      "¿Eso no es solo confianza sin fundamento?",
-     "Casual social commentary", "Draft — please double-check"),
+     "Casual social commentary", "Verified (web-checked)"),
     ("오또케", "o-tto-ke", "What do I do (cutely)",
      "A cutesy, exaggerated way of saying 어떡해 (\"what do I do\"), often used as an aegyo expression of panic or distress.",
      "Una forma tierna y exagerada de decir 어떡해 (\"qué hago\"), a menudo usada como expresión de aegyo de pánico o angustia.",
@@ -3454,13 +3454,13 @@ MEME = [
      "Una tendencia de ahorro donde alguien se reta a sí mismo a no gastar dinero durante un período determinado.",
      "이번 주는 무지출챌린지 중이야.", "I'm doing a no-spend challenge this week.",
      "Estoy haciendo un reto de cero gastos esta semana.",
-     "Savings/lifestyle trend", "Draft — please double-check"),
+     "Savings/lifestyle trend", "Verified (web-checked)"),
     ("세젤예", "se-jel-ye", "Prettiest in the world",
      "Short for \"the prettiest in the world\" — an exaggerated compliment.",
      "Abreviatura de \"la más bonita del mundo\": un cumplido exagerado.",
      "오늘 화장 세젤예다.", "Today's makeup is the prettiest in the world.",
      "El maquillaje de hoy es el más bonito del mundo.",
-     "Casual compliments", "Draft — please double-check"),
+     "Casual compliments", "Verified (web-checked)"),
     ("세젤귀", "se-jel-gwi", "Cutest in the world",
      "Short for \"the cutest in the world\" — an exaggerated compliment.",
      "Abreviatura de \"el más tierno del mundo\": un cumplido exagerado.",
@@ -3472,13 +3472,13 @@ MEME = [
      "Abreviatura de \"únete cuando te corresponda, retírate cuando no\": un recordatorio sobre leer las situaciones sociales.",
      "낄끼빠빠 좀 하자, 이건 우리 얘기잖아.", "Read the room, this is our conversation.",
      "Lee la situación, esta es nuestra conversación.",
-     "Casual social commentary", "Draft — please double-check"),
+     "Casual social commentary", "Verified (web-checked)"),
     ("정신승리", "jeong-sin-seung-ri", "Mental victory",
      "\"Mental victory\" — coping with a loss or failure by convincing yourself it's actually fine or that you won.",
      "\"Victoria mental\": lidiar con una pérdida o fracaso convenciéndote de que en realidad está bien o que ganaste.",
      "졌는데 정신승리 하는 중이야.", "I lost, but I'm having a mental victory about it.",
      "Perdí, pero me estoy consolando pensando que en el fondo gané.",
-     "Self-deprecating humor", "Draft — please double-check"),
+     "Self-deprecating humor", "Verified (web-checked)"),
     ("럭키비키", "leok-ki-bi-ki", "Lucky me, always",
      "A viral phrase meaning \"I'm always lucky\" — popularized by an idol's upbeat, glass-half-full outlook, now used to describe relentless positive thinking.",
      "Una frase viral que significa \"siempre tengo suerte\", popularizada por la actitud optimista de una ídolo, ahora usada para describir el pensamiento positivo constante.",
@@ -3490,7 +3490,7 @@ MEME = [
      "\"Poder de inofensividad\": el encanto de que alguien o algo sea completamente inocente, dulce y no amenazante.",
      "이 캐릭터 무해력 실화냐.", "Is this character's harmless charm even real?",
      "¿El encanto inofensivo de este personaje es real?",
-     "Cute content reactions", "Draft — please double-check"),
+     "Cute content reactions", "Verified (web-checked)"),
     ("밈각", "mim-gak", "Meme potential",
      "\"Meme angle\" — describes something that has strong potential to become a meme.",
      "\"Ángulo de meme\": describe algo que tiene un fuerte potencial para convertirse en un meme.",
@@ -3502,19 +3502,19 @@ MEME = [
      "\"Hacer un Son Minsoo\": copiar exactamente la moda o el estilo de otra persona, por un personaje de webtoon conocido por eso.",
      "저 아이돌 스타일 완전 손민수했어.", "I totally copied that idol's style.",
      "Copié por completo el estilo de ese ídolo.",
-     "Fashion/style talk", "Draft — please double-check"),
+     "Fashion/style talk", "Verified (web-checked)"),
     ("현타", "hyeon-ta", "Reality-check moment",
      "Short for \"reality-awareness time\" — a sudden sobering moment where reality sinks back in.",
      "Abreviatura de \"momento de conciencia de la realidad\": un momento repentino y aleccionador donde la realidad vuelve a asentarse.",
      "야근하다가 갑자기 현타 왔어.", "I was working late and suddenly had a reality-check moment.",
      "Estaba trabajando hasta tarde y de repente me golpeó la realidad.",
-     "Casual venting, relatable posts", "Draft — please double-check"),
+     "Casual venting, relatable posts", "Verified (web-checked)"),
     ("정줄놓", "jeong-jul-not", "Spacing out",
      "\"Dropping the reins of your sanity\" — losing focus or being completely spaced out.",
      "\"Soltar las riendas de la cordura\": perder la concentración o estar completamente distraído.",
      "너무 피곤해서 정줄놓 상태야.", "I'm so tired I'm totally spaced out.",
      "Estoy tan cansada que ando totalmente ida.",
-     "Casual tired/exhausted talk", "Draft — please double-check"),
+     "Casual tired/exhausted talk", "Verified (web-checked)"),
     ("급짜증", "geup-jja-jeung", "Sudden irritation",
      "A sudden spike of annoyance or irritation.",
      "Un repentino aumento de molestia o irritación.",
@@ -3550,13 +3550,13 @@ MEME = [
      "\"No se puede refutar\": describe algo tan obviamente cierto que no hay lugar para el desacuerdo.",
      "이건 진짜 반박불가야.", "This is truly irrefutable.",
      "Esto de verdad es indiscutible.",
-     "Casual debate-ending phrase", "Draft — please double-check"),
+     "Casual debate-ending phrase", "Verified (web-checked)"),
     ("국뽕", "guk-ppong", "National pride high",
      "\"National pride high\" — an intense (sometimes exaggerated) surge of patriotic pride, often used about media that leans into it.",
      "\"Subidón de orgullo nacional\": un intenso (a veces exagerado) aumento de orgullo patriótico, a menudo usado sobre medios que se apoyan en ello.",
      "이 영화 국뽕 좀 심하더라.", "This movie leaned pretty hard into national pride.",
      "Esta película se apoyó bastante fuerte en el orgullo nacional.",
-     "Media commentary", "Draft — please double-check"),
+     "Media commentary", "Verified (web-checked)"),
     ("웃참", "ut-cham", "Holding back laughter",
      "Short for \"laughter holding\" — trying hard not to laugh in a situation where you shouldn't.",
      "Abreviatura de \"contener la risa\": esforzarse por no reírse en una situación donde no se debería.",
@@ -3574,7 +3574,7 @@ MEME = [
      "Abreviatura de 취향존중: la forma corta comúnmente usada de \"respetar los gustos diferentes\".",
      "그건 그냥 취존이지 뭐.", "That's just a matter of taste, to each their own.",
      "Eso es solo cuestión de gustos, cada quien lo suyo.",
-     "Casual opinion talk", "Draft — please double-check"),
+     "Casual opinion talk", "Verified (web-checked)"),
     ("책없쾌", "chaek-eop-kwae", "Guilt-free enjoyment",
      "Short for \"pleasure without responsibility\" — enjoying the fun part of something while skipping all the hard work or obligation attached to it.",
      "Abreviatura de \"placer sin responsabilidad\": disfrutar la parte divertida de algo mientras se evita todo el trabajo duro u obligación que conlleva.",
@@ -3646,13 +3646,13 @@ MEME = [
      "Abreviatura de \"esta vida ya está arruinada\": una expresión exagerada, usualmente en broma, de desesperación sobre las circunstancias de uno.",
      "시험 다 망쳤어, 이생망이다.", "I bombed all my exams, this life is ruined.",
      "Reprobé todos mis exámenes, esta vida está arruinada.",
-     "Self-deprecating humor", "Draft — please double-check"),
+     "Self-deprecating humor", "Verified (web-checked)"),
     ("꾸안꾸", "kku-an-kku", "Done-up but natural look",
      "Short for \"looks styled but not styled\" — a makeup or outfit look that appears effortlessly natural despite careful styling.",
      "Abreviatura de \"se ve arreglado pero no arreglado\": un look de maquillaje o vestuario que parece naturalmente sin esfuerzo a pesar de un estilismo cuidadoso.",
      "오늘 꾸안꾸 메이크업 완전 성공했어.", "My done-up-but-natural makeup totally worked today.",
      "Mi maquillaje natural pero cuidado quedó perfecto hoy.",
-     "Beauty/makeup talk", "Draft — please double-check"),
+     "Beauty/makeup talk", "Verified (web-checked)"),
     ("완내스", "wan-nae-seu", "Totally my style",
      "Short for \"완전 내 스타일\" (totally my style) — expressing strong approval that something perfectly matches your taste.",
      "Abreviatura de \"완전 내 스타일\" (totalmente mi estilo): expresa una fuerte aprobación de que algo coincide perfectamente con tu gusto.",
@@ -3670,19 +3670,19 @@ MEME = [
      "Abreviatura de \"생일 축하\" (feliz cumpleaños): una forma casual y rápida de desear a alguien un feliz cumpleaños.",
      "오늘 생축~! 행복한 하루 보내.", "Happy birthday today! Have a great day.",
      "¡Feliz cumple hoy! Que tengas un gran día.",
-     "Birthday messages", "Draft — please double-check"),
+     "Birthday messages", "Verified (web-checked)"),
     ("텅장", "teong-jang", "Empty bank account",
      "\"Empty bankbook\" — describes a bank account that's completely drained, usually right after payday.",
      "\"Libreta bancaria vacía\": describe una cuenta bancaria completamente agotada, generalmente justo después del día de pago.",
      "월급 들어오자마자 텅장 됐어.", "The moment my paycheck came in, my account went empty.",
      "En cuanto entró mi sueldo, mi cuenta quedó vacía.",
-     "Casual money talk", "Draft — please double-check"),
+     "Casual money talk", "Verified (web-checked)"),
     ("고인물", "go-in-mul", "Veteran/old-timer",
      "\"Stagnant water\" — someone who has been deeply entrenched in an activity or community for a very long time, with expert-level skill.",
      "\"Agua estancada\": alguien que ha estado profundamente inmerso en una actividad o comunidad durante mucho tiempo, con un nivel de habilidad experto.",
      "저 사람 이 게임 완전 고인물이야.", "That person is a total veteran at this game.",
      "Esa persona es una veterana total en este juego.",
-     "Gaming/community culture", "Draft — please double-check"),
+     "Gaming/community culture", "Verified (web-checked)"),
     ("아우라 파밍", "a-u-ra pa-ming", "Aura farming",
      "Deliberately (or effortlessly) building up your \"aura\" — cool, main-character energy — through small stylish moments. Borrowed from an English-language TikTok meme and adopted by Korean Gen Z/Alpha.",
      "Cultivar deliberadamente (o sin esfuerzo) tu \"aura\": ese factor de genialidad tipo protagonista, a través de pequeños momentos con estilo. Prestado de un meme de TikTok en inglés y adoptado por la Generación Z/Alpha coreana.",
@@ -3706,7 +3706,7 @@ MEME = [
      "Abreviatura de 중요한 건 꺾이지 않는 마음: \"lo importante es un corazón que no se quiebra\".",
      "졌지만 중꺾마로 다시 가보자!", "We lost, but never give up — let's go again!",
      "Perdimos, pero no nos rendimos, ¡vamos otra vez!",
-     "Sports, motivation, fandom", "Draft — please double-check"),
+     "Sports, motivation, fandom", "Verified (web-checked)"),
     ("오히려좋아", "o-hi-ryeo-jo-a", "Even better, actually",
      "\"Actually, that's even better\" — turning a bad situation into a positive one.",
      "\"De hecho, mejor\": convertir una mala situación en algo positivo.",
@@ -3718,7 +3718,7 @@ MEME = [
      "\"Renuncia silenciosa\": hacer solo lo que exige el trabajo, nada más, y salir a la hora.",
      "요즘 조용한 퇴사 중이야.", "I'm quiet quitting these days.",
      "Últimamente estoy en modo renuncia silenciosa.",
-     "Work talk", "Draft — please double-check"),
+     "Work talk", "Verified (web-checked)"),
     ("억빠", "eok-ppa", "Forced defending",
      "억지 (forced) + 빠 (fan): defending someone no matter what, even when they're clearly wrong. The opposite of 억까.",
      "억지 (forzado) + 빠 (fan): defender a alguien pase lo que pase, aunque claramente esté mal. Lo contrario de 억까.",
@@ -3736,7 +3736,7 @@ MEME = [
      "어쩌라고 (\"¿y qué?\") + TV: un \"¿y qué?\" juguetón y descarado, a menudo para ganar una discusión tonta.",
      "\"너 숙제 안 했지?\" \"어쩔티비~\"", "\"You didn't do your homework, right?\" \"So what~\"",
      "\"No hiciste la tarea, ¿verdad?\" \"¿Y qué~?\"",
-     "Kids and teen slang", "Draft — please double-check"),
+     "Kids and teen slang", "Verified (web-checked)"),
     ("저쩔티비", "jeo-jjeol-ti-bi", "So what? (comeback)",
      "The comeback to 어쩔티비 — bouncing the \"so what?\" right back.",
      "La respuesta a 어쩔티비: devolver el \"¿y qué?\" de inmediato.",
@@ -3754,9 +3754,9 @@ MEME = [
      "Abreviatura de 내 돈 주고 내가 산: \"lo pagué yo\", una reseña honesta, no patrocinada.",
      "내돈내산 후기라 믿을 만해.", "It's a self-paid review, so you can trust it.",
      "Es una reseña pagada por mí, así que es confiable.",
-     "Reviews, social media", "Draft — please double-check"),
+     "Reviews, social media", "Verified (web-checked)"),
     ("머선129", "meo-seon-129", "What's going on?",
-     "A dialect-flavored \"what's going on?\" (무슨 일이고) where 일이구 is written as the numbers 129.",
+     "A dialect-flavored \"what's going on?\" (무슨 일이고) where 일이고 is written as the numbers 129.",
      "Un \"¿qué pasa?\" con tono de dialecto (무슨 일이고), donde 일이구 se escribe con los números 129.",
      "갑자기 다들 왜 이래? 머선129?", "Why is everyone acting like this all of a sudden? What's going on?",
      "¿Por qué todos actúan así de repente? ¿Qué pasa?",
@@ -3766,13 +3766,13 @@ MEME = [
      "Abreviatura de 갑자기 툭 튀어나오다: aparecer de repente de la nada.",
      "갑툭튀 카메오에 깜짝 놀랐어.", "The out-of-nowhere cameo totally surprised me.",
      "Me sorprendió el cameo que salió de la nada.",
-     "Reactions", "Draft — please double-check"),
+     "Reactions", "Verified (web-checked)"),
     ("얼빡샷", "eol-ppak-syat", "Face-filling close-up",
      "얼굴 (face) + 빡 (tightly) + shot: a selfie where the face fills the whole frame.",
      "얼굴 (cara) + 빡 (apretado) + shot: una selfie donde la cara llena todo el encuadre.",
      "최애 얼빡샷 올라왔어!", "My bias posted a face-filling close-up!",
      "¡Mi bias subió una selfie de cara completa!",
-     "Selfies, fan content", "Draft — please double-check"),
+     "Selfies, fan content", "Verified (web-checked)"),
     ("존예", "jon-ye", "Super pretty",
      "존 (a crude intensifier) + 예쁘다 (pretty): insanely pretty.",
      "존 (intensificador vulgar) + 예쁘다 (bonita): bellísima.",
@@ -3790,7 +3790,7 @@ MEME = [
      "명곡 (canción maestra) reescrito, porque 명 se parece a 띵: una gran canción.",
      "이번 수록곡 다 띵곡이야.", "Every B-side this time is a banger.",
      "Todas las canciones de esta vez son temazos.",
-     "Music talk", "Draft — please double-check"),
+     "Music talk", "Verified (web-checked)"),
     ("띵언", "tting-eon", "Great quote",
      "명언 (wise saying) respelled — a memorable, wise or funny quote.",
      "명언 (frase célebre) reescrito: una cita memorable, sabia o graciosa.",
@@ -3802,7 +3802,7 @@ MEME = [
      "Jerga para \"increíble, genial\", de 쩔다. También 쩔어.",
      "이번 무대 진짜 쩐다.", "This stage is seriously awesome.",
      "Esta presentación está increíble.",
-     "Casual praise", "Draft — please double-check"),
+     "Casual praise", "Verified (web-checked)"),
     ("졸귀", "jol-gwi", "Super cute",
      "졸라 (a crude intensifier) + 귀엽다 (cute): insanely cute.",
      "졸라 (intensificador vulgar) + 귀엽다 (lindo): tiernísimo.",
@@ -3814,19 +3814,19 @@ MEME = [
      "Abreviatura de 열등감 폭발: \"explosión de complejo de inferioridad\", reaccionar mal por envidia o inseguridad.",
      "잘되니까 열폭하는 거야.", "They're lashing out because you're doing well.",
      "Se enojan porque te va bien, pura envidia.",
-     "Online arguments", "Draft — please double-check"),
+     "Online arguments", "Verified (web-checked)"),
     ("멘붕", "men-bung", "Mental breakdown",
      "Short for 멘탈 붕괴 — \"mental collapse\": totally losing it from shock or stress.",
      "Abreviatura de 멘탈 붕괴: \"colapso mental\", perder la cabeza por un shock o estrés.",
      "티켓팅 실패해서 멘붕 왔어.", "I failed ticketing and totally lost it.",
      "Fallé el ticketing y colapsé.",
-     "Everyday chat", "Draft — please double-check"),
+     "Everyday chat", "Verified (web-checked)"),
     ("지린다", "ji-rin-da", "Insane (teen slang)",
      "Literally \"to wet yourself\" — teen slang for something so amazing it's overwhelming.",
      "Literalmente \"orinarse encima\": jerga adolescente para algo tan increíble que abruma.",
      "이 무대 지린다.", "This stage is insane.",
      "Esta presentación es una locura.",
-     "Teen slang", "Draft — please double-check"),
+     "Teen slang", "Verified (web-checked)"),
     ("가보자고", "ga-bo-ja-go", "Let's go!",
      "\"Let's go!\" — a hyped-up rallying cry before doing something.",
      "\"¡Vamos!\": un grito de ánimo antes de hacer algo.",
@@ -3838,7 +3838,7 @@ MEME = [
      "Abreviatura de 점심 메뉴 추천: \"recomendación de menú para el almuerzo\". La versión de la cena es 저메추.",
      "점메추 좀 해 줘, 결정을 못 하겠어.", "Give me a lunch rec — I can't decide.",
      "Recomiéndame algo para almorzar, no me decido.",
-     "Office chat", "Draft — please double-check"),
+     "Office chat", "Verified (web-checked)"),
     ("할많하않", "hal-man-ha-an", "I have a lot to say, but I won't",
      "Short for 할 말은 많지만 하지 않겠다 — \"I have a lot to say, but I'll hold back.\"",
      "Abreviatura de 할 말은 많지만 하지 않겠다: \"tengo mucho que decir, pero me lo callo\".",
@@ -3850,13 +3850,13 @@ MEME = [
      "쌉 (intensificador vulgar, \"totalmente\") + 가능 (posible): \"totalmente posible\".",
      "하루에 드라마 16화? 쌉가능.", "16 drama episodes in a day? Totally doable.",
      "¿16 episodios en un día? Totalmente posible.",
-     "Casual chat", "Draft — please double-check"),
+     "Casual chat", "Verified (web-checked)"),
     ("쌉인정", "ssap-in-jeong", "Totally agree",
      "쌉 (\"totally\") + 인정 (agreed): \"100% agree.\"",
      "쌉 (\"totalmente\") + 인정 (de acuerdo): \"100 % de acuerdo\".",
      "그 말 쌉인정.", "Totally agree with that.",
      "Totalmente de acuerdo.",
-     "Casual chat", "Draft — please double-check"),
+     "Casual chat", "Verified (web-checked)"),
     ("킹정", "king-jeong", "Totally agree (king)",
      "King + 인정 (agreed): \"absolutely agree.\"",
      "King + 인정 (de acuerdo): \"absolutamente de acuerdo\".",
@@ -3880,7 +3880,7 @@ MEME = [
      "Abreviatura de 관심종자: alguien que busca atención todo el tiempo.",
      "또 저렇게 올리는 거 보니 관종이네.", "Posting like that again — what an attention seeker.",
      "Otra vez publicando así, qué buscador de atención.",
-     "Online chat", "Draft — please double-check"),
+     "Online chat", "Verified (web-checked)"),
     ("유리멘탈", "yu-ri-men-tal", "Glass mental",
      "\"Glass mentality\" — easily hurt or shaken. The opposite is 강철멘탈 (steel mental) or 멘탈갑.",
      "\"Mentalidad de cristal\": que se lastima o se altera fácilmente. Lo contrario es 강철멘탈 (mente de acero) o 멘탈갑.",
@@ -3892,7 +3892,7 @@ MEME = [
      "멘탈 + 甲 (lo mejor): alguien con una mentalidad increíblemente fuerte.",
      "실수해도 웃으면서 넘어가, 완전 멘탈갑이야.", "She laughs off mistakes — totally unshakable.",
      "Se ríe de sus errores, tiene una mente de acero.",
-     "Praise", "Draft — please double-check"),
+     "Praise", "Verified (web-checked)"),
     ("씹덕", "ssip-deok", "Hardcore otaku (crude)",
      "A crude, often mocking word for a hardcore otaku — especially anime and game fans. 씹 is a vulgar prefix.",
      "Una palabra vulgar y a menudo burlona para un otaku extremo, sobre todo de anime y videojuegos. 씹 es un prefijo vulgar.",
@@ -3904,13 +3904,13 @@ MEME = [
      "\"¿Eres T?\": burlarse de alguien por responder con lógica cuando querías empatía (T = Thinking en el MBTI).",
      "\"나 오늘 우울해\" \"왜? 무슨 일인데?\" \"…너 T야?\"", "\"I'm sad today\" \"Why? What happened?\" \"…Are you a T?\"",
      "\"Hoy estoy triste\" \"¿Por qué? ¿Qué pasó?\" \"…¿Eres T?\"",
-     "MBTI jokes", "Draft — please double-check"),
+     "MBTI jokes", "Verified (web-checked)"),
     ("디토", "di-to", "Same here",
      "From English \"ditto\" — \"same here, me too.\"",
      "Del inglés \"ditto\": \"igual, yo también\".",
      "\"나 오늘 피곤해\" \"디토\"", "\"I'm tired today\" \"Ditto\"",
      "\"Hoy estoy cansada\" \"Igual\"",
-     "Casual chat", "Draft — please double-check"),
+     "Casual chat", "Verified (web-checked)"),
     ("킹갓제너럴", "king-gat-je-neo-reol", "King god general",
      "King + god + general — stacking titles to call something the absolute best.",
      "King + god + general: acumulando títulos para decir que algo es lo mejor de lo mejor.",
@@ -3934,7 +3934,7 @@ MEME = [
      "Alguien (a menudo mayor o un jefe) que sermonea e impone ideas anticuadas a los más jóvenes.",
      "우리 팀장님 완전 꼰대야.", "Our team leader is such a condescending old-timer.",
      "Mi jefe de equipo es un anticuado sermoneador.",
-     "Work and family talk", "Draft — please double-check"),
+     "Work and family talk", "Verified (web-checked)"),
     ("라떼는말이야", "ra-tte-neun-ma-ri-ya", "Back in my day",
      "A pun on 나 때는 말이야 (\"back in my day\") with 나 때 → latte — mocking 꼰대 lectures.",
      "Juego de palabras con 나 때는 말이야 (\"en mis tiempos\"), donde 나 때 suena como latte; se burla de los sermones de los 꼰대.",
@@ -3946,19 +3946,19 @@ MEME = [
      "蕩盡 (gastarlo todo) + 잼 (diversión): la pequeña alegría de gastar dinero en cositas.",
      "다이소에서 탕진잼 했어.", "I had fun blowing money at Daiso.",
      "Me di el gusto de gastar en Daiso.",
-     "Shopping", "Draft — please double-check"),
+     "Shopping", "Verified (web-checked)"),
     ("영끌", "yeong-kkeul", "Scraping together everything",
      "Short for 영혼까지 끌어모으다 — \"scraping together even your soul\": using every last bit of money or effort.",
      "Abreviatura de 영혼까지 끌어모으다: \"juntar hasta el alma\", usar hasta el último centavo o esfuerzo.",
      "영끌해서 콘서트 VIP석 샀어.", "I scraped together everything to buy a VIP concert seat.",
      "Junté hasta el último centavo para comprar un asiento VIP.",
-     "Money talk", "Draft — please double-check"),
+     "Money talk", "Verified (web-checked)"),
     ("동학개미", "dong-hak-gae-mi", "Korean retail investors",
      "\"Donghak ants\" — the wave of Korean retail investors who poured into domestic stocks in 2020.",
      "\"Hormigas Donghak\": la ola de pequeños inversores coreanos que entraron en masa a las acciones locales en 2020.",
      "나도 동학개미 대열에 합류했어.", "I joined the ranks of the retail-investor ants too.",
      "Yo también me uní a las hormigas inversoras.",
-     "Stock market talk", "Draft — please double-check"),
+     "Stock market talk", "Verified (web-checked)"),
     ("퇴사각", "toe-sa-gak", "Time to quit vibes",
      "퇴사 (quitting a job) + 각 (\"it's looking like\"): signs you're about to quit.",
      "퇴사 (renunciar) + 각 (\"tiene pinta de\"): señales de que estás a punto de renunciar.",
@@ -3970,61 +3970,61 @@ MEME = [
      "핵 (nuclear, \"mega\") + 노잼 (sin gracia): aburridísimo.",
      "어제 영화 핵노잼이었어.", "Yesterday's movie was mega boring.",
      "La película de ayer fue aburridísima.",
-     "Casual reviews", "Draft — please double-check"),
+     "Casual reviews", "Verified (web-checked)"),
     ("꿀팁", "kkul-tip", "Honey tip",
      "\"Honey tip\" — a really useful tip or life hack.",
      "\"Tip de miel\": un consejo o truco realmente útil.",
      "티켓팅 꿀팁 알려 줄게.", "I'll share a ticketing honey tip.",
      "Te comparto un truco para el ticketing.",
-     "Everyday chat, how-to content", "Draft — please double-check"),
+     "Everyday chat, how-to content", "Verified (web-checked)"),
     ("반모", "ban-mo", "Casual-speech mode",
      "Short for 반말 모드 — agreeing to drop polite speech and talk casually.",
      "Abreviatura de 반말 모드: acordar dejar el habla formal y hablar de tú.",
      "우리 반모 할래?", "Want to switch to casual speech?",
      "¿Nos hablamos de tú?",
-     "Online friendships, fandom", "Draft — please double-check"),
+     "Online friendships, fandom", "Verified (web-checked)"),
     ("ㅇㅈ", "ij", "Agreed",
      "Initial consonants of 인정 (\"agreed\"): \"true,\" \"valid,\" \"facts.\"",
      "Consonantes iniciales de 인정 (\"de acuerdo\"): \"cierto\", \"válido\".",
      "ㅇㅈ 이번 앨범 최고야.", "Agreed, this album is the best.",
      "De acuerdo, este álbum es lo mejor.",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("ㅇㅋ", "ok", "OK",
      "Initial consonants of 오케이 (\"okay\").",
      "Consonantes iniciales de 오케이 (\"okey\").",
      "ㅇㅋ 7시에 봐.", "OK, see you at 7.",
      "Ok, nos vemos a las 7.",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("ㄱㅅ", "gs", "Thanks",
      "Initial consonants of 감사 (\"thanks\").",
      "Consonantes iniciales de 감사 (\"gracias\").",
      "자료 공유 ㄱㅅ!", "Thanks for sharing the info!",
      "¡Gracias por compartir la info!",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("ㅈㅅ", "js", "Sorry",
      "Initial consonants of 죄송 (\"sorry\").",
      "Consonantes iniciales de 죄송 (\"perdón\").",
      "늦어서 ㅈㅅ!", "Sorry I'm late!",
      "¡Perdón por llegar tarde!",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("ㅊㅋ", "chk", "Congrats",
      "Initial consonants of 축하 (\"congrats\").",
      "Consonantes iniciales de 축하 (\"felicidades\").",
      "1위 ㅊㅋㅊㅋ!", "Congrats on #1!",
      "¡Felicidades por el #1!",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("ㅠㅠ", "yu-yu", "Crying eyes",
      "Two ㅠ vowels that look like crying eyes with tears — sad, touched, or overwhelmed.",
      "Dos vocales ㅠ que parecen ojos llorando: triste, conmovido o abrumado.",
      "콘서트 끝났어ㅠㅠ", "The concert is over ㅠㅠ",
      "Se terminó el concierto ㅠㅠ",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("ㄱㅇㄷ", "gid", "Huge win",
      "Initial consonants of 개이득 (\"huge win\").",
      "Consonantes iniciales de 개이득 (\"gran ganancia\").",
      "포카 한 장 더 들어 있었어 ㄱㅇㄷ", "There was an extra photocard inside — huge win",
      "Venía una photocard extra, ¡qué suerte!",
-     "Texting, comments", "Draft — please double-check"),
+     "Texting, comments", "Verified (web-checked)"),
     ("씨발", "ssi-bal", "F*ck (swear)",
      "One of the strongest Korean swear words — like \"f*ck\" — used for anger, frustration or shock.",
      "Una de las groserías más fuertes del coreano, como \"j*der\" o \"ch*ngada\", para enojo, frustración o sorpresa.",
@@ -4036,13 +4036,13 @@ MEME = [
      "Consonantes iniciales de 씨발/시발: la forma escrita y algo censurada de la grosería.",
      "ㅅㅂ 과제 마감 오늘이었어.", "Sh*t, the assignment was due today.",
      "Mierda, la tarea era para hoy.",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("존나", "jon-na", "F*cking (intensifier)",
      "A crude intensifier — \"f*cking,\" \"super\" — that goes in front of almost anything.",
      "Un intensificador vulgar, como \"súper\" o \"bien\" en sentido grosero, que va delante de casi todo.",
      "이 노래 존나 좋아.", "This song is f*cking good.",
      "Esta canción está buenísima (grosero).",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("ㅈㄴ", "jn", "F*cking (typed)",
      "Initial consonants of 존나 — the typed form of the intensifier.",
      "Consonantes iniciales de 존나: la forma escrita del intensificador.",
@@ -4159,19 +4159,19 @@ DATING = [
      "Un chaebol: un gran conglomerado empresarial controlado por una familia, a menudo el trasfondo de un interés romántico en K-dramas.",
      "이번 드라마 남주는 재벌 3세래.", "I heard this drama's male lead is a third-generation chaebol heir.",
      "Escuché que el protagonista de este drama es heredero de tercera generación de un chaebol.",
-     "K-drama plot talk", "Draft — please double-check"),
+     "K-drama plot talk", "Verified (web-checked)"),
     ("막장", "mak-jang", "Over-the-top plot",
      "\"End of the mine shaft\" — describes an extreme, over-the-top dramatic plot twist.",
      "\"Final del pozo de la mina\": describe un giro argumental extremo y exagerado.",
      "이 드라마 완전 막장 전개야.", "This drama's plot has gone completely over the top.",
      "La trama de este drama se volvió totalmente exagerada.",
-     "K-drama genre talk", "Draft — please double-check"),
+     "K-drama genre talk", "Verified (web-checked)"),
     ("누나", "nu-na", "Noona",
      "What a man calls an older woman — also names the popular \"noona romance\" drama trope.",
      "Cómo un hombre llama a una mujer mayor; también nombra el popular recurso de \"romance con noona\" en los dramas.",
      "이 드라마는 누나 로맨스야.", "This drama is a noona romance.",
      "Este drama es un romance con una \"noona\" (mujer mayor).",
-     "K-drama genre talk", "Draft — please double-check"),
+     "K-drama genre talk", "Verified (web-checked)"),
     ("츤데레", "cheun-de-re", "Tsundere",
      "A cold-and-prickly-on-the-outside, warm-on-the-inside personality type (originally Japanese, widely used in Korean too).",
      "Un tipo de personalidad fría por fuera pero cálida por dentro (de origen japonés, muy usado también en coreano).",
@@ -4189,7 +4189,7 @@ DATING = [
      "Amor no correspondido, unilateral.",
      "고등학생 때 짝사랑했던 애 기억나.", "I remember the person I had a one-sided crush on in high school.",
      "Recuerdo a la persona de la que estuve enamorado sin ser correspondido en la prepa.",
-     "Casual relationship talk", "Draft — please double-check"),
+     "Casual relationship talk", "Verified (web-checked)"),
     ("애정촌", "ae-jeong-chon", "Love village",
      "\"Love village\" — the classic setting/format used in Korean dating reality shows.",
      "\"Pueblo del amor\": el escenario o formato clásico usado en los reality shows de citas coreanos.",
@@ -4201,13 +4201,13 @@ DATING = [
      "\"Latido de corazón\": un momento que hace suspirar y acelera el corazón.",
      "그 장면 완전 심쿵이었어.", "That scene was such a heart-flutter moment.",
      "Esa escena fue un momento que hizo latir el corazón muy fuerte.",
-     "K-drama reactions", "Draft — please double-check"),
+     "K-drama reactions", "Verified (web-checked)"),
     ("첫사랑", "cheot-sa-rang", "First love",
      "One's very first love.",
      "El primer amor de una persona.",
      "그 드라마 보니까 첫사랑 생각나더라.", "Watching that drama made me think of my first love.",
      "Ver ese drama me hizo pensar en mi primer amor.",
-     "Casual nostalgia talk", "Draft — please double-check"),
+     "Casual nostalgia talk", "Verified (web-checked)"),
     ("국민첫사랑", "guk-min-cheot-sa-rang", "Nation's first love",
      "\"Nation's first love\" — an actress or idol seen as an idealized, universally beloved first-love figure.",
      "\"Primer amor de la nación\": una actriz o ídolo vista como una figura idealizada de primer amor querida por todos.",
@@ -4219,13 +4219,13 @@ DATING = [
      "Un hombre cálido, agradable y atractivo — cercano en lugar de intimidante.",
      "저 남주 완전 훈남 스타일이야.", "That male lead is totally the wholesome good-looking type.",
      "Ese protagonista es totalmente del tipo agradable y atractivo.",
-     "K-drama casting talk", "Draft — please double-check"),
+     "K-drama casting talk", "Verified (web-checked)"),
     ("훈녀", "hun-nyeo", "Wholesome good-looking girl",
      "The female equivalent of 훈남 — warm, approachable, and good-looking.",
      "El equivalente femenino de 훈남: cálida, cercana y atractiva.",
      "그 여배우는 훈녀 이미지로 유명해.", "That actress is known for her wholesome good-looking image.",
      "Esa actriz es conocida por su imagen cálida y atractiva.",
-     "K-drama casting talk", "Draft — please double-check"),
+     "K-drama casting talk", "Verified (web-checked)"),
     ("나쁜남자", "na-ppeun-nam-ja", "Bad boy",
      "The \"bad boy\" trope — a cold, dangerous-seeming male lead who softens for the heroine.",
      "El arquetipo del \"chico malo\": un protagonista frío y de apariencia peligrosa que se enternece por la protagonista.",
@@ -4237,31 +4237,31 @@ DATING = [
      "Una cita a ciegas, generalmente organizada por un amigo en común.",
      "친구가 소개팅 시켜준대.", "My friend is setting me up on a blind date.",
      "Mi amiga me va a organizar una cita a ciegas.",
-     "Casual dating talk", "Draft — please double-check"),
+     "Casual dating talk", "Verified (web-checked)"),
     ("모솔", "mo-sol", "Never been in a relationship",
      "Short for \"solo since birth\" — someone who has never dated anyone.",
      "Abreviatura de \"soltero de nacimiento\": alguien que nunca ha salido con nadie.",
      "나 아직도 모솔이야.", "I'm still someone who's never dated.",
      "Todavía soy alguien que nunca ha salido con nadie.",
-     "Casual self-description", "Draft — please double-check"),
+     "Casual self-description", "Verified (web-checked)"),
     ("자만추", "ja-man-chu", "Seeking a natural encounter",
      "Short for \"seeking a natural meeting\" — wanting to meet a partner organically rather than through a setup.",
      "Abreviatura de \"buscar un encuentro natural\": querer conocer a una pareja de forma orgánica en lugar de por una cita arreglada.",
      "나는 자만추 스타일이라 소개팅은 안 해.", "I'm the natural-encounter type, so I don't do blind dates.",
      "Soy del tipo que prefiere encuentros naturales, así que no hago citas a ciegas.",
-     "Casual dating talk", "Draft — please double-check"),
+     "Casual dating talk", "Verified (web-checked)"),
     ("여사친", "yeo-sa-chin", "Female friend",
      "Short for \"female friend\" — used to clarify a woman is just a friend, not a romantic interest.",
      "Abreviatura de \"amiga mujer\": se usa para aclarar que una mujer es solo una amiga, no un interés romántico.",
      "그냥 여사친이야, 오해하지 마.", "She's just a female friend, don't get the wrong idea.",
      "Es solo mi amiga, no te confundas.",
-     "Casual relationship clarifications", "Draft — please double-check"),
+     "Casual relationship clarifications", "Verified (web-checked)"),
     ("남사친", "nam-sa-chin", "Male friend",
      "Short for \"male friend\" — used to clarify a man is just a friend, not a romantic interest.",
      "Abreviatura de \"amigo hombre\": se usa para aclarar que un hombre es solo un amigo, no un interés romántico.",
      "남사친이랑 영화 보러 갔어.", "I went to see a movie with my guy friend.",
      "Fui al cine con mi amigo (no es nada romántico).",
-     "Casual relationship clarifications", "Draft — please double-check"),
+     "Casual relationship clarifications", "Verified (web-checked)"),
     ("애칭", "ae-ching", "Pet name",
      "A cute nickname used between romantic partners.",
      "Un apodo tierno usado entre parejas románticas.",
@@ -4297,7 +4297,7 @@ DATING = [
      "Una trama romántica que involucra a tres personas con sentimientos cruzados entre ellas.",
      "이 드라마 삼각관계 너무 답답해.", "This drama's love triangle is so frustrating.",
      "El triángulo amoroso de este drama es muy frustrante.",
-     "K-drama trope talk", "Draft — please double-check"),
+     "K-drama trope talk", "Verified (web-checked)"),
     ("시한부", "si-han-bu", "Terminal illness trope",
      "A drama plot device where a character has a terminal illness, often driving the emotional storyline.",
      "Un recurso argumental donde un personaje tiene una enfermedad terminal, a menudo impulsando la trama emocional.",
@@ -4381,7 +4381,7 @@ DATING = [
      "\"Luz verde\": una señal de que alguien está interesado románticamente y abierto a ser conquistado.",
      "그거 완전 그린라이트 아니야?", "Isn't that a total green light?",
      "¿Eso no es una luz verde total?",
-     "Casual dating talk", "Draft — please double-check"),
+     "Casual dating talk", "Verified (web-checked)"),
     ("훈훈하다", "hun-hun-ha-da", "Warm and wholesome",
      "Describes a warm, wholesome, feel-good atmosphere or moment — or a warmly attractive appearance.",
      "Describe un ambiente o momento cálido, agradable y de buen sentir — o una apariencia cálidamente atractiva.",
@@ -4453,7 +4453,7 @@ DATING = [
      "El hito de los 100 días de relación, comúnmente celebrado por las parejas coreanas.",
      "이번 주 백일이라 선물 준비했어.", "This week is our 100-day anniversary, so I prepared a gift.",
      "Esta semana cumplimos 100 días, así que preparé un regalo.",
-     "Couple culture, casual dating talk", "Draft — please double-check"),
+     "Couple culture, casual dating talk", "Verified (web-checked)"),
     ("연애세포", "yeon-ae-se-po", "Romance drive",
      "\"Romance cells\" — one's inner drive or interest in dating and romance.",
      "\"Células de romance\": el impulso o interés interno de alguien por las citas y el romance.",
@@ -4477,13 +4477,13 @@ DATING = [
      "Habla o comportamiento tierno y afectuoso deliberado: una voz melosa, expresiones de puchero o gestos juguetones usados para encantar a alguien.",
      "애교 좀 부려봐!", "Do some aegyo for me!",
      "¡Hazme un poco de aegyo!",
-     "Variety shows, couple culture", "Draft — please double-check"),
+     "Variety shows, couple culture", "Verified (web-checked)"),
     ("사랑꾼", "sa-rang-kkun", "Devoted romantic",
      "\"Love expert\" — someone devotedly romantic who dotes openly on their partner.",
      "\"Experto en amor\": alguien devotamente romántico que consiente abiertamente a su pareja.",
      "저 사람 완전 사랑꾼이야.", "That person is a total devoted romantic.",
      "Esa persona es completamente entregada en el amor.",
-     "Couple culture, variety shows", "Draft — please double-check"),
+     "Couple culture, variety shows", "Verified (web-checked)"),
     ("잉꼬부부", "ing-kko-bu-bu", "Lovebird couple",
      "\"Lovebird couple\" — a married couple who are openly and consistently affectionate with each other.",
      "\"Pareja de pájaros del amor\": una pareja casada que es abierta y constantemente cariñosa entre sí.",
@@ -4597,7 +4597,7 @@ DATING = [
      "Abreviatura de 금방 사랑에 빠지는 사람: alguien que se enamora con mucha facilidad.",
      "나 금사빠라 웃어 주기만 해도 반해.", "I fall in love fast — one smile and I'm gone.",
      "Me enamoro rápido, con una sonrisa ya caigo.",
-     "Dating talk, fandom", "Draft — please double-check"),
+     "Dating talk, fandom", "Verified (web-checked)"),
     ("플러팅", "peul-reo-ting", "Flirting",
      "Flirting — little words or actions that signal romantic interest, from English \"flirting.\"",
      "Coquetear: pequeñas palabras o gestos que muestran interés romántico, del inglés \"flirting\".",
@@ -8851,6 +8851,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["신데렐라", "정략결혼", "막장"],
         "tags": ["drama"],
+        "sources": [
+            {
+                "title": "K-Pop and Korean dictionary: Important terms and words explained",
+                "publisher": "BedeutungOnline",
+                "date": "2023-01-23",
+                "url": "https://www.bedeutungonline.de/k-pop-and-korean-dictionary-important-terms-and-words-explained/"
+            },
+            {
+                "title": "27 Phrases Only K-Drama Fans Will Understand",
+                "publisher": "Zikoko",
+                "date": "2023-03-21",
+                "url": "https://www.zikoko.com/life/27-phrases-only-k-drama-fans-will-understand/"
+            }
+        ],
     },
     "막장": {
         "nuance": {
@@ -8870,6 +8884,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["출생의 비밀", "고부갈등", "재벌"],
         "tags": ["drama"],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "27 Phrases Only K-Drama Fans Will Understand",
+                "publisher": "Zikoko",
+                "date": "2023-03-21",
+                "url": "https://www.zikoko.com/life/27-phrases-only-k-drama-fans-will-understand/"
+            }
+        ],
     },
     "누나": {
         "nuance": {
@@ -8889,6 +8917,32 @@ DETAILS = {
         "register": "everyday",
         "similar": ["연상연하"],
         "tags": ["romance", "drama"],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "27 Phrases Only K-Drama Fans Will Understand",
+                "publisher": "Zikoko",
+                "date": "2023-03-21",
+                "url": "https://www.zikoko.com/life/27-phrases-only-k-drama-fans-will-understand/"
+            },
+            {
+                "title": "20 Korean Words And Phrases That Every K-Drama Fan Should Know",
+                "publisher": "Soompi",
+                "date": "2017-05-22",
+                "url": "https://www.soompi.com/article/985725wpp/20-korean-words-every-k-drama-fan-know"
+            }
+        ],
     },
     "츤데레": {
         "nuance": {
@@ -8946,6 +9000,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["짝남", "짝녀", "첫사랑"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "20 Korean Words And Phrases That Every K-Drama Fan Should Know",
+                "publisher": "Soompi",
+                "date": "2017-05-22",
+                "url": "https://www.soompi.com/article/985725wpp/20-korean-words-every-k-drama-fan-know"
+            },
+            {
+                "title": "25+ Popular Korean Drama Vocabulary For Avid Fans",
+                "publisher": "Ling",
+                "date": "2024-01-26",
+                "url": "https://ling-app.com/ko/korean-drama-vocabulary/"
+            }
+        ],
     },
     "애정촌": {
         "nuance": {
@@ -8984,6 +9052,32 @@ DETAILS = {
         "register": "casual",
         "similar": ["심쿵포인트", "심장저격"],
         "tags": ["romance", "reaction"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "\"낄끼빠빠 못하면 극혐\"...이게 무슨 뜻?",
+                "publisher": "YTN",
+                "date": "2015-10-07",
+                "url": "https://www.ytn.co.kr/_ln/0103_201510071152043946"
+            },
+            {
+                "title": "10 Useful Korean Slang Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-06-16",
+                "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
+        ],
     },
     "첫사랑": {
         "nuance": {
@@ -9003,6 +9097,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["국민첫사랑", "짝사랑", "재회"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "20 More Korean Words And Phrases That Every K-Drama Fan Should Know",
+                "publisher": "Soompi",
+                "date": "2017-10-19",
+                "url": "https://www.soompi.com/article/1057763wpp/20-korean-words-phrases-every-k-drama-fan-know"
+            },
+            {
+                "title": "Romantic relationships vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/interpersonal-relationship/romantic-relationships"
+            }
+        ],
     },
     "국민첫사랑": {
         "nuance": {
@@ -9041,6 +9149,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["훈녀", "훈훈하다", "나쁜남자"],
         "tags": ["romance", "praise"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "20 More Korean Words And Phrases That Every K-Drama Fan Should Know",
+                "publisher": "Soompi",
+                "date": "2017-10-19",
+                "url": "https://www.soompi.com/article/1057763wpp/20-korean-words-phrases-every-k-drama-fan-know"
+            }
+        ],
     },
     "훈녀": {
         "nuance": {
@@ -9060,6 +9182,14 @@ DETAILS = {
         "register": "everyday",
         "similar": ["훈남", "국민첫사랑"],
         "tags": ["romance", "praise"],
+        "sources": [
+            {
+                "title": "20 More Korean Words And Phrases That Every K-Drama Fan Should Know",
+                "publisher": "Soompi",
+                "date": "2017-10-19",
+                "url": "https://www.soompi.com/article/1057763wpp/20-korean-words-phrases-every-k-drama-fan-know"
+            }
+        ],
     },
     "나쁜남자": {
         "nuance": {
@@ -9098,6 +9228,14 @@ DETAILS = {
         "register": "everyday",
         "similar": ["애프터", "자만추", "솔로탈출"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "Romantic relationships vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/interpersonal-relationship/romantic-relationships"
+            }
+        ],
     },
     "모솔": {
         "nuance": {
@@ -9117,6 +9255,14 @@ DETAILS = {
         "register": "casual",
         "similar": ["솔로탈출", "연애세포", "소개팅"],
         "tags": ["romance", "funny"],
+        "sources": [
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
+            }
+        ],
     },
     "자만추": {
         "nuance": {
@@ -9136,6 +9282,14 @@ DETAILS = {
         "register": "casual",
         "similar": ["소개팅", "솔로탈출"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
+        ],
     },
     "여사친": {
         "nuance": {
@@ -9155,6 +9309,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["남사친", "썸"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            }
+        ],
     },
     "남사친": {
         "nuance": {
@@ -9174,6 +9342,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["여사친", "썸"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            }
+        ],
     },
     "애칭": {
         "nuance": {
@@ -9288,6 +9470,20 @@ DETAILS = {
         "register": "everyday",
         "similar": ["럽라인", "커플링", "짝사랑"],
         "tags": ["romance", "drama"],
+        "sources": [
+            {
+                "title": "20 Korean Words And Phrases That Every K-Drama Fan Should Know",
+                "publisher": "Soompi",
+                "date": "2017-05-22",
+                "url": "https://www.soompi.com/article/985725wpp/20-korean-words-every-k-drama-fan-know"
+            },
+            {
+                "title": "25+ Popular Korean Drama Vocabulary For Avid Fans",
+                "publisher": "Ling",
+                "date": "2024-01-26",
+                "url": "https://ling-app.com/ko/korean-drama-vocabulary/"
+            }
+        ],
     },
     "시한부": {
         "nuance": {
@@ -9554,6 +9750,20 @@ DETAILS = {
         "register": "casual",
         "similar": ["썸", "대시", "애프터"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-11)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-11-15",
+                "url": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=7860"
+            }
+        ],
     },
     "훈훈하다": {
         "nuance": {
@@ -9799,6 +10009,14 @@ DETAILS = {
         "register": "everyday",
         "similar": ["천일", "고백"],
         "tags": ["romance"],
+        "sources": [
+            {
+                "title": "Ceremonies vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/everyday-life/ceremonies"
+            }
+        ],
     },
     "연애세포": {
         "nuance": {
@@ -9875,6 +10093,26 @@ DETAILS = {
         "register": "everyday",
         "similar": ["츤데레", "애정표현"],
         "tags": ["romance", "kpop-fan"],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Mastering Korean slang: 5 fun categories",
+                "publisher": "Go! Go! Hanguk",
+                "date": "2025-06",
+                "url": "https://gogohanguk.com/en/blog/slang-you-should-know-in-korea"
+            },
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
+        ],
     },
     "사랑꾼": {
         "nuance": {
@@ -9894,6 +10132,14 @@ DETAILS = {
         "register": "everyday",
         "similar": ["잉꼬부부", "애정표현"],
         "tags": ["romance", "praise"],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
+        ],
     },
     "잉꼬부부": {
         "nuance": {
@@ -10295,6 +10541,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "From Trainee To Bias: The Big 16 K-Pop Slang Terms To Know",
+                "publisher": "Dictionary.com",
+                "date": "2022-04-28",
+                "url": "https://www.dictionary.com/articles/k-pop-slang"
+            }
         ]
     },
     "리더": {
@@ -10319,6 +10579,20 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "K-Pop and Korean dictionary: Important terms and words explained",
+                "publisher": "BedeutungOnline",
+                "date": "2023-01-23",
+                "url": "https://www.bedeutungonline.de/k-pop-and-korean-dictionary-important-terms-and-words-explained/"
+            }
         ]
     },
     "메인보컬": {
@@ -10352,6 +10626,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "The K-Pop Lexicon: What These Words Mean",
+                "publisher": "Lifestyle Asia",
+                "date": "2021-07-27",
+                "url": "https://lifestyleasia-onemega.com/arts-and-culture/k-pop-dictionary-for-those-confused/"
+            }
         ]
     },
     "센터": {
@@ -10378,6 +10666,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop and Korean dictionary: Important terms and words explained",
+                "publisher": "BedeutungOnline",
+                "date": "2023-01-23",
+                "url": "https://www.bedeutungonline.de/k-pop-and-korean-dictionary-important-terms-and-words-explained/"
+            }
         ]
     },
     "활동": {
@@ -10555,6 +10851,26 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "From Trainee To Bias: The Big 16 K-Pop Slang Terms To Know",
+                "publisher": "Dictionary.com",
+                "date": "2022-04-28",
+                "url": "https://www.dictionary.com/articles/k-pop-slang"
+            }
         ]
     },
     "서브보컬": {
@@ -10605,6 +10921,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "The K-Pop Lexicon: What These Words Mean",
+                "publisher": "Lifestyle Asia",
+                "date": "2021-07-27",
+                "url": "https://lifestyleasia-onemega.com/arts-and-culture/k-pop-dictionary-for-those-confused/"
+            }
         ]
     },
     "메인댄서": {
@@ -10631,6 +10961,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "The K-Pop Lexicon: What These Words Mean",
+                "publisher": "Lifestyle Asia",
+                "date": "2021-07-27",
+                "url": "https://lifestyleasia-onemega.com/arts-and-culture/k-pop-dictionary-for-those-confused/"
+            }
         ]
     },
     "메인래퍼": {
@@ -10656,6 +11000,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "비하인드": {
@@ -10708,6 +11060,14 @@ DETAILS = {
             "kpop-fan",
             "stage",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "킬링파트": {
@@ -10734,6 +11094,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "[왓IS] 'Who is Nugu?' K팝 인기로 전세계에 통하는 한국어",
+                "publisher": "일간스포츠",
+                "date": "2023-01-19",
+                "url": "https://isplus.com/article/view/isp202301180126"
+            }
         ]
     },
     "후크송": {
@@ -10758,6 +11132,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "데뷔조": {
@@ -10811,6 +11193,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "재계약": {
@@ -10935,6 +11325,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "타이틀곡": {
@@ -10960,6 +11358,20 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "Glossário de kpop: aprenda os termos usados na indústria musical sul-coreana",
+                "publisher": "Billboard Brasil",
+                "date": "2024-09-13",
+                "url": "https://billboard.com.br/glossario-de-kpop-termos-usados-sul-coreana/"
+            }
         ]
     },
     "수록곡": {
@@ -11010,6 +11422,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "미니앨범": {
@@ -11034,6 +11454,20 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "안무가": {
@@ -11060,6 +11494,14 @@ DETAILS = {
         "tags": [
             "industry",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "Occupations vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/economy-work/occupations"
+            }
         ]
     },
     "작곡가": {
@@ -11085,6 +11527,14 @@ DETAILS = {
         ],
         "tags": [
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "Occupations vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/economy-work/occupations"
+            }
         ]
     },
     "작사가": {
@@ -11537,6 +11987,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "신인상": {
@@ -11589,6 +12047,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "음악방송": {
@@ -11622,6 +12094,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "가요대전": {
@@ -11648,6 +12134,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop and Korean dictionary: Important terms and words explained",
+                "publisher": "BedeutungOnline",
+                "date": "2023-01-23",
+                "url": "https://www.bedeutungonline.de/k-pop-and-korean-dictionary-important-terms-and-words-explained/"
+            }
         ]
     },
     "컴백무대": {
@@ -11674,6 +12168,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "광고모델": {
@@ -12122,6 +12624,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "surprise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "백댄서": {
@@ -12221,6 +12731,14 @@ DETAILS = {
         ],
         "tags": [
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "Occupations vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/economy-work/occupations"
+            }
         ]
     },
     "로드매니저": {
@@ -12730,6 +13248,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Glossário de kpop: aprenda os termos usados na indústria musical sul-coreana",
+                "publisher": "Billboard Brasil",
+                "date": "2024-09-13",
+                "url": "https://billboard.com.br/glossario-de-kpop-termos-usados-sul-coreana/"
+            }
         ]
     },
     "안무영상": {
@@ -13830,6 +14356,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "사이드석": {
@@ -13883,6 +14417,14 @@ DETAILS = {
             "drama",
             "reaction",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "\"드라마 미쳤다\" \"얼굴 맛집\"…국민 70%가 다르게 쓴다",
+                "publisher": "노컷뉴스",
+                "date": "2026-02-05",
+                "url": "https://www.nocutnews.co.kr/news/6467516"
+            }
         ]
     },
     "고구마": {
@@ -13909,6 +14451,14 @@ DETAILS = {
         "tags": [
             "drama",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "\"드라마 미쳤다\" \"얼굴 맛집\"…국민 70%가 다르게 쓴다",
+                "publisher": "노컷뉴스",
+                "date": "2026-02-05",
+                "url": "https://www.nocutnews.co.kr/news/6467516"
+            }
         ]
     },
     "레전드": {
@@ -13935,6 +14485,14 @@ DETAILS = {
         "tags": [
             "praise",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "복불복": {
@@ -13960,6 +14518,14 @@ DETAILS = {
         "tags": [
             "variety",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "유지태, 1박 2일 다음주 출연 예고…몸개그부터 연기까지 '기대감 UP'",
+                "publisher": "매일신문",
+                "date": "2016-10-17",
+                "url": "https://www.imaeil.com/page/view/2016101709512729132"
+            }
         ]
     },
     "1도 없다": {
@@ -14095,6 +14661,14 @@ DETAILS = {
             "praise",
             "drama",
             "variety"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "예능감": {
@@ -14146,6 +14720,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "\"스세권·플렉스·꾸안꾸\"…신조어 당황하지 마세요",
+                "publisher": "매일신문",
+                "date": "2020-01-20",
+                "url": "https://www.imaeil.com/page/view/2020012000392764264"
+            }
         ]
     },
     "떡밥": {
@@ -14172,6 +14754,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "drama"
+        ],
+        "sources": [
+            {
+                "title": "종영까지 단 2주 남았다…시청률 하락세 지속→'떡밥 회수'로 반전 꾀하는 韓 드라마",
+                "publisher": "TV리포트",
+                "date": "2026-05-20",
+                "url": "https://www.tvreport.co.kr/breaking/article/1046127/"
+            }
         ]
     },
     "갑분싸": {
@@ -14198,6 +14788,26 @@ DETAILS = {
         "tags": [
             "reaction",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "'핵인싸'되는 신조어…#괄도네넴띤 # TMI #JJT #우유남 #삼귀다",
+                "publisher": "아이뉴스24",
+                "date": "2019-02-19",
+                "url": "https://www.inews24.com/view/1158750"
+            },
+            {
+                "title": "Korean Slang: 20 Words and Phrases to Sound Like a Native",
+                "publisher": "LanguageBird",
+                "date": "2026-01-19",
+                "url": "https://www.languagebird.com/the-wonderful-world-of-korean-slang/"
+            }
         ]
     },
     "노잼": {
@@ -14224,6 +14834,32 @@ DETAILS = {
         "tags": [
             "reaction",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "꿀잼": {
@@ -14249,6 +14885,32 @@ DETAILS = {
         "tags": [
             "reaction",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "무편집": {
@@ -14325,6 +14987,14 @@ DETAILS = {
         "tags": [
             "internet",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "덕후 용어 사전, 들어는 보셨나요?",
+                "publisher": "텐아시아",
+                "date": "2014-08-07",
+                "url": "https://www.tenasia.co.kr/article/2014080745384"
+            }
         ]
     },
     "움짤": {
@@ -14350,6 +15020,20 @@ DETAILS = {
         "tags": [
             "internet",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "덕후 용어 사전, 들어는 보셨나요?",
+                "publisher": "텐아시아",
+                "date": "2014-08-07",
+                "url": "https://www.tenasia.co.kr/article/2014080745384"
+            }
         ]
     },
     "뇌절": {
@@ -14401,6 +15085,20 @@ DETAILS = {
         "tags": [
             "praise",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            }
         ]
     },
     "오글거리다": {
@@ -14426,6 +15124,14 @@ DETAILS = {
         ],
         "tags": [
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Must-Know Korean Slang Words & Phrases (lesson)",
+                "publisher": "KoreanClass101",
+                "date": "n.d.",
+                "url": "https://www.koreanclass101.com/lesson/mustknow-korean-slang-words-phrases-0-new-lesson"
+            }
         ]
     },
     "나락": {
@@ -14475,6 +15181,14 @@ DETAILS = {
         "tags": [
             "internet",
             "surprise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "떡락": {
@@ -14524,6 +15238,14 @@ DETAILS = {
         "tags": [
             "internet",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "10 Gamer Speak Words (Absolute Beginner Korean for Every Day)",
+                "publisher": "KoreanClass101",
+                "date": "n.d.",
+                "url": "https://www.koreanclass101.com/lesson/absolute-beginner-korean-for-every-day-31-10-gamer-speak-words"
+            }
         ]
     },
     "먹방": {
@@ -14607,6 +15329,14 @@ DETAILS = {
         "tags": [
             "variety",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "[스경X분석] '본캐' 휘어잡는 '부캐'? 방송가 '부캐' 전성시대",
+                "publisher": "스포츠경향",
+                "date": "2020-02-10",
+                "url": "https://sports.khan.co.kr/article/202002100800003"
+            }
         ]
     },
     "본캐": {
@@ -14632,6 +15362,14 @@ DETAILS = {
         "tags": [
             "variety",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "[스경X분석] '본캐' 휘어잡는 '부캐'? 방송가 '부캐' 전성시대",
+                "publisher": "스포츠경향",
+                "date": "2020-02-10",
+                "url": "https://sports.khan.co.kr/article/202002100800003"
+            }
         ]
     },
     "리얼버라이어티": {
@@ -14732,6 +15470,14 @@ DETAILS = {
         "tags": [
             "variety",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "'뜻밖의Q' 세븐틴 승관, 개그 에이스 도전...몸개그 '폭발'",
+                "publisher": "텐아시아",
+                "date": "2018-08-03",
+                "url": "https://www.tenasia.co.kr/article/2018080385814"
+            }
         ]
     },
     "애드리브": {
@@ -14815,6 +15561,14 @@ DETAILS = {
         "tags": [
             "internet",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "유튜버, 고개 숙이면 끝… '뒷광고' 법으로 제재 가능할까",
+                "publisher": "서울신문",
+                "date": "2020-08-17",
+                "url": "https://m.seoul.co.kr/news/2020/08/17/20200817015006"
+            }
         ]
     },
     "혼밥": {
@@ -15149,6 +15903,14 @@ DETAILS = {
         ],
         "tags": [
             "drama"
+        ],
+        "sources": [
+            {
+                "title": "Film & media arts vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/arts-culture/film-media-arts"
+            }
         ]
     },
     "본업": {
@@ -15200,6 +15962,14 @@ DETAILS = {
         ],
         "tags": [
             "drama"
+        ],
+        "sources": [
+            {
+                "title": "25+ Popular Korean Drama Vocabulary For Avid Fans",
+                "publisher": "Ling",
+                "date": "2024-01-26",
+                "url": "https://ling-app.com/ko/korean-drama-vocabulary/"
+            }
         ]
     },
     "신파": {
@@ -15225,6 +15995,14 @@ DETAILS = {
         ],
         "tags": [
             "drama"
+        ],
+        "sources": [
+            {
+                "title": "눈물 없인 볼 수 없던 K신파, 웃음 없인 볼 수 없더라",
+                "publisher": "서울신문",
+                "date": "2023-12-18",
+                "url": "https://m.seoul.co.kr/news/2023/12/18/20231218500246"
+            }
         ]
     },
     "클리셰": {
@@ -15302,6 +16080,14 @@ DETAILS = {
         "tags": [
             "drama",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "종영까지 단 2주 남았다…시청률 하락세 지속→'떡밥 회수'로 반전 꾀하는 韓 드라마",
+                "publisher": "TV리포트",
+                "date": "2026-05-20",
+                "url": "https://www.tvreport.co.kr/breaking/article/1046127/"
+            }
         ]
     },
     "열린결말": {
@@ -16051,6 +16837,20 @@ DETAILS = {
         ],
         "tags": [
             "tradition"
+        ],
+        "sources": [
+            {
+                "title": "Holiday / festival vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/everyday-life/holiday-festival"
+            },
+            {
+                "title": "Korean Holidays Guide: Words and Phrases to Use Naturally",
+                "publisher": "Teuida",
+                "date": "2026-04-09",
+                "url": "https://www.teuida.net/blog/korean-holidays-guide-words-and-phrases-to-use-naturally"
+            }
         ]
     },
     "추석": {
@@ -16077,6 +16877,26 @@ DETAILS = {
         ],
         "tags": [
             "tradition"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "Holiday / festival vocabulary",
+                "publisher": "HangulHanja Korean-English Dictionary",
+                "date": "accessed 2026-10",
+                "url": "https://hangulhanja.com/en/vocabulary/everyday-life/holiday-festival"
+            },
+            {
+                "title": "Korean Holidays Guide: Words and Phrases to Use Naturally",
+                "publisher": "Teuida",
+                "date": "2026-04-09",
+                "url": "https://www.teuida.net/blog/korean-holidays-guide-words-and-phrases-to-use-naturally"
+            }
         ]
     },
     "세뱃돈": {
@@ -16102,6 +16922,14 @@ DETAILS = {
         ],
         "tags": [
             "tradition"
+        ],
+        "sources": [
+            {
+                "title": "Seollal 설날 // Korean New Year Explained",
+                "publisher": "Flexi Classes",
+                "date": "n.d.",
+                "url": "https://flexiclasses.com/korean/seollal/"
+            }
         ]
     },
     "떡국": {
@@ -16126,6 +16954,20 @@ DETAILS = {
         ],
         "tags": [
             "tradition"
+        ],
+        "sources": [
+            {
+                "title": "Korean Holidays Guide: Words and Phrases to Use Naturally",
+                "publisher": "Teuida",
+                "date": "2026-04-09",
+                "url": "https://www.teuida.net/blog/korean-holidays-guide-words-and-phrases-to-use-naturally"
+            },
+            {
+                "title": "Seollal 설날 // Korean New Year Explained",
+                "publisher": "Flexi Classes",
+                "date": "n.d.",
+                "url": "https://flexiclasses.com/korean/seollal/"
+            }
         ]
     },
     "한복": {
@@ -16151,6 +16993,26 @@ DETAILS = {
         ],
         "tags": [
             "tradition"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "27 Phrases Only K-Drama Fans Will Understand",
+                "publisher": "Zikoko",
+                "date": "2023-03-21",
+                "url": "https://www.zikoko.com/life/27-phrases-only-k-drama-fans-will-understand/"
+            },
+            {
+                "title": "Seollal 설날 // Korean New Year Explained",
+                "publisher": "Flexi Classes",
+                "date": "n.d.",
+                "url": "https://flexiclasses.com/korean/seollal/"
+            }
         ]
     },
     "성묘": {
@@ -16175,6 +17037,14 @@ DETAILS = {
         ],
         "tags": [
             "tradition"
+        ],
+        "sources": [
+            {
+                "title": "Korean Holidays Guide: Words and Phrases to Use Naturally",
+                "publisher": "Teuida",
+                "date": "2026-04-09",
+                "url": "https://www.teuida.net/blog/korean-holidays-guide-words-and-phrases-to-use-naturally"
+            }
         ]
     },
     "파일럿프로그램": {
@@ -16379,6 +17249,20 @@ DETAILS = {
         ],
         "tags": [
             "drama"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "27 Phrases Only K-Drama Fans Will Understand",
+                "publisher": "Zikoko",
+                "date": "2023-03-21",
+                "url": "https://www.zikoko.com/life/27-phrases-only-k-drama-fans-will-understand/"
+            }
         ]
     },
     "삽입곡": {
@@ -16809,6 +17693,14 @@ DETAILS = {
         "tags": [
             "drama",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "최근 자주 등장하는 '신 스틸러'의 뜻",
+                "publisher": "위키트리",
+                "date": "2014-03-26",
+                "url": "https://www.wikitree.co.kr/articles/165895"
+            }
         ]
     },
     "발연기": {
@@ -17043,6 +17935,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "'핵인싸'되는 신조어…#괄도네넴띤 # TMI #JJT #우유남 #삼귀다",
+                "publisher": "아이뉴스24",
+                "date": "2019-02-19",
+                "url": "https://www.inews24.com/view/1158750"
+            }
         ]
     },
     "덕후": {
@@ -17069,6 +17969,20 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "[포커스]아이돌과 팬덤, 애정이 곧 돈이다",
+                "publisher": "주간경향",
+                "date": "2020-02-03",
+                "url": "https://weekly.khan.co.kr/article/202002031633381"
+            }
         ]
     },
     "소통": {
@@ -17116,7 +18030,15 @@ DETAILS = {
             "덕질",
             "컴백각"
         ],
-        "tags": ["kpop-fan", "chat", "swear"]
+        "tags": ["kpop-fan", "chat", "swear"],
+        "sources": [
+            {
+                "title": "Korean Slang: 20 Words and Phrases to Sound Like a Native",
+                "publisher": "LanguageBird",
+                "date": "2026-01-19",
+                "url": "https://www.languagebird.com/the-wonderful-world-of-korean-slang/"
+            }
+        ]
     },
     "눈호강": {
         "nuance": {
@@ -17167,6 +18089,20 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "[포커스]아이돌과 팬덤, 애정이 곧 돈이다",
+                "publisher": "주간경향",
+                "date": "2020-02-03",
+                "url": "https://weekly.khan.co.kr/article/202002031633381"
+            }
         ]
     },
     "찐팬": {
@@ -17249,6 +18185,26 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "[포커스]아이돌과 팬덤, 애정이 곧 돈이다",
+                "publisher": "주간경향",
+                "date": "2020-02-03",
+                "url": "https://weekly.khan.co.kr/article/202002031633381"
+            },
+            {
+                "title": "[스경X이슈]\"마음만 받을게요\" 역조공·기부조공→손편지… 변화하는 아이돌 팬덤문화",
+                "publisher": "스포츠경향",
+                "date": "2019-12-14",
+                "url": "https://sports.khan.co.kr/article/201912140933003/amp"
+            },
+            {
+                "title": "연예인에 '억대 선물'…조공과 서포트 문화, 어디까지 가나",
+                "publisher": "노컷뉴스",
+                "date": "2016-07-18",
+                "url": "https://www.nocutnews.co.kr/news/4624324"
+            }
         ]
     },
     "커플템": {
@@ -17348,6 +18304,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "취향저격": {
@@ -17478,6 +18442,20 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "[정동칼럼] 화성 꼰대, 금성 MZ '언어 소통법'",
+                "publisher": "경향신문",
+                "date": "2022-06-27",
+                "url": "https://www.khan.co.kr/article/202206270300105/amp"
+            }
         ]
     },
     "성지순례": {
@@ -17528,6 +18506,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Glossário de kpop: aprenda os termos usados na indústria musical sul-coreana",
+                "publisher": "Billboard Brasil",
+                "date": "2024-09-13",
+                "url": "https://billboard.com.br/glossario-de-kpop-termos-usados-sul-coreana/"
+            }
         ]
     },
     "머글": {
@@ -17680,6 +18666,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "덕후 용어 사전, 들어는 보셨나요?",
+                "publisher": "텐아시아",
+                "date": "2014-08-07",
+                "url": "https://www.tenasia.co.kr/article/2014080745384"
+            }
         ]
     },
     "응원법": {
@@ -17713,6 +18707,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            }
         ]
     },
     "떼창": {
@@ -17923,6 +18925,20 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "[스경X이슈]\"마음만 받을게요\" 역조공·기부조공→손편지… 변화하는 아이돌 팬덤문화",
+                "publisher": "스포츠경향",
+                "date": "2019-12-14",
+                "url": "https://sports.khan.co.kr/article/201912140933003/amp"
+            },
+            {
+                "title": "연예인에 '억대 선물'…조공과 서포트 문화, 어디까지 가나",
+                "publisher": "노컷뉴스",
+                "date": "2016-07-18",
+                "url": "https://www.nocutnews.co.kr/news/4624324"
+            }
         ]
     },
     "팬투표": {
@@ -18310,6 +19326,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop and Korean dictionary: Important terms and words explained",
+                "publisher": "BedeutungOnline",
+                "date": "2023-01-23",
+                "url": "https://www.bedeutungonline.de/k-pop-and-korean-dictionary-important-terms-and-words-explained/"
+            }
         ]
     },
     "팬사이트": {
@@ -18336,6 +19360,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "The K-Pop Lexicon: What These Words Mean",
+                "publisher": "Lifestyle Asia",
+                "date": "2021-07-27",
+                "url": "https://lifestyleasia-onemega.com/arts-and-culture/k-pop-dictionary-for-those-confused/"
+            }
         ]
     },
     "팬베이스": {
@@ -18513,6 +19545,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-pop DeepDive Dictionary: Digging Into TOMORROW X TOGETHER 'TO DO X TXT - EP.120 Fashion Maker Part 1'",
+                "publisher": "Hanteo News",
+                "date": "2023-12-18",
+                "url": "https://www.hanteonews.com/en/article/59117"
+            }
         ]
     },
     "공항패션": {
@@ -18562,6 +19602,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "스페셜앨범": {
@@ -18809,6 +19857,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "럭키박스": {
@@ -18934,6 +19990,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Bring your idols everywhere with sparkling photocards",
+                "publisher": "The Korea Herald",
+                "date": "2025-01-15",
+                "url": "https://www.koreaherald.com/article/10385881"
+            }
         ]
     },
     "포카거래": {
@@ -19057,6 +20121,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "K-pop Deep-dive Dictionary: 76. Before a Fansign Event 3",
+                "publisher": "Hanteo News",
+                "date": "2022-10-22",
+                "url": "https://www.hanteonews.com/en/article/42333"
+            }
         ]
     },
     "답글놀이": {
@@ -19523,6 +20595,20 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "헐": {
@@ -19549,6 +20635,26 @@ DETAILS = {
         "tags": [
             "reaction",
             "surprise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "TMI": {
@@ -19574,6 +20680,26 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "'핵인싸'되는 신조어…#괄도네넴띤 # TMI #JJT #우유남 #삼귀다",
+                "publisher": "아이뉴스24",
+                "date": "2019-02-19",
+                "url": "https://www.inews24.com/view/1158750"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요?",
+                "publisher": "브라보마이라이프",
+                "date": "2018-01-06",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/8104"
+            }
         ]
     },
     "답정너": {
@@ -19599,6 +20725,14 @@ DETAILS = {
         "tags": [
             "chat",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "답정너 신조어 무슨 뜻? tvN '롤러코스터'에서 소개돼",
+                "publisher": "아시아투데이",
+                "date": "2013-07-24",
+                "url": "https://www.asiatoday.co.kr/kn/view.php?key=844779"
+            }
         ]
     },
     "갓생": {
@@ -19625,6 +20759,20 @@ DETAILS = {
         "tags": [
             "worklife",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "[정동칼럼] 화성 꼰대, 금성 MZ '언어 소통법'",
+                "publisher": "경향신문",
+                "date": "2022-06-27",
+                "url": "https://www.khan.co.kr/article/202206270300105/amp"
+            }
         ]
     },
     "만찢": {
@@ -19650,6 +20798,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "얼죽아": {
@@ -19682,6 +20838,14 @@ DETAILS = {
         "tags": [
             "food",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "\"스세권·플렉스·꾸안꾸\"…신조어 당황하지 마세요",
+                "publisher": "매일신문",
+                "date": "2020-01-20",
+                "url": "https://www.imaeil.com/page/view/2020012000392764264"
+            }
         ]
     },
     "급식체": {
@@ -19708,6 +20872,20 @@ DETAILS = {
         "tags": [
             "internet",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "SNL코리아로 촉발된 급식체 논란",
+                "publisher": "데일리안",
+                "date": "2017-10-30",
+                "url": "https://www.dailian.co.kr/news/view/670233/"
+            },
+            {
+                "title": "2017년 가장 핫!했던 신조어 BEST 5",
+                "publisher": "브라보마이라이프",
+                "date": "2017-12-04",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7986"
+            }
         ]
     },
     "인생네컷": {
@@ -19757,6 +20935,20 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "\"낄끼빠빠 못하면 극혐\"...이게 무슨 뜻?",
+                "publisher": "YTN",
+                "date": "2015-10-07",
+                "url": "https://www.ytn.co.kr/_ln/0103_201510071152043946"
+            },
+            {
+                "title": "\"ㅇㄱㄹㅇ·빼박캔트\"··· 한글·영어 합성 신조어 뭐가 있나",
+                "publisher": "시대 (Sidae)",
+                "date": "2016-10-07",
+                "url": "https://www.sidae.com/article/2016100709208062176"
+            }
         ]
     },
     "극혐": {
@@ -19782,6 +20974,44 @@ DETAILS = {
         "tags": [
             "annoyed",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            },
+            {
+                "title": "\"낄끼빠빠 못하면 극혐\"...이게 무슨 뜻?",
+                "publisher": "YTN",
+                "date": "2015-10-07",
+                "url": "https://www.ytn.co.kr/_ln/0103_201510071152043946"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-07)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-07-25",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7400"
+            }
         ]
     },
     "오지다": {
@@ -19808,6 +21038,14 @@ DETAILS = {
         "tags": [
             "praise",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "SNL코리아로 촉발된 급식체 논란",
+                "publisher": "데일리안",
+                "date": "2017-10-30",
+                "url": "https://www.dailian.co.kr/news/view/670233/"
+            }
         ]
     },
     "낫닝겐": {
@@ -19907,6 +21145,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "흑화": {
@@ -19932,6 +21178,14 @@ DETAILS = {
         "tags": [
             "drama",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "[클릭TV]'케미' '흑화' 무슨 뜻인지 아세요",
+                "publisher": "주간경향",
+                "date": "2015-10-26",
+                "url": "https://weekly.khan.co.kr/article/201510261639361"
+            }
         ]
     },
     "극T": {
@@ -19990,6 +21244,14 @@ DETAILS = {
         "tags": [
             "chat",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "뇌피셜": {
@@ -20116,6 +21378,20 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "[신의 한 장] 오마이걸, 소녀들의 비주얼에 감탄할 시간",
+                "publisher": "텐아시아",
+                "date": "2015-10-27",
+                "url": "https://www.tenasia.co.kr/article/2015102720884"
+            },
+            {
+                "title": "덕후 용어 사전, 들어는 보셨나요?",
+                "publisher": "텐아시아",
+                "date": "2014-08-07",
+                "url": "https://www.tenasia.co.kr/article/2014080745384"
+            }
         ]
     },
     "얼굴천재": {
@@ -20142,6 +21418,14 @@ DETAILS = {
         "tags": [
             "praise",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요?",
+                "publisher": "브라보마이라이프",
+                "date": "2018-01-06",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/8104"
+            }
         ]
     },
     "인싸": {
@@ -20167,6 +21451,26 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "아싸": {
@@ -20193,6 +21497,26 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "존맛탱": {
@@ -20216,7 +21540,21 @@ DETAILS = {
             "군싹",
             "맛집"
         ],
-        "tags": ["food", "praise", "swear"]
+        "tags": ["food", "praise", "swear"],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
+        ]
     },
     "갓띵작": {
         "nuance": {
@@ -20266,6 +21604,14 @@ DETAILS = {
         "tags": [
             "worklife",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "무물보": {
@@ -20291,6 +21637,14 @@ DETAILS = {
         "tags": [
             "internet",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 궁금할 땐 '무물'하세요",
+                "publisher": "브라보마이라이프",
+                "date": "2026-10-05",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/20138"
+            }
         ]
     },
     "스불재": {
@@ -20317,6 +21671,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "요즘 Z세대가 쓰는 말, 선생님도 아시나요? – 신조어와 밈으로 풀어보는 세대 간 소통의 기술",
+                "publisher": "전국인력신문 (학생신문 제공)",
+                "date": "2025-10-23",
+                "url": "https://www.kjob.news/news/436412"
+            }
         ]
     },
     "정색": {
@@ -20365,6 +21727,26 @@ DETAILS = {
         "tags": [
             "worklife",
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-09)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-09-05",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7561"
+            }
         ]
     },
     "칼퇴": {
@@ -20397,6 +21779,14 @@ DETAILS = {
         ],
         "tags": [
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "사축": {
@@ -20471,6 +21861,14 @@ DETAILS = {
         ],
         "tags": [
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "'물 2L 마시기·새벽에 일어나기' 소소한 도전 즐기는 '리추얼' 트렌드 인기",
+                "publisher": "한경매거진",
+                "date": "2021-07-02",
+                "url": "https://magazine.hankyung.com/job-joy/article/202107021877d"
+            }
         ]
     },
     "케바케": {
@@ -20494,6 +21892,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "\"ㅇㄱㄹㅇ·빼박캔트\"··· 한글·영어 합성 신조어 뭐가 있나",
+                "publisher": "시대 (Sidae)",
+                "date": "2016-10-07",
+                "url": "https://www.sidae.com/article/2016100709208062176"
+            }
         ]
     },
     "핑프": {
@@ -20519,6 +21925,14 @@ DETAILS = {
         "tags": [
             "internet",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "\"ㅇㄱㄹㅇ·빼박캔트\"··· 한글·영어 합성 신조어 뭐가 있나",
+                "publisher": "시대 (Sidae)",
+                "date": "2016-10-07",
+                "url": "https://www.sidae.com/article/2016100709208062176"
+            }
         ]
     },
     "뇌섹남": {
@@ -20544,6 +21958,20 @@ DETAILS = {
         "tags": [
             "romance",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-07)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-07-25",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7400"
+            }
         ]
     },
     "갓벽": {
@@ -20569,6 +21997,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "순삭": {
@@ -20593,6 +22029,14 @@ DETAILS = {
         ],
         "tags": [
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요?",
+                "publisher": "브라보마이라이프",
+                "date": "2018-01-06",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/8104"
+            }
         ]
     },
     "웃프다": {
@@ -20618,6 +22062,20 @@ DETAILS = {
         "tags": [
             "reaction",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Must-Know Korean Slang Words & Phrases (lesson)",
+                "publisher": "KoreanClass101",
+                "date": "n.d.",
+                "url": "https://www.koreanclass101.com/lesson/mustknow-korean-slang-words-phrases-0-new-lesson"
+            }
         ]
     },
     "안물안궁": {
@@ -20643,6 +22101,20 @@ DETAILS = {
         "tags": [
             "chat",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "10 Useful Korean Slang Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-06-16",
+                "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
         ]
     },
     "복세편살": {
@@ -20667,6 +22139,20 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "\"스세권·플렉스·꾸안꾸\"…신조어 당황하지 마세요",
+                "publisher": "매일신문",
+                "date": "2020-01-20",
+                "url": "https://www.imaeil.com/page/view/2020012000392764264"
+            },
+            {
+                "title": "[정동칼럼] 화성 꼰대, 금성 MZ '언어 소통법'",
+                "publisher": "경향신문",
+                "date": "2022-06-27",
+                "url": "https://www.khan.co.kr/article/202206270300105/amp"
+            }
         ]
     },
     "별다줄": {
@@ -20692,6 +22178,14 @@ DETAILS = {
         "tags": [
             "internet",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "\"ㅇㄱㄹㅇ·빼박캔트\"··· 한글·영어 합성 신조어 뭐가 있나",
+                "publisher": "시대 (Sidae)",
+                "date": "2016-10-07",
+                "url": "https://www.sidae.com/article/2016100709208062176"
+            }
         ]
     },
     "커엽다": {
@@ -20718,6 +22212,14 @@ DETAILS = {
         "tags": [
             "praise",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Yaminjeongeum",
+                "publisher": "Wikipedia",
+                "date": "accessed 2026-10",
+                "url": "https://en.wikipedia.org/wiki/Yaminjeongeum"
+            }
         ]
     },
     "카공족": {
@@ -20767,6 +22269,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "\"스세권·플렉스·꾸안꾸\"…신조어 당황하지 마세요",
+                "publisher": "매일신문",
+                "date": "2020-01-20",
+                "url": "https://www.imaeil.com/page/view/2020012000392764264"
+            }
         ]
     },
     "갓성비": {
@@ -20850,6 +22360,14 @@ DETAILS = {
         "tags": [
             "chat",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "[신의 한 장] 오마이걸, 소녀들의 비주얼에 감탄할 시간",
+                "publisher": "텐아시아",
+                "date": "2015-10-27",
+                "url": "https://www.tenasia.co.kr/article/2015102720884"
+            }
         ]
     },
     "맛집": {
@@ -20875,6 +22393,14 @@ DETAILS = {
         ],
         "tags": [
             "food"
+        ],
+        "sources": [
+            {
+                "title": "[장준우의 푸드 오디세이] 맛집이라는 단어에 가려진 씁쓸함에 대하여",
+                "publisher": "서울신문",
+                "date": "2024-05-08",
+                "url": "https://m.seoul.co.kr/news/2024/05/08/20240508025003"
+            }
         ]
     },
     "오지랖": {
@@ -20900,6 +22426,14 @@ DETAILS = {
         "tags": [
             "chat",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "To be nosy (English with Yoo)",
+                "publisher": "VOA Korea",
+                "date": "n.d.",
+                "url": "https://www.voakorea.com/a/3305205.html"
+            }
         ]
     },
     "넘사벽": {
@@ -20925,6 +22459,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "급발진": {
@@ -20974,6 +22516,14 @@ DETAILS = {
         "tags": [
             "internet",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "[날;청년] '프로불편러'가 필요 없는 세상을 바라는 프로불편러",
+                "publisher": "비즈한국",
+                "date": "2017-05-15",
+                "url": "https://www.bizhankook.com/articles/13294.html"
+            }
         ]
     },
     "무개념": {
@@ -21072,6 +22622,20 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "대박사건": {
@@ -21124,6 +22688,20 @@ DETAILS = {
         "tags": [
             "reaction",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "\"드라마 미쳤다\" \"얼굴 맛집\"…국민 70%가 다르게 쓴다",
+                "publisher": "노컷뉴스",
+                "date": "2026-02-05",
+                "url": "https://www.nocutnews.co.kr/news/6467516"
+            }
         ]
     },
     "실화냐": {
@@ -21150,6 +22728,14 @@ DETAILS = {
         "tags": [
             "reaction",
             "surprise"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-07)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-07-25",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7400"
+            }
         ]
     },
     "샤갈": {
@@ -21348,6 +22934,14 @@ DETAILS = {
         ],
         "tags": [
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "킹왕짱": {
@@ -21398,6 +22992,20 @@ DETAILS = {
         "tags": [
             "internet",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "[정동칼럼] 화성 꼰대, 금성 MZ '언어 소통법'",
+                "publisher": "경향신문",
+                "date": "2022-06-27",
+                "url": "https://www.khan.co.kr/article/202206270300105/amp"
+            },
+            {
+                "title": "Common Expressions Used by Teenagers (Must-Know Korean Slang)",
+                "publisher": "KoreanClass101",
+                "date": "n.d.",
+                "url": "https://www.koreanclass101.com/lesson/mustknow-korean-slang-words-phrases-3-common-expressions-used-by-teenagers?lp=20"
+            }
         ]
     },
     "부먹찍먹": {
@@ -21423,6 +23031,14 @@ DETAILS = {
         "tags": [
             "food",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "10 Useful Korean Slang Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-06-16",
+                "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
         ]
     },
     "자뻑": {
@@ -21608,6 +23224,14 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "취향존중": {
@@ -21658,6 +23282,26 @@ DETAILS = {
         "tags": [
             "chat",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            }
         ]
     },
     "오지고지리고": {
@@ -21683,6 +23327,20 @@ DETAILS = {
         "tags": [
             "internet",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "초·중·고에서 유행하는 '휴먼급식체' 7선",
+                "publisher": "위키트리",
+                "date": "2015-12-21",
+                "url": "https://www.wikitree.co.kr/articles/243809"
+            },
+            {
+                "title": "2017년 가장 핫!했던 신조어 BEST 5",
+                "publisher": "브라보마이라이프",
+                "date": "2017-12-04",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7986"
+            }
         ]
     },
     "오조오억": {
@@ -21706,6 +23364,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "'오조오억' 기출변형? 이하늬가 SNS서 밝힌 근황 \"오조오백만년만에~\"",
+                "publisher": "세계일보",
+                "date": "2021-04-29",
+                "url": "https://www.segye.com/newsView/20210429511856"
+            }
         ]
     },
     "개꿀": {
@@ -21756,6 +23422,26 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "'핵인싸'되는 신조어…#괄도네넴띤 # TMI #JJT #우유남 #삼귀다",
+                "publisher": "아이뉴스24",
+                "date": "2019-02-19",
+                "url": "https://www.inews24.com/view/1158750"
+            }
         ]
     },
     "팩폭": {
@@ -21782,6 +23468,14 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "팩트를 장착해 타인을 쏘는 '팩력배(팩트폭력배)', 온라인 습격",
+                "publisher": "아시아경제",
+                "date": "2016-10-03",
+                "url": "https://v.daum.net/v/ilAMTk1F9l"
+            }
         ]
     },
     "근자감": {
@@ -21807,6 +23501,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "오또케": {
@@ -22203,6 +23905,14 @@ DETAILS = {
         ],
         "tags": [
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "무지출 챌린지, 도전?",
+                "publisher": "Vogue Korea",
+                "date": "2022-08-19",
+                "url": "https://www.vogue.co.kr/2022/08/19/%EB%AC%B4%EC%A7%80%EC%B6%9C-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EB%8F%84%EC%A0%84/"
+            }
         ]
     },
     "세젤예": {
@@ -22227,6 +23937,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "10 Useful Korean Slang Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-06-16",
+                "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
         ]
     },
     "세젤귀": {
@@ -22275,6 +23993,20 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "\"낄끼빠빠 못하면 극혐\"...이게 무슨 뜻?",
+                "publisher": "YTN",
+                "date": "2015-10-07",
+                "url": "https://www.ytn.co.kr/_ln/0103_201510071152043946"
+            },
+            {
+                "title": "10 Useful Korean Slang Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-06-16",
+                "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
         ]
     },
     "정신승리": {
@@ -22300,6 +24032,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "가짜 긍정에 속지 말자, 정신 승리와 진짜 긍정 구별하는 방법 4",
+                "publisher": "GQ Korea",
+                "date": "2024-08-29",
+                "url": "https://www.gqkorea.co.kr/?p=299213"
+            }
         ]
     },
     "무해력": {
@@ -22324,6 +24064,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 손주와 임영웅의 공통점은? 마음 녹이는 '무해력'이란?",
+                "publisher": "브라보마이라이프",
+                "date": "2026-04-06",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/18914"
+            }
         ]
     },
     "밈각": {
@@ -22373,6 +24121,14 @@ DETAILS = {
         "tags": [
             "internet",
             "webtoon"
+        ],
+        "sources": [
+            {
+                "title": "지금 당장 '손민수'하고 싶은 드라마 속 메이크업 룩",
+                "publisher": "Marie Claire Korea",
+                "date": "2020-12-02",
+                "url": "https://www.marieclairekorea.com/?p=207423"
+            }
         ]
     },
     "현타": {
@@ -22399,6 +24155,14 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-07)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-07-25",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7400"
+            }
         ]
     },
     "정줄놓": {
@@ -22423,6 +24187,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "[광장] 조율(調律)",
+                "publisher": "매일신문",
+                "date": "2020-04-17",
+                "url": "https://www.imaeil.com/page/view/2020041617033473942"
+            }
         ]
     },
     "급짜증": {
@@ -22571,6 +24343,14 @@ DETAILS = {
         "tags": [
             "chat",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "초·중·고에서 유행하는 '휴먼급식체' 7선",
+                "publisher": "위키트리",
+                "date": "2015-12-21",
+                "url": "https://www.wikitree.co.kr/articles/243809"
+            }
         ]
     },
     "국뽕": {
@@ -22594,6 +24374,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Gukppong",
+                "publisher": "Wikipedia",
+                "date": "accessed 2026-10",
+                "url": "https://en.wikipedia.org/wiki/Gukppong"
+            }
         ]
     },
     "웃참": {
@@ -22667,6 +24455,20 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-11)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-11-15",
+                "url": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=7860"
+            },
+            {
+                "title": "덕후 용어 사전, 들어는 보셨나요?",
+                "publisher": "텐아시아",
+                "date": "2014-08-07",
+                "url": "https://www.tenasia.co.kr/article/2014080745384"
+            }
         ]
     },
     "클린걸": {
@@ -22888,6 +24690,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            }
         ]
     },
     "꾸안꾸": {
@@ -22912,6 +24722,14 @@ DETAILS = {
         ],
         "tags": [
             "beauty"
+        ],
+        "sources": [
+            {
+                "title": "\"스세권·플렉스·꾸안꾸\"…신조어 당황하지 마세요",
+                "publisher": "매일신문",
+                "date": "2020-01-20",
+                "url": "https://www.imaeil.com/page/view/2020012000392764264"
+            }
         ]
     },
     "완내스": {
@@ -22985,6 +24803,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            }
         ]
     },
     "텅장": {
@@ -23010,6 +24836,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "기업은행, 웹 금융예능 '텅장수사대' 첫 선",
+                "publisher": "데일리안",
+                "date": "2019-07-23",
+                "url": "https://m.dailian.co.kr/news/view/812671"
+            }
         ]
     },
     "고인물": {
@@ -23034,6 +24868,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "주먹자로": {
@@ -23339,6 +25181,26 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "K-Pop Culture Glossary",
+                "publisher": "Soompi",
+                "date": "2012-01-21",
+                "url": "https://www.soompi.com/article/370212wpp/kpop-culture-glossary"
+            },
+            {
+                "title": "K-Pop 101: The Terms You Need To Know Before You Stan",
+                "publisher": "Refinery29",
+                "date": "n.d.",
+                "url": "https://refinery29.com/en-us/k-pop-music-fans-terms-meaning"
+            },
+            {
+                "title": "[왓IS] 'Who is Nugu?' K팝 인기로 전세계에 통하는 한국어",
+                "publisher": "일간스포츠",
+                "date": "2023-01-19",
+                "url": "https://isplus.com/article/view/isp202301180126"
+            }
         ]
     },
     "퍼올": {
@@ -23519,6 +25381,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "\"ㅇㄱㄹㅇ·빼박캔트\"··· 한글·영어 합성 신조어 뭐가 있나",
+                "publisher": "시대 (Sidae)",
+                "date": "2016-10-07",
+                "url": "https://www.sidae.com/article/2016100709208062176"
+            }
         ]
     },
     "하이틴": {
@@ -23570,6 +25440,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "[포커스]아이돌과 팬덤, 애정이 곧 돈이다",
+                "publisher": "주간경향",
+                "date": "2020-02-03",
+                "url": "https://weekly.khan.co.kr/article/202002031633381"
+            }
         ]
     },
     "팬콘": {
@@ -23647,6 +25525,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "The K-Pop Lexicon: What These Words Mean",
+                "publisher": "Lifestyle Asia",
+                "date": "2021-07-27",
+                "url": "https://lifestyleasia-onemega.com/arts-and-culture/k-pop-dictionary-for-those-confused/"
+            }
         ]
     },
     "위버스": {
@@ -24027,6 +25913,14 @@ DETAILS = {
         "tags": [
             "internet",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "오히려좋아": {
@@ -24077,6 +25971,14 @@ DETAILS = {
         ],
         "tags": [
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "조용한퇴사",
+                "publisher": "Allure Korea",
+                "date": "2022-11-23",
+                "url": "https://www.allurekorea.com/2022/11/23/%EC%A1%B0%EC%9A%A9%ED%95%9C%ED%87%B4%EC%82%AC/"
+            }
         ]
     },
     "억빠": {
@@ -24151,6 +26053,20 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "기성세대의 자기계발과는 달라, Z세대의 '갓생' #젠Z식노트_1",
+                "publisher": "ELLE Korea",
+                "date": "2022-03-02",
+                "url": "https://www.elle.co.kr/article/64322"
+            },
+            {
+                "title": "Korean Slang: 20 Words and Phrases to Sound Like a Native",
+                "publisher": "LanguageBird",
+                "date": "2026-01-19",
+                "url": "https://www.languagebird.com/the-wonderful-world-of-korean-slang/"
+            }
         ]
     },
     "저쩔티비": {
@@ -24225,6 +26141,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "머선129": {
@@ -24251,6 +26175,20 @@ DETAILS = {
             "chat",
             "reaction",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "[정동칼럼] 화성 꼰대, 금성 MZ '언어 소통법'",
+                "publisher": "경향신문",
+                "date": "2022-06-27",
+                "url": "https://www.khan.co.kr/article/202206270300105/amp"
+            },
+            {
+                "title": "[초점]이게 '머선129·야채튀김'...방탄소년단 아미 멘붕, 번역기 돌린 이유",
+                "publisher": "뉴시스",
+                "date": "2021-06-04",
+                "url": "https://www.newsis.com/view/NISX20210602_0001462061"
+            }
         ]
     },
     "갑툭튀": {
@@ -24276,6 +26214,14 @@ DETAILS = {
         "tags": [
             "chat",
             "surprise"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 공포영화 '갑툭튀' 귀신에 팝콘 떨어뜨릴 뻔!",
+                "publisher": "브라보마이라이프",
+                "date": "2026-07-20",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/19511"
+            }
         ]
     },
     "얼빡샷": {
@@ -24301,6 +26247,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "\"얼빡샷=얼굴 빡쳐\" 장근석, 황정민 갑분싸 잇는 신조어 재해석 ('나는장근석')",
+                "publisher": "OSEN",
+                "date": "2023-12-06",
+                "url": "https://v.daum.net/v/2ZXUmAj3Rb"
+            }
         ]
     },
     "존예": {
@@ -24373,6 +26327,20 @@ DETAILS = {
         "tags": [
             "praise",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Yaminjeongeum",
+                "publisher": "Wikipedia",
+                "date": "accessed 2026-10",
+                "url": "https://en.wikipedia.org/wiki/Yaminjeongeum"
+            },
+            {
+                "title": "2017년 가장 핫!했던 신조어 BEST 5",
+                "publisher": "브라보마이라이프",
+                "date": "2017-12-04",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7986"
+            }
         ]
     },
     "띵언": {
@@ -24425,6 +26393,26 @@ DETAILS = {
         "tags": [
             "praise",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            }
         ]
     },
     "졸귀": {
@@ -24473,6 +26461,14 @@ DETAILS = {
         "tags": [
             "internet",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "숨겨왔던 열등감이 폭발할 때",
+                "publisher": "국민건강보험공단 웹진",
+                "date": "2022-09",
+                "url": "https://www.nhis.or.kr/static/alim/paper/oldpaper/202209/sub/12.html"
+            }
         ]
     },
     "멘붕": {
@@ -24499,6 +26495,26 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-09)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-09-05",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7561"
+            }
         ]
     },
     "지린다": {
@@ -24525,6 +26541,20 @@ DETAILS = {
         "tags": [
             "internet",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "초·중·고에서 유행하는 '휴먼급식체' 7선",
+                "publisher": "위키트리",
+                "date": "2015-12-21",
+                "url": "https://www.wikitree.co.kr/articles/243809"
+            }
         ]
     },
     "가보자고": {
@@ -24574,6 +26604,20 @@ DETAILS = {
         "tags": [
             "food",
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "'꼰대'가 모르는 MZ어, MZ가 싫어하는 '꼰대'어",
+                "publisher": "미주중앙일보 (The Korea Daily)",
+                "date": "2023-12-31",
+                "url": "https://www.koreadaily.com/article/20231231162657079"
+            },
+            {
+                "title": "[정동칼럼] 화성 꼰대, 금성 MZ '언어 소통법'",
+                "publisher": "경향신문",
+                "date": "2022-06-27",
+                "url": "https://www.khan.co.kr/article/202206270300105/amp"
+            }
         ]
     },
     "할많하않": {
@@ -24621,7 +26665,21 @@ DETAILS = {
             "쌉인정",
             "가보자고"
         ],
-        "tags": ["chat", "swear"]
+        "tags": ["chat", "swear"],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 우리 손주 부탁이라면 '쌉가능'이지!",
+                "publisher": "브라보마이라이프",
+                "date": "2026-09-28",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/19953"
+            },
+            {
+                "title": "LG CNS, 공채 지원자들에 \"쌉가능\"…논란 일자 결국 사과",
+                "publisher": "경기일보",
+                "date": "2019-09-17",
+                "url": "https://www.kyeonggi.com/article/201909171086591"
+            }
+        ]
     },
     "쌉인정": {
         "nuance": {
@@ -24644,7 +26702,15 @@ DETAILS = {
             "킹정",
             "ㄹㅇ"
         ],
-        "tags": ["chat", "reaction", "swear"]
+        "tags": ["chat", "reaction", "swear"],
+        "sources": [
+            {
+                "title": "LG CNS, 공채 지원자들에 \"쌉가능\"…논란 일자 결국 사과",
+                "publisher": "경기일보",
+                "date": "2019-09-17",
+                "url": "https://www.kyeonggi.com/article/201909171086591"
+            }
+        ]
     },
     "킹정": {
         "nuance": {
@@ -24744,6 +26810,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "유리멘탈": {
@@ -24792,6 +26866,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "멘탈 강한 사람은 '절대' 하지 않는 6가지",
+                "publisher": "코메디닷컴",
+                "date": "2021-07-07",
+                "url": "https://kormedi.com/1344856/"
+            }
         ]
     },
     "씹덕": {
@@ -24840,6 +26922,14 @@ DETAILS = {
         "tags": [
             "chat",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "올해의 단어 : T [2023 연말결산]",
+                "publisher": "쿠키뉴스",
+                "date": "2023-12-24",
+                "url": "https://www.kukinews.com/article/view/kuk202312230030"
+            }
         ]
     },
     "디토": {
@@ -24863,6 +26953,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] \"디토합니다\" 뜻, 알고 보니 추억의 단어였다",
+                "publisher": "브라보마이라이프",
+                "date": "2026-03-02",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/18661"
+            }
         ]
     },
     "무야호": {
@@ -24888,6 +26986,14 @@ DETAILS = {
         "tags": [
             "variety",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "[요즘, 이거] 그만큼 신나시는 거지…'무야호'로 외치는 배려짤",
+                "publisher": "이투데이",
+                "date": "2021-03-18",
+                "url": "https://www.etoday.co.kr/news/view/2005855"
+            }
         ]
     },
     "킹갓제너럴": {
@@ -24963,6 +27069,14 @@ DETAILS = {
         "tags": [
             "chat",
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "국민 5명 중 1명은 \"당근하세요?\"…당근마켓 월 사용자 1천만명 기록",
+                "publisher": "뉴스토마토",
+                "date": "2020-09-09",
+                "url": "https://newstomato.com/ReadNews.aspx?no=995215"
+            }
         ]
     },
     "꼰대": {
@@ -24988,6 +27102,14 @@ DETAILS = {
         "tags": [
             "worklife",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "Kkondae",
+                "publisher": "Wikipedia",
+                "date": "accessed 2026-10",
+                "url": "https://en.wikipedia.org/wiki/Kkondae"
+            }
         ]
     },
     "라떼는말이야": {
@@ -25013,6 +27135,14 @@ DETAILS = {
         "tags": [
             "worklife",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "'꼰대'가 모르는 MZ어, MZ가 싫어하는 '꼰대'어",
+                "publisher": "미주중앙일보 (The Korea Daily)",
+                "date": "2023-12-31",
+                "url": "https://www.koreadaily.com/article/20231231162657079"
+            }
         ]
     },
     "탕진잼": {
@@ -25038,6 +27168,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "[쓸 돈이 없다]'탕진잼' '핫딜 노마드族'…줄어든 '청년 소비'에 씁쓸한 신조어",
+                "publisher": "뉴시스",
+                "date": "2017-01-18",
+                "url": "https://www.newsis.com/view/NISX20170118_0014648563"
+            }
         ]
     },
     "영끌": {
@@ -25062,6 +27200,14 @@ DETAILS = {
         ],
         "tags": [
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "[지지대] 영끌 시대",
+                "publisher": "경기일보",
+                "date": "2020-12-07",
+                "url": "https://www.kyeonggi.com/article/202012071148161"
+            }
         ]
     },
     "동학개미": {
@@ -25094,6 +27240,20 @@ DETAILS = {
         ],
         "tags": [
             "worklife"
+        ],
+        "sources": [
+            {
+                "title": "[광화문]동학개미와 부나방",
+                "publisher": "머니투데이",
+                "date": "2020-04-23",
+                "url": "https://www.mt.co.kr/opinion/2020/04/23/2020042217354435487"
+            },
+            {
+                "title": "[지지대] 영끌 시대",
+                "publisher": "경기일보",
+                "date": "2020-12-07",
+                "url": "https://www.kyeonggi.com/article/202012071148161"
+            }
         ]
     },
     "퇴사각": {
@@ -25168,6 +27328,14 @@ DETAILS = {
         "tags": [
             "reaction",
             "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "\"ㅇㄱㄹㅇ·빼박캔트\"··· 한글·영어 합성 신조어 뭐가 있나",
+                "publisher": "시대 (Sidae)",
+                "date": "2016-10-07",
+                "url": "https://www.sidae.com/article/2016100709208062176"
+            }
         ]
     },
     "꿀팁": {
@@ -25193,6 +27361,14 @@ DETAILS = {
         "tags": [
             "chat",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            }
         ]
     },
     "반모": {
@@ -25225,6 +27401,14 @@ DETAILS = {
         "tags": [
             "chat",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "#좋반이 뭐게요? Z세대 해시태그 해독해드림",
+                "publisher": "캐릿 (대학내일)",
+                "date": "2020-03-25",
+                "url": "https://www.careet.net/7"
+            }
         ]
     },
     "금사빠": {
@@ -25251,6 +27435,26 @@ DETAILS = {
         "tags": [
             "romance",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "신조어 얼마나 알고 있나요? (2017-09)",
+                "publisher": "브라보마이라이프",
+                "date": "2017-09-05",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7561"
+            },
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
+            }
         ]
     },
     "ㅇㅈ": {
@@ -25276,6 +27480,20 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            }
         ]
     },
     "ㅇㅋ": {
@@ -25300,6 +27518,38 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Explained: 115 Popular Words (2026 Guide)",
+                "publisher": "90 Day Korean",
+                "date": "2026-08-24",
+                "url": "https://www.90daykorean.com/?p=2431"
+            },
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            },
+            {
+                "title": "Secret to Mastering Korean Slang and Abbreviations",
+                "publisher": "KoreanClass101",
+                "date": "2019-07-23",
+                "url": "https://www.koreanclass101.com/blog/?p=3429"
+            }
         ]
     },
     "ㄱㅅ": {
@@ -25324,6 +27574,32 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            },
+            {
+                "title": "Secret to Mastering Korean Slang and Abbreviations",
+                "publisher": "KoreanClass101",
+                "date": "2019-07-23",
+                "url": "https://www.koreanclass101.com/blog/?p=3429"
+            }
         ]
     },
     "ㅈㅅ": {
@@ -25348,6 +27624,32 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Korean Slang Words: Texting & Gen Z Terms You Need (2026)",
+                "publisher": "Migaku",
+                "date": "2026-04-06",
+                "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            },
+            {
+                "title": "Secret to Mastering Korean Slang and Abbreviations",
+                "publisher": "KoreanClass101",
+                "date": "2019-07-23",
+                "url": "https://www.koreanclass101.com/blog/?p=3429"
+            }
         ]
     },
     "ㅊㅋ": {
@@ -25372,6 +27674,26 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Secret to Mastering Korean Slang and Abbreviations",
+                "publisher": "KoreanClass101",
+                "date": "2019-07-23",
+                "url": "https://www.koreanclass101.com/blog/?p=3429"
+            }
         ]
     },
     "ㅠㅠ": {
@@ -25398,6 +27720,26 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang: 60+ Words, Phrases and Texting Shortcuts",
+                "publisher": "Fluent in 3 Months",
+                "date": "2026-08-09",
+                "url": "https://www.fluentin3months.com/korean-slang/"
+            },
+            {
+                "title": "Korean abbreviations and slang words",
+                "publisher": "TOPIK GUIDE",
+                "date": "2021-03-30",
+                "url": "https://www.topikguide.com/korean-abbreviations-and-slang-words/"
+            },
+            {
+                "title": "Secret to Mastering Korean Slang and Abbreviations",
+                "publisher": "KoreanClass101",
+                "date": "2019-07-23",
+                "url": "https://www.koreanclass101.com/blog/?p=3429"
+            }
         ]
     },
     "ㄱㅇㄷ": {
@@ -25423,6 +27765,14 @@ DETAILS = {
         "tags": [
             "chat",
             "reaction"
+        ],
+        "sources": [
+            {
+                "title": "SNL코리아로 촉발된 급식체 논란",
+                "publisher": "데일리안",
+                "date": "2017-10-30",
+                "url": "https://www.dailian.co.kr/news/view/670233/"
+            }
         ]
     },
     "씨발": {
@@ -25469,7 +27819,15 @@ DETAILS = {
             "씨발",
             "ㅈㄴ"
         ],
-        "tags": ["chat", "swear"]
+        "tags": ["chat", "swear"],
+        "sources": [
+            {
+                "title": "Secret to Mastering Korean Slang and Abbreviations",
+                "publisher": "KoreanClass101",
+                "date": "2019-07-23",
+                "url": "https://www.koreanclass101.com/blog/?p=3429"
+            }
+        ]
     },
     "존나": {
         "nuance": {
@@ -25493,7 +27851,15 @@ DETAILS = {
             "존맛탱",
             "졸귀"
         ],
-        "tags": ["chat", "swear"]
+        "tags": ["chat", "swear"],
+        "sources": [
+            {
+                "title": "Slangs in Korean (E305/505 Korean Language and Culture)",
+                "publisher": "Indiana University",
+                "date": "n.d.",
+                "url": "https://korean.indiana.edu/E305/slangs.html"
+            }
+        ]
     },
     "ㅈㄴ": {
         "nuance": {
