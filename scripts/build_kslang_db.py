@@ -1492,7 +1492,7 @@ FANDOM = [
      "La lista de canciones interpretadas durante un concierto.",
      "콘서트셋리스트 유출됐대.", "I heard the concert setlist leaked.",
      "Escuché que se filtró la lista de canciones del concierto.",
-     "Concert anticipation threads", "Draft — please double-check"),
+     "Concert anticipation threads", "Verified (web-checked)"),
     ("사복패션", "sa-bok-pae-syeon", "Casual off-stage outfit",
      "An idol's personal, everyday clothing style, as opposed to stage costumes.",
      "El estilo de ropa personal y cotidiano de un ídolo, en contraste con los trajes de escenario.",
@@ -21433,6 +21433,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "'전사의 후예'부터 '캔디'까지···'한음페' H.O.T. 셋리스트 공개",
+                "publisher": "Sports Kyunghyang",
+                "date": "2025-11-09",
+                "url": "https://sports.khan.co.kr/article/202511092218003"
+            }
         ]
     },
     "사복패션": {
