@@ -77,6 +77,11 @@ GUIDE_CSS = """
 """
 
 
+def mark_active(html, href):
+    """Highlight the current section in the shared header (desktop + mobile menu)."""
+    return html.replace(f'<a href="{href}" ', f'<a href="{href}" class="active" aria-current="page" ')
+
+
 def page_shell(title, meta_desc, canonical, json_ld_obj, body):
     json_ld = ('<script type="application/ld+json">\n'
                + json.dumps(json_ld_obj, ensure_ascii=False) + "\n</script>")
@@ -239,10 +244,10 @@ def main():
     for c in db.COLLECTIONS:
         slug, html = build_guide(c, by_kr)
         with open(os.path.join(OUTPUT_DIR, slug + ".html"), "w", encoding="utf-8") as f:
-            f.write(html)
+            f.write(mark_active(html, "../guides/index.html"))
         count += 1
     with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(build_hub(by_kr))
+        f.write(mark_active(build_hub(by_kr), "../guides/index.html"))
     print(f"guides generated: hub + {count} collection pages in ./guides/")
 
 

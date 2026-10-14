@@ -29,7 +29,8 @@
 
 ### 페이지별 메모
 - **홈(index.html)**: 2단 히어로 "Your bias said it. Now get the joke." + 오른쪽 실제 포토카드. 들어오면 오늘의 카드(`TODAYS_CARD_POOL`, 날짜별 로테이션)가 펼쳐지고 검색하면 결과로 플립. **오늘의 카드는 GA `search_word` 이벤트를 보내지 않음**(`dealCard` vs `selectWord` 분리 — 검색량 데이터 오염 방지). 아래로 트렌딩 3장(`HOME_TRENDING`) → 탐색 카드 → 가넷 CTA. 홈 전용 스티커 스타일은 index.html 안에 있음.
-- **헤더**: 메뉴 라벨은 한 줄 유지 — 1260px 이하 DICTIONARY 뱃지 숨김, 1120px 이하 햄버거 메뉴 (pokku.css).
+- **헤더**: 메뉴 7개(사전·신규·카테고리·추천·가이드·퀴즈·제보), 라벨은 한 줄 유지. 헤더 줄만 최대 1400px로 넓힘, 1360px 이하 DICTIONARY 뱃지 숨김, 1260px 이하 햄버거 메뉴 (pokku.css). 메뉴 추가 시 정적 페이지 7개 + `generate_word_pages.py`(가이드·퀴즈도 이 헤더 재사용) + `generate_whatsnew.py` 전부 고치고, 폭 넘침을 Playwright로 재측정할 것. 가이드·퀴즈 페이지의 active 표시는 `generate_collections.mark_active()`.
+- **단어 이름(kr/rom) 바꾸면 URL이 바뀜** — 옛 주소엔 noindex + canonical + meta refresh 리다이렉트 HTML을 직접 남길 것 (예: `word/sa-i-teu-seok.html` → 사이드석).
 - **생성 파일**: whatsnew.html과 word/*.html의 꾸미기는 각각 `generate_whatsnew.py`, `generate_word_pages.py` **템플릿 안에** 있음 — 생성된 HTML 직접 수정 금지. 단어 카드 모서리 스티커는 slug 기반으로 ♥ ✦ ㅋㅋ ★ ♪ 중 하나가 고정 선택됨.
 - 숫자(단어 개수 등)는 화면에 하드코딩하지 말 것 — About 통계도 "650+" 식으로.
 

@@ -51,6 +51,7 @@
 
     --garnet: #B21B3E;
     --garnet-bright: #D42953;
+    --garnet-light: #F0567E;
     --brass: #B4923F;
     --brass-soft: rgba(180,146,63,.16);
 
@@ -111,6 +112,8 @@
     transition: transform .25s var(--ease-flip);
   }
   .nav-links a:hover::after{ transform: scaleX(1); }
+  .nav-links a.active{ color: var(--ink); }
+  .nav-links a.active::after{ transform: scaleX(1); background: var(--garnet-bright); }
 
   .nav-right{ display:flex; align-items:center; gap:14px; }
   .lang-switch{ display:flex; align-items:center; background: var(--surface); border:1px solid var(--line); border-radius:999px; padding:3px; }
@@ -140,6 +143,7 @@
   .mobile-menu.open{ display:flex; }
   .mobile-menu a{ padding: 14px 0; font-weight: 700; font-size: 15px; color: var(--ink); border-bottom: 1px solid var(--line); }
   .mobile-menu a:last-child{ border-bottom:none; }
+  .mobile-menu a.active{ color: var(--garnet-light); }
 
   main{ padding: 44px 0 60px; }
   .back-link{ display:inline-flex; align-items:center; gap: 6px; font-size: 13.5px; font-weight: 700; color: var(--brass); margin-bottom: 26px; }
@@ -399,6 +403,8 @@
       <a href="../whatsnew.html" data-en="신규 What&#x27;s New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息" data-ja="신규 新着">신규 What's New</a>
       <a href="../category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类" data-ja="카테고리 カテゴリー">카테고리 Categories</a>
       <a href="../trending.html" data-en="추천 Editor&#x27;s Picks" data-es="추천 Selección" data-zh="추천 編輯精選" data-cn="추천 编辑精选" data-ja="추천 編集部ピック">추천 Editor's Picks</a>
+      <a href="../guides/index.html" data-en="가이드 Guides" data-es="가이드 Guías" data-zh="가이드 主題指南" data-cn="가이드 主题指南" data-ja="가이드 ガイド">가이드 Guides</a>
+      <a href="../quiz/index.html" class="active" aria-current="page" data-en="퀴즈 Quiz" data-es="퀴즈 Quiz" data-zh="퀴즈 測驗" data-cn="퀴즈 测验" data-ja="퀴즈 クイズ">퀴즈 Quiz</a>
       <a href="../submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇" data-ja="제보하기 単語を送る">제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
@@ -424,6 +430,8 @@
     <a href="../whatsnew.html" data-en="신규 What&#x27;s New" data-es="신규 Novedades" data-zh="신규 最新消息" data-cn="신규 最新消息" data-ja="신규 新着">신규 What's New</a>
     <a href="../category.html" data-en="카테고리 Categories" data-es="카테고리 Categorías" data-zh="카테고리 分類" data-cn="카테고리 分类" data-ja="카테고리 カテゴリー">카테고리 Categories</a>
     <a href="../trending.html" data-en="추천 Editor&#x27;s Picks" data-es="추천 Selección" data-zh="추천 編輯精選" data-cn="추천 编辑精选" data-ja="추천 編集部ピック">추천 Editor's Picks</a>
+    <a href="../guides/index.html" data-en="가이드 Guides" data-es="가이드 Guías" data-zh="가이드 主題指南" data-cn="가이드 主题指南" data-ja="가이드 ガイド">가이드 Guides</a>
+    <a href="../quiz/index.html" class="active" aria-current="page" data-en="퀴즈 Quiz" data-es="퀴즈 Quiz" data-zh="퀴즈 測驗" data-cn="퀴즈 测验" data-ja="퀴즈 クイズ">퀴즈 Quiz</a>
     <a href="../submit.html" data-en="제보하기 Submit a word" data-es="제보하기 Enviar una palabra" data-zh="제보하기 提交詞彙" data-cn="제보하기 提交词汇" data-ja="제보하기 単語を送る">제보하기 Submit a word</a>
   </div>
 </header>

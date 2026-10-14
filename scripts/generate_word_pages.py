@@ -54,6 +54,8 @@ UI = {
     "whatsnew_nav": {"en": "신규 What's New", "es": "신규 Novedades", "zh": "신규 最新消息", "cn": "신규 最新消息", "ja": "신규 新着"},
     "category_nav": {"en": "카테고리 Categories", "es": "카테고리 Categorías", "zh": "카테고리 分類", "cn": "카테고리 分类", "ja": "카테고리 カテゴリー"},
     "trending_nav": {"en": "추천 Editor's Picks", "es": "추천 Selección", "zh": "추천 編輯精選", "cn": "추천 编辑精选", "ja": "추천 編集部ピック"},
+    "guides_nav": {"en": "가이드 Guides", "es": "가이드 Guías", "zh": "가이드 主題指南", "cn": "가이드 主题指南", "ja": "가이드 ガイド"},
+    "quiz_nav": {"en": "퀴즈 Quiz", "es": "퀴즈 Quiz", "zh": "퀴즈 測驗", "cn": "퀴즈 测验", "ja": "퀴즈 クイズ"},
     "submit_nav": {"en": "제보하기 Submit a word", "es": "제보하기 Enviar una palabra", "zh": "제보하기 提交詞彙", "cn": "제보하기 提交词汇", "ja": "제보하기 単語を送る"},
     "dict_badge": {"en": "Dictionary", "es": "Diccionario", "zh": "詞典", "cn": "词典", "ja": "辞書"},
     "back_link": {"en": "← Back to K-Slang Dictionary", "es": "← Volver al diccionario", "zh": "← 返回詞典", "cn": "← 返回词典", "ja": "← 辞書に戻る"},
@@ -174,6 +176,7 @@ SHARED_CSS = """
 
     --garnet: #B21B3E;
     --garnet-bright: #D42953;
+    --garnet-light: #F0567E;
     --brass: #B4923F;
     --brass-soft: rgba(180,146,63,.16);
 
@@ -234,6 +237,8 @@ SHARED_CSS = """
     transition: transform .25s var(--ease-flip);
   }
   .nav-links a:hover::after{ transform: scaleX(1); }
+  .nav-links a.active{ color: var(--ink); }
+  .nav-links a.active::after{ transform: scaleX(1); background: var(--garnet-bright); }
 
   .nav-right{ display:flex; align-items:center; gap:14px; }
   .lang-switch{ display:flex; align-items:center; background: var(--surface); border:1px solid var(--line); border-radius:999px; padding:3px; }
@@ -263,6 +268,7 @@ SHARED_CSS = """
   .mobile-menu.open{ display:flex; }
   .mobile-menu a{ padding: 14px 0; font-weight: 700; font-size: 15px; color: var(--ink); border-bottom: 1px solid var(--line); }
   .mobile-menu a:last-child{ border-bottom:none; }
+  .mobile-menu a.active{ color: var(--garnet-light); }
 
   main{ padding: 44px 0 60px; }
   .back-link{ display:inline-flex; align-items:center; gap: 6px; font-size: 13.5px; font-weight: 700; color: var(--brass); margin-bottom: 26px; }
@@ -431,6 +437,8 @@ HEADER_HTML = f"""<header>
       <a href="../whatsnew.html" {data_attrs('whatsnew_nav')}>신규 What's New</a>
       <a href="../category.html" {data_attrs('category_nav')}>카테고리 Categories</a>
       <a href="../trending.html" {data_attrs('trending_nav')}>추천 Editor's Picks</a>
+      <a href="../guides/index.html" {data_attrs('guides_nav')}>가이드 Guides</a>
+      <a href="../quiz/index.html" {data_attrs('quiz_nav')}>퀴즈 Quiz</a>
       <a href="../submit.html" {data_attrs('submit_nav')}>제보하기 Submit a word</a>
     </nav>
     <div class="nav-right">
@@ -456,6 +464,8 @@ HEADER_HTML = f"""<header>
     <a href="../whatsnew.html" {data_attrs('whatsnew_nav')}>신규 What's New</a>
     <a href="../category.html" {data_attrs('category_nav')}>카테고리 Categories</a>
     <a href="../trending.html" {data_attrs('trending_nav')}>추천 Editor's Picks</a>
+    <a href="../guides/index.html" {data_attrs('guides_nav')}>가이드 Guides</a>
+    <a href="../quiz/index.html" {data_attrs('quiz_nav')}>퀴즈 Quiz</a>
     <a href="../submit.html" {data_attrs('submit_nav')}>제보하기 Submit a word</a>
   </div>
 </header>"""

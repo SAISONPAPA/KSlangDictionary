@@ -667,10 +667,10 @@ IDOL = [
      "지정석이라 다리는 안 아팠어.", "Since it was assigned seating, my legs didn't hurt.",
      "Como era asiento asignado, no me dolieron las piernas.",
      "Concert ticketing talk", "Draft — please double-check"),
-    ("사이트석", "sa-i-teu-seok", "Side-view seats",
+    ("사이드석", "sa-i-deu-seok", "Side-view seats",
      "Concert seating with a partially obstructed or angled view of the stage, usually cheaper.",
      "Asientos de concierto con una vista parcialmente obstruida o en ángulo del escenario, generalmente más baratos.",
-     "사이트석이라 무대 반쪽만 보였어.", "Since it was a side-view seat, I could only see half the stage.",
+     "사이드석이라 무대 반쪽만 보였어.", "Since it was a side-view seat, I could only see half the stage.",
      "Como era un asiento lateral, solo podía ver la mitad del escenario.",
      "Concert seating complaints", "Draft — please double-check"),
     ("콜사인", "kol-sa-in", "Fan call cue",
@@ -4124,7 +4124,7 @@ ZH_TW_TRANSLATIONS = {
     "챌린지": ("通常圍繞歌曲高潮段落製作的短篇病毒式舞蹈挑戰，粉絲與創作者會跟著模仿。", "這個舞蹈挑戰真的紅翻天。"),
     "스탠딩석": ("演唱會中無座位、全程站立觀看的票種區域。", "從站票區看真的更有臨場感。"),
     "지정석": ("有編號、需對號入座的演唱會座位。", "因為是指定席，腳都不會痠。"),
-    "사이트석": ("視野部分被遮擋或角度較差的演唱會座位，通常票價較便宜。", "因為是側面座位，只能看到半個舞台。"),
+    "사이드석": ("視野部分被遮擋或角度較差的演唱會座位，通常票價較便宜。", "因為是側面座位，只能看到半個舞台。"),
     "콜사인": ("粉絲在歌曲特定段落一起同步喊出的應援口號。", "應援口號配合得超完美，超感動。"),
     "셋리스트": ("藝人演出時依序演唱的歌曲清單。", "這次巡演的歌單真的很棒。"),
     "오프닝곡": ("演唱會中第一首演出的歌曲。", "從開場曲就整個被震撼到了。"),
@@ -4800,7 +4800,7 @@ ZH_CN_TRANSLATIONS = {
     "챌린지": ("通常围绕歌曲高潮段落制作的短篇病毒式舞蹈挑战，粉丝与创作者会跟着模仿。", "这个舞蹈挑战真的红翻天。"),
     "스탠딩석": ("演唱会中无座位、全程站立观看的票种区域。", "从站票区看真的更有临场感。"),
     "지정석": ("有编号、需对号入座的演唱会座位。", "因为是指定席，脚都不会酸。"),
-    "사이트석": ("视野部分被遮挡或角度较差的演唱会座位，通常票价较便宜。", "因为是侧面座位，只能看到半个舞台。"),
+    "사이드석": ("视野部分被遮挡或角度较差的演唱会座位，通常票价较便宜。", "因为是侧面座位，只能看到半个舞台。"),
     "콜사인": ("粉丝在歌曲特定段落一起同步喊出的应援口号。", "应援口号配合得超完美，超感动。"),
     "셋리스트": ("艺人演出时依序演唱的歌曲清单。", "这次巡演的歌单真的很棒。"),
     "오프닝곡": ("演唱会中第一首演出的歌曲。", "从开场曲就整个被震撼到了。"),
@@ -5456,7 +5456,7 @@ JA_TRANSLATIONS = {
     "챌린지": ("曲のフック部分を中心に作られた短いバイラルダンストレンドで、ファンやクリエイターが真似して再現する。", "このダンスチャレンジ、完全に流行ってる。"),
     "스탠딩석": ("座席がなく、公演中ずっと立って見るコンサートのチケット区分。", "スタンディング席から見たら、もっと臨場感があった。"),
     "지정석": ("コンサートやイベントで番号が割り振られた予約席。", "指定席だったから足は痛くなかった。"),
-    "사이트석": ("ステージの視界が一部遮られたり角度がついたりする、通常安価なコンサート座席。", "サイド席だったから、ステージの半分しか見えなかった。"),
+    "사이드석": ("ステージの視界が一部遮られたり角度がついたりする、通常安価なコンサート座席。", "サイド席だったから、ステージの半分しか見えなかった。"),
     "콜사인": ("曲の特定のタイミングでファンが一斉に叫ぶ、決まった掛け声。", "コールサインが完璧に合っていて鳥肌が立った。"),
     "셋리스트": ("アーティストがショーで順番にパフォーマンスする曲のリスト。", "今回のツアーのセットリスト、本当にいい。"),
     "오프닝곡": ("コンサートで最初にパフォーマンスされる曲。", "オープニング曲から完全に圧倒された。"),
@@ -12776,6 +12776,32 @@ DETAILS = {
             "팬미팅",
             "콜사인",
             "셋리스트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "사이드석": {
+        "nuance": {
+            "en": "Side seats: seats to the left or right of the stage. You're often close, but the view is angled or partly blocked — so they're usually cheaper.",
+            "es": "Asientos laterales: a la izquierda o derecha del escenario. Sueles estar cerca, pero la vista es en ángulo o está parcialmente tapada, por eso suelen ser más baratos.",
+            "zh": "側邊座位：位於舞台左右兩側的座位。通常離得近，但視角偏斜或部分被遮擋——所以價格通常比較便宜。",
+            "cn": "侧边座位：位于舞台左右两侧的座位。通常离得近，但视角偏斜或部分被遮挡——所以价格通常比较便宜。",
+            "ja": "サイド席。ステージの左右にある席。近いことも多いが、角度がついたり一部が見えなかったりするため、たいてい安め。"
+        },
+        "usage": {
+            "en": "Fans share seat-view photos before ticketing: \"사이드석인데 생각보다 잘 보여!\" (\"It's a side seat, but the view is better than I expected!\").",
+            "es": "Los fans comparten fotos de la vista antes de comprar: \"사이드석인데 생각보다 잘 보여!\" (\"Es un asiento lateral, ¡pero se ve mejor de lo que esperaba!\").",
+            "zh": "粉絲會在搶票前分享視角照：「사이드석인데 생각보다 잘 보여!」（是側邊座位，但比想像中看得清楚！）。",
+            "cn": "粉丝会在抢票前分享视角照：“사이드석인데 생각보다 잘 보여!”（是侧边座位，但比想像中看得清楚！）。",
+            "ja": "チケッティング前に座席からの眺め写真が共有される：「사이드석인데 생각보다 잘 보여!」（サイド席だけど思ったより見える！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스탠딩석",
+            "지정석",
+            "월드투어"
         ],
         "tags": [
             "kpop-fan",

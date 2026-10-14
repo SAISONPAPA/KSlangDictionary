@@ -207,6 +207,7 @@ def main():
     html = html.replace("</style>\n<link rel=\"stylesheet\" href=\"../assets/pokku.css\">",
                         QUIZ_CSS + "</style>\n<link rel=\"stylesheet\" href=\"../assets/pokku.css\">", 1)
     html = html.replace("</body>", QUIZ_JS + "\n</body>", 1)
+    html = gc.mark_active(html, "../quiz/index.html")
     with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
     print(f"quiz generated: {len(db.QUIZ)} questions → ./quiz/index.html")

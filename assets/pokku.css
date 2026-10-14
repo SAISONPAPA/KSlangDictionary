@@ -26,14 +26,16 @@
   --tape-mint: repeating-linear-gradient(135deg, rgba(116,227,196,.75) 0 8px, rgba(150,236,212,.75) 8px 16px);
 }
 
-/* ---------- header: one-line nav labels ---------- */
-.nav-links{ gap: 24px; font-size: 14px; }
+/* ---------- header: one-line nav labels ----------
+   7 menu items: the header row is allowed wider than page content, the logo
+   badge drops first, then the hamburger menu takes over. */
+header .nav, header .wrap.nav{ max-width: 1400px; }
+.nav-links{ gap: 18px; font-size: 13.5px; }
 .nav-links a{ white-space: nowrap; }
-@media (max-width: 1260px){
+@media (max-width: 1360px){
   .logo-badge{ display: none; }
-  .nav-links{ gap: 20px; }
 }
-@media (max-width: 1120px){
+@media (max-width: 1260px){
   .nav-links{ display: none; }
   .menu-toggle{ display: flex; }
 }
