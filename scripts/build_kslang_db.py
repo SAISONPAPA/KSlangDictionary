@@ -2612,6 +2612,12 @@ BROADCAST = [
      "이 광고 병맛인데 계속 보게 돼.", "This ad is so absurd, but I keep watching it.",
      "Este anuncio es absurdo, pero no dejo de verlo.",
      "Comedy, webtoons, ads", "Verified (web-checked)"),
+    ("현커", "hyeon-keo", "Real-life couple",
+     "Short for 현실 커플 — a pair from a dating reality show who end up actually dating after filming.",
+     "Abreviatura de 현실 커플: una pareja de un reality de citas que termina saliendo de verdad después del rodaje.",
+     "최종 커플 둘 다 현커래!", "Both final couples are dating for real!",
+     "¡Las dos parejas finales están juntas de verdad!",
+     "Dating reality shows, fan communities", "Verified (web-checked)"),
 ]
 
 MEME = [
@@ -4085,6 +4091,18 @@ MEME = [
      "우산 잃어버렸는데 새 거 사니까 오히려 좋아, 완전 원영적 사고야.", "I lost my umbrella, but now I get a new one — total Wonyoung-style thinking.",
      "Perdí mi paraguas, pero ahora me compro uno nuevo: puro pensamiento al estilo Wonyoung.",
      "Positive-thinking memes, fandom", "Verified (web-checked)"),
+    ("추구미", "chu-gu-mi", "My aesthetic goal",
+     "The look, vibe or lifestyle you aspire to — 추구 (pursue) + 미 (美, beauty).",
+     "El look, la vibra o el estilo de vida al que aspiras: 추구 (perseguir) + 미 (美, belleza).",
+     "요즘 내 추구미는 꾸안꾸 느낌이야.", "My aesthetic goal lately is that effortless look.",
+     "Mi estilo ideal últimamente es el look natural sin esfuerzo.",
+     "Fashion, beauty, social media", "Verified (web-checked)"),
+    ("폼 미쳤다", "pom-mi-chyeot-da", "In crazy good form",
+     "Someone's form or style is insanely good right now — 폼 (form) + 미쳤다 (\"is crazy,\" used as praise).",
+     "La forma o el estilo de alguien está increíble ahora mismo: 폼 (forma) + 미쳤다 (\"está loco\", como elogio).",
+     "오늘 무대 폼 미쳤다!", "Today's stage — they're in crazy good form!",
+     "¡La presentación de hoy está en otro nivel!",
+     "Stage reactions, sports, social media comments", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4580,6 +4598,48 @@ DATING = [
      "나 금사빠라 웃어 주기만 해도 반해.", "I fall in love fast — one smile and I'm gone.",
      "Me enamoro rápido, con una sonrisa ya caigo.",
      "Dating talk, fandom", "Draft — please double-check"),
+    ("플러팅", "peul-reo-ting", "Flirting",
+     "Flirting — little words or actions that signal romantic interest, from English \"flirting.\"",
+     "Coquetear: pequeñas palabras o gestos que muestran interés romántico, del inglés \"flirting\".",
+     "방금 그거 플러팅이야? 나한테 왜 이래.", "Wait, was that flirting just now? Why are you doing this to me?",
+     "Espera, ¿eso fue coqueteo? ¿Por qué me haces esto?",
+     "Dating talk, dating shows, social media", "Verified (web-checked)"),
+    ("읽씹", "ilk-ssip", "Left on read",
+     "Reading a message and not replying — short for 읽고 씹다 (\"read and ignore\").",
+     "Leer un mensaje y no responder; abreviatura de 읽고 씹다 (\"leer e ignorar\"). Dejar en visto.",
+     "어제 보낸 카톡 아직도 읽씹이야.", "The message I sent yesterday is still left on read.",
+     "El mensaje que mandé ayer sigue en visto.",
+     "Messaging, dating, friendships", "Verified (web-checked)"),
+    ("안읽씹", "an-ilk-ssip", "Left on unread",
+     "Not even opening a message and not replying — short for 안 읽고 씹다 (\"ignore without reading\").",
+     "Ni siquiera abrir el mensaje y no responder; abreviatura de 안 읽고 씹다 (\"ignorar sin leer\").",
+     "읽씹보다 안읽씹이 더 신경 쓰여.", "Being left on unread bothers me more than being left on read.",
+     "Me molesta más que ni lo abra a que me deje en visto.",
+     "Messaging, dating, friendships", "Verified (web-checked)"),
+    ("선톡", "seon-tok", "Texting first",
+     "Sending the first message — 선 (first) + 톡 (KakaoTalk message). Often a sign of interest.",
+     "Mandar el primer mensaje: 선 (primero) + 톡 (mensaje de KakaoTalk). Suele ser señal de interés.",
+     "오늘은 내가 선톡 해볼까?", "Should I be the one to text first today?",
+     "¿Y si hoy le escribo yo primero?",
+     "Dating, crushes, messaging", "Verified (web-checked)"),
+    ("깻잎논쟁", "kkaen-nip-non-jaeng", "The perilla leaf debate",
+     "The famous debate over whether it's okay for your partner to help a friend of the other gender peel apart a stuck pickled perilla leaf.",
+     "El famoso debate sobre si está bien que tu pareja ayude a una amiga o un amigo del otro género a separar una hoja de perilla en conserva pegada.",
+     "깻잎논쟁 너는 괜찮아, 안 괜찮아?", "The perilla leaf debate — are you okay with it or not?",
+     "El debate de la hoja de perilla: ¿te parece bien o no?",
+     "Dating talk, variety shows, icebreakers", "Verified (web-checked)"),
+    ("테토남", "te-to-nam", "Teto guy",
+     "A guy with a bold, driven, take-charge vibe — from 테스토스테론 (testosterone) + 남 (man). Women can be 테토녀.",
+     "Un chico con vibra decidida, enérgica y de líder; de 테스토스테론 (testosterona) + 남 (hombre). Ellas pueden ser 테토녀.",
+     "걔는 완전 테토남 스타일이야. 뭐든 바로 직진해.", "He's totally a teto guy. He goes straight for whatever he wants.",
+     "Es un teto total: va directo por lo que quiere.",
+     "Dating talk, personality-type memes, social media", "Verified (web-checked)"),
+    ("에겐남", "e-gen-nam", "Egen guy",
+     "A soft, emotionally attentive guy who values empathy — from 에스트로겐 (estrogen) + 남 (man). Women can be 에겐녀.",
+     "Un chico suave y atento a las emociones que valora la empatía; de 에스트로겐 (estrógeno) + 남 (hombre). Ellas pueden ser 에겐녀.",
+     "내 이상형은 섬세한 에겐남이야.", "My ideal type is a thoughtful egen guy.",
+     "Mi tipo ideal es un chico egen detallista.",
+     "Dating talk, personality-type memes, social media", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4603,6 +4663,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-10-14", ["플러팅", "읽씹", "안읽씹", "선톡", "깻잎논쟁", "테토남", "에겐남", "현커", "추구미", "폼 미쳤다"]),
     ("2026-10-14", ["앨포", "미공포", "엔딩요정", "퇴근길", "출근길", "막내온탑", "맏내", "메보", "4세대", "줄세우기", "올킬", "퍼올", "차트인", "음원깡패", "무대천재", "춤신춤왕", "청량", "걸크러시", "하이틴", "사녹", "팬콘", "포타", "버블", "위버스", "특전", "분철", "공구", "양도", "취켓팅", "꿀자리", "시제석", "비공굿", "나눔", "시즌그리팅", "갓기", "막콘", "슬로건", "중꺾마", "오히려좋아", "조용한퇴사", "억빠", "무지성", "어쩔티비", "저쩔티비", "킹리적갓심", "내돈내산", "머선129", "갑툭튀", "얼빡샷", "존예", "존잘", "띵곡", "띵언", "쩐다", "졸귀", "열폭", "멘붕", "지린다", "가보자고", "점메추", "할많하않", "쌉가능", "쌉인정", "킹정", "엄근진", "많관부", "관종", "유리멘탈", "멘탈갑", "씹덕", "너T야", "디토", "무야호", "킹갓제너럴", "쿨거래", "당근하다", "꼰대", "라떼는말이야", "탕진잼", "영끌", "동학개미", "퇴사각", "병맛", "핵노잼", "꿀팁", "반모", "금사빠", "ㅇㅈ", "ㅇㅋ", "ㄱㅅ", "ㅈㅅ", "ㅊㅋ", "ㅠㅠ", "ㄱㅇㄷ", "씨발", "ㅅㅂ", "존나", "ㅈㄴ", "지랄", "미친", "젠장", "빡치다", "시발비용", "염병", "원영적사고"]),
     ("2026-08-11", ["아우라 파밍", "오살힘", "밤티", "주먹자로"]),
     ("2026-07-29", ["영크크"]),
@@ -5395,6 +5456,16 @@ ZH_TW_TRANSLATIONS = {
     "시발비용": ("「去他的消費」——因為壓力大或生氣而衝動花的錢。", "被上司罵，氣到叫了炸雞。"),
     "염병": ("字面是「瘟疫」（傷寒）——老派、帶方言味的咒罵，用於令人火大或荒謬的事。", "真是見鬼，又壞了。"),
     "원영적사고": ("「元英式思考」：把任何壞運都轉成好運的超正向思考。名稱來自IVE成員張員瑛。", "雨傘弄丟了，但可以買新的反而更好，完全是元英式思考。"),
+    "플러팅": ("調情、放電——用小小的話語或舉動釋放好感，來自英文「flirting」。", "剛剛那是在撩我嗎？你幹嘛這樣。"),
+    "읽씹": ("已讀不回——讀了訊息卻不回，是「읽고 씹다（讀了就無視）」的縮寫。", "我昨天傳的訊息到現在還是已讀不回。"),
+    "안읽씹": ("未讀不回——連訊息都不點開也不回，是「안 읽고 씹다（不讀就無視）」的縮寫。", "比起已讀不回，未讀不回更讓我在意。"),
+    "선톡": ("主動先傳訊息——선（先）＋톡（KakaoTalk訊息），常被當成有好感的訊號。", "今天要不要換我先傳訊息？"),
+    "깻잎논쟁": ("有名的「芝麻葉之爭」：另一半幫異性朋友夾開黏在一起的醃芝麻葉，到底可不可以？", "芝麻葉之爭，你OK還是不OK？"),
+    "테토남": ("Teto男——個性直接、有衝勁、愛主導的男生，來自「테스토스테론（睪固酮）＋남（男）」。女生則叫테토녀。", "他完全是Teto男類型，想要什麼就直接衝。"),
+    "에겐남": ("Egen男——溫柔、細膩、重視共感的男生，來自「에스트로겐（雌激素）＋남（男）」。女生則叫에겐녀。", "我的理想型是細心的Egen男。"),
+    "현커": ("「現實情侶」的縮寫——戀愛實境節目裡，拍攝結束後真的在一起的一對。", "最後兩對都是現實情侶耶！"),
+    "추구미": ("你嚮往的外型、氛圍或生活方式——추구（追求）＋미（美）。", "我最近的追求美是看起來沒刻意打扮的感覺。"),
+    "폼 미쳤다": ("狀態炸裂——某人現在的狀態或風格好到不行。폼（form）＋미쳤다（瘋了，這裡是稱讚）。", "今天的舞台狀態炸裂！"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6168,6 +6239,16 @@ ZH_CN_TRANSLATIONS = {
     "시발비용": ("“去他的消费”——因为压力大或生气而冲动花的钱。", "被上司骂，气到叫了炸鸡。"),
     "염병": ("字面是“瘟疫”（伤寒）——老派、带方言味的咒骂，用于令人火大或荒谬的事。", "真是见鬼，又坏了。"),
     "원영적사고": ("“元英式思考”：把任何坏运都转成好运的超正向思考。名称来自IVE成员张员瑛。", "雨伞弄丢了，但可以买新的反而更好，完全是元英式思考。"),
+    "플러팅": ("调情、放电——用小小的话语或举动释放好感，来自英文“flirting”。", "刚刚那是在撩我吗？你干嘛这样。"),
+    "읽씹": ("已读不回——读了消息却不回，是“읽고 씹다（读了就无视）”的缩写。", "我昨天传的消息到现在还是已读不回。"),
+    "안읽씹": ("未读不回——连消息都不点开也不回，是“안 읽고 씹다（不读就无视）”的缩写。", "比起已读不回，未读不回更让我在意。"),
+    "선톡": ("主动先传消息——선（先）＋톡（KakaoTalk消息），常被当成有好感的信号。", "今天要不要换我先传消息？"),
+    "깻잎논쟁": ("有名的“芝麻叶之争”：另一半帮异性朋友夹开黏在一起的腌芝麻叶，到底可不可以？", "芝麻叶之争，你OK还是不OK？"),
+    "테토남": ("Teto男——个性直接、有冲劲、爱主导的男生，来自“테스토스테론（睾固酮）＋남（男）”。女生则叫테토녀。", "他完全是Teto男类型，想要什么就直接冲。"),
+    "에겐남": ("Egen男——温柔、细腻、重视共感的男生，来自“에스트로겐（雌激素）＋남（男）”。女生则叫에겐녀。", "我的理想型是细心的Egen男。"),
+    "현커": ("“现实情侣”的缩写——恋爱实境节目里，拍摄结束后真的在一起的一对。", "最后两对都是现实情侣耶！"),
+    "추구미": ("你向往的外型、氛围或生活方式——추구（追求）＋미（美）。", "我最近的追求美是看起来没刻意打扮的感觉。"),
+    "폼 미쳤다": ("状态炸裂——某人现在的状态或风格好到不行。폼（form）＋미쳤다（疯了，这里是称赞）。", "今天的舞台状态炸裂！"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6955,6 +7036,16 @@ JA_TRANSLATIONS = {
     "시발비용": ("「クソ出費」。ストレスや怒りで衝動的に使うお金。", "上司に怒られて、腹いせにチキンを頼んだ。"),
     "염병": ("直訳は「疫病」（腸チフス）。腹立たしいことやばかげたことに使う、古風で方言っぽい悪態。", "くそったれ、また壊れた。"),
     "원영적사고": ("「ウォニョン的思考」。どんな不運も幸運に変える超ポジティブ思考。IVEのチャン・ウォニョンにちなむ。", "傘をなくしたけど新しいのを買えるからむしろ良い、完全にウォニョン的思考。"),
+    "플러팅": ("さりげない言動で好意を伝えること。英語の「flirting」から。脈ありアピール。", "今のってアプローチ？なんでそういうことするの。"),
+    "읽씹": ("既読スルー。「읽고 씹다（読んで無視する）」の略。", "昨日送ったメッセージ、まだ既読スルーされてる。"),
+    "안읽씹": ("未読スルー。メッセージを開きもせず返さないこと。「안 읽고 씹다」の略。", "既読スルーより未読スルーのほうが気になる。"),
+    "선톡": ("自分から先にメッセージを送ること。선（先）＋톡（カカオトーク）。好意のサインとされがち。", "今日は私から先にLINEしてみようかな？"),
+    "깻잎논쟁": ("恋人が異性の友達のために、くっついたエゴマの葉の醤油漬けを箸ではがしてあげるのはアリかナシか、という有名な論争。", "エゴマの葉論争、あなたはアリ派？ナシ派？"),
+    "테토남": ("テト男。押しが強くて行動派、リードするタイプの男性。「테스토스테론（テストステロン）＋남（男）」から。女性なら테토녀。", "あの人は完全にテト男タイプ。何でもすぐ直進するの。"),
+    "에겐남": ("エゲン男。優しくて感情に寄り添う、共感タイプの男性。「에스트로겐（エストロゲン）＋남（男）」から。女性なら에겐녀。", "私の理想のタイプは繊細なエゲン男。"),
+    "현커": ("「현실 커플（リアルカップル）」の略。恋リアの出演者が、撮影後に本当に付き合っていること。", "最終カップル、2組ともリアカプなんだって！"),
+    "추구미": ("目指したい見た目・雰囲気・ライフスタイル。추구（追求）＋미（美）。「なりたい像」。", "最近の私のなりたい像は、頑張りすぎないナチュラル系。"),
+    "폼 미쳤다": ("仕上がりがエグい。今の調子やスタイルが最高だということ。폼（フォーム）＋미쳤다（ヤバい、ほめ言葉）。", "今日のステージ、仕上がりエグい！"),
 }
 
 # ---------------------------------------------------------------------------
@@ -25605,6 +25696,372 @@ DETAILS = {
             }
         ]
     },
+    "플러팅": {
+        "nuance": {
+            "en": "Lighter and more playful than a confession — it's testing the waters. People also joke \"was that flirting?\" when a friend is simply being kind.",
+            "es": "Más ligero y juguetón que una confesión: es tantear el terreno. También se bromea \"¿eso fue coqueteo?\" cuando alguien solo es amable.",
+            "zh": "比告白輕鬆、帶點玩笑，是在試探水溫。朋友只是單純貼心時，大家也會開玩笑問「這是在撩嗎？」。",
+            "cn": "比告白轻松、带点玩笑，是在试探水温。朋友只是单纯贴心时，大家也会开玩笑问“这是在撩吗？”。",
+            "ja": "告白よりずっと軽くて遊び心がある、様子見のアプローチ。ただ優しくされただけでも「今のアプローチ？」とふざけて言うことも。"
+        },
+        "usage": {
+            "en": "Use it as a noun or with 하다: 플러팅하다 (to flirt). \"플러팅 장인\" = a flirting master.",
+            "es": "Se usa como sustantivo o con 하다: 플러팅하다 (coquetear). \"플러팅 장인\" = maestro del coqueteo.",
+            "zh": "可當名詞，或加하다變成動詞：플러팅하다（調情）。「플러팅 장인」＝撩人高手。",
+            "cn": "可当名词，或加하다变成动词：플러팅하다（调情）。“플러팅 장인”＝撩人高手。",
+            "ja": "名詞のほか「하다」を付けて動詞に：플러팅하다（アプローチする）。「플러팅 장인」＝口説きの達人。"
+        },
+        "register": "casual",
+        "similar": [
+            "그린라이트",
+            "썸",
+            "밀당",
+            "대시"
+        ],
+        "tags": [
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "여자는 모르지만 남자가 관심있을 때 하는 행동 5",
+                "publisher": "GQ Korea",
+                "date": "2023-04-15",
+                "url": "https://www.gqkorea.co.kr/?p=225129"
+            }
+        ]
+    },
+    "읽씹": {
+        "nuance": {
+            "en": "The \"read\" mark makes it sting: they saw it and chose not to answer. Some people read it as the chat simply being over; others take it personally.",
+            "es": "Duele porque aparece \"leído\": lo vio y decidió no contestar. Para algunos solo significa que la charla terminó; otros se lo toman personal.",
+            "zh": "因為有「已讀」顯示才更受傷：對方看到了卻選擇不回。有人覺得只是聊天結束，有人會很在意。",
+            "cn": "因为有“已读”显示才更受伤：对方看到了却选择不回。有人觉得只是聊天结束，有人会很在意。",
+            "ja": "既読が付くからこそ刺さる。見たのに返さないということ。会話が終わった合図と受け取る人もいれば、気にする人も。"
+        },
+        "usage": {
+            "en": "Use 읽씹하다 (to leave on read) or 읽씹당하다 (to get left on read).",
+            "es": "Se usa 읽씹하다 (dejar en visto) o 읽씹당하다 (que te dejen en visto).",
+            "zh": "常用「읽씹하다」（已讀不回）或「읽씹당하다」（被已讀不回）。",
+            "cn": "常用“읽씹하다”（已读不回）或“읽씹당하다”（被已读不回）。",
+            "ja": "「읽씹하다」（既読スルーする）、「읽씹당하다」（既読スルーされる）の形でよく使う。"
+        },
+        "register": "text",
+        "similar": [
+            "안읽씹",
+            "잠수이별",
+            "선톡"
+        ],
+        "tags": [
+            "chat",
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "\"읽고 답 안 하기\" vs \"아예 안 읽기\"…직장인·연인 사이 답장 논쟁 [어떻게 생각하세요]",
+                "publisher": "Financial News",
+                "date": "2026-10-05",
+                "url": "https://www.fnnews.com/news/202610052218148674"
+            },
+            {
+                "title": "읽씹 vs 안읽씹, 상대에게 더 상처 주는 건 뭘까?",
+                "publisher": "W Korea",
+                "date": "2025-09-18",
+                "url": "https://www.wkorea.com/2025/09/18/%ec%9d%bd%ec%94%b9%ea%b3%bc-%ec%95%88%ec%9d%bd%ec%94%b9-%eb%8d%94-%ec%83%81%ec%b2%98-%ec%a3%bc%eb%8a%94-%ea%b1%b4-%eb%ad%98%ea%b9%8c/"
+            }
+        ]
+    },
+    "안읽씹": {
+        "nuance": {
+            "en": "The mirror image of 읽씹. With no \"read\" mark, you can't tell if they're busy or avoiding you — which is exactly why people debate which one hurts more.",
+            "es": "El reflejo de 읽씹. Sin la marca de \"leído\" no sabes si está ocupado o te evita, por eso se debate cuál duele más.",
+            "zh": "和읽씹相對。沒有「已讀」標記，就搞不清楚對方是在忙還是在躲你——所以大家常爭論哪個比較傷人。",
+            "cn": "和읽씹相对。没有“已读”标记，就搞不清楚对方是在忙还是在躲你——所以大家常争论哪个比较伤人。",
+            "ja": "읽씹の逆パターン。既読が付かないので、忙しいのか避けられているのか分からない。どっちがつらいかでよく議論になる。"
+        },
+        "usage": {
+            "en": "Use 안읽씹하다 or 안읽씹당하다. Often paired with 읽씹 in \"읽씹 vs 안읽씹\" debates.",
+            "es": "Se usa 안읽씹하다 o 안읽씹당하다. Suele aparecer junto a 읽씹 en debates \"읽씹 vs 안읽씹\".",
+            "zh": "用「안읽씹하다」或「안읽씹당하다」。常和읽씹一起出現在「읽씹 vs 안읽씹」的討論裡。",
+            "cn": "用“안읽씹하다”或“안읽씹당하다”。常和읽씹一起出现在“읽씹 vs 안읽씹”的讨论里。",
+            "ja": "「안읽씹하다」「안읽씹당하다」の形で。「읽씹 vs 안읽씹」という論争の形でもよく出てくる。"
+        },
+        "register": "text",
+        "similar": [
+            "읽씹",
+            "잠수이별"
+        ],
+        "tags": [
+            "chat",
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "\"읽고 답 안 하기\" vs \"아예 안 읽기\"…직장인·연인 사이 답장 논쟁 [어떻게 생각하세요]",
+                "publisher": "Financial News",
+                "date": "2026-10-05",
+                "url": "https://www.fnnews.com/news/202610052218148674"
+            },
+            {
+                "title": "읽씹 vs 안읽씹, 상대에게 더 상처 주는 건 뭘까?",
+                "publisher": "W Korea",
+                "date": "2025-09-18",
+                "url": "https://www.wkorea.com/2025/09/18/%ec%9d%bd%ec%94%b9%ea%b3%bc-%ec%95%88%ec%9d%bd%ec%94%b9-%eb%8d%94-%ec%83%81%ec%b2%98-%ec%a3%bc%eb%8a%94-%ea%b1%b4-%eb%ad%98%ea%b9%8c/"
+            }
+        ]
+    },
+    "선톡": {
+        "nuance": {
+            "en": "In the talking stage, who texts first gets over-analyzed: getting a 선톡 feels like a green light, and many people hesitate to send one.",
+            "es": "En la etapa de \"algo\", quién escribe primero se analiza mucho: recibir un 선톡 parece luz verde, y a muchos les da corte enviarlo.",
+            "zh": "在曖昧期，誰先傳訊息會被反覆解讀：收到선톡像是綠燈，很多人卻不敢先傳。",
+            "cn": "在暧昧期，谁先传消息会被反复解读：收到선톡像是绿灯，很多人却不敢先传。",
+            "ja": "曖昧期は「どっちが先に送るか」が深読みされがち。선톡が来ると脈ありっぽく感じるけど、自分からは送りにくい人も多い。"
+        },
+        "usage": {
+            "en": "Use 선톡하다 (to text first) or 선톡이 오다 (to get a first text).",
+            "es": "Se usa 선톡하다 (escribir primero) o 선톡이 오다 (que te escriban primero).",
+            "zh": "用「선톡하다」（主動先傳）或「선톡이 오다」（對方先傳來）。",
+            "cn": "用“선톡하다”（主动先传）或“선톡이 오다”（对方先传来）。",
+            "ja": "「선톡하다」（先に送る）、「선톡이 오다」（向こうから先に来る）の形で使う。"
+        },
+        "register": "text",
+        "similar": [
+            "썸타다",
+            "대시",
+            "그린라이트"
+        ],
+        "tags": [
+            "chat",
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "왜 아직도 우리는 '선톡'을 망설이고, 남자의 연락만 기다릴까?",
+                "publisher": "Vogue Korea",
+                "date": "2026-05-03",
+                "url": "https://www.vogue.co.kr/2026/05/03/%ec%99%9c-%ec%95%84%ec%a7%81%eb%8f%84-%ec%9a%b0%eb%a6%ac%eb%8a%94-%ec%84%a0%ed%86%a1%ec%9d%84-%eb%a7%9d%ec%84%a4%ec%9d%b4%ea%b3%a0-%eb%82%a8%ec%9e%90%ec%9d%98-%ec%97%b0%eb%9d%bd%eb%a7%8c-%ea%b8%b0/"
+            }
+        ]
+    },
+    "깻잎논쟁": {
+        "nuance": {
+            "en": "There's no right answer — that's the fun. It's used like a values test to see how someone draws lines with friends while in a relationship.",
+            "es": "No hay respuesta correcta, y esa es la gracia. Se usa como un test de valores para ver dónde pone alguien los límites con amigos cuando tiene pareja.",
+            "zh": "沒有標準答案，這正是好玩的地方。大家把它當成價值觀測驗，看對方有伴侶時和異性朋友的界線在哪。",
+            "cn": "没有标准答案，这正是好玩的地方。大家把它当成价值观测验，看对方有伴侣时和异性朋友的界线在哪。",
+            "ja": "正解がないのが面白いところ。恋人がいるとき友達との線引きをどう考えるか、価値観チェックのように使われる。"
+        },
+        "usage": {
+            "en": "Often asked as a question on dates or variety shows. Spin-offs like 새우논쟁 (peeling shrimp) follow the same pattern.",
+            "es": "Se pregunta mucho en citas o programas de variedades. Variantes como 새우논쟁 (pelar gambas) siguen el mismo patrón.",
+            "zh": "常在約會或綜藝裡被拿來提問，也衍生出「剝蝦之爭（새우논쟁）」等同類版本。",
+            "cn": "常在约会或综艺里被拿来提问，也衍生出“剥虾之争（새우논쟁）”等同类版本。",
+            "ja": "デートやバラエティでよく質問として出る。「エビの殻むき論争（새우논쟁）」などの派生版もある。"
+        },
+        "culture": {
+            "en": "The debate spread after an episode of SBS's variety show My Little Old Boy, where the scene sparked an argument between a celebrity couple guest.",
+            "es": "El debate se extendió tras un episodio del programa de SBS My Little Old Boy, donde la escena provocó una discusión entre una pareja famosa invitada.",
+            "zh": "這個話題源自SBS綜藝《我家的熊孩子》，節目中一對藝人夫婦來賓因此起了爭論，之後迅速擴散。",
+            "cn": "这个话题源自SBS综艺《我家的熊孩子》，节目中一对艺人夫妇来宾因此起了争论，之后迅速扩散。",
+            "ja": "SBSのバラエティ『미운 우리 새끼』で、ゲストの芸能人夫婦がこの場面をめぐって言い合いになったことから広まった。"
+        },
+        "register": "everyday",
+        "similar": [
+            "남사친",
+            "여사친",
+            "부먹찍먹"
+        ],
+        "tags": [
+            "romance",
+            "variety",
+            "food"
+        ],
+        "sources": [
+            {
+                "title": "깻잎논쟁부터 갸루피스까지, 논란의 2022 K-밈 총 모음",
+                "publisher": "GQ Korea",
+                "date": "2022-12-02",
+                "url": "https://www.gqkorea.co.kr/2022/12/02/%EC%9D%B4%EA%B1%B0-%EB%AA%A8%EB%A5%B4%EB%A9%B4-%EC%95%84%EC%8B%B8-%EA%B7%B8-%EC%9E%A1%EC%B1%84-2022%EB%85%84-%EC%98%AC%ED%95%B4%EC%9D%98-k-%EB%B0%88-%EC%B4%9D-%EB%AA%A8%EC%9D%8C"
+            }
+        ]
+    },
+    "테토남": {
+        "nuance": {
+            "en": "A playful personality label, used like MBTI types — not a real hormone test. It leans on old gender stereotypes, so some people find it limiting.",
+            "es": "Una etiqueta de personalidad en broma, como los tipos MBTI, no una prueba hormonal real. Se apoya en estereotipos de género, y a algunos les parece limitante.",
+            "zh": "像MBTI一樣的趣味性格標籤，並不是真的荷爾蒙檢測。它建立在傳統性別刻板印象上，也有人覺得太侷限。",
+            "cn": "像MBTI一样的趣味性格标签，并不是真的荷尔蒙检测。它创建在传统性别刻板印象上，也有人觉得太局限。",
+            "ja": "MBTIのようなノリの性格ラベルで、本当のホルモン検査ではない。昔ながらの性別イメージに寄っているので、窮屈に感じる人も。"
+        },
+        "usage": {
+            "en": "Paired with 에겐남/에겐녀. People ask \"테토야 에겐이야?\" (teto or egen?) like asking someone's MBTI.",
+            "es": "Va en pareja con 에겐남/에겐녀. Se pregunta \"테토야 에겐이야?\" (¿teto o egen?) como quien pregunta el MBTI.",
+            "zh": "和에겐남／에겐녀成對使用。大家會像問MBTI一樣問「테토야 에겐이야?」（你是Teto還是Egen？）。",
+            "cn": "和에겐남／에겐녀成对使用。大家会像问MBTI一样问“테토야 에겐이야?”（你是Teto还是Egen？）。",
+            "ja": "에겐남／에겐녀とセットで使う。MBTIを聞くように「테토야 에겐이야?」（テト？エゲン？）と聞く。"
+        },
+        "register": "casual",
+        "similar": [
+            "에겐남",
+            "나쁜남자",
+            "츤데레"
+        ],
+        "tags": [
+            "romance",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "[트민기] \"MBTI 다음은 너다\"⋯테토·에겐 트렌드 '주목'",
+                "publisher": "Jeonbuk Ilbo",
+                "date": "2025-06-14",
+                "url": "https://www.jjan.kr/articleAmp/20250613580066"
+            }
+        ]
+    },
+    "에겐남": {
+        "nuance": {
+            "en": "Usually a compliment for gentle, caring guys, though it can tease someone for being sensitive. Like 테토남, it's a meme label, not science.",
+            "es": "Suele ser un cumplido para chicos tiernos y atentos, aunque también puede bromear con que alguien es sensible. Como 테토남, es una etiqueta de meme, no ciencia.",
+            "zh": "通常是稱讚溫柔體貼的男生，但也可能拿來調侃人太敏感。和테토남一樣，是迷因標籤，不是科學。",
+            "cn": "通常是称赞温柔体贴的男生，但也可能拿来调侃人太敏感。和테토남一样，是迷因标签，不是科学。",
+            "ja": "優しくて気配り上手な男性へのほめ言葉が多いけど、繊細さをいじる意味にもなる。테토남と同じく、ミーム的なラベルで科学ではない。"
+        },
+        "usage": {
+            "en": "Paired with 테토남/테토녀: \"테토야 에겐이야?\" (teto or egen?).",
+            "es": "Va en pareja con 테토남/테토녀: \"테토야 에겐이야?\" (¿teto o egen?).",
+            "zh": "和테토남／테토녀成對：「테토야 에겐이야?」（Teto還是Egen？）。",
+            "cn": "和테토남／테토녀成对：“테토야 에겐이야?”（Teto还是Egen？）。",
+            "ja": "테토남／테토녀とセットで：「테토야 에겐이야?」（テト？エゲン？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "테토남",
+            "훈남",
+            "사랑꾼"
+        ],
+        "tags": [
+            "romance",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "[트민기] \"MBTI 다음은 너다\"⋯테토·에겐 트렌드 '주목'",
+                "publisher": "Jeonbuk Ilbo",
+                "date": "2025-06-14",
+                "url": "https://www.jjan.kr/articleAmp/20250613580066"
+            }
+        ]
+    },
+    "현커": {
+        "nuance": {
+            "en": "Viewers hunt for 현커 clues on social media after a season ends. Confirmation is big news; a 현커 breakup is a mini-scandal for fans of the show.",
+            "es": "Tras la temporada, los espectadores buscan pistas de 현커 en redes. Confirmarlo es noticia; una ruptura es un mini escándalo para los fans.",
+            "zh": "節目結束後，觀眾會在社群上找現實情侶的蛛絲馬跡。被證實是大新聞，分手則是粉絲圈的小震撼。",
+            "cn": "节目结束后，观众会在社区上找现实情侣的蛛丝马迹。被证实是大新闻，分手则是粉丝圈的小震撼。",
+            "ja": "シーズン終了後、視聴者はSNSでリアカプの手がかりを探す。確定すると話題になり、別れると番組ファンにはちょっとした事件。"
+        },
+        "usage": {
+            "en": "\"현커 확정\" (confirmed real couple), \"현커 됐다\" (became a real couple).",
+            "es": "\"현커 확정\" (pareja real confirmada), \"현커 됐다\" (se volvieron pareja real).",
+            "zh": "「현커 확정」（確定是現實情侶）、「현커 됐다」（成為現實情侶）。",
+            "cn": "“현커 확정”（确定是现实情侣）、“현커 됐다”（成为现实情侣）。",
+            "ja": "「현커 확정」（リアカプ確定）、「현커 됐다」（リアカプになった）。"
+        },
+        "register": "casual",
+        "similar": [
+            "환승연애",
+            "애정촌",
+            "럽라인"
+        ],
+        "tags": [
+            "variety",
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "'솔로지옥5' PD \"'현커'들 공개연애 주저…계약서 포함할까 고민도\" [N인터뷰]②",
+                "publisher": "News1",
+                "date": "2026-02-13",
+                "url": "https://v.daum.net/v/yeBIvOgRYQ"
+            }
+        ]
+    },
+    "추구미": {
+        "nuance": {
+            "en": "Broader than \"role model\": it covers style, mood, habits and values. Fans often name an idol's concept or photo as their 추구미.",
+            "es": "Más amplio que \"modelo a seguir\": abarca estilo, ambiente, hábitos y valores. Los fans suelen nombrar el concepto o una foto de un idol como su 추구미.",
+            "zh": "比「榜樣」更廣，涵蓋風格、氛圍、習慣和價值觀。粉絲常把偶像的某個概念或照片當成自己的추구미。",
+            "cn": "比“榜样”更广，涵盖风格、氛围、习惯和价值观。粉丝常把偶像的某个概念或照片当成自己的추구미。",
+            "ja": "「憧れの人」より広く、スタイル・雰囲気・習慣・価値観まで含む。推しのコンセプトや写真を自分の추구미に挙げるファンも多い。"
+        },
+        "usage": {
+            "en": "\"내 추구미\" (my aesthetic goal), \"추구미 사진\" (inspo pic).",
+            "es": "\"내 추구미\" (mi estilo ideal), \"추구미 사진\" (foto de inspiración).",
+            "zh": "「내 추구미」（我的追求美）、「추구미 사진」（靈感照）。",
+            "cn": "“내 추구미”（我的追求美）、“추구미 사진”（灵感照）。",
+            "ja": "「내 추구미」（私のなりたい像）、「추구미 사진」（参考写真）。"
+        },
+        "register": "casual",
+        "similar": [
+            "꾸안꾸",
+            "손민수",
+            "느좋"
+        ],
+        "tags": [
+            "beauty",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "[주말&] 당신의 '추구미'는 무엇인가요? 추구미 대탐구!",
+                "publisher": "Maeil Shinmun",
+                "date": "2024-09-20",
+                "url": "https://www.imaeil.com/page/view/2024091811260679057"
+            }
+        ]
+    },
+    "폼 미쳤다": {
+        "nuance": {
+            "en": "Pure praise. It's about peak condition — skills, visuals or vibe — so fans drop it under performance clips and comeback photos.",
+            "es": "Puro elogio. Habla de estar en plena forma (talento, visual o vibra), por eso los fans lo comentan en clips de presentaciones y fotos de comeback.",
+            "zh": "純稱讚，指實力、顏值或氛圍都在巔峰，粉絲常在舞台影片和回歸照下留言。",
+            "cn": "纯称赞，指实力、颜值或氛围都在巅峰，粉丝常在舞台视频和回归照下留言。",
+            "ja": "純粋なほめ言葉。実力・ビジュ・雰囲気が絶好調ということで、ステージ動画やカムバ写真によくコメントされる。"
+        },
+        "usage": {
+            "en": "Also written 폼미쳤다. Swap the subject: \"비주얼 폼 미쳤다\" (visuals in top form).",
+            "es": "También se escribe 폼미쳤다. Se cambia el sujeto: \"비주얼 폼 미쳤다\" (el visual está en su mejor forma).",
+            "zh": "也寫作폼미쳤다。可以換主詞：「비주얼 폼 미쳤다」（顏值狀態炸裂）。",
+            "cn": "也写作폼미쳤다。可以换主词：“비주얼 폼 미쳤다”（颜值状态炸裂）。",
+            "ja": "「폼미쳤다」とも書く。主語を変えて「비주얼 폼 미쳤다」（ビジュの仕上がりエグい）のようにも。"
+        },
+        "register": "casual",
+        "similar": [
+            "미쳤다",
+            "쩐다",
+            "클라스"
+        ],
+        "tags": [
+            "praise",
+            "reaction",
+            "stage"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 영탁 보고 \"폼미쳤다\"는데… 그 의미는?",
+                "publisher": "Bravo My Life (Etoday)",
+                "date": "2026-04-27",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/19039"
+            },
+            {
+                "title": "[언어의 업데이트]말도 안 되는 상황에 외쳐요…한화 미쳤다P·계엄 미친N",
+                "publisher": "Kyunghyang Shinmun",
+                "date": "2025-05-31",
+                "url": "https://www.khan.co.kr/article/202505311200035"
+            }
+        ]
+    },
 }
 
 
@@ -25885,80 +26342,209 @@ QUIZ_UI = {
 # order; the home page "trending" strip shows the first three. Every entry must
 # be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
 # the pages, so edit them here only. The weekly update swaps these out.
-EDITOR_PICKS = ['늙크크', '감다살', '기대컨', '동결건조', '톤망진창']
+EDITOR_PICKS = ['테토남', '폼 미쳤다', '현커', '원영적사고', '감다살']
 
 # Home page "today's card" — rotates daily through this pool (by date).
-TODAYS_CARD_POOL = ['영크크', '늙크크', '감다살', '기대컨', '최애', '킹받다', '동결건조']
+TODAYS_CARD_POOL = ['플러팅', '선톡', '깻잎논쟁', '추구미', '읽씹', '에겐남', '최애']
 
 QUIZ = [
-    {"type": "meaning", "answer": "입덕", "options": ["입덕", "탈덕", "휴덕", "덕질"]},
-    {"type": "meaning", "answer": "감다살", "options": ["감다살", "감다뒤", "억까", "현생"]},
-    {"type": "situation", "answer": "영크크", "options": ["영크크", "늙크크", "감다뒤", "탈덕"],
-     "situation": {
-         "en": "Your friend already knows a meme that only came out this morning. You tease-praise them:",
-         "es": "Tu amigo ya conoce un meme que salió apenas esta mañana. Lo elogias en broma:",
-         "zh": "朋友已經知道今天早上才出現的迷因。你半開玩笑地稱讚他：",
-         "cn": "朋友已经知道今天早上才出现的梗。你半开玩笑地称赞他：",
-         "ja": "今朝出たばかりのミームを友達がもう知っている。からかい半分でほめるなら：",
-     }},
-    {"type": "meaning", "answer": "억텐", "options": ["억텐", "찐텐", "억까", "갑톡튀"]},
-    {"type": "situation", "answer": "킹받다", "options": ["킹받다", "소확행", "찐텐", "동결건조"],
-     "situation": {
-         "en": "A cast member on a variety show makes a smug face so annoying that you can't stop laughing.",
-         "es": "Alguien en un programa de variedades pone una cara tan presumida y molesta que no puedes parar de reír.",
-         "zh": "綜藝節目裡有人擺出一張欠揍到讓你笑個不停的得意臉。",
-         "cn": "综艺节目里有人摆出一张欠揍到让你笑个不停的得意脸。",
-         "ja": "バラエティ番組で出演者がムカつくほどのドヤ顔をして、笑いが止まらない。",
-     },
-     "note": {
-         "en": "킹받다 is irritation you can laugh at — not real anger.",
-         "es": "킹받다 es una molestia que da risa, no enojo real.",
-         "zh": "킹받다是讓人想笑的火大，不是真的生氣。",
-         "cn": "킹받다是让人想笑的火大，不是真的生气。",
-         "ja": "킹받다は笑えるイラつきで、本気の怒りではない。",
-     }},
-    {"type": "meaning", "answer": "덕계못", "options": ["덕계못", "어덕행덕", "오살힘", "덕메"]},
-    {"type": "situation", "answer": "졌잘싸", "options": ["졌잘싸", "억까", "가즈아", "동결건조"],
-     "situation": {
-         "en": "Your team lost the final, but everyone played their hearts out. In the comments you write:",
-         "es": "Tu equipo perdió la final, pero todos lo dieron todo. En los comentarios escribes:",
-         "zh": "你支持的隊伍輸了決賽，但每個人都拚盡全力。你在留言區寫下：",
-         "cn": "你支持的队伍输了决赛，但每个人都拼尽全力。你在评论区写下：",
-         "ja": "応援しているチームが決勝で負けたけれど、全員が全力を出し切った。コメント欄に書くなら：",
-     }},
-    {"type": "meaning", "answer": "사바사", "options": ["사바사", "저메추", "졌잘싸", "크더싼"]},
-    {"type": "situation", "answer": "저메추", "options": ["저메추", "사바사", "갑통알", "생카"],
-     "situation": {
-         "en": "It's 7 p.m., you have no idea what to eat, so you ask the group chat for ideas:",
-         "es": "Son las 7 de la tarde, no tienes idea de qué cenar y le pides ideas al chat grupal:",
-         "zh": "晚上7點，完全不知道要吃什麼，於是在群組裡問大家：",
-         "cn": "晚上7点，完全不知道吃什么，于是在群里问大家：",
-         "ja": "夜7時、何を食べるか全然決まらないので、グループチャットでみんなに聞く：",
-     }},
-    {"type": "situation", "answer": "대박", "options": ["대박", "탈덕", "현생", "저메추"],
-     "situation": {
-         "en": "Your favorite group suddenly announces a surprise comeback. Your first reaction:",
-         "es": "Tu grupo favorito anuncia de repente un comeback sorpresa. Tu primera reacción:",
-         "zh": "你最喜歡的團體突然宣布驚喜回歸。你的第一個反應：",
-         "cn": "你最喜欢的团体突然宣布惊喜回归。你的第一反应：",
-         "ja": "好きなグループがサプライズでカムバックを発表。最初のリアクションは：",
-     }},
-    {"type": "situation", "answer": "ㅋㅋ", "options": ["ㅋㅋ", "ㄹㅇ", "ㅈㅈ", "8282"],
-     "situation": {
-         "en": "Someone posts something hilarious in the group chat and you type a quick laugh:",
-         "es": "Alguien publica algo divertidísimo en el chat grupal y escribes una risa rápida:",
-         "zh": "有人在群組裡發了超好笑的東西，你快速打個笑：",
-         "cn": "有人在群里发了超好笑的东西，你快速打个笑：",
-         "ja": "誰かがグループチャットに爆笑ネタを投稿。すぐに笑いを返すなら：",
-     }},
-    {"type": "situation", "answer": "ㄹㅇ", "options": ["ㄹㅇ", "1004", "ㅈㅈ", "8282"],
-     "situation": {
-         "en": "Your friend says the new album is the best one yet, and you totally agree — \"for real\":",
-         "es": "Tu amigo dice que el nuevo álbum es el mejor hasta ahora y estás totalmente de acuerdo, \"en serio\":",
-         "zh": "朋友說新專輯是目前最好的一張，你完全同意——「真的」：",
-         "cn": "朋友说新专辑是目前最好的一张，你完全同意——“真的”：",
-         "ja": "友達が「新しいアルバムは今までで一番」と言い、完全に同意。「マジで」と返すなら：",
-     }},
+    {
+        "type": "situation",
+        "answer": "킹받다",
+        "options": [
+            "킹받다",
+            "소확행",
+            "찐텐",
+            "동결건조"
+        ],
+        "situation": {
+            "en": "A cast member on a variety show makes a smug face so annoying that you can't stop laughing.",
+            "es": "Alguien en un programa de variedades pone una cara tan presumida y molesta que no puedes parar de reír.",
+            "zh": "綜藝節目裡有人擺出一張欠揍到讓你笑個不停的得意臉。",
+            "cn": "综艺节目里有人摆出一张欠揍到让你笑个不停的得意脸。",
+            "ja": "バラエティ番組で出演者がムカつくほどのドヤ顔をして、笑いが止まらない。"
+        },
+        "note": {
+            "en": "킹받다 is irritation you can laugh at — not real anger.",
+            "es": "킹받다 es una molestia que da risa, no enojo real.",
+            "zh": "킹받다是讓人想笑的火大，不是真的生氣。",
+            "cn": "킹받다是让人想笑的火大，不是真的生气。",
+            "ja": "킹받다は笑えるイラつきで、本気の怒りではない。"
+        }
+    },
+    {
+        "type": "meaning",
+        "answer": "덕계못",
+        "options": [
+            "덕계못",
+            "어덕행덕",
+            "오살힘",
+            "덕메"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "졌잘싸",
+        "options": [
+            "졌잘싸",
+            "억까",
+            "가즈아",
+            "동결건조"
+        ],
+        "situation": {
+            "en": "Your team lost the final, but everyone played their hearts out. In the comments you write:",
+            "es": "Tu equipo perdió la final, pero todos lo dieron todo. En los comentarios escribes:",
+            "zh": "你支持的隊伍輸了決賽，但每個人都拚盡全力。你在留言區寫下：",
+            "cn": "你支持的队伍输了决赛，但每个人都拼尽全力。你在评论区写下：",
+            "ja": "応援しているチームが決勝で負けたけれど、全員が全力を出し切った。コメント欄に書くなら："
+        }
+    },
+    {
+        "type": "meaning",
+        "answer": "사바사",
+        "options": [
+            "사바사",
+            "저메추",
+            "졌잘싸",
+            "크더싼"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "저메추",
+        "options": [
+            "저메추",
+            "사바사",
+            "갑통알",
+            "생카"
+        ],
+        "situation": {
+            "en": "It's 7 p.m., you have no idea what to eat, so you ask the group chat for ideas:",
+            "es": "Son las 7 de la tarde, no tienes idea de qué cenar y le pides ideas al chat grupal:",
+            "zh": "晚上7點，完全不知道要吃什麼，於是在群組裡問大家：",
+            "cn": "晚上7点，完全不知道吃什么，于是在群里问大家：",
+            "ja": "夜7時、何を食べるか全然決まらないので、グループチャットでみんなに聞く："
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "대박",
+        "options": [
+            "대박",
+            "탈덕",
+            "현생",
+            "저메추"
+        ],
+        "situation": {
+            "en": "Your favorite group suddenly announces a surprise comeback. Your first reaction:",
+            "es": "Tu grupo favorito anuncia de repente un comeback sorpresa. Tu primera reacción:",
+            "zh": "你最喜歡的團體突然宣布驚喜回歸。你的第一個反應：",
+            "cn": "你最喜欢的团体突然宣布惊喜回归。你的第一反应：",
+            "ja": "好きなグループがサプライズでカムバックを発表。最初のリアクションは："
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "ㅋㅋ",
+        "options": [
+            "ㅋㅋ",
+            "ㄹㅇ",
+            "ㅈㅈ",
+            "8282"
+        ],
+        "situation": {
+            "en": "Someone posts something hilarious in the group chat and you type a quick laugh:",
+            "es": "Alguien publica algo divertidísimo en el chat grupal y escribes una risa rápida:",
+            "zh": "有人在群組裡發了超好笑的東西，你快速打個笑：",
+            "cn": "有人在群里发了超好笑的东西，你快速打个笑：",
+            "ja": "誰かがグループチャットに爆笑ネタを投稿。すぐに笑いを返すなら："
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "ㄹㅇ",
+        "options": [
+            "ㄹㅇ",
+            "1004",
+            "ㅈㅈ",
+            "8282"
+        ],
+        "situation": {
+            "en": "Your friend says the new album is the best one yet, and you totally agree — \"for real\":",
+            "es": "Tu amigo dice que el nuevo álbum es el mejor hasta ahora y estás totalmente de acuerdo, \"en serio\":",
+            "zh": "朋友說新專輯是目前最好的一張，你完全同意——「真的」：",
+            "cn": "朋友说新专辑是目前最好的一张，你完全同意——“真的”：",
+            "ja": "友達が「新しいアルバムは今までで一番」と言い、完全に同意。「マジで」と返すなら："
+        }
+    },
+    {
+        "type": "meaning",
+        "answer": "읽씹",
+        "options": [
+            "읽씹",
+            "안읽씹",
+            "선톡",
+            "밀당"
+        ]
+    },
+    {
+        "type": "meaning",
+        "answer": "추구미",
+        "options": [
+            "추구미",
+            "느좋",
+            "원영적사고",
+            "억텐"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "선톡",
+        "options": [
+            "선톡",
+            "읽씹",
+            "현커",
+            "밀당"
+        ],
+        "situation": {
+            "en": "You've waited all day for your crush to message you. Finally you decide to send the first message yourself:",
+            "es": "Llevas todo el día esperando que tu crush te escriba. Al final decides mandarle tú el primer mensaje:",
+            "zh": "你等了一整天喜歡的人傳訊息來，最後決定自己先傳：",
+            "cn": "你等了一整天喜欢的人传消息来，最后决定自己先传：",
+            "ja": "好きな人からの連絡を一日中待っていたけど、ついに自分から先にメッセージを送ることにした："
+        },
+        "note": {
+            "en": "선톡 = 선 (first) + 톡 (message). 읽씹 would be leaving their message on read.",
+            "es": "선톡 = 선 (primero) + 톡 (mensaje). 읽씹 sería dejar su mensaje en visto.",
+            "zh": "선톡＝선（先）＋톡（訊息）。읽씹則是已讀不回。",
+            "cn": "선톡＝선（先）＋톡（消息）。읽씹则是已读不回。",
+            "ja": "선톡＝선（先）＋톡（メッセージ）。읽씹は既読スルーのこと。"
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "폼 미쳤다",
+        "options": [
+            "폼 미쳤다",
+            "감다뒤",
+            "억텐",
+            "늙크크"
+        ],
+        "situation": {
+            "en": "A new performance video drops and every move is razor-sharp — the group is at its absolute peak. You comment:",
+            "es": "Sale un nuevo video de una presentación y cada movimiento es perfecto: el grupo está en su mejor momento. Comentas:",
+            "zh": "新的舞台影片一上傳，每個動作都超俐落，整團狀態正在巔峰。你留言：",
+            "cn": "新的舞台视频一上传，每个动作都超俐落，整团状态正在巅峰。你留言：",
+            "ja": "新しいステージ映像が公開され、どの動きもキレッキレ。グループが絶好調。コメントするなら："
+        },
+        "note": {
+            "en": "폼 미쳤다 praises someone's form; 감다뒤 is the opposite — losing your touch.",
+            "es": "폼 미쳤다 elogia la forma de alguien; 감다뒤 es lo contrario: perder el toque.",
+            "zh": "폼 미쳤다是稱讚狀態好；감다뒤正好相反，是失去手感。",
+            "cn": "폼 미쳤다是称赞状态好；감다뒤正好相反，是失去手感。",
+            "ja": "폼 미쳤다は絶好調をほめる言葉。감다뒤はその逆で、センスが落ちたという意味。"
+        }
+    },
 ]
 
 

@@ -2231,6 +2231,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/hyeon-keo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/in-jeong.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3456,6 +3461,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/chu-gu-mi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/pom-mi-chyeot-da.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/sseom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3862,6 +3877,41 @@
   </url>
   <url>
     <loc>https://hellokslang.com/word/geum-sa-ppa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/peul-reo-ting.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/ilk-ssip.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/an-ilk-ssip.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/seon-tok.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/kkaen-nip-non-jaeng.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/te-to-nam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/e-gen-nam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
