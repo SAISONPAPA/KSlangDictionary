@@ -25881,6 +25881,15 @@ QUIZ_UI = {
     "keep_learning": {"en": "Keep learning", "es": "Sigue aprendiendo", "zh": "繼續學習", "cn": "继续学习", "ja": "もっと学ぶ"},
 }
 
+# Editor's Picks — curated, NOT search data. trending.html shows all of them in
+# order; the home page "trending" strip shows the first three. Every entry must
+# be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
+# the pages, so edit them here only. The weekly update swaps these out.
+EDITOR_PICKS = ['늙크크', '감다살', '기대컨', '동결건조', '톤망진창']
+
+# Home page "today's card" — rotates daily through this pool (by date).
+TODAYS_CARD_POOL = ['영크크', '늙크크', '감다살', '기대컨', '최애', '킹받다', '동결건조']
+
 QUIZ = [
     {"type": "meaning", "answer": "입덕", "options": ["입덕", "탈덕", "휴덕", "덕질"]},
     {"type": "meaning", "answer": "감다살", "options": ["감다살", "감다뒤", "억까", "현생"]},

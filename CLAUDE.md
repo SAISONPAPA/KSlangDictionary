@@ -28,6 +28,7 @@
 - `prefers-reduced-motion`이면 스티커 등장 애니메이션·반짝임 끔.
 
 ### 페이지별 메모
+- **에디터 픽·오늘의 카드**: `build_kslang_db.py`의 `EDITOR_PICKS`(trending.html 전체 + 홈 트렌딩 앞 3개)와 `TODAYS_CARD_POOL`만 고칠 것 — `update_main_pages.py`가 페이지 JS에 넣어줌. HTML 직접 수정 금지.
 - **홈(index.html)**: 2단 히어로 "Your bias said it. Now get the joke." + 오른쪽 실제 포토카드. 들어오면 오늘의 카드(`TODAYS_CARD_POOL`, 날짜별 로테이션)가 펼쳐지고 검색하면 결과로 플립. **오늘의 카드는 GA `search_word` 이벤트를 보내지 않음**(`dealCard` vs `selectWord` 분리 — 검색량 데이터 오염 방지). 아래로 트렌딩 3장(`HOME_TRENDING`) → 탐색 카드 → 가넷 CTA. 홈 전용 스티커 스타일은 index.html 안에 있음.
 - **헤더**: 메뉴 7개(사전·신규·카테고리·추천·가이드·퀴즈·제보), 라벨은 한 줄 유지. 헤더 줄만 최대 1400px로 넓힘, 1360px 이하 DICTIONARY 뱃지 숨김, 1260px 이하 햄버거 메뉴 (pokku.css). 메뉴 추가 시 정적 페이지 7개 + `generate_word_pages.py`(가이드·퀴즈도 이 헤더 재사용) + `generate_whatsnew.py` 전부 고치고, 폭 넘침을 Playwright로 재측정할 것. 가이드·퀴즈 페이지의 active 표시는 `generate_collections.mark_active()`.
 - **단어 이름(kr/rom) 바꾸면 URL이 바뀜** — 옛 주소엔 noindex + canonical + meta refresh 리다이렉트 HTML을 직접 남길 것 (예: `word/sa-i-teu-seok.html` → 사이드석).
@@ -65,6 +66,9 @@ kslang-repo/
     generate_whatsnew.py     — whatsnew.html 재생성
     generate_sitemap.py      — sitemap.xml 재생성
     safety_check.py          — 19+/선정적 콘텐츠 차단 (배포 전 필수 실행)
+    check_site.py            — 빌드 후 검사 (null 누수, 언어 속성 누락, 픽·퀴즈 단어 유효성)
+    add_words.py             — 새 단어 한 번에 추가
+    WEEKLY_UPDATE.md         — 주간 자동 업데이트 플레이북
   .github/workflows/rebuild.yml  — GitHub Actions 자동화
 ```
 
@@ -80,11 +84,18 @@ python3 generate_quiz.py       # → quiz/index.html (미니 퀴즈, QUIZ 데이
 python3 update_main_pages.py   # → index/category/trending/submit의 SLANG_DB
 python3 generate_whatsnew.py   # → whatsnew.html
 python3 generate_sitemap.py    # → sitemap.xml
+python3 check_site.py          # 마지막 검사
 ```
 
 `build_kslang_db.py`(즉 단어 데이터나 번역)를 바꿨으면 이 5개 스크립트를 **전부** 순서대로 다시 돌려야 함. 하나라도 빼먹으면 페이지들끼리 데이터가 어긋남.
 
 ⚠️ 템플릿만 고쳐서 생성 스크립트 하나만 돌릴 때도 `build_kslang_db.py`가 import되면서 **xlsx가 바이트만 다르게 다시 써짐**(내용은 동일). 단어 데이터를 안 바꿨으면 커밋 전에 `git checkout -- data/kslang-slang-database.xlsx`로 되돌릴 것 — 안 그러면 쓸데없는 병합 충돌 원인이 됨.
+
+## 주간 자동 업데이트 (2026-10-14~)
+
+- 매주 월요일 아침 예약 작업이 `scripts/WEEKLY_UPDATE.md`대로 실행: 새 단어(출처 확인된 것만, 목표 10개) + 에디터 픽 교체 + 퀴즈 4문제 로테이션 → 빌드 → `scripts/check_site.py` → **`weekly/<날짜>` 브랜치로 PR**. 머지는 Jay가 폰에서 직접 함 (Jay 결정: PR 승인 방식, 주 1회).
+- 열린 `weekly/` PR이 있으면 그 주는 건너뜀 (충돌 방지).
+- 플레이북을 바꾸고 싶으면 `scripts/WEEKLY_UPDATE.md`만 고치면 됨 (예약 작업은 매번 이 파일을 읽음).
 
 ## GitHub Actions 자동화
 
@@ -111,9 +122,9 @@ python3 generate_sitemap.py    # → sitemap.xml
 **Jay의 단어 선정 규칙 (2026-10-14 갱신)**
 - 특정 개인을 조롱하는 표현은 **절대 금지** (소송 위험).
 - 욕설·비속어는 **허용** — 대신 `DETAILS`의 `register`를 `"vulgar"`로 (페이지에 "비속어, 친한 친구끼리만" 라벨이 5개 언어로 뜸).
-- 성적·노골적 표현은 `safety_check.py`가 배포를 막으므로 지금은 넣지 않음 (10대 타겟 + 애드센스 정책 고려 — 바꾸려면 Jay와 먼저 상의).
+- 성적·노골적 표현은 **넣지 않음 — Jay 확정 (2026-10-14, 애드센스 때문)**. `safety_check.py`도 배포를 막음.
 - 실제로 쓰이는 말만 (출처 확인), 기존 단어와 중복/사실상 같은 현상이면 스킵, 예측성 신조어 금지.
-- 넣는 방법: scratchpad `nw.py` 패턴처럼 튜플 + ZH_TW/ZH_CN/JA + DETAILS + NEW_WORDS_LOG를 **한 번에**. 로마자(rom)는 slug가 되므로 기존과 겹치면 안 됨 (초성 약어는 `ok`, `gs`처럼 짧은 영문).
+- 넣는 방법: `scripts/add_words.py`로 튜플 + ZH_TW/ZH_CN/JA + DETAILS + NEW_WORDS_LOG를 **한 번에** (사용법은 파일 맨 위). 로마자(rom)는 slug가 되므로 기존과 겹치면 안 됨 (초성 약어는 `ok`, `gs`처럼 짧은 영문).
 
 새 단어 하나 추가 = **6개 언어 필드를 한 번에 다 채워야** 함 (kr/rom/en/es는 `CATEGORIES` 튜플에, zh/cn/ja는 각각 별도 딕셔너리에). **하나라도 빼먹으면 그 언어 토글에서 조용히 영어로 폴백됨** (깨지진 않지만 미완성 상태로 남음 — 이게 실제로 여러 번 발생했던 버그의 원인, 아래 참고).
 
@@ -121,7 +132,7 @@ python3 generate_sitemap.py    # → sitemap.xml
 
 번역 사전처럼 **별도 선택 사전**이라 기존 튜플은 안 건드림. **2026-10 기준 전 단어(654개) 상세 완료** — 새 단어를 추가할 때도 DETAILS 항목을 같이 넣을 것. 태그 목록은 `TAG_LABELS`(kpop-fan, romance, drama, industry, stage, beauty, variety, webtoon, tradition, worklife, food 등). 번체를 먼저 쓰고 간체는 OpenCC `tw2sp`로 변환 후 따옴표를 “ ”로 바꿈. 들어있는 단어만 word 페이지에 뉘앙스 / 사용법 / 문화 맥락 / 톤 / 비슷한 표현 / 출처 섹션이 생기고, 빠진 필드는 섹션 자체가 안 보임.
 - `nuance`·`usage`·`culture`는 **5개 언어 전부** 채울 것 (`{en, es, zh, cn, ja}`). 페이지에선 선택한 언어만 보이고(기본 영어), HTML엔 5개 다 들어감. 기존 뜻·예문은 지금처럼 5개 언어가 다 쌓여서 보임 — 의도된 차이.
-- `similar`는 DB에 실제 있는 `kr`만, `tags`는 `TAG_LABELS` 키만, `register`는 `REGISTER_LABELS` 키만 (casual / everyday / text).
+- `similar`는 DB에 실제 있는 `kr`만, `tags`는 `TAG_LABELS` 키만, `register`는 `REGISTER_LABELS` 키만 (casual / everyday / text / vulgar). 욕설·비속어 단어엔 `swear` 태그도.
 - `sources`는 **직접 열어서 내용 확인한 페이지만**. 못 찾으면 비워둘 것 (최애·감다살처럼). 유래가 불확실하면 불확실하다고 쓸 것 (대박 참고 — 국립국어원도 미확정이라고 함). 지어낸 통계·인용·가사·실존 인물 예문 금지.
 - 출처로 확인되면 그 단어 `status`를 "Verified (web-checked)"로 올림.
 - 관련 단어는 `similar` → 같은 `tags` → 같은 카테고리 순으로 채워짐 (`pick_related`).

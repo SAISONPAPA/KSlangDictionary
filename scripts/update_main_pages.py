@@ -24,6 +24,33 @@ import build_kslang_db as db
 MAIN_PAGES = ["index.html", "category.html", "trending.html", "submit.html"]
 
 
+def js_list(words):
+    return "[" + ", ".join("'" + w.replace("'", "\\'") + "'" for w in words) + "]"
+
+
+PICK_ARRAYS = {
+    # page: [(JS const name, word list)]
+    "index.html": [("HOME_TRENDING", lambda: db.EDITOR_PICKS[:3]),
+                   ("TODAYS_CARD_POOL", lambda: db.TODAYS_CARD_POOL)],
+    "trending.html": [("TRENDING_ORDER", lambda: db.EDITOR_PICKS)],
+}
+
+
+def inject_picks(fname, html):
+    """Write EDITOR_PICKS / TODAYS_CARD_POOL from build_kslang_db.py into the page's JS."""
+    all_kr = {t[0] for _, _, terms in db.CATEGORIES for t in terms}
+    for const, get in PICK_ARRAYS.get(fname, []):
+        words = get()
+        missing = [w for w in words if w not in all_kr]
+        if missing:
+            raise SystemExit(f"ERROR: {const} has words not in the DB: {missing}")
+        html, n = re.subn(r"const " + const + r" = \[[^\]]*\];",
+                          "const " + const + " = " + js_list(words) + ";", html, count=1)
+        if n != 1:
+            print(f"WARNING: {fname} — {const} not found. Left unchanged.")
+    return html
+
+
 def main():
     data = []
     for cat_kr, cat_en, terms in db.CATEGORIES:
@@ -53,6 +80,7 @@ def main():
         if n != 1:
             print(f"WARNING: {fname} — expected 1 replacement, got {n}. Left unchanged.")
             continue
+        new_html = inject_picks(fname, new_html)
         with open(path, "w", encoding="utf-8") as f:
             f.write(new_html)
         print(f"{fname}: updated ({len(data)} terms, {len(db.ZH_TW_TRANSLATIONS)} 繁中 / {len(db.ZH_CN_TRANSLATIONS)} 简中 / {len(db.JA_TRANSLATIONS)} 日本語)")
