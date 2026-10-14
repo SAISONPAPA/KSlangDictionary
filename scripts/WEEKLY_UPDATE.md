@@ -44,6 +44,16 @@ cd scripts && python3 -c "import build_kslang_db as d; print(sorted(t[0] for c i
 - 예문은 일반 상황으로만. 실존 인물 이름을 넣지 말 것.
 - 실행 날짜와 같은 날짜의 `NEW_WORDS_LOG` 항목이 이미 있으면 새 항목을 만들지 말고 그 항목의 단어 목록에 합칠 것 (What's New에 같은 날짜가 두 번 보이지 않게).
 
+## 1-2. 남은 Draft 단어 검증 (목표 5개, 최소 0개)
+
+`status`가 아직 "Draft"인 기존 단어 중 몇 개를 골라 출처를 찾아 Verified로 올림.
+- 남은 목록: `cd scripts && python3 -c "import build_kslang_db as d; print([t[0] for c in d.CATEGORIES for t in c[-1] if t[-1].startswith('Draft')])"`
+- 출처 기준은 새 단어와 똑같음: 직접 열어서 뜻이 확인되는 뉴스·매거진·위키백과·한국어 학습 사이트(KoreanClass101, Kaiwa, Mirinae 등)만. 나무위키·블로그·커뮤니티·위키 미러는 안 됨.
+- 찾으면 그 단어 `DETAILS`의 `sources`에 `{"title", "publisher", "date", "url"}` 추가하고 튜플 마지막 값을 `"Verified (web-checked)"`로 바꿈.
+- 출처를 보니 **기존 뜻이 틀렸으면** 5개 언어(en/es 튜플 + zh/cn/ja 딕셔너리, 필요하면 예문까지) 전부 고치고 PR 본문 "확인해 줄 것"에 적기.
+- 혐오·조롱 표현으로 쓰인다는 출처가 나오면 고치지 말고 PR 본문에 적어서 Jay가 남길지 정하게 할 것.
+- 못 찾으면 그냥 넘어감. 억지로 채우지 말 것.
+
 ## 2. 에디터 픽 교체
 
 `scripts/build_kslang_db.py`의 `EDITOR_PICKS`(5개)와 `TODAYS_CARD_POOL`(7개)을 수정함. 페이지 JS에는 `update_main_pages.py`가 자동으로 넣어줌.
@@ -89,7 +99,8 @@ gh api repos/SAISONPAPA/KSlangDictionary/pulls -f base=main -f head=weekly/<YYYY
 
 PR 본문(`/tmp/pr.md`)은 **한국어**로, Jay가 폰에서 훑어보고 머지할 수 있게:
 (링크는 `[제목](URL)` 형식만. 백틱·따옴표로 감싸지 말 것 — 폰에서 링크가 깨짐.)
-1. 요약 한 줄 (새 단어 N개 / 픽 교체 / 퀴즈 4문제 교체 / 검사 결과)
+1. 요약 한 줄 (새 단어 N개 / Draft 검증 N개 / 픽 교체 / 퀴즈 4문제 교체 / 검사 결과)
+1-2. Draft 검증한 단어: 단어 · 출처 링크 (뜻을 고쳤으면 무엇을 고쳤는지)
 2. 새 단어 표: 단어 · 카테고리 · 한 줄 뜻(영어) · 출처 링크
 3. 에디터 픽: 이전 → 이후
 4. 퀴즈: 뺀 문제 4개 / 새 문제 4개 (정답 단어 + 문제 요약)
