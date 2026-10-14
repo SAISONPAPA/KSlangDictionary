@@ -6072,6 +6072,9 @@ TAG_LABELS = {
     "industry":  {"en": "K-pop industry", "es": "Industria del K-pop", "zh": "K-pop產業", "cn": "K-pop产业", "ja": "K-POP業界"},
     "stage":     {"en": "Stages & shows", "es": "Escenarios y shows", "zh": "舞台與表演", "cn": "舞台与表演", "ja": "ステージ・公演"},
     "beauty":    {"en": "K-beauty", "es": "K-beauty", "zh": "韓系美妝", "cn": "韩系美妆", "ja": "韓国コスメ・美容"},
+    "variety":   {"en": "Variety shows", "es": "Programas de variedades", "zh": "綜藝節目", "cn": "综艺节目", "ja": "バラエティ番組"},
+    "webtoon":   {"en": "Webtoons & web novels", "es": "Webtoons y webnovelas", "zh": "網漫與網路小說", "cn": "网漫与网络小说", "ja": "ウェブトゥーン・Web小説"},
+    "tradition": {"en": "Korean traditions", "es": "Tradiciones coreanas", "zh": "韓國傳統", "cn": "韩国传统", "ja": "韓国の伝統"},
 }
 
 DETAILS = {
@@ -12806,6 +12809,3193 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ]
+    },
+    "사이다": {
+        "nuance": {
+            "en": "\"Soda\": that fizzy, refreshing feeling when a character finally talks back, the villain gets what they deserve, or someone says exactly what everyone was thinking.",
+            "es": "\"Refresco\": esa sensación burbujeante y refrescante cuando un personaje por fin responde, el villano recibe su merecido o alguien dice justo lo que todos pensaban.",
+            "zh": "「汽水」：角色終於反擊、壞人得到報應，或有人說出大家心裡話時那種暢快的感覺。",
+            "cn": "“汽水”：角色终于反击、坏人得到报应，或有人说出大家心里话时那种畅快的感觉。",
+            "ja": "「サイダー」。登場人物がついに言い返したり、悪役が報いを受けたり、みんなが思っていたことを誰かが言ってくれた時のスカッとする感じ。"
+        },
+        "usage": {
+            "en": "\"사이다 전개\" (\"a satisfying plot\") or simply \"완전 사이다!\" (\"So satisfying!\"). Its opposite is 고구마.",
+            "es": "\"사이다 전개\" (\"una trama que da gusto\") o simplemente \"완전 사이다!\" (\"¡Qué satisfacción!\"). Su opuesto es 고구마.",
+            "zh": "「사이다 전개」（大快人心的劇情）或直接說「완전 사이다!」（太爽了！）。反義詞是고구마。",
+            "cn": "“사이다 전개”（大快人心的剧情）或直接说“완전 사이다!”（太爽了！）。反义词是고구마。",
+            "ja": "「사이다 전개」（スカッとする展開）、または「완전 사이다!」（めっちゃスカッとした！）。反対は고구마。"
+        },
+        "register": "casual",
+        "similar": [
+            "고구마",
+            "레전드",
+            "명장면"
+        ],
+        "tags": [
+            "drama",
+            "reaction",
+            "praise"
+        ]
+    },
+    "고구마": {
+        "nuance": {
+            "en": "\"Sweet potato\": the stuffy, frustrated feeling of eating dry sweet potato with nothing to drink — when a character keeps making bad choices or the plot won't move.",
+            "es": "\"Batata\": la sensación de ahogo de comer batata seca sin nada que beber, cuando un personaje no deja de tomar malas decisiones o la trama no avanza.",
+            "zh": "「地瓜」：像吃乾地瓜卻沒水喝一樣噎得慌——角色一直做錯決定或劇情停滯不前時的悶感。",
+            "cn": "“地瓜”：像吃干地瓜却没水喝一样噎得慌——角色一直做错决定或剧情停滞不前时的闷感。",
+            "ja": "「サツマイモ」。乾いたサツマイモを飲み物なしで食べたような息苦しさ。登場人物が判断ミスを繰り返したり話が進まなかったりする時のもどかしさ。"
+        },
+        "usage": {
+            "en": "\"주인공이 너무 고구마야\" (\"The lead is so frustrating\"). People \"need a soda\" after: \"고구마 100개 먹은 기분\" (\"feels like I ate 100 sweet potatoes\").",
+            "es": "\"주인공이 너무 고구마야\" (\"El protagonista desespera\"). Después hace falta un \"refresco\": \"고구마 100개 먹은 기분\" (\"siento que me comí 100 batatas\").",
+            "zh": "「주인공이 너무 고구마야」（主角太讓人憋屈了）。之後就需要「汽水」：「고구마 100개 먹은 기분」（像吃了100個地瓜）。",
+            "cn": "“주인공이 너무 고구마야”（主角太让人憋屈了）。之后就需要“汽水”：“고구마 100개 먹은 기분”（像吃了100个地瓜）。",
+            "ja": "「주인공이 너무 고구마야」（主人公がもどかしすぎる）。その後は「サイダー」が欲しくなる：「고구마 100개 먹은 기분」（サツマイモ100個食べた気分）。"
+        },
+        "register": "casual",
+        "similar": [
+            "사이다",
+            "개연성",
+            "막장"
+        ],
+        "tags": [
+            "drama",
+            "annoyed"
+        ]
+    },
+    "레전드": {
+        "nuance": {
+            "en": "\"Legend\": a moment so good (or so absurd) that people will keep talking about it — stages, scenes, bloopers.",
+            "es": "\"Leyenda\": un momento tan bueno (o tan absurdo) que se seguirá comentando: presentaciones, escenas, errores.",
+            "zh": "「傳奇」：好到（或荒謬到）大家會一直談論的瞬間——舞台、場面、NG片段。",
+            "cn": "“传奇”：好到（或荒谬到）大家会一直谈论的瞬间——舞台、场面、NG片段。",
+            "ja": "「レジェンド」。語り継がれるほど最高な（または強烈な）瞬間。ステージ、名場面、NGなど。"
+        },
+        "usage": {
+            "en": "Very common in video titles: \"레전드 무대 모음\" (\"legendary stages compilation\").",
+            "es": "Muy común en títulos de videos: \"레전드 무대 모음\" (\"recopilación de presentaciones legendarias\").",
+            "zh": "影片標題很常見：「레전드 무대 모음」（傳奇舞台合集）。",
+            "cn": "视频标题很常见：“레전드 무대 모음”（传奇舞台合集）。",
+            "ja": "動画タイトルでよく見る：「레전드 무대 모음」（伝説のステージまとめ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "명장면",
+            "흑역사",
+            "만렙"
+        ],
+        "tags": [
+            "praise",
+            "reaction"
+        ]
+    },
+    "복불복": {
+        "nuance": {
+            "en": "福不福 — \"luck or no luck\": a game where fate decides who wins and who gets the punishment.",
+            "es": "福不福, \"suerte o no suerte\": un juego en el que el azar decide quién gana y quién recibe el castigo.",
+            "zh": "福不福——靠運氣決定誰贏、誰受罰的遊戲。",
+            "cn": "福不福——靠运气决定谁赢、谁受罚的游戏。",
+            "ja": "福不福。運だけで勝ち負けや罰ゲームが決まるゲーム。"
+        },
+        "usage": {
+            "en": "A variety-show classic — picking drinks where one is bitter, or deciding who sleeps outside: \"복불복으로 정하자!\" (\"Let's leave it to luck!\").",
+            "es": "Clásico de los programas de variedades, como elegir bebidas donde una es amarga o decidir quién duerme afuera: \"복불복으로 정하자!\" (\"¡Que lo decida la suerte!\").",
+            "zh": "綜藝經典——像是選飲料其中一杯是苦的，或決定誰要睡外面：「복불복으로 정하자!」（交給運氣決定吧！）。",
+            "cn": "综艺经典——像是选饮料其中一杯是苦的，或决定谁要睡外面：“복불복으로 정하자!”（交给运气决定吧！）。",
+            "ja": "バラエティの定番。苦い飲み物が混ざった中から選んだり、誰が外で寝るかを決めたり：「복불복으로 정하자!」（運で決めよう！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "예능감",
+            "몸개그"
+        ],
+        "tags": [
+            "variety",
+            "funny"
+        ]
+    },
+    "1도 없다": {
+        "nuance": {
+            "en": "\"Not even 1\": zero, none at all. A playful, emphatic way to say you have no interest, no idea or no energy.",
+            "es": "\"Ni siquiera 1\": cero, nada de nada. Una forma juguetona y enfática de decir que no tienes interés, idea ni energía.",
+            "zh": "「連1都沒有」：一點都沒有。用俏皮又強調的方式說完全沒興趣、沒概念或沒力氣。",
+            "cn": "“连1都没有”：一点都没有。用俏皮又强调的方式说完全没兴趣、没概念或没力气。",
+            "ja": "「1もない」。ゼロ、まったくない。興味も見当も気力も全然ないことをおどけて強調する言い方。"
+        },
+        "usage": {
+            "en": "\"축구는 관심 1도 없어\" (\"I have zero interest in soccer\"); \"양심 1도 없네\" (\"Not an ounce of shame\").",
+            "es": "\"축구는 관심 1도 없어\" (\"El fútbol no me interesa nada\"); \"양심 1도 없네\" (\"Cero vergüenza\").",
+            "zh": "「축구는 관심 1도 없어」（我對足球一點興趣都沒有）；「양심 1도 없네」（一點良心都沒有）。",
+            "cn": "“축구는 관심 1도 없어”（我对足球一点兴趣都没有）；“양심 1도 없네”（一点良心都没有）。",
+            "ja": "「축구는 관심 1도 없어」（サッカーには1ミリも興味ない）；「양심 1도 없네」（良心ゼロだね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "노잼",
+            "국룰"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "안습": {
+        "nuance": {
+            "en": "Short for 안구에 습기 (\"moisture in the eyes\"): something so pitiful or sad-funny it makes your eyes well up.",
+            "es": "Abreviatura de 안구에 습기 (\"humedad en los ojos\"): algo tan lamentable o tragicómico que te humedece los ojos.",
+            "zh": "안구에 습기（眼球有濕氣）的縮寫：可憐或悲慘到讓人眼眶泛淚，常帶點好笑。",
+            "cn": "안구에 습기（眼球有湿气）的缩写：可怜或悲惨到让人眼眶泛泪，常带点好笑。",
+            "ja": "안구에 습기（眼球に湿気）の略。涙が出そうなほど哀れ、または悲しくて笑える状態。"
+        },
+        "usage": {
+            "en": "Older internet slang, often teasing: \"분장 상태 안습이다\" (\"That costume is tragic\").",
+            "es": "Jerga de internet más antigua, a menudo burlona: \"분장 상태 안습이다\" (\"Ese disfraz da pena\").",
+            "zh": "比較早期的網路用語，常帶調侃：「분장 상태 안습이다」（那個扮相好慘）。",
+            "cn": "比较早期的网络用语，常带调侃：“분장 상태 안습이다”（那个扮相好惨）。",
+            "ja": "少し前のネットスラングで、からかう時によく使う：「분장 상태 안습이다」（その扮装は泣ける）。"
+        },
+        "register": "casual",
+        "similar": [
+            "흑역사",
+            "오글거리다"
+        ],
+        "tags": [
+            "funny",
+            "reaction"
+        ]
+    },
+    "흑역사": {
+        "nuance": {
+            "en": "黑歷史 — \"black history\": an embarrassing past you'd rather erase, like old photos, posts or fashion choices.",
+            "es": "黑歷史, \"historia negra\": un pasado vergonzoso que preferirías borrar, como fotos viejas, publicaciones o looks.",
+            "zh": "黑歷史——想要抹掉的丟臉過去，像是舊照片、舊貼文或以前的穿搭。",
+            "cn": "黑历史——想要抹掉的丢脸过去，像是旧照片、旧贴文或以前的穿搭。",
+            "ja": "黒歴史。消したい恥ずかしい過去。昔の写真や投稿、ファッションなど。"
+        },
+        "usage": {
+            "en": "Idols react to old clips on shows: \"제 흑역사예요, 그만 보여 주세요!\" (\"That's my dark past, please stop showing it!\").",
+            "es": "Los idols reaccionan a clips viejos en programas: \"제 흑역사예요, 그만 보여 주세요!\" (\"¡Es mi pasado vergonzoso, ya no lo muestren!\").",
+            "zh": "偶像在節目上看到舊影片時：「제 흑역사예요, 그만 보여 주세요!」（那是我的黑歷史，別再放了！）。",
+            "cn": "偶像在节目上看到旧视频时：“제 흑역사예요, 그만 보여 주세요!”（那是我的黑历史，别再放了！）。",
+            "ja": "番組で昔の映像を見たアイドルが：「제 흑역사예요, 그만 보여 주세요!」（私の黒歴史です、もう流さないで！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "안습",
+            "오글거리다",
+            "레전드"
+        ],
+        "tags": [
+            "funny",
+            "internet"
+        ]
+    },
+    "자막": {
+        "nuance": {
+            "en": "字幕 — on-screen text. On Korean variety shows, captions are part of the comedy: sound effects, jokes and editor commentary pop up all over the screen.",
+            "es": "字幕: texto en pantalla. En los programas de variedades coreanos son parte del humor: efectos, chistes y comentarios del editor aparecen por toda la pantalla.",
+            "zh": "字幕——畫面上的文字。在韓國綜藝裡，字幕本身就是笑點：音效字、吐槽和剪輯師的評論滿螢幕跑。",
+            "cn": "字幕——画面上的文本。在韩国综艺里，字幕本身就是笑点：音效字、吐槽和剪辑师的评论满屏幕跑。",
+            "ja": "字幕。韓国のバラエティでは字幕も笑いの一部で、効果音や突っ込み、編集者のコメントが画面中に出る。"
+        },
+        "usage": {
+            "en": "\"자막 센스 미쳤다\" (\"The caption game is insane\"). Also means subtitles: \"영어 자막 있어?\" (\"Are there English subs?\").",
+            "es": "\"자막 센스 미쳤다\" (\"Los subtítulos son geniales\"). También significa subtítulos: \"영어 자막 있어?\" (\"¿Tiene subtítulos en inglés?\").",
+            "zh": "「자막 센스 미쳤다」（字幕太有梗了）。也指翻譯字幕：「영어 자막 있어?」（有英文字幕嗎？）。",
+            "cn": "“자막 센스 미쳤다”（字幕太有梗了）。也指翻译字幕：“영어 자막 있어?”（有英文本幕吗？）。",
+            "ja": "「자막 센스 미쳤다」（字幕のセンスやばい）。翻訳字幕の意味も：「영어 자막 있어?」（英語字幕ある？）。"
+        },
+        "culture": {
+            "en": "Heavy, playful captioning is a signature of Korean variety editing — viewers often say the editors are part of the cast.",
+            "es": "Los subtítulos abundantes y juguetones son un sello de la edición de variedades coreanas; el público suele decir que los editores son parte del elenco.",
+            "zh": "大量又俏皮的字幕是韓國綜藝剪輯的招牌——觀眾常說剪輯師也是固定班底。",
+            "cn": "大量又俏皮的字幕是韩国综艺剪辑的招牌——观众常说剪辑师也是固定班底。",
+            "ja": "大量で遊び心のある字幕は韓国バラエティ編集の特徴。編集者も出演者の一人だと言われるほど。"
+        },
+        "register": "everyday",
+        "similar": [
+            "자체자막",
+            "예능감",
+            "더빙"
+        ],
+        "tags": [
+            "variety"
+        ]
+    },
+    "케미": {
+        "nuance": {
+            "en": "From \"chemistry\": the natural spark between people on screen — couples, friends, rivals or bandmates.",
+            "es": "De \"chemistry\" (química): la chispa natural entre personas en pantalla, ya sean parejas, amigos, rivales o compañeros de grupo.",
+            "zh": "來自「chemistry」：螢幕上人與人之間自然的火花——情侶、朋友、對手或團員。",
+            "cn": "来自“chemistry”：屏幕上人与人之间自然的火花——情侣、朋友、对手或团员。",
+            "ja": "「ケミストリー」から。画面上の人同士の自然な相性。カップル、友達、ライバル、メンバー同士など。"
+        },
+        "usage": {
+            "en": "\"두 배우 케미가 미쳤어\" (\"The two actors' chemistry is insane\"). Also 브로맨스 케미, 남매 케미 (sibling-like chemistry).",
+            "es": "\"두 배우 케미가 미쳤어\" (\"La química entre los dos actores es increíble\"). También 브로맨스 케미, 남매 케미 (química de hermanos).",
+            "zh": "「두 배우 케미가 미쳤어」（兩位演員的化學反應太強了）。也有브로맨스 케미、남매 케미（兄妹般的化學反應）。",
+            "cn": "“두 배우 케미가 미쳤어”（两位演员的化学反应太强了）。也有브로맨스 케미、남매 케미（兄妹般的化学反应）。",
+            "ja": "「두 배우 케미가 미쳤어」（二人の俳優のケミがやばい）。브로맨스 케미、남매 케미（兄妹ケミ）なども。"
+        },
+        "register": "everyday",
+        "similar": [
+            "케미폭발",
+            "티키타카",
+            "럽라인"
+        ],
+        "tags": [
+            "praise",
+            "drama",
+            "variety"
+        ]
+    },
+    "예능감": {
+        "nuance": {
+            "en": "Variety sense: a natural feel for comedy — timing, reactions and knowing when to jump in.",
+            "es": "Sentido para variedades: un talento natural para la comedia, con buen timing, reacciones y saber cuándo intervenir.",
+            "zh": "綜藝感：天生的搞笑能力——節奏、反應，以及知道什麼時候該接話。",
+            "cn": "综艺感：天生的搞笑能力——节奏、反应，以及知道什么时候该接话。",
+            "ja": "バラエティセンス。笑いのタイミング、リアクション、入りどころが分かる天性の感覚。"
+        },
+        "usage": {
+            "en": "\"예능감 타고났네\" (\"She's a natural at variety\").",
+            "es": "\"예능감 타고났네\" (\"Nació para los programas de variedades\").",
+            "zh": "「예능감 타고났네」（天生的綜藝咖）。",
+            "cn": "“예능감 타고났네”（天生的综艺咖）。",
+            "ja": "「예능감 타고났네」（バラエティの才能、天性だね）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "예능돌",
+            "드립력",
+            "애드리브"
+        ],
+        "tags": [
+            "variety",
+            "praise"
+        ]
+    },
+    "국룰": {
+        "nuance": {
+            "en": "Short for 국민 룰 (\"national rule\"): the obvious, everyone-knows-it way to do something.",
+            "es": "Abreviatura de 국민 룰 (\"regla nacional\"): la forma obvia, que todo el mundo conoce, de hacer algo.",
+            "zh": "국민 룰（國民規則）的縮寫：大家都知道、理所當然的做法。",
+            "cn": "국민 룰（国民规则）的缩写：大家都知道、理所当然的做法。",
+            "ja": "국민 룰（国民ルール）の略。誰もが知っている当たり前のやり方。"
+        },
+        "usage": {
+            "en": "Often about food combos: \"라면엔 김치가 국룰\" (\"Ramyeon with kimchi is the law\").",
+            "es": "Suele usarse con combinaciones de comida: \"라면엔 김치가 국룰\" (\"Ramyeon con kimchi es ley\").",
+            "zh": "常用在食物搭配：「라면엔 김치가 국룰」（泡麵配泡菜是國民規則）。",
+            "cn": "常用在食物搭配：“라면엔 김치가 국룰”（方便面配泡菜是国民规则）。",
+            "ja": "食べ合わせの話でよく使う：「라면엔 김치가 국룰」（ラーメンにはキムチが国ルール）。"
+        },
+        "register": "casual",
+        "similar": [
+            "1도 없다",
+            "떡밥"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "떡밥": {
+        "nuance": {
+            "en": "\"Rice-cake bait\" (fishing bait): hints or teasers dropped to make people speculate — in dramas, MVs or idol social media.",
+            "es": "\"Cebo de pasta de arroz\" (para pescar): pistas o adelantos que se sueltan para que la gente especule, en dramas, MVs o redes de idols.",
+            "zh": "「魚餌」：為了讓人猜測而丟出的線索或預告——出現在韓劇、MV或偶像社群上。",
+            "cn": "“鱼饵”：为了让人猜测而丢出的线索或预告——出现在韩剧、MV或偶像社群上。",
+            "ja": "「釣り餌」。憶測を呼ぶために投下されるヒントや予告。ドラマ、MV、アイドルのSNSなど。"
+        },
+        "usage": {
+            "en": "\"새 떡밥 떴다!\" (\"New teaser dropped!\"). Fans who analyze them \"chew\" the bait: \"떡밥 씹는 중\".",
+            "es": "\"새 떡밥 떴다!\" (\"¡Salió una nueva pista!\"). Los fans que las analizan \"mastican el cebo\": \"떡밥 씹는 중\".",
+            "zh": "「새 떡밥 떴다!」（新線索來了！）。粉絲分析線索叫「嚼餌」：「떡밥 씹는 중」。",
+            "cn": "“새 떡밥 떴다!”（新线索来了！）。粉丝分析线索叫“嚼饵”：“떡밥 씹는 중”。",
+            "ja": "「새 떡밥 떴다!」（新しい餌が来た！）。考察することを「餌を噛む」と言う：「떡밥 씹는 중」。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡밥회수",
+            "복선",
+            "세계관"
+        ],
+        "tags": [
+            "kpop-fan",
+            "drama"
+        ]
+    },
+    "갑분싸": {
+        "nuance": {
+            "en": "Short for 갑자기 분위기 싸해짐: \"the mood suddenly turns cold\" — when one comment kills the vibe.",
+            "es": "Abreviatura de 갑자기 분위기 싸해짐: \"de repente el ambiente se enfría\", cuando un comentario mata la vibra.",
+            "zh": "갑자기 분위기 싸해짐（氣氛突然變冷）的縮寫：一句話讓場面瞬間冷掉。",
+            "cn": "갑자기 분위기 싸해짐（气氛突然变冷）的缩写：一句话让场面瞬间冷掉。",
+            "ja": "갑자기 분위기 싸해짐（急に空気が冷える）の略。一言で場がしらけること。"
+        },
+        "usage": {
+            "en": "\"그 농담 하고 갑분싸\" (\"He made that joke and the room went silent\").",
+            "es": "\"그 농담 하고 갑분싸\" (\"Hizo ese chiste y se hizo un silencio incómodo\").",
+            "zh": "「그 농담 하고 갑분싸」（他講了那個笑話，場面瞬間冷掉）。",
+            "cn": "“그 농담 하고 갑분싸”（他讲了那个笑话，场面瞬间冷掉）。",
+            "ja": "「그 농담 하고 갑분싸」（その冗談で一気に空気が凍った）。"
+        },
+        "register": "casual",
+        "similar": [
+            "노잼",
+            "뇌절",
+            "오글거리다"
+        ],
+        "tags": [
+            "reaction",
+            "funny"
+        ]
+    },
+    "노잼": {
+        "nuance": {
+            "en": "No + 잼 (from 재미, fun): boring, not funny.",
+            "es": "No + 잼 (de 재미, diversión): aburrido, sin gracia.",
+            "zh": "No＋잼（來自재미，有趣）：無聊、不好笑。",
+            "cn": "No＋잼（来自재미，有趣）：无聊、不好笑。",
+            "ja": "No＋잼（재미＝面白さから）。つまらない、面白くない。"
+        },
+        "usage": {
+            "en": "\"이번 회 좀 노잼이었어\" (\"This episode was kind of boring\").",
+            "es": "\"이번 회 좀 노잼이었어\" (\"Este episodio estuvo medio aburrido\").",
+            "zh": "「이번 회 좀 노잼이었어」（這集有點無聊）。",
+            "cn": "“이번 회 좀 노잼이었어”（这集有点无聊）。",
+            "ja": "「이번 회 좀 노잼이었어」（今回の回、ちょっとつまらなかった）。"
+        },
+        "register": "casual",
+        "similar": [
+            "꿀잼",
+            "갑분싸",
+            "뇌절"
+        ],
+        "tags": [
+            "reaction",
+            "annoyed"
+        ]
+    },
+    "꿀잼": {
+        "nuance": {
+            "en": "\"Honey fun\": 꿀 (honey, meaning \"sweet, great\") + 잼 (fun) — super entertaining.",
+            "es": "\"Diversión de miel\": 꿀 (miel, que significa \"genial\") + 잼 (diversión), divertidísimo.",
+            "zh": "「蜂蜜般的有趣」：꿀（蜂蜜，表示「超棒」）＋잼（有趣）——超級好玩。",
+            "cn": "“蜂蜜般的有趣”：꿀（蜂蜜，表示“超棒”）＋잼（有趣）——超级好玩。",
+            "ja": "「ハチミツ級の面白さ」。꿀（ハチミツ＝最高）＋잼（面白さ）で、めちゃくちゃ面白いこと。"
+        },
+        "usage": {
+            "en": "\"이 예능 꿀잼이야, 꼭 봐\" (\"This show is so fun, you have to watch it\").",
+            "es": "\"이 예능 꿀잼이야, 꼭 봐\" (\"Este programa es divertidísimo, tienes que verlo\").",
+            "zh": "「이 예능 꿀잼이야, 꼭 봐」（這個綜藝超好看，一定要看）。",
+            "cn": "“이 예능 꿀잼이야, 꼭 봐”（这个综艺超好看，一定要看）。",
+            "ja": "「이 예능 꿀잼이야, 꼭 봐」（このバラエティ面白すぎ、絶対見て）。"
+        },
+        "register": "casual",
+        "similar": [
+            "노잼",
+            "레전드"
+        ],
+        "tags": [
+            "reaction",
+            "praise"
+        ]
+    },
+    "무편집": {
+        "nuance": {
+            "en": "無編輯 — unedited: raw footage released without cuts, effects or captions.",
+            "es": "無編輯: sin editar, material crudo publicado sin cortes, efectos ni subtítulos.",
+            "zh": "無剪輯——沒有剪接、特效或字幕的原始影片。",
+            "cn": "无剪辑——没有剪接、特效或字幕的原始视频。",
+            "ja": "無編集。カットや効果、字幕なしで公開される素材そのままの映像。"
+        },
+        "usage": {
+            "en": "Fans love the extra minutes: \"무편집본이라 더 리얼해\" (\"The unedited version feels more real\").",
+            "es": "A los fans les encantan esos minutos extra: \"무편집본이라 더 리얼해\" (\"La versión sin editar se siente más real\").",
+            "zh": "粉絲很愛多出來的片段：「무편집본이라 더 리얼해」（無剪輯版更真實）。",
+            "cn": "粉丝很爱多出来的片段：“무편집본이라 더 리얼해”（无剪辑版更真实）。",
+            "ja": "ファンはおまけの数分が大好き：「무편집본이라 더 리얼해」（無編集版だからもっとリアル）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "비하인드",
+            "본편",
+            "직캠"
+        ],
+        "tags": [
+            "variety",
+            "kpop-fan"
+        ]
+    },
+    "자체자막": {
+        "nuance": {
+            "en": "Self-made captions: funny or explanatory text that creators or fans add to clips themselves.",
+            "es": "Subtítulos hechos por uno mismo: texto gracioso o explicativo que creadores o fans agregan a los clips.",
+            "zh": "自製字幕：創作者或粉絲自己加在片段上的搞笑或說明文字。",
+            "cn": "自制字幕：创作者或粉丝自己加在片段上的搞笑或说明文本。",
+            "ja": "自作字幕。クリエイターやファンが自分で動画に付ける面白い字幕や説明。"
+        },
+        "usage": {
+            "en": "\"이 팬 영상 자체자막 너무 웃겨\" (\"The fan-made captions on this video are hilarious\").",
+            "es": "\"이 팬 영상 자체자막 너무 웃겨\" (\"Los subtítulos de este video de fans son graciosísimos\").",
+            "zh": "「이 팬 영상 자체자막 너무 웃겨」（這支粉絲影片的自製字幕超好笑）。",
+            "cn": "“이 팬 영상 자체자막 너무 웃겨”（这支粉丝视频的自制字幕超好笑）。",
+            "ja": "「이 팬 영상 자체자막 너무 웃겨」（このファン動画の自作字幕面白すぎ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "자막",
+            "짤방"
+        ],
+        "tags": [
+            "variety",
+            "internet"
+        ]
+    },
+    "짤방": {
+        "nuance": {
+            "en": "A reaction image or meme picture. Often shortened to 짤 — the word Koreans use for almost any image shared online.",
+            "es": "Una imagen de reacción o meme. Se acorta a 짤, la palabra que los coreanos usan para casi cualquier imagen compartida en internet.",
+            "zh": "梗圖、反應圖。常簡稱짤——韓國人幾乎用來指所有網路上分享的圖片。",
+            "cn": "梗图、反应图。常简称짤——韩国人几乎用来指所有网络上分享的图片。",
+            "ja": "リアクション画像やネタ画像。짤と略され、ネットで共有される画像全般を指すことが多い。"
+        },
+        "usage": {
+            "en": "\"딱 맞는 짤 있어\" (\"I've got the perfect reaction pic\"); \"짤 저장했어\" (\"Saved the pic\").",
+            "es": "\"딱 맞는 짤 있어\" (\"Tengo la imagen perfecta para esto\"); \"짤 저장했어\" (\"Guardé la imagen\").",
+            "zh": "「딱 맞는 짤 있어」（我有超適合的梗圖）；「짤 저장했어」（圖存了）。",
+            "cn": "“딱 맞는 짤 있어”（我有超适合的梗图）；“짤 저장했어”（图存了）。",
+            "ja": "「딱 맞는 짤 있어」（ぴったりの画像ある）；「짤 저장했어」（画像保存した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "움짤",
+            "자체자막"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "움짤": {
+        "nuance": {
+            "en": "움직이는 짤 (\"moving pic\"): a GIF or short looping clip.",
+            "es": "움직이는 짤 (\"imagen que se mueve\"): un GIF o clip corto en bucle.",
+            "zh": "움직이는 짤（會動的圖）：GIF或短循環動圖。",
+            "cn": "움직이는 짤（会动的图）：GIF或短循环动图。",
+            "ja": "움직이는 짤（動く画像）。GIFや短いループ動画。"
+        },
+        "usage": {
+            "en": "Fans make them from stages: \"엔딩 움짤 무한 반복 중\" (\"Watching the ending GIF on loop\").",
+            "es": "Los fans los hacen de las presentaciones: \"엔딩 움짤 무한 반복 중\" (\"Viendo el GIF del final en bucle\").",
+            "zh": "粉絲會從舞台做動圖：「엔딩 움짤 무한 반복 중」（無限循環ending動圖中）。",
+            "cn": "粉丝会从舞台做动图：“엔딩 움짤 무한 반복 중”（无限循环ending动图中）。",
+            "ja": "ファンはステージから作る：「엔딩 움짤 무한 반복 중」（エンディングのGIFを無限ループ中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "짤방",
+            "직캠"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "뇌절": {
+        "nuance": {
+            "en": "Dragging a joke or meme on so long it stops being funny. The origin is debated online; what matters is the meaning: \"enough already.\"",
+            "es": "Alargar un chiste o meme tanto que deja de tener gracia. Su origen se discute en internet; lo importante es el significado: \"ya basta\".",
+            "zh": "把一個梗拖太久，拖到不好笑。來源在網路上眾說紛紜，重點是意思：「夠了吧」。",
+            "cn": "把一个梗拖太久，拖到不好笑。来源在网络上众说纷纭，重点是意思：“够了吧”。",
+            "ja": "ネタやミームを引っ張りすぎて面白くなくなること。由来はネット上で諸説あるが、意味は「もういいって」。"
+        },
+        "usage": {
+            "en": "\"그만해, 이제 뇌절이야\" (\"Stop, you've taken it too far\").",
+            "es": "\"그만해, 이제 뇌절이야\" (\"Para, ya te pasaste\").",
+            "zh": "「그만해, 이제 뇌절이야」（夠了，太過頭了）。",
+            "cn": "“그만해, 이제 뇌절이야”（够了，太过头了）。",
+            "ja": "「그만해, 이제 뇌절이야」（やめて、もうしつこいよ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "갑분싸",
+            "노잼",
+            "드립력"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "만렙": {
+        "nuance": {
+            "en": "滿 + level: \"max level,\" from games — top-tier skill at something.",
+            "es": "滿 + level: \"nivel máximo\", de los videojuegos; habilidad de primer nivel en algo.",
+            "zh": "滿＋level：「滿級」，來自遊戲——某方面的技能到頂了。",
+            "cn": "满＋level：“满级”，来自游戏——某方面的技能到顶了。",
+            "ja": "満＋レベル。ゲームの「最大レベル」から、何かの腕前が最高レベルなこと。"
+        },
+        "usage": {
+            "en": "\"리액션 만렙\" (\"max-level reactions\"); \"눈치 만렙\" (\"expert at reading the room\").",
+            "es": "\"리액션 만렙\" (\"reacciones nivel máximo\"); \"눈치 만렙\" (\"experto en leer el ambiente\").",
+            "zh": "「리액션 만렙」（反應滿級）；「눈치 만렙」（察言觀色滿級）。",
+            "cn": "“리액션 만렙”（反应满级）；“눈치 만렙”（察言观色满级）。",
+            "ja": "「리액션 만렙」（リアクションがカンスト）；「눈치 만렙」（空気読みの達人）。"
+        },
+        "register": "casual",
+        "similar": [
+            "레전드",
+            "드립력"
+        ],
+        "tags": [
+            "praise",
+            "internet"
+        ]
+    },
+    "오글거리다": {
+        "nuance": {
+            "en": "To cringe: the curling-up feeling of second-hand embarrassment at something cheesy or awkward.",
+            "es": "Dar cringe: esa sensación de vergüenza ajena ante algo cursi o incómodo.",
+            "zh": "尷尬到起雞皮疙瘩：看到肉麻或尷尬的東西時，替人感到難為情的感覺。",
+            "cn": "尴尬到起鸡皮疙瘩：看到肉麻或尴尬的东西时，替人感到难为情的感觉。",
+            "ja": "むずがゆい、イタい。クサいセリフや気まずい場面に共感性羞恥を感じること。"
+        },
+        "usage": {
+            "en": "\"대사가 너무 오글거려\" (\"The lines are so cringey\"). Short form: 오글오글.",
+            "es": "\"대사가 너무 오글거려\" (\"Los diálogos dan mucho cringe\"). Forma corta: 오글오글.",
+            "zh": "「대사가 너무 오글거려」（台詞好肉麻）。也可以說오글오글。",
+            "cn": "“대사가 너무 오글거려”（台词好肉麻）。也可以说오글오글。",
+            "ja": "「대사가 너무 오글거려」（セリフがむずがゆい）。오글오글とも。"
+        },
+        "register": "everyday",
+        "similar": [
+            "흑역사",
+            "갑분싸",
+            "안습"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "나락": {
+        "nuance": {
+            "en": "奈落 — \"the abyss\" (from the Buddhist word for hell): a sudden fall in reputation or career after a scandal or bad comment.",
+            "es": "奈落, \"el abismo\" (del término budista para el infierno): una caída repentina de reputación o carrera tras un escándalo o un comentario.",
+            "zh": "奈落——「深淵」（源自佛教的地獄）：因醜聞或失言導致名聲或事業瞬間跌落。",
+            "cn": "奈落——“深渊”（源自佛教的地狱）：因丑闻或失言导致名声或事业瞬间跌落。",
+            "ja": "奈落。仏教の地獄を指す言葉から、スキャンダルや失言で評判やキャリアが急落すること。"
+        },
+        "usage": {
+            "en": "\"말 한마디로 나락 갔다\" (\"One remark sent him to rock bottom\"). Often used jokingly too.",
+            "es": "\"말 한마디로 나락 갔다\" (\"Con un solo comentario tocó fondo\"). También se usa en broma.",
+            "zh": "「말 한마디로 나락 갔다」（一句話就跌入深淵）。也常開玩笑用。",
+            "cn": "“말 한마디로 나락 갔다”（一句话就跌入深渊）。也常开玩笑用。",
+            "ja": "「말 한마디로 나락 갔다」（一言で奈落に落ちた）。冗談でもよく使う。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡락",
+            "어그로"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "떡상": {
+        "nuance": {
+            "en": "To skyrocket: views, popularity or prices shooting up all of a sudden.",
+            "es": "Dispararse: visitas, popularidad o precios que suben de golpe.",
+            "zh": "暴漲：觀看數、人氣或價格突然飆升。",
+            "cn": "暴涨：观看数、人气或价格突然飙升。",
+            "ja": "爆上がり。再生数や人気、価格が急に跳ね上がること。"
+        },
+        "usage": {
+            "en": "\"이 영상 하루 만에 떡상했어\" (\"This video blew up in a day\").",
+            "es": "\"이 영상 하루 만에 떡상했어\" (\"Este video se disparó en un día\").",
+            "zh": "「이 영상 하루 만에 떡상했어」（這支影片一天就爆紅了）。",
+            "cn": "“이 영상 하루 만에 떡상했어”（这支视频一天就爆红了）。",
+            "ja": "「이 영상 하루 만에 떡상했어」（この動画、1日で爆伸びした）。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡락",
+            "역주행"
+        ],
+        "tags": [
+            "internet",
+            "surprise"
+        ]
+    },
+    "떡락": {
+        "nuance": {
+            "en": "To plummet: the opposite of 떡상 — views, popularity or prices crashing.",
+            "es": "Desplomarse: lo contrario de 떡상, cuando visitas, popularidad o precios se caen.",
+            "zh": "暴跌：떡상的反義詞——觀看數、人氣或價格崩盤。",
+            "cn": "暴跌：떡상的反义词——观看数、人气或价格崩盘。",
+            "ja": "爆下がり。떡상の反対で、再生数や人気、価格が急落すること。"
+        },
+        "usage": {
+            "en": "\"주식이 떡락했어\" (\"My stocks crashed\"); \"인기 떡락\" (\"popularity nosedive\").",
+            "es": "\"주식이 떡락했어\" (\"Mis acciones se desplomaron\"); \"인기 떡락\" (\"caída en picada de popularidad\").",
+            "zh": "「주식이 떡락했어」（股票暴跌了）；「인기 떡락」（人氣暴跌）。",
+            "cn": "“주식이 떡락했어”（股票暴跌了）；“인기 떡락”（人气暴跌）。",
+            "ja": "「주식이 떡락했어」（株が暴落した）；「인기 떡락」（人気急落）。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡상",
+            "나락"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "어그로": {
+        "nuance": {
+            "en": "From the gaming term \"aggro\": deliberately provoking attention — clickbait titles, inflammatory comments, ragebait.",
+            "es": "Del término de videojuegos \"aggro\": provocar a propósito para llamar la atención, como títulos clickbait, comentarios incendiarios o ragebait.",
+            "zh": "來自遊戲用語「aggro（仇恨值）」：故意挑釁吸引注意——標題黨、引戰留言、釣魚文。",
+            "cn": "来自游戏用语“aggro（仇恨值）”：故意挑衅吸引注意——标题党、引战留言、钓鱼文。",
+            "ja": "ゲーム用語「アグロ（ヘイト）」から。わざと注目を集める挑発的な行為。釣りタイトル、炎上狙いのコメントなど。"
+        },
+        "usage": {
+            "en": "\"어그로 끌지 마\" (\"Stop baiting\"); \"제목 완전 어그로네\" (\"That title is total clickbait\").",
+            "es": "\"어그로 끌지 마\" (\"Deja de provocar\"); \"제목 완전 어그로네\" (\"Ese título es puro clickbait\").",
+            "zh": "「어그로 끌지 마」（別引戰）；「제목 완전 어그로네」（標題根本是釣魚）。",
+            "cn": "“어그로 끌지 마”（别引战）；“제목 완전 어그로네”（标题根本是钓鱼）。",
+            "ja": "「어그로 끌지 마」（釣るのやめて）；「제목 완전 어그로네」（タイトル完全に釣りだね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "나락",
+            "떡상"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "먹방": {
+        "nuance": {
+            "en": "먹는 방송 (\"eating broadcast\"): videos of people eating, often large amounts, while chatting with viewers. The word went global as \"mukbang.\"",
+            "es": "먹는 방송 (\"transmisión comiendo\"): videos de gente comiendo, a menudo mucho, mientras charla con los espectadores. La palabra se volvió global como \"mukbang\".",
+            "zh": "먹는 방송（吃播）：邊吃東西邊和觀眾聊天的影片，常常吃很大量。這個詞以「mukbang」紅遍全球。",
+            "cn": "먹는 방송（吃播）：边吃东西边和观众聊天的视频，常常吃很大量。这个词以“mukbang”红遍全球。",
+            "ja": "먹는 방송（食べる放送）。視聴者と話しながら食べる動画で、大量に食べることも多い。「モッパン」として世界に広まった。"
+        },
+        "usage": {
+            "en": "\"다이어트 중이라 먹방으로 대리만족해\" (\"I'm dieting, so I live vicariously through mukbangs\").",
+            "es": "\"다이어트 중이라 먹방으로 대리만족해\" (\"Estoy a dieta, así que me conformo viendo mukbangs\").",
+            "zh": "「다이어트 중이라 먹방으로 대리만족해」（在減肥，所以看吃播過過癮）。",
+            "cn": "“다이어트 중이라 먹방으로 대리만족해”（在减肥，所以看吃播过过瘾）。",
+            "ja": "「다이어트 중이라 먹방으로 대리만족해」（ダイエット中だからモッパンで代理満足）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "먹짱",
+            "관찰예능",
+            "브이로그"
+        ],
+        "tags": [
+            "variety",
+            "internet"
+        ]
+    },
+    "관찰예능": {
+        "nuance": {
+            "en": "觀察 variety — shows that follow celebrities' daily lives (living alone, parenting, travel) with the cast watching and commenting from a studio.",
+            "es": "觀察 variety: programas que siguen la vida diaria de famosos (vivir solos, crianza, viajes) mientras el elenco mira y comenta desde un estudio.",
+            "zh": "觀察綜藝——跟拍藝人日常生活（獨居、育兒、旅行），再由棚內來賓邊看邊評論的節目。",
+            "cn": "观察综艺——跟拍艺人日常生活（独居、育儿、旅行），再由棚内来宾边看边评论的节目。",
+            "ja": "観察バラエティ。芸能人の日常（一人暮らし、子育て、旅行）を追い、スタジオの出演者が見ながらコメントする番組。"
+        },
+        "usage": {
+            "en": "\"관찰예능 보면 연예인도 똑같이 사는구나 싶어\" (\"Watching observation shows, you realize celebs live like us\").",
+            "es": "\"관찰예능 보면 연예인도 똑같이 사는구나 싶어\" (\"Viendo estos programas te das cuenta de que los famosos viven como nosotros\").",
+            "zh": "「관찰예능 보면 연예인도 똑같이 사는구나 싶어」（看觀察綜藝就覺得藝人也跟我們一樣過日子）。",
+            "cn": "“관찰예능 보면 연예인도 똑같이 사는구나 싶어”（看观察综艺就觉得艺人也跟我们一样过日子）。",
+            "ja": "「관찰예능 보면 연예인도 똑같이 사는구나 싶어」（観察バラエティを見ると芸能人も同じように暮らしてるんだなと思う）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "리얼버라이어티",
+            "힐링예능",
+            "브이로그"
+        ],
+        "tags": [
+            "variety"
+        ]
+    },
+    "부캐": {
+        "nuance": {
+            "en": "Short for 부캐릭터 (\"sub-character,\" from games): an alter ego a celebrity performs under — a new name, look and backstory.",
+            "es": "Abreviatura de 부캐릭터 (\"personaje secundario\", de los videojuegos): un alter ego con el que actúa una celebridad, con nombre, look e historia propios.",
+            "zh": "부캐릭터（副角色，來自遊戲）的縮寫：藝人扮演的另一個身分——新名字、新造型和新設定。",
+            "cn": "부캐릭터（副角色，来自游戏）的缩写：艺人扮演的另一个身分——新名字、新造型和新设置。",
+            "ja": "부캐릭터（サブキャラ、ゲーム用語から）の略。芸能人が演じる別人格。名前も見た目も設定も別。"
+        },
+        "usage": {
+            "en": "Also used for anyone's side identity: \"회사원은 본캐, 베이커는 부캐\" (\"Office worker is my main, baker is my side character\").",
+            "es": "También para la identidad secundaria de cualquiera: \"회사원은 본캐, 베이커는 부캐\" (\"Oficinista es mi personaje principal, pastelera el secundario\").",
+            "zh": "也可以指任何人的副業身分：「회사원은 본캐, 베이커는 부캐」（上班族是本尊，烘焙師是分身）。",
+            "cn": "也可以指任何人的副业身分：“회사원은 본캐, 베이커는 부캐”（上班族是本尊，烘焙师是分身）。",
+            "ja": "誰の副業的な顔にも使う：「회사원은 본캐, 베이커는 부캐」（会社員が本キャラ、パン職人がサブキャラ）。"
+        },
+        "culture": {
+            "en": "Alter-ego personas became a big Korean variety trend around 2020, with celebrities debuting as fictional singers or characters.",
+            "es": "Los alter egos se volvieron una gran tendencia en las variedades coreanas alrededor de 2020, con famosos debutando como cantantes o personajes ficticios.",
+            "zh": "2020年前後，「分身角色」成為韓國綜藝大潮流，藝人以虛構歌手或角色身分出道。",
+            "cn": "2020年前后，“分身角色”成为韩国综艺大潮流，艺人以虚构歌手或角色身分出道。",
+            "ja": "2020年ごろ、韓国バラエティで別人格ブームが起き、芸能人が架空の歌手やキャラとしてデビューした。"
+        },
+        "register": "casual",
+        "similar": [
+            "본캐",
+            "예능캐릭터"
+        ],
+        "tags": [
+            "variety",
+            "internet"
+        ]
+    },
+    "본캐": {
+        "nuance": {
+            "en": "Short for 본캐릭터 (\"main character\"): someone's real, original identity, as opposed to their 부캐.",
+            "es": "Abreviatura de 본캐릭터 (\"personaje principal\"): la identidad real y original de alguien, frente a su 부캐.",
+            "zh": "본캐릭터（本角色）的縮寫：一個人原本的真實身分，相對於부캐（分身）。",
+            "cn": "본캐릭터（本角色）的缩写：一个人原本的真实身分，相对于부캐（分身）。",
+            "ja": "본캐릭터（本キャラ）の略。その人の本来の姿。부캐（サブキャラ）の対義語。"
+        },
+        "usage": {
+            "en": "\"부캐 활동 끝나고 본캐로 컴백\" (\"After the alter-ego project, back to his main identity\").",
+            "es": "\"부캐 활동 끝나고 본캐로 컴백\" (\"Tras el proyecto de alter ego, regresa con su identidad principal\").",
+            "zh": "「부캐 활동 끝나고 본캐로 컴백」（分身活動結束，以本尊身分回歸）。",
+            "cn": "“부캐 활동 끝나고 본캐로 컴백”（分身活动结束，以本尊身分回归）。",
+            "ja": "「부캐 활동 끝나고 본캐로 컴백」（サブキャラ活動を終えて本キャラでカムバック）。"
+        },
+        "register": "casual",
+        "similar": [
+            "부캐",
+            "본업"
+        ],
+        "tags": [
+            "variety",
+            "internet"
+        ]
+    },
+    "리얼버라이어티": {
+        "nuance": {
+            "en": "Real variety: shows where a fixed cast goes on missions, trips and games, with real reactions inside a loose format.",
+            "es": "Variedad real: programas donde un elenco fijo hace misiones, viajes y juegos, con reacciones reales dentro de un formato flexible.",
+            "zh": "真人實境綜藝：固定班底出任務、旅行、玩遊戲，在寬鬆的框架中呈現真實反應。",
+            "cn": "真人实境综艺：固定班底出任务、旅行、玩游戏，在宽松的框架中呈现真实反应。",
+            "ja": "リアルバラエティ。固定メンバーがミッションや旅行、ゲームに挑み、ゆるい枠組みの中で素のリアクションを見せる番組。"
+        },
+        "usage": {
+            "en": "\"리얼버라이어티 전성기 다시 보고 싶다\" (\"I miss the golden age of real variety\").",
+            "es": "\"리얼버라이어티 전성기 다시 보고 싶다\" (\"Extraño la época dorada de los programas de variedad real\").",
+            "zh": "「리얼버라이어티 전성기 다시 보고 싶다」（好想再看到真人綜藝的全盛期）。",
+            "cn": "“리얼버라이어티 전성기 다시 보고 싶다”（好想再看到真人综艺的全盛期）。",
+            "ja": "「리얼버라이어티 전성기 다시 보고 싶다」（リアルバラエティ全盛期がまた見たい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "관찰예능",
+            "복불복",
+            "몸개그"
+        ],
+        "tags": [
+            "variety"
+        ]
+    },
+    "힐링예능": {
+        "nuance": {
+            "en": "Healing variety: slow, cozy shows — cooking in the countryside, running a small shop, quiet travel — made to help viewers relax.",
+            "es": "Variedad de sanación: programas lentos y acogedores, como cocinar en el campo, atender una tiendita o viajar con calma, hechos para relajar.",
+            "zh": "療癒綜藝：節奏緩慢、溫馨的節目——在鄉下煮飯、經營小店、安靜旅行——讓觀眾放鬆。",
+            "cn": "疗愈综艺：节奏缓慢、温馨的节目——在乡下煮饭、经营小店、安静旅行——让观众放松。",
+            "ja": "ヒーリングバラエティ。田舎で料理したり小さな店を営んだり、静かに旅したりする、のんびり癒される番組。"
+        },
+        "usage": {
+            "en": "\"자기 전에 힐링예능 틀어 놔\" (\"I put on a healing show before bed\").",
+            "es": "\"자기 전에 힐링예능 틀어 놔\" (\"Pongo un programa relajante antes de dormir\").",
+            "zh": "「자기 전에 힐링예능 틀어 놔」（睡前開個療癒綜藝）。",
+            "cn": "“자기 전에 힐링예능 틀어 놔”（睡前开个疗愈综艺）。",
+            "ja": "「자기 전에 힐링예능 틀어 놔」（寝る前にヒーリング系バラエティを流してる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "관찰예능",
+            "리얼버라이어티"
+        ],
+        "tags": [
+            "variety"
+        ]
+    },
+    "먹짱": {
+        "nuance": {
+            "en": "먹다 (to eat) + 짱 (the best): someone famous for eating a lot — and happily — on camera.",
+            "es": "먹다 (comer) + 짱 (el mejor): alguien famoso por comer mucho, y con gusto, frente a la cámara.",
+            "zh": "먹다（吃）＋짱（最強）：以在鏡頭前大吃特吃、吃得很香出名的人。",
+            "cn": "먹다（吃）＋짱（最强）：以在镜头前大吃特吃、吃得很香出名的人。",
+            "ja": "먹다（食べる）＋짱（最強）。カメラの前でたくさん、おいしそうに食べることで有名な人。"
+        },
+        "usage": {
+            "en": "\"멤버 중에 먹짱은 막내야\" (\"The youngest is the group's big eater\").",
+            "es": "\"멤버 중에 먹짱은 막내야\" (\"La que más come del grupo es la menor\").",
+            "zh": "「멤버 중에 먹짱은 막내야」（成員裡最會吃的是忙內）。",
+            "cn": "“멤버 중에 먹짱은 막내야”（成员里最会吃的是忙内）。",
+            "ja": "「멤버 중에 먹짱은 막내야」（メンバーの中で大食いはマンネ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "먹방",
+            "예능캐릭터"
+        ],
+        "tags": [
+            "variety",
+            "praise"
+        ]
+    },
+    "몸개그": {
+        "nuance": {
+            "en": "Body gag: slapstick — falling, tripping, over-the-top physical reactions for laughs.",
+            "es": "Gag físico: humor slapstick, con caídas, tropiezos y reacciones físicas exageradas para hacer reír.",
+            "zh": "肢體搞笑：鬧劇式喜劇——跌倒、絆倒、誇張的肢體反應。",
+            "cn": "肢体搞笑：闹剧式喜剧——跌倒、绊倒、夸张的肢体反应。",
+            "ja": "体を張ったギャグ。転んだり、つまずいたり、大げさな体のリアクションで笑わせること。"
+        },
+        "usage": {
+            "en": "\"몸개그 장인\" (\"a master of physical comedy\") is a common nickname.",
+            "es": "\"몸개그 장인\" (\"maestro del humor físico\") es un apodo común.",
+            "zh": "「몸개그 장인」（肢體搞笑達人）是常見的稱號。",
+            "cn": "“몸개그 장인”（肢体搞笑达人）是常见的称号。",
+            "ja": "「몸개그 장인」（体張りギャグの職人）はよくあるあだ名。"
+        },
+        "register": "everyday",
+        "similar": [
+            "복불복",
+            "예능감",
+            "콩트"
+        ],
+        "tags": [
+            "variety",
+            "funny"
+        ]
+    },
+    "애드리브": {
+        "nuance": {
+            "en": "Ad-lib: an unscripted line or reaction. When it lands, fans clip it endlessly.",
+            "es": "Ad-lib: una línea o reacción fuera de guion. Cuando funciona, los fans la recortan sin parar.",
+            "zh": "即興：劇本以外的台詞或反應。效果好的話，粉絲會一直剪輯轉傳。",
+            "cn": "即兴：剧本以外的台词或反应。效果好的话，粉丝会一直剪辑转传。",
+            "ja": "アドリブ。台本にないセリフやリアクション。ハマるとファンが何度も切り抜く。"
+        },
+        "usage": {
+            "en": "\"그 대사 애드리브였대!\" (\"That line was an ad-lib!\").",
+            "es": "\"그 대사 애드리브였대!\" (\"¡Esa frase fue improvisada!\").",
+            "zh": "「그 대사 애드리브였대!」（那句台詞是即興的！）。",
+            "cn": "“그 대사 애드리브였대!”（那句台词是即兴的！）。",
+            "ja": "「그 대사 애드리브였대!」（あのセリフ、アドリブだったって！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "예능감",
+            "드립력",
+            "대본"
+        ],
+        "tags": [
+            "variety",
+            "drama"
+        ]
+    },
+    "콩트": {
+        "nuance": {
+            "en": "From French \"conte\": a short comedy sketch with characters and a setup.",
+            "es": "Del francés \"conte\": un sketch cómico corto con personajes y una situación.",
+            "zh": "來自法語「conte」：有角色和情境設定的短篇搞笑短劇。",
+            "cn": "来自法语“conte”：有角色和情境设置的短篇搞笑短剧。",
+            "ja": "フランス語「conte」から。登場人物と設定のある短いコント。"
+        },
+        "usage": {
+            "en": "\"이번 회는 멤버들 콩트 특집이야\" (\"This episode is a members' sketch special\").",
+            "es": "\"이번 회는 멤버들 콩트 특집이야\" (\"Este episodio es un especial de sketches de los miembros\").",
+            "zh": "「이번 회는 멤버들 콩트 특집이야」（這集是成員短劇特輯）。",
+            "cn": "“이번 회는 멤버들 콩트 특집이야”（这集是成员短剧特辑）。",
+            "ja": "「이번 회는 멤버들 콩트 특집이야」（今回はメンバーのコント特集）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "몸개그",
+            "애드리브"
+        ],
+        "tags": [
+            "variety",
+            "funny"
+        ]
+    },
+    "뒷광고": {
+        "nuance": {
+            "en": "\"Back-door ad\": sponsored content posted without disclosing it's paid, passed off as an honest review.",
+            "es": "\"Publicidad encubierta\": contenido patrocinado publicado sin decir que es pagado, presentado como una reseña honesta.",
+            "zh": "「背後廣告」：沒有標示是業配、偽裝成真實心得的贊助內容。",
+            "cn": "“背后广告”：没有标示是业配、伪装成真实心得的赞助内容。",
+            "ja": "「裏広告」。有償であることを明かさずに、正直なレビューのふりをしたステマ。"
+        },
+        "usage": {
+            "en": "\"뒷광고 아니고 내돈내산이에요\" (\"Not a secret ad — I bought it with my own money\").",
+            "es": "\"뒷광고 아니고 내돈내산이에요\" (\"No es publicidad encubierta, lo compré con mi dinero\").",
+            "zh": "「뒷광고 아니고 내돈내산이에요」（不是業配，是我自己花錢買的）。",
+            "cn": "“뒷광고 아니고 내돈내산이에요”（不是业配，是我自己花钱买的）。",
+            "ja": "「뒷광고 아니고 내돈내산이에요」（ステマじゃなくて自腹で買いました）。"
+        },
+        "culture": {
+            "en": "Undisclosed ads became a major controversy among Korean YouTubers in 2020, and disclosure rules for influencer ads were tightened.",
+            "es": "Los anuncios no declarados causaron una gran polémica entre YouTubers coreanos en 2020, y se endurecieron las reglas de divulgación para influencers.",
+            "zh": "2020年韓國YouTuber爆發大規模未標示廣告爭議，之後網紅廣告的標示規定變得更嚴格。",
+            "cn": "2020年韩国YouTuber爆发大规模未标示广告争议，之后网红广告的标示规定变得更严格。",
+            "ja": "2020年、韓国のYouTuberの間でステマが大きな問題になり、インフルエンサー広告の表示ルールが厳しくなった。"
+        },
+        "register": "everyday",
+        "similar": [
+            "어그로",
+            "광고모델"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "혼밥": {
+        "nuance": {
+            "en": "혼자 밥 (\"eating alone\"): having a meal by yourself — at a restaurant, without the old awkwardness.",
+            "es": "혼자 밥 (\"comer solo\"): comer sin compañía, incluso en restaurantes, sin la incomodidad de antes.",
+            "zh": "혼자 밥（一個人吃飯）：自己一個人用餐——在餐廳也不再覺得尷尬。",
+            "cn": "혼자 밥（一个人吃饭）：自己一个人用餐——在餐厅也不再觉得尴尬。",
+            "ja": "혼자 밥（一人ご飯）。一人で食事すること。店でも気まずさを感じずに。"
+        },
+        "usage": {
+            "en": "\"혼밥하기 좋은 식당 추천해 줘\" (\"Recommend a good restaurant for eating alone\").",
+            "es": "\"혼밥하기 좋은 식당 추천해 줘\" (\"Recomiéndame un restaurante bueno para comer solo\").",
+            "zh": "「혼밥하기 좋은 식당 추천해 줘」（推薦適合一個人吃飯的餐廳）。",
+            "cn": "“혼밥하기 좋은 식당 추천해 줘”（推荐适合一个人吃饭的餐厅）。",
+            "ja": "「혼밥하기 좋은 식당 추천해 줘」（一人ご飯にいい店教えて）。"
+        },
+        "culture": {
+            "en": "Korean meals are traditionally shared, so eating alone used to feel awkward. The 혼- words reflect how normal solo life has become.",
+            "es": "En Corea la comida se comparte tradicionalmente, por eso comer solo solía ser incómodo. Las palabras con 혼- reflejan lo normal que se ha vuelto la vida en solitario.",
+            "zh": "韓國飲食傳統上是共享的，所以以前一個人吃飯會很尷尬。這些「혼-」開頭的詞反映了獨自生活已經變得很普遍。",
+            "cn": "韩国饮食传统上是共享的，所以以前一个人吃饭会很尴尬。这些“혼-”开头的词反映了独自生活已经变得很普遍。",
+            "ja": "韓国の食事は本来みんなで分け合うもので、一人で食べるのは気まずいとされていた。「혼-」の言葉は一人暮らしが当たり前になったことを映している。"
+        },
+        "register": "everyday",
+        "similar": [
+            "혼술",
+            "혼놀",
+            "혼족"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "혼술": {
+        "nuance": {
+            "en": "혼자 술 (\"drinking alone\"): having a drink by yourself, at home or at a bar.",
+            "es": "혼자 술 (\"beber solo\"): tomar algo a solas, en casa o en un bar.",
+            "zh": "혼자 술（一個人喝酒）：在家或酒吧獨自小酌。",
+            "cn": "혼자 술（一个人喝酒）：在家或酒吧独自小酌。",
+            "ja": "혼자 술（一人飲み）。家やバーで一人でお酒を飲むこと。"
+        },
+        "usage": {
+            "en": "\"오늘은 조용히 혼술할래\" (\"I'll just have a quiet drink alone tonight\").",
+            "es": "\"오늘은 조용히 혼술할래\" (\"Hoy prefiero tomar algo tranquilo a solas\").",
+            "zh": "「오늘은 조용히 혼술할래」（今天想安靜地一個人喝一杯）。",
+            "cn": "“오늘은 조용히 혼술할래”（今天想安静地一个人喝一杯）。",
+            "ja": "「오늘은 조용히 혼술할래」（今日は静かに一人飲みしたい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "혼밥",
+            "혼놀",
+            "혼족"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "혼놀": {
+        "nuance": {
+            "en": "혼자 놀기 (\"playing alone\"): enjoying free time on your own — movies, cafés, karaoke, trips.",
+            "es": "혼자 놀기 (\"divertirse solo\"): disfrutar del tiempo libre a solas, con cine, cafés, karaoke o viajes.",
+            "zh": "혼자 놀기（一個人玩）：獨自享受空閒時間——看電影、咖啡廳、KTV、旅行。",
+            "cn": "혼자 놀기（一个人玩）：独自享受空闲时间——看电影、咖啡厅、KTV、旅行。",
+            "ja": "혼자 놀기（一人遊び）。一人で余暇を楽しむこと。映画、カフェ、カラオケ、旅行など。"
+        },
+        "usage": {
+            "en": "\"혼놀 고수라 하나도 안 심심해\" (\"I'm a pro at solo fun, so I'm never bored\").",
+            "es": "\"혼놀 고수라 하나도 안 심심해\" (\"Soy experta en divertirme sola, nunca me aburro\").",
+            "zh": "「혼놀 고수라 하나도 안 심심해」（我是一個人玩的高手，一點都不無聊）。",
+            "cn": "“혼놀 고수라 하나도 안 심심해”（我是一个人玩的高手，一点都不无聊）。",
+            "ja": "「혼놀 고수라 하나도 안 심심해」（一人遊びの達人だから全然退屈しない）。"
+        },
+        "register": "casual",
+        "similar": [
+            "혼밥",
+            "혼코노",
+            "혼족"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "혼족": {
+        "nuance": {
+            "en": "혼자 + 族 (tribe): people who prefer doing everyday things alone — eating, traveling, shopping.",
+            "es": "혼자 + 族 (tribu): personas que prefieren hacer las cosas cotidianas solas, como comer, viajar o comprar.",
+            "zh": "혼자（獨自）＋族：喜歡獨自吃飯、旅行、購物的人。",
+            "cn": "혼자（独自）＋族：喜欢独自吃饭、旅行、购物的人。",
+            "ja": "혼자（一人）＋族。食事や旅行、買い物など日常を一人で楽しむ人たち。"
+        },
+        "usage": {
+            "en": "Mostly in media and marketing: \"혼족을 위한 1인 메뉴\" (\"single-portion menus for solo diners\").",
+            "es": "Sobre todo en medios y marketing: \"혼족을 위한 1인 메뉴\" (\"menús individuales para quienes viven solos\").",
+            "zh": "多用在媒體和行銷：「혼족을 위한 1인 메뉴」（為獨身族推出的一人份菜單）。",
+            "cn": "多用在媒体和行销：“혼족을 위한 1인 메뉴”（为独身族推出的一人份菜单）。",
+            "ja": "主にメディアやマーケティングで：「혼족을 위한 1인 메뉴」（おひとりさま向けの一人前メニュー）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "혼밥",
+            "혼술",
+            "자취"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "자취": {
+        "nuance": {
+            "en": "自炊 — living on your own, away from family — typically students or young workers in a small studio.",
+            "es": "自炊: vivir por tu cuenta, lejos de la familia; típicamente estudiantes o jóvenes trabajadores en un estudio pequeño.",
+            "zh": "自炊——離開家人自己住，通常是學生或年輕上班族住小套房。",
+            "cn": "自炊——离开家人自己住，通常是学生或年轻上班族住小套房。",
+            "ja": "自炊。家族と離れて一人で暮らすこと。学生や若い社会人がワンルームに住むのが典型。"
+        },
+        "usage": {
+            "en": "\"자취 요리\" (\"cooking for one\") and \"자취방\" (\"a solo studio\") are popular search terms.",
+            "es": "\"자취 요리\" (\"cocina para uno\") y \"자취방\" (\"estudio para vivir solo\") son búsquedas populares.",
+            "zh": "「자취 요리」（獨居料理）和「자취방」（獨居套房）都是熱門搜尋詞。",
+            "cn": "“자취 요리”（独居料理）和“자취방”（独居套房）都是热门搜索词。",
+            "ja": "「자취 요리」（一人暮らし料理）や「자취방」（一人暮らしの部屋）はよく検索される言葉。"
+        },
+        "register": "everyday",
+        "similar": [
+            "혼족",
+            "혼밥"
+        ],
+        "tags": [
+            "chat",
+            "drama"
+        ]
+    },
+    "반전매력": {
+        "nuance": {
+            "en": "Reversal charm: an unexpected side that contrasts with someone's image — a fierce-looking idol who is shy and sweet.",
+            "es": "Encanto inesperado: un lado sorprendente que contrasta con la imagen de alguien, como un idol de aspecto rudo que es tímido y tierno.",
+            "zh": "反差萌：和外在形象形成對比的意外一面——外表很兇的偶像其實害羞又可愛。",
+            "cn": "反差萌：和外在形象形成对比的意外一面——外表很凶的偶像其实害羞又可爱。",
+            "ja": "ギャップ萌え。イメージと違う意外な一面。怖そうに見えるアイドルが実は照れ屋で優しい、など。"
+        },
+        "usage": {
+            "en": "\"무대에선 카리스마, 평소엔 허당. 이게 반전매력이지\" (\"Charismatic on stage, clumsy off it — that's reversal charm\").",
+            "es": "\"무대에선 카리스마, 평소엔 허당. 이게 반전매력이지\" (\"Carismático en el escenario, torpe en la vida diaria: eso es encanto inesperado\").",
+            "zh": "「무대에선 카리스마, 평소엔 허당. 이게 반전매력이지」（舞台上超有氣場，私下卻很迷糊——這就是反差萌）。",
+            "cn": "“무대에선 카리스마, 평소엔 허당. 이게 반전매력이지”（舞台上超有气场，私下却很迷糊——这就是反差萌）。",
+            "ja": "「무대에선 카리스마, 평소엔 허당. 이게 반전매력이지」（ステージではカリスマ、普段は抜けてる。これがギャップ萌え）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "반전",
+            "츤데레",
+            "애교"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "라이브방송": {
+        "nuance": {
+            "en": "A livestream, especially idols streaming directly to fans on fan platforms. Often shortened to 라방.",
+            "es": "Una transmisión en vivo, sobre todo de idols para sus fans en plataformas de fans. Se acorta a 라방.",
+            "zh": "直播，尤其是偶像在粉絲平台上直接對粉絲直播。常簡稱라방。",
+            "cn": "直播，尤其是偶像在粉丝平台上直接对粉丝直播。常简称라방。",
+            "ja": "ライブ配信。特にアイドルがファンプラットフォームでファンに向けて配信すること。라방と略す。"
+        },
+        "usage": {
+            "en": "\"라방 켰다! 빨리 들어와\" (\"They're live! Get in here\").",
+            "es": "\"라방 켰다! 빨리 들어와\" (\"¡Están en directo! Entra rápido\").",
+            "zh": "「라방 켰다! 빨리 들어와」（開直播了！快進來）。",
+            "cn": "“라방 켰다! 빨리 들어와”（开直播了！快进来）。",
+            "ja": "「라방 켰다! 빨리 들어와」（ライブ始まった！早く来て）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "라이브",
+            "개인방송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "본방사수": {
+        "nuance": {
+            "en": "\"Defend the original broadcast\": watching a show live when it airs, to support it in the ratings.",
+            "es": "\"Defender la emisión original\": ver un programa en vivo cuando se transmite, para apoyarlo en la audiencia.",
+            "zh": "「守護首播」：在節目播出時準時收看，幫忙衝收視率。",
+            "cn": "“守护首播”：在节目播出时准时收看，帮忙冲收视率。",
+            "ja": "「本放送死守」。放送時間にリアルタイムで見ること。視聴率で応援する意味も。"
+        },
+        "usage": {
+            "en": "\"오늘 밤 10시 본방사수!\" (\"Watch it live tonight at 10!\") is a classic fan reminder.",
+            "es": "\"오늘 밤 10시 본방사수!\" (\"¡Hoy a las 10 en vivo!\") es un recordatorio fan clásico.",
+            "zh": "「오늘 밤 10시 본방사수!」（今晚10點準時收看！）是經典的粉絲提醒。",
+            "cn": "“오늘 밤 10시 본방사수!”（今晚10点准时收看！）是经典的粉丝提醒。",
+            "ja": "「오늘 밤 10시 본방사수!」（今夜10時、リアタイ必須！）はファンの定番リマインド。"
+        },
+        "register": "everyday",
+        "similar": [
+            "재방송",
+            "시청률",
+            "첫방송"
+        ],
+        "tags": [
+            "drama",
+            "kpop-fan"
+        ]
+    },
+    "재방송": {
+        "nuance": {
+            "en": "再放送 — a rerun: a repeat broadcast of an episode that already aired.",
+            "es": "再放送: una repetición de un episodio que ya se emitió.",
+            "zh": "重播：已經播過的集數再播一次。",
+            "cn": "重播：已经播过的集数再播一次。",
+            "ja": "再放送。すでに放送された回をもう一度放送すること。"
+        },
+        "usage": {
+            "en": "\"본방 놓쳐서 재방송으로 봤어\" (\"I missed it live, so I caught the rerun\").",
+            "es": "\"본방 놓쳐서 재방송으로 봤어\" (\"Me perdí la emisión, así que vi la repetición\").",
+            "zh": "「본방 놓쳐서 재방송으로 봤어」（錯過首播，看了重播）。",
+            "cn": "“본방 놓쳐서 재방송으로 봤어”（错过首播，看了重播）。",
+            "ja": "「본방 놓쳐서 재방송으로 봤어」（本放送を見逃したから再放送で見た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "본방사수",
+            "몰아보기"
+        ],
+        "tags": [
+            "drama",
+            "variety"
+        ]
+    },
+    "시청률": {
+        "nuance": {
+            "en": "視聽率 — TV ratings: the share of households watching a broadcast. Big dramas are judged by their peak rating.",
+            "es": "視聽率: audiencia televisiva, el porcentaje de hogares que ven una emisión. Los grandes dramas se miden por su pico de audiencia.",
+            "zh": "收視率：收看某節目的家庭比例。大型韓劇常用最高收視率來評價。",
+            "cn": "收视率：收看某节目的家庭比例。大型韩剧常用最高收视率来评价。",
+            "ja": "視聴率。番組を見ている世帯の割合。大作ドラマは最高視聴率で評価されがち。"
+        },
+        "usage": {
+            "en": "\"자체 최고 시청률 경신!\" (\"A new personal-best rating!\").",
+            "es": "\"자체 최고 시청률 경신!\" (\"¡Nuevo récord de audiencia propio!\").",
+            "zh": "「자체 최고 시청률 경신!」（刷新自身最高收視率！）。",
+            "cn": "“자체 최고 시청률 경신!”（刷新自身最高收视率！）。",
+            "ja": "「자체 최고 시청률 경신!」（自己最高視聴率を更新！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "화제성",
+            "본방사수",
+            "국민드라마"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "화제성": {
+        "nuance": {
+            "en": "話題性 — buzz: how much a show or person is talked about online and in the news, now often counted alongside ratings.",
+            "es": "話題性: cuánto se habla de un programa o persona en internet y en las noticias; hoy se mide junto con la audiencia.",
+            "zh": "話題性——一部節目或一個人在網路和新聞上被討論的程度，現在常與收視率一起衡量。",
+            "cn": "话题性——一部节目或一个人在网络和新闻上被讨论的程度，现在常与收视率一起衡量。",
+            "ja": "話題性。番組や人物がネットやニュースでどれだけ話題になっているか。今は視聴率と並べて評価されることが多い。"
+        },
+        "usage": {
+            "en": "\"시청률은 낮아도 화제성은 1위\" (\"Low ratings, but #1 in buzz\") — common for streaming-era hits.",
+            "es": "\"시청률은 낮아도 화제성은 1위\" (\"Poca audiencia, pero número 1 en conversación\"), común en éxitos de la era del streaming.",
+            "zh": "「시청률은 낮아도 화제성은 1위」（收視率雖低，話題性卻第一）——串流時代的熱門作品常見。",
+            "cn": "“시청률은 낮아도 화제성은 1위”（收视率虽低，话题性却第一）——串流时代的热门作品常见。",
+            "ja": "「시청률은 낮아도 화제성은 1위」（視聴率は低くても話題性は1位）。配信時代のヒット作によくある。"
+        },
+        "register": "everyday",
+        "similar": [
+            "시청률",
+            "떡상"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "케미폭발": {
+        "nuance": {
+            "en": "\"Chemistry explosion\": chemistry so strong it's undeniable on screen.",
+            "es": "\"Explosión de química\": una química tan fuerte que es imposible ignorarla en pantalla.",
+            "zh": "「化學反應大爆發」：螢幕上的火花強到無法忽視。",
+            "cn": "“化学反应大爆发”：屏幕上的火花强到无法忽视。",
+            "ja": "「ケミ爆発」。画面越しでも否定できないほど強い相性。"
+        },
+        "usage": {
+            "en": "\"이 커플 케미폭발이라 실제로 사귀었으면\" (\"Their chemistry is off the charts — I wish they'd date for real\").",
+            "es": "\"이 커플 케미폭발이라 실제로 사귀었으면\" (\"Tienen tanta química que ojalá salieran de verdad\").",
+            "zh": "「이 커플 케미폭발이라 실제로 사귀었으면」（這對化學反應爆棚，真希望他們真的交往）。",
+            "cn": "“이 커플 케미폭발이라 실제로 사귀었으면”（这对化学反应爆棚，真希望他们真的交往）。",
+            "ja": "「이 커플 케미폭발이라 실제로 사귀었으면」（このカップルのケミ爆発、本当に付き合ってほしい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "케미",
+            "럽라인"
+        ],
+        "tags": [
+            "praise",
+            "drama"
+        ]
+    },
+    "대본": {
+        "nuance": {
+            "en": "臺本 — a script for a drama, film or show.",
+            "es": "臺本: el guion de un drama, película o programa.",
+            "zh": "台本——劇集、電影或節目的劇本。",
+            "cn": "台本——剧集、电影或节目的剧本。",
+            "ja": "台本。ドラマ、映画、番組の脚本。"
+        },
+        "usage": {
+            "en": "\"대본 리딩 현장 공개\" (\"First script-reading footage released\") is a typical pre-premiere teaser. Also: \"대본에 없던 장면\" (\"a scene that wasn't in the script\").",
+            "es": "\"대본 리딩 현장 공개\" (\"Publican la primera lectura del guion\") es un adelanto típico antes del estreno. También: \"대본에 없던 장면\" (\"una escena que no estaba en el guion\").",
+            "zh": "「대본 리딩 현장 공개」（公開劇本圍讀現場）是開播前的典型宣傳。也有「대본에 없던 장면」（劇本裡沒有的場面）。",
+            "cn": "“대본 리딩 현장 공개”（公开剧本围读现场）是开播前的典型宣传。也有“대본에 없던 장면”（剧本里没有的场面）。",
+            "ja": "「대본 리딩 현장 공개」（台本読み合わせ現場公開）は放送前の定番の予告。「대본에 없던 장면」（台本になかった場面）とも。"
+        },
+        "register": "everyday",
+        "similar": [
+            "애드리브",
+            "각색",
+            "명대사"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "본업": {
+        "nuance": {
+            "en": "本業 — someone's main profession. 본업 잘하는 (\"great at their actual job\") is high praise.",
+            "es": "本業: la profesión principal de alguien. 본업 잘하는 (\"bueno en su trabajo de verdad\") es un gran elogio.",
+            "zh": "本業——一個人的主要職業。「본업 잘하는」（本業做得很好）是很高的讚美。",
+            "cn": "本业——一个人的主要职业。“본업 잘하는”（本业做得很好）是很高的赞美。",
+            "ja": "本業。その人の本来の仕事。「본업 잘하는」（本業がちゃんとすごい）は最高のほめ言葉。"
+        },
+        "usage": {
+            "en": "After a great stage: \"역시 본업 천재\" (\"A genius at their real job, as expected\"). The opposite worry: \"본업에 집중해 줘\" (\"Please focus on your main work\").",
+            "es": "Tras una gran presentación: \"역시 본업 천재\" (\"Un genio en lo suyo, como siempre\"). La preocupación contraria: \"본업에 집중해 줘\" (\"Enfócate en tu trabajo principal\").",
+            "zh": "精彩舞台後：「역시 본업 천재」（果然是本業天才）。相反的擔心：「본업에 집중해 줘」（請專注本業）。",
+            "cn": "精彩舞台后：“역시 본업 천재”（果然是本业天才）。相反的担心：“본업에 집중해 줘”（请专注本业）。",
+            "ja": "最高のステージの後に：「역시 본업 천재」（さすが本業の天才）。逆の心配は「본업에 집중해 줘」（本業に集中して）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "본캐",
+            "만능돌",
+            "열일"
+        ],
+        "tags": [
+            "praise",
+            "kpop-fan"
+        ]
+    },
+    "조연": {
+        "nuance": {
+            "en": "助演 — a supporting role or supporting actor, as opposed to the lead (주연).",
+            "es": "助演: un papel o actor secundario, frente al protagonista (주연).",
+            "zh": "助演——配角或配角演員，相對於主角（주연）。",
+            "cn": "助演——配角或配角演员，相对于主角（주연）。",
+            "ja": "助演。脇役や助演俳優。主役（주연）の対義語。"
+        },
+        "usage": {
+            "en": "\"조연인데 주연보다 더 기억에 남아\" (\"A supporting role, but more memorable than the lead\").",
+            "es": "\"조연인데 주연보다 더 기억에 남아\" (\"Es secundario, pero se recuerda más que el protagonista\").",
+            "zh": "「조연인데 주연보다 더 기억에 남아」（明明是配角，卻比主角更讓人印象深刻）。",
+            "cn": "“조연인데 주연보다 더 기억에 남아”（明明是配角，却比主角更让人印象深刻）。",
+            "ja": "「조연인데 주연보다 더 기억에 남아」（脇役なのに主役より印象に残る）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "신스틸러",
+            "카메오",
+            "인생캐릭터"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "신파": {
+        "nuance": {
+            "en": "新派 — melodrama: overly sentimental storytelling built to make you cry, often with illness, sacrifice or family tragedy.",
+            "es": "新派: melodrama, una narrativa demasiado sentimental hecha para hacer llorar, a menudo con enfermedades, sacrificios o tragedias familiares.",
+            "zh": "新派——煽情劇：刻意催淚的過度感傷敘事，常有絕症、犧牲或家庭悲劇。",
+            "cn": "新派——煽情剧：刻意催泪的过度感伤叙事，常有绝症、牺牲或家庭悲剧。",
+            "ja": "新派。泣かせるために作られた過度に感傷的な物語。病気や犠牲、家族の悲劇などが定番。"
+        },
+        "usage": {
+            "en": "Usually a criticism: \"후반부가 너무 신파라 아쉬워\" (\"The second half got too melodramatic\").",
+            "es": "Suele ser una crítica: \"후반부가 너무 신파라 아쉬워\" (\"La segunda mitad se volvió demasiado melodramática\").",
+            "zh": "通常是批評：「후반부가 너무 신파라 아쉬워」（後半段太煽情了，很可惜）。",
+            "cn": "通常是批评：“후반부가 너무 신파라 아쉬워”（后半段太煽情了，很可惜）。",
+            "ja": "たいてい批判として使う：「후반부가 너무 신파라 아쉬워」（後半が新派すぎて残念）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "클리셰",
+            "새드엔딩",
+            "시한부"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "클리셰": {
+        "nuance": {
+            "en": "From French \"cliché\": a predictable, overused trope — the wrist grab, the amnesia, the rich lead's disapproving mother.",
+            "es": "Del francés \"cliché\": un recurso predecible y gastado, como agarrar la muñeca, la amnesia o la madre que desaprueba al protagonista rico.",
+            "zh": "來自法語「cliché」：老套又被用爛的橋段——抓手腕、失憶、富家男主反對交往的媽媽。",
+            "cn": "来自法语“cliché”：老套又被用烂的桥段——抓手腕、失忆、富家男主反对交往的妈妈。",
+            "ja": "フランス語「cliché」から。予想どおりの使い古された展開。手首をつかむ、記憶喪失、御曹司の反対する母親など。"
+        },
+        "usage": {
+            "en": "Not always negative: \"클리셰 범벅인데 재밌어\" (\"It's full of clichés but still fun\").",
+            "es": "No siempre es negativo: \"클리셰 범벅인데 재밌어\" (\"Está lleno de clichés, pero es divertido\").",
+            "zh": "不一定是負面：「클리셰 범벅인데 재밌어」（滿滿老梗，但還是好看）。",
+            "cn": "不一定是负面：“클리셰 범벅인데 재밌어”（满满老梗，但还是好看）。",
+            "ja": "悪い意味とは限らない：「클리셰 범벅인데 재밌어」（ベタだらけなのに面白い）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "신파",
+            "출생의 비밀",
+            "재벌",
+            "개연성"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "복선": {
+        "nuance": {
+            "en": "伏線 — foreshadowing: a hint planted early that pays off later.",
+            "es": "伏線: un indicio sembrado al principio que se resuelve después.",
+            "zh": "伏筆——早早埋下、後來才揭曉的線索。",
+            "cn": "伏笔——早早埋下、后来才揭晓的线索。",
+            "ja": "伏線。前半に仕込まれ、後で回収されるヒント。"
+        },
+        "usage": {
+            "en": "\"1화 그 대사가 복선이었어!\" (\"That line in episode 1 was foreshadowing!\").",
+            "es": "\"1화 그 대사가 복선이었어!\" (\"¡Esa frase del episodio 1 era una pista!\").",
+            "zh": "「1화 그 대사가 복선이었어!」（第一集那句台詞原來是伏筆！）。",
+            "cn": "“1화 그 대사가 복선이었어!”（第一集那句台词原来是伏笔！）。",
+            "ja": "「1화 그 대사가 복선이었어!」（1話のあのセリフ、伏線だった！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "떡밥",
+            "떡밥회수",
+            "반전"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "떡밥회수": {
+        "nuance": {
+            "en": "\"Collecting the bait\": when foreshadowing and dangling mysteries finally get resolved.",
+            "es": "\"Recoger el cebo\": cuando por fin se resuelven las pistas y los misterios pendientes.",
+            "zh": "「回收魚餌」：埋下的伏筆和懸念終於被解開。",
+            "cn": "“回收鱼饵”：埋下的伏笔和悬念终于被解开。",
+            "ja": "「餌の回収」。伏線や謎がついに回収されること。"
+        },
+        "usage": {
+            "en": "Praise or complaint: \"떡밥회수 완벽해\" (\"Every setup paid off\") vs. \"떡밥만 뿌리고 회수를 안 해\" (\"All bait, no payoff\").",
+            "es": "Elogio o queja: \"떡밥회수 완벽해\" (\"Todo se resolvió perfecto\") vs. \"떡밥만 뿌리고 회수를 안 해\" (\"Solo siembra pistas y nunca las resuelve\").",
+            "zh": "可以是稱讚也可以是抱怨：「떡밥회수 완벽해」（伏筆回收完美）vs.「떡밥만 뿌리고 회수를 안 해」（只埋伏筆不回收）。",
+            "cn": "可以是称赞也可以是抱怨：“떡밥회수 완벽해”（伏笔回收完美）vs.“떡밥만 뿌리고 회수를 안 해”（只埋伏笔不回收）。",
+            "ja": "ほめ言葉にも不満にも：「떡밥회수 완벽해」（伏線回収が完璧）と「떡밥만 뿌리고 회수를 안 해」（伏線ばらまいて回収しない）。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡밥",
+            "복선",
+            "반전"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "열린결말": {
+        "nuance": {
+            "en": "An open ending: the story stops without a clear resolution, leaving viewers to interpret it.",
+            "es": "Un final abierto: la historia termina sin una resolución clara y deja la interpretación al público.",
+            "zh": "開放式結局：故事沒有明確收尾，留給觀眾自行解讀。",
+            "cn": "开放式结局：故事没有明确收尾，留给观众自行解读。",
+            "ja": "オープンエンド。はっきり決着をつけずに終わり、解釈を視聴者に委ねる結末。"
+        },
+        "usage": {
+            "en": "Often debated: \"열린결말이라 시즌2 나올 것 같아\" (\"With that open ending, I bet there's a season 2\").",
+            "es": "Suele generar debate: \"열린결말이라 시즌2 나올 것 같아\" (\"Con ese final abierto, seguro hay temporada 2\").",
+            "zh": "常引發討論：「열린결말이라 시즌2 나올 것 같아」（開放式結局，應該會有第二季）。",
+            "cn": "常引发讨论：“열린결말이라 시즌2 나올 것 같아”（开放式结局，应该会有第二季）。",
+            "ja": "議論になりがち：「열린결말이라 시즌2 나올 것 같아」（オープンエンドだからシーズン2ありそう）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "새드엔딩",
+            "해피엔딩",
+            "시즌제"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "새드엔딩": {
+        "nuance": {
+            "en": "A sad ending — breakups, death or loss at the end of the story.",
+            "es": "Un final triste, con separaciones, muertes o pérdidas al final de la historia.",
+            "zh": "悲劇結局——故事最後分手、死亡或失去。",
+            "cn": "悲剧结局——故事最后分手、死亡或失去。",
+            "ja": "サッドエンド。別れや死、喪失で終わる結末。"
+        },
+        "usage": {
+            "en": "Fans warn each other: \"새드엔딩이라 마음의 준비 하고 봐\" (\"It's a sad ending, so brace yourself\").",
+            "es": "Los fans se avisan: \"새드엔딩이라 마음의 준비 하고 봐\" (\"Tiene final triste, prepárate\").",
+            "zh": "粉絲會互相提醒：「새드엔딩이라 마음의 준비 하고 봐」（是悲劇結局，做好心理準備再看）。",
+            "cn": "粉丝会互相提醒：“새드엔딩이라 마음의 준비 하고 봐”（是悲剧结局，做好心理准备再看）。",
+            "ja": "ファン同士で注意喚起：「새드엔딩이라 마음의 준비 하고 봐」（サッドエンドだから心の準備して見て）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "해피엔딩",
+            "열린결말",
+            "신파"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "해피엔딩": {
+        "nuance": {
+            "en": "A happy ending — the couple together, problems solved.",
+            "es": "Un final feliz: la pareja junta y los problemas resueltos.",
+            "zh": "快樂結局——情侶在一起、問題都解決了。",
+            "cn": "快乐结局——情侣在一起、问题都解决了。",
+            "ja": "ハッピーエンド。二人が結ばれ、問題が解決する結末。"
+        },
+        "usage": {
+            "en": "\"해피엔딩 확인하고 정주행 시작함\" (\"I checked it had a happy ending before starting the binge\").",
+            "es": "\"해피엔딩 확인하고 정주행 시작함\" (\"Confirmé que tenía final feliz antes de empezar el maratón\").",
+            "zh": "「해피엔딩 확인하고 정주행 시작함」（確認是快樂結局才開始追）。",
+            "cn": "“해피엔딩 확인하고 정주행 시작함”（确认是快乐结局才开始追）。",
+            "ja": "「해피엔딩 확인하고 정주행 시작함」（ハッピーエンドを確認してから一気見開始）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "새드엔딩",
+            "열린결말"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "반전": {
+        "nuance": {
+            "en": "反轉 — a plot twist; also any surprising turn, like an unexpected side of someone (see 반전매력).",
+            "es": "反轉: un giro argumental; también cualquier vuelta sorprendente, como un lado inesperado de alguien (ver 반전매력).",
+            "zh": "反轉——劇情大逆轉；也可以指任何出乎意料的轉折，例如某人意外的一面（見반전매력）。",
+            "cn": "反转——剧情大逆转；也可以指任何出乎意料的转折，例如某人意外的一面（见반전매력）。",
+            "ja": "反転。どんでん返し。人の意外な一面など、予想外の展開全般にも使う（반전매력参照）。"
+        },
+        "usage": {
+            "en": "\"마지막 반전 소름 돋았어\" (\"The final twist gave me chills\").",
+            "es": "\"마지막 반전 소름 돋았어\" (\"El giro final me dio escalofríos\").",
+            "zh": "「마지막 반전 소름 돋았어」（最後的反轉讓我起雞皮疙瘩）。",
+            "cn": "“마지막 반전 소름 돋았어”（最后的反转让我起鸡皮疙瘩）。",
+            "ja": "「마지막 반전 소름 돋았어」（最後のどんでん返しに鳥肌立った）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "복선",
+            "반전매력",
+            "클리프행어"
+        ],
+        "tags": [
+            "drama",
+            "surprise"
+        ]
+    },
+    "명대사": {
+        "nuance": {
+            "en": "名臺詞 — an iconic line people quote long after the show ends.",
+            "es": "名臺詞: una frase icónica que la gente sigue citando mucho después de que termina el programa.",
+            "zh": "名台詞——節目結束很久後大家還在引用的經典台詞。",
+            "cn": "名台词——节目结束很久后大家还在引用的经典台词。",
+            "ja": "名台詞。ドラマが終わってもずっと引用される印象的なセリフ。"
+        },
+        "usage": {
+            "en": "\"이 드라마 명대사 모음\" (\"best lines from this drama\") is a classic video and post title.",
+            "es": "\"이 드라마 명대사 모음\" (\"mejores frases de este drama\") es un título clásico de videos y publicaciones.",
+            "zh": "「이 드라마 명대사 모음」（這部劇的名台詞合集）是經典的影片和貼文標題。",
+            "cn": "“이 드라마 명대사 모음”（这部剧的名台词合集）是经典的视频和贴文标题。",
+            "ja": "「이 드라마 명대사 모음」（このドラマの名台詞まとめ）は動画や投稿の定番タイトル。"
+        },
+        "register": "everyday",
+        "similar": [
+            "명장면",
+            "대본",
+            "명작"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "명장면": {
+        "nuance": {
+            "en": "名場面 — an iconic scene everyone remembers and replays.",
+            "es": "名場面: una escena icónica que todos recuerdan y vuelven a ver.",
+            "zh": "名場面——大家都記得、會一再重看的經典場面。",
+            "cn": "名场面——大家都记得、会一再重看的经典场面。",
+            "ja": "名場面。誰もが覚えていて何度も見返すシーン。"
+        },
+        "usage": {
+            "en": "\"이 장면은 두고두고 명장면이야\" (\"This scene will be iconic for years\").",
+            "es": "\"이 장면은 두고두고 명장면이야\" (\"Esta escena será icónica por años\").",
+            "zh": "「이 장면은 두고두고 명장면이야」（這一幕會成為永遠的名場面）。",
+            "cn": "“이 장면은 두고두고 명장면이야”（这一幕会成为永远的名场面）。",
+            "ja": "「이 장면은 두고두고 명장면이야」（このシーンはずっと語り継がれる名場面）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "명대사",
+            "레전드",
+            "명작"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "시즌제": {
+        "nuance": {
+            "en": "Season format: releasing a drama in multiple seasons. Traditionally rare for Korean dramas, now more common with streaming.",
+            "es": "Formato por temporadas: lanzar un drama en varias temporadas. Era raro en los dramas coreanos, hoy es más común con el streaming.",
+            "zh": "季播制：分多季播出的形式。以前韓劇很少見，串流時代變得比較普遍。",
+            "cn": "季播制：分多季播出的形式。以前韩剧很少见，串流时代变得比较普遍。",
+            "ja": "シーズン制。ドラマを複数シーズンで制作すること。韓国ドラマでは以前は珍しかったが、配信時代に増えている。"
+        },
+        "usage": {
+            "en": "\"시즌제 확정이래!\" (\"They confirmed more seasons!\").",
+            "es": "\"시즌제 확정이래!\" (\"¡Confirmaron más temporadas!\").",
+            "zh": "「시즌제 확정이래!」（確定要做季播了！）。",
+            "cn": "“시즌제 확정이래!”（确定要做季播了！）。",
+            "ja": "「시즌제 확정이래!」（シーズン制決定だって！）。"
+        },
+        "culture": {
+            "en": "Most Korean dramas were traditionally written as one complete story of about 16 episodes, which is why season 2 announcements are big news.",
+            "es": "Tradicionalmente, la mayoría de los dramas coreanos se escribían como una historia completa de unos 16 episodios; por eso anunciar una segunda temporada es gran noticia.",
+            "zh": "韓劇傳統上大多是約16集的完整故事，所以宣布第二季就是大新聞。",
+            "cn": "韩剧传统上大多是约16集的完整故事，所以宣布第二季就是大新闻。",
+            "ja": "韓国ドラマは伝統的に約16話で完結する作品が多く、だからシーズン2の発表は大ニュースになる。"
+        },
+        "register": "everyday",
+        "similar": [
+            "열린결말",
+            "스핀오프",
+            "프리퀄"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "원작": {
+        "nuance": {
+            "en": "原作 — the original work a drama or film is adapted from, often a webtoon or web novel.",
+            "es": "原作: la obra original en la que se basa un drama o película, a menudo un webtoon o una webnovela.",
+            "zh": "原作——劇集或電影改編的原始作品，常是網漫或網路小說。",
+            "cn": "原作——剧集或电影改编的原始作品，常是网漫或网络小说。",
+            "ja": "原作。ドラマや映画の元になった作品。ウェブトゥーンやWeb小説が多い。"
+        },
+        "usage": {
+            "en": "\"원작 웹툰 보고 드라마 봤어\" (\"I read the original webtoon, then watched the drama\").",
+            "es": "\"원작 웹툰 보고 드라마 봤어\" (\"Leí el webtoon original y luego vi el drama\").",
+            "zh": "「원작 웹툰 보고 드라마 봤어」（先看原作網漫再看劇）。",
+            "cn": "“원작 웹툰 보고 드라마 봤어”（先看原作网漫再看剧）。",
+            "ja": "「원작 웹툰 보고 드라마 봤어」（原作ウェブトゥーンを読んでからドラマを見た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "원작파괴",
+            "각색",
+            "원작팬",
+            "웹소설"
+        ],
+        "tags": [
+            "drama",
+            "webtoon"
+        ]
+    },
+    "원작파괴": {
+        "nuance": {
+            "en": "\"Destroying the original\": an adaptation that changes the source so much fans feel it's ruined.",
+            "es": "\"Destruir el original\": una adaptación que cambia tanto la obra que los fans sienten que la arruinó.",
+            "zh": "「毀原作」：改編改動太大，讓原作粉絲覺得被毀了。",
+            "cn": "“毁原作”：改编改动太大，让原作粉丝觉得被毁了。",
+            "ja": "「原作破壊」。原作を大きく変えすぎて、ファンが台無しだと感じる映像化。"
+        },
+        "usage": {
+            "en": "\"캐릭터 성격까지 바꿔서 원작파괴야\" (\"They even changed the characters' personalities — it ruins the original\").",
+            "es": "\"캐릭터 성격까지 바꿔서 원작파괴야\" (\"Hasta cambiaron la personalidad de los personajes, arruinaron el original\").",
+            "zh": "「캐릭터 성격까지 바꿔서 원작파괴야」（連角色性格都改了，根本毀原作）。",
+            "cn": "“캐릭터 성격까지 바꿔서 원작파괴야”（连角色性格都改了，根本毁原作）。",
+            "ja": "「캐릭터 성격까지 바꿔서 원작파괴야」（キャラの性格まで変えて原作破壊だよ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "원작",
+            "각색",
+            "원작팬"
+        ],
+        "tags": [
+            "drama",
+            "annoyed"
+        ]
+    },
+    "각색": {
+        "nuance": {
+            "en": "脚色 — adaptation: rewriting source material into a script.",
+            "es": "脚色: adaptación, reescribir una obra original como guion.",
+            "zh": "改編——把原作改寫成劇本。",
+            "cn": "改编——把原作改写成剧本。",
+            "ja": "脚色。原作を脚本に書き直すこと。"
+        },
+        "usage": {
+            "en": "\"각색이 원작보다 낫다\" (\"The adaptation is better than the original\") is rare but high praise.",
+            "es": "\"각색이 원작보다 낫다\" (\"La adaptación es mejor que el original\") es raro, pero un gran elogio.",
+            "zh": "「각색이 원작보다 낫다」（改編比原作更好）很少見，但是很高的評價。",
+            "cn": "“각색이 원작보다 낫다”（改编比原作更好）很少见，但是很高的评价。",
+            "ja": "「각색이 원작보다 낫다」（脚色が原作より良い）は珍しいが最高の評価。"
+        },
+        "register": "everyday",
+        "similar": [
+            "원작",
+            "원작파괴",
+            "대본"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "본편": {
+        "nuance": {
+            "en": "本編 — the main episode or content, as opposed to extras, previews or behind-the-scenes.",
+            "es": "本編: el episodio o contenido principal, frente a extras, avances o detrás de cámaras.",
+            "zh": "本篇——正片，相對於花絮、預告或幕後。",
+            "cn": "本篇——正片，相对于花絮、预告或幕后。",
+            "ja": "本編。おまけや予告、メイキングではないメインの回や内容。"
+        },
+        "usage": {
+            "en": "\"본편보다 비하인드가 더 웃겨\" (\"The behind-the-scenes is funnier than the main episode\").",
+            "es": "\"본편보다 비하인드가 더 웃겨\" (\"El detrás de cámaras es más gracioso que el episodio\").",
+            "zh": "「본편보다 비하인드가 더 웃겨」（花絮比正片還好笑）。",
+            "cn": "“본편보다 비하인드가 더 웃겨”（花絮比正片还好笑）。",
+            "ja": "「본편보다 비하인드가 더 웃겨」（本編よりメイキングの方が面白い）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "비하인드",
+            "스핀오프",
+            "무편집"
+        ],
+        "tags": [
+            "drama",
+            "variety"
+        ]
+    },
+    "스핀오프": {
+        "nuance": {
+            "en": "A spin-off: a new show set in the same world but focused on different characters or a side story.",
+            "es": "Un spin-off: un nuevo programa en el mismo universo, centrado en otros personajes o una historia paralela.",
+            "zh": "衍生作品：同一世界觀、但聚焦不同角色或支線故事的新節目。",
+            "cn": "衍生作品：同一世界观、但聚焦不同角色或支线故事的新节目。",
+            "ja": "スピンオフ。同じ世界観で、別のキャラや別の話を描く新作。"
+        },
+        "usage": {
+            "en": "\"이 커플 스핀오프 만들어 줘\" (\"Please make a spin-off for this couple\").",
+            "es": "\"이 커플 스핀오프 만들어 줘\" (\"Hagan un spin-off de esta pareja, por favor\").",
+            "zh": "「이 커플 스핀오프 만들어 줘」（請幫這對拍衍生劇）。",
+            "cn": "“이 커플 스핀오프 만들어 줘”（请帮这对拍衍生剧）。",
+            "ja": "「이 커플 스핀오프 만들어 줘」（このカップルのスピンオフ作って）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "프리퀄",
+            "시즌제",
+            "본편"
+        ],
+        "tags": [
+            "drama",
+            "variety"
+        ]
+    },
+    "프리퀄": {
+        "nuance": {
+            "en": "A prequel: a story set before the events of the original.",
+            "es": "Una precuela: una historia ambientada antes de los hechos del original.",
+            "zh": "前傳：發生在原作事件之前的故事。",
+            "cn": "前传：发生在原作事件之前的故事。",
+            "ja": "前日譚（プリクエル）。元の作品より前の出来事を描く物語。"
+        },
+        "usage": {
+            "en": "\"악역이 왜 그렇게 됐는지 프리퀄로 보고 싶어\" (\"I want a prequel showing how the villain became that way\").",
+            "es": "\"악역이 왜 그렇게 됐는지 프리퀄로 보고 싶어\" (\"Quiero una precuela que muestre cómo el villano llegó a ser así\").",
+            "zh": "「악역이 왜 그렇게 됐는지 프리퀄로 보고 싶어」（想看反派變成那樣的前傳）。",
+            "cn": "“악역이 왜 그렇게 됐는지 프리퀄로 보고 싶어”（想看反派变成那样的前传）。",
+            "ja": "「악역이 왜 그렇게 됐는지 프리퀄로 보고 싶어」（悪役がどうしてああなったのか、前日譚で見たい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스핀오프",
+            "시즌제"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "정주행": {
+        "nuance": {
+            "en": "\"Driving straight ahead\": binge-watching or binge-reading from episode 1 to the end. The opposite of 역주행 (going back).",
+            "es": "\"Conducir de frente\": ver o leer de corrido desde el episodio 1 hasta el final. Lo contrario de 역주행 (ir en reversa).",
+            "zh": "「順向行駛」：從第一集一路追到最後，一口氣看完或讀完。相反詞是역주행（逆行）。",
+            "cn": "“顺向行驶”：从第一集一路追到最后，一口气看完或读完。相反词是역주행（逆行）。",
+            "ja": "「正走行」。1話から最後まで一気に見る・読むこと。역주행（逆走）の反対。"
+        },
+        "usage": {
+            "en": "\"주말에 16부작 정주행 끝냈어\" (\"I finished a 16-episode binge over the weekend\").",
+            "es": "\"주말에 16부작 정주행 끝냈어\" (\"Terminé un maratón de 16 episodios el fin de semana\").",
+            "zh": "「주말에 16부작 정주행 끝냈어」（週末一口氣追完16集）。",
+            "cn": "“주말에 16부작 정주행 끝냈어”（周末一口气追完16集）。",
+            "ja": "「주말에 16부작 정주행 끝냈어」（週末に全16話を一気見し終えた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "몰아보기",
+            "완결",
+            "배속재생"
+        ],
+        "tags": [
+            "drama",
+            "webtoon"
+        ]
+    },
+    "완결": {
+        "nuance": {
+            "en": "完結 — finished: a webtoon, novel or series that has fully ended.",
+            "es": "完結: terminado, un webtoon, novela o serie que ya concluyó por completo.",
+            "zh": "完結——網漫、小說或系列已經全部結束。",
+            "cn": "完结——网漫、小说或系列已经全部结束。",
+            "ja": "完結。ウェブトゥーンや小説、シリーズが最後まで終わったこと。"
+        },
+        "usage": {
+            "en": "Many readers wait for it: \"완결 나면 한 번에 볼래\" (\"I'll read it all at once when it's finished\").",
+            "es": "Muchos lectores esperan a que termine: \"완결 나면 한 번에 볼래\" (\"Lo leeré de una vez cuando termine\").",
+            "zh": "很多讀者會等完結：「완결 나면 한 번에 볼래」（等完結再一次看完）。",
+            "cn": "很多读者会等完结：“완결 나면 한 번에 볼래”（等完结再一次看完）。",
+            "ja": "完結を待つ読者も多い：「완결 나면 한 번에 볼래」（完結したら一気に読む）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "연재중",
+            "정주행",
+            "종영"
+        ],
+        "tags": [
+            "webtoon",
+            "drama"
+        ]
+    },
+    "연재중": {
+        "nuance": {
+            "en": "連載中 — still ongoing: a webtoon or web novel releasing new episodes on a schedule.",
+            "es": "連載中: en curso, un webtoon o webnovela que sigue publicando capítulos con regularidad.",
+            "zh": "連載中——網漫或網路小說仍在定期更新。",
+            "cn": "连载中——网漫或网络小说仍在定期更新。",
+            "ja": "連載中。ウェブトゥーンやWeb小説が定期的に更新されている状態。"
+        },
+        "usage": {
+            "en": "\"연재중이라 매주 기다리는 게 고통이야\" (\"It's still ongoing, so the weekly wait is torture\").",
+            "es": "\"연재중이라 매주 기다리는 게 고통이야\" (\"Sigue publicándose y esperar cada semana es una tortura\").",
+            "zh": "「연재중이라 매주 기다리는 게 고통이야」（還在連載，每週等更新好痛苦）。",
+            "cn": "“연재중이라 매주 기다리는 게 고통이야”（还在连载，每周等更新好痛苦）。",
+            "ja": "「연재중이라 매주 기다리는 게 고통이야」（連載中だから毎週待つのがつらい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "완결",
+            "휴재",
+            "웹소설"
+        ],
+        "tags": [
+            "webtoon"
+        ]
+    },
+    "휴재": {
+        "nuance": {
+            "en": "休載 — a break in a webtoon or web novel's regular updates.",
+            "es": "休載: una pausa en las actualizaciones regulares de un webtoon o webnovela.",
+            "zh": "休載——網漫或網路小說暫停定期更新。",
+            "cn": "休载——网漫或网络小说暂停定期更新。",
+            "ja": "休載。ウェブトゥーンやWeb小説の定期更新がお休みになること。"
+        },
+        "usage": {
+            "en": "\"작가님 건강 때문에 2주 휴재래\" (\"The artist is taking a two-week break for their health\").",
+            "es": "\"작가님 건강 때문에 2주 휴재래\" (\"El autor hará una pausa de dos semanas por salud\").",
+            "zh": "「작가님 건강 때문에 2주 휴재래」（作者因為健康因素休載兩週）。",
+            "cn": "“작가님 건강 때문에 2주 휴재래”（作者因为健康因素休载两周）。",
+            "ja": "「작가님 건강 때문에 2주 휴재래」（作家さんの体調で2週休載だって）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "연재중",
+            "완결"
+        ],
+        "tags": [
+            "webtoon"
+        ]
+    },
+    "먼치킨": {
+        "nuance": {
+            "en": "\"Munchkin\" (from tabletop-gaming slang): an overpowered protagonist who is far stronger than everyone else.",
+            "es": "\"Munchkin\" (de la jerga de juegos de rol): un protagonista demasiado poderoso, mucho más fuerte que todos.",
+            "zh": "「Munchkin」（來自桌遊玩家用語）：強到碾壓所有人的開掛主角。",
+            "cn": "“Munchkin”（来自桌游玩家用语）：强到碾压所有人的开挂主角。",
+            "ja": "「マンチキン」（TRPG用語から）。周りより圧倒的に強いチート主人公。"
+        },
+        "usage": {
+            "en": "\"먼치킨물이라 답답할 틈이 없어\" (\"It's an OP-protagonist story, so there's no frustration\").",
+            "es": "\"먼치킨물이라 답답할 틈이 없어\" (\"Es una historia de protagonista OP, no hay momento de frustración\").",
+            "zh": "「먼치킨물이라 답답할 틈이 없어」（主角開掛的故事，完全不憋屈）。",
+            "cn": "“먼치킨물이라 답답할 틈이 없어”（主角开挂的故事，完全不憋屈）。",
+            "ja": "「먼치킨물이라 답답할 틈이 없어」（チート主人公ものだからもどかしさゼロ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "회빙환",
+            "웹소설"
+        ],
+        "tags": [
+            "webtoon"
+        ]
+    },
+    "회빙환": {
+        "nuance": {
+            "en": "회귀 (regression) + 빙의 (possession) + 환생 (reincarnation): the umbrella label for web novels where the hero goes back in time, wakes up in someone else's body, or is reborn.",
+            "es": "회귀 (regresión) + 빙의 (posesión) + 환생 (reencarnación): la etiqueta general de webnovelas donde el protagonista vuelve al pasado, despierta en otro cuerpo o renace.",
+            "zh": "회귀（回歸）＋빙의（附身）＋환생（轉生）：主角回到過去、穿越到別人身上或重生的網路小說統稱。",
+            "cn": "회귀（回归）＋빙의（附身）＋환생（转生）：主角回到过去、穿越到别人身上或重生的网络小说统称。",
+            "ja": "회귀（回帰）＋빙의（憑依）＋환생（転生）。主人公が過去に戻る、他人の体に入る、生まれ変わるWeb小説の総称。"
+        },
+        "usage": {
+            "en": "\"요즘 웹소설 랭킹은 다 회빙환이야\" (\"Every top web novel these days is regression, possession or reincarnation\").",
+            "es": "\"요즘 웹소설 랭킹은 다 회빙환이야\" (\"Hoy todo el ranking de webnovelas es regresión, posesión o reencarnación\").",
+            "zh": "「요즘 웹소설 랭킹은 다 회빙환이야」（最近網路小說排行榜全是回歸附身轉生）。",
+            "cn": "“요즘 웹소설 랭킹은 다 회빙환이야”（最近网络小说排行榜全是回归附身转生）。",
+            "ja": "「요즘 웹소설 랭킹은 다 회빙환이야」（最近のWeb小説ランキングは回帰・憑依・転生ばかり）。"
+        },
+        "register": "casual",
+        "similar": [
+            "먼치킨",
+            "웹소설",
+            "로맨스판타지"
+        ],
+        "tags": [
+            "webtoon"
+        ]
+    },
+    "혐관": {
+        "nuance": {
+            "en": "Short for 혐오 관계 (\"hate relationship\"): characters who can't stand each other at first — and slowly fall for each other. Enemies-to-lovers.",
+            "es": "Abreviatura de 혐오 관계 (\"relación de odio\"): personajes que no se soportan al principio y poco a poco se enamoran. Enemies-to-lovers.",
+            "zh": "혐오 관계（厭惡關係）的縮寫：一開始互看不順眼，後來慢慢愛上對方。歡喜冤家／相愛相殺。",
+            "cn": "혐오 관계（厌恶关系）的缩写：一开始互看不顺眼，后来慢慢爱上对方。欢喜冤家／相爱相杀。",
+            "ja": "혐오 관계（嫌悪関係）の略。最初はいがみ合っていた二人が少しずつ惹かれていく関係。いわゆる「敵から恋人へ」。"
+        },
+        "usage": {
+            "en": "A favorite tag in romance webtoons: \"혐관 로맨스 추천해 줘\" (\"Recommend me an enemies-to-lovers romance\").",
+            "es": "Una etiqueta favorita en webtoons románticos: \"혐관 로맨스 추천해 줘\" (\"Recomiéndame un romance de enemigos a amantes\").",
+            "zh": "愛情網漫的熱門標籤：「혐관 로맨스 추천해 줘」（推薦我相愛相殺的愛情故事）。",
+            "cn": "爱情网漫的热门标签：“혐관 로맨스 추천해 줘”（推荐我相爱相杀的爱情故事）。",
+            "ja": "恋愛ウェブトゥーンで人気のタグ：「혐관 로맨스 추천해 줘」（敵から恋人系のロマンス教えて）。"
+        },
+        "register": "casual",
+        "similar": [
+            "츤데레",
+            "로맨스판타지",
+            "클리셰"
+        ],
+        "tags": [
+            "romance",
+            "webtoon",
+            "drama"
+        ]
+    },
+    "정발": {
+        "nuance": {
+            "en": "Short for 정식 발매 (\"official release\"): a licensed release or translation in another country or language.",
+            "es": "Abreviatura de 정식 발매 (\"lanzamiento oficial\"): una edición o traducción con licencia en otro país o idioma.",
+            "zh": "정식 발매（正式發行）的縮寫：在其他國家或語言的正版發行或翻譯。",
+            "cn": "정식 발매（正式发行）的缩写：在其他国家或语言的正版发行或翻译。",
+            "ja": "정식 발매（正式発売）の略。他の国や言語での正規版の発売・翻訳。"
+        },
+        "usage": {
+            "en": "International fans celebrate: \"드디어 영어판 정발!\" (\"The official English edition is finally out!\").",
+            "es": "Los fans internacionales lo celebran: \"드디어 영어판 정발!\" (\"¡Por fin salió la edición oficial en inglés!\").",
+            "zh": "海外粉絲會慶祝：「드디어 영어판 정발!」（英文版終於正式發行了！）。",
+            "cn": "海外粉丝会庆祝：“드디어 영어판 정발!”（英文版终于正式发行了！）。",
+            "ja": "海外ファンが喜ぶ：「드디어 영어판 정발!」（ついに英語版が正式発売！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "웹소설",
+            "원작",
+            "더빙"
+        ],
+        "tags": [
+            "webtoon"
+        ]
+    },
+    "웹소설": {
+        "nuance": {
+            "en": "A web novel: fiction published in short episodes on apps, often paid per chapter. Many hit webtoons and dramas start as web novels.",
+            "es": "Una webnovela: ficción publicada en capítulos cortos en apps, a menudo pagando por capítulo. Muchos webtoons y dramas exitosos empiezan así.",
+            "zh": "網路小說：在App上以短篇章節連載、常按章付費的小說。很多熱門網漫和韓劇都是從網路小說開始的。",
+            "cn": "网络小说：在App上以短篇章节连载、常按章付费的小说。很多热门网漫和韩剧都是从网络小说开始的。",
+            "ja": "Web小説。アプリで短い話ごとに公開され、1話ごとに課金されることも多い小説。人気ウェブトゥーンやドラマの原作になることが多い。"
+        },
+        "usage": {
+            "en": "\"이 드라마 원작 웹소설 먼저 읽었어\" (\"I read the original web novel first\").",
+            "es": "\"이 드라마 원작 웹소설 먼저 읽었어\" (\"Primero leí la webnovela original\").",
+            "zh": "「이 드라마 원작 웹소설 먼저 읽었어」（我先讀了這部劇的原作網路小說）。",
+            "cn": "“이 드라마 원작 웹소설 먼저 읽었어”（我先读了这部剧的原作网络小说）。",
+            "ja": "「이 드라마 원작 웹소설 먼저 읽었어」（このドラマの原作Web小説を先に読んだ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "회빙환",
+            "먼치킨",
+            "원작",
+            "로맨스판타지"
+        ],
+        "tags": [
+            "webtoon"
+        ]
+    },
+    "카메오": {
+        "nuance": {
+            "en": "A cameo: a brief surprise appearance by a famous person.",
+            "es": "Un cameo: una breve aparición sorpresa de alguien famoso.",
+            "zh": "客串：名人短暫的驚喜登場。",
+            "cn": "客串：名人短暂的惊喜登场。",
+            "ja": "カメオ。有名人がほんの少しだけサプライズ出演すること。"
+        },
+        "usage": {
+            "en": "\"카메오로 나온 거 보고 소리 질렀어\" (\"I screamed when they showed up in a cameo\").",
+            "es": "\"카메오로 나온 거 보고 소리 질렀어\" (\"Grité cuando apareció en un cameo\").",
+            "zh": "「카메오로 나온 거 보고 소리 질렀어」（看到他客串出場就尖叫了）。",
+            "cn": "“카메오로 나온 거 보고 소리 질렀어”（看到他客串出场就尖叫了）。",
+            "ja": "「카메오로 나온 거 보고 소리 질렀어」（カメオで出てきて叫んだ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "조연",
+            "특집",
+            "신스틸러"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "특집": {
+        "nuance": {
+            "en": "特輯 — a special episode, often for holidays, anniversaries or a big guest.",
+            "es": "特輯: un episodio especial, a menudo por festividades, aniversarios o un invitado importante.",
+            "zh": "特輯——特別集數，常是節日、紀念日或大咖來賓。",
+            "cn": "特辑——特别集数，常是节日、纪念日或大咖来宾。",
+            "ja": "特集。祝日や記念日、大物ゲストなどに合わせた特別回。"
+        },
+        "usage": {
+            "en": "\"추석 특집 아이돌 운동회\" (\"Chuseok special idol sports day\") is a typical holiday lineup.",
+            "es": "\"추석 특집 아이돌 운동회\" (\"especial de Chuseok: competencia deportiva de idols\") es un clásico de las fiestas.",
+            "zh": "「추석 특집 아이돌 운동회」（中秋特輯偶像運動會）是典型的節日節目。",
+            "cn": "“추석 특집 아이돌 운동회”（中秋特辑偶像运动会）是典型的节日节目。",
+            "ja": "「추석 특집 아이돌 운동회」（秋夕特集アイドル運動会）は祝日の定番。"
+        },
+        "register": "everyday",
+        "similar": [
+            "설날",
+            "추석",
+            "파일럿프로그램"
+        ],
+        "tags": [
+            "variety"
+        ]
+    },
+    "명불허전": {
+        "nuance": {
+            "en": "名不虛傳 — a four-character idiom: \"the reputation is not false.\" Someone truly lives up to the hype.",
+            "es": "名不虛傳, un proverbio de cuatro caracteres: \"la fama no es falsa\". Alguien está realmente a la altura de lo que se dice.",
+            "zh": "名不虛傳——四字成語：名聲不是假的，真的名副其實。",
+            "cn": "名不虚传——四字成语：名声不是假的，真的名副其实。",
+            "ja": "名不虚伝。四字熟語で「評判は嘘ではない」。噂どおりの実力があること。"
+        },
+        "usage": {
+            "en": "\"라이브 들어 보니 명불허전이네\" (\"Hearing it live — they really live up to the hype\").",
+            "es": "\"라이브 들어 보니 명불허전이네\" (\"Al escucharlo en vivo, está a la altura de su fama\").",
+            "zh": "「라이브 들어 보니 명불허전이네」（聽了現場，果然名不虛傳）。",
+            "cn": "“라이브 들어 보니 명불허전이네”（听了现场，果然名不虚传）。",
+            "ja": "「라이브 들어 보니 명불허전이네」（生で聴いたら評判どおりだ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "레전드",
+            "본업",
+            "명작"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "초호화캐스팅": {
+        "nuance": {
+            "en": "\"Ultra-luxury casting\": a project packed with big-name stars.",
+            "es": "\"Reparto de súper lujo\": un proyecto lleno de estrellas famosas.",
+            "zh": "「超豪華卡司」：集結多位大牌明星的作品。",
+            "cn": "“超豪华卡司”：集结多位大牌明星的作品。",
+            "ja": "「超豪華キャスティング」。大物スターが勢ぞろいした作品。"
+        },
+        "usage": {
+            "en": "Common in news headlines: \"초호화캐스팅으로 기대감 상승\" (\"Expectations soar with the all-star cast\").",
+            "es": "Común en titulares: \"초호화캐스팅으로 기대감 상승\" (\"Crecen las expectativas con el reparto estelar\").",
+            "zh": "新聞標題常見：「초호화캐스팅으로 기대감 상승」（超豪華卡司讓期待值飆升）。",
+            "cn": "新闻标题常见：“초호화캐스팅으로 기대감 상승”（超豪华卡司让期待值飙升）。",
+            "ja": "ニュース見出しでよく見る：「초호화캐스팅으로 기대감 상승」（超豪華キャストで期待高まる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "카메오",
+            "흥행"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "열일": {
+        "nuance": {
+            "en": "Short for 열심히 일하다 (\"work hard\"): hustling nonstop. Fans use it to praise a busy schedule.",
+            "es": "Abreviatura de 열심히 일하다 (\"trabajar duro\"): no parar de trabajar. Los fans lo usan para elogiar una agenda llena.",
+            "zh": "열심히 일하다（努力工作）的縮寫：一直在拼。粉絲用來稱讚行程滿檔。",
+            "cn": "열심히 일하다（努力工作）的缩写：一直在拼。粉丝用来称赞行程满档。",
+            "ja": "열심히 일하다（一生懸命働く）の略。休みなく頑張ること。ファンが忙しいスケジュールを称える時に使う。"
+        },
+        "usage": {
+            "en": "\"이번 달 열일 행보\" (\"a hard-working month\"); also to staff: \"편집자님 열일하셨네요\" (\"The editor really went all out\").",
+            "es": "\"이번 달 열일 행보\" (\"un mes de mucho trabajo\"); también para el staff: \"편집자님 열일하셨네요\" (\"El editor se lució\").",
+            "zh": "「이번 달 열일 행보」（這個月超拼的行程）；也可以對工作人員說：「편집자님 열일하셨네요」（剪輯師辛苦了，太用心）。",
+            "cn": "“이번 달 열일 행보”（这个月超拼的行程）；也可以对工作人员说：“편집자님 열일하셨네요”（剪辑师辛苦了，太用心）。",
+            "ja": "「이번 달 열일 행보」（今月の働きっぷり）；スタッフにも：「편집자님 열일하셨네요」（編集さん、いい仕事してる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "본업",
+            "컴백각"
+        ],
+        "tags": [
+            "praise",
+            "kpop-fan"
+        ]
+    },
+    "컴백각": {
+        "nuance": {
+            "en": "컴백 + 각 (\"angle,\" slang for \"it's looking like\"): signs that a comeback is coming soon.",
+            "es": "컴백 + 각 (\"ángulo\", jerga para \"tiene pinta de\"): señales de que se viene un comeback.",
+            "zh": "컴백＋각（「角度」，流行語中指「看起來要…」）：快要回歸的跡象。",
+            "cn": "컴백＋각（“角度”，流行语中指“看起来要…”）：快要回归的迹象。",
+            "ja": "컴백＋각（「角度」、スラングで「〜しそうな流れ」）。カムバックが近そうなサイン。"
+        },
+        "usage": {
+            "en": "\"프로필 사진 바뀐 거 보니 컴백각이다\" (\"They changed their profile pictures — a comeback is coming\").",
+            "es": "\"프로필 사진 바뀐 거 보니 컴백각이다\" (\"Cambiaron la foto de perfil, se viene comeback\").",
+            "zh": "「프로필 사진 바뀐 거 보니 컴백각이다」（大頭貼換了，看來要回歸了）。",
+            "cn": "“프로필 사진 바뀐 거 보니 컴백각이다”（大头贴换了，看来要回归了）。",
+            "ja": "「프로필 사진 바뀐 거 보니 컴백각이다」（プロフィール写真が変わった、カムバック来るね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "컴백",
+            "떡밥",
+            "티저"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "설날": {
+        "nuance": {
+            "en": "Lunar New Year: one of Korea's two biggest holidays, with family gatherings, ancestral rites, formal bows and rice-cake soup.",
+            "es": "Año Nuevo lunar: una de las dos fiestas más grandes de Corea, con reuniones familiares, ritos a los ancestros, reverencias formales y sopa de pastel de arroz.",
+            "zh": "農曆新年：韓國兩大節日之一，有家族團聚、祭祀祖先、行大禮和吃年糕湯。",
+            "cn": "农历新年：韩国两大节日之一，有家族团聚、祭祀祖先、行大礼和吃年糕汤。",
+            "ja": "旧正月。韓国の二大名節の一つで、家族の集まり、先祖の祭祀、正式なお辞儀、トックッ（雑煮）がつきもの。"
+        },
+        "usage": {
+            "en": "\"설날 잘 보내세요!\" (\"Have a great Lunar New Year!\"); \"새해 복 많이 받으세요\" (\"Happy New Year\") is the standard greeting.",
+            "es": "\"설날 잘 보내세요!\" (\"¡Feliz Año Nuevo lunar!\"); \"새해 복 많이 받으세요\" (\"Feliz año nuevo\") es el saludo estándar.",
+            "zh": "「설날 잘 보내세요!」（新年快樂！）；「새해 복 많이 받으세요」（新年多福）是標準問候。",
+            "cn": "“설날 잘 보내세요!”（新年快乐！）；“새해 복 많이 받으세요”（新年多福）是标准问候。",
+            "ja": "「설날 잘 보내세요!」（良いお正月を！）；「새해 복 많이 받으세요」（明けましておめでとう）が定番のあいさつ。"
+        },
+        "culture": {
+            "en": "Holidays bring special variety episodes and idol sports-day shows, so K-pop fans notice them even abroad.",
+            "es": "Las fiestas traen episodios especiales de variedades y competencias deportivas de idols, así que los fans del K-pop las notan incluso desde el extranjero.",
+            "zh": "節日會有特別綜藝和偶像運動會，所以海外的K-pop粉絲也會注意到。",
+            "cn": "节日会有特别综艺和偶像运动会，所以海外的K-pop粉丝也会注意到。",
+            "ja": "名節には特別バラエティやアイドル運動会が放送されるので、海外のK-POPファンにもおなじみ。"
+        },
+        "register": "everyday",
+        "similar": [
+            "세뱃돈",
+            "떡국",
+            "한복",
+            "추석"
+        ],
+        "tags": [
+            "tradition"
+        ]
+    },
+    "추석": {
+        "nuance": {
+            "en": "秋夕 — Korea's autumn harvest festival on the 15th day of the 8th lunar month, often compared to Thanksgiving.",
+            "es": "秋夕: el festival coreano de la cosecha, el día 15 del octavo mes lunar; suele compararse con el Día de Acción de Gracias.",
+            "zh": "秋夕——韓國的中秋節，農曆八月十五日的豐收節日，常被比作感恩節。",
+            "cn": "秋夕——韩国的中秋节，农历八月十五日的丰收节日，常被比作感恩节。",
+            "ja": "秋夕（チュソク）。旧暦8月15日の秋の収穫祭で、感謝祭にたとえられることが多い。"
+        },
+        "usage": {
+            "en": "\"추석 연휴에 고향 내려가\" (\"I'm going back to my hometown for the Chuseok holiday\").",
+            "es": "\"추석 연휴에 고향 내려가\" (\"Voy a mi pueblo por el feriado de Chuseok\").",
+            "zh": "「추석 연휴에 고향 내려가」（中秋連假要回老家）。",
+            "cn": "“추석 연휴에 고향 내려가”（中秋连假要回老家）。",
+            "ja": "「추석 연휴에 고향 내려가」（秋夕の連休に地元へ帰る）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "설날",
+            "성묘",
+            "한복",
+            "특집"
+        ],
+        "tags": [
+            "tradition"
+        ]
+    },
+    "세뱃돈": {
+        "nuance": {
+            "en": "Lunar New Year money: cash elders give children after they perform 세배, a deep formal New Year's bow.",
+            "es": "Dinero de Año Nuevo lunar: el efectivo que los mayores dan a los niños después de que hacen 세배, una reverencia formal profunda.",
+            "zh": "壓歲錢：孩子向長輩行세배（新年大禮）後，長輩給的紅包。",
+            "cn": "压岁钱：孩子向长辈行세배（新年大礼）后，长辈给的红包。",
+            "ja": "お年玉。子どもが세배（新年の正式なお辞儀）をした後に、目上の人からもらうお金。"
+        },
+        "usage": {
+            "en": "\"세뱃돈 받으려고 한복 입었어\" (\"I wore hanbok to get New Year's money\").",
+            "es": "\"세뱃돈 받으려고 한복 입었어\" (\"Me puse hanbok para recibir el dinero de Año Nuevo\").",
+            "zh": "「세뱃돈 받으려고 한복 입었어」（為了拿壓歲錢穿了韓服）。",
+            "cn": "“세뱃돈 받으려고 한복 입었어”（为了拿压岁钱穿了韩服）。",
+            "ja": "「세뱃돈 받으려고 한복 입었어」（お年玉をもらうために韓服を着た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "설날",
+            "떡국",
+            "한복"
+        ],
+        "tags": [
+            "tradition"
+        ]
+    },
+    "떡국": {
+        "nuance": {
+            "en": "Rice-cake soup with sliced 떡, eaten on Lunar New Year's morning. Folk saying: one bowl makes you a year older.",
+            "es": "Sopa de pastel de arroz en rodajas, que se come la mañana del Año Nuevo lunar. Dicho popular: un tazón te hace un año mayor.",
+            "zh": "年糕湯：農曆新年早上吃的切片年糕湯。俗話說吃一碗就長一歲。",
+            "cn": "年糕汤：农历新年早上吃的切片年糕汤。俗话说吃一碗就长一岁。",
+            "ja": "トックッ（雑煮）。薄切りの餅が入ったスープで、旧正月の朝に食べる。一杯食べると一歳年を取ると言われる。"
+        },
+        "usage": {
+            "en": "A classic joke: \"떡국 두 그릇 먹으면 두 살 먹는 거야?\" (\"If I eat two bowls, do I get two years older?\").",
+            "es": "Un chiste clásico: \"떡국 두 그릇 먹으면 두 살 먹는 거야?\" (\"¿Si como dos tazones, envejezco dos años?\").",
+            "zh": "經典玩笑：「떡국 두 그릇 먹으면 두 살 먹는 거야?」（吃兩碗是不是長兩歲？）。",
+            "cn": "经典玩笑：“떡국 두 그릇 먹으면 두 살 먹는 거야?”（吃两碗是不是长两岁？）。",
+            "ja": "定番の冗談：「떡국 두 그릇 먹으면 두 살 먹는 거야?」（2杯食べたら2歳年取るの？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "설날",
+            "세뱃돈"
+        ],
+        "tags": [
+            "tradition"
+        ]
+    },
+    "한복": {
+        "nuance": {
+            "en": "Hanbok: traditional Korean clothing, worn for holidays, weddings and special photo shoots.",
+            "es": "Hanbok: la ropa tradicional coreana, usada en festividades, bodas y sesiones de fotos especiales.",
+            "zh": "韓服：韓國傳統服裝，在節日、婚禮和特別寫真時穿。",
+            "cn": "韩服：韩国传统服装，在节日、婚礼和特别写真时穿。",
+            "ja": "韓服（ハンボク）。韓国の伝統衣装で、名節や結婚式、特別な撮影で着る。"
+        },
+        "usage": {
+            "en": "Idols post holiday greetings in it: \"한복 화보 너무 예쁘다\" (\"The hanbok photos are gorgeous\").",
+            "es": "Los idols publican saludos festivos con él: \"한복 화보 너무 예쁘다\" (\"Las fotos con hanbok están preciosas\").",
+            "zh": "偶像會穿韓服發節日問候：「한복 화보 너무 예쁘다」（韓服畫報好美）。",
+            "cn": "偶像会穿韩服发节日问候：“한복 화보 너무 예쁘다”（韩服画报好美）。",
+            "ja": "アイドルは韓服で名節のあいさつを投稿する：「한복 화보 너무 예쁘다」（韓服グラビアきれいすぎる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "설날",
+            "추석",
+            "화보"
+        ],
+        "tags": [
+            "tradition"
+        ]
+    },
+    "성묘": {
+        "nuance": {
+            "en": "省墓 — visiting and tidying ancestors' graves, a traditional holiday custom, especially around Chuseok.",
+            "es": "省墓: visitar y arreglar las tumbas de los ancestros, una costumbre tradicional, sobre todo en Chuseok.",
+            "zh": "省墓——掃墓，探望並整理祖先墳墓的傳統習俗，尤其在中秋前後。",
+            "cn": "省墓——扫墓，探望并整理祖先坟墓的传统习俗，尤其在中秋前后。",
+            "ja": "省墓。先祖の墓を訪れて手入れする伝統的な風習で、特に秋夕の頃に行う。"
+        },
+        "usage": {
+            "en": "\"추석 전에 성묘 다녀왔어\" (\"We visited the family graves before Chuseok\").",
+            "es": "\"추석 전에 성묘 다녀왔어\" (\"Fuimos a visitar las tumbas de la familia antes de Chuseok\").",
+            "zh": "「추석 전에 성묘 다녀왔어」（中秋前去掃墓了）。",
+            "cn": "“추석 전에 성묘 다녀왔어”（中秋前去扫墓了）。",
+            "ja": "「추석 전에 성묘 다녀왔어」（秋夕の前にお墓参りしてきた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "추석",
+            "설날"
+        ],
+        "tags": [
+            "tradition"
+        ]
+    },
+    "파일럿프로그램": {
+        "nuance": {
+            "en": "A pilot program: a trial episode or short run, often aired on holidays, to test whether a show deserves a regular slot.",
+            "es": "Un programa piloto: un episodio de prueba o una tanda corta, a menudo en festivos, para ver si el programa merece un horario fijo.",
+            "zh": "試播節目：試播一集或幾集（常在節日播出），測試是否值得正式編排。",
+            "cn": "试播节目：试播一集或几集（常在节日播出），测试是否值得正式编排。",
+            "ja": "パイロット番組。正式なレギュラー化の前に反応を見るための試験的な放送で、名節に放送されることが多い。"
+        },
+        "usage": {
+            "en": "\"파일럿 반응 좋던데 정규 됐으면\" (\"The pilot got a great response — I hope it becomes a regular show\").",
+            "es": "\"파일럿 반응 좋던데 정규 됐으면\" (\"El piloto tuvo buena respuesta, ojalá se vuelva fijo\").",
+            "zh": "「파일럿 반응 좋던데 정규 됐으면」（試播反應很好，希望能正式播出）。",
+            "cn": "“파일럿 반응 좋던데 정규 됐으면”（试播反应很好，希望能正式播出）。",
+            "ja": "「파일럿 반응 좋던데 정규 됐으면」（パイロットの反応よかったから、レギュラー化してほしい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "정규편성",
+            "특집"
+        ],
+        "tags": [
+            "variety",
+            "industry"
+        ]
+    },
+    "정규편성": {
+        "nuance": {
+            "en": "正規編成 — a regular slot: a show getting picked up for a weekly run, usually after a successful pilot.",
+            "es": "正規編成: obtener un horario fijo, cuando un programa pasa a emitirse semanalmente, normalmente tras un piloto exitoso.",
+            "zh": "正規編排：節目被排進每週固定時段，通常在試播成功之後。",
+            "cn": "正规编排：节目被排进每周固定时段，通常在试播成功之后。",
+            "ja": "正規編成。パイロットが好評だった番組などが、毎週のレギュラー枠に入ること。"
+        },
+        "usage": {
+            "en": "\"드디어 정규편성 확정!\" (\"It's finally confirmed as a regular show!\").",
+            "es": "\"드디어 정규편성 확정!\" (\"¡Por fin confirmado como programa fijo!\").",
+            "zh": "「드디어 정규편성 확정!」（終於確定正式編排！）。",
+            "cn": "“드디어 정규편성 확정!”（终于确定正式编排！）。",
+            "ja": "「드디어 정규편성 확정!」（ついにレギュラー化決定！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "파일럿프로그램",
+            "첫방송"
+        ],
+        "tags": [
+            "variety",
+            "industry"
+        ]
+    },
+    "종영": {
+        "nuance": {
+            "en": "終映 — the end of a show's run; its final episode airing.",
+            "es": "終映: el final de la emisión de un programa, cuando sale su último episodio.",
+            "zh": "終映——節目播映結束、最後一集播出。",
+            "cn": "终映——节目播映结束、最后一集播出。",
+            "ja": "終映。番組の放送が終わること、最終回の放送。"
+        },
+        "usage": {
+            "en": "\"종영 소감 인터뷰\" (\"end-of-series interviews\") follow every big drama. Fans mourn: \"종영하니까 허전해\" (\"It's over and I feel empty\").",
+            "es": "\"종영 소감 인터뷰\" (\"entrevistas de cierre\") llegan tras cada gran drama. Los fans lo lamentan: \"종영하니까 허전해\" (\"Terminó y me siento vacía\").",
+            "zh": "大劇結束後都會有「종영 소감 인터뷰」（終映感言訪談）。粉絲會說：「종영하니까 허전해」（播完了好空虛）。",
+            "cn": "大剧结束后都会有“종영 소감 인터뷰”（终映感言访谈）。粉丝会说：“종영하니까 허전해”（播完了好空虚）。",
+            "ja": "大作ドラマの後には「종영 소감 인터뷰」（終映インタビュー）が続く。ファンは「종영하니까 허전해」（終わって寂しい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "완결",
+            "첫방송",
+            "이별후유증"
+        ],
+        "tags": [
+            "drama",
+            "variety"
+        ]
+    },
+    "첫방송": {
+        "nuance": {
+            "en": "The premiere: a new show's first episode. Often shortened to 첫방.",
+            "es": "El estreno: el primer episodio de un programa nuevo. Se acorta a 첫방.",
+            "zh": "首播：新節目的第一集，常簡稱첫방。",
+            "cn": "首播：新节目的第一集，常简称첫방。",
+            "ja": "初回放送。新番組の第1話。첫방と略す。"
+        },
+        "usage": {
+            "en": "\"첫방부터 미쳤다\" (\"Insane from the very first episode\").",
+            "es": "\"첫방부터 미쳤다\" (\"Una locura desde el primer episodio\").",
+            "zh": "「첫방부터 미쳤다」（從首播就太狂了）。",
+            "cn": "“첫방부터 미쳤다”（从首播就太狂了）。",
+            "ja": "「첫방부터 미쳤다」（初回からやばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "종영",
+            "본방사수",
+            "시청률"
+        ],
+        "tags": [
+            "drama",
+            "variety"
+        ]
+    },
+    "호평": {
+        "nuance": {
+            "en": "好評 — favorable reviews; positive reception.",
+            "es": "好評: críticas favorables; buena recepción.",
+            "zh": "好評——正面評價、受到肯定。",
+            "cn": "好评——正面评价、受到肯定。",
+            "ja": "好評。良い評価、好意的な反応。"
+        },
+        "usage": {
+            "en": "Common in news: \"연기 변신에 호평 쏟아져\" (\"Praise pours in for the acting transformation\").",
+            "es": "Común en noticias: \"연기 변신에 호평 쏟아져\" (\"Llueven elogios por su cambio de registro actoral\").",
+            "zh": "新聞常見：「연기 변신에 호평 쏟아져」（演技轉型好評如潮）。",
+            "cn": "新闻常见：“연기 변신에 호평 쏟아져”（演技转型好评如潮）。",
+            "ja": "ニュースでよく見る：「연기 변신에 호평 쏟아져」（演技の変身に好評殺到）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "혹평",
+            "명작",
+            "흥행"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "혹평": {
+        "nuance": {
+            "en": "酷評 — harsh criticism; negative reviews.",
+            "es": "酷評: críticas duras; reseñas negativas.",
+            "zh": "酷評——嚴厲批評、負評。",
+            "cn": "酷评——严厉批评、负评。",
+            "ja": "酷評。厳しい批判、否定的な評価。"
+        },
+        "usage": {
+            "en": "\"혹평 받던 드라마가 역주행했어\" (\"A drama that got harsh reviews made a comeback\").",
+            "es": "\"혹평 받던 드라마가 역주행했어\" (\"Un drama muy criticado resurgió\").",
+            "zh": "「혹평 받던 드라마가 역주행했어」（被酷評的劇逆襲了）。",
+            "cn": "“혹평 받던 드라마가 역주행했어”（被酷评的剧逆袭了）。",
+            "ja": "「혹평 받던 드라마가 역주행했어」（酷評されていたドラマが逆走した）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "호평",
+            "발연기",
+            "개연성"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "흥행": {
+        "nuance": {
+            "en": "興行 — commercial success: big audiences, ticket sales or ratings.",
+            "es": "興行: éxito comercial, con gran audiencia, venta de entradas o rating.",
+            "zh": "票房、賣座——觀眾多、票房或收視率好的商業成功。",
+            "cn": "票房、卖座——观众多、票房或收视率好的商业成功。",
+            "ja": "興行。観客動員や視聴率などの商業的な成功。"
+        },
+        "usage": {
+            "en": "\"흥행 보증 수표\" (\"a guaranteed hit-maker\") is a phrase used for reliable stars.",
+            "es": "\"흥행 보증 수표\" (\"garantía de taquilla\") se dice de estrellas que siempre triunfan.",
+            "zh": "「흥행 보증 수표」（票房保證）是形容穩定賣座明星的說法。",
+            "cn": "“흥행 보증 수표”（票房保证）是形容稳定卖座明星的说法。",
+            "ja": "「흥행 보증 수표」（ヒット保証の小切手）は、外れないスターを指す表現。"
+        },
+        "register": "everyday",
+        "similar": [
+            "시청률",
+            "호평",
+            "초호화캐스팅"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "OST": {
+        "nuance": {
+            "en": "Original soundtrack: the songs released for a drama. Korean OSTs are often sung by K-pop idols and chart on their own.",
+            "es": "Banda sonora original: las canciones de un drama. En Corea suelen cantarlas idols de K-pop y entran en las listas por sí solas.",
+            "zh": "原聲帶：為韓劇發行的歌曲。韓劇OST常由K-pop偶像演唱，也會單獨登上排行榜。",
+            "cn": "原声带：为韩剧发行的歌曲。韩剧OST常由K-pop偶像演唱，也会单独登上排行榜。",
+            "ja": "オリジナル・サウンドトラック。ドラマのために作られた曲。韓国ではK-POPアイドルが歌うことも多く、単独でチャート入りする。"
+        },
+        "usage": {
+            "en": "\"OST 듣기만 해도 장면이 떠올라\" (\"Just hearing the OST brings back the scenes\").",
+            "es": "\"OST 듣기만 해도 장면이 떠올라\" (\"Solo con oír el OST recuerdo las escenas\").",
+            "zh": "「OST 듣기만 해도 장면이 떠올라」（光聽OST就想起那些畫面）。",
+            "cn": "“OST 듣기만 해도 장면이 떠올라”（光听OST就想起那些画面）。",
+            "ja": "「OST 듣기만 해도 장면이 떠올라」（OSTを聴くだけで場面が浮かぶ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "삽입곡",
+            "엔딩곡"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "삽입곡": {
+        "nuance": {
+            "en": "揷入曲 — an insert song played during a specific scene.",
+            "es": "揷入曲: una canción que suena en una escena específica.",
+            "zh": "插入曲——在特定場景中播放的歌曲。",
+            "cn": "插入曲——在特定场景中播放的歌曲。",
+            "ja": "挿入歌。特定のシーンで流れる曲。"
+        },
+        "usage": {
+            "en": "\"고백 장면 삽입곡 제목 아는 사람?\" (\"Anyone know the song in the confession scene?\").",
+            "es": "\"고백 장면 삽입곡 제목 아는 사람?\" (\"¿Alguien sabe qué canción suena en la escena de la confesión?\").",
+            "zh": "「고백 장면 삽입곡 제목 아는 사람?」（有人知道告白那場的插曲叫什麼嗎？）。",
+            "cn": "“고백 장면 삽입곡 제목 아는 사람?”（有人知道告白那场的插曲叫什么吗？）。",
+            "ja": "「고백 장면 삽입곡 제목 아는 사람?」（告白シーンの挿入歌のタイトル知ってる人？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "OST",
+            "엔딩곡"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "엔딩곡": {
+        "nuance": {
+            "en": "The ending song: the track that plays as an episode closes and the credits roll.",
+            "es": "La canción de cierre: el tema que suena al final del episodio, con los créditos.",
+            "zh": "片尾曲：每集結尾、跑字幕時播放的歌。",
+            "cn": "片尾曲：每集结尾、跑字幕时播放的歌。",
+            "ja": "エンディング曲。回の終わり、エンドロールで流れる曲。"
+        },
+        "usage": {
+            "en": "\"엔딩곡 나오는 순간 여운 미쳤다\" (\"The moment the ending song played, the feels hit hard\").",
+            "es": "\"엔딩곡 나오는 순간 여운 미쳤다\" (\"Cuando sonó la canción final me quedé con el corazón en la mano\").",
+            "zh": "「엔딩곡 나오는 순간 여운 미쳤다」（片尾曲一出來，餘韻太強了）。",
+            "cn": "“엔딩곡 나오는 순간 여운 미쳤다”（片尾曲一出来，余韵太强了）。",
+            "ja": "「엔딩곡 나오는 순간 여운 미쳤다」（エンディング曲が流れた瞬間の余韻がやばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "OST",
+            "삽입곡"
+        ],
+        "tags": [
+            "drama",
+            "variety"
+        ]
+    },
+    "몰아보기": {
+        "nuance": {
+            "en": "Watching many episodes back to back — saving them up, then catching up in one go.",
+            "es": "Ver muchos episodios seguidos: guardarlos y luego ponerse al día de una vez.",
+            "zh": "一次看好幾集——先存著，再一口氣補完。",
+            "cn": "一次看好几集——先存着，再一口气补完。",
+            "ja": "まとめて見ること。何話か溜めてから一気に追いつく。"
+        },
+        "usage": {
+            "en": "\"한 주 참았다가 몰아보기 할 거야\" (\"I'm holding off a week, then watching them all at once\"). Also used for highlight compilations: \"몰아보기 영상\".",
+            "es": "\"한 주 참았다가 몰아보기 할 거야\" (\"Aguantaré una semana y luego los veo todos juntos\"). También para recopilaciones: \"몰아보기 영상\".",
+            "zh": "「한 주 참았다가 몰아보기 할 거야」（忍一週再一次看完）。也指精華合集：「몰아보기 영상」。",
+            "cn": "“한 주 참았다가 몰아보기 할 거야”（忍一周再一次看完）。也指精华合集：“몰아보기 영상”。",
+            "ja": "「한 주 참았다가 몰아보기 할 거야」（1週間我慢してまとめて見る）。総集編動画も「몰아보기 영상」と言う。"
+        },
+        "register": "everyday",
+        "similar": [
+            "정주행",
+            "배속재생"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "배속재생": {
+        "nuance": {
+            "en": "倍速 playback — watching at 1.5x or 2x speed to get through more content.",
+            "es": "Reproducción a 倍速: ver a 1,5x o 2x para consumir más contenido.",
+            "zh": "倍速播放——用1.5倍或2倍速看，追更多內容。",
+            "cn": "倍速播放——用1.5倍或2倍速看，追更多内容。",
+            "ja": "倍速再生。1.5倍や2倍の速さで見て、たくさんの作品を消化すること。"
+        },
+        "usage": {
+            "en": "\"고구마 구간은 배속재생으로 넘겨\" (\"I speed through the frustrating parts\").",
+            "es": "\"고구마 구간은 배속재생으로 넘겨\" (\"Las partes desesperantes las paso en velocidad rápida\").",
+            "zh": "「고구마 구간은 배속재생으로 넘겨」（憋屈的段落就倍速跳過）。",
+            "cn": "“고구마 구간은 배속재생으로 넘겨”（憋屈的段落就倍速跳过）。",
+            "ja": "「고구마 구간은 배속재생으로 넘겨」（もどかしいところは倍速で飛ばす）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "몰아보기",
+            "정주행",
+            "OTT"
+        ],
+        "tags": [
+            "drama",
+            "internet"
+        ]
+    },
+    "OTT": {
+        "nuance": {
+            "en": "\"Over-the-top\": the Korean umbrella term for streaming services, global or local.",
+            "es": "\"Over-the-top\": el término general en Corea para los servicios de streaming, globales o locales.",
+            "zh": "「Over-the-top」：韓國對串流平台（國際或本土）的統稱。",
+            "cn": "“Over-the-top”：韩国对串流平台（国际或本土）的统称。",
+            "ja": "「オーバー・ザ・トップ」。韓国で動画配信サービス全般（海外・国内問わず）を指す言葉。"
+        },
+        "usage": {
+            "en": "\"이 드라마 어느 OTT에서 봐?\" (\"Which streaming service is this drama on?\").",
+            "es": "\"이 드라마 어느 OTT에서 봐?\" (\"¿En qué plataforma está este drama?\").",
+            "zh": "「이 드라마 어느 OTT에서 봐?」（這部劇在哪個平台看？）。",
+            "cn": "“이 드라마 어느 OTT에서 봐?”（这部剧在哪个平台看？）。",
+            "ja": "「이 드라마 어느 OTT에서 봐?」（このドラマ、どの配信サービスで見られる？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "배속재생",
+            "정주행",
+            "시즌제"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "시청등급": {
+        "nuance": {
+            "en": "視聽等級 — the age rating on a show (all ages, 12+, 15+, 19+), shown in the corner at the start.",
+            "es": "視聽等級: la clasificación por edad de un programa (todo público, 12+, 15+, 19+), que aparece en una esquina al inicio.",
+            "zh": "收視等級——節目的年齡分級（普遍級、12+、15+、19+），開頭會顯示在角落。",
+            "cn": "收视等级——节目的年龄分级（普遍级、12+、15+、19+），开头会显示在角落。",
+            "ja": "視聴等級。番組の年齢区分（全年齢、12+、15+、19+）で、冒頭に画面の隅に表示される。"
+        },
+        "usage": {
+            "en": "\"시청등급이 높아서 수위가 꽤 있대\" (\"It has a high age rating, so expect mature content\").",
+            "es": "\"시청등급이 높아서 수위가 꽤 있대\" (\"Tiene clasificación alta, así que tiene contenido fuerte\").",
+            "zh": "「시청등급이 높아서 수위가 꽤 있대」（分級很高，內容尺度不小）。",
+            "cn": "“시청등급이 높아서 수위가 꽤 있대”（分级很高，内容尺度不小）。",
+            "ja": "「시청등급이 높아서 수위가 꽤 있대」（年齢区分が高いから、結構過激らしい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "OTT"
+        ],
+        "tags": [
+            "drama",
+            "industry"
+        ]
+    },
+    "몰입감": {
+        "nuance": {
+            "en": "沒入感 — immersion: how completely a story pulls you in.",
+            "es": "沒入感: inmersión, qué tanto te atrapa una historia.",
+            "zh": "沉浸感——故事把你吸進去的程度。",
+            "cn": "沉浸感——故事把你吸进去的程度。",
+            "ja": "没入感。物語にどれだけ引き込まれるか。"
+        },
+        "usage": {
+            "en": "\"몰입감 미쳐서 1시간이 10분 같았어\" (\"So immersive that an hour felt like ten minutes\").",
+            "es": "\"몰입감 미쳐서 1시간이 10분 같았어\" (\"Tan absorbente que una hora pareció diez minutos\").",
+            "zh": "「몰입감 미쳐서 1시간이 10분 같았어」（沉浸感太強，一小時像十分鐘）。",
+            "cn": "“몰입감 미쳐서 1시간이 10분 같았어”（沉浸感太强，一小时像十分钟）。",
+            "ja": "「몰입감 미쳐서 1시간이 10분 같았어」（没入感がすごくて1時間が10分みたいだった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "명작",
+            "개연성",
+            "원테이크"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "명작": {
+        "nuance": {
+            "en": "名作 — a masterpiece; a widely acclaimed classic.",
+            "es": "名作: una obra maestra, un clásico aclamado.",
+            "zh": "名作——備受讚譽的經典作品。",
+            "cn": "名作——备受赞誉的经典作品。",
+            "ja": "名作。広く絶賛される不朽の作品。"
+        },
+        "usage": {
+            "en": "\"인생 명작\" (\"the masterpiece of my life\") is how fans describe their all-time favorite drama.",
+            "es": "\"인생 명작\" (\"la obra maestra de mi vida\") es como los fans describen su drama favorito de todos los tiempos.",
+            "zh": "「인생 명작」（人生名作）是粉絲形容心中最愛韓劇的說法。",
+            "cn": "“인생 명작”（人生名作）是粉丝形容心中最爱韩剧的说法。",
+            "ja": "「인생 명작」（人生の名作）は、ファンが一番好きなドラマを表す言い方。"
+        },
+        "register": "everyday",
+        "similar": [
+            "명장면",
+            "명대사",
+            "국민드라마"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "클리프행어": {
+        "nuance": {
+            "en": "A cliffhanger: an episode ending on an unresolved, tense moment so you have to watch the next one.",
+            "es": "Un cliffhanger: un episodio que termina en un momento tenso y sin resolver para que tengas que ver el siguiente.",
+            "zh": "懸念結尾：在緊張、未解的時刻結束，讓你非看下一集不可。",
+            "cn": "悬念结尾：在紧张、未解的时刻结束，让你非看下一集不可。",
+            "ja": "クリフハンガー。緊迫した未解決の場面で終わり、次回を見ずにいられなくする終わり方。"
+        },
+        "usage": {
+            "en": "\"클리프행어 때문에 일주일 어떻게 기다려\" (\"How am I supposed to wait a week after that cliffhanger?\").",
+            "es": "\"클리프행어 때문에 일주일 어떻게 기다려\" (\"¿Cómo voy a esperar una semana después de ese final?\").",
+            "zh": "「클리프행어 때문에 일주일 어떻게 기다려」（這種懸念結尾要我怎麼等一週）。",
+            "cn": "“클리프행어 때문에 일주일 어떻게 기다려”（这种悬念结尾要我怎么等一周）。",
+            "ja": "「클리프행어 때문에 일주일 어떻게 기다려」（このクリフハンガーで1週間どうやって待てと）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "반전",
+            "몰아보기"
+        ],
+        "tags": [
+            "drama",
+            "surprise"
+        ]
+    },
+    "정극": {
+        "nuance": {
+            "en": "正劇 — straight drama: serious, realistic acting and storytelling, as opposed to comedy or fantasy.",
+            "es": "正劇: drama serio, con actuación y narrativa realistas, frente a la comedia o la fantasía.",
+            "zh": "正劇——嚴肅、寫實的戲劇與演技，相對於喜劇或奇幻。",
+            "cn": "正剧——严肃、写实的戏剧与演技，相对于喜剧或奇幻。",
+            "ja": "正劇。コメディやファンタジーではない、真面目で写実的なドラマや演技。"
+        },
+        "usage": {
+            "en": "Often said of idol-actors: \"정극 연기도 잘하네\" (\"She's good at serious acting too\").",
+            "es": "Se dice mucho de idols que actúan: \"정극 연기도 잘하네\" (\"También es buena en papeles serios\").",
+            "zh": "常用來說偶像演員：「정극 연기도 잘하네」（正劇也演得很好）。",
+            "cn": "常用来说偶像演员：“정극 연기도 잘하네”（正剧也演得很好）。",
+            "ja": "アイドル俳優によく使う：「정극 연기도 잘하네」（シリアスな演技も上手だね）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "열연",
+            "인생캐릭터"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "원테이크": {
+        "nuance": {
+            "en": "One take: a scene or performance filmed in a single continuous shot with no cuts.",
+            "es": "Una sola toma: una escena o presentación grabada en un plano continuo, sin cortes.",
+            "zh": "一鏡到底：一個連續鏡頭拍完、沒有剪接的場景或表演。",
+            "cn": "一镜到底：一个连续镜头拍完、没有剪接的场景或表演。",
+            "ja": "ワンテイク。カットなしの一続きで撮影されたシーンやパフォーマンス。"
+        },
+        "usage": {
+            "en": "Popular for performance videos: \"원테이크 퍼포먼스 영상\" (\"one-take performance video\").",
+            "es": "Popular en videos de presentaciones: \"원테이크 퍼포먼스 영상\" (\"video de presentación en una sola toma\").",
+            "zh": "表演影片很常見：「원테이크 퍼포먼스 영상」（一鏡到底表演影片）。",
+            "cn": "表演视频很常见：“원테이크 퍼포먼스 영상”（一镜到底表演视频）。",
+            "ja": "パフォーマンス映像で人気：「원테이크 퍼포먼스 영상」（ワンテイクのパフォーマンス映像）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "직캠",
+            "몰입감",
+            "무대퀄리티"
+        ],
+        "tags": [
+            "stage",
+            "drama"
+        ]
+    },
+    "개연성": {
+        "nuance": {
+            "en": "蓋然性 — plausibility: whether the plot makes sense. Usually mentioned when it's missing.",
+            "es": "蓋然性: verosimilitud, si la trama tiene sentido. Suele mencionarse cuando falta.",
+            "zh": "蓋然性——劇情合不合理。通常在劇情不合理時被提起。",
+            "cn": "盖然性——剧情合不合理。通常在剧情不合理时被提起。",
+            "ja": "蓋然性。話の筋が通っているかどうか。たいてい欠けている時に言われる。"
+        },
+        "usage": {
+            "en": "\"개연성이 1도 없어\" (\"The plot makes zero sense\"); \"개연성 실종\" (\"plausibility has gone missing\").",
+            "es": "\"개연성이 1도 없어\" (\"La trama no tiene ningún sentido\"); \"개연성 실종\" (\"la lógica desapareció\").",
+            "zh": "「개연성이 1도 없어」（劇情一點都不合理）；「개연성 실종」（合理性失蹤）。",
+            "cn": "“개연성이 1도 없어”（剧情一点都不合理）；“개연성 실종”（合理性失踪）。",
+            "ja": "「개연성이 1도 없어」（展開に説得力ゼロ）；「개연성 실종」（蓋然性が行方不明）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "고구마",
+            "막장",
+            "클리셰"
+        ],
+        "tags": [
+            "drama",
+            "annoyed"
+        ]
+    },
+    "인생캐릭터": {
+        "nuance": {
+            "en": "\"Life character\": the role that defines an actor's career. Often shortened to 인생캐.",
+            "es": "\"Personaje de vida\": el papel que define la carrera de un actor. Se acorta a 인생캐.",
+            "zh": "「人生角色」：定義演員生涯的代表作角色，常簡稱인생캐。",
+            "cn": "“人生角色”：定义演员生涯的代表作角色，常简称인생캐。",
+            "ja": "「人生キャラ」。俳優のキャリアを代表する役。인생캐と略す。"
+        },
+        "usage": {
+            "en": "\"이 역할이 완전 인생캐다\" (\"This role is totally their career-defining one\").",
+            "es": "\"이 역할이 완전 인생캐다\" (\"Este papel es el que define su carrera\").",
+            "zh": "「이 역할이 완전 인생캐다」（這個角色完全是人生角色）。",
+            "cn": "“이 역할이 완전 인생캐다”（这个角色完全是人生角色）。",
+            "ja": "「이 역할이 완전 인생캐다」（この役は完全に人生キャラ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "정극",
+            "열연",
+            "명작"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "원작팬": {
+        "nuance": {
+            "en": "An original-work fan: someone who loved the source webtoon or novel first — and judges the adaptation closely.",
+            "es": "Fan del original: alguien que amó primero el webtoon o la novela, y juzga la adaptación con lupa.",
+            "zh": "原作粉：先愛上原作網漫或小說的人——會嚴格審視改編。",
+            "cn": "原作粉：先爱上原作网漫或小说的人——会严格审视改编。",
+            "ja": "原作ファン。原作のウェブトゥーンや小説を先に好きになった人で、映像化を厳しく見る。"
+        },
+        "usage": {
+            "en": "\"원작팬인데 캐스팅 찰떡이야\" (\"As a fan of the original, the casting is perfect\").",
+            "es": "\"원작팬인데 캐스팅 찰떡이야\" (\"Como fan del original, el reparto es perfecto\").",
+            "zh": "「원작팬인데 캐스팅 찰떡이야」（身為原作粉，選角超合適）。",
+            "cn": "“원작팬인데 캐스팅 찰떡이야”（身为原作粉，选角超合适）。",
+            "ja": "「원작팬인데 캐스팅 찰떡이야」（原作ファンだけどキャスティングぴったり）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "원작",
+            "원작파괴",
+            "각색"
+        ],
+        "tags": [
+            "drama",
+            "webtoon"
+        ]
+    },
+    "더빙": {
+        "nuance": {
+            "en": "Dubbing: replacing the original audio with voices in another language.",
+            "es": "Doblaje: reemplazar el audio original con voces en otro idioma.",
+            "zh": "配音：把原本的聲音換成其他語言的配音。",
+            "cn": "配音：把原本的声音换成其他语言的配音。",
+            "ja": "吹き替え。元の音声を別の言語の声に差し替えること。"
+        },
+        "usage": {
+            "en": "The eternal debate: \"더빙파야 자막파야?\" (\"Team dub or team subs?\").",
+            "es": "El debate eterno: \"더빙파야 자막파야?\" (\"¿Doblaje o subtítulos?\").",
+            "zh": "永恆的爭論：「더빙파야 자막파야?」（你是配音派還是字幕派？）。",
+            "cn": "永恒的争论：“더빙파야 자막파야?”（你是配音派还是字幕派？）。",
+            "ja": "永遠の論争：「더빙파야 자막파야?」（吹き替え派？字幕派？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "자막",
+            "정발"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "자체휴방": {
+        "nuance": {
+            "en": "自體休放 — a self-declared day off: originally streamers skipping a scheduled broadcast on their own; now a joke for anyone skipping their usual routine.",
+            "es": "自體休放: un descanso autodeclarado; empezó con streamers que se saltaban una transmisión por decisión propia y hoy es una broma para cualquiera que se salta su rutina.",
+            "zh": "自體休放——自行宣布休息：原本指實況主自己決定不開播，現在也開玩笑指任何人翹掉日常。",
+            "cn": "自体休放——自行宣布休息：原本指实况主自己决定不开播，现在也开玩笑指任何人翘掉日常。",
+            "ja": "自体休放。自主的なお休み。もとは配信者が自分の判断で配信を休むことで、今は誰かがいつもの日課をサボる冗談にも使う。"
+        },
+        "usage": {
+            "en": "\"오늘 운동은 자체휴방\" (\"Taking a self-declared day off from the gym today\").",
+            "es": "\"오늘 운동은 자체휴방\" (\"Hoy me doy el día libre del gimnasio\").",
+            "zh": "「오늘 운동은 자체휴방」（今天運動自行休息）。",
+            "cn": "“오늘 운동은 자체휴방”（今天运动自行休息）。",
+            "ja": "「오늘 운동은 자체휴방」（今日の運動は自主休業）。"
+        },
+        "register": "casual",
+        "similar": [
+            "휴재",
+            "개인방송",
+            "라이브방송"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "신스틸러": {
+        "nuance": {
+            "en": "A scene stealer: a supporting actor whose performance grabs all the attention in their scenes.",
+            "es": "Un robaescenas: un actor secundario cuya actuación se lleva toda la atención en sus escenas.",
+            "zh": "搶戲王：在自己的戲份裡搶走所有目光的配角。",
+            "cn": "抢戏王：在自己的戏份里抢走所有目光的配角。",
+            "ja": "シーンスティーラー。出番のたびに注目をさらう脇役。"
+        },
+        "usage": {
+            "en": "\"분량은 적은데 완전 신스틸러\" (\"Not much screen time, but a total scene stealer\").",
+            "es": "\"분량은 적은데 완전 신스틸러\" (\"Sale poco, pero se roba cada escena\").",
+            "zh": "「분량은 적은데 완전 신스틸러」（戲份不多，卻超搶戲）。",
+            "cn": "“분량은 적은데 완전 신스틸러”（戏份不多，却超抢戏）。",
+            "ja": "「분량은 적은데 완전 신스틸러」（出番は少ないけど完全にシーンスティーラー）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "조연",
+            "존재감",
+            "카메오"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "발연기": {
+        "nuance": {
+            "en": "\"Foot acting\": acting so stiff and unconvincing it's as if done with the feet.",
+            "es": "\"Actuación con los pies\": actuación tan rígida y poco convincente que parece hecha con los pies.",
+            "zh": "「用腳演戲」：僵硬、毫無說服力的演技。",
+            "cn": "“用脚演戏”：僵硬、毫无说服力的演技。",
+            "ja": "「足演技」。足で演じたようにぎこちなく説得力のない演技、つまり大根演技。"
+        },
+        "usage": {
+            "en": "\"발연기 논란\" (\"bad-acting controversy\") is a common headline; fans defend with \"연기 늘었어\" (\"Their acting has improved\").",
+            "es": "\"발연기 논란\" (\"polémica por mala actuación\") es un titular común; los fans defienden con \"연기 늘었어\" (\"Ha mejorado su actuación\").",
+            "zh": "「발연기 논란」（演技差爭議）是常見標題；粉絲會辯護：「연기 늘었어」（演技進步了）。",
+            "cn": "“발연기 논란”（演技差争议）是常见标题；粉丝会辩护：“연기 늘었어”（演技进步了）。",
+            "ja": "「발연기 논란」（大根演技論争）はよくある見出し。ファンは「연기 늘었어」（演技うまくなった）と擁護する。"
+        },
+        "register": "casual",
+        "similar": [
+            "열연",
+            "혹평",
+            "정극"
+        ],
+        "tags": [
+            "drama",
+            "annoyed"
+        ]
+    },
+    "열연": {
+        "nuance": {
+            "en": "熱演 — a passionate, fully committed performance.",
+            "es": "熱演: una actuación apasionada y entregada por completo.",
+            "zh": "熱演——全心投入、充滿熱情的演出。",
+            "cn": "热演——全心投入、充满热情的演出。",
+            "ja": "熱演。全身全霊で打ち込んだ演技。"
+        },
+        "usage": {
+            "en": "A media favorite: \"눈물의 열연을 펼쳤다\" (\"delivered a tearful, passionate performance\").",
+            "es": "Muy usado en medios: \"눈물의 열연을 펼쳤다\" (\"ofreció una actuación apasionada entre lágrimas\").",
+            "zh": "媒體很愛用：「눈물의 열연을 펼쳤다」（含淚熱演）。",
+            "cn": "媒体很爱用：“눈물의 열연을 펼쳤다”（含泪热演）。",
+            "ja": "メディアの定番：「눈물의 열연을 펼쳤다」（涙の熱演を見せた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "발연기",
+            "정극",
+            "인생캐릭터"
+        ],
+        "tags": [
+            "drama",
+            "praise"
+        ]
+    },
+    "에바": {
+        "nuance": {
+            "en": "\"Way too much\" — over the top, excessive. Often explained as a twist on 오바 (from \"over\"); the exact origin is unclear.",
+            "es": "\"Demasiado\": exagerado, excesivo. Se suele explicar como variante de 오바 (de \"over\"); el origen exacto no está claro.",
+            "zh": "「太超過了」——誇張、過分。常被解釋為오바（來自「over」）的變體，確切來源不明。",
+            "cn": "“太超过了”——夸张、过分。常被解释为오바（来自“over”）的变体，确切来源不明。",
+            "ja": "「やりすぎ」。度を越していること。오바（「over」から）の変形と説明されることが多いが、正確な由来ははっきりしない。"
+        },
+        "usage": {
+            "en": "\"과제 세 개 마감이 같은 날? 에바다\" (\"Three assignments due the same day? That's too much\").",
+            "es": "\"과제 세 개 마감이 같은 날? 에바다\" (\"¿Tres tareas para el mismo día? Es demasiado\").",
+            "zh": "「과제 세 개 마감이 같은 날? 에바다」（三份作業同一天截止？太超過了）。",
+            "cn": "“과제 세 개 마감이 같은 날? 에바다”（三份作业同一天截止？太超过了）。",
+            "ja": "「과제 세 개 마감이 같은 날? 에바다」（課題3つが同じ日締め切り？やりすぎでしょ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "뇌절",
+            "1도 없다"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "초성체": {
+        "nuance": {
+            "en": "\"Initial-consonant style\": writing only the first consonants of words — ㅇㅋ (okay), ㄱㅅ (thanks), ㅋㅋ (laughing).",
+            "es": "\"Estilo de consonantes iniciales\": escribir solo las primeras consonantes de las palabras: ㅇㅋ (ok), ㄱㅅ (gracias), ㅋㅋ (risa).",
+            "zh": "「初聲體」：只打出單字的開頭子音——ㅇㅋ（OK）、ㄱㅅ（謝謝）、ㅋㅋ（笑）。",
+            "cn": "“初声体”：只打出单字的开头辅音——ㅇㅋ（OK）、ㄱㅅ（谢谢）、ㅋㅋ（笑）。",
+            "ja": "「初声体」。単語の最初の子音だけを書く打ち方。ㅇㅋ（OK）、ㄱㅅ（ありがとう）、ㅋㅋ（笑）など。"
+        },
+        "usage": {
+            "en": "Variety captions use it for jokes too, and quizzes ask you to guess phrases from 초성 alone.",
+            "es": "Los subtítulos de variedades también lo usan para bromear, y hay juegos donde adivinas frases solo por las 초성.",
+            "zh": "綜藝字幕也會拿來搞笑，還有只看초성猜詞的遊戲。",
+            "cn": "综艺字幕也会拿来搞笑，还有只看초성猜词的游戏。",
+            "ja": "バラエティの字幕でもネタに使われ、초성だけで言葉を当てるクイズもある。"
+        },
+        "register": "casual",
+        "similar": [
+            "ㅋㅋ"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "국민드라마": {
+        "nuance": {
+            "en": "\"National drama\": a show so popular that the whole country — all ages — is watching and talking about it.",
+            "es": "\"Drama nacional\": un programa tan popular que todo el país, de todas las edades, lo ve y lo comenta.",
+            "zh": "「國民劇」：紅到全國老少都在看、都在討論的劇。",
+            "cn": "“国民剧”：红到全国老少都在看、都在讨论的剧。",
+            "ja": "「国民ドラマ」。全世代、国中が見て話題にするほど人気のドラマ。"
+        },
+        "usage": {
+            "en": "\"우리 할머니도 보는 국민드라마\" (\"a national drama even my grandma watches\").",
+            "es": "\"우리 할머니도 보는 국민드라마\" (\"un drama nacional que hasta mi abuela ve\").",
+            "zh": "「우리 할머니도 보는 국민드라마」（連我奶奶都在看的國民劇）。",
+            "cn": "“우리 할머니도 보는 국민드라마”（连我奶奶都在看的国民剧）。",
+            "ja": "「우리 할머니도 보는 국민드라마」（おばあちゃんまで見てる国民ドラマ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "시청률",
+            "명작",
+            "흥행"
+        ],
+        "tags": [
+            "drama"
+        ]
+    },
+    "예능캐릭터": {
+        "nuance": {
+            "en": "A variety persona: the role or image someone settles into on variety shows — the clumsy one, the savage one, the big eater.",
+            "es": "Personaje de variedades: el papel o imagen que alguien adopta en los programas, como el torpe, el sincero o el comilón.",
+            "zh": "綜藝人設：在綜藝節目中定型的角色或形象——迷糊擔當、毒舌擔當、大胃王等。",
+            "cn": "综艺人设：在综艺节目中定型的角色或形象——迷糊担当、毒舌担当、大胃王等。",
+            "ja": "バラエティキャラ。バラエティで定着した役割やイメージ。ドジ担当、毒舌担当、大食い担当など。"
+        },
+        "usage": {
+            "en": "\"예능캐릭터 확실히 잡았네\" (\"She's really nailed her variety persona\").",
+            "es": "\"예능캐릭터 확실히 잡았네\" (\"Ya encontró su personaje en los programas\").",
+            "zh": "「예능캐릭터 확실히 잡았네」（綜藝人設完全建立了）。",
+            "cn": "“예능캐릭터 확실히 잡았네”（综艺人设完全创建了）。",
+            "ja": "「예능캐릭터 확실히 잡았네」（バラエティキャラが完全に定着したね）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "부캐",
+            "예능감",
+            "예능돌"
+        ],
+        "tags": [
+            "variety"
+        ]
+    },
+    "드립력": {
+        "nuance": {
+            "en": "드립 (a joke or quip, from \"ad-lib\") + 력 (power): skill at quick, witty comebacks.",
+            "es": "드립 (chiste o salida ingeniosa, de \"ad-lib\") + 력 (poder): habilidad para respuestas rápidas e ingeniosas.",
+            "zh": "드립（玩笑、梗，來自「ad-lib」）＋력（力）：反應快、很會接梗的能力。",
+            "cn": "드립（玩笑、梗，来自“ad-lib”）＋력（力）：反应快、很会接梗的能力。",
+            "ja": "드립（ネタ・ボケ、「アドリブ」から）＋력（力）。気の利いた返しを素早く出す力。"
+        },
+        "usage": {
+            "en": "\"드립력 미쳤다, 작가 해도 되겠어\" (\"Her joke game is insane — she could be a writer\").",
+            "es": "\"드립력 미쳤다, 작가 해도 되겠어\" (\"Su ingenio es increíble, podría ser guionista\").",
+            "zh": "「드립력 미쳤다, 작가 해도 되겠어」（接梗能力太強了，可以去當編劇）。",
+            "cn": "“드립력 미쳤다, 작가 해도 되겠어”（接梗能力太强了，可以去当编剧）。",
+            "ja": "「드립력 미쳤다, 작가 해도 되겠어」（ボケ力やばい、作家になれる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "예능감",
+            "애드리브",
+            "뇌절"
+        ],
+        "tags": [
+            "variety",
+            "funny",
+            "praise"
+        ]
+    },
+    "대환장파티": {
+        "nuance": {
+            "en": "\"Great losing-my-mind party\": total chaos — a situation so absurd and messy you can only laugh.",
+            "es": "\"Gran fiesta de la locura\": caos total, una situación tan absurda y desordenada que solo queda reírse.",
+            "zh": "「大抓狂派對」：一團混亂——荒謬到只能笑的情況。",
+            "cn": "“大抓狂派对”：一团混乱——荒谬到只能笑的情况。",
+            "ja": "「大発狂パーティー」。めちゃくちゃなカオス。笑うしかないほど混乱した状況。"
+        },
+        "usage": {
+            "en": "\"멤버 일곱 명이 요리하니까 대환장파티\" (\"Seven members cooking together — absolute chaos\").",
+            "es": "\"멤버 일곱 명이 요리하니까 대환장파티\" (\"Siete miembros cocinando juntos: caos total\").",
+            "zh": "「멤버 일곱 명이 요리하니까 대환장파티」（七個成員一起做菜，完全大亂鬥）。",
+            "cn": "“멤버 일곱 명이 요리하니까 대환장파티”（七个成员一起做菜，完全大乱斗）。",
+            "ja": "「멤버 일곱 명이 요리하니까 대환장파티」（メンバー7人で料理したら大カオス）。"
+        },
+        "register": "casual",
+        "similar": [
+            "막장",
+            "갑분싸"
+        ],
+        "tags": [
+            "funny",
+            "reaction"
+        ]
+    },
+    "혼코노": {
+        "nuance": {
+            "en": "Short for 혼자 코인노래방: going alone to a coin karaoke booth, where you pay per song.",
+            "es": "Abreviatura de 혼자 코인노래방: ir solo a una cabina de karaoke de monedas, donde pagas por canción.",
+            "zh": "혼자 코인노래방（一個人去投幣KTV）的縮寫：一個人去按首付費的投幣式KTV包廂。",
+            "cn": "혼자 코인노래방（一个人去投币KTV）的缩写：一个人去按首付费的投币式KTV包厢。",
+            "ja": "혼자 코인노래방（一人コインカラオケ）の略。1曲ごとに払うコイン式カラオケに一人で行くこと。"
+        },
+        "usage": {
+            "en": "\"스트레스 풀러 혼코노 다녀옴\" (\"Went solo coin karaoke to blow off steam\").",
+            "es": "\"스트레스 풀러 혼코노 다녀옴\" (\"Fui sola al karaoke para desestresarme\").",
+            "zh": "「스트레스 풀러 혼코노 다녀옴」（去一個人投幣KTV紓壓）。",
+            "cn": "“스트레스 풀러 혼코노 다녀옴”（去一个人投币KTV纾压）。",
+            "ja": "「스트레스 풀러 혼코노 다녀옴」（ストレス発散に一人コインカラオケ行ってきた）。"
+        },
+        "culture": {
+            "en": "Coin karaoke booths are tiny rooms for one or two people, so singing alone feels normal — fans often practice their idols' songs there.",
+            "es": "Las cabinas de karaoke de monedas son cuartitos para una o dos personas, así que cantar solo es normal; los fans suelen practicar ahí las canciones de sus idols.",
+            "zh": "投幣KTV是一兩人用的小包廂，一個人唱很自然——粉絲常在那裡練偶像的歌。",
+            "cn": "投币KTV是一两人用的小包厢，一个人唱很自然——粉丝常在那里练偶像的歌。",
+            "ja": "コインカラオケは1〜2人用の小さな部屋なので一人で歌うのが自然。ファンが推しの曲を練習することも。"
+        },
+        "register": "casual",
+        "similar": [
+            "혼놀",
+            "혼밥",
+            "혼족"
+        ],
+        "tags": [
+            "chat"
         ]
     },
 }
