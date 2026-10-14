@@ -1524,11 +1524,11 @@ FANDOM = [
      "Mi bias respondió comentarios y he estado feliz todo el día por eso.",
      "Social media fan interactions", "Draft — please double-check"),
     ("럽콜", "leob-kol", "Love call",
-     "\"Love call\" — an idol affectionately reaching out or calling out to fans during a broadcast.",
-     "\"Llamada de amor\": un ídolo que se dirige o llama afectuosamente a los fans durante una transmisión.",
-     "럽콜 해줄 때마다 심장 터질 것 같아.", "My heart feels like it'll burst every time they do a love call.",
-     "Siento que mi corazón va a estallar cada vez que hace una llamada de cariño.",
-     "Livestream fan reactions", "Draft — please double-check"),
+     "Short for 러브콜 (\"love call\") — openly saying you want to work with, meet or invite someone: a casting offer, a collab wish, or fans begging for an appearance.",
+     "Abreviatura de 러브콜 (\"llamada de amor\"): decir abiertamente que quieres trabajar con alguien, conocerlo o invitarlo; una oferta de casting, un deseo de colaborar o fans pidiendo una aparición.",
+     "그 예능에서 계속 럽콜 보내는 중이래.", "I heard that variety show keeps sending her love calls to appear.",
+     "Dicen que ese programa de variedades no deja de invitarla.",
+     "Collab and casting news", "Draft — please double-check"),
     ("짤줍", "jjal-jup", "Picking up pics",
      "\"Picking up pics\" — casually browsing and saving fan-taken photos or gifs online.",
      "\"Recoger imágenes\": navegar casualmente y guardar fotos o gifs tomados por fans en línea.",
@@ -1618,7 +1618,7 @@ FANDOM = [
      "Un meme de fandom donde los fans le \"retan\" en broma a su bias a hacer algo tonto a través de apps de mensajería para fans, y se vuelve un momento viral del fandom si el ídolo realmente lo cumple — nombrado por un ídolo que de verdad bebió jugo de mango por un reto así.",
      "이번엔 무슨 망고주스 시켜볼까?", "What silly dare should we try this time?",
      "¿Qué reto tonto deberíamos intentar esta vez?",
-     "K-pop fan messaging app culture, 2026 slang", "Verified (web-checked)"),
+     "K-pop fan messaging app culture, 2025 meme", "Verified (web-checked)"),
     ("오살힘", "o-sal-him", "Strength to get through today",
      "Short for \"오늘을 살아갈 힘\" (\"the strength to live through today\") — a fandom term for the emotional boost fans get from seeing content of their bias, extended to anything that gives you a little push to get through the day.",
      "Abreviatura de \"오늘을 살아갈 힘\" (\"la fuerza para vivir hoy\"): término de fandom para el impulso emocional que sienten los fans al ver contenido de su bias, extendido a cualquier cosa que te dé un empujoncito para pasar el día.",
@@ -4432,7 +4432,7 @@ ZH_TW_TRANSLATIONS = {
     "대면팬싸": ("實體面對面舉行的簽名會，相對於視訊簽名會。", "終於抽中面對面簽名會了！"),
     "영통팬싸": ("透過視訊通話進行、而非實體面對面的簽名會。", "視訊簽名會的一分鐘瞬間就過去了。"),
     "답글놀이": ("「回覆遊戲」——偶像親自回覆粉絲留言，讓粉絲感到驚喜開心。", "本命回覆了留言，讓我整天都很開心。"),
-    "럽콜": ("「愛的呼喚」——偶像在直播中親切地呼喚、招呼粉絲。", "每次做愛的呼喚我的心都要跳出來了。"),
+    "럽콜": ("러브콜（Love call）的縮寫——公開表達想合作、想見面或想邀請某人：選角邀約、合作意願，或粉絲喊話要求上節目。", "聽說那個綜藝一直向她發出邀約。"),
     "짤줍": ("「撿圖」——隨意瀏覽並收藏粉絲拍攝的照片或動圖。", "撿圖撿到忘記時間。"),
     "최애타임": ("「本命時間」——節目或舞台中聚焦在自己本命身上的那個片段。", "終於到本命時間了！"),
     "문찐": ("「文化魯蛇」的簡稱——跟不上當前潮流與流行文化的人。", "連這個梗都不知道？真的跟不上潮流。"),
@@ -5104,7 +5104,7 @@ ZH_CN_TRANSLATIONS = {
     "대면팬싸": ("实体面对面举行的签名会，相对于视频签名会。", "终于抽中面对面签名会了！"),
     "영통팬싸": ("通过视频通话进行、而非实体面对面的签名会。", "视频签名会的一分钟瞬间就过去了。"),
     "답글놀이": ("“回复游戏”——偶像亲自回复粉丝留言，让粉丝感到惊喜开心。", "本命回复了留言，让我整天都很开心。"),
-    "럽콜": ("“爱的呼唤”——偶像在直播中亲切地呼唤、招呼粉丝。", "每次做爱的呼唤我的心都要跳出来了。"),
+    "럽콜": ("러브콜（Love call）的缩写——公开表达想合作、想见面或想邀请某人：选角邀约、合作意愿，或粉丝喊话要求上节目。", "听说那个综艺一直向她发出邀约。"),
     "짤줍": ("“捡图”——随意浏览并收藏粉丝拍摄的照片或动图。", "捡图捡到忘记时间。"),
     "최애타임": ("“本命时间”——节目或舞台中聚焦在自己本命身上的那个片段。", "终于到本命时间了！"),
     "문찐": ("“文化鲁蛇”的简称——跟不上当前潮流与流行文化的人。", "连这个梗都不知道？真的跟不上潮流。"),
@@ -5779,7 +5779,7 @@ JA_TRANSLATIONS = {
     "대면팬싸": ("ビデオ通話ではなく、実際に対面で行われるファンサイン会。", "ついに対面ファンサイン会当選した！"),
     "영통팬싸": ("対面ではなく、ビデオ通話で行われるファンサイン会。", "ビデオ通話ファンサインの1分間があっという間だった。"),
     "답글놀이": ("「返信遊び」——アイドルが自らファンのコメントに返信して、ファンを喜ばせること。", "推しがコメント返信してくれて、今日一日中幸せ。"),
-    "럽콜": ("「愛の呼びかけ」——配信中にアイドルが愛情を込めてファンに呼びかけること。", "ラブコールしてくれるたびに、心臓が爆発しそう。"),
+    "럽콜": ("러브콜（ラブコール）の略——一緒に仕事したい、会いたい、招きたいと公に伝えること。キャスティングのオファー、コラボの希望、ファンの出演リクエストなど。", "あのバラエティ番組がずっと彼女にラブコールを送ってるらしい。"),
     "짤줍": ("「画像を拾う」——ファンが撮影した写真やgifをカジュアルに眺めて保存すること。", "画像拾いしてたら時間経つの忘れた。"),
     "최애타임": ("「推しの時間」——番組やステージの中で、自分の推しに焦点が当たる瞬間や場面。", "ついに推しタイム来た！"),
     "문찐": ("「文化敗者」の略——最新のトレンドやポップカルチャーについていけない人。", "このミームも知らないの？完全に流行に疎いね。"),
@@ -15996,6 +15996,2388 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ]
+    },
+    "덕후": {
+        "nuance": {
+            "en": "A devoted fan or hobbyist. It comes from 오덕후, a Korean take on the Japanese \"otaku\" — now used proudly.",
+            "es": "Un fan o aficionado devoto. Viene de 오덕후, adaptación coreana del japonés \"otaku\", y hoy se usa con orgullo.",
+            "zh": "熱衷某事的粉絲或愛好者。來自오덕후，是日文「御宅族（otaku）」的韓式說法——現在大家都自豪地用。",
+            "cn": "热衷某事的粉丝或爱好者。来自오덕후，是日文“御宅族（otaku）”的韩式说法——现在大家都自豪地用。",
+            "ja": "熱心なファンや趣味人。日本語「オタク」を韓国風にした오덕후から来た言葉で、今は誇りを持って使われる。"
+        },
+        "usage": {
+            "en": "\"나 아이돌 덕후야\" (\"I'm an idol nerd\"). Also for any hobby: 게임 덕후, 빵 덕후 (bread lover).",
+            "es": "\"나 아이돌 덕후야\" (\"Soy fanática de los idols\"). Sirve para cualquier hobby: 게임 덕후, 빵 덕후 (amante del pan).",
+            "zh": "「나 아이돌 덕후야」（我是偶像宅）。任何興趣都能用：게임 덕후（遊戲宅）、빵 덕후（麵包控）。",
+            "cn": "“나 아이돌 덕후야”（我是偶像宅）。任何兴趣都能用：게임 덕후（游戏宅）、빵 덕후（面包控）。",
+            "ja": "「나 아이돌 덕후야」（私アイドルオタクなの）。どんな趣味にも：게임 덕후（ゲームオタク）、빵 덕후（パン好き）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "덕질",
+            "입덕",
+            "덕메",
+            "찐팬"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "소통": {
+        "nuance": {
+            "en": "疏通 — communication. In fandom: idols talking directly with fans through livestreams, posts and comment replies.",
+            "es": "疏通: comunicación. En el fandom, los idols hablando directamente con los fans en directos, publicaciones y respuestas.",
+            "zh": "疏通——溝通。在粉絲圈指偶像透過直播、貼文和留言回覆直接和粉絲互動。",
+            "cn": "疏通——沟通。在粉丝圈指偶像通过直播、贴文和留言回复直接和粉丝交互。",
+            "ja": "疎通。ファンダムでは、アイドルが配信や投稿、コメント返信でファンと直接交流すること。"
+        },
+        "usage": {
+            "en": "\"소통 자주 해 주는 아이돌\" (\"an idol who interacts with fans often\") is high praise. \"소통왕\" = king of fan communication.",
+            "es": "\"소통 자주 해 주는 아이돌\" (\"un idol que interactúa seguido con los fans\") es un gran elogio. \"소통왕\" = rey de la comunicación.",
+            "zh": "「소통 자주 해 주는 아이돌」（常常和粉絲互動的偶像）是高度讚美。「소통왕」＝溝通之王。",
+            "cn": "“소통 자주 해 주는 아이돌”（常常和粉丝交互的偶像）是高度赞美。“소통왕”＝沟通之王。",
+            "ja": "「소통 자주 해 주는 아이돌」（よく交流してくれるアイドル）は最高のほめ言葉。「소통왕」＝交流王。"
+        },
+        "register": "everyday",
+        "similar": [
+            "라이브방송",
+            "답글놀이",
+            "팬서비스"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "존버": {
+        "nuance": {
+            "en": "Holding on no matter what — waiting it out through hiatuses, bad news or long odds. The 존 comes from a crude intensifier, so keep it among friends.",
+            "es": "Aguantar pase lo que pase, esperando durante pausas, malas noticias o pocas probabilidades. El 존 viene de un intensificador vulgar, así que úsalo solo entre amigos.",
+            "zh": "不管怎樣都撐下去——熬過空白期、壞消息或渺茫的機會。존來自粗俗的強調詞，只適合朋友之間用。",
+            "cn": "不管怎样都撑下去——熬过空白期、坏消息或渺茫的机会。존来自粗俗的强调词，只适合朋友之间用。",
+            "ja": "何があっても耐えて待つこと。空白期や悪いニュース、低い確率にも負けずに。존は下品な強調語から来ているので、友達同士だけで。"
+        },
+        "usage": {
+            "en": "\"컴백할 때까지 존버한다\" (\"I'm holding on until the comeback\"). Also for stocks: \"존버는 승리한다\" (\"those who hold on win\").",
+            "es": "\"컴백할 때까지 존버한다\" (\"Aguanto hasta el comeback\"). También en bolsa: \"존버는 승리한다\" (\"quien aguanta gana\").",
+            "zh": "「컴백할 때까지 존버한다」（撐到回歸為止）。股票也會用：「존버는 승리한다」（撐住就是勝利）。",
+            "cn": "“컴백할 때까지 존버한다”（撑到回归为止）。股票也会用：“존버는 승리한다”（撑住就是胜利）。",
+            "ja": "「컴백할 때까지 존버한다」（カムバックまで耐える）。株でも：「존버는 승리한다」（耐えた者が勝つ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕질",
+            "컴백각"
+        ],
+        "tags": [
+            "kpop-fan",
+            "chat"
+        ]
+    },
+    "눈호강": {
+        "nuance": {
+            "en": "\"Luxury for the eyes\": something so beautiful to look at it feels like a treat — eye candy.",
+            "es": "\"Lujo para los ojos\": algo tan bonito de ver que es un regalo para la vista.",
+            "zh": "「眼睛享福」：好看到像是在犒賞眼睛——養眼。",
+            "cn": "“眼睛享福”：好看到像是在犒赏眼睛——养眼。",
+            "ja": "「目の贅沢」。見るだけでご褒美になるほど美しいもの。眼福。"
+        },
+        "usage": {
+            "en": "\"오늘 무대 의상 눈호강이다\" (\"Today's stage outfits are a feast for the eyes\").",
+            "es": "\"오늘 무대 의상 눈호강이다\" (\"Los outfits de hoy son un regalo para la vista\").",
+            "zh": "「오늘 무대 의상 눈호강이다」（今天的舞台服裝太養眼了）。",
+            "cn": "“오늘 무대 의상 눈호강이다”（今天的舞台服装太养眼了）。",
+            "ja": "「오늘 무대 의상 눈호강이다」（今日のステージ衣装、眼福すぎる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "비주얼",
+            "실물",
+            "화보"
+        ],
+        "tags": [
+            "praise",
+            "kpop-fan"
+        ]
+    },
+    "성덕": {
+        "nuance": {
+            "en": "Short for 성공한 덕후 (\"successful fan\"): a fan whose dream came true — meeting their idol, being noticed, or even working with them.",
+            "es": "Abreviatura de 성공한 덕후 (\"fan exitoso\"): un fan que cumplió su sueño, como conocer a su idol, ser notado o incluso trabajar con él.",
+            "zh": "성공한 덕후（成功的粉絲）的縮寫：夢想成真的粉絲——見到偶像、被注意到，甚至一起工作。",
+            "cn": "성공한 덕후（成功的粉丝）的缩写：梦想成真的粉丝——见到偶像、被注意到，甚至一起工作。",
+            "ja": "성공한 덕후（成功したオタク）の略。推しに会えた、認知された、一緒に仕事したなど、夢を叶えたファン。"
+        },
+        "usage": {
+            "en": "\"최애가 내 이름 불러 줬어, 나 성덕이야\" (\"My bias called my name — I'm a successful fan\"). The opposite fate: 덕계못.",
+            "es": "\"최애가 내 이름 불러 줬어, 나 성덕이야\" (\"Mi bias dijo mi nombre, soy fan exitosa\"). El destino opuesto: 덕계못.",
+            "zh": "「최애가 내 이름 불러 줬어, 나 성덕이야」（本命叫了我的名字，我是成功粉）。相反的命運：덕계못。",
+            "cn": "“최애가 내 이름 불러 줬어, 나 성덕이야”（本命叫了我的名字，我是成功粉）。相反的命运：덕계못。",
+            "ja": "「최애가 내 이름 불러 줬어, 나 성덕이야」（推しが名前を呼んでくれた、成功したオタクだ）。反対の運命は덕계못。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕계못",
+            "팬싸",
+            "덕후"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "찐팬": {
+        "nuance": {
+            "en": "찐 (real, from 진짜) + fan: a genuine, long-term fan rather than a casual one.",
+            "es": "찐 (real, de 진짜) + fan: un fan auténtico y de largo plazo, no casual.",
+            "zh": "찐（真的，來自진짜）＋粉絲：真心、長期支持的粉絲，不是路人粉。",
+            "cn": "찐（真的，来自진짜）＋粉丝：真心、长期支持的粉丝，不是路人粉。",
+            "ja": "찐（本物、진짜から）＋ファン。にわかではない、本物の長年のファン。"
+        },
+        "usage": {
+            "en": "\"이 디테일 아는 거 보니 찐팬이네\" (\"You know that detail? You're a real fan\").",
+            "es": "\"이 디테일 아는 거 보니 찐팬이네\" (\"¿Sabes ese detalle? Eres fan de verdad\").",
+            "zh": "「이 디테일 아는 거 보니 찐팬이네」（連這個細節都知道，是真粉）。",
+            "cn": "“이 디테일 아는 거 보니 찐팬이네”（连这个细节都知道，是真粉）。",
+            "ja": "「이 디테일 아는 거 보니 찐팬이네」（その細かいところ知ってるなんて本物のファンだね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕후",
+            "머글",
+            "철새"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "예판": {
+        "nuance": {
+            "en": "Short for 예약 판매 (\"reservation sale\"): album pre-orders, which open before release.",
+            "es": "Abreviatura de 예약 판매 (\"venta por reserva\"): las preventas de álbumes, que abren antes del lanzamiento.",
+            "zh": "예약 판매（預約銷售）的縮寫：專輯預購，在發行前開放。",
+            "cn": "예약 판매（预约销售）的缩写：专辑预购，在发行前开放。",
+            "ja": "예약 판매（予約販売）の略。発売前に始まるアルバムの予約。"
+        },
+        "usage": {
+            "en": "\"예판 특전 포카 너무 예뻐\" (\"The pre-order bonus photocard is so pretty\").",
+            "es": "\"예판 특전 포카 너무 예뻐\" (\"La photocard de regalo por preventa es preciosa\").",
+            "zh": "「예판 특전 포카 너무 예뻐」（預購特典小卡好美）。",
+            "cn": "“예판 특전 포카 너무 예뻐”（预购特典小卡好美）。",
+            "ja": "「예판 특전 포카 너무 예뻐」（予約特典のトレカかわいすぎる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "초동",
+            "럭키드로우",
+            "앨범깡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "조공": {
+        "nuance": {
+            "en": "朝貢 — \"tribute\": gifts fans send to idols or their staff — meals, snacks, coffee trucks for a filming set.",
+            "es": "朝貢, \"tributo\": regalos que los fans envían a los idols o a su staff, como comidas, snacks o camiones de café para un rodaje.",
+            "zh": "朝貢——「應援禮物」：粉絲送給偶像或工作人員的禮物——便當、點心、片場的咖啡車。",
+            "cn": "朝贡——“应援礼物”：粉丝送给偶像或工作人员的礼物——便当、点心、片场的咖啡车。",
+            "ja": "朝貢。ファンがアイドルやスタッフに贈る差し入れ。お弁当やお菓子、撮影現場へのコーヒーカーなど。"
+        },
+        "usage": {
+            "en": "\"촬영장에 조공 도시락 보냈어\" (\"We sent lunch boxes to the filming set\").",
+            "es": "\"촬영장에 조공 도시락 보냈어\" (\"Mandamos almuerzos al set de grabación\").",
+            "zh": "「촬영장에 조공 도시락 보냈어」（送了應援便當到片場）。",
+            "cn": "“촬영장에 조공 도시락 보냈어”（送了应援便当到片场）。",
+            "ja": "「촬영장에 조공 도시락 보냈어」（撮影現場にお弁当の差し入れを送った）。"
+        },
+        "culture": {
+            "en": "Many agencies limit what they accept — often only food for the whole team — so fan projects increasingly favor donations or ads instead.",
+            "es": "Muchas agencias limitan lo que aceptan, a menudo solo comida para todo el equipo, así que los proyectos de fans prefieren cada vez más donaciones o anuncios.",
+            "zh": "許多經紀公司會限制能收的東西——常常只收給全體人員的食物——所以粉絲應援越來越常改成捐款或廣告。",
+            "cn": "许多经纪公司会限制能收的东西——常常只收给全体人员的食物——所以粉丝应援越来越常改成捐款或广告。",
+            "ja": "多くの事務所は受け取れるものを制限していて（チーム全員分の食べ物のみなど）、ファンの企画は寄付や広告に向かうことが増えている。"
+        },
+        "register": "everyday",
+        "similar": [
+            "서포트",
+            "생일카페",
+            "팬레터"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "커플템": {
+        "nuance": {
+            "en": "\"Couple item\": matching things partners wear or use. Fans also joke about owning the same item as their bias.",
+            "es": "\"Artículo de pareja\": cosas iguales que usan las parejas. Los fans también bromean con tener lo mismo que su bias.",
+            "zh": "情侶單品：伴侶一起穿戴或使用的相同物品。粉絲也會開玩笑說和本命用同款就是「情侶款」。",
+            "cn": "情侣单品：伴侣一起穿戴或使用的相同物品。粉丝也会开玩笑说和本命用同款就是“情侣款”。",
+            "ja": "カップルアイテム。恋人同士でおそろいにする物。推しと同じ物を持つことを冗談でこう呼ぶファンも。"
+        },
+        "usage": {
+            "en": "\"최애가 쓰는 립밤 샀어, 커플템이야\" (\"I bought the lip balm my bias uses — couple item!\").",
+            "es": "\"최애가 쓰는 립밤 샀어, 커플템이야\" (\"Compré el bálsamo que usa mi bias, ¡artículo de pareja!\").",
+            "zh": "「최애가 쓰는 립밤 샀어, 커플템이야」（買了本命用的護唇膏，情侶款！）。",
+            "cn": "“최애가 쓰는 립밤 샀어, 커플템이야”（买了本命用的护唇膏，情侣款！）。",
+            "ja": "「최애가 쓰는 립밤 샀어, 커플템이야」（推しが使ってるリップ買った、カップルアイテム！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "애정표현",
+            "굿즈"
+        ],
+        "tags": [
+            "romance",
+            "kpop-fan"
+        ]
+    },
+    "럭키드로우": {
+        "nuance": {
+            "en": "A lucky draw: a store event where buying an album gives you a chance at an extra, exclusive photocard.",
+            "es": "Un lucky draw: un evento de tienda donde comprar un álbum te da la oportunidad de ganar una photocard exclusiva.",
+            "zh": "幸運抽獎：購買專輯就有機會抽到額外限定小卡的店家活動。",
+            "cn": "幸运抽奖：购买专辑就有机会抽到额外限定小卡的店家活动。",
+            "ja": "ラッキードロー。アルバムを買うと限定トレカが当たるチャンスがある店舗イベント。"
+        },
+        "usage": {
+            "en": "\"럭키드로우 세 번 돌렸는데 최애 안 나와\" (\"Three lucky draws and still no bias card\").",
+            "es": "\"럭키드로우 세 번 돌렸는데 최애 안 나와\" (\"Tres lucky draws y todavía no sale mi bias\").",
+            "zh": "「럭키드로우 세 번 돌렸는데 최애 안 나와」（抽了三次幸運抽獎還是沒抽到本命）。",
+            "cn": "“럭키드로우 세 번 돌렸는데 최애 안 나와”（抽了三次幸运抽奖还是没抽到本命）。",
+            "ja": "「럭키드로우 세 번 돌렸는데 최애 안 나와」（ラキドロ3回引いたのに推しが出ない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "포카",
+            "예판",
+            "앨범깡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "촬영회": {
+        "nuance": {
+            "en": "撮影會 — a photo event where fans get a quick photo taken with, or of, an idol.",
+            "es": "撮影會: un evento donde los fans se toman una foto rápida con un idol o le toman fotos.",
+            "zh": "攝影會——粉絲能和偶像快速合照或拍偶像的活動。",
+            "cn": "摄影会——粉丝能和偶像快速合照或拍偶像的活动。",
+            "ja": "撮影会。ファンがアイドルと短時間で写真を撮ったり、アイドルを撮影したりできるイベント。"
+        },
+        "usage": {
+            "en": "\"촬영회 당첨돼서 인생샷 건졌어\" (\"I won the photo event and got the photo of my life\").",
+            "es": "\"촬영회 당첨돼서 인생샷 건졌어\" (\"Gané el evento de fotos y me llevé la foto de mi vida\").",
+            "zh": "「촬영회 당첨돼서 인생샷 건졌어」（抽中攝影會，拍到人生照片）。",
+            "cn": "“촬영회 당첨돼서 인생샷 건졌어”（抽中摄影会，拍到人生照片）。",
+            "ja": "「촬영회 당첨돼서 인생샷 건졌어」（撮影会に当選して人生最高の一枚が撮れた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬싸",
+            "하이터치",
+            "대면팬싸"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "지못미": {
+        "nuance": {
+            "en": "Short for 지켜 주지 못해 미안해 (\"sorry I couldn't protect you\"): sympathy when an idol is in an unflattering photo, a bad situation or unfair criticism.",
+            "es": "Abreviatura de 지켜 주지 못해 미안해 (\"perdón por no protegerte\"): compasión cuando un idol sale en una foto poco favorecedora, pasa un mal momento o recibe críticas injustas.",
+            "zh": "지켜 주지 못해 미안해（對不起沒能保護你）的縮寫：偶像被拍到醜照、遇到困境或不公平批評時的心疼。",
+            "cn": "지켜 주지 못해 미안해（对不起没能保护你）的缩写：偶像被拍到丑照、遇到困境或不公平批评时的心疼。",
+            "ja": "지켜 주지 못해 미안해（守ってあげられなくてごめん）の略。推しの写りの悪い写真や、つらい状況、不当な批判に寄せる同情。"
+        },
+        "usage": {
+            "en": "Often half-joking: \"이 사진 지못미ㅠㅠ\" (\"Sorry this photo exists, baby\").",
+            "es": "Suele ser medio en broma: \"이 사진 지못미ㅠㅠ\" (\"Perdón por esta foto, bebé\").",
+            "zh": "常半開玩笑：「이 사진 지못미ㅠㅠ」（這張照片對不起你ㅠㅠ）。",
+            "cn": "常半开玩笑：“이 사진 지못미ㅠㅠ”（这张照片对不起你ㅠㅠ）。",
+            "ja": "半分冗談で：「이 사진 지못미ㅠㅠ」（この写真、守れなくてごめんㅠㅠ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "존버",
+            "악개"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "취향저격": {
+        "nuance": {
+            "en": "\"Taste sniping\": something that hits your personal taste dead-on. Often shortened to 취저.",
+            "es": "\"Francotirador de gustos\": algo que da justo en tus gustos personales. Se acorta a 취저.",
+            "zh": "「狙擊喜好」：完全命中你的個人喜好，常簡稱취저。",
+            "cn": "“狙击喜好”：完全命中你的个人喜好，常简称취저。",
+            "ja": "「好み狙撃」。自分の好みにど真ん中で刺さること。취저と略す。"
+        },
+        "usage": {
+            "en": "\"이번 콘셉트 완전 내 취저\" (\"This concept is exactly my taste\").",
+            "es": "\"이번 콘셉트 완전 내 취저\" (\"Este concepto es justo mi estilo\").",
+            "zh": "「이번 콘셉트 완전 내 취저」（這次的概念完全戳中我）。",
+            "cn": "“이번 콘셉트 완전 내 취저”（这次的概念完全戳中我）。",
+            "ja": "「이번 콘셉트 완전 내 취저」（今回のコンセプト、完全に好みど真ん中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "심장저격",
+            "최애곡"
+        ],
+        "tags": [
+            "praise",
+            "favorites"
+        ]
+    },
+    "팬픽": {
+        "nuance": {
+            "en": "Fanfic: stories fans write about idols or characters.",
+            "es": "Fanfic: historias que escriben los fans sobre idols o personajes.",
+            "zh": "同人小說：粉絲以偶像或角色為主角創作的故事。",
+            "cn": "同人小说：粉丝以偶像或角色为主角创作的故事。",
+            "ja": "ファンフィクション。ファンがアイドルやキャラクターを題材に書く物語。"
+        },
+        "usage": {
+            "en": "\"이 팬픽 완결 나서 정주행했어\" (\"This fanfic finished, so I binge-read it\").",
+            "es": "\"이 팬픽 완결 나서 정주행했어\" (\"Este fanfic terminó y lo leí de corrido\").",
+            "zh": "「이 팬픽 완결 나서 정주행했어」（這篇同人完結了，一口氣看完）。",
+            "cn": "“이 팬픽 완결 나서 정주행했어”（这篇同人完结了，一口气看完）。",
+            "ja": "「이 팬픽 완결 나서 정주행했어」（このファンフィク完結したから一気読みした）。"
+        },
+        "culture": {
+            "en": "Fanfic about real people is a sensitive topic in K-pop fandoms, and many fans keep it in separate spaces away from the idols themselves.",
+            "es": "El fanfic sobre personas reales es un tema delicado en los fandoms del K-pop, y muchos fans lo mantienen en espacios separados, lejos de los propios idols.",
+            "zh": "以真人為題材的同人在K-pop粉絲圈是敏感話題，很多粉絲會把它放在與偶像本人隔開的空間。",
+            "cn": "以真人为题材的同人在K-pop粉丝圈是敏感话题，很多粉丝会把它放在与偶像本人隔开的空间。",
+            "ja": "実在の人物を描くファンフィクはK-POPファンダムでは繊細な話題で、本人の目に触れない場所で楽しむファンが多い。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬아트",
+            "커플링"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팬아트": {
+        "nuance": {
+            "en": "Fan art: drawings and artwork fans create of idols or characters.",
+            "es": "Fan art: dibujos y obras que los fans crean de idols o personajes.",
+            "zh": "同人圖、飯繪：粉絲為偶像或角色創作的畫作。",
+            "cn": "同人图、饭绘：粉丝为偶像或角色创作的画作。",
+            "ja": "ファンアート。ファンがアイドルやキャラを描いた作品。"
+        },
+        "usage": {
+            "en": "It makes fans' day when an idol shares one: \"최애가 내 팬아트 올려 줬어!\" (\"My bias posted my fan art!\").",
+            "es": "Es lo máximo cuando un idol comparte una: \"최애가 내 팬아트 올려 줬어!\" (\"¡Mi bias publicó mi fan art!\").",
+            "zh": "偶像分享時粉絲會超開心：「최애가 내 팬아트 올려 줬어!」（本命轉發了我的飯繪！）。",
+            "cn": "偶像分享时粉丝会超开心：“최애가 내 팬아트 올려 줬어!”（本命转发了我的饭绘！）。",
+            "ja": "推しがシェアしてくれたら最高：「최애가 내 팬아트 올려 줬어!」（推しが私のファンアートを載せてくれた！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬픽",
+            "서포트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "알티": {
+        "nuance": {
+            "en": "RT, a retweet: reposting a post on X (Twitter) to your followers.",
+            "es": "RT, un retuit: compartir una publicación en X (Twitter) con tus seguidores.",
+            "zh": "RT，轉推：在X（Twitter）上把貼文轉給自己的追蹤者。",
+            "cn": "RT，转推：在X（Twitter）上把贴文转给自己的追踪者。",
+            "ja": "RT、リツイート。X（Twitter）で投稿を自分のフォロワーに共有すること。"
+        },
+        "usage": {
+            "en": "Fan giveaways often run on it: \"알티 추첨으로 포카 드려요\" (\"Photocard giveaway — RT to enter\").",
+            "es": "Los sorteos de fans suelen hacerse así: \"알티 추첨으로 포카 드려요\" (\"Sorteo de photocard: haz RT para participar\").",
+            "zh": "粉絲抽獎常這樣辦：「알티 추첨으로 포카 드려요」（轉推抽小卡）。",
+            "cn": "粉丝抽奖常这样办：“알티 추첨으로 포카 드려요”（转推抽小卡）。",
+            "ja": "ファンの配布企画でよく使う：「알티 추첨으로 포카 드려요」（RT抽選でトレカ差し上げます）。"
+        },
+        "register": "casual",
+        "similar": [
+            "맞팔",
+            "파도타기",
+            "정보계"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "좋댓구알": {
+        "nuance": {
+            "en": "좋아요·댓글·구독·알림 — like, comment, subscribe and turn on notifications: the standard YouTube support request.",
+            "es": "좋아요·댓글·구독·알림: dale like, comenta, suscríbete y activa las notificaciones; el pedido estándar de apoyo en YouTube.",
+            "zh": "좋아요・댓글・구독・알림——按讚、留言、訂閱、開啟通知：YouTube上標準的支持請求。",
+            "cn": "좋아요・댓글・구독・알림——按赞、留言、订阅、打开通知：YouTube上标准的支持请求。",
+            "ja": "좋아요・댓글・구독・알림——高評価・コメント・チャンネル登録・通知オン。YouTubeの定番のお願い。"
+        },
+        "usage": {
+            "en": "Ends almost every Korean YouTube video: \"좋댓구알 부탁드려요!\" (\"Please like, comment, subscribe and hit the bell!\").",
+            "es": "Cierra casi todos los videos coreanos de YouTube: \"좋댓구알 부탁드려요!\" (\"¡Like, comenta, suscríbete y activa la campanita!\").",
+            "zh": "幾乎每支韓國YouTube影片結尾都有：「좋댓구알 부탁드려요!」（請按讚、留言、訂閱、開啟小鈴鐺！）。",
+            "cn": "几乎每支韩国YouTube视频结尾都有：“좋댓구알 부탁드려요!”（请按赞、留言、订阅、打开小铃铛！）。",
+            "ja": "韓国のYouTube動画の締めの定番：「좋댓구알 부탁드려요!」（高評価・コメント・登録・通知お願いします！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "스밍",
+            "총공"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "성지순례": {
+        "nuance": {
+            "en": "\"Pilgrimage\": visiting places linked to your idol — filming spots, favorite restaurants, hometowns. Online, it also means visiting an old post that turned out to predict the future.",
+            "es": "\"Peregrinación\": visitar lugares ligados a tu idol, como locaciones, restaurantes favoritos o su ciudad natal. En internet también es visitar una publicación vieja que predijo el futuro.",
+            "zh": "「聖地巡禮」：造訪和偶像有關的地方——拍攝地、常去的餐廳、家鄉。在網路上也指去朝聖一篇後來「預言成真」的舊文。",
+            "cn": "“圣地巡礼”：造访和偶像有关的地方——拍摄地、常去的餐厅、家乡。在网络上也指去朝圣一篇后来“预言成真”的旧文。",
+            "ja": "「聖地巡礼」。推しゆかりの場所（ロケ地、行きつけの店、地元）を訪ねること。ネットでは、未来を予言していた昔の投稿を見に行くことも指す。"
+        },
+        "usage": {
+            "en": "\"뮤비 촬영지 성지순례 왔어\" (\"I made a pilgrimage to the MV filming spot\"); on old posts: \"성지순례 왔습니다\" (\"Here on a pilgrimage\").",
+            "es": "\"뮤비 촬영지 성지순례 왔어\" (\"Vine en peregrinación a la locación del MV\"); en publicaciones viejas: \"성지순례 왔습니다\" (\"Vengo en peregrinación\").",
+            "zh": "「뮤비 촬영지 성지순례 왔어」（來MV拍攝地聖地巡禮）；在舊文下：「성지순례 왔습니다」（來朝聖了）。",
+            "cn": "“뮤비 촬영지 성지순례 왔어”（来MV拍摄地圣地巡礼）；在旧文下：“성지순례 왔습니다”（来朝圣了）。",
+            "ja": "「뮤비 촬영지 성지순례 왔어」（MVのロケ地に聖地巡礼に来た）；昔の投稿には「성지순례 왔습니다」（巡礼に来ました）。"
+        },
+        "register": "casual",
+        "similar": [
+            "생일카페",
+            "덕질"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "팬덤명": {
+        "nuance": {
+            "en": "A fandom name: the official name of a group's fan club, usually announced by the agency after debut.",
+            "es": "Nombre del fandom: el nombre oficial del club de fans de un grupo, normalmente anunciado por la agencia tras el debut.",
+            "zh": "粉絲名：團體官方粉絲團的名字，通常在出道後由經紀公司公布。",
+            "cn": "粉丝名：团体官方粉丝团的名字，通常在出道后由经纪公司公布。",
+            "ja": "ファンダム名。グループの公式ファンクラブの名前で、たいていデビュー後に事務所が発表する。"
+        },
+        "usage": {
+            "en": "\"팬덤명 드디어 생겼다!\" (\"We finally have a fandom name!\").",
+            "es": "\"팬덤명 드디어 생겼다!\" (\"¡Por fin tenemos nombre de fandom!\").",
+            "zh": "「팬덤명 드디어 생겼다!」（終於有粉絲名了！）。",
+            "cn": "“팬덤명 드디어 생겼다!”（终于有粉丝名了！）。",
+            "ja": "「팬덤명 드디어 생겼다!」（ついにファンダム名ができた！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬덤컬러",
+            "응원봉",
+            "팬송"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "머글": {
+        "nuance": {
+            "en": "\"Muggle\" (from Harry Potter): a non-fan — someone outside fandom culture.",
+            "es": "\"Muggle\" (de Harry Potter): alguien que no es fan, fuera de la cultura del fandom.",
+            "zh": "「麻瓜」（來自《哈利波特》）：非粉絲、不在粉絲圈文化裡的人。",
+            "cn": "“麻瓜”（来自《哈利波特》）：非粉丝、不在粉丝圈文化里的人。",
+            "ja": "「マグル」（ハリー・ポッターから）。ファンダム文化の外にいる一般人。"
+        },
+        "usage": {
+            "en": "\"머글 친구도 이 노래는 알더라\" (\"Even my non-fan friend knew this song\") — a sign a song has gone mainstream.",
+            "es": "\"머글 친구도 이 노래는 알더라\" (\"Hasta mi amiga no fan conocía esta canción\"), señal de que la canción ya es masiva.",
+            "zh": "「머글 친구도 이 노래는 알더라」（連麻瓜朋友都知道這首歌）——代表歌曲紅出圈了。",
+            "cn": "“머글 친구도 이 노래는 알더라”（连麻瓜朋友都知道这首歌）——代表歌曲红出圈了。",
+            "ja": "「머글 친구도 이 노래는 알더라」（マグルの友達もこの曲知ってた）。曲が一般に広まったサイン。"
+        },
+        "register": "casual",
+        "similar": [
+            "찐팬",
+            "입덕",
+            "덕후"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "철새": {
+        "nuance": {
+            "en": "\"Migratory bird\": a fan who keeps flying to whichever idol or group is trending.",
+            "es": "\"Ave migratoria\": un fan que se va volando con el idol o grupo que esté de moda.",
+            "zh": "「候鳥」：哪個偶像或團體紅就飛過去的粉絲。",
+            "cn": "“候鸟”：哪个偶像或团体红就飞过去的粉丝。",
+            "ja": "「渡り鳥」。流行っているアイドルやグループに次々と乗り換えるファン。"
+        },
+        "usage": {
+            "en": "Usually a jab: \"철새 팬들은 금방 떠나\" (\"Fair-weather fans leave fast\").",
+            "es": "Suele ser una crítica: \"철새 팬들은 금방 떠나\" (\"Los fans de temporada se van rápido\").",
+            "zh": "通常帶點批評：「철새 팬들은 금방 떠나」（候鳥粉很快就會走）。",
+            "cn": "通常带点批评：“철새 팬들은 금방 떠나”（候鸟粉很快就会走）。",
+            "ja": "たいてい皮肉で：「철새 팬들은 금방 떠나」（渡り鳥ファンはすぐ去る）。"
+        },
+        "register": "casual",
+        "similar": [
+            "갈아탐",
+            "찐팬",
+            "탈덕"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "덕메": {
+        "nuance": {
+            "en": "덕질 메이트: a fandom buddy you share concerts, merch hauls and late-night screaming with.",
+            "es": "덕질 메이트: un compañero de fandom con quien compartes conciertos, compras de merch y gritos a medianoche.",
+            "zh": "덕질 메이트（追星夥伴）：一起看演唱會、買周邊、半夜一起尖叫的粉絲朋友。",
+            "cn": "덕질 메이트（追星伙伴）：一起看演唱会、买周边、半夜一起尖叫的粉丝朋友。",
+            "ja": "덕질 메이트（オタ活仲間）。コンサートやグッズ購入、深夜の悲鳴を一緒に分かち合う友達。"
+        },
+        "usage": {
+            "en": "\"덕메 구해요\" (\"Looking for a fandom buddy\") is a common post on fan accounts.",
+            "es": "\"덕메 구해요\" (\"Busco compañera de fandom\") es una publicación común en cuentas fan.",
+            "zh": "「덕메 구해요」（徵追星夥伴）是粉絲帳號常見的貼文。",
+            "cn": "“덕메 구해요”（征追星伙伴）是粉丝帐号常见的贴文。",
+            "ja": "「덕메 구해요」（オタ友募集）はファンアカウントでよく見る投稿。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕질",
+            "소통계",
+            "직관"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "악개": {
+        "nuance": {
+            "en": "Short for 악성 개인팬 (\"malicious solo fan\"): a fan of one member who attacks the other members or the group.",
+            "es": "Abreviatura de 악성 개인팬 (\"fan individual malicioso\"): un fan de un solo miembro que ataca a los demás o al grupo.",
+            "zh": "악성 개인팬（惡性個人粉）的縮寫：只粉一個成員、還攻擊其他成員或團體的粉絲。",
+            "cn": "악성 개인팬（恶性个人粉）的缩写：只粉一个成员、还攻击其他成员或团体的粉丝。",
+            "ja": "악성 개인팬（悪質な個人ファン）の略。一人のメンバーだけを推し、他のメンバーやグループを攻撃するファン。"
+        },
+        "usage": {
+            "en": "Always negative: \"악개들 때문에 팬덤 분위기 안 좋아\" (\"The toxic solo stans are ruining the fandom's mood\").",
+            "es": "Siempre negativo: \"악개들 때문에 팬덤 분위기 안 좋아\" (\"Los solo stans tóxicos están arruinando el ambiente del fandom\").",
+            "zh": "一定是負面：「악개들 때문에 팬덤 분위기 안 좋아」（因為惡性個人粉，粉絲圈氣氛很差）。",
+            "cn": "一定是负面：“악개들 때문에 팬덤 분위기 안 좋아”（因为恶性个人粉，粉丝圈气氛很差）。",
+            "ja": "常に否定的：「악개들 때문에 팬덤 분위기 안 좋아」（悪質個人ファンのせいでファンダムの雰囲気が悪い）。"
+        },
+        "register": "casual",
+        "similar": [
+            "갠팬",
+            "완전체",
+            "지못미"
+        ],
+        "tags": [
+            "kpop-fan",
+            "annoyed"
+        ]
+    },
+    "플미충": {
+        "nuance": {
+            "en": "플미 (premium, the markup) + 충 (\"bug,\" an insulting suffix): a scalper who buys up tickets and resells them at inflated prices.",
+            "es": "플미 (premium, el sobreprecio) + 충 (\"bicho\", sufijo insultante): un revendedor que acapara entradas y las revende más caras.",
+            "zh": "플미（premium，加價）＋충（「蟲」，侮辱性後綴）：囤票後高價轉賣的黃牛。",
+            "cn": "플미（premium，加价）＋충（“虫”，侮辱性后缀）：囤票后高价转卖的黄牛。",
+            "ja": "플미（プレミアム＝上乗せ価格）＋충（「虫」、侮辱的な接尾辞）。チケットを買い占めて高値で転売する転売屋。"
+        },
+        "usage": {
+            "en": "Fans fight them openly: \"플미충한테 사지 마세요\" (\"Don't buy from scalpers\"). The -충 makes it insulting.",
+            "es": "Los fans los combaten abiertamente: \"플미충한테 사지 마세요\" (\"No compren a revendedores\"). El -충 lo vuelve insultante.",
+            "zh": "粉絲會公開抵制：「플미충한테 사지 마세요」（不要跟黃牛買）。-충是罵人的說法。",
+            "cn": "粉丝会公开抵制：“플미충한테 사지 마세요”（不要跟黄牛买）。-충是骂人的说法。",
+            "ja": "ファンは公然と反対する：「플미충한테 사지 마세요」（転売屋から買わないで）。-충は侮辱表現。"
+        },
+        "register": "casual",
+        "similar": [
+            "티켓팅",
+            "피케팅",
+            "콘서트예매"
+        ],
+        "tags": [
+            "kpop-fan",
+            "annoyed"
+        ]
+    },
+    "대포": {
+        "nuance": {
+            "en": "\"Cannon\": a huge telephoto lens that fan photographers use to shoot idols from far away — and by extension, the photographer holding it.",
+            "es": "\"Cañón\": un enorme teleobjetivo que usan los fotógrafos fans para captar a los idols desde lejos; y por extensión, quien lo lleva.",
+            "zh": "「大砲」：飯拍站子用來遠距離拍偶像的大型望遠鏡頭——也指拿著它的人。",
+            "cn": "“大砲”：饭拍站子用来远距离拍偶像的大型望远镜头——也指拿着它的人。",
+            "ja": "「大砲」。ファンフォトグラファーが遠くからアイドルを撮る巨大な望遠レンズ。転じて、それを持つ人。"
+        },
+        "usage": {
+            "en": "\"공항에 대포 엄청 왔더라\" (\"Tons of big lenses showed up at the airport\").",
+            "es": "\"공항에 대포 엄청 왔더라\" (\"Llegaron un montón de teleobjetivos al aeropuerto\").",
+            "zh": "「공항에 대포 엄청 왔더라」（機場來了超多大砲）。",
+            "cn": "“공항에 대포 엄청 왔더라”（机场来了超多大砲）。",
+            "ja": "「공항에 대포 엄청 왔더라」（空港に大砲がいっぱい来てた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "홈마",
+            "직캠",
+            "팬사진"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "응원법": {
+        "nuance": {
+            "en": "應援法 — the official fan chant: member names and lines fans shout at set points in a song, usually released by the agency.",
+            "es": "應援法: el fanchant oficial, nombres de miembros y frases que los fans gritan en momentos precisos de la canción, normalmente publicado por la agencia.",
+            "zh": "應援法——官方應援口號：在歌曲固定時間喊成員名字和口號，通常由經紀公司公布。",
+            "cn": "应援法——官方应援口号：在歌曲固定时间喊成员名字和口号，通常由经纪公司公布。",
+            "ja": "応援法。公式のファンチャント。曲の決まった所でメンバー名やフレーズを叫ぶもので、多くは事務所が公開する。"
+        },
+        "usage": {
+            "en": "\"응원법 영상 나왔어, 다 외우자\" (\"The fan chant video is out — let's memorize it\").",
+            "es": "\"응원법 영상 나왔어, 다 외우자\" (\"Salió el video del fanchant, ¡a memorizarlo!\").",
+            "zh": "「응원법 영상 나왔어, 다 외우자」（應援法影片出了，全部背起來）。",
+            "cn": "“응원법 영상 나왔어, 다 외우자”（应援法视频出了，全部背起来）。",
+            "ja": "「응원법 영상 나왔어, 다 외우자」（応援法の動画出た、全部覚えよう）。"
+        },
+        "culture": {
+            "en": "Fan chants make the crowd audible on broadcasts and at concerts — a big part of how K-pop fandoms show support together.",
+            "es": "Los fanchants hacen que el público se escuche en transmisiones y conciertos; son una parte clave de cómo los fandoms de K-pop apoyan juntos.",
+            "zh": "應援口號讓觀眾的聲音在節目和演唱會上被聽見——是K-pop粉絲一起應援的重要方式。",
+            "cn": "应援口号让观众的声音在节目和演唱会上被听见——是K-pop粉丝一起应援的重要方式。",
+            "ja": "ファンチャントは放送やコンサートで観客の声を響かせるもので、K-POPファンダムが一緒に応援する大事な形。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콜사인",
+            "떼창",
+            "응원봉"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "떼창": {
+        "nuance": {
+            "en": "떼 (crowd) + 창 (singing): the whole audience singing along at the top of their lungs.",
+            "es": "떼 (multitud) + 창 (canto): todo el público cantando a todo pulmón.",
+            "zh": "떼（一群）＋창（唱）：全場觀眾一起大合唱。",
+            "cn": "떼（一群）＋창（唱）：全场观众一起大合唱。",
+            "ja": "떼（群れ）＋창（歌）。観客全員が大声で一緒に歌う大合唱。"
+        },
+        "usage": {
+            "en": "Artists often say it moved them: \"떼창 듣고 울컥했어요\" (\"Hearing everyone sing choked me up\").",
+            "es": "Los artistas suelen decir que los emociona: \"떼창 듣고 울컥했어요\" (\"Escuchar a todos cantar me emocionó\").",
+            "zh": "藝人常說被感動：「떼창 듣고 울컥했어요」（聽到大合唱好感動）。",
+            "cn": "艺人常说被感动：“떼창 듣고 울컥했어요”（听到大合唱好感动）。",
+            "ja": "アーティストがよく感動を語る：「떼창 듣고 울컥했어요」（大合唱を聴いて胸が熱くなりました）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "응원법",
+            "콜사인",
+            "직관"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "소통계": {
+        "nuance": {
+            "en": "An interaction account: a fan account mainly for chatting and making friends with other fans.",
+            "es": "Cuenta de interacción: una cuenta fan sobre todo para charlar y hacer amigos con otros fans.",
+            "zh": "交流帳號：主要用來和其他粉絲聊天、交朋友的粉絲帳號。",
+            "cn": "交流帐号：主要用来和其他粉丝聊天、交朋友的粉丝帐号。",
+            "ja": "交流アカ。他のファンとおしゃべりしたり友達を作ったりするためのファンアカウント。"
+        },
+        "usage": {
+            "en": "\"소통계라 맞팔 환영해요\" (\"It's an interaction account — mutuals welcome\").",
+            "es": "\"소통계라 맞팔 환영해요\" (\"Es cuenta de interacción, ¡bienvenidos los mutuals!\").",
+            "zh": "「소통계라 맞팔 환영해요」（是交流帳號，歡迎互追）。",
+            "cn": "“소통계라 맞팔 환영해요”（是交流帐号，欢迎互追）。",
+            "ja": "「소통계라 맞팔 환영해요」（交流アカなので相互フォロー歓迎です）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정보계",
+            "덕메",
+            "맞팔"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "정보계": {
+        "nuance": {
+            "en": "An info account: a fan account that posts schedules, news and updates rather than personal chat.",
+            "es": "Cuenta informativa: una cuenta fan que publica agendas, noticias y novedades, no charla personal.",
+            "zh": "情報帳號：專門發行程、新聞和更新、不聊私事的粉絲帳號。",
+            "cn": "情报帐号：专门发行程、新闻和更新、不聊私事的粉丝帐号。",
+            "ja": "情報アカ。雑談ではなく、スケジュールやニュース、最新情報を投稿するファンアカウント。"
+        },
+        "usage": {
+            "en": "\"정보계만 팔로우해도 스케줄 다 알 수 있어\" (\"Follow the info accounts and you'll know every schedule\").",
+            "es": "\"정보계만 팔로우해도 스케줄 다 알 수 있어\" (\"Solo con seguir las cuentas informativas te enteras de toda la agenda\").",
+            "zh": "「정보계만 팔로우해도 스케줄 다 알 수 있어」（光追情報帳號就能知道所有行程）。",
+            "cn": "“정보계만 팔로우해도 스케줄 다 알 수 있어”（光追情报帐号就能知道所有行程）。",
+            "ja": "「정보계만 팔로우해도 스케줄 다 알 수 있어」（情報アカをフォローするだけでスケジュールが全部わかる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "소통계",
+            "팬베이스",
+            "알티"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "스밍인증": {
+        "nuance": {
+            "en": "Streaming proof: a screenshot showing you streamed a song, shared during fandom streaming campaigns.",
+            "es": "Prueba de streaming: una captura que muestra que reprodujiste una canción, compartida en campañas del fandom.",
+            "zh": "串流認證：證明自己有刷歌的截圖，在粉絲刷歌活動時分享。",
+            "cn": "串流认证：证明自己有刷歌的截屏，在粉丝刷歌活动时分享。",
+            "ja": "ストリーミング認証。曲を再生したことを示すスクショで、ファンダムの再生キャンペーンで共有する。"
+        },
+        "usage": {
+            "en": "\"스밍인증하면 추첨으로 포카 드려요\" (\"Post streaming proof for a chance to win a photocard\").",
+            "es": "\"스밍인증하면 추첨으로 포카 드려요\" (\"Comparte tu prueba de streaming y participa por una photocard\").",
+            "zh": "「스밍인증하면 추첨으로 포카 드려요」（上傳串流認證就能抽小卡）。",
+            "cn": "“스밍인증하면 추첨으로 포카 드려요”（上传串流认证就能抽小卡）。",
+            "ja": "「스밍인증하면 추첨으로 포카 드려요」（ストリーミング認証で抽選トレカ配布）。"
+        },
+        "register": "casual",
+        "similar": [
+            "스밍",
+            "스밍표",
+            "총공"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "총공지": {
+        "nuance": {
+            "en": "總攻 + notice: the announcement that organizes a fandom-wide push — when to stream, vote or post a hashtag.",
+            "es": "總攻 + aviso: el anuncio que organiza una ofensiva de todo el fandom: cuándo reproducir, votar o publicar un hashtag.",
+            "zh": "總攻公告：組織全體粉絲行動的公告——什麼時候刷歌、投票或發標籤。",
+            "cn": "总攻公告：组织全体粉丝行动的公告——什么时候刷歌、投票或发标签。",
+            "ja": "総攻告知。ファンダム全体の一斉行動（再生、投票、ハッシュタグ投稿）のタイミングを知らせる告知。"
+        },
+        "usage": {
+            "en": "\"총공지 확인하고 8시에 다 같이 투표!\" (\"Check the notice and vote together at 8!\").",
+            "es": "\"총공지 확인하고 8시에 다 같이 투표!\" (\"¡Lean el aviso y votemos juntos a las 8!\").",
+            "zh": "「총공지 확인하고 8시에 다 같이 투표!」（看總攻公告，8點一起投票！）。",
+            "cn": "“총공지 확인하고 8시에 다 같이 투표!”（看总攻公告，8点一起投票！）。",
+            "ja": "「총공지 확인하고 8시에 다 같이 투표!」（総攻告知を確認して8時にみんなで投票！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "총공",
+            "팬베이스",
+            "팬투표"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "데뷔기념일": {
+        "nuance": {
+            "en": "Debut anniversary: the yearly celebration of a group's debut date, with fan events, special content and trending hashtags.",
+            "es": "Aniversario de debut: la celebración anual de la fecha de debut de un grupo, con eventos de fans, contenido especial y hashtags en tendencia.",
+            "zh": "出道紀念日：每年慶祝團體出道日，有粉絲活動、特別內容和熱門標籤。",
+            "cn": "出道纪念日：每年庆祝团体出道日，有粉丝活动、特别内容和热门标签。",
+            "ja": "デビュー記念日。毎年グループのデビュー日を祝う日で、ファンイベントや特別コンテンツ、ハッシュタグがトレンド入りする。"
+        },
+        "usage": {
+            "en": "\"데뷔 5주년 축하해!\" (\"Happy 5th debut anniversary!\").",
+            "es": "\"데뷔 5주년 축하해!\" (\"¡Feliz 5.º aniversario de debut!\").",
+            "zh": "「데뷔 5주년 축하해!」（出道五週年快樂！）。",
+            "cn": "“데뷔 5주년 축하해!”（出道五周年快乐！）。",
+            "ja": "「데뷔 5주년 축하해!」（デビュー5周年おめでとう！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데뷔",
+            "팬송",
+            "최애생일"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "최애생일": {
+        "nuance": {
+            "en": "Your bias's birthday — the biggest day on a fan's calendar, with cafés, ads and midnight posts.",
+            "es": "El cumpleaños de tu bias: el día más importante del calendario fan, con cafés, anuncios y publicaciones a medianoche.",
+            "zh": "本命生日——粉絲行事曆上最重要的一天，有生日咖啡廳、廣告和午夜發文。",
+            "cn": "本命生日——粉丝行事历上最重要的一天，有生日咖啡厅、广告和午夜发文。",
+            "ja": "推しの誕生日。カフェ、広告、深夜0時の投稿など、ファンにとって一年で一番大事な日。"
+        },
+        "usage": {
+            "en": "\"최애생일 주간이라 지갑이 텅 비었어\" (\"It's my bias's birthday week, so my wallet is empty\").",
+            "es": "\"최애생일 주간이라 지갑이 텅 비었어\" (\"Es la semana del cumpleaños de mi bias, mi billetera está vacía\").",
+            "zh": "「최애생일 주간이라 지갑이 텅 비었어」（本命生日週，錢包空了）。",
+            "cn": "“최애생일 주간이라 지갑이 텅 비었어”（本命生日周，钱包空了）。",
+            "ja": "「최애생일 주간이라 지갑이 텅 비었어」（推しの誕生日週間で財布が空っぽ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "생일카페",
+            "생일시",
+            "서포트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "서포트": {
+        "nuance": {
+            "en": "A support project: fan-funded celebrations — subway and billboard ads, coffee trucks, donations in an idol's name.",
+            "es": "Un proyecto de apoyo: celebraciones financiadas por fans, como anuncios en el metro o carteles, camiones de café o donaciones a nombre del idol.",
+            "zh": "應援企劃：粉絲集資的慶祝活動——地鐵廣告、看板、咖啡車、以偶像名義捐款。",
+            "cn": "应援企划：粉丝集资的庆祝活动——地铁广告、看板、咖啡车、以偶像名义捐款。",
+            "ja": "サポート企画。ファンの資金による祝賀。地下鉄や看板の広告、コーヒーカー、アイドル名義の寄付など。"
+        },
+        "usage": {
+            "en": "\"지하철 서포트 광고 보러 갔어\" (\"I went to see the fan-funded subway ad\").",
+            "es": "\"지하철 서포트 광고 보러 갔어\" (\"Fui a ver el anuncio del metro pagado por fans\").",
+            "zh": "「지하철 서포트 광고 보러 갔어」（去看了地鐵應援廣告）。",
+            "cn": "“지하철 서포트 광고 보러 갔어”（去看了地铁应援广告）。",
+            "ja": "「지하철 서포트 광고 보러 갔어」（地下鉄のサポート広告を見に行った）。"
+        },
+        "culture": {
+            "en": "Fan-funded subway-station ads for idol birthdays are a familiar sight in Seoul.",
+            "es": "Los anuncios pagados por fans en estaciones de metro por el cumpleaños de idols son algo común en Seúl.",
+            "zh": "粉絲集資的偶像生日地鐵廣告在首爾很常見。",
+            "cn": "粉丝集资的偶像生日地铁广告在首尔很常见。",
+            "ja": "アイドルの誕生日を祝うファン出資の地下鉄広告は、ソウルではおなじみの光景。"
+        },
+        "register": "everyday",
+        "similar": [
+            "조공",
+            "생일카페",
+            "최애생일"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팬투표": {
+        "nuance": {
+            "en": "Fan voting: votes fans cast through apps to help an artist win music shows, awards or polls.",
+            "es": "Votación de fans: votos que los fans emiten en apps para que un artista gane programas musicales, premios o encuestas.",
+            "zh": "粉絲投票：粉絲透過App投票，幫藝人拿音樂節目一位、獎項或排行。",
+            "cn": "粉丝投票：粉丝通过App投票，帮艺人拿音乐节目一位、奖项或排行。",
+            "ja": "ファン投票。アプリで投票して、音楽番組や授賞式、ランキングでアーティストを勝たせること。"
+        },
+        "usage": {
+            "en": "\"팬투표 마감 1시간 남았어!\" (\"One hour left to vote!\").",
+            "es": "\"팬투표 마감 1시간 남았어!\" (\"¡Queda una hora para votar!\").",
+            "zh": "「팬투표 마감 1시간 남았어!」（投票還剩一小時截止！）。",
+            "cn": "“팬투표 마감 1시간 남았어!”（投票还剩一小时截止！）。",
+            "ja": "「팬투표 마감 1시간 남았어!」（ファン投票締め切りまであと1時間！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "총공",
+            "1위후보",
+            "총공지"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "직관": {
+        "nuance": {
+            "en": "直觀 — watching in person: being there live at a concert, show taping or game.",
+            "es": "直觀: ver en persona, estar en vivo en un concierto, una grabación o un partido.",
+            "zh": "直觀——現場觀看：親自到演唱會、節目錄影或比賽現場。",
+            "cn": "直观——现场观看：亲自到演唱会、节目录制或比赛现场。",
+            "ja": "直観。コンサートや番組収録、試合を現地で直接見ること。"
+        },
+        "usage": {
+            "en": "\"직관은 차원이 달라\" (\"Seeing it live is on another level\").",
+            "es": "\"직관은 차원이 달라\" (\"Verlo en vivo es otro nivel\").",
+            "zh": "「직관은 차원이 달라」（現場看完全是另一個層次）。",
+            "cn": "“직관은 차원이 달라”（现场看完全是另一个层次）。",
+            "ja": "「직관은 차원이 달라」（現地で見るのは次元が違う）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콘서트직관",
+            "직캠",
+            "떼창"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "콘서트직관": {
+        "nuance": {
+            "en": "Going to a concert in person, as opposed to watching a livestream.",
+            "es": "Ir a un concierto en persona, en lugar de verlo por transmisión.",
+            "zh": "親自到現場看演唱會，而不是看直播。",
+            "cn": "亲自到现场看演唱会，而不是看直播。",
+            "ja": "コンサートを配信ではなく現地で見ること。"
+        },
+        "usage": {
+            "en": "\"올해 목표는 콘서트직관\" (\"My goal this year: see a concert live\").",
+            "es": "\"올해 목표는 콘서트직관\" (\"Mi meta este año: ver un concierto en vivo\").",
+            "zh": "「올해 목표는 콘서트직관」（今年的目標是去現場看演唱會）。",
+            "cn": "“올해 목표는 콘서트직관”（今年的目标是去现场看演唱会）。",
+            "ja": "「올해 목표는 콘서트직관」（今年の目標はコンサート現地参戦）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "직관",
+            "첫콘",
+            "다회차"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "다회차": {
+        "nuance": {
+            "en": "多回次 — going to several shows of the same tour or run.",
+            "es": "多回次: ir a varias funciones de la misma gira o temporada.",
+            "zh": "多回次——同一巡演或檔期去看好幾場。",
+            "cn": "多回次——同一巡演或档期去看好几场。",
+            "ja": "多回次。同じツアーや公演期間に何回も参加すること。"
+        },
+        "usage": {
+            "en": "\"이번 투어 다회차 뛰는 중이야\" (\"I'm going to multiple nights of this tour\").",
+            "es": "\"이번 투어 다회차 뛰는 중이야\" (\"Voy a varias noches de esta gira\").",
+            "zh": "「이번 투어 다회차 뛰는 중이야」（這次巡演我跑了好幾場）。",
+            "cn": "“이번 투어 다회차 뛰는 중이야”（这次巡演我跑了好几场）。",
+            "ja": "「이번 투어 다회차 뛰는 중이야」（今回のツアー、複数公演参戦中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "콘서트직관",
+            "월드투어",
+            "셋리스트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "팬레터": {
+        "nuance": {
+            "en": "A fan letter: a handwritten letter to an idol, usually delivered through the agency or at fan events.",
+            "es": "Una carta de fan: una carta escrita a mano para un idol, normalmente entregada a través de la agencia o en eventos.",
+            "zh": "粉絲信：寫給偶像的手寫信，通常透過經紀公司或在粉絲活動上轉交。",
+            "cn": "粉丝信：写给偶像的手写信，通常通过经纪公司或在粉丝活动上转交。",
+            "ja": "ファンレター。アイドルへの手書きの手紙で、事務所経由やファンイベントで渡す。"
+        },
+        "usage": {
+            "en": "\"최애가 팬레터 다 읽는다고 했어\" (\"My bias said they read every fan letter\").",
+            "es": "\"최애가 팬레터 다 읽는다고 했어\" (\"Mi bias dijo que lee todas las cartas\").",
+            "zh": "「최애가 팬레터 다 읽는다고 했어」（本命說每封粉絲信都會讀）。",
+            "cn": "“최애가 팬레터 다 읽는다고 했어”（本命说每封粉丝信都会读）。",
+            "ja": "「최애가 팬레터 다 읽는다고 했어」（推しがファンレターは全部読むって言ってた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "조공",
+            "팬싸"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "스밍표": {
+        "nuance": {
+            "en": "A streaming guide: a fan-made chart showing which songs to stream, in what order, on which platforms.",
+            "es": "Una guía de streaming: una tabla hecha por fans que indica qué canciones reproducir, en qué orden y en qué plataformas.",
+            "zh": "串流表：粉絲製作、說明要刷哪些歌、什麼順序、在哪個平台的表格。",
+            "cn": "串流表：粉丝制作、说明要刷哪些歌、什么顺序、在哪个平台的表格。",
+            "ja": "ストリーミング表。どの曲をどの順番で、どのサービスで再生するかをまとめたファン作成の表。"
+        },
+        "usage": {
+            "en": "\"스밍표대로 재생목록 만들었어\" (\"I built my playlist from the streaming guide\").",
+            "es": "\"스밍표대로 재생목록 만들었어\" (\"Armé mi playlist según la guía de streaming\").",
+            "zh": "「스밍표대로 재생목록 만들었어」（照串流表做了播放清單）。",
+            "cn": "“스밍표대로 재생목록 만들었어”（照串流表做了播放清单）。",
+            "ja": "「스밍표대로 재생목록 만들었어」（ストリーミング表どおりにプレイリストを作った）。"
+        },
+        "register": "casual",
+        "similar": [
+            "스밍",
+            "스밍인증",
+            "총공지"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "인증샷": {
+        "nuance": {
+            "en": "認證 + shot: a photo posted as proof — you bought it, you were there, you did it.",
+            "es": "認證 + shot: una foto publicada como prueba de que lo compraste, estuviste ahí o lo hiciste.",
+            "zh": "認證照：當作證明而上傳的照片——買了、去了、做到了。",
+            "cn": "认证照：当作证明而上传的照片——买了、去了、做到了。",
+            "ja": "認証ショット。買った、行った、やったことの証拠として載せる写真。"
+        },
+        "usage": {
+            "en": "\"앨범 인증샷 올렸어\" (\"I posted my album proof shot\").",
+            "es": "\"앨범 인증샷 올렸어\" (\"Subí la foto de prueba del álbum\").",
+            "zh": "「앨범 인증샷 올렸어」（上傳了專輯認證照）。",
+            "cn": "“앨범 인증샷 올렸어”（上传了专辑认证照）。",
+            "ja": "「앨범 인증샷 올렸어」（アルバムの認証ショット上げた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스밍인증",
+            "앨범깡",
+            "성지순례"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "앨범깡": {
+        "nuance": {
+            "en": "Album unboxing: opening many album copies at once to see which random photocards you get.",
+            "es": "Abrir álbumes: abrir muchas copias de un álbum de una vez para ver qué photocards aleatorias te tocan.",
+            "zh": "拆專：一次拆很多張專輯，看看抽到哪些隨機小卡。",
+            "cn": "拆专：一次拆很多张专辑，看看抽到哪些随机小卡。",
+            "ja": "アルバム開封。ランダムトレカ目当てに何枚ものアルバムを一気に開けること。"
+        },
+        "usage": {
+            "en": "Popular video content: \"앨범깡 브이로그\" (\"album unboxing vlog\").",
+            "es": "Contenido popular en video: \"앨범깡 브이로그\" (\"vlog de abrir álbumes\").",
+            "zh": "很受歡迎的影片類型：「앨범깡 브이로그」（拆專vlog）。",
+            "cn": "很受欢迎的视频类型：“앨범깡 브이로그”（拆专vlog）。",
+            "ja": "人気の動画ジャンル：「앨범깡 브이로그」（アルバム開封Vlog）。"
+        },
+        "register": "casual",
+        "similar": [
+            "포카",
+            "포카거래",
+            "럭키드로우"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "콘서트예매": {
+        "nuance": {
+            "en": "Booking concert tickets: reserving seats, usually in a timed online sale.",
+            "es": "Reservar entradas para un concierto, normalmente en una venta en línea con hora fija.",
+            "zh": "演唱會訂票：通常是在固定時間開賣的線上搶票。",
+            "cn": "演唱会订票：通常是在固定时间开卖的在线抢票。",
+            "ja": "コンサートの予約。たいてい決まった時刻に始まるオンライン販売。"
+        },
+        "usage": {
+            "en": "\"콘서트예매 8시 오픈이야, 알람 맞춰\" (\"Ticket booking opens at 8 — set an alarm\").",
+            "es": "\"콘서트예매 8시 오픈이야, 알람 맞춰\" (\"La venta abre a las 8, pon una alarma\").",
+            "zh": "「콘서트예매 8시 오픈이야, 알람 맞춰」（8點開賣，設鬧鐘）。",
+            "cn": "“콘서트예매 8시 오픈이야, 알람 맞춰”（8点开卖，设闹钟）。",
+            "ja": "「콘서트예매 8시 오픈이야, 알람 맞춰」（予約は8時開始、アラームかけて）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "티켓팅",
+            "대기열",
+            "피케팅"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "티켓팅": {
+        "nuance": {
+            "en": "Ticketing: the high-pressure race to buy tickets online the second they go on sale.",
+            "es": "Ticketing: la carrera tensa por comprar entradas en línea en el segundo exacto en que salen a la venta.",
+            "zh": "搶票：開賣那一秒就要搶下門票的緊張競賽。",
+            "cn": "抢票：开卖那一秒就要抢下门票的紧张竞赛。",
+            "ja": "チケッティング。発売の瞬間にオンラインでチケットを奪い合う緊迫した争奪戦。"
+        },
+        "usage": {
+            "en": "\"티켓팅 성공!\" (\"Ticketing success!\") or the sadder \"티켓팅 광탈\" (\"knocked out instantly\").",
+            "es": "\"티켓팅 성공!\" (\"¡Conseguí entradas!\") o el más triste \"티켓팅 광탈\" (\"eliminada al instante\").",
+            "zh": "「티켓팅 성공!」（搶票成功！）或比較慘的「티켓팅 광탈」（秒殺出局）。",
+            "cn": "“티켓팅 성공!”（抢票成功！）或比较惨的“티켓팅 광탈”（秒杀出局）。",
+            "ja": "「티켓팅 성공!」（チケット取れた！）か、悲しい「티켓팅 광탈」（瞬殺で敗退）。"
+        },
+        "culture": {
+            "en": "Popular Korean concerts often sell out within minutes, so fans prepare with fast internet, synced clocks and multiple devices.",
+            "es": "Los conciertos populares en Corea suelen agotarse en minutos, así que los fans se preparan con internet rápido, relojes sincronizados y varios dispositivos.",
+            "zh": "韓國熱門演唱會常常幾分鐘就賣完，所以粉絲會準備快速網路、對時和多台設備。",
+            "cn": "韩国热门演唱会常常几分钟就卖完，所以粉丝会准备快速网络、对时和多台设备。",
+            "ja": "韓国の人気公演は数分で売り切れることが多く、ファンは高速回線や時刻合わせ、複数端末で備える。"
+        },
+        "register": "everyday",
+        "similar": [
+            "피케팅",
+            "광클",
+            "대기열"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "피케팅": {
+        "nuance": {
+            "en": "피 (blood) + ticketing: ticketing so fierce it feels like a bloodbath.",
+            "es": "피 (sangre) + ticketing: una venta de entradas tan feroz que parece una batalla sangrienta.",
+            "zh": "피（血）＋搶票：激烈到像血戰一樣的搶票。",
+            "cn": "피（血）＋抢票：激烈到像血战一样的抢票。",
+            "ja": "피（血）＋チケッティング。血で血を洗うほど熾烈なチケット争奪戦。"
+        },
+        "usage": {
+            "en": "\"이번 콘서트 피케팅 예약이다\" (\"This concert is going to be a bloodbath\").",
+            "es": "\"이번 콘서트 피케팅 예약이다\" (\"Esta venta va a ser una masacre\").",
+            "zh": "「이번 콘서트 피케팅 예약이다」（這次演唱會注定是血戰）。",
+            "cn": "“이번 콘서트 피케팅 예약이다”（这次演唱会注定是血战）。",
+            "ja": "「이번 콘서트 피케팅 예약이다」（今回のコンサートは血のチケッティング確定）。"
+        },
+        "register": "casual",
+        "similar": [
+            "티켓팅",
+            "광클",
+            "대기열"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "광클": {
+        "nuance": {
+            "en": "狂 + click: clicking like mad to win a ticketing or sign-up race.",
+            "es": "狂 + click: hacer clic como loco para ganar una carrera de entradas o inscripciones.",
+            "zh": "狂點：為了搶票或報名而瘋狂點擊。",
+            "cn": "狂点：为了抢票或报名而疯狂点击。",
+            "ja": "狂クリック。チケットや申し込みの争奪戦で狂ったようにクリックすること。"
+        },
+        "usage": {
+            "en": "\"광클했는데 대기 번호 2만 번이야\" (\"I clicked like crazy and I'm still #20,000 in line\").",
+            "es": "\"광클했는데 대기 번호 2만 번이야\" (\"Hice clic como loca y aun así soy la 20.000 en la fila\").",
+            "zh": "「광클했는데 대기 번호 2만 번이야」（瘋狂點擊，排隊號碼還是兩萬）。",
+            "cn": "“광클했는데 대기 번호 2만 번이야”（疯狂点击，排队号码还是两万）。",
+            "ja": "「광클했는데 대기 번호 2만 번이야」（狂クリックしたのに待機番号2万番）。"
+        },
+        "register": "casual",
+        "similar": [
+            "티켓팅",
+            "피케팅"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "대기열": {
+        "nuance": {
+            "en": "待機列 — the virtual waiting line on a ticketing site, showing your number before you can buy.",
+            "es": "待機列: la fila virtual de un sitio de venta de entradas, que muestra tu número antes de poder comprar.",
+            "zh": "等待隊列：售票網站上的虛擬排隊，顯示你的號碼，輪到才能購買。",
+            "cn": "等待队列：售票网站上的虚拟排队，显示你的号码，轮到才能购买。",
+            "ja": "待機列。チケットサイトの仮想待ち行列で、購入できるまでの自分の番号が表示される。"
+        },
+        "usage": {
+            "en": "\"대기열 5만 명… 그냥 포기할까\" (\"50,000 people ahead of me… should I just give up?\").",
+            "es": "\"대기열 5만 명… 그냥 포기할까\" (\"50.000 personas delante… ¿me rindo?\").",
+            "zh": "「대기열 5만 명… 그냥 포기할까」（前面排了五萬人……乾脆放棄吧）。",
+            "cn": "“대기열 5만 명… 그냥 포기할까”（前面排了五万人……干脆放弃吧）。",
+            "ja": "「대기열 5만 명… 그냥 포기할까」（待機5万人…もう諦めようかな）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "티켓팅",
+            "광클",
+            "콘서트예매"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "팬심": {
+        "nuance": {
+            "en": "Fan + 心 (heart): a fan's devotion and affection for their idol.",
+            "es": "Fan + 心 (corazón): la devoción y el cariño de un fan por su idol.",
+            "zh": "粉絲＋心：粉絲對偶像的熱愛與忠誠。",
+            "cn": "粉丝＋心：粉丝对偶像的热爱与忠诚。",
+            "ja": "ファン＋心。ファンが推しに向ける愛情と献身。"
+        },
+        "usage": {
+            "en": "\"팬심으로 앨범 열 장 샀어\" (\"I bought ten albums out of pure fan love\").",
+            "es": "\"팬심으로 앨범 열 장 샀어\" (\"Compré diez álbumes por puro amor de fan\").",
+            "zh": "「팬심으로 앨범 열 장 샀어」（出於粉絲心買了十張專輯）。",
+            "cn": "“팬심으로 앨범 열 장 샀어”（出于粉丝心买了十张专辑）。",
+            "ja": "「팬심으로 앨범 열 장 샀어」（ファン心でアルバム10枚買った）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "찐팬",
+            "덕질",
+            "존버"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팬서비스": {
+        "nuance": {
+            "en": "Fan service: things idols do to delight fans — hearts, waves, winks, playing along with requests.",
+            "es": "Fan service: lo que hacen los idols para alegrar a los fans: corazones, saludos, guiños, seguir sus pedidos.",
+            "zh": "飯撒：偶像為了讓粉絲開心做的事——比心、揮手、眨眼、配合粉絲的要求。",
+            "cn": "饭撒：偶像为了让粉丝开心做的事——比心、挥手、眨眼、配合粉丝的要求。",
+            "ja": "ファンサービス（ファンサ）。ハートや手振り、ウインク、リクエストに応えるなど、ファンを喜ばせる行動。"
+        },
+        "usage": {
+            "en": "\"팬서비스 장인\" (\"a fan-service master\"); \"팬서비스 받았어!\" (\"I got fan service!\").",
+            "es": "\"팬서비스 장인\" (\"maestro del fan service\"); \"팬서비스 받았어!\" (\"¡Me hizo fan service!\").",
+            "zh": "「팬서비스 장인」（飯撒達人）；「팬서비스 받았어!」（我被飯撒了！）。",
+            "cn": "“팬서비스 장인”（饭撒达人）；“팬서비스 받았어!”（我被饭撒了！）。",
+            "ja": "「팬서비스 장인」（ファンサの職人）；「팬서비스 받았어!」（ファンサもらった！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "소통",
+            "무대매너",
+            "팬싸"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "팬사이트": {
+        "nuance": {
+            "en": "A fan site: a fan-run page — often a fan photographer's brand — that posts photos and runs projects for an idol.",
+            "es": "Un fansite: una página hecha por fans, a menudo la marca de un fotógrafo fan, que publica fotos y organiza proyectos para un idol.",
+            "zh": "站子：粉絲經營的網站或帳號——常是飯拍站姐的品牌——發布照片、舉辦應援企劃。",
+            "cn": "站子：粉丝经营的网站或帐号——常是饭拍站姐的品牌——发布照片、举办应援企划。",
+            "ja": "ファンサイト。ファンが運営するページで、多くはファンフォトグラファーの屋号。写真の公開や応援企画を行う。"
+        },
+        "usage": {
+            "en": "\"팬사이트 프리뷰 떴어\" (\"The fan site posted previews\").",
+            "es": "\"팬사이트 프리뷰 떴어\" (\"El fansite subió los previews\").",
+            "zh": "「팬사이트 프리뷰 떴어」（站子發預覽了）。",
+            "cn": "“팬사이트 프리뷰 떴어”（站子发预览了）。",
+            "ja": "「팬사이트 프리뷰 떴어」（ファンサイトのプレビュー来た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "홈마",
+            "대포",
+            "팬사진"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "팬베이스": {
+        "nuance": {
+            "en": "A fanbase account: a large organized fan account that shares updates and runs campaigns, often for one country or language.",
+            "es": "Una cuenta fanbase: una cuenta grande y organizada que comparte novedades y dirige campañas, a menudo para un país o idioma.",
+            "zh": "粉絲站：規模大、有組織的粉絲帳號，分享消息並發起活動，常以國家或語言區分。",
+            "cn": "粉丝站：规模大、有组织的粉丝帐号，分享消息并发起活动，常以国家或语言区分。",
+            "ja": "ファンベース。最新情報の共有やキャンペーンを担う組織的な大型ファンアカウントで、国や言語ごとにあることが多い。"
+        },
+        "usage": {
+            "en": "\"멕시코 팬베이스에서 서포트 진행한대\" (\"The Mexican fanbase is running a support project\").",
+            "es": "\"멕시코 팬베이스에서 서포트 진행한대\" (\"El fanbase de México está organizando un proyecto\").",
+            "zh": "「멕시코 팬베이스에서 서포트 진행한대」（墨西哥粉絲站在辦應援企劃）。",
+            "cn": "“멕시코 팬베이스에서 서포트 진행한대”（墨西哥粉丝站在办应援企划）。",
+            "ja": "「멕시코 팬베이스에서 서포트 진행한대」（メキシコのファンベースがサポート企画をやるって）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "정보계",
+            "총공지",
+            "팬투표"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "스포": {
+        "nuance": {
+            "en": "Short for \"spoiler\": revealing what happens before others have seen it.",
+            "es": "Abreviatura de \"spoiler\": revelar lo que pasa antes de que otros lo vean.",
+            "zh": "「spoiler」的縮寫：在別人看之前透露內容，劇透。",
+            "cn": "“spoiler”的缩写：在别人看之前透露内容，剧透。",
+            "ja": "「スポイラー」の略。他の人が見る前に内容を明かすこと、ネタバレ。"
+        },
+        "usage": {
+            "en": "\"스포 금지!\" (\"No spoilers!\"). Idols also tease: \"스포 하나 해 줄게요\" (\"I'll give you one spoiler\").",
+            "es": "\"스포 금지!\" (\"¡Prohibidos los spoilers!\"). Los idols también juegan: \"스포 하나 해 줄게요\" (\"Les doy un spoiler\").",
+            "zh": "「스포 금지!」（禁止劇透！）。偶像也會吊胃口：「스포 하나 해 줄게요」（給你們一個小劇透）。",
+            "cn": "“스포 금지!”（禁止剧透！）。偶像也会吊胃口：“스포 하나 해 줄게요”（给你们一个小剧透）。",
+            "ja": "「스포 금지!」（ネタバレ禁止！）。アイドルも「스포 하나 해 줄게요」（ひとつネタバレしますね）とじらす。"
+        },
+        "register": "casual",
+        "similar": [
+            "무스포",
+            "스포주의",
+            "셋리스트"
+        ],
+        "tags": [
+            "drama",
+            "internet"
+        ]
+    },
+    "무스포": {
+        "nuance": {
+            "en": "無 + spoiler: spoiler-free — safe to read before watching.",
+            "es": "無 + spoiler: sin spoilers, seguro para leer antes de verlo.",
+            "zh": "無劇透：還沒看也可以安心讀。",
+            "cn": "无剧透：还没看也可以安心读。",
+            "ja": "ネタバレなし。見る前に読んでも大丈夫な内容。"
+        },
+        "usage": {
+            "en": "\"무스포 후기: 무조건 보세요\" (\"Spoiler-free review: just watch it\").",
+            "es": "\"무스포 후기: 무조건 보세요\" (\"Reseña sin spoilers: véanlo sí o sí\").",
+            "zh": "「무스포 후기: 무조건 보세요」（無劇透心得：一定要看）。",
+            "cn": "“무스포 후기: 무조건 보세요”（无剧透心得：一定要看）。",
+            "ja": "「무스포 후기: 무조건 보세요」（ネタバレなし感想：絶対見て）。"
+        },
+        "register": "casual",
+        "similar": [
+            "스포",
+            "스포주의"
+        ],
+        "tags": [
+            "drama",
+            "internet"
+        ]
+    },
+    "입덕영상": {
+        "nuance": {
+            "en": "The video that pulled you into a fandom — a stage, fancam or variety clip.",
+            "es": "El video que te metió en un fandom: una presentación, un fancam o un clip de variedades.",
+            "zh": "入坑影片：讓你掉進粉絲圈的那支影片——舞台、直拍或綜藝片段。",
+            "cn": "入坑视频：让你掉进粉丝圈的那支视频——舞台、直拍或综艺片段。",
+            "ja": "沼落ち動画。ファンになるきっかけになった動画。ステージ、直カム、バラエティの切り抜きなど。"
+        },
+        "usage": {
+            "en": "Fans share them to recruit friends: \"이게 내 입덕영상이야, 봐 봐\" (\"This is the video that got me — watch it\").",
+            "es": "Los fans los comparten para reclutar amigos: \"이게 내 입덕영상이야, 봐 봐\" (\"Este es el video que me atrapó, míralo\").",
+            "zh": "粉絲會分享來拉朋友入坑：「이게 내 입덕영상이야, 봐 봐」（這是我的入坑影片，你看看）。",
+            "cn": "粉丝会分享来拉朋友入坑：“이게 내 입덕영상이야, 봐 봐”（这是我的入坑视频，你看看）。",
+            "ja": "友達を沼に引き込むために共有する：「이게 내 입덕영상이야, 봐 봐」（これが私の沼落ち動画、見て）。"
+        },
+        "register": "casual",
+        "similar": [
+            "입덕",
+            "직캠",
+            "역주행"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "스포주의": {
+        "nuance": {
+            "en": "Spoiler warning: a label on posts that contain spoilers.",
+            "es": "Aviso de spoiler: una etiqueta en publicaciones que contienen spoilers.",
+            "zh": "劇透注意：標在含劇透內容貼文上的提醒。",
+            "cn": "剧透注意：标在含剧透内容贴文上的提醒。",
+            "ja": "ネタバレ注意。ネタバレを含む投稿につける注意書き。"
+        },
+        "usage": {
+            "en": "Put at the top of posts: \"(스포주의) 마지막 회 후기\" (\"[Spoilers] finale review\").",
+            "es": "Se pone al inicio: \"(스포주의) 마지막 회 후기\" (\"[Spoilers] reseña del final\").",
+            "zh": "放在貼文開頭：「(스포주의) 마지막 회 후기」（[劇透注意] 最終集心得）。",
+            "cn": "放在贴文开头：“(스포주의) 마지막 회 후기”（[剧透注意] 最终集心得）。",
+            "ja": "投稿の冒頭に：「(스포주의) 마지막 회 후기」（[ネタバレ注意] 最終回の感想）。"
+        },
+        "register": "casual",
+        "similar": [
+            "스포",
+            "무스포"
+        ],
+        "tags": [
+            "drama",
+            "internet"
+        ]
+    },
+    "콘서트셋리스트": {
+        "nuance": {
+            "en": "A concert setlist: the songs performed at a show, in order. Tour setlists spread online after the first night.",
+            "es": "El setlist de un concierto: las canciones interpretadas en orden. Los setlists de gira circulan en internet después de la primera noche.",
+            "zh": "演唱會歌單：演出的歌曲和順序。巡演首場後歌單就會在網路上流傳。",
+            "cn": "演唱会歌单：演出的歌曲和顺序。巡演首场后歌单就会在网络上流传。",
+            "ja": "コンサートのセットリスト。演奏された曲と順番。ツアー初日の後にネットで出回る。"
+        },
+        "usage": {
+            "en": "\"콘서트셋리스트 보고 예습 중\" (\"Studying the setlist before the show\").",
+            "es": "\"콘서트셋리스트 보고 예습 중\" (\"Estudiando el setlist antes del concierto\").",
+            "zh": "「콘서트셋리스트 보고 예습 중」（看歌單預習中）。",
+            "cn": "“콘서트셋리스트 보고 예습 중”（看歌单预习中）。",
+            "ja": "「콘서트셋리스트 보고 예습 중」（セトリ見て予習中）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "셋리스트",
+            "스포",
+            "오프닝곡"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "사복패션": {
+        "nuance": {
+            "en": "私服 fashion — an idol's personal, off-duty style, as opposed to stage costumes.",
+            "es": "Moda 私服: el estilo personal de un idol fuera del trabajo, a diferencia del vestuario de escenario.",
+            "zh": "私服穿搭——偶像下班後的個人風格，相對於舞台服裝。",
+            "cn": "私服穿搭——偶像下班后的个人风格，相对于舞台服装。",
+            "ja": "私服ファッション。ステージ衣装ではない、アイドル個人の普段のスタイル。"
+        },
+        "usage": {
+            "en": "\"사복패션 정보 아는 사람?\" (\"Anyone know where that off-duty outfit is from?\").",
+            "es": "\"사복패션 정보 아는 사람?\" (\"¿Alguien sabe de dónde es ese outfit?\").",
+            "zh": "「사복패션 정보 아는 사람?」（有人知道這套私服的資訊嗎？）。",
+            "cn": "“사복패션 정보 아는 사람?”（有人知道这套私服的信息吗？）。",
+            "ja": "「사복패션 정보 아는 사람?」（この私服の情報知ってる人？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "공항패션",
+            "코디"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "공항패션": {
+        "nuance": {
+            "en": "Airport fashion: what idols wear when traveling, photographed by press and fans — often coordinated with brands.",
+            "es": "Moda de aeropuerto: lo que usan los idols al viajar, fotografiado por prensa y fans, a menudo en coordinación con marcas.",
+            "zh": "機場時尚：偶像出國時的穿搭，會被媒體和粉絲拍下——常和品牌合作。",
+            "cn": "机场时尚：偶像出国时的穿搭，会被媒体和粉丝拍下——常和品牌合作。",
+            "ja": "空港ファッション。移動時のアイドルの服装で、報道陣やファンに撮影される。ブランドと連動していることも多い。"
+        },
+        "usage": {
+            "en": "\"공항패션 기사 떴어\" (\"The airport-fashion articles are out\").",
+            "es": "\"공항패션 기사 떴어\" (\"Salieron las notas de su outfit de aeropuerto\").",
+            "zh": "「공항패션 기사 떴어」（機場時尚新聞出來了）。",
+            "cn": "“공항패션 기사 떴어”（机场时尚新闻出来了）。",
+            "ja": "「공항패션 기사 떴어」（空港ファッションの記事出た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "사복패션",
+            "광고모델"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "리패키지": {
+        "nuance": {
+            "en": "A repackage: a re-release of an album with a few new songs, a new title track and new photos.",
+            "es": "Un repackage: una reedición de un álbum con algunas canciones nuevas, nueva canción principal y fotos nuevas.",
+            "zh": "改版專輯：加入幾首新歌、新主打和新照片後再次發行的專輯。",
+            "cn": "改版专辑：加入几首新歌、新主打和新照片后再次发行的专辑。",
+            "ja": "リパッケージ。新曲数曲と新タイトル曲、新しい写真を加えて再発売されるアルバム。"
+        },
+        "usage": {
+            "en": "\"리패키지로 활동 연장한대\" (\"They're extending promotions with a repackage\").",
+            "es": "\"리패키지로 활동 연장한대\" (\"Van a extender las promociones con un repackage\").",
+            "zh": "「리패키지로 활동 연장한대」（要用改版專輯延長活動）。",
+            "cn": "“리패키지로 활동 연장한대”（要用改版专辑延长活动）。",
+            "ja": "「리패키지로 활동 연장한대」（リパッケージで活動を延長するって）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "정규앨범",
+            "후속곡",
+            "스페셜앨범"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "스페셜앨범": {
+        "nuance": {
+            "en": "A special album: a one-off release outside the usual cycle — for a season, an anniversary or a project.",
+            "es": "Un álbum especial: un lanzamiento fuera del ciclo habitual, por una temporada, un aniversario o un proyecto.",
+            "zh": "特別專輯：在一般發片週期之外的發行——為了季節、紀念日或特別企劃。",
+            "cn": "特别专辑：在一般发片周期之外的发行——为了季节、纪念日或特别企划。",
+            "ja": "スペシャルアルバム。通常のサイクル外のリリースで、季節や記念日、企画に合わせたもの。"
+        },
+        "usage": {
+            "en": "\"겨울 스페셜앨범 나온대!\" (\"A winter special album is coming!\").",
+            "es": "\"겨울 스페셜앨범 나온대!\" (\"¡Va a salir un álbum especial de invierno!\").",
+            "zh": "「겨울 스페셜앨범 나온대!」（要出冬季特別專輯！）。",
+            "cn": "“겨울 스페셜앨범 나온대!”（要出冬季特别专辑！）。",
+            "ja": "「겨울 스페셜앨범 나온대!」（冬のスペシャルアルバムが出るって！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "리패키지",
+            "미니앨범",
+            "데뷔기념일"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "리스펙": {
+        "nuance": {
+            "en": "From \"respect\": genuine admiration for someone's skill or attitude.",
+            "es": "De \"respect\": admiración genuina por la habilidad o actitud de alguien.",
+            "zh": "來自「respect」：對某人實力或態度的真心佩服。",
+            "cn": "来自“respect”：对某人实力或态度的真心佩服。",
+            "ja": "「リスペクト」から。誰かの実力や姿勢への心からの敬意。"
+        },
+        "usage": {
+            "en": "\"이 무대는 리스펙이야\" (\"Total respect for this stage\").",
+            "es": "\"이 무대는 리스펙이야\" (\"Todo mi respeto por esta presentación\").",
+            "zh": "「이 무대는 리스펙이야」（這個舞台值得尊敬）。",
+            "cn": "“이 무대는 리스펙이야”（这个舞台值得尊敬）。",
+            "ja": "「이 무대는 리스펙이야」（このステージはリスペクト）。"
+        },
+        "register": "casual",
+        "similar": [
+            "명불허전",
+            "본업"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "인생곡": {
+        "nuance": {
+            "en": "\"Life song\": the song that matters most to you, of all time.",
+            "es": "\"Canción de vida\": la canción más importante para ti de todos los tiempos.",
+            "zh": "「人生歌曲」：對你來說最重要、永遠的最愛。",
+            "cn": "“人生歌曲”：对你来说最重要、永远的最爱。",
+            "ja": "「人生曲」。自分にとって一生で一番大切な曲。"
+        },
+        "usage": {
+            "en": "\"이 노래가 힘들 때 버티게 해 준 인생곡이야\" (\"This is the song that got me through hard times\").",
+            "es": "\"이 노래가 힘들 때 버티게 해 준 인생곡이야\" (\"Es la canción que me sostuvo en los momentos difíciles\").",
+            "zh": "「이 노래가 힘들 때 버티게 해 준 인생곡이야」（這首歌是陪我撐過難關的人生歌曲）。",
+            "cn": "“이 노래가 힘들 때 버티게 해 준 인생곡이야”（这首歌是陪我撑过难关的人生歌曲）。",
+            "ja": "「이 노래가 힘들 때 버티게 해 준 인생곡이야」（つらい時に支えてくれた人生曲）。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애곡",
+            "명작"
+        ],
+        "tags": [
+            "favorites"
+        ]
+    },
+    "최애곡": {
+        "nuance": {
+            "en": "최애 (favorite) + 곡 (song): your favorite track — by an artist or on a particular album.",
+            "es": "최애 (favorito) + 곡 (canción): tu tema favorito de un artista o de un álbum.",
+            "zh": "최애（最愛）＋곡（歌）：某歌手或某張專輯中最愛的歌。",
+            "cn": "최애（最爱）＋곡（歌）：某歌手或某张专辑中最爱的歌。",
+            "ja": "최애（最愛）＋곡（曲）。あるアーティストやアルバムの一番好きな曲。"
+        },
+        "usage": {
+            "en": "\"이번 앨범 최애곡 뭐야?\" (\"What's your favorite track on this album?\").",
+            "es": "\"이번 앨범 최애곡 뭐야?\" (\"¿Cuál es tu canción favorita del álbum?\").",
+            "zh": "「이번 앨범 최애곡 뭐야?」（這張專輯你最愛哪首？）。",
+            "cn": "“이번 앨범 최애곡 뭐야?”（这张专辑你最爱哪首？）。",
+            "ja": "「이번 앨범 최애곡 뭐야?」（今回のアルバムの一番好きな曲は？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인생곡",
+            "수록곡",
+            "최애"
+        ],
+        "tags": [
+            "favorites",
+            "kpop-fan"
+        ]
+    },
+    "응원문구": {
+        "nuance": {
+            "en": "The message on a fan banner or slogan towel held up at concerts and events.",
+            "es": "El mensaje de una pancarta o toalla de eslogan que los fans levantan en conciertos y eventos.",
+            "zh": "應援標語：演唱會和活動上舉起的手幅或毛巾上的文字。",
+            "cn": "应援标语：演唱会和活动上举起的手幅或毛巾上的文本。",
+            "ja": "応援メッセージ。コンサートやイベントで掲げるスローガンやうちわの文言。"
+        },
+        "usage": {
+            "en": "\"응원문구 한국어로 쓰고 싶은데 도와줘\" (\"Help me write my banner message in Korean\").",
+            "es": "\"응원문구 한국어로 쓰고 싶은데 도와줘\" (\"Ayúdame a escribir mi pancarta en coreano\").",
+            "zh": "「응원문구 한국어로 쓰고 싶은데 도와줘」（想用韓文寫應援標語，幫幫我）。",
+            "cn": "“응원문구 한국어로 쓰고 싶은데 도와줘”（想用韩文写应援标语，帮帮我）。",
+            "ja": "「응원문구 한국어로 쓰고 싶은데 도와줘」（応援メッセージを韓国語で書きたい、手伝って）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "응원법",
+            "팬레터"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "생일카페": {
+        "nuance": {
+            "en": "A birthday café: a café fans rent and decorate for an idol's birthday, with themed cups and free gifts. Short form: 생카.",
+            "es": "Un café de cumpleaños: un café que los fans alquilan y decoran por el cumpleaños de un idol, con vasos temáticos y regalos. Forma corta: 생카.",
+            "zh": "生日咖啡廳：粉絲為偶像生日包下並佈置的咖啡廳，有主題杯套和免費小禮物。簡稱생카。",
+            "cn": "生日咖啡厅：粉丝为偶像生日包下并布置的咖啡厅，有主题杯套和免费小礼物。简称생카。",
+            "ja": "誕生日カフェ。ファンがアイドルの誕生日に借りて飾り付けるカフェで、テーマカップや無料特典がある。略して생카。"
+        },
+        "usage": {
+            "en": "\"생일카페 투어 다섯 군데 돌았어\" (\"I hit five birthday cafés today\").",
+            "es": "\"생일카페 투어 다섯 군데 돌았어\" (\"Visité cinco cafés de cumpleaños hoy\").",
+            "zh": "「생일카페 투어 다섯 군데 돌았어」（今天跑了五間生日咖啡廳）。",
+            "cn": "“생일카페 투어 다섯 군데 돌았어”（今天跑了五间生日咖啡厅）。",
+            "ja": "「생일카페 투어 다섯 군데 돌았어」（誕生日カフェ5か所回った）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "생카",
+            "최애생일",
+            "서포트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팬사진": {
+        "nuance": {
+            "en": "Fan-taken photos: pictures of idols shot by fans at events, as opposed to official photos.",
+            "es": "Fotos tomadas por fans: imágenes de idols en eventos, distintas de las fotos oficiales.",
+            "zh": "飯拍照：粉絲在活動現場拍的偶像照片，相對於官方照。",
+            "cn": "饭拍照：粉丝在活动现场拍的偶像照片，相对于官方照。",
+            "ja": "ファン撮影の写真。公式写真ではなく、イベントでファンが撮ったアイドルの写真。"
+        },
+        "usage": {
+            "en": "\"공식 사진보다 팬사진이 더 예뻐\" (\"The fan photos are prettier than the official ones\").",
+            "es": "\"공식 사진보다 팬사진이 더 예뻐\" (\"Las fotos de fans son más bonitas que las oficiales\").",
+            "zh": "「공식 사진보다 팬사진이 더 예뻐」（飯拍比官方照還好看）。",
+            "cn": "“공식 사진보다 팬사진이 더 예뻐”（饭拍比官方照还好看）。",
+            "ja": "「공식 사진보다 팬사진이 더 예뻐」（公式写真よりファン写真の方がきれい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "홈마",
+            "대포",
+            "팬사이트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "갤러리": {
+        "nuance": {
+            "en": "\"Gallery\": a topic board on a Korean online community (most famously DC Inside), where fans post news, photos and discussion.",
+            "es": "\"Galería\": un foro temático en una comunidad coreana en línea (la más famosa, DC Inside), donde los fans publican noticias, fotos y debates.",
+            "zh": "「畫廊」：韓國網路社群（最有名的是DC Inside）上的主題討論板，粉絲在上面發新聞、照片和討論。",
+            "cn": "“画廊”：韩国网络社群（最有名的是DC Inside）上的主题讨论板，粉丝在上面发新闻、照片和讨论。",
+            "ja": "「ギャラリー」。韓国のネットコミュニティ（代表的なのはDC Inside）のテーマ別掲示板。ファンがニュースや写真、議論を投稿する。"
+        },
+        "usage": {
+            "en": "Often shortened to 갤: \"갤에 떡밥 올라왔어\" (\"New tidbits posted on the gallery\").",
+            "es": "Se acorta a 갤: \"갤에 떡밥 올라왔어\" (\"Subieron pistas nuevas a la galería\").",
+            "zh": "常簡稱갤：「갤에 떡밥 올라왔어」（版上有新料）。",
+            "cn": "常简称갤：“갤에 떡밥 올라왔어”（版上有新料）。",
+            "ja": "갤と略す：「갤에 떡밥 올라왔어」（ギャラリーに新ネタ来た）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정보계",
+            "떡밥"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "파도타기": {
+        "nuance": {
+            "en": "\"Wave riding\": hopping from one profile to the next through connections — and following or liking along the way.",
+            "es": "\"Surfear olas\": saltar de un perfil a otro a través de las conexiones, siguiendo o dando like en el camino.",
+            "zh": "「衝浪」：透過關聯一個個點進別人的主頁，一路追蹤或按讚。",
+            "cn": "“冲浪”：通过关联一个个点进别人的主页，一路追踪或按赞。",
+            "ja": "「波乗り」。つながりをたどってプロフィールを次々と渡り歩き、フォローやいいねをしていくこと。"
+        },
+        "usage": {
+            "en": "\"파도타기 하다가 덕메 생겼어\" (\"I found a fandom buddy while profile-hopping\").",
+            "es": "\"파도타기 하다가 덕메 생겼어\" (\"Encontré una compañera de fandom saltando de perfil en perfil\").",
+            "zh": "「파도타기 하다가 덕메 생겼어」（衝浪時認識了追星夥伴）。",
+            "cn": "“파도타기 하다가 덕메 생겼어”（冲浪时认识了追星伙伴）。",
+            "ja": "「파도타기 하다가 덕메 생겼어」（波乗りしてたらオタ友ができた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "맞팔",
+            "소통계",
+            "알티"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "맞팔": {
+        "nuance": {
+            "en": "Short for 맞팔로우: following each other — mutuals.",
+            "es": "Abreviatura de 맞팔로우: seguirse mutuamente, ser mutuals.",
+            "zh": "맞팔로우（互相追蹤）的縮寫：互粉、互追。",
+            "cn": "맞팔로우（互相追踪）的缩写：互粉、互追。",
+            "ja": "맞팔로우の略。相互フォロー。"
+        },
+        "usage": {
+            "en": "\"맞팔해요!\" (\"Let's follow each other!\"); \"선팔하면 맞팔\" (\"Follow me first and I'll follow back\").",
+            "es": "\"맞팔해요!\" (\"¡Sigámonos!\"); \"선팔하면 맞팔\" (\"Si me sigues primero, te sigo de vuelta\").",
+            "zh": "「맞팔해요!」（互追吧！）；「선팔하면 맞팔」（先追我就回追）。",
+            "cn": "“맞팔해요!”（互追吧！）；“선팔하면 맞팔”（先追我就回追）。",
+            "ja": "「맞팔해요!」（相互フォローしましょう！）；「선팔하면 맞팔」（先にフォローしてくれたらフォロバ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "소통계",
+            "파도타기",
+            "알티"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "럭키박스": {
+        "nuance": {
+            "en": "A lucky box: a mystery merch box — you don't know exactly what's inside until you open it.",
+            "es": "Una caja de la suerte: una caja sorpresa de merch; no sabes exactamente qué trae hasta abrirla.",
+            "zh": "福袋：不知道裡面裝什麼的周邊盲盒，打開才知道。",
+            "cn": "福袋：不知道里面装什么的周边盲盒，打开才知道。",
+            "ja": "ラッキーボックス（福袋）。開けるまで中身がわからないグッズのボックス。"
+        },
+        "usage": {
+            "en": "\"럭키박스에서 최애 굿즈만 나왔어!\" (\"My lucky box was all bias merch!\").",
+            "es": "\"럭키박스에서 최애 굿즈만 나왔어!\" (\"¡En mi caja sorpresa todo era de mi bias!\").",
+            "zh": "「럭키박스에서 최애 굿즈만 나왔어!」（福袋開出來全是本命周邊！）。",
+            "cn": "“럭키박스에서 최애 굿즈만 나왔어!”（福袋开出来全是本命周边！）。",
+            "ja": "「럭키박스에서 최애 굿즈만 나왔어!」（ラッキーボックスから推しのグッズばかり出た！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "럭키드로우",
+            "굿즈",
+            "한정판"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "브로마이드": {
+        "nuance": {
+            "en": "From \"bromide\" (a type of photo paper): a large glossy idol poster, often an album pre-order gift.",
+            "es": "De \"bromide\" (un tipo de papel fotográfico): un póster grande y brillante del idol, a menudo regalo de preventa.",
+            "zh": "來自「bromide」（一種相紙）：大張亮面偶像海報，常是專輯預購贈品。",
+            "cn": "来自“bromide”（一种相纸）：大张亮面偶像海报，常是专辑预购赠品。",
+            "ja": "「ブロマイド」（印画紙の一種）から。大きな光沢のあるアイドルポスターで、アルバム予約特典のことが多い。"
+        },
+        "usage": {
+            "en": "\"브로마이드 접히지 않게 지관통으로 받았어\" (\"I got the poster in a tube so it wouldn't fold\").",
+            "es": "\"브로마이드 접히지 않게 지관통으로 받았어\" (\"Me llegó el póster en tubo para que no se doblara\").",
+            "zh": "「브로마이드 접히지 않게 지관통으로 받았어」（海報用紙筒寄，才不會折到）。",
+            "cn": "“브로마이드 접히지 않게 지관통으로 받았어”（海报用纸筒寄，才不会折到）。",
+            "ja": "「브로마이드 접히지 않게 지관통으로 받았어」（ポスターが折れないように筒で受け取った）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "굿즈",
+            "앨범자켓"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "인생포카": {
+        "nuance": {
+            "en": "\"Life photocard\": the best photocard of an idol you've ever seen — the one you'd never trade.",
+            "es": "\"Photocard de vida\": la mejor photocard de un idol que has visto, la que nunca cambiarías.",
+            "zh": "「人生小卡」：見過最好看的偶像小卡——絕對不會換掉的那張。",
+            "cn": "“人生小卡”：见过最好看的偶像小卡——绝对不会换掉的那张。",
+            "ja": "「人生トレカ」。今まで見た中で最高のトレカ。絶対に手放さない一枚。"
+        },
+        "usage": {
+            "en": "\"이번 앨범 인생포카 나왔다\" (\"This album has a life-changing photocard\").",
+            "es": "\"이번 앨범 인생포카 나왔다\" (\"Este álbum trae la mejor photocard de la vida\").",
+            "zh": "「이번 앨범 인생포카 나왔다」（這張專輯出了人生小卡）。",
+            "cn": "“이번 앨범 인생포카 나왔다”（这张专辑出了人生小卡）。",
+            "ja": "「이번 앨범 인생포카 나왔다」（今回のアルバム、人生トレカ出た）。"
+        },
+        "register": "casual",
+        "similar": [
+            "포카",
+            "포카거래",
+            "탑로더"
+        ],
+        "tags": [
+            "kpop-fan",
+            "favorites"
+        ]
+    },
+    "슬리브": {
+        "nuance": {
+            "en": "A sleeve: a thin plastic cover that protects a photocard from scratches.",
+            "es": "Una funda: un plástico delgado que protege la photocard de rayones.",
+            "zh": "卡套：保護小卡不被刮傷的薄塑膠套。",
+            "cn": "卡套：保护小卡不被刮伤的薄塑料套。",
+            "ja": "スリーブ。トレカを傷から守る薄いビニールカバー。"
+        },
+        "usage": {
+            "en": "\"포카는 뜯자마자 슬리브에!\" (\"Photocards go straight into sleeves!\").",
+            "es": "\"포카는 뜯자마자 슬리브에!\" (\"¡Las photocards van directo a la funda!\").",
+            "zh": "「포카는 뜯자마자 슬리브에!」（小卡一拆開就要套卡套！）。",
+            "cn": "“포카는 뜯자마자 슬리브에!”（小卡一拆开就要套卡套！）。",
+            "ja": "「포카는 뜯자마자 슬리브에!」（トレカは開けたらすぐスリーブへ！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "탑로더",
+            "포카",
+            "인생포카"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "탑로더": {
+        "nuance": {
+            "en": "A toploader: a rigid plastic holder that keeps a photocard from bending — often decorated.",
+            "es": "Un toploader: un estuche rígido de plástico que evita que la photocard se doble; a menudo se decora.",
+            "zh": "硬卡套：防止小卡彎折的硬塑膠卡夾，常會被裝飾。",
+            "cn": "硬卡套：防止小卡弯折的硬塑料卡夹，常会被装饰。",
+            "ja": "硬質ケース（トップローダー）。トレカが曲がらないようにする硬いケースで、デコすることも多い。"
+        },
+        "usage": {
+            "en": "\"탑로더 꾸미기\" (\"toploader decorating\") is a big part of 폴꾸 culture.",
+            "es": "\"탑로더 꾸미기\" (\"decorar toploaders\") es parte importante de la cultura 폴꾸.",
+            "zh": "「탑로더 꾸미기」（裝飾硬卡套）是폴꾸（小卡裝飾）文化的重要部分。",
+            "cn": "“탑로더 꾸미기”（装饰硬卡套）是폴꾸（小卡装饰）文化的重要部分。",
+            "ja": "「탑로더 꾸미기」（硬質ケースデコ）は폴꾸（トレカデコ）文化の大事な一部。"
+        },
+        "register": "everyday",
+        "similar": [
+            "슬리브",
+            "포카",
+            "포카거래"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "포카거래": {
+        "nuance": {
+            "en": "Photocard trading: buying, selling or swapping photocards with other fans to complete a set.",
+            "es": "Intercambio de photocards: comprar, vender o cambiar photocards con otros fans para completar la colección.",
+            "zh": "小卡交易：和其他粉絲買賣或交換小卡，湊齊整套。",
+            "cn": "小卡交易：和其他粉丝买卖或交换小卡，凑齐整套。",
+            "ja": "トレカ取引。他のファンとトレカを売買・交換してコンプリートを目指すこと。"
+        },
+        "usage": {
+            "en": "\"포카거래할 때 사기 조심해\" (\"Watch out for scams when trading photocards\").",
+            "es": "\"포카거래할 때 사기 조심해\" (\"Cuidado con las estafas al intercambiar photocards\").",
+            "zh": "「포카거래할 때 사기 조심해」（交易小卡時小心詐騙）。",
+            "cn": "“포카거래할 때 사기 조심해”（交易小卡时小心诈骗）。",
+            "ja": "「포카거래할 때 사기 조심해」（トレカ取引の時は詐欺に気をつけて）。"
+        },
+        "register": "casual",
+        "similar": [
+            "포카",
+            "앨범깡",
+            "인생포카"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "포토월": {
+        "nuance": {
+            "en": "A photo wall: a branded backdrop at events and pop-ups for souvenir photos.",
+            "es": "Un photo wall: un fondo decorado con la marca en eventos y pop-ups para tomarse fotos de recuerdo.",
+            "zh": "拍照牆：活動和快閃店裡印有品牌或主題的背景板，用來拍紀念照。",
+            "cn": "拍照墙：活动和快闪店里印有品牌或主题的背景板，用来拍纪念照。",
+            "ja": "フォトウォール。イベントやポップアップにある、記念撮影用のバックパネル。"
+        },
+        "usage": {
+            "en": "\"포토월 앞 줄이 제일 길었어\" (\"The line for the photo wall was the longest\").",
+            "es": "\"포토월 앞 줄이 제일 길었어\" (\"La fila para el photo wall era la más larga\").",
+            "zh": "「포토월 앞 줄이 제일 길었어」（拍照牆前的隊伍最長）。",
+            "cn": "“포토월 앞 줄이 제일 길었어”（拍照墙前的队伍最长）。",
+            "ja": "「포토월 앞 줄이 제일 길었어」（フォトウォールの列が一番長かった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "인증샷",
+            "팝업스토어"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "하이터치": {
+        "nuance": {
+            "en": "Hi-touch: a fan event where fans walk past the idols and briefly high-five them.",
+            "es": "Hi-touch: un evento donde los fans pasan frente a los idols y chocan las manos brevemente.",
+            "zh": "擊掌會：粉絲排隊經過偶像面前，短暫擊掌的活動。",
+            "cn": "击掌会：粉丝排队经过偶像面前，短暂击掌的活动。",
+            "ja": "ハイタッチ会。ファンがアイドルの前を通りながら、一瞬ハイタッチするイベント。"
+        },
+        "usage": {
+            "en": "\"하이터치 2초였는데 손 안 씻을래\" (\"It was two seconds of hi-touch, but I'm never washing my hand\").",
+            "es": "\"하이터치 2초였는데 손 안 씻을래\" (\"Fueron dos segundos de hi-touch, pero no me lavo la mano nunca más\").",
+            "zh": "「하이터치 2초였는데 손 안 씻을래」（擊掌只有兩秒，但我不想洗手了）。",
+            "cn": "“하이터치 2초였는데 손 안 씻을래”（击掌只有两秒，但我不想洗手了）。",
+            "ja": "「하이터치 2초였는데 손 안 씻을래」（ハイタッチ2秒だったけど手を洗いたくない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬싸",
+            "촬영회",
+            "대면팬싸"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "대면팬싸": {
+        "nuance": {
+            "en": "An in-person fan sign: meeting idols face to face at a signing table to get an album signed and chat briefly.",
+            "es": "Un fansign presencial: ver a los idols cara a cara en una mesa de firmas para que firmen tu álbum y charlar un momento.",
+            "zh": "實體簽售會：在簽名桌前和偶像面對面，請他簽專輯並短暫聊天。",
+            "cn": "实体签售会：在签名桌前和偶像面对面，请他签专辑并短暂聊天。",
+            "ja": "対面サイン会。サイン台でアイドルと直接会い、アルバムにサインをもらって少し話す。"
+        },
+        "usage": {
+            "en": "\"대면팬싸에서 최애가 내 이름 기억했어\" (\"At the in-person fan sign, my bias remembered my name\").",
+            "es": "\"대면팬싸에서 최애가 내 이름 기억했어\" (\"En el fansign presencial, mi bias recordó mi nombre\").",
+            "zh": "「대면팬싸에서 최애가 내 이름 기억했어」（實體簽售會上本命記得我的名字）。",
+            "cn": "“대면팬싸에서 최애가 내 이름 기억했어”（实体签售会上本命记得我的名字）。",
+            "ja": "「대면팬싸에서 최애가 내 이름 기억했어」（対面サイン会で推しが私の名前を覚えてた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬싸",
+            "영통팬싸",
+            "하이터치"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "영통팬싸": {
+        "nuance": {
+            "en": "Short for 영상통화 팬싸인회: a video-call fan sign — a minute or so of one-on-one video chat with an idol.",
+            "es": "Abreviatura de 영상통화 팬싸인회: un fansign por videollamada, más o menos un minuto de charla a solas con el idol.",
+            "zh": "영상통화 팬싸인회（視訊簽售會）的縮寫：和偶像一對一視訊約一分鐘。",
+            "cn": "영상통화 팬싸인회（视频签售会）的缩写：和偶像一对一视频约一分钟。",
+            "ja": "영상통화 팬싸인회（ビデオ通話サイン会）の略。アイドルと1対1で約1分ビデオ通話するイベント。"
+        },
+        "usage": {
+            "en": "Lets overseas fans join: \"해외에서도 영통팬싸 참여할 수 있어\" (\"You can join video-call fan signs from abroad\").",
+            "es": "Permite participar desde el extranjero: \"해외에서도 영통팬싸 참여할 수 있어\" (\"Puedes participar en fansigns por videollamada desde otro país\").",
+            "zh": "海外粉絲也能參加：「해외에서도 영통팬싸 참여할 수 있어」（在海外也能參加視訊簽售）。",
+            "cn": "海外粉丝也能参加：“해외에서도 영통팬싸 참여할 수 있어”（在海外也能参加视频签售）。",
+            "ja": "海外からも参加できる：「해외에서도 영통팬싸 참여할 수 있어」（海外からでもビデオ通話サイン会に参加できる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "대면팬싸",
+            "팬싸"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "답글놀이": {
+        "nuance": {
+            "en": "\"Reply play\": when an idol goes on a spree replying to fans' comments on a fan platform or social media.",
+            "es": "\"Juego de respuestas\": cuando un idol se pone a responder comentarios de fans en una plataforma o red social.",
+            "zh": "「回覆遊戲」：偶像在粉絲平台或社群上一口氣回覆粉絲留言。",
+            "cn": "“回复游戏”：偶像在粉丝平台或社群上一口气回复粉丝留言。",
+            "ja": "「返信遊び」。アイドルがファンプラットフォームやSNSでファンのコメントに次々と返信すること。"
+        },
+        "usage": {
+            "en": "\"새벽에 답글놀이 해 줘서 잠 못 잤어\" (\"They were replying to comments at dawn, so I couldn't sleep\").",
+            "es": "\"새벽에 답글놀이 해 줘서 잠 못 잤어\" (\"Estuvo respondiendo comentarios de madrugada y no pude dormir\").",
+            "zh": "「새벽에 답글놀이 해 줘서 잠 못 잤어」（凌晨在回留言，害我睡不著）。",
+            "cn": "“새벽에 답글놀이 해 줘서 잠 못 잤어”（凌晨在回留言，害我睡不着）。",
+            "ja": "「새벽에 답글놀이 해 줘서 잠 못 잤어」（明け方に返信してくれて眠れなかった）。"
+        },
+        "register": "casual",
+        "similar": [
+            "소통",
+            "팬서비스"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "럽콜": {
+        "nuance": {
+            "en": "Short for 러브콜 (\"love call\"): publicly saying you want to work with or invite someone — casting offers, collab wishes, show invitations.",
+            "es": "Abreviatura de 러브콜 (\"llamada de amor\"): decir públicamente que quieres trabajar con alguien o invitarlo; ofertas de casting, deseos de colaborar, invitaciones a programas.",
+            "zh": "러브콜（Love call）的縮寫：公開表示想和某人合作或邀請對方——選角邀約、合作意願、節目邀請。",
+            "cn": "러브콜（Love call）的缩写：公开表示想和某人合作或邀请对方——选角邀约、合作意愿、节目邀请。",
+            "ja": "러브콜（ラブコール）の略。一緒に仕事したい、招きたいと公に伝えること。キャスティングのオファー、コラボの希望、番組への招待など。"
+        },
+        "usage": {
+            "en": "Often in news: \"광고계 러브콜 쇄도\" (\"Love calls flood in from advertisers\").",
+            "es": "Común en noticias: \"광고계 러브콜 쇄도\" (\"Llueven ofertas de anunciantes\").",
+            "zh": "新聞常見：「광고계 러브콜 쇄도」（廣告邀約如潮水般湧來）。",
+            "cn": "新闻常见：“광고계 러브콜 쇄도”（广告邀约如潮水般涌来）。",
+            "ja": "ニュースでよく見る：「광고계 러브콜 쇄도」（広告界からラブコール殺到）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콜라보",
+            "광고모델"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "짤줍": {
+        "nuance": {
+            "en": "짤 (pic) + 줍다 (to pick up): browsing and saving idol photos and GIFs you find online.",
+            "es": "짤 (imagen) + 줍다 (recoger): navegar y guardar fotos y GIFs de idols que encuentras en internet.",
+            "zh": "짤（圖）＋줍다（撿）：在網路上逛、存偶像的照片和動圖。",
+            "cn": "짤（图）＋줍다（捡）：在网络上逛、存偶像的照片和动图。",
+            "ja": "짤（画像）＋줍다（拾う）。ネットで見つけたアイドルの画像やGIFを保存して回ること。"
+        },
+        "usage": {
+            "en": "\"짤줍하다 보니 갤러리 용량 꽉 찼어\" (\"I saved so many pics my phone storage is full\").",
+            "es": "\"짤줍하다 보니 갤러리 용량 꽉 찼어\" (\"Guardé tantas imágenes que se llenó mi galería\").",
+            "zh": "「짤줍하다 보니 갤러리 용량 꽉 찼어」（存圖存到相簿容量滿了）。",
+            "cn": "“짤줍하다 보니 갤러리 용량 꽉 찼어”（存图存到图库容量满了）。",
+            "ja": "「짤줍하다 보니 갤러리 용량 꽉 찼어」（画像拾ってたらスマホの容量がいっぱいに）。"
+        },
+        "register": "casual",
+        "similar": [
+            "짤방",
+            "움짤",
+            "팬사진"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "최애타임": {
+        "nuance": {
+            "en": "Bias time: the part of a song, stage or episode where your bias is on screen.",
+            "es": "Momento del bias: la parte de una canción, presentación o episodio en la que sale tu bias.",
+            "zh": "本命時間：歌曲、舞台或節目中本命出現的那一段。",
+            "cn": "本命时间：歌曲、舞台或节目中本命出现的那一段。",
+            "ja": "推しタイム。曲やステージ、番組で推しが映るパート。"
+        },
+        "usage": {
+            "en": "\"2분 13초 최애타임, 다들 집중!\" (\"Bias time at 2:13 — everyone focus!\").",
+            "es": "\"2분 13초 최애타임, 다들 집중!\" (\"¡Momento del bias en el 2:13, atención todas!\").",
+            "zh": "「2분 13초 최애타임, 다들 집중!」（2分13秒本命時間，大家注意！）。",
+            "cn": "“2분 13초 최애타임, 다들 집중!”（2分13秒本命时间，大家注意！）。",
+            "ja": "「2분 13초 최애타임, 다들 집중!」（2分13秒が推しタイム、みんな集中！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애",
+            "킬링파트",
+            "직캠"
+        ],
+        "tags": [
+            "kpop-fan",
+            "favorites"
+        ]
+    },
+    "안방수니": {
+        "nuance": {
+            "en": "안방 (living room) + 수니 (fangirl slang): a fan who supports from home — streaming, voting and watching online rather than going to events.",
+            "es": "안방 (sala) + 수니 (jerga de fangirl): una fan que apoya desde casa, haciendo streaming, votando y viendo en línea en vez de ir a eventos.",
+            "zh": "안방（客廳）＋수니（迷妹的俗稱）：在家追星的粉絲——刷歌、投票、線上看，不跑現場。",
+            "cn": "안방（客厅）＋수니（迷妹的俗称）：在家追星的粉丝——刷歌、投票、在线看，不跑现场。",
+            "ja": "안방（居間）＋수니（ファンガールの俗語）。イベントに行かず、家で再生や投票、オンライン視聴で応援するファン。"
+        },
+        "usage": {
+            "en": "Very relatable for overseas fans: \"해외 사는 안방수니예요\" (\"I'm an at-home fan living abroad\").",
+            "es": "Muy común entre fans en el extranjero: \"해외 사는 안방수니예요\" (\"Soy fan desde casa y vivo fuera de Corea\").",
+            "zh": "海外粉絲很有共鳴：「해외 사는 안방수니예요」（我是住在海外的在家粉）。",
+            "cn": "海外粉丝很有共鸣：“해외 사는 안방수니예요”（我是住在海外的在家粉）。",
+            "ja": "海外ファンには共感しかない：「해외 사는 안방수니예요」（海外住みのお茶の間ファンです）。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕질",
+            "직관",
+            "온라인콘서트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "탑시드홈마": {
+        "nuance": {
+            "en": "Top-seed 홈마: one of the most popular, highest-quality fan photographers in a fandom.",
+            "es": "홈마 \"cabeza de serie\": uno de los fotógrafos fans más populares y de mayor calidad del fandom.",
+            "zh": "頂級站姐：粉絲圈中最受歡迎、照片品質最高的飯拍站子。",
+            "cn": "顶级站姐：粉丝圈中最受欢迎、照片品质最高的饭拍站子。",
+            "ja": "トップシードの홈마。ファンダムで最も人気で、写真の質が高いファンフォトグラファー。"
+        },
+        "usage": {
+            "en": "\"탑시드홈마 사진 뜨면 바로 트렌드 올라가\" (\"When a top fan photographer posts, it trends right away\").",
+            "es": "\"탑시드홈마 사진 뜨면 바로 트렌드 올라가\" (\"Cuando un 홈마 top publica, se vuelve tendencia al instante\").",
+            "zh": "「탑시드홈마 사진 뜨면 바로 트렌드 올라가」（頂級站姐一發圖就上熱門）。",
+            "cn": "“탑시드홈마 사진 뜨면 바로 트렌드 올라가”（顶级站姐一发图就上热门）。",
+            "ja": "「탑시드홈마 사진 뜨면 바로 트렌드 올라가」（トップ홈마が写真を上げるとすぐトレンド入り）。"
+        },
+        "register": "casual",
+        "similar": [
+            "홈마",
+            "대포",
+            "팬사이트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팬덤컬러": {
+        "nuance": {
+            "en": "A fandom color: the official color tied to a group's fandom, used for light sticks, merch and concert oceans.",
+            "es": "Color del fandom: el color oficial asociado al fandom de un grupo, usado en light sticks, merch y océanos de luces en conciertos.",
+            "zh": "應援色：和團體粉絲圈綁定的官方顏色，用在應援棒、周邊和演唱會燈海。",
+            "cn": "应援色：和团体粉丝圈绑定的官方颜色，用在应援棒、周边和演唱会灯海。",
+            "ja": "ファンダムカラー。グループのファンダムを象徴する公式カラーで、ペンライトやグッズ、コンサートの光の海に使われる。"
+        },
+        "usage": {
+            "en": "\"공연장이 팬덤컬러로 꽉 찼어\" (\"The venue was filled with our fandom color\").",
+            "es": "\"공연장이 팬덤컬러로 꽉 찼어\" (\"El estadio se llenó del color de nuestro fandom\").",
+            "zh": "「공연장이 팬덤컬러로 꽉 찼어」（場館被應援色填滿了）。",
+            "cn": "“공연장이 팬덤컬러로 꽉 찼어”（场馆被应援色填满了）。",
+            "ja": "「공연장이 팬덤컬러로 꽉 찼어」（会場がファンダムカラーで埋まった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬덤명",
+            "응원봉"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "응원가": {
+        "nuance": {
+            "en": "應援歌 — a cheering song a fandom rallies around at events; more generally, any song that encourages you.",
+            "es": "應援歌: una canción de ánimo con la que el fandom se une en eventos; en general, cualquier canción que te da fuerzas.",
+            "zh": "應援歌——粉絲在活動中一起唱、凝聚士氣的歌；廣義上也指任何給人力量的歌。",
+            "cn": "应援歌——粉丝在活动中一起唱、凝聚士气的歌；广义上也指任何给人力量的歌。",
+            "ja": "応援歌。ファンダムがイベントで一緒に盛り上がる歌。広く元気をくれる曲全般も指す。"
+        },
+        "usage": {
+            "en": "\"시험 기간 내 응원가야\" (\"This is my cheer-up song during exams\").",
+            "es": "\"시험 기간 내 응원가야\" (\"Es mi canción de ánimo en época de exámenes\").",
+            "zh": "「시험 기간 내 응원가야」（這是我考試期間的應援歌）。",
+            "cn": "“시험 기간 내 응원가야”（这是我考试期间的应援歌）。",
+            "ja": "「시험 기간 내 응원가야」（試験期間の私の応援歌）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬송",
+            "응원법",
+            "떼창"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "첫콘": {
+        "nuance": {
+            "en": "첫 콘서트: the first show of a concert run — or someone's very first concert for an artist.",
+            "es": "첫 콘서트: el primer show de una serie de conciertos, o el primer concierto al que va alguien de un artista.",
+            "zh": "첫 콘서트：一輪演唱會的首場——或某人第一次去看某歌手的演唱會。",
+            "cn": "첫 콘서트：一轮演唱会的首场——或某人第一次去看某歌手的演唱会。",
+            "ja": "첫 콘서트。公演期間の初日、または自分が初めて行くそのアーティストのコンサート。"
+        },
+        "usage": {
+            "en": "\"첫콘이라 셋리스트 스포 없이 갔어\" (\"It was the first night, so I went in spoiler-free\"); \"내 첫콘 잊지 못해\" (\"I'll never forget my first concert\").",
+            "es": "\"첫콘이라 셋리스트 스포 없이 갔어\" (\"Era la primera noche, así que fui sin spoilers\"); \"내 첫콘 잊지 못해\" (\"Nunca olvidaré mi primer concierto\").",
+            "zh": "「첫콘이라 셋리스트 스포 없이 갔어」（首場，所以沒被歌單劇透）；「내 첫콘 잊지 못해」（忘不了我的第一場演唱會）。",
+            "cn": "“첫콘이라 셋리스트 스포 없이 갔어”（首场，所以没被歌单剧透）；“내 첫콘 잊지 못해”（忘不了我的第一场演唱会）。",
+            "ja": "「첫콘이라 셋리스트 스포 없이 갔어」（初日だからセトリのネタバレなしで行った）；「내 첫콘 잊지 못해」（初めてのコンサートは忘れられない）。"
+        },
+        "register": "casual",
+        "similar": [
+            "콘서트직관",
+            "셋리스트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "오픈런": {
+        "nuance": {
+            "en": "\"Open run\": lining up early and rushing in the moment a store or pop-up opens, to grab limited items.",
+            "es": "\"Open run\": hacer fila temprano y entrar corriendo en cuanto abre una tienda o pop-up, para conseguir artículos limitados.",
+            "zh": "「開門衝刺」：一早排隊、開門瞬間衝進去搶限量商品。",
+            "cn": "“开门冲刺”：一早排队、开门瞬间冲进去抢限量商品。",
+            "ja": "「オープンラン」。店やポップアップの開店と同時に駆け込み、限定品を手に入れること。開店ダッシュ。"
+        },
+        "usage": {
+            "en": "\"새벽 5시부터 오픈런 했어\" (\"I lined up from 5 a.m. for the opening\").",
+            "es": "\"새벽 5시부터 오픈런 했어\" (\"Hice fila desde las 5 de la mañana para la apertura\").",
+            "zh": "「새벽 5시부터 오픈런 했어」（凌晨五點就去排開門）。",
+            "cn": "“새벽 5시부터 오픈런 했어”（凌晨五点就去排开门）。",
+            "ja": "「새벽 5시부터 오픈런 했어」（朝5時から開店ダッシュした）。"
+        },
+        "register": "casual",
+        "similar": [
+            "팝업스토어",
+            "한정판",
+            "굿즈"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "한정판": {
+        "nuance": {
+            "en": "限定版 — a limited edition: a version made in limited numbers or sold for a limited time.",
+            "es": "限定版: una edición limitada, fabricada en cantidad limitada o vendida por tiempo limitado.",
+            "zh": "限定版——限量生產或限時販售的版本。",
+            "cn": "限定版——限量生产或限时贩售的版本。",
+            "ja": "限定版。数量や期間を限って販売されるバージョン。"
+        },
+        "usage": {
+            "en": "\"한정판이라 재판매 안 한대\" (\"It's limited edition, so they won't restock\").",
+            "es": "\"한정판이라 재판매 안 한대\" (\"Es edición limitada, no lo van a reponer\").",
+            "zh": "「한정판이라 재판매 안 한대」（是限定版，不會再販）。",
+            "cn": "“한정판이라 재판매 안 한대”（是限定版，不会再贩）。",
+            "ja": "「한정판이라 재판매 안 한대」（限定版だから再販しないって）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "초회한정반",
+            "오픈런",
+            "럭키박스"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "트레카": {
+        "nuance": {
+            "en": "Short for \"trading card\" — another word for a photocard, especially in Japanese-style merch.",
+            "es": "Abreviatura de \"trading card\", otra forma de decir photocard, sobre todo en merch de estilo japonés.",
+            "zh": "「trading card」的縮寫——小卡的另一種說法，尤其常見於日系周邊。",
+            "cn": "“trading card”的缩写——小卡的另一种说法，尤其常见于日系周边。",
+            "ja": "「トレーディングカード」の略。トレカ。特に日本風のグッズで使われる。"
+        },
+        "usage": {
+            "en": "\"일본 앨범 트레카 너무 예쁘다\" (\"The trading cards in the Japanese album are so pretty\").",
+            "es": "\"일본 앨범 트레카 너무 예쁘다\" (\"Las tarjetas del álbum japonés son preciosas\").",
+            "zh": "「일본 앨범 트레카 너무 예쁘다」（日版專輯的小卡好美）。",
+            "cn": "“일본 앨범 트레카 너무 예쁘다”（日版专辑的小卡好美）。",
+            "ja": "「일본 앨범 트레카 너무 예쁘다」（日本盤アルバムのトレカかわいすぎる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "포카",
+            "포카거래"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "이타백": {
+        "nuance": {
+            "en": "From Japanese 痛バッグ (ita-bag): a bag covered in a favorite's badges, keychains and acrylic stands, often in their color.",
+            "es": "Del japonés 痛バッグ (ita-bag): un bolso cubierto de pines, llaveros y figuras acrílicas de tu favorito, a menudo en su color.",
+            "zh": "來自日文痛バッグ（痛包）：貼滿本命徽章、吊飾和壓克力立牌的包包，常用本命的代表色。",
+            "cn": "来自日文痛バッグ（痛包）：贴满本命徽章、吊饰和压克力立牌的包包，常用本命的代表色。",
+            "ja": "日本語の痛バッグから。推しの缶バッジやキーホルダー、アクスタで埋め尽くしたバッグ。推しカラーでそろえることも多い。"
+        },
+        "usage": {
+            "en": "\"콘서트 가려고 이타백 완성했어\" (\"I finished my ita-bag for the concert\").",
+            "es": "\"콘서트 가려고 이타백 완성했어\" (\"Terminé mi ita-bag para el concierto\").",
+            "zh": "「콘서트 가려고 이타백 완성했어」（為了去演唱會做好了痛包）。",
+            "cn": "“콘서트 가려고 이타백 완성했어”（为了去演唱会做好了痛包）。",
+            "ja": "「콘서트 가려고 이타백 완성했어」（コンサートに行くために痛バッグ完成させた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "굿즈",
+            "덕질",
+            "팬덤컬러"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "망고주스": {
+        "nuance": {
+            "en": "A 2025 fandom meme: fans jokingly \"test\" whether their idol will actually do some random thing they asked for — named after a request to drink mango juice.",
+            "es": "Un meme fandom de 2025: los fans \"ponen a prueba\" en broma si su idol hará algo random que le pidieron; se llama así por un pedido de tomar jugo de mango.",
+            "zh": "2025年的粉絲圈迷因：粉絲開玩笑「測試」偶像會不會真的照做某個隨口提出的要求——名字來自請偶像喝芒果汁的事。",
+            "cn": "2025年的粉丝圈迷因：粉丝开玩笑“测试”偶像会不会真的照做某个随口提出的要求——名字来自请偶像喝芒果汁的事。",
+            "ja": "2025年のファンダムミーム。ファンが冗談で頼んだ何気ないことをアイドルが本当にやるか「試す」遊びで、マンゴージュースを飲んでほしいというお願いが由来。"
+        },
+        "usage": {
+            "en": "\"이번엔 무슨 망고주스 시켜 볼까?\" (\"What should we 'mango juice' them into this time?\").",
+            "es": "\"이번엔 무슨 망고주스 시켜 볼까?\" (\"¿Qué 'jugo de mango' le pedimos esta vez?\").",
+            "zh": "「이번엔 무슨 망고주스 시켜 볼까?」（這次要讓他喝什麼「芒果汁」？）。",
+            "cn": "“이번엔 무슨 망고주스 시켜 볼까?”（这次要让他喝什么“芒果汁”？）。",
+            "ja": "「이번엔 무슨 망고주스 시켜 볼까?」（今度はどんな「マンゴージュース」をお願いしようか？）。"
+        },
+        "culture": {
+            "en": "According to Korean trend outlet Careet (Aug 2025), the meme began when fans of one boy group jokingly urged members visiting Chicago to try mango juice there — and a member actually sent back a photo of himself drinking it.",
+            "es": "Según el medio coreano de tendencias Careet (agosto de 2025), el meme empezó cuando fans de un boy group pidieron en broma a los miembros que visitaban Chicago que probaran jugo de mango allí, y un miembro de verdad mandó una foto tomándolo.",
+            "zh": "根據韓國潮流媒體Careet（2025年8月），這個迷因起源於某男團粉絲開玩笑要求到芝加哥的成員去喝芒果汁——結果真的有成員傳了喝芒果汁的照片。",
+            "cn": "根据韩国潮流媒体Careet（2025年8月），这个迷因起源于某男团粉丝开玩笑要求到芝加哥的成员去喝芒果汁——结果真的有成员传了喝芒果汁的照片。",
+            "ja": "韓国のトレンドメディアCareet（2025年8月）によると、あるボーイズグループのファンが、シカゴを訪れたメンバーに冗談でマンゴージュースを飲んでと頼み、実際にメンバーが飲んでいる写真を送ってきたことから始まった。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡밥",
+            "소통"
+        ],
+        "tags": [
+            "kpop-fan",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "새로운 유행어 없나? 지금 막 뜨는 따끈따끈한 최신 밈 6",
+                "publisher": "캐릿 (Careet)",
+                "date": "2025-08-27",
+                "url": "https://www.careet.net/1723"
+            }
         ]
     },
 }
