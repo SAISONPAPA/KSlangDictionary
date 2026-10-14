@@ -108,7 +108,7 @@ IDOL = [
      "Un evento donde los ídolos se reúnen directamente con los fans, con charlas y juegos (más íntimo que un concierto).",
      "이번 팬미팅 티켓 예매 진짜 치열했어.", "Booking tickets for this fan meeting was seriously competitive.",
      "Reservar boletos para este fan meeting fue muy competitivo.",
-     "Agency events, Weverse", "Draft — please double-check"),
+     "Agency events, Weverse", "Verified (web-checked)"),
     ("쇼케이스", "syo-kei-seu", "Showcase",
      "A media event where a group performs and talks about a new album right before/at release.",
      "Un evento mediático donde un grupo interpreta y habla de un nuevo álbum justo antes o en su lanzamiento.",
@@ -270,7 +270,7 @@ IDOL = [
      "La persona encargada de los atuendos y el estilismo de un ídolo.",
      "이번 무대의상 스타일리스트가 누구야?", "Who's the stylist for this stage outfit?",
      "¿Quién es el estilista de este atuendo para el escenario?",
-     "Fashion credit posts", "Draft — please double-check"),
+     "Fashion credit posts", "Verified (web-checked)"),
     ("라인업", "ra-in-eop", "Lineup",
      "The full roster of members in a group, or of performers at an event.",
      "La formación completa de miembros de un grupo, o de artistas en un evento.",
@@ -288,7 +288,7 @@ IDOL = [
      "La persona que supervisa el sonido general y la producción de una canción.",
      "이 앨범 프로듀서가 직접 다 만들었대.", "I heard the producer made this whole album personally.",
      "Escuché que el productor hizo todo este álbum personalmente.",
-     "Album credits, interviews", "Draft — please double-check"),
+     "Album credits, interviews", "Verified (web-checked)"),
     ("콜라보", "kol-la-bo", "Collab",
      "A collaboration between two or more artists or brands.",
      "Una colaboración entre dos o más artistas o marcas.",
@@ -582,7 +582,7 @@ IDOL = [
      "La pequeña zona hinchada justo debajo de los ojos que se hace visible al sonreír, considerada un rasgo tierno.",
      "저 아이돌 애교살 진짜 매력 포인트야.", "That idol's under-eye pouch is seriously a charm point.",
      "El \"aegyo-sal\" de ese ídolo es de verdad un punto encantador.",
-     "K-beauty/appearance talk", "Draft — please double-check"),
+     "K-beauty/appearance talk", "Verified (web-checked)"),
     ("코덕", "ko-deok", "Beauty enthusiast",
      "\"Cosmetics + 덕후\" — someone deeply into makeup and skincare products.",
      "\"Cosméticos + 덕후\": alguien muy metido en productos de maquillaje y cuidado de la piel.",
@@ -618,19 +618,19 @@ IDOL = [
      "El nombre bajo el cual un ídolo se presenta y promociona, que puede ser diferente de su nombre legal.",
      "저 멤버 활동명은 원래 다른 뜻이 있대.", "I heard that member's stage name actually has a different meaning.",
      "Escuché que el nombre artístico de ese miembro en realidad tiene otro significado.",
-     "Fan trivia talk", "Draft — please double-check"),
+     "Fan trivia talk", "Verified (web-checked)"),
     ("본명", "bon-myeong", "Real name",
      "A person's legal or birth name, as opposed to their stage name.",
      "El nombre legal o de nacimiento de una persona, en contraste con su nombre artístico.",
      "저 멤버 본명 알아?", "Do you know that member's real name?",
      "¿Sabes cuál es el nombre real de ese miembro?",
-     "Fan trivia talk", "Draft — please double-check"),
+     "Fan trivia talk", "Verified (web-checked)"),
     ("예명", "ye-myeong", "Professional name",
      "A stage or professional name an artist chooses to perform under.",
      "Un nombre artístico o profesional que un artista elige usar para presentarse.",
      "예명치고 너무 잘 어울려.", "That fits them so well for a stage name.",
      "Le queda demasiado bien para ser un nombre artístico.",
-     "Fan trivia talk", "Draft — please double-check"),
+     "Fan trivia talk", "Verified (web-checked)"),
     ("앨범자켓", "aelbeom-ja-ket", "Album cover art",
      "The cover artwork/photo of a released album.",
      "El arte o foto de portada de un álbum lanzado.",
@@ -654,7 +654,7 @@ IDOL = [
      "Una tendencia de baile viral corta, generalmente construida alrededor del gancho de una canción, que fans y creadores recrean.",
      "이 챌린지 완전 유행이야.", "This dance challenge is a huge trend right now.",
      "Este reto de baile está muy de moda ahora mismo.",
-     "Short-form video trends", "Draft — please double-check"),
+     "Short-form video trends", "Verified (web-checked)"),
     ("스탠딩석", "seu-taen-ding-seok", "Standing section",
      "A ticketed concert section with no seats, where fans stand for the whole show.",
      "Una sección de concierto con boleto sin asientos, donde los fans están de pie durante todo el show.",
@@ -738,13 +738,13 @@ IDOL = [
      "Mover los labios al ritmo de una pista vocal pregrabada en lugar de cantar en vivo.",
      "저건 립싱크 아니야, 완전 라이브야.", "That's not lip sync, it's totally live.",
      "Eso no es playback, es completamente en vivo.",
-     "Performance debates", "Draft — please double-check"),
+     "Performance debates", "Verified (web-checked)"),
     ("라이브", "ra-i-beu", "Singing live",
      "Performing with real, live vocals rather than lip-syncing.",
      "Interpretar con voz real y en vivo en lugar de hacer playback.",
      "라이브 실력 진짜 탄탄하다.", "Their live vocal skills are seriously solid.",
      "Sus habilidades vocales en vivo son muy sólidas.",
-     "Performance reviews", "Draft — please double-check"),
+     "Performance reviews", "Verified (web-checked)"),
     ("백스테이지", "baek-seu-te-i-ji", "Backstage",
      "The area behind the stage where performers prepare before and after a show.",
      "El área detrás del escenario donde los artistas se preparan antes y después de un show.",
@@ -762,25 +762,25 @@ IDOL = [
      "\"Presencia\": el carisma que hace que alguien destaque y capte la atención en el escenario.",
      "저 멤버는 존재감이 남달라.", "That member has exceptional stage presence.",
      "Ese miembro tiene una presencia escénica excepcional.",
-     "Performance reviews", "Draft — please double-check"),
+     "Performance reviews", "Verified (web-checked)"),
     ("무대장악력", "mu-dae-jang-ak-ryeok", "Stage command",
      "The ability to completely command and own a stage while performing.",
      "La capacidad de dominar y controlar por completo un escenario mientras se actúa.",
      "무대장악력 하나는 진짜 최고야.", "Their stage command alone is truly the best.",
      "Su dominio del escenario por sí solo es simplemente el mejor.",
-     "Performance reviews", "Draft — please double-check"),
+     "Performance reviews", "Verified (web-checked)"),
     ("하이라이트메들리", "ha-i-la-i-teu-me-deul-li", "Highlight medley",
      "A short preview clip combining brief snippets of every track, released before an album drops.",
      "Un breve clip de adelanto que combina fragmentos de todas las canciones, lanzado antes de que salga un álbum.",
      "하이라이트메들리 듣고 완전 기대돼.", "Hearing the highlight medley got me so excited.",
      "Escuchar el medley de adelanto me emocionó muchísimo.",
-     "Pre-release promotion", "Draft — please double-check"),
+     "Pre-release promotion", "Verified (web-checked)"),
     ("콘텐츠맛집", "kon-ten-cheu-mat-jip", "Content powerhouse",
      "\"Content restaurant\" — a group or idol known for consistently great self-produced or variety content.",
      "\"Restaurante de contenido\": un grupo o ídolo conocido por producir constantemente contenido propio o de variedades de gran calidad.",
      "이 그룹은 진짜 콘텐츠맛집이야.", "This group is a real content powerhouse.",
      "Este grupo es una verdadera fuente de contenido buenísimo.",
-     "Fan content talk", "Draft — please double-check"),
+     "Fan content talk", "Verified (web-checked)"),
     ("데뷔초", "de-bwi-cho", "Early debut days",
      "A group's early period right after their debut.",
      "El período inicial de un grupo justo después de su debut.",
@@ -834,7 +834,7 @@ IDOL = [
      "\"Ídolo autoproducido\": un ídolo o grupo conocido por escribir y producir su propia música.",
      "이 그룹은 자체제작돌로 유명해.", "This group is known as a self-producing idol act.",
      "Este grupo es conocido por producir su propia música.",
-     "Music credit discussions", "Draft — please double-check"),
+     "Music credit discussions", "Verified (web-checked)"),
     ("자컨돌", "ja-keon-dol", "Self-content idol",
      "\"Self-content idol\" — an idol known for consistently creating engaging self-produced content like vlogs and livestreams.",
      "\"Ídolo de contenido propio\": un ídolo conocido por crear constantemente contenido atractivo autoproducido, como vlogs y transmisiones en vivo.",
@@ -1002,7 +1002,7 @@ IDOL = [
      "\"Dios del baile, rey del baile\": alguien que baila increíblemente bien.",
      "저 멤버 진짜 춤신춤왕이야.", "That member is a true dance god.",
      "Ese miembro es un dios del baile.",
-     "Performance praise", "Draft — please double-check"),
+     "Performance praise", "Verified (web-checked)"),
     ("청량", "cheong-nyang", "Refreshing concept",
      "淸凉 — \"refreshing\": a bright, youthful summer concept — blue skies, school uniforms, running on the beach.",
      "淸凉, \"refrescante\": un concepto veraniego, luminoso y juvenil: cielos azules, uniformes escolares, correr en la playa.",
@@ -1032,7 +1032,7 @@ IDOL = [
      "Abreviatura de 팬 콘서트: un show que mezcla la charla y los juegos de un fan meeting con presentaciones completas de concierto.",
      "이번 팬콘 셋리스트 좋더라.", "The setlist for this fan concert was great.",
      "El setlist de este fan concert estuvo genial.",
-     "Fan events", "Draft — please double-check"),
+     "Fan events", "Verified (web-checked)"),
 ]
 
 
@@ -2674,7 +2674,7 @@ MEME = [
      "Un estilo popular de fotomatón coreano con cuatro fotos pequeñas.",
      "친구랑 인생네컷 찍고 왔어.", "I went and took photo-booth pictures with my friend.",
      "Fui a tomarme fotos de fotomatón con mi amiga.",
-     "Photo booth culture", "Draft — please double-check"),
+     "Photo booth culture", "Verified (web-checked)"),
     ("빼박", "ppae-bak", "Undeniable",
      "Short for \"can't pull out, can't push in\" — meaning there's no way around it.",
      "Abreviatura que significa que no hay forma de evitarlo, es innegable.",
@@ -4084,7 +4084,7 @@ MEME = [
      "Literalmente \"peste\" (tifoidea): una maldición anticuada, con sabor a dialecto, para algo que enfurece o es absurdo.",
      "염병, 또 고장 났네.", "Damn it, it broke again.",
      "Maldita sea, se volvió a romper.",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("원영적사고", "won-yeong-jeok-sa-go", "Wonyoung-style thinking",
      "\"Wonyoung-style thinking\" — ultra-positive thinking that turns any bad luck into good luck. Named after IVE member Jang Won-young.",
      "\"Pensamiento al estilo Wonyoung\": pensamiento ultrapositivo que convierte cualquier mala suerte en buena. Se llama así por Jang Won-young, miembro de IVE.",
@@ -10893,6 +10893,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "팬미팅과 콘서트 사이, '팬 콘서트'가 뭐야?",
+                "publisher": "ELLE Korea",
+                "date": "2024-08-22",
+                "url": "https://www.elle.co.kr/article/1869645"
+            }
         ]
     },
     "쇼케이스": {
@@ -11758,6 +11766,14 @@ DETAILS = {
         ],
         "tags": [
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "[D:크레딧⑩] 이로운 스타일리스트 '어시스트 경험? 자신만 있다면 없어도 괜찮아'",
+                "publisher": "데일리안",
+                "date": "2020-10-09",
+                "url": "https://m.dailian.co.kr/news/view/925999"
+            }
         ]
     },
     "라인업": {
@@ -11834,6 +11850,14 @@ DETAILS = {
         ],
         "tags": [
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "[스경X분석] 이제는 '자체제작돌'이 대세…팀내 작곡가, 프로듀서 둔 팀들 '봇물'",
+                "publisher": "스포츠경향",
+                "date": "2019-03-04",
+                "url": "https://sports.khan.co.kr/article/201903040000003"
+            }
         ]
     },
     "콜라보": {
@@ -13251,6 +13275,14 @@ DETAILS = {
         ],
         "tags": [
             "beauty"
+        ],
+        "sources": [
+            {
+                "title": "K-뷰티 코드 '애굣살'의 모든 것",
+                "publisher": "Vogue Korea",
+                "date": "2026-07-06",
+                "url": "https://www.vogue.co.kr/?p=823940"
+            }
         ]
     },
     "코덕": {
@@ -13420,6 +13452,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "용팔? 씨걸? 우동? 웃지 못할 아이돌 예명 후보 10",
+                "publisher": "Esquire Korea",
+                "date": "2024-10-13",
+                "url": "https://www.esquirekorea.co.kr/article/1871797"
+            }
         ]
     },
     "본명": {
@@ -13444,6 +13484,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "용팔? 씨걸? 우동? 웃지 못할 아이돌 예명 후보 10",
+                "publisher": "Esquire Korea",
+                "date": "2024-10-13",
+                "url": "https://www.esquirekorea.co.kr/article/1871797"
+            }
         ]
     },
     "예명": {
@@ -13468,6 +13516,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "용팔? 씨걸? 우동? 웃지 못할 아이돌 예명 후보 10",
+                "publisher": "Esquire Korea",
+                "date": "2024-10-13",
+                "url": "https://www.esquirekorea.co.kr/article/1871797"
+            }
         ]
     },
     "앨범자켓": {
@@ -13578,6 +13634,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "몸빼바지에 새마을 티셔츠… 칠곡 초등생 '댄스 챌린지' 열풍",
+                "publisher": "경북매일",
+                "date": "2025-06-11",
+                "url": "https://www.kbmaeil.com/article/20250611500175"
+            }
         ]
     },
     "스탠딩석": {
@@ -13948,6 +14012,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "'라이브 원칙' 가요 프로그램, 현실은?",
+                "publisher": "OSEN",
+                "date": "2008-07-15",
+                "url": "https://www.osen.co.kr/article/G0807150008"
+            }
         ]
     },
     "라이브": {
@@ -13974,6 +14046,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "'라이브 원칙' 가요 프로그램, 현실은?",
+                "publisher": "OSEN",
+                "date": "2008-07-15",
+                "url": "https://www.osen.co.kr/article/G0807150008"
+            }
         ]
     },
     "백스테이지": {
@@ -14051,6 +14131,14 @@ DETAILS = {
         "tags": [
             "praise",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "임재범이 '나는 가수다'에 남긴 것…",
+                "publisher": "전북일보 (연합)",
+                "date": "2011-05-26",
+                "url": "https://www.jjan.kr/article/20110525397578"
+            }
         ]
     },
     "무대장악력": {
@@ -14077,6 +14165,14 @@ DETAILS = {
         "tags": [
             "praise",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "임재범이 '나는 가수다'에 남긴 것…",
+                "publisher": "전북일보 (연합)",
+                "date": "2011-05-26",
+                "url": "https://www.jjan.kr/article/20110525397578"
+            }
         ]
     },
     "하이라이트메들리": {
@@ -14102,6 +14198,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "카라, '무브 어게인' 수록곡 하이라이트 메들리 공개",
+                "publisher": "데일리안",
+                "date": "2022-11-26",
+                "url": "https://www.dailian.co.kr/news/view/1177437/"
+            }
         ]
     },
     "콘텐츠맛집": {
@@ -14128,6 +14232,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "크래비티 원진 \"자컨 어려워 울기도…'막하라'는 조언에 편해져\" [2026 K포럼]",
+                "publisher": "일간스포츠",
+                "date": "2026-07-09",
+                "url": "https://isplus.com/article/view/isp202607090120"
+            }
         ]
     },
     "데뷔초": {
@@ -14354,6 +14466,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "[스경X분석] 이제는 '자체제작돌'이 대세…팀내 작곡가, 프로듀서 둔 팀들 '봇물'",
+                "publisher": "스포츠경향",
+                "date": "2019-03-04",
+                "url": "https://sports.khan.co.kr/article/201903040000003"
+            }
         ]
     },
     "자컨돌": {
@@ -21523,6 +21643,14 @@ DETAILS = {
         ],
         "tags": [
             "chat"
+        ],
+        "sources": [
+            {
+                "title": "한국 오면 꼭 찍는다…외국인이 빠진 '네 컷 사진'의 시작",
+                "publisher": "위키트리",
+                "date": "2026-08-07",
+                "url": "https://www.wikitree.co.kr/articles/1151054"
+            }
         ]
     },
     "빼박": {
@@ -22511,6 +22639,12 @@ DETAILS = {
                 "publisher": "시대 (Sidae)",
                 "date": "2016-10-07",
                 "url": "https://www.sidae.com/article/2016100709208062176"
+            },
+            {
+                "title": "Expressions to Fill in Silence (Must-Know Korean Slang)",
+                "publisher": "KoreanClass101",
+                "date": "n.d.",
+                "url": "https://www.koreanclass101.com/lesson/mustknow-korean-slang-words-phrases-5-expressions-to-fill-in-silence"
             }
         ]
     },
@@ -23247,6 +23381,12 @@ DETAILS = {
                 "publisher": "Migaku",
                 "date": "2026-04-06",
                 "url": "https://migaku.com/blog/korean/korean-internet-slang-texting-terms"
+            },
+            {
+                "title": "Expressions to Fill in Silence (Must-Know Korean Slang)",
+                "publisher": "KoreanClass101",
+                "date": "n.d.",
+                "url": "https://www.koreanclass101.com/lesson/mustknow-korean-slang-words-phrases-5-expressions-to-fill-in-silence"
             }
         ]
     },
@@ -23579,6 +23719,14 @@ DETAILS = {
         "tags": [
             "praise",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "신조어 모르는 당신은 2MB!(구시대 바보)",
+                "publisher": "주간경향",
+                "date": "2008-07-29",
+                "url": "https://weekly.khan.co.kr/article/18032"
+            }
         ]
     },
     "오나전": {
@@ -26007,6 +26155,14 @@ DETAILS = {
             "kpop-fan",
             "praise",
             "funny"
+        ],
+        "sources": [
+            {
+                "title": "'컬투쇼' 정진운 \"내가 춤신춤왕, 영혼을 담아 춘다\"",
+                "publisher": "텐아시아",
+                "date": "2016-06-16",
+                "url": "https://www.tenasia.co.kr/article/2016061685514"
+            }
         ]
     },
     "청량": {
@@ -26166,6 +26322,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "stage"
+        ],
+        "sources": [
+            {
+                "title": "팬미팅과 콘서트 사이, '팬 콘서트'가 뭐야?",
+                "publisher": "ELLE Korea",
+                "date": "2024-08-22",
+                "url": "https://www.elle.co.kr/article/1869645"
+            }
         ]
     },
     "포타": {
@@ -28766,7 +28930,15 @@ DETAILS = {
             "젠장",
             "지랄"
         ],
-        "tags": ["chat", "swear"]
+        "tags": ["chat", "swear"],
+        "sources": [
+            {
+                "title": "[욕] 막말? 천만에! 얌치 갖췄다",
+                "publisher": "매일신문",
+                "date": "2006-08-10",
+                "url": "https://www.imaeil.com/page/view/2006081015482612053"
+            }
+        ]
     },
     "원영적사고": {
         "nuance": {
