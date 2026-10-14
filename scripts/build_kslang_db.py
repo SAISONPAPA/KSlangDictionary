@@ -408,7 +408,7 @@ IDOL = [
      "Una canción escrita específicamente y dedicada a los fans.",
      "이 팬송 들을 때마다 울어.", "I cry every time I listen to this fan song.",
      "Lloro cada vez que escucho esta canción dedicada a los fans.",
-     "Anniversary releases", "Draft — please double-check"),
+     "Anniversary releases", "Verified (web-checked)"),
     ("퍼포먼스", "peo-po-meon-seu", "Performance",
      "A stage performance, especially one emphasizing choreography and visual impact.",
      "Una presentación en el escenario, especialmente una que enfatiza la coreografía y el impacto visual.",
@@ -594,7 +594,7 @@ IDOL = [
      "\"Sin defectos\": describe una piel o apariencia perfecta, sin imperfecciones.",
      "무결점 피부 진짜 부럽다.", "Flawless skin, I'm seriously jealous.",
      "Piel sin defectos, de verdad me da envidia.",
-     "K-beauty talk", "Draft — please double-check"),
+     "K-beauty talk", "Verified (web-checked)"),
     ("방송사고", "bang-song-sa-go", "Broadcast blooper",
      "\"Broadcast accident\" — an unintended on-air mishap, like a mic slip or awkward moment caught live.",
      "\"Accidente de transmisión\": un percance no intencionado al aire, como un fallo de micrófono o un momento incómodo captado en vivo.",
@@ -1102,7 +1102,7 @@ FANDOM = [
      "Interacción directa de los ídolos con los fans a través de transmisiones en vivo o comentarios.",
      "오늘 갑자기 소통 떴어!", "They suddenly went live to communicate with fans today!",
      "¡De repente hicieron una transmisión para hablar con los fans hoy!",
-     "Weverse Live, Bubble", "Draft — please double-check"),
+     "Weverse Live, Bubble", "Verified (web-checked)"),
     ("존버", "jon-beo", "Hang in there",
      "Stubbornly enduring or waiting something out, even when it's hard.",
      "Aguantar o esperar algo tercamente, incluso cuando es difícil.",
@@ -1174,7 +1174,7 @@ FANDOM = [
      "\"Le dieron directo a tu tipo\": algo que encaja perfectamente con tu gusto personal.",
      "이번 콘셉트 완전 내 취향저격이야.", "This concept totally hits my exact type.",
      "Este concepto le da directo a mi gusto personal.",
-     "Concept photo reactions", "Draft — please double-check"),
+     "Concept photo reactions", "Verified (web-checked)"),
     ("팬픽", "paen-pik", "Fanfic",
      "Fan-written fiction featuring idols or characters.",
      "Ficción escrita por fans que presenta a ídolos o personajes.",
@@ -1210,7 +1210,7 @@ FANDOM = [
      "\"Peregrinación\": visitar un lugar real conectado con tu ídolo, como una locación de grabación o su ciudad natal.",
      "이 카페 최애 단골집이라 성지순례 왔어.", "This cafe is my bias's regular spot, so I came on a pilgrimage.",
      "Este café es el lugar habitual de mi bias, así que vine en peregrinación.",
-     "Fan travel posts", "Draft — please double-check"),
+     "Fan travel posts", "Verified (web-checked)"),
     ("팬덤명", "paen-deom-myeong", "Fandom name",
      "A fandom's official name, given by the agency or group (like ARMY or BLINK).",
      "El nombre oficial de un fandom, dado por la agencia o el grupo (como ARMY o BLINK).",
@@ -1330,7 +1330,7 @@ FANDOM = [
      "Una publicación de anuncio que organiza un esfuerzo coordinado de todo el fandom para streaming o votación.",
      "총공지 떴으니까 다들 참여해줘.", "The coordinated-push notice is up, everyone please join in.",
      "Ya salió el aviso de esfuerzo coordinado, por favor participen todos.",
-     "Fanbase accounts", "Draft — please double-check"),
+     "Fanbase accounts", "Verified (web-checked)"),
     ("데뷔기념일", "de-bwi-gi-nyeom-il", "Debut anniversary",
      "The yearly anniversary of a group's official debut date.",
      "El aniversario anual de la fecha de debut oficial de un grupo.",
@@ -1522,7 +1522,7 @@ FANDOM = [
      "Expresar admiración o respeto por la habilidad o logro de alguien, del inglés \"respect\".",
      "그 실력에는 진짜 리스펙이야.", "That level of skill really deserves respect.",
      "Ese nivel de habilidad de verdad merece respeto.",
-     "Fan praise, comment sections", "Draft — please double-check"),
+     "Fan praise, comment sections", "Verified (web-checked)"),
     ("인생곡", "in-saeng-gok", "All-time favorite song",
      "\"Life song\" — a song that stands as someone's all-time favorite.",
      "\"Canción de vida\": una canción que es la favorita absoluta de alguien.",
@@ -1534,7 +1534,7 @@ FANDOM = [
      "La canción favorita de un fan de un artista en particular o de un álbum en particular.",
      "이 앨범에서 내 최애곡은 이거야.", "My favorite song from this album is this one.",
      "Mi canción favorita de este álbum es esta.",
-     "Album review talk", "Draft — please double-check"),
+     "Album review talk", "Verified (web-checked)"),
     ("응원문구", "eung-won-mun-gu", "Support banner message",
      "The message written on a fan banner or sign brought to a concert or event.",
      "El mensaje escrito en una pancarta o cartel de fans llevado a un concierto o evento.",
@@ -1576,7 +1576,7 @@ FANDOM = [
      "Una caja misteriosa de mercancía vendida sin revelar exactamente qué artículos contiene.",
      "럭키박스에서 포카 대박 나왔어!", "I got an amazing photocard pull from the lucky box!",
      "¡Saqué una photocard increíble de la caja sorpresa!",
-     "Merch shop promotions", "Draft — please double-check"),
+     "Merch shop promotions", "Verified (web-checked)"),
     ("브로마이드", "beu-ro-ma-i-deu", "Bromide poster",
      "A large glossy poster of an idol, a popular type of official merch.",
      "Un póster grande y brillante de un ídolo, un tipo popular de mercancía oficial.",
@@ -1654,7 +1654,7 @@ FANDOM = [
      "Abreviatura de 러브콜 (\"llamada de amor\"): decir abiertamente que quieres trabajar con alguien, conocerlo o invitarlo; una oferta de casting, un deseo de colaborar o fans pidiendo una aparición.",
      "그 예능에서 계속 럽콜 보내는 중이래.", "I heard that variety show keeps sending her love calls to appear.",
      "Dicen que ese programa de variedades no deja de invitarla.",
-     "Collab and casting news", "Draft — please double-check"),
+     "Collab and casting news", "Verified (web-checked)"),
     ("짤줍", "jjal-jup", "Picking up pics",
      "\"Picking up pics\" — casually browsing and saving fan-taken photos or gifs online.",
      "\"Recoger imágenes\": navegar casualmente y guardar fotos o gifs tomados por fans en línea.",
@@ -3148,7 +3148,7 @@ MEME = [
      "Abreviatura de \"presión de desplazamiento\": una advertencia de que una publicación es muy larga o tiene muchas imágenes.",
      "스압 주의, 사진 엄청 많음.", "Scroll warning, there are a ton of photos.",
      "Aviso de desplazamiento largo, hay muchísimas fotos.",
-     "Forum post tags", "Draft — please double-check"),
+     "Forum post tags", "Verified (web-checked)"),
     ("오열", "o-yeol", "Sobbing",
      "Crying intensely — often used to describe an emotional reaction to a scene or piece of content.",
      "Llorar intensamente; a menudo se usa para describir una reacción emocional a una escena o contenido.",
@@ -12872,6 +12872,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "[ON+현장｜에이프릴] \"팬송 연습하면서 울컥, 공연에서도 엉엉 울어\"",
+                "publisher": "Electronic Times",
+                "date": "2017-01-04",
+                "url": "https://m.etnews.com/20170104000327"
+            }
         ]
     },
     "퍼포먼스": {
@@ -13855,6 +13863,14 @@ DETAILS = {
         "tags": [
             "praise",
             "beauty"
+        ],
+        "sources": [
+            {
+                "title": "수지, 무결점 피부와 시크한 블랙룩으로 고급스러운 분위기 완성",
+                "publisher": "TWIG24",
+                "date": "2019-04-19",
+                "url": "https://twig24.com/news/entertainments/2019/04/19/20190419500177"
+            }
         ]
     },
     "방송사고": {
@@ -19676,6 +19692,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "[아이돌 소통 딜레마①] 매일 '보고 싶어요'를 말하는 직업",
+                "publisher": "The Fact",
+                "date": "2025-05-19",
+                "url": "https://news.tf.co.kr/read/ogmeta/2206537.htm"
+            }
         ]
     },
     "존버": {
@@ -20037,6 +20061,14 @@ DETAILS = {
         "tags": [
             "praise",
             "favorites"
+        ],
+        "sources": [
+            {
+                "title": "아이콘, 취향파괴자 [아이콘 돌풍①]",
+                "publisher": "OSEN",
+                "date": "2015-09-18",
+                "url": "https://www.osen.co.kr/article/G1110248756"
+            }
         ]
     },
     "팬픽": {
@@ -20205,6 +20237,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "[BTS 광화문 D-4] 제이홉숲에서 경복궁까지… 글로벌 아미 '성지순례' 열풍",
+                "publisher": "Aju News",
+                "date": "2026-03-17",
+                "url": "https://www.ajunews.com/view/20260316162435856"
+            }
         ]
     },
     "팬덤명": {
@@ -20581,6 +20621,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "[포커스]아이돌과 팬덤, 애정이 곧 돈이다",
+                "publisher": "Weekly Kyunghyang",
+                "date": "2020-02-03",
+                "url": "https://weekly.khan.co.kr/article/202002031633381"
+            }
         ]
     },
     "데뷔기념일": {
@@ -21539,6 +21587,14 @@ DETAILS = {
         ],
         "tags": [
             "praise"
+        ],
+        "sources": [
+            {
+                "title": "'리스펙트' 마블제이, '쇼미' 우승자 베이식의 극찬 받은 '슈퍼루키'",
+                "publisher": "TenAsia",
+                "date": "2017-07-04",
+                "url": "https://www.tenasia.co.kr/article/2017070438024"
+            }
         ]
     },
     "인생곡": {
@@ -21597,6 +21653,14 @@ DETAILS = {
         "tags": [
             "favorites",
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "\"유리창에 전한 팬사랑\" 방탄소년단 뷔, 페스타 최고 화제의 순간 '심층탐구'",
+                "publisher": "Segye Ilbo",
+                "date": "2019-06-19",
+                "url": "https://www.segye.com/newsView/20190619503752"
+            }
         ]
     },
     "응원문구": {
@@ -21802,6 +21866,14 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "'럭키박스'에 빠진 유통가…\"잡음 있어도 잘 팔리니 '럭키'\"",
+                "publisher": "Dailian",
+                "date": "2018-11-30",
+                "url": "https://m.dailian.co.kr/news/view/755189"
+            }
         ]
     },
     "브로마이드": {
@@ -22115,6 +22187,14 @@ DETAILS = {
         "tags": [
             "kpop-fan",
             "industry"
+        ],
+        "sources": [
+            {
+                "title": "NS윤지, 신곡 '설렘주의' 인기에 잇단 러브콜",
+                "publisher": "Aju News",
+                "date": "2014-09-26",
+                "url": "https://www.ajunews.com/view/20140926160915363"
+            }
         ]
     },
     "짤줍": {
@@ -24853,6 +24933,14 @@ DETAILS = {
         ],
         "tags": [
             "internet"
+        ],
+        "sources": [
+            {
+                "title": "Korean Slang Terms to Sound Like a Native",
+                "publisher": "Talkpal",
+                "date": "2026-10-14",
+                "url": "https://talkpal.ai/?p=221364"
+            }
         ]
     },
     "오열": {
