@@ -2611,7 +2611,7 @@ BROADCAST = [
      "병신 (un insulto) + 맛 (sabor): humor deliberadamente absurdo y sin sentido, raro pero gracioso. La raíz es ofensiva.",
      "이 광고 병맛인데 계속 보게 돼.", "This ad is so absurd, but I keep watching it.",
      "Este anuncio es absurdo, pero no dejo de verlo.",
-     "Comedy, webtoons, ads", "Draft — please double-check"),
+     "Comedy, webtoons, ads", "Verified (web-checked)"),
 ]
 
 MEME = [
@@ -4024,7 +4024,7 @@ MEME = [
      "Una de las groserías más fuertes del coreano, como \"j*der\" o \"ch*ngada\", para enojo, frustración o sorpresa.",
      "씨발, 또 버스 놓쳤어.", "F*ck, I missed the bus again.",
      "Mierda, perdí el bus otra vez.",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("ㅅㅂ", "sb", "F*ck (typed)",
      "Initial consonants of 씨발/시발 — the typed, slightly censored form of the swear word.",
      "Consonantes iniciales de 씨발/시발: la forma escrita y algo censurada de la grosería.",
@@ -4048,19 +4048,19 @@ MEME = [
      "Una palabra vulgar para comportamientos ridículos o tonterías: \"pendejadas\", \"hacer berrinche\".",
      "지랄하지 마.", "Cut the crap.",
      "Deja de decir tonterías.",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("미친", "mi-chin", "Crazy / insane",
      "\"Crazy\" — as an insult (\"you're crazy\") or, very often now, as praise: \"미친 무대\" (\"an insane stage\").",
      "\"Loco\": como insulto (\"estás loco\") o, muy a menudo hoy, como elogio: \"미친 무대\" (\"una presentación de locos\").",
      "미친, 이 가격 실화냐?", "Crazy — is this price real?",
      "¡Qué locura! ¿Este precio es real?",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("젠장", "jen-jang", "Damn it",
      "\"Damn it\" — a mild, slightly old-fashioned curse of frustration.",
      "\"Maldición\": una grosería suave y algo anticuada de frustración.",
      "젠장, 우산 두고 왔어.", "Damn it, I left my umbrella.",
      "Maldición, olvidé el paraguas.",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("빡치다", "ppak-chi-da", "To be pissed off",
      "To get really angry — \"pissed off.\" Crude but extremely common.",
      "Enojarse mucho, \"encabronarse\". Vulgar pero muy común.",
@@ -4072,7 +4072,7 @@ MEME = [
      "\"Dinero de a la mierda\": dinero que gastas por impulso porque estás estresado o enojado.",
      "상사한테 혼나고 시발비용으로 치킨 시켰어.", "Got scolded by my boss, so I rage-ordered fried chicken.",
      "Mi jefe me regañó, así que pedí pollo frito por pura rabia.",
-     "Swearing — use with care", "Draft — please double-check"),
+     "Swearing — use with care", "Verified (web-checked)"),
     ("염병", "yeom-byeong", "Damn plague (curse)",
      "Literally \"plague\" (typhoid) — an old-fashioned, dialect-flavored curse for something infuriating or absurd.",
      "Literalmente \"peste\" (tifoidea): una maldición anticuada, con sabor a dialecto, para algo que enfurece o es absurdo.",
@@ -7030,6 +7030,7 @@ TAG_LABELS = {
     "tradition": {"en": "Korean traditions", "es": "Tradiciones coreanas", "zh": "韓國傳統", "cn": "韩国传统", "ja": "韓国の伝統"},
     "worklife":  {"en": "Work & daily life", "es": "Trabajo y vida diaria", "zh": "職場與日常", "cn": "职场与日常", "ja": "仕事と日常"},
     "food":      {"en": "Food talk", "es": "Comida", "zh": "美食用語", "cn": "美食用语", "ja": "グルメ"},
+    "swear":     {"en": "Swear words & crude slang", "es": "Groserías y jerga vulgar", "zh": "髒話與粗俗用語", "cn": "脏话与粗俗用语", "ja": "悪態・下品なスラング"},
 }
 
 DETAILS = {
@@ -17024,10 +17025,7 @@ DETAILS = {
             "덕질",
             "컴백각"
         ],
-        "tags": [
-            "kpop-fan",
-            "chat"
-        ]
+        "tags": ["kpop-fan", "chat", "swear"]
     },
     "눈호강": {
         "nuance": {
@@ -20127,10 +20125,7 @@ DETAILS = {
             "군싹",
             "맛집"
         ],
-        "tags": [
-            "food",
-            "praise"
-        ]
+        "tags": ["food", "praise", "swear"]
     },
     "갓띵작": {
         "nuance": {
@@ -21086,10 +21081,7 @@ DETAILS = {
             "급짜증",
             "노답"
         ],
-        "tags": [
-            "annoyed",
-            "chat"
-        ]
+        "tags": ["annoyed", "chat", "swear"]
     },
     "인생작": {
         "nuance": {
@@ -24241,9 +24233,7 @@ DETAILS = {
             "존나",
             "얼굴천재"
         ],
-        "tags": [
-            "praise"
-        ]
+        "tags": ["praise", "swear"]
     },
     "존잘": {
         "nuance": {
@@ -24266,9 +24256,7 @@ DETAILS = {
             "존나",
             "훈남"
         ],
-        "tags": [
-            "praise"
-        ]
+        "tags": ["praise", "swear"]
     },
     "띵곡": {
         "nuance": {
@@ -24369,9 +24357,7 @@ DETAILS = {
             "세젤귀",
             "존예"
         ],
-        "tags": [
-            "praise"
-        ]
+        "tags": ["praise", "swear"]
     },
     "열폭": {
         "nuance": {
@@ -24544,9 +24530,7 @@ DETAILS = {
             "쌉인정",
             "가보자고"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"]
     },
     "쌉인정": {
         "nuance": {
@@ -24569,10 +24553,7 @@ DETAILS = {
             "킹정",
             "ㄹㅇ"
         ],
-        "tags": [
-            "chat",
-            "reaction"
-        ]
+        "tags": ["chat", "reaction", "swear"]
     },
     "킹정": {
         "nuance": {
@@ -24742,9 +24723,7 @@ DETAILS = {
             "덕후",
             "코덕"
         ],
-        "tags": [
-            "internet"
-        ]
+        "tags": ["internet", "swear"]
     },
     "너T야": {
         "nuance": {
@@ -25072,10 +25051,8 @@ DETAILS = {
             "대환장파티",
             "웃음벨"
         ],
-        "tags": [
-            "funny",
-            "variety"
-        ]
+        "tags": ["funny", "variety", "swear"],
+        "sources": [{"title": "Korean profanity", "publisher": "Wikipedia", "date": "accessed 2026-10", "url": "https://en.wikipedia.org/wiki/Korean_profanity"}, {"title": "'바른말 고운말 사라진다'…욕설에 중독된 청소년들", "publisher": "뉴시스 (NEWSIS)", "date": "2010-10-09", "url": "https://www.newsis.com/view/NISX20101008_0006363434"}]
     },
     "핵노잼": {
         "nuance": {
@@ -25378,9 +25355,8 @@ DETAILS = {
             "샤갈",
             "시발비용"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"],
+        "sources": [{"title": "Korean profanity", "publisher": "Wikipedia", "date": "accessed 2026-10", "url": "https://en.wikipedia.org/wiki/Korean_profanity"}]
     },
     "ㅅㅂ": {
         "nuance": {
@@ -25402,9 +25378,7 @@ DETAILS = {
             "씨발",
             "ㅈㄴ"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"]
     },
     "존나": {
         "nuance": {
@@ -25428,9 +25402,7 @@ DETAILS = {
             "존맛탱",
             "졸귀"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"]
     },
     "ㅈㄴ": {
         "nuance": {
@@ -25452,9 +25424,7 @@ DETAILS = {
             "존나",
             "ㅅㅂ"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"]
     },
     "지랄": {
         "nuance": {
@@ -25471,14 +25441,20 @@ DETAILS = {
             "cn": "打字写成ㅈㄹ。绝对不要对陌生人或长辈用。",
             "ja": "文字ではㅈㄹ。知らない人や目上の人には絶対に使わない。"
         },
+        "culture": {
+            "en": "It comes from an old word for seizure disorders (지랄병), which is part of why it's considered offensive.",
+            "es": "Viene de una palabra antigua para los trastornos convulsivos (지랄병), parte de la razón por la que se considera ofensiva.",
+            "zh": "它源自舊時指癲癇等發作性疾病的詞（지랄병），這也是它被認為冒犯的原因之一。",
+            "cn": "它源自旧时指癫痫等发作性疾病的词（지랄병），这也是它被认为冒犯的原因之一。",
+            "ja": "てんかんなどの発作性疾患を指す古い言葉（지랄병）に由来し、それが失礼とされる理由の一つでもある。"
+        },
         "register": "vulgar",
         "similar": [
             "씨발",
             "미친"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"],
+        "sources": [{"title": "Korean profanity", "publisher": "Wikipedia", "date": "accessed 2026-10", "url": "https://en.wikipedia.org/wiki/Korean_profanity"}]
     },
     "미친": {
         "nuance": {
@@ -25500,10 +25476,8 @@ DETAILS = {
             "미쳤다",
             "지랄"
         ],
-        "tags": [
-            "chat",
-            "reaction"
-        ]
+        "tags": ["chat", "reaction", "swear"],
+        "sources": [{"title": "Korean profanity", "publisher": "Wikipedia", "date": "accessed 2026-10", "url": "https://en.wikipedia.org/wiki/Korean_profanity"}]
     },
     "젠장": {
         "nuance": {
@@ -25525,9 +25499,8 @@ DETAILS = {
             "샤갈",
             "씨발"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"],
+        "sources": [{"title": "Korean profanity", "publisher": "Wikipedia", "date": "accessed 2026-10", "url": "https://en.wikipedia.org/wiki/Korean_profanity"}]
     },
     "빡치다": {
         "nuance": {
@@ -25550,10 +25523,7 @@ DETAILS = {
             "급짜증",
             "극혐"
         ],
-        "tags": [
-            "chat",
-            "annoyed"
-        ]
+        "tags": ["chat", "annoyed", "swear"]
     },
     "시발비용": {
         "nuance": {
@@ -25576,10 +25546,8 @@ DETAILS = {
             "텅장",
             "씨발"
         ],
-        "tags": [
-            "chat",
-            "worklife"
-        ]
+        "tags": ["chat", "worklife", "swear"],
+        "sources": [{"title": "스트레스 사회, '시발비용'을 아십니까", "publisher": "경향신문 (Kyunghyang Shinmun)", "date": "2017-01-29", "url": "https://www.khan.co.kr/article/201701290925001"}]
     },
     "염병": {
         "nuance": {
@@ -25601,9 +25569,7 @@ DETAILS = {
             "젠장",
             "지랄"
         ],
-        "tags": [
-            "chat"
-        ]
+        "tags": ["chat", "swear"]
     },
     "원영적사고": {
         "nuance": {
@@ -25750,6 +25716,131 @@ COLLECTIONS = [
             {"heading": {"en": "K-drama romance tropes", "es": "Clichés románticos del K-drama", "zh": "韓劇戀愛套路", "cn": "韩剧恋爱套路", "ja": "韓ドラ恋愛のお約束"},
              "words": ["계약연애", "재벌", "츤데레", "나쁜남자", "캔디", "출생의 비밀", "삼각관계", "첫사랑", "심쿵"]},
         ],
+    },
+    {
+        "slug": "korean-swear-words",
+        "title": {
+            "en": "Korean Swear Words, Explained",
+            "es": "Groserías coreanas, explicadas",
+            "zh": "韓語髒話解說",
+            "cn": "韩语脏话解说",
+            "ja": "韓国語の悪態・スラング解説"
+        },
+        "intro": {
+            "en": "You've heard them in dramas, in variety-show bleeps and all over comment sections. This guide explains what Korean swear words and crude slang actually mean and how strong each one feels — so you understand the scene, not so you can throw them around. Rule of thumb: none of these are for elders, teachers, strangers or work.",
+            "es": "Las has oído en dramas, en los pitidos de los programas de variedades y por todos los comentarios. Esta guía explica qué significan de verdad las groserías y la jerga vulgar en coreano y qué tan fuerte suena cada una, para que entiendas la escena, no para que las sueltes por ahí. Regla general: ninguna es para mayores, profesores, desconocidos ni el trabajo.",
+            "zh": "你在韓劇裡聽過、在綜藝的消音裡聽過，留言區更是到處都是。這篇指南解釋韓語髒話和粗俗用語到底是什麼意思、每個詞有多重——目的是讓你看懂劇情，而不是讓你到處亂用。基本原則：對長輩、老師、陌生人和在職場上，一個都不要用。",
+            "cn": "你在韩剧里听过、在综艺的消音里听过，留言区更是到处都是。这篇指南解释韩语脏话和粗俗用语到底是什么意思、每个词有多重——目的是让你看懂剧情，而不是让你到处乱用。基本原则：对长辈、老师、陌生人和在职场上，一个都不要用。",
+            "ja": "ドラマでも、バラエティのピー音でも、コメント欄でもよく見かける言葉。このガイドでは、韓国語の悪態や下品なスラングが実際にどういう意味で、どれくらい強いのかを解説する——使うためではなく、シーンを理解するためのもの。基本ルール：目上の人、先生、知らない人、職場では一つも使わないこと。"
+        },
+        "sections": [
+            {
+                "heading": {
+                    "en": "The strong ones",
+                    "es": "Las fuertes",
+                    "zh": "重口味髒話",
+                    "cn": "重口味脏话",
+                    "ja": "強い悪態"
+                },
+                "note": {
+                    "en": "Real swear words. Said to someone's face, they start a fight. When a drama character says 씨발 out loud, they're at their breaking point — and on Korean TV these are usually muted or bleeped.",
+                    "es": "Groserías de verdad. Dichas en la cara de alguien, empiezan una pelea. Cuando un personaje de drama dice 씨발 en voz alta, está al límite, y en la tele coreana suelen silenciarse o taparse con un pitido.",
+                    "zh": "真正的髒話。當面對人說就是要吵架。韓劇角色大聲罵出씨발，代表他已經忍到極限——在韓國電視上，這類詞通常會被消音。",
+                    "cn": "真正的脏话。当面对人说就是要吵架。韩剧角色大声骂出씨발，代表他已经忍到极限——在韩国电视上，这类词通常会被消音。",
+                    "ja": "本物の悪態。面と向かって言えばケンカになる。ドラマの登場人物が씨발と口に出したら限界ギリギリの状態——韓国のテレビではたいていピー音か無音になる。"
+                },
+                "words": [
+                    "씨발",
+                    "지랄",
+                    "염병"
+                ]
+            },
+            {
+                "heading": {
+                    "en": "Crazy, annoyed, fed up",
+                    "es": "Loco, molesto, harto",
+                    "zh": "瘋了、火大、受夠了",
+                    "cn": "疯了、火大、受够了",
+                    "ja": "ヤバい、ムカつく、うんざり"
+                },
+                "note": {
+                    "en": "A step down. 젠장 is a mild \"damn it\" that's fine in dramas and subtitles. 미친 is rude as an insult but very often praise (\"미친 무대\" — an insane stage). 빡치다 is crude but everyday among friends.",
+                    "es": "Un escalón más abajo. 젠장 es un \"maldita sea\" suave que aparece sin problema en dramas y subtítulos. 미친 es grosero como insulto, pero muchas veces es un elogio (\"미친 무대\", una actuación brutal). 빡치다 es vulgar pero cotidiano entre amigos.",
+                    "zh": "比上面輕一級。젠장是溫和的「該死」，在韓劇和字幕裡都很常見。미친拿來罵人很沒禮貌，但現在常常是稱讚（「미친 무대」＝神級舞台）。빡치다很粗俗，但朋友之間天天在用。",
+                    "cn": "比上面轻一级。젠장是温和的“该死”，在韩剧和字幕里都很常见。미친拿来骂人很没礼貌，但现在常常是称赞（“미친 무대”＝神级舞台）。빡치다很粗俗，但朋友之间天天在用。",
+                    "ja": "一段階マイルド。젠장は軽い「くそっ」で、ドラマや字幕にも普通に出てくる。미친は悪口としては失礼だが、ほめ言葉として使われることも多い（「미친 무대」＝ヤバすぎるステージ）。빡치다は下品だが友達同士では日常語。"
+                },
+                "words": [
+                    "젠장",
+                    "미친",
+                    "빡치다"
+                ]
+            },
+            {
+                "heading": {
+                    "en": "Crude intensifiers",
+                    "es": "Intensificadores vulgares",
+                    "zh": "粗俗的強調詞",
+                    "cn": "粗俗的强调词",
+                    "ja": "下品な強調語"
+                },
+                "note": {
+                    "en": "존, 졸 and 쌉 come from crude roots and work like \"hella\" or \"f*cking.\" Young people use 존예 or 쌉가능 casually, but parents and teachers still hear the swear in them.",
+                    "es": "존, 졸 y 쌉 vienen de raíces vulgares y funcionan como \"súper\" o \"jodidamente\". Los jóvenes dicen 존예 o 쌉가능 con naturalidad, pero los padres y profesores todavía oyen la grosería.",
+                    "zh": "존、졸、쌉都來自粗俗的字根，作用像「超」「他X的」。年輕人隨口就說존예、쌉가능，但爸媽和老師聽起來還是會覺得是髒話。",
+                    "cn": "존、졸、쌉都来自粗俗的字根，作用像“超”“他X的”。年轻人随口就说존예、쌉가능，但爸妈和老师听起来还是会觉得是脏话。",
+                    "ja": "존・졸・쌉は下品な語源を持つ強調語で、「クソ〜」「めっちゃ」のような働き。若者は존예や쌉가능を気軽に使うが、親や先生の耳には悪態に聞こえる。"
+                },
+                "words": [
+                    "존나",
+                    "존예",
+                    "존잘",
+                    "졸귀",
+                    "쌉가능"
+                ]
+            },
+            {
+                "heading": {
+                    "en": "Typed versions",
+                    "es": "Versiones escritas",
+                    "zh": "打字版",
+                    "cn": "打字版",
+                    "ja": "チャット用の略語"
+                },
+                "note": {
+                    "en": "Initial consonants soften it a little on screen, but everyone knows exactly what ㅅㅂ and ㅈㄴ stand for.",
+                    "es": "Escribir solo las consonantes iniciales lo suaviza un poco en pantalla, pero todo el mundo sabe exactamente qué significan ㅅㅂ y ㅈㄴ.",
+                    "zh": "只打子音在螢幕上看起來稍微緩和一點，但大家都很清楚ㅅㅂ和ㅈㄴ代表什麼。",
+                    "cn": "只打辅音在屏幕上看起来稍微缓和一点，但大家都很清楚ㅅㅂ和ㅈㄴ代表什么。",
+                    "ja": "子音だけにすると画面上では少し和らぐが、ㅅㅂやㅈㄴが何を指すかはみんな分かっている。"
+                },
+                "words": [
+                    "ㅅㅂ",
+                    "ㅈㄴ"
+                ]
+            },
+            {
+                "heading": {
+                    "en": "Slang built on swears",
+                    "es": "Jerga hecha con groserías",
+                    "zh": "從髒話衍生的流行語",
+                    "cn": "从脏话衍生的流行语",
+                    "ja": "悪態から生まれたスラング"
+                },
+                "note": {
+                    "en": "Words that grew out of swear words and became everyday slang. They still carry their roots — 병맛 comes from a disability slur, and 씹덕 is often used to mock.",
+                    "es": "Palabras que nacieron de groserías y se volvieron jerga cotidiana. Aun así conservan su origen: 병맛 viene de un insulto hacia las personas con discapacidad, y 씹덕 se usa a menudo para burlarse.",
+                    "zh": "從髒話演變成日常流行語的詞。不過字根還在——병맛源自歧視身心障礙者的詞，씹덕也常帶有嘲諷意味。",
+                    "cn": "从脏话演变成日常流行语的词。不过字根还在——병맛源自歧视身心障碍者的词，씹덕也常带有嘲讽意味。",
+                    "ja": "悪態から生まれて日常のスラングになった言葉。ただし語源は残っている——병맛は障害者への差別語から来ており、씹덕はからかう意味で使われることも多い。"
+                },
+                "words": [
+                    "시발비용",
+                    "병맛",
+                    "씹덕"
+                ]
+            }
+        ]
     },
 ]
 

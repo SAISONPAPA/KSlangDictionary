@@ -56,6 +56,7 @@ GUIDE_CSS = """
   .guide-intro{ margin-top: 14px; font-size: 16px; line-height: 1.7; color: var(--ink-soft); }
   .guide-section{ margin-top: 40px; }
   .guide-section h2{ font-family: var(--display); font-weight: 700; font-size: 21px; color: var(--ink); margin-bottom: 18px; }
+  .guide-note{ margin: -8px 0 18px; font-size: 14.5px; line-height: 1.65; color: var(--ink-soft); max-width: 760px; }
   .guide-grid{ display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px 16px; padding-top: 8px; }
   .guide-grid .related-card{ display:block; }
   .guide-grid .r-top{ display:flex; align-items:baseline; gap: 10px; flex-wrap: wrap; }
@@ -167,7 +168,8 @@ def build_guide(c, by_kr):
         sections_html.append(
             f'  <section class="guide-section">\n'
             f'    <h2 {attrs(s["heading"])}>{esc(s["heading"]["en"])}</h2>\n'
-            f'    <div class="guide-grid">\n' + "\n".join(cards) + '\n    </div>\n  </section>'
+            + (f'    <p class="guide-note" {attrs(s["note"])}>{esc(s["note"]["en"])}</p>\n' if s.get("note") else '')
+            + f'    <div class="guide-grid">\n' + "\n".join(cards) + '\n    </div>\n  </section>'
         )
     others = "".join(
         f'\n    <a href="{esc(o["slug"])}.html" {attrs(o["title"])}>{esc(o["title"]["en"])}</a>'
