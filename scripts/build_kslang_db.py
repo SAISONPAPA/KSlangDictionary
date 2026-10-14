@@ -907,6 +907,132 @@ IDOL = [
      "무대멘트가 진짜 다정했어.", "Their stage talk was really warm and sweet.",
      "Su discurso en el escenario fue muy cálido y dulce.",
      "Concert/fanmeet moments", "Draft — please double-check"),
+    ("앨포", "ael-po", "Album photocard",
+     "Short for 앨범 포토카드 — the random photocard that comes inside a K-pop album.",
+     "Abreviatura de 앨범 포토카드: la photocard aleatoria que viene dentro de un álbum de K-pop.",
+     "앨포 다섯 장 다 같은 멤버 나왔어.", "All five album photocards were the same member.",
+     "Las cinco photocards del álbum me salieron del mismo miembro.",
+     "Album unboxing, photocard trading", "Draft — please double-check"),
+    ("미공포", "mi-gong-po", "Unreleased photocard",
+     "Short for 미공개 포토카드 — an \"unreleased\" photocard given only by a specific store or event.",
+     "Abreviatura de 미공개 포토카드: una photocard \"inédita\" que solo da una tienda o evento específico.",
+     "이 가게 미공포가 제일 예뻐.", "This store's unreleased photocard is the prettiest.",
+     "La photocard inédita de esta tienda es la más bonita.",
+     "Album pre-orders, photocard collecting", "Draft — please double-check"),
+    ("엔딩요정", "en-ding-yo-jeong", "Ending fairy",
+     "\"Ending fairy\" — the member the camera zooms in on, holding a pose, as a music-show stage ends.",
+     "\"Hada del final\": el miembro en el que la cámara hace zoom, posando, al terminar una presentación en un programa musical.",
+     "오늘 엔딩요정 누구였어?", "Who was today's ending fairy?",
+     "¿Quién fue la hada del final hoy?",
+     "Music show reactions", "Draft — please double-check"),
+    ("퇴근길", "toe-geun-gil", "Leaving-work walk",
+     "\"The way home from work\" — idols leaving a broadcast station or venue, greeted and photographed by waiting fans.",
+     "\"El camino de salida del trabajo\": los idols saliendo de una televisora o recinto, recibidos y fotografiados por fans que esperan.",
+     "퇴근길에서 손 흔들어 줬어!", "They waved at us on their way out!",
+     "¡Nos saludaron al salir!",
+     "Fan events, music shows", "Draft — please double-check"),
+    ("출근길", "chul-geun-gil", "Arriving-at-work walk",
+     "\"The way to work\" — idols arriving at a broadcast station, often photographed in their outfits on the way in.",
+     "\"El camino al trabajo\": los idols llegando a una televisora, a menudo fotografiados con su outfit al entrar.",
+     "오늘 출근길 패션 진짜 예쁘다.", "Today's arriving-at-work outfit is so pretty.",
+     "El outfit de llegada de hoy está precioso.",
+     "Music shows, idol fashion", "Draft — please double-check"),
+    ("막내온탑", "mak-nae-on-tap", "Maknae on top",
+     "\"Maknae on top\" — the youngest member who acts like the boss or outshines the older members.",
+     "\"Maknae on top\": el miembro menor que actúa como el jefe o brilla más que los mayores.",
+     "막내가 형들 다 이겨, 완전 막내온탑이야.", "The youngest beat all the older members — total maknae on top.",
+     "El menor les ganó a todos los mayores, puro maknae on top.",
+     "Variety and fan talk", "Draft — please double-check"),
+    ("맏내", "mat-nae", "Oldest-but-babyish member",
+     "맏이 (oldest) + 막내 (youngest): the oldest member who acts like the baby of the group.",
+     "맏이 (mayor) + 막내 (menor): el miembro mayor que se comporta como el bebé del grupo.",
+     "리더인데 하는 짓은 완전 맏내야.", "He's the leader, but he acts totally like the baby.",
+     "Es el líder, pero se porta como el bebé del grupo.",
+     "Fan talk", "Draft — please double-check"),
+    ("메보", "me-bo", "Main vocal (short)",
+     "Short for 메인보컬 — the main vocalist.",
+     "Abreviatura de 메인보컬: el vocalista principal.",
+     "역시 메보, 라이브 흔들림이 없네.", "As expected of the main vocal — rock-steady live.",
+     "Como se espera del vocalista principal: en vivo no falla.",
+     "Fan talk about positions", "Draft — please double-check"),
+    ("4세대", "sa-se-dae", "Fourth generation",
+     "The 4th generation of K-pop — groups that debuted roughly from the late 2010s into the early 2020s.",
+     "La 4.ª generación del K-pop: grupos que debutaron aproximadamente entre finales de los 2010 y principios de los 2020.",
+     "4세대 걸그룹 중에 최애가 누구야?", "Who's your favorite 4th-gen girl group?",
+     "¿Cuál es tu girl group favorito de 4.ª generación?",
+     "K-pop history and fan debates", "Draft — please double-check"),
+    ("줄세우기", "jul-se-u-gi", "Chart lineup",
+     "\"Lining up\" — when one artist's songs fill several top spots on a chart at once.",
+     "\"Hacer fila\": cuando las canciones de un solo artista ocupan varios primeros puestos de una lista a la vez.",
+     "신보 수록곡으로 차트 줄세우기 했대.", "Their new album's tracks lined up across the top of the chart.",
+     "Las canciones del nuevo álbum ocuparon fila en lo alto de la lista.",
+     "Chart news", "Draft — please double-check"),
+    ("올킬", "ol-kil", "All-kill",
+     "\"All-kill\" — a song hitting #1 on all of Korea's major music charts at the same time.",
+     "\"All-kill\": una canción que llega al #1 en todas las principales listas musicales de Corea al mismo tiempo.",
+     "공개 한 시간 만에 올킬했어!", "It got an all-kill within an hour of release!",
+     "¡Logró un all-kill una hora después de salir!",
+     "Chart news", "Draft — please double-check"),
+    ("퍼올", "peo-ol", "Perfect all-kill",
+     "Short for \"perfect all-kill\" — #1 on Korea's major real-time, daily and weekly charts all at once.",
+     "Abreviatura de \"perfect all-kill\": #1 en las principales listas coreanas en tiempo real, diarias y semanales a la vez.",
+     "퍼올 몇 시간째야?", "How many hours has the perfect all-kill lasted?",
+     "¿Cuántas horas lleva el perfect all-kill?",
+     "Chart news", "Draft — please double-check"),
+    ("차트인", "cha-teu-in", "Chart entry",
+     "\"Chart-in\" — a song entering a music chart.",
+     "\"Chart-in\": que una canción entre en una lista musical.",
+     "신곡 멜론 차트인 성공!", "The new song made it onto the chart!",
+     "¡La canción nueva entró en la lista!",
+     "Chart news", "Draft — please double-check"),
+    ("음원깡패", "eum-won-kkang-pae", "Chart bully",
+     "\"Digital-chart gangster\" — an artist whose releases dominate the streaming charts every time. A compliment.",
+     "\"Gánster de las listas\": un artista cuyas canciones dominan las listas de streaming cada vez. Es un elogio.",
+     "역시 음원깡패, 또 1위야.", "True chart bully — #1 again.",
+     "Como siempre, dominando: otra vez #1.",
+     "Chart news", "Draft — please double-check"),
+    ("무대천재", "mu-dae-cheon-jae", "Stage genius",
+     "\"Stage genius\" — a performer who comes alive on stage, with expressions and presence that steal every camera shot.",
+     "\"Genio del escenario\": un artista que cobra vida en el escenario, con expresiones y presencia que se roban cada toma.",
+     "무대만 올라가면 사람이 바뀌어, 무대천재야.", "She becomes a different person on stage — a stage genius.",
+     "Se transforma en el escenario, es una genia escénica.",
+     "Performance praise", "Draft — please double-check"),
+    ("춤신춤왕", "chum-sin-chum-wang", "Dance god, dance king",
+     "\"Dance god, dance king\" — someone who is ridiculously good at dancing.",
+     "\"Dios del baile, rey del baile\": alguien que baila increíblemente bien.",
+     "저 멤버 진짜 춤신춤왕이야.", "That member is a true dance god.",
+     "Ese miembro es un dios del baile.",
+     "Performance praise", "Draft — please double-check"),
+    ("청량", "cheong-nyang", "Refreshing concept",
+     "淸凉 — \"refreshing\": a bright, youthful summer concept — blue skies, school uniforms, running on the beach.",
+     "淸凉, \"refrescante\": un concepto veraniego, luminoso y juvenil: cielos azules, uniformes escolares, correr en la playa.",
+     "이번 컴백 청량 콘셉트래!", "This comeback is a refreshing summer concept!",
+     "¡Este comeback es de concepto refrescante!",
+     "Comeback concepts", "Draft — please double-check"),
+    ("걸크러시", "geol-keu-reo-si", "Girl crush",
+     "\"Girl crush\" — a fierce, confident concept or person that other women admire.",
+     "\"Girl crush\": un concepto o persona feroz y segura que otras mujeres admiran.",
+     "이번 콘셉트 완전 걸크러시야.", "This concept is total girl crush.",
+     "Este concepto es puro girl crush.",
+     "Comeback concepts", "Draft — please double-check"),
+    ("하이틴", "ha-i-tin", "High-teen concept",
+     "\"High teen\" — a concept inspired by American teen movies: lockers, cheerleaders, prom, bubblegum colors.",
+     "\"High teen\": un concepto inspirado en películas adolescentes estadounidenses: casilleros, porristas, graduación, colores chicle.",
+     "뮤비가 완전 하이틴 영화 같아.", "The MV feels just like a high-teen movie.",
+     "El MV parece una película adolescente.",
+     "Comeback concepts, fashion", "Draft — please double-check"),
+    ("사녹", "sa-nok", "Pre-recording",
+     "Short for 사전녹화 — a music show's pre-recorded stage, filmed before the live broadcast with fans in the audience.",
+     "Abreviatura de 사전녹화: la presentación pregrabada de un programa musical, filmada antes de la emisión en vivo con fans en el público.",
+     "사녹 당첨돼서 새벽에 출발해.", "I won a pre-recording spot, so I'm leaving at dawn.",
+     "Gané un lugar en la pregrabación, salgo de madrugada.",
+     "Music show fan culture", "Draft — please double-check"),
+    ("팬콘", "paen-kon", "Fan concert",
+     "Short for 팬 콘서트 — a show mixing a fan meeting's talk and games with a concert's full performances.",
+     "Abreviatura de 팬 콘서트: un show que mezcla la charla y los juegos de un fan meeting con presentaciones completas de concierto.",
+     "이번 팬콘 셋리스트 좋더라.", "The setlist for this fan concert was great.",
+     "El setlist de este fan concert estuvo genial.",
+     "Fan events", "Draft — please double-check"),
 ]
 
 
@@ -1625,6 +1751,102 @@ FANDOM = [
      "오늘 오빠 브이앱 보고 오살힘 얻었다.", "Watching his V Live today gave me the strength to get through today.",
      "Ver su V Live hoy me dio la fuerza para pasar el día.",
      "Fan communities, Twitter/X, Instagram, 2026 slang", "Verified (web-checked)"),
+    ("포타", "po-ta", "Postype (fan platform)",
+     "Short for 포스타입 (Postype) — a Korean creator platform where fans post fanfics, fan art and paid content.",
+     "Abreviatura de 포스타입 (Postype): una plataforma coreana donde los fans publican fanfics, fan art y contenido pagado.",
+     "이 작가님 포타 구독했어.", "I subscribed to this writer's Postype.",
+     "Me suscribí al Postype de esta autora.",
+     "Fanfic and fan art communities", "Draft — please double-check"),
+    ("버블", "beo-beul", "Bubble (fan messaging app)",
+     "A paid subscription app where idols send personal-style messages and photos to fans.",
+     "Una app de suscripción pagada donde los idols envían mensajes y fotos de estilo personal a los fans.",
+     "새벽에 버블 와서 잠 깼어.", "A Bubble message came at dawn and woke me up.",
+     "Me llegó un mensaje de Bubble de madrugada y me despertó.",
+     "Fan platforms", "Draft — please double-check"),
+    ("위버스", "wi-beo-seu", "Weverse",
+     "A global fan platform where many K-pop artists post updates, go live and read fan posts.",
+     "Una plataforma global de fans donde muchos artistas de K-pop publican novedades, hacen directos y leen publicaciones de fans.",
+     "위버스 라이브 켰다!", "They went live on Weverse!",
+     "¡Están en vivo en Weverse!",
+     "Fan platforms", "Draft — please double-check"),
+    ("특전", "teuk-jeon", "Store bonus",
+     "特典 — an extra gift (photocard, poster, sticker) you get for buying an album or merch at a specific store.",
+     "特典: un regalo extra (photocard, póster, sticker) que recibes al comprar un álbum o merch en una tienda específica.",
+     "특전 때문에 세 군데서 샀어.", "I bought from three stores because of the bonuses.",
+     "Compré en tres tiendas por los regalos.",
+     "Album pre-orders", "Draft — please double-check"),
+    ("분철", "bun-cheol", "Splitting a set",
+     "分綴 — buying a full set (of photocards or albums) together and splitting it so each fan gets the member they want.",
+     "分綴: comprar un set completo (de photocards o álbumes) entre varios y repartirlo para que cada fan reciba al miembro que quiere.",
+     "포카 세트 분철 참여할 사람?", "Who wants to join the photocard set split?",
+     "¿Quién se une a repartir el set de photocards?",
+     "Merch trading", "Draft — please double-check"),
+    ("공구", "gong-gu", "Group purchase",
+     "Short for 공동구매 — fans buying together in bulk, often to get discounts or to ship overseas more cheaply.",
+     "Abreviatura de 공동구매: fans comprando juntos al por mayor, a menudo para obtener descuentos o enviar al extranjero más barato.",
+     "해외 팬들이랑 앨범 공구 했어.", "I did an album group buy with overseas fans.",
+     "Hice una compra grupal de álbumes con fans de otros países.",
+     "Merch and album buying", "Draft — please double-check"),
+    ("양도", "yang-do", "Ticket/item transfer",
+     "讓渡 — passing a ticket or item you can't use to another fan, ideally at the original price.",
+     "讓渡: pasar a otro fan una entrada o artículo que no puedes usar, idealmente al precio original.",
+     "갑자기 일 생겨서 티켓 양도해요.", "Something came up, so I'm transferring my ticket.",
+     "Me surgió algo, así que traspaso mi entrada.",
+     "Ticketing", "Draft — please double-check"),
+    ("취켓팅", "chwi-ket-ting", "Cancellation ticketing",
+     "취소표 (canceled tickets) + ticketing: hunting for tickets that get released again after other people cancel.",
+     "취소표 (entradas canceladas) + ticketing: cazar entradas que vuelven a salir cuando otros cancelan.",
+     "취켓팅으로 앞자리 잡았어!", "I snagged a front seat through cancellation ticketing!",
+     "¡Conseguí un asiento adelante con entradas canceladas!",
+     "Ticketing", "Draft — please double-check"),
+    ("꿀자리", "kkul-ja-ri", "Honey seat",
+     "\"Honey seat\" — a great spot: a concert seat with a perfect view, or any comfy, convenient place.",
+     "\"Asiento de miel\": un lugar ideal, como un asiento de concierto con vista perfecta o cualquier sitio cómodo.",
+     "이번 콘서트 꿀자리 걸렸어!", "I got a honey seat at this concert!",
+     "¡Me tocó un asiento buenísimo en este concierto!",
+     "Concerts, everyday", "Draft — please double-check"),
+    ("시제석", "si-je-seok", "Limited-view seat",
+     "Short for 시야제한석 — a seat with a partly blocked view, usually sold cheaper or opened last.",
+     "Abreviatura de 시야제한석: un asiento con vista parcialmente bloqueada, normalmente más barato o vendido al final.",
+     "시제석이라도 가고 싶어.", "I want to go even if it's a limited-view seat.",
+     "Quiero ir aunque sea con vista limitada.",
+     "Ticketing", "Draft — please double-check"),
+    ("비공굿", "bi-gong-gut", "Unofficial merch",
+     "Short for 비공식 굿즈 — fan-made merch, like stickers, keyrings or slogans, not made by the agency.",
+     "Abreviatura de 비공식 굿즈: merch hecho por fans, como stickers, llaveros o slogans, no producido por la agencia.",
+     "이 비공굿 너무 귀여워서 샀어.", "This unofficial merch was so cute I bought it.",
+     "Este merch no oficial era tan lindo que lo compré.",
+     "Merch", "Draft — please double-check"),
+    ("나눔", "na-num", "Fan giveaway",
+     "\"Sharing\" — fans giving away free items (cup sleeves, stickers, photocards) at concerts, cafés or online.",
+     "\"Compartir\": fans que regalan artículos (fundas de vaso, stickers, photocards) en conciertos, cafés o en línea.",
+     "콘서트 앞에서 나눔 한대!", "They're doing a giveaway outside the concert!",
+     "¡Van a regalar cosas afuera del concierto!",
+     "Concerts, fan events", "Draft — please double-check"),
+    ("시즌그리팅", "si-jeun-geu-ri-ting", "Season's greetings package",
+     "\"Season's greetings\" — a year-end merch package with a calendar, diary, photos and goodies for the coming year. Short: 시그.",
+     "\"Season's greetings\": un paquete de merch de fin de año con calendario, agenda, fotos y extras para el año siguiente. Corto: 시그.",
+     "올해 시즌그리팅 콘셉트 너무 귀여워.", "This year's season's greetings concept is so cute.",
+     "El concepto del season's greetings de este año es adorable.",
+     "Merch", "Draft — please double-check"),
+    ("갓기", "gat-gi", "God-tier baby",
+     "God + 아기 (baby): an affectionate name for a young idol who is incredibly talented or cute.",
+     "God + 아기 (bebé): un apodo cariñoso para un idol joven increíblemente talentoso o tierno.",
+     "우리 갓기 오늘도 잘했어!", "Our talented baby did great again today!",
+     "¡Nuestro bebé talentoso lo hizo genial otra vez!",
+     "Fan talk", "Draft — please double-check"),
+    ("막콘", "mak-kon", "Last concert",
+     "Short for 마지막 콘서트 — the final show of a concert run or tour.",
+     "Abreviatura de 마지막 콘서트: el último show de una serie de conciertos o gira.",
+     "막콘이라 다들 울었어.", "It was the last show, so everyone cried.",
+     "Era el último concierto, así que todos lloramos.",
+     "Concerts", "Draft — please double-check"),
+    ("슬로건", "seul-ro-geon", "Slogan banner",
+     "A long towel or banner with an idol's name or a message, held up by fans at concerts.",
+     "Una toalla o pancarta larga con el nombre del idol o un mensaje, que los fans levantan en los conciertos.",
+     "엔딩 때 다 같이 슬로건 들기로 했어.", "We all agreed to hold up slogans at the ending.",
+     "Acordamos levantar los slogans juntos al final.",
+     "Concert fan culture", "Draft — please double-check"),
 ]
 
 BROADCAST = [
@@ -2378,6 +2600,18 @@ BROADCAST = [
      "스트레스 받을 때 혼코노가 최고야.", "Solo karaoke is the best when I'm stressed.",
      "El karaoke solitario es lo mejor cuando estoy estresada.",
      "Solo-culture lifestyle talk", "Draft — please double-check"),
+    ("무야호", "mu-ya-ho", "Woohoo!",
+     "A joyful shout of celebration — \"woohoo!\" — from a beloved variety-show clip.",
+     "Un grito de celebración, \"¡yuju!\", de un querido clip de un programa de variedades.",
+     "월급 들어왔다, 무야호!", "Payday — woohoo!",
+     "¡Llegó el sueldo, yuju!",
+     "Celebrations", "Draft — please double-check"),
+    ("병맛", "byeong-mat", "Absurd humor",
+     "병신 (a slur) + 맛 (taste): deliberately absurd, nonsensical humor — weird in a funny way. The root word is offensive.",
+     "병신 (un insulto) + 맛 (sabor): humor deliberadamente absurdo y sin sentido, raro pero gracioso. La raíz es ofensiva.",
+     "이 광고 병맛인데 계속 보게 돼.", "This ad is so absurd, but I keep watching it.",
+     "Este anuncio es absurdo, pero no dejo de verlo.",
+     "Comedy, webtoons, ads", "Draft — please double-check"),
 ]
 
 MEME = [
@@ -3461,6 +3695,390 @@ MEME = [
      "이번 달 카드값 보고 그냥 주먹자로 하기로 했어.", "Saw my card bill this month and decided to just do the broke-people Mounjaro diet.",
      "Vi el estado de mi tarjeta este mes y decidí hacer la dieta de los pobres.",
      "Social media, self-deprecating diet jokes, 2026 slang", "Verified (per user, 2026-08-11)"),
+    ("중꺾마", "jung-kkeok-ma", "Never give up",
+     "Short for 중요한 건 꺾이지 않는 마음 — \"what matters is a heart that doesn't break.\"",
+     "Abreviatura de 중요한 건 꺾이지 않는 마음: \"lo importante es un corazón que no se quiebra\".",
+     "졌지만 중꺾마로 다시 가보자!", "We lost, but never give up — let's go again!",
+     "Perdimos, pero no nos rendimos, ¡vamos otra vez!",
+     "Sports, motivation, fandom", "Draft — please double-check"),
+    ("오히려좋아", "o-hi-ryeo-jo-a", "Even better, actually",
+     "\"Actually, that's even better\" — turning a bad situation into a positive one.",
+     "\"De hecho, mejor\": convertir una mala situación en algo positivo.",
+     "비 와서 집콕? 오히려 좋아.", "Rain means staying home? Even better, actually.",
+     "¿Llueve y me quedo en casa? Mejor aún.",
+     "Everyday chat", "Draft — please double-check"),
+    ("조용한퇴사", "jo-yong-han-toe-sa", "Quiet quitting",
+     "\"Quiet quitting\" — doing only what your job requires, no more, and leaving on time.",
+     "\"Renuncia silenciosa\": hacer solo lo que exige el trabajo, nada más, y salir a la hora.",
+     "요즘 조용한 퇴사 중이야.", "I'm quiet quitting these days.",
+     "Últimamente estoy en modo renuncia silenciosa.",
+     "Work talk", "Draft — please double-check"),
+    ("억빠", "eok-ppa", "Forced defending",
+     "억지 (forced) + 빠 (fan): defending someone no matter what, even when they're clearly wrong. The opposite of 억까.",
+     "억지 (forzado) + 빠 (fan): defender a alguien pase lo que pase, aunque claramente esté mal. Lo contrario de 억까.",
+     "그건 좀 억빠 아니야?", "Isn't that just defending them no matter what?",
+     "¿Eso no es defenderlo a toda costa?",
+     "Online debates", "Draft — please double-check"),
+    ("무지성", "mu-ji-seong", "Mindless",
+     "無知性 — \"no intellect\": doing something without thinking, on pure impulse.",
+     "無知性, \"sin intelecto\": hacer algo sin pensar, por puro impulso.",
+     "무지성으로 앨범 열 장 질렀어.", "I mindlessly bought ten albums.",
+     "Compré diez álbumes sin pensarlo.",
+     "Online chat", "Draft — please double-check"),
+    ("어쩔티비", "eo-jjeol-ti-bi", "So what? (TV)",
+     "어쩌라고 (\"so what?\") + TV: a playful, cheeky \"so what?\" — often to win a silly argument.",
+     "어쩌라고 (\"¿y qué?\") + TV: un \"¿y qué?\" juguetón y descarado, a menudo para ganar una discusión tonta.",
+     "\"너 숙제 안 했지?\" \"어쩔티비~\"", "\"You didn't do your homework, right?\" \"So what~\"",
+     "\"No hiciste la tarea, ¿verdad?\" \"¿Y qué~?\"",
+     "Kids and teen slang", "Draft — please double-check"),
+    ("저쩔티비", "jeo-jjeol-ti-bi", "So what? (comeback)",
+     "The comeback to 어쩔티비 — bouncing the \"so what?\" right back.",
+     "La respuesta a 어쩔티비: devolver el \"¿y qué?\" de inmediato.",
+     "\"어쩔티비\" \"저쩔티비\" \"안물티비\"…", "\"So what\" \"So what back\" \"Didn't ask\"…",
+     "\"¿Y qué?\" \"¿Y qué tú?\" \"No pregunté\"…",
+     "Kids and teen slang", "Draft — please double-check"),
+    ("킹리적갓심", "king-ri-jeok-gat-sim", "Totally reasonable suspicion",
+     "King + 합리적 의심 (reasonable suspicion) with 합→king, 의→god: a \"reasonable suspicion\" taken to the max.",
+     "King + 합리적 의심 (sospecha razonable), cambiando 합 por king y 의 por god: una \"sospecha razonable\" llevada al máximo.",
+     "같은 팔찌 찼네? 이건 킹리적갓심이야.", "Matching bracelets? That's a totally reasonable suspicion.",
+     "¿Pulseras iguales? Sospecha más que razonable.",
+     "Fan theories, gossip", "Draft — please double-check"),
+    ("내돈내산", "nae-don-nae-san", "Bought with my own money",
+     "Short for 내 돈 주고 내가 산 — \"I paid for it myself\": an honest, not-sponsored review.",
+     "Abreviatura de 내 돈 주고 내가 산: \"lo pagué yo\", una reseña honesta, no patrocinada.",
+     "내돈내산 후기라 믿을 만해.", "It's a self-paid review, so you can trust it.",
+     "Es una reseña pagada por mí, así que es confiable.",
+     "Reviews, social media", "Draft — please double-check"),
+    ("머선129", "meo-seon-129", "What's going on?",
+     "A dialect-flavored \"what's going on?\" (무슨 일이고) where 일이구 is written as the numbers 129.",
+     "Un \"¿qué pasa?\" con tono de dialecto (무슨 일이고), donde 일이구 se escribe con los números 129.",
+     "갑자기 다들 왜 이래? 머선129?", "Why is everyone acting like this all of a sudden? What's going on?",
+     "¿Por qué todos actúan así de repente? ¿Qué pasa?",
+     "Online chat, reactions", "Draft — please double-check"),
+    ("갑툭튀", "gap-tuk-twi", "Out of nowhere",
+     "Short for 갑자기 툭 튀어나오다 — popping up suddenly out of nowhere.",
+     "Abreviatura de 갑자기 툭 튀어나오다: aparecer de repente de la nada.",
+     "갑툭튀 카메오에 깜짝 놀랐어.", "The out-of-nowhere cameo totally surprised me.",
+     "Me sorprendió el cameo que salió de la nada.",
+     "Reactions", "Draft — please double-check"),
+    ("얼빡샷", "eol-ppak-syat", "Face-filling close-up",
+     "얼굴 (face) + 빡 (tightly) + shot: a selfie where the face fills the whole frame.",
+     "얼굴 (cara) + 빡 (apretado) + shot: una selfie donde la cara llena todo el encuadre.",
+     "최애 얼빡샷 올라왔어!", "My bias posted a face-filling close-up!",
+     "¡Mi bias subió una selfie de cara completa!",
+     "Selfies, fan content", "Draft — please double-check"),
+    ("존예", "jon-ye", "Super pretty",
+     "존 (a crude intensifier) + 예쁘다 (pretty): insanely pretty.",
+     "존 (intensificador vulgar) + 예쁘다 (bonita): bellísima.",
+     "오늘 메이크업 존예다.", "Today's makeup is gorgeous.",
+     "El maquillaje de hoy está bellísimo.",
+     "Casual praise", "Draft — please double-check"),
+    ("존잘", "jon-jal", "Super handsome",
+     "존 (a crude intensifier) + 잘생기다 (handsome): insanely good-looking. Also \"super skilled\" (잘하다).",
+     "존 (intensificador vulgar) + 잘생기다 (guapo): guapísimo. También \"súper hábil\" (잘하다).",
+     "실물이 더 존잘이래.", "They say he's even more handsome in person.",
+     "Dicen que en persona es todavía más guapo.",
+     "Casual praise", "Draft — please double-check"),
+    ("띵곡", "tting-gok", "Banger",
+     "명곡 (masterpiece song) respelled — 명 looks like 띵 — a great song, a banger.",
+     "명곡 (canción maestra) reescrito, porque 명 se parece a 띵: una gran canción.",
+     "이번 수록곡 다 띵곡이야.", "Every B-side this time is a banger.",
+     "Todas las canciones de esta vez son temazos.",
+     "Music talk", "Draft — please double-check"),
+    ("띵언", "tting-eon", "Great quote",
+     "명언 (wise saying) respelled — a memorable, wise or funny quote.",
+     "명언 (frase célebre) reescrito: una cita memorable, sabia o graciosa.",
+     "멤버가 인터뷰에서 띵언 남겼어.", "The member left a great quote in the interview.",
+     "El miembro dejó una gran frase en la entrevista.",
+     "Quotes, fan talk", "Draft — please double-check"),
+    ("쩐다", "jjeon-da", "Awesome",
+     "Slang for \"amazing, awesome\" — from 쩔다. Also 쩔어.",
+     "Jerga para \"increíble, genial\", de 쩔다. También 쩔어.",
+     "이번 무대 진짜 쩐다.", "This stage is seriously awesome.",
+     "Esta presentación está increíble.",
+     "Casual praise", "Draft — please double-check"),
+    ("졸귀", "jol-gwi", "Super cute",
+     "졸라 (a crude intensifier) + 귀엽다 (cute): insanely cute.",
+     "졸라 (intensificador vulgar) + 귀엽다 (lindo): tiernísimo.",
+     "이 강아지 졸귀야.", "This puppy is insanely cute.",
+     "Este perrito es tiernísimo.",
+     "Casual praise", "Draft — please double-check"),
+    ("열폭", "yeol-pok", "Jealous outburst",
+     "Short for 열등감 폭발 — \"inferiority complex explosion\": lashing out because you feel inferior or jealous.",
+     "Abreviatura de 열등감 폭발: \"explosión de complejo de inferioridad\", reaccionar mal por envidia o inseguridad.",
+     "잘되니까 열폭하는 거야.", "They're lashing out because you're doing well.",
+     "Se enojan porque te va bien, pura envidia.",
+     "Online arguments", "Draft — please double-check"),
+    ("멘붕", "men-bung", "Mental breakdown",
+     "Short for 멘탈 붕괴 — \"mental collapse\": totally losing it from shock or stress.",
+     "Abreviatura de 멘탈 붕괴: \"colapso mental\", perder la cabeza por un shock o estrés.",
+     "티켓팅 실패해서 멘붕 왔어.", "I failed ticketing and totally lost it.",
+     "Fallé el ticketing y colapsé.",
+     "Everyday chat", "Draft — please double-check"),
+    ("지린다", "ji-rin-da", "Insane (teen slang)",
+     "Literally \"to wet yourself\" — teen slang for something so amazing it's overwhelming.",
+     "Literalmente \"orinarse encima\": jerga adolescente para algo tan increíble que abruma.",
+     "이 무대 지린다.", "This stage is insane.",
+     "Esta presentación es una locura.",
+     "Teen slang", "Draft — please double-check"),
+    ("가보자고", "ga-bo-ja-go", "Let's go!",
+     "\"Let's go!\" — a hyped-up rallying cry before doing something.",
+     "\"¡Vamos!\": un grito de ánimo antes de hacer algo.",
+     "새벽 티켓팅? 가보자고!", "Dawn ticketing? Let's go!",
+     "¿Ticketing de madrugada? ¡Vamos!",
+     "Everyday chat", "Draft — please double-check"),
+    ("점메추", "jeom-me-chu", "Lunch menu recs",
+     "Short for 점심 메뉴 추천 — \"lunch menu recommendation.\" The dinner version is 저메추.",
+     "Abreviatura de 점심 메뉴 추천: \"recomendación de menú para el almuerzo\". La versión de la cena es 저메추.",
+     "점메추 좀 해 줘, 결정을 못 하겠어.", "Give me a lunch rec — I can't decide.",
+     "Recomiéndame algo para almorzar, no me decido.",
+     "Office chat", "Draft — please double-check"),
+    ("할많하않", "hal-man-ha-an", "I have a lot to say, but I won't",
+     "Short for 할 말은 많지만 하지 않겠다 — \"I have a lot to say, but I'll hold back.\"",
+     "Abreviatura de 할 말은 많지만 하지 않겠다: \"tengo mucho que decir, pero me lo callo\".",
+     "이번 결말에 대해선… 할많하않.", "About that ending… I have a lot to say, but I won't.",
+     "Sobre ese final… tengo mucho que decir, pero me callo.",
+     "Online reactions", "Draft — please double-check"),
+    ("쌉가능", "ssap-ga-neung", "Totally possible",
+     "쌉 (a crude intensifier, \"totally\") + 가능 (possible): \"absolutely doable.\"",
+     "쌉 (intensificador vulgar, \"totalmente\") + 가능 (posible): \"totalmente posible\".",
+     "하루에 드라마 16화? 쌉가능.", "16 drama episodes in a day? Totally doable.",
+     "¿16 episodios en un día? Totalmente posible.",
+     "Casual chat", "Draft — please double-check"),
+    ("쌉인정", "ssap-in-jeong", "Totally agree",
+     "쌉 (\"totally\") + 인정 (agreed): \"100% agree.\"",
+     "쌉 (\"totalmente\") + 인정 (de acuerdo): \"100 % de acuerdo\".",
+     "그 말 쌉인정.", "Totally agree with that.",
+     "Totalmente de acuerdo.",
+     "Casual chat", "Draft — please double-check"),
+    ("킹정", "king-jeong", "Totally agree (king)",
+     "King + 인정 (agreed): \"absolutely agree.\"",
+     "King + 인정 (de acuerdo): \"absolutamente de acuerdo\".",
+     "이번 앨범 역대급이라는 거 킹정.", "Totally agree this album is their best ever.",
+     "Totalmente de acuerdo en que este álbum es el mejor.",
+     "Casual chat", "Draft — please double-check"),
+    ("엄근진", "eom-geun-jin", "Dead serious",
+     "Short for 엄격·근엄·진지 — \"strict, solemn, serious\": being way too serious.",
+     "Abreviatura de 엄격·근엄·진지: \"estricto, solemne, serio\", ser demasiado serio.",
+     "농담인데 왜 엄근진이야?", "It's a joke — why so dead serious?",
+     "Es broma, ¿por qué tan serio?",
+     "Casual chat", "Draft — please double-check"),
+    ("많관부", "man-gwan-bu", "Please show lots of interest",
+     "Short for 많은 관심 부탁드립니다 — \"please give it lots of love/attention.\"",
+     "Abreviatura de 많은 관심 부탁드립니다: \"por favor, denle mucho cariño y atención\".",
+     "이번 신곡 많관부!", "Please show the new song lots of love!",
+     "¡Denle mucho amor a la canción nueva!",
+     "Promotion, social media", "Draft — please double-check"),
+    ("관종", "gwan-jong", "Attention seeker",
+     "Short for 관심종자 — someone who craves attention.",
+     "Abreviatura de 관심종자: alguien que busca atención todo el tiempo.",
+     "또 저렇게 올리는 거 보니 관종이네.", "Posting like that again — what an attention seeker.",
+     "Otra vez publicando así, qué buscador de atención.",
+     "Online chat", "Draft — please double-check"),
+    ("유리멘탈", "yu-ri-men-tal", "Glass mental",
+     "\"Glass mentality\" — easily hurt or shaken. The opposite is 강철멘탈 (steel mental) or 멘탈갑.",
+     "\"Mentalidad de cristal\": que se lastima o se altera fácilmente. Lo contrario es 강철멘탈 (mente de acero) o 멘탈갑.",
+     "악플 하나에 울다니, 나 유리멘탈이야.", "Crying over one hate comment — I've got a glass heart.",
+     "Llorar por un solo comentario de odio, tengo corazón de cristal.",
+     "Everyday chat", "Draft — please double-check"),
+    ("멘탈갑", "men-tal-gap", "Mentally unshakable",
+     "멘탈 + 甲 (top): someone with an incredibly strong mindset.",
+     "멘탈 + 甲 (lo mejor): alguien con una mentalidad increíblemente fuerte.",
+     "실수해도 웃으면서 넘어가, 완전 멘탈갑이야.", "She laughs off mistakes — totally unshakable.",
+     "Se ríe de sus errores, tiene una mente de acero.",
+     "Praise", "Draft — please double-check"),
+    ("씹덕", "ssip-deok", "Hardcore otaku (crude)",
+     "A crude, often mocking word for a hardcore otaku — especially anime and game fans. 씹 is a vulgar prefix.",
+     "Una palabra vulgar y a menudo burlona para un otaku extremo, sobre todo de anime y videojuegos. 씹 es un prefijo vulgar.",
+     "나 완전 씹덕이라 애니 다 봤어.", "I'm a total nerd — I've seen every anime.",
+     "Soy una otaku total, vi todos los anime.",
+     "Online chat", "Draft — please double-check"),
+    ("너T야", "neo-t-ya", "Are you a T?",
+     "\"Are you a T?\" — teasing someone for replying logically when you wanted sympathy (T = Thinking in MBTI).",
+     "\"¿Eres T?\": burlarse de alguien por responder con lógica cuando querías empatía (T = Thinking en el MBTI).",
+     "\"나 오늘 우울해\" \"왜? 무슨 일인데?\" \"…너 T야?\"", "\"I'm sad today\" \"Why? What happened?\" \"…Are you a T?\"",
+     "\"Hoy estoy triste\" \"¿Por qué? ¿Qué pasó?\" \"…¿Eres T?\"",
+     "MBTI jokes", "Draft — please double-check"),
+    ("디토", "di-to", "Same here",
+     "From English \"ditto\" — \"same here, me too.\"",
+     "Del inglés \"ditto\": \"igual, yo también\".",
+     "\"나 오늘 피곤해\" \"디토\"", "\"I'm tired today\" \"Ditto\"",
+     "\"Hoy estoy cansada\" \"Igual\"",
+     "Casual chat", "Draft — please double-check"),
+    ("킹갓제너럴", "king-gat-je-neo-reol", "King god general",
+     "King + god + general — stacking titles to call something the absolute best.",
+     "King + god + general: acumulando títulos para decir que algo es lo mejor de lo mejor.",
+     "이 라면은 킹갓제너럴이야.", "This ramyeon is the king of kings.",
+     "Este ramyeon es lo máximo.",
+     "Exaggerated praise", "Draft — please double-check"),
+    ("쿨거래", "kul-geo-rae", "Smooth deal",
+     "\"Cool deal\" — a quick, no-haggling second-hand trade.",
+     "\"Trato cool\": una compraventa de segunda mano rápida y sin regateo.",
+     "쿨거래 감사합니다!", "Thanks for the smooth deal!",
+     "¡Gracias por el trato rápido!",
+     "Second-hand trading", "Draft — please double-check"),
+    ("당근하다", "dang-geun-ha-da", "To trade on Karrot",
+     "To buy or sell second-hand items on 당근마켓 (Karrot), a popular local marketplace app.",
+     "Comprar o vender artículos de segunda mano en 당근마켓 (Karrot), una app de mercado local muy popular.",
+     "안 쓰는 응원봉 당근했어.", "I sold my unused light stick on Karrot.",
+     "Vendí mi light stick sin usar en Karrot.",
+     "Everyday life", "Draft — please double-check"),
+    ("꼰대", "kkon-dae", "Condescending old-timer",
+     "Someone (often older or a boss) who lectures and forces outdated views on younger people.",
+     "Alguien (a menudo mayor o un jefe) que sermonea e impone ideas anticuadas a los más jóvenes.",
+     "우리 팀장님 완전 꼰대야.", "Our team leader is such a condescending old-timer.",
+     "Mi jefe de equipo es un anticuado sermoneador.",
+     "Work and family talk", "Draft — please double-check"),
+    ("라떼는말이야", "ra-tte-neun-ma-ri-ya", "Back in my day",
+     "A pun on 나 때는 말이야 (\"back in my day\") with 나 때 → latte — mocking 꼰대 lectures.",
+     "Juego de palabras con 나 때는 말이야 (\"en mis tiempos\"), donde 나 때 suena como latte; se burla de los sermones de los 꼰대.",
+     "또 라떼는 말이야 시작하셨다.", "Here comes another \"back in my day.\"",
+     "Ya empezó otra vez con su \"en mis tiempos\".",
+     "Work and family talk", "Draft — please double-check"),
+    ("탕진잼", "tang-jin-jaem", "Fun of blowing money",
+     "蕩盡 (spending it all) + 잼 (fun): the small joy of splurging cash on little things.",
+     "蕩盡 (gastarlo todo) + 잼 (diversión): la pequeña alegría de gastar dinero en cositas.",
+     "다이소에서 탕진잼 했어.", "I had fun blowing money at Daiso.",
+     "Me di el gusto de gastar en Daiso.",
+     "Shopping", "Draft — please double-check"),
+    ("영끌", "yeong-kkeul", "Scraping together everything",
+     "Short for 영혼까지 끌어모으다 — \"scraping together even your soul\": using every last bit of money or effort.",
+     "Abreviatura de 영혼까지 끌어모으다: \"juntar hasta el alma\", usar hasta el último centavo o esfuerzo.",
+     "영끌해서 콘서트 VIP석 샀어.", "I scraped together everything to buy a VIP concert seat.",
+     "Junté hasta el último centavo para comprar un asiento VIP.",
+     "Money talk", "Draft — please double-check"),
+    ("동학개미", "dong-hak-gae-mi", "Korean retail investors",
+     "\"Donghak ants\" — the wave of Korean retail investors who poured into domestic stocks in 2020.",
+     "\"Hormigas Donghak\": la ola de pequeños inversores coreanos que entraron en masa a las acciones locales en 2020.",
+     "나도 동학개미 대열에 합류했어.", "I joined the ranks of the retail-investor ants too.",
+     "Yo también me uní a las hormigas inversoras.",
+     "Stock market talk", "Draft — please double-check"),
+    ("퇴사각", "toe-sa-gak", "Time to quit vibes",
+     "퇴사 (quitting a job) + 각 (\"it's looking like\"): signs you're about to quit.",
+     "퇴사 (renunciar) + 각 (\"tiene pinta de\"): señales de que estás a punto de renunciar.",
+     "오늘 야근 세 번째, 퇴사각이다.", "Third overtime night this week — time-to-quit vibes.",
+     "Tercera noche de horas extra esta semana, ya huele a renuncia.",
+     "Work talk", "Draft — please double-check"),
+    ("핵노잼", "haek-no-jaem", "Mega boring",
+     "핵 (nuclear, \"mega\") + 노잼 (no fun): extremely boring.",
+     "핵 (nuclear, \"mega\") + 노잼 (sin gracia): aburridísimo.",
+     "어제 영화 핵노잼이었어.", "Yesterday's movie was mega boring.",
+     "La película de ayer fue aburridísima.",
+     "Casual reviews", "Draft — please double-check"),
+    ("꿀팁", "kkul-tip", "Honey tip",
+     "\"Honey tip\" — a really useful tip or life hack.",
+     "\"Tip de miel\": un consejo o truco realmente útil.",
+     "티켓팅 꿀팁 알려 줄게.", "I'll share a ticketing honey tip.",
+     "Te comparto un truco para el ticketing.",
+     "Everyday chat, how-to content", "Draft — please double-check"),
+    ("반모", "ban-mo", "Casual-speech mode",
+     "Short for 반말 모드 — agreeing to drop polite speech and talk casually.",
+     "Abreviatura de 반말 모드: acordar dejar el habla formal y hablar de tú.",
+     "우리 반모 할래?", "Want to switch to casual speech?",
+     "¿Nos hablamos de tú?",
+     "Online friendships, fandom", "Draft — please double-check"),
+    ("ㅇㅈ", "ij", "Agreed",
+     "Initial consonants of 인정 (\"agreed\"): \"true,\" \"valid,\" \"facts.\"",
+     "Consonantes iniciales de 인정 (\"de acuerdo\"): \"cierto\", \"válido\".",
+     "ㅇㅈ 이번 앨범 최고야.", "Agreed, this album is the best.",
+     "De acuerdo, este álbum es lo mejor.",
+     "Texting, comments", "Draft — please double-check"),
+    ("ㅇㅋ", "ok", "OK",
+     "Initial consonants of 오케이 (\"okay\").",
+     "Consonantes iniciales de 오케이 (\"okey\").",
+     "ㅇㅋ 7시에 봐.", "OK, see you at 7.",
+     "Ok, nos vemos a las 7.",
+     "Texting, comments", "Draft — please double-check"),
+    ("ㄱㅅ", "gs", "Thanks",
+     "Initial consonants of 감사 (\"thanks\").",
+     "Consonantes iniciales de 감사 (\"gracias\").",
+     "자료 공유 ㄱㅅ!", "Thanks for sharing the info!",
+     "¡Gracias por compartir la info!",
+     "Texting, comments", "Draft — please double-check"),
+    ("ㅈㅅ", "js", "Sorry",
+     "Initial consonants of 죄송 (\"sorry\").",
+     "Consonantes iniciales de 죄송 (\"perdón\").",
+     "늦어서 ㅈㅅ!", "Sorry I'm late!",
+     "¡Perdón por llegar tarde!",
+     "Texting, comments", "Draft — please double-check"),
+    ("ㅊㅋ", "chk", "Congrats",
+     "Initial consonants of 축하 (\"congrats\").",
+     "Consonantes iniciales de 축하 (\"felicidades\").",
+     "1위 ㅊㅋㅊㅋ!", "Congrats on #1!",
+     "¡Felicidades por el #1!",
+     "Texting, comments", "Draft — please double-check"),
+    ("ㅠㅠ", "yu-yu", "Crying eyes",
+     "Two ㅠ vowels that look like crying eyes with tears — sad, touched, or overwhelmed.",
+     "Dos vocales ㅠ que parecen ojos llorando: triste, conmovido o abrumado.",
+     "콘서트 끝났어ㅠㅠ", "The concert is over ㅠㅠ",
+     "Se terminó el concierto ㅠㅠ",
+     "Texting, comments", "Draft — please double-check"),
+    ("ㄱㅇㄷ", "gid", "Huge win",
+     "Initial consonants of 개이득 (\"huge win\").",
+     "Consonantes iniciales de 개이득 (\"gran ganancia\").",
+     "포카 한 장 더 들어 있었어 ㄱㅇㄷ", "There was an extra photocard inside — huge win",
+     "Venía una photocard extra, ¡qué suerte!",
+     "Texting, comments", "Draft — please double-check"),
+    ("씨발", "ssi-bal", "F*ck (swear)",
+     "One of the strongest Korean swear words — like \"f*ck\" — used for anger, frustration or shock.",
+     "Una de las groserías más fuertes del coreano, como \"j*der\" o \"ch*ngada\", para enojo, frustración o sorpresa.",
+     "씨발, 또 버스 놓쳤어.", "F*ck, I missed the bus again.",
+     "Mierda, perdí el bus otra vez.",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("ㅅㅂ", "sb", "F*ck (typed)",
+     "Initial consonants of 씨발/시발 — the typed, slightly censored form of the swear word.",
+     "Consonantes iniciales de 씨발/시발: la forma escrita y algo censurada de la grosería.",
+     "ㅅㅂ 과제 마감 오늘이었어.", "Sh*t, the assignment was due today.",
+     "Mierda, la tarea era para hoy.",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("존나", "jon-na", "F*cking (intensifier)",
+     "A crude intensifier — \"f*cking,\" \"super\" — that goes in front of almost anything.",
+     "Un intensificador vulgar, como \"súper\" o \"bien\" en sentido grosero, que va delante de casi todo.",
+     "이 노래 존나 좋아.", "This song is f*cking good.",
+     "Esta canción está buenísima (grosero).",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("ㅈㄴ", "jn", "F*cking (typed)",
+     "Initial consonants of 존나 — the typed form of the intensifier.",
+     "Consonantes iniciales de 존나: la forma escrita del intensificador.",
+     "ㅈㄴ 웃겨 ㅋㅋㅋ", "So f*cking funny lol",
+     "Grosísimamente gracioso jaja",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("지랄", "ji-ral", "Bullsh*t / fuss",
+     "A crude word for ridiculous behavior or nonsense — \"bullsh*t,\" \"throwing a fit.\"",
+     "Una palabra vulgar para comportamientos ridículos o tonterías: \"pendejadas\", \"hacer berrinche\".",
+     "지랄하지 마.", "Cut the crap.",
+     "Deja de decir tonterías.",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("미친", "mi-chin", "Crazy / insane",
+     "\"Crazy\" — as an insult (\"you're crazy\") or, very often now, as praise: \"미친 무대\" (\"an insane stage\").",
+     "\"Loco\": como insulto (\"estás loco\") o, muy a menudo hoy, como elogio: \"미친 무대\" (\"una presentación de locos\").",
+     "미친, 이 가격 실화냐?", "Crazy — is this price real?",
+     "¡Qué locura! ¿Este precio es real?",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("젠장", "jen-jang", "Damn it",
+     "\"Damn it\" — a mild, slightly old-fashioned curse of frustration.",
+     "\"Maldición\": una grosería suave y algo anticuada de frustración.",
+     "젠장, 우산 두고 왔어.", "Damn it, I left my umbrella.",
+     "Maldición, olvidé el paraguas.",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("빡치다", "ppak-chi-da", "To be pissed off",
+     "To get really angry — \"pissed off.\" Crude but extremely common.",
+     "Enojarse mucho, \"encabronarse\". Vulgar pero muy común.",
+     "새치기당해서 진짜 빡쳤어.", "Someone cut the line and I got so pissed off.",
+     "Alguien se coló en la fila y me encabroné.",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("시발비용", "si-bal-bi-yong", "Rage spending",
+     "\"F*ck-it money\" — money you spend impulsively because you're stressed or angry.",
+     "\"Dinero de a la mierda\": dinero que gastas por impulso porque estás estresado o enojado.",
+     "상사한테 혼나고 시발비용으로 치킨 시켰어.", "Got scolded by my boss, so I rage-ordered fried chicken.",
+     "Mi jefe me regañó, así que pedí pollo frito por pura rabia.",
+     "Swearing — use with care", "Draft — please double-check"),
+    ("염병", "yeom-byeong", "Damn plague (curse)",
+     "Literally \"plague\" (typhoid) — an old-fashioned, dialect-flavored curse for something infuriating or absurd.",
+     "Literalmente \"peste\" (tifoidea): una maldición anticuada, con sabor a dialecto, para algo que enfurece o es absurdo.",
+     "염병, 또 고장 났네.", "Damn it, it broke again.",
+     "Maldita sea, se volvió a romper.",
+     "Swearing — use with care", "Draft — please double-check"),
 ]
 
 DATING = [
@@ -3950,6 +4568,12 @@ DATING = [
      "역시 패완얼이야, 뭘 입어도 잘 어울려.", "It's true, fashion's finished by the face — they look good in anything.",
      "Es cierto, la cara lo completa todo — se le ve bien cualquier cosa.",
      "Fashion/beauty banter", "Draft — please double-check"),
+    ("금사빠", "geum-sa-ppa", "Falls in love fast",
+     "Short for 금방 사랑에 빠지는 사람 — someone who falls in love super easily.",
+     "Abreviatura de 금방 사랑에 빠지는 사람: alguien que se enamora con mucha facilidad.",
+     "나 금사빠라 웃어 주기만 해도 반해.", "I fall in love fast — one smile and I'm gone.",
+     "Me enamoro rápido, con una sonrisa ya caigo.",
+     "Dating talk, fandom", "Draft — please double-check"),
 ]
 
 CATEGORIES = [
@@ -3973,6 +4597,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-10-14", ["앨포", "미공포", "엔딩요정", "퇴근길", "출근길", "막내온탑", "맏내", "메보", "4세대", "줄세우기", "올킬", "퍼올", "차트인", "음원깡패", "무대천재", "춤신춤왕", "청량", "걸크러시", "하이틴", "사녹", "팬콘", "포타", "버블", "위버스", "특전", "분철", "공구", "양도", "취켓팅", "꿀자리", "시제석", "비공굿", "나눔", "시즌그리팅", "갓기", "막콘", "슬로건", "중꺾마", "오히려좋아", "조용한퇴사", "억빠", "무지성", "어쩔티비", "저쩔티비", "킹리적갓심", "내돈내산", "머선129", "갑툭튀", "얼빡샷", "존예", "존잘", "띵곡", "띵언", "쩐다", "졸귀", "열폭", "멘붕", "지린다", "가보자고", "점메추", "할많하않", "쌉가능", "쌉인정", "킹정", "엄근진", "많관부", "관종", "유리멘탈", "멘탈갑", "씹덕", "너T야", "디토", "무야호", "킹갓제너럴", "쿨거래", "당근하다", "꼰대", "라떼는말이야", "탕진잼", "영끌", "동학개미", "퇴사각", "병맛", "핵노잼", "꿀팁", "반모", "금사빠", "ㅇㅈ", "ㅇㅋ", "ㄱㅅ", "ㅈㅅ", "ㅊㅋ", "ㅠㅠ", "ㄱㅇㄷ", "씨발", "ㅅㅂ", "존나", "ㅈㄴ", "지랄", "미친", "젠장", "빡치다", "시발비용", "염병"]),
     ("2026-08-11", ["아우라 파밍", "오살힘", "밤티", "주먹자로"]),
     ("2026-07-29", ["영크크"]),
 ]
@@ -4659,6 +5284,110 @@ ZH_TW_TRANSLATIONS = {
     "오살힘": ("「今天活下去的力量」的縮寫——粉絲看到本命的內容後獲得的情緒能量，也可延伸指任何能讓你撐過一天的小小動力。", "今天看完歐巴的V Live，得到了活下去的力量。"),
     "밤티": ("帶點調侃意味的詞，意思是醜、俗氣或過時——用來半開玩笑地吐槽某人的造型、風格或設計。源自一款頭像自訂遊戲，一位暱稱「밤티」的使用者因頭像被嘲笑，截圖因此爆紅。", "你今天這身穿搭有點土耶。"),
     "주먹자로": ("把瘦身針劑「Mounjaro（韓文音譯마운자로）」的發音故意唸歪成「주먹자로」的雙關語——2026年初流行的自嘲哏，意思是打不起針，只好用挨餓來「減肥」。是誇張搞笑的說法，不是真的行動指南。", "看到這個月的卡費，我決定乾脆挨餓瘦身算了。"),
+    "앨포": ("앨범 포토카드（專輯小卡）的縮寫：K-pop專輯裡附的隨機小卡。", "五張專輯小卡全部抽到同一個成員。"),
+    "미공포": ("미공개 포토카드（未公開小卡）的縮寫：只有特定店家或活動才送的小卡。", "這家店的未公開小卡最好看。"),
+    "엔딩요정": ("「ending妖精」：音樂節目表演結束時，鏡頭特寫並停格擺姿勢的成員。", "今天的ending妖精是誰？"),
+    "퇴근길": ("「下班路」：偶像離開電視台或場館時，被等候的粉絲迎接、拍照。", "下班路上有跟我們揮手！"),
+    "출근길": ("「上班路」：偶像抵達電視台，常在進場時被拍下穿搭。", "今天的上班路穿搭好好看。"),
+    "막내온탑": ("「忙內on top」：表現得像老大、或比哥哥姊姊們更強的忙內。", "忙內贏了所有哥哥，完全是忙內on top。"),
+    "맏내": ("맏이（老大）＋막내（忙內）：年紀最大卻像忙內一樣被寵的成員。", "明明是隊長，做的事完全像忙內。"),
+    "메보": ("메인보컬（主唱）的縮寫。", "果然是主唱，現場超穩。"),
+    "4세대": ("K-pop第四代：大約在2010年代末到2020年代初出道的團體。", "第四代女團中你最喜歡誰？"),
+    "줄세우기": ("「排排站」：同一位歌手的歌同時佔據排行榜前面好幾名。", "新專輯收錄曲在榜上排排站了。"),
+    "올킬": ("「All-kill」：一首歌同時拿下韓國所有主要音樂榜的第一名。", "公開一小時就All-kill了！"),
+    "퍼올": ("Perfect All-kill的縮寫：同時拿下韓國主要即時榜、日榜和週榜第一。", "Perfect All-kill維持幾個小時了？"),
+    "차트인": ("「Chart-in」：歌曲進入音樂排行榜。", "新歌成功進榜了！"),
+    "음원깡패": ("「音源流氓」：每次發歌都霸榜的歌手。是稱讚。", "果然是音源流氓，又是第一。"),
+    "무대천재": ("「舞台天才」：一上台就發光、表情和氣場搶走每個鏡頭的表演者。", "一上台就像變了個人，根本是舞台天才。"),
+    "춤신춤왕": ("「舞神舞王」：跳舞超級厲害的人。", "那個成員真的是舞神舞王。"),
+    "청량": ("清涼——明亮、青春的夏日概念：藍天、制服、在海邊奔跑。", "這次回歸是清涼概念！"),
+    "걸크러시": ("「Girl crush」：讓其他女生也欣賞的帥氣、自信概念或人。", "這次概念完全是Girl crush。"),
+    "하이틴": ("「High teen」：靈感來自美國青春電影的概念——置物櫃、啦啦隊、畢業舞會、糖果色。", "MV完全像青春校園電影。"),
+    "사녹": ("사전녹화（事前錄影）的縮寫：音樂節目在直播前、有粉絲在場錄好的舞台。", "抽中事前錄影，凌晨就出發。"),
+    "팬콘": ("팬 콘서트（粉絲演唱會）的縮寫：結合見面會的談話遊戲和演唱會表演的活動。", "這次粉絲演唱會的歌單很棒。"),
+    "포타": ("포스타입（Postype）的縮寫：粉絲發布同人文、同人圖和付費內容的韓國創作平台。", "我訂閱了這位作者的Postype。"),
+    "버블": ("付費訂閱App，偶像會傳像私訊一樣的訊息和照片給粉絲。", "凌晨收到泡泡訊息，被吵醒了。"),
+    "위버스": ("全球粉絲平台，很多K-pop歌手會在上面發動態、開直播、看粉絲貼文。", "Weverse開直播了！"),
+    "특전": ("特典——在特定店家購買專輯或周邊時額外得到的贈品（小卡、海報、貼紙）。", "為了特典在三家店買了。"),
+    "분철": ("分綴——一起買一整套（小卡或專輯）再拆分，讓每個粉絲拿到想要的成員。", "有人要一起拆分小卡套組嗎？"),
+    "공구": ("공동구매（團購）的縮寫：粉絲一起大量購買，常為了折扣或便宜的海外運費。", "和海外粉絲一起團購了專輯。"),
+    "양도": ("讓渡——把自己用不到的門票或物品轉讓給其他粉絲，最好是原價。", "臨時有事，要轉讓門票。"),
+    "취켓팅": ("취소표（退票）＋搶票：搶別人退票後重新釋出的票。", "撿退票搶到前排！"),
+    "꿀자리": ("「蜜位」：好位置——視野超好的演唱會座位，或任何舒服方便的地方。", "這次演唱會抽到好位置！"),
+    "시제석": ("시야제한석（視野受限席）的縮寫：視線部分被擋的座位，通常比較便宜或最後才開賣。", "就算是視野受限席我也想去。"),
+    "비공굿": ("비공식 굿즈（非官方周邊）的縮寫：粉絲自製的周邊，如貼紙、鑰匙圈、手幅。", "這個非官方周邊太可愛就買了。"),
+    "나눔": ("「分享」：粉絲在演唱會、咖啡廳或線上免費發送物品（杯套、貼紙、小卡）。", "演唱會前面有人在分享！"),
+    "시즌그리팅": ("「Season's greetings」：年末推出的周邊套組，內含年曆、手帳、照片等。簡稱시그。", "今年的年曆套組概念好可愛。"),
+    "갓기": ("God＋아기（寶寶）：對超有才華或超可愛的年輕偶像的暱稱。", "我們家神寶今天也表現很好！"),
+    "막콘": ("마지막 콘서트（最後一場演唱會）的縮寫：一輪演出或巡演的最後一場。", "最後一場，大家都哭了。"),
+    "슬로건": ("手幅：寫著偶像名字或應援標語的長毛巾或布條，粉絲在演唱會上舉起來。", "說好最後大家一起舉手幅。"),
+    "중꺾마": ("중요한 건 꺾이지 않는 마음（重要的是不屈服的心）的縮寫。", "雖然輸了，但不屈服的心最重要，再來一次！"),
+    "오히려좋아": ("「反而更好」：把壞情況轉成正面。", "下雨只能待在家？反而更好。"),
+    "조용한퇴사": ("「安靜離職」：只做工作要求的部分，不多做，準時下班。", "最近在安靜離職中。"),
+    "억빠": ("억지（硬要）＋빠（粉）：不管怎樣都硬要護航，就算對方明顯有錯。억까的反義。", "這樣不是硬護航嗎？"),
+    "무지성": ("無知性——不經大腦、純憑衝動做事。", "無腦買了十張專輯。"),
+    "어쩔티비": ("어쩌라고（那又怎樣）＋TV：俏皮又欠揍的「那又怎樣」，常用來在無聊爭論中嗆聲。", "「你沒寫作業吧？」「那又怎樣～」"),
+    "저쩔티비": ("回嗆어쩔티비的話——把「那又怎樣」原封不動丟回去。", "「어쩔티비」「저쩔티비」「안물티비」……"),
+    "킹리적갓심": ("King＋합리적 의심（合理懷疑），把합換成king、의換成god：合理懷疑到極致。", "戴同款手鍊？這是神級合理懷疑。"),
+    "내돈내산": ("내 돈 주고 내가 산（自己花錢買的）的縮寫：真實、非業配的心得。", "是自費心得，可以相信。"),
+    "머선129": ("帶方言腔的「怎麼回事？」（무슨 일이고），把일이구寫成數字129。", "大家突然怎麼了？發生什麼事？"),
+    "갑툭튀": ("갑자기 툭 튀어나오다（突然冒出來）的縮寫。", "突然冒出來的客串嚇我一跳。"),
+    "얼빡샷": ("얼굴（臉）＋빡（塞滿）＋shot：臉塞滿整個畫面的自拍。", "本命上傳了大臉特寫！"),
+    "존예": ("존（粗俗強調詞）＋예쁘다（漂亮）：超級漂亮。", "今天的妝超美。"),
+    "존잘": ("존（粗俗強調詞）＋잘생기다（帥）：超級帥。也可指超會（잘하다）。", "聽說本人更帥。"),
+    "띵곡": ("명곡（名曲）的變形寫法——명長得像띵：神曲。", "這次收錄曲全是神曲。"),
+    "띵언": ("명언（名言）的變形寫法：令人印象深刻、有智慧或好笑的話。", "成員在訪談裡留下名言。"),
+    "쩐다": ("表示「超讚、超強」的俚語，來自쩔다。也說쩔어。", "這次舞台真的超猛。"),
+    "졸귀": ("졸라（粗俗強調詞）＋귀엽다（可愛）：超級可愛。", "這隻小狗超可愛。"),
+    "열폭": ("열등감 폭발（自卑感爆發）的縮寫：因為自卑或嫉妒而爆氣。", "你過得好，他們才嫉妒爆氣。"),
+    "멘붕": ("멘탈 붕괴（心態崩潰）的縮寫：因震驚或壓力完全崩潰。", "搶票失敗，崩潰了。"),
+    "지린다": ("字面是「尿出來」——青少年俚語，形容厲害到受不了。", "這個舞台太猛了。"),
+    "가보자고": ("「衝吧！」——做事前的打氣口號。", "凌晨搶票？衝吧！"),
+    "점메추": ("점심 메뉴 추천（午餐推薦）的縮寫。晚餐版是저메추。", "推薦午餐吧，我選不出來。"),
+    "할많하않": ("할 말은 많지만 하지 않겠다（想說的很多但我不說）的縮寫。", "關於這個結局……想說的很多但我不說。"),
+    "쌉가능": ("쌉（粗俗強調詞，「完全」）＋가능（可能）：「完全可以」。", "一天看完16集？完全可以。"),
+    "쌉인정": ("쌉（完全）＋인정（認同）：「百分百認同」。", "這句話完全認同。"),
+    "킹정": ("King＋인정（認同）：「超級認同」。", "這張專輯是史上最強，超認同。"),
+    "엄근진": ("엄격・근엄・진지（嚴格、莊重、認真）的縮寫：過度認真。", "開玩笑而已，幹嘛這麼嚴肅？"),
+    "많관부": ("많은 관심 부탁드립니다（請多多關注）的縮寫。", "新歌請多多關注！"),
+    "관종": ("관심종자（求關注的人）的縮寫：渴望被注意的人。", "又那樣發文，根本求關注。"),
+    "유리멘탈": ("「玻璃心」：很容易受傷或動搖。反義是강철멘탈（鋼鐵心）或멘탈갑。", "一則惡評就哭了，我是玻璃心。"),
+    "멘탈갑": ("멘탈＋甲（第一）：心態超級強大的人。", "出錯也笑著帶過，心態超強。"),
+    "씹덕": ("粗俗、常帶嘲諷的說法，指重度御宅（尤其是動漫和遊戲宅）。씹是粗俗前綴。", "我是死宅，動畫全看過了。"),
+    "너T야": ("「你是T嗎？」——調侃別人在你想要安慰時卻用邏輯回應（T＝MBTI的思考型）。", "「我今天好憂鬱」「為什麼？發生什麼事？」「……你是T嗎？」"),
+    "디토": ("來自英文「ditto」：「我也是、同上」。", "「我今天好累」「我也是」"),
+    "무야호": ("開心的歡呼——「呦呼！」——來自一段經典綜藝片段。", "薪水入帳了，呦呼！"),
+    "킹갓제너럴": ("King＋god＋general：疊加稱號表示最強中的最強。", "這碗泡麵是王中王。"),
+    "쿨거래": ("「爽快交易」：不殺價、快速完成的二手交易。", "感謝爽快交易！"),
+    "당근하다": ("在당근마켓（紅蘿蔔市場）這個熱門在地二手App買賣東西。", "把沒在用的應援棒拿去紅蘿蔔賣了。"),
+    "꼰대": ("老頑固、說教魔：常是長輩或上司，愛說教、把過時觀念強加給年輕人。", "我們組長根本是老頑固。"),
+    "라떼는말이야": ("諧音나 때는 말이야（想當年我……），나 때聽起來像latte——嘲諷꼰대式說教。", "又開始「想當年」了。"),
+    "탕진잼": ("蕩盡（花光）＋잼（有趣）：把錢花在小東西上的小確幸。", "在大創爽花了一波。"),
+    "영끌": ("영혼까지 끌어모으다（連靈魂都湊上）的縮寫：用盡所有錢或力氣。", "傾盡所有買了演唱會VIP席。"),
+    "동학개미": ("「東學螞蟻」：2020年大舉湧入韓國股市的散戶。", "我也加入了東學螞蟻的行列。"),
+    "퇴사각": ("퇴사（離職）＋각（「看起來會…」）：快要離職的跡象。", "這週第三次加班，快離職了。"),
+    "병맛": ("병신（侮辱性字眼）＋맛（味道）：故意荒謬、無厘頭的搞笑風格。字根有冒犯性。", "這支廣告超無厘頭，卻一直看下去。"),
+    "핵노잼": ("핵（核，超級）＋노잼（無聊）：超級無聊。", "昨天那部電影超級無聊。"),
+    "꿀팁": ("「蜂蜜小撇步」：超實用的技巧或生活妙招。", "教你搶票小撇步。"),
+    "반모": ("반말 모드（半語模式）的縮寫：約好不用敬語、改用平語聊天。", "我們要不要改用半語？"),
+    "금사빠": ("금방 사랑에 빠지는 사람（很快就墜入愛河的人）的縮寫：超容易動心的人。", "我很容易動心，對我笑一下就淪陷了。"),
+    "ㅇㅈ": ("인정（認同）的初聲縮寫：「對」「認同」「說得好」。", "ㅇㅈ 這張專輯最棒。"),
+    "ㅇㅋ": ("오케이（OK）的初聲縮寫。", "ㅇㅋ 7點見。"),
+    "ㄱㅅ": ("감사（謝謝）的初聲縮寫。", "謝謝分享資料！"),
+    "ㅈㅅ": ("죄송（抱歉）的初聲縮寫。", "遲到了抱歉！"),
+    "ㅊㅋ": ("축하（恭喜）的初聲縮寫。", "恭喜拿一位！"),
+    "ㅠㅠ": ("兩個ㅠ看起來像流淚的眼睛——難過、感動或情緒滿溢。", "演唱會結束了ㅠㅠ"),
+    "ㄱㅇㄷ": ("개이득（大賺）的初聲縮寫。", "裡面多一張小卡 ㄱㅇㄷ"),
+    "씨발": ("韓語最重的髒話之一——類似「幹」——用來表達憤怒、挫折或震驚。", "幹，又錯過公車了。"),
+    "ㅅㅂ": ("씨발／시발的初聲縮寫——打字時稍微避諱的髒話寫法。", "ㅅㅂ 作業今天截止。"),
+    "존나": ("粗俗的強調詞——類似「超他媽」——幾乎可以放在任何字前面。", "這首歌超他媽好聽。"),
+    "ㅈㄴ": ("존나的初聲縮寫——打字時的強調詞。", "ㅈㄴ 好笑 ㅋㅋㅋ"),
+    "지랄": ("粗俗用語，指荒唐的行為或胡說八道——「放屁」「發神經」。", "少發神經。"),
+    "미친": ("「瘋了」——可以是罵人（你瘋了），現在也常當稱讚：「미친 무대」（瘋狂的舞台）。", "瘋了，這價格是真的嗎？"),
+    "젠장": ("「該死」——比較輕微、有點老派的抱怨。", "該死，雨傘忘了帶。"),
+    "빡치다": ("超火大、氣炸。粗俗但超常用。", "被插隊真的氣死。"),
+    "시발비용": ("「去他的消費」——因為壓力大或生氣而衝動花的錢。", "被上司罵，氣到叫了炸雞。"),
+    "염병": ("字面是「瘟疫」（傷寒）——老派、帶方言味的咒罵，用於令人火大或荒謬的事。", "真是見鬼，又壞了。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -5327,6 +6056,110 @@ ZH_CN_TRANSLATIONS = {
     "오살힘": ("「今天活下去的力量」的缩写——粉丝看到本命的内容后获得的情绪能量，也可延伸指任何能让你撑过一天的小小动力。", "今天看完欧巴的V Live，得到了活下去的力量。"),
     "밤티": ("带点调侃意味的词，意思是丑、俗气或过时——用来半开玩笑地吐槽某人的造型、风格或设计。源自一款头像自订游戏，一位暱称「밤티」的用户因头像被嘲笑，截屏因此爆红。", "你今天这身穿搭有点土耶。"),
     "주먹자로": ("把瘦身针剂「Mounjaro（韩文音译마운자로）」的发音故意念歪成「주먹자로」的双关语——2026年初流行的自嘲哏，意思是打不起针，只好用挨饿来「减肥」。是夸张搞笑的说法，不是真的行动指南。", "看到这个月的卡费，我决定干脆挨饿瘦身算了。"),
+    "앨포": ("앨범 포토카드（专辑小卡）的缩写：K-pop专辑里附的随机小卡。", "五张专辑小卡全部抽到同一个成员。"),
+    "미공포": ("미공개 포토카드（未公开小卡）的缩写：只有特定店家或活动才送的小卡。", "这家店的未公开小卡最好看。"),
+    "엔딩요정": ("“ending妖精”：音乐节目表演结束时，镜头特写并停格摆姿势的成员。", "今天的ending妖精是谁？"),
+    "퇴근길": ("“下班路”：偶像离开电视台或场馆时，被等候的粉丝迎接、拍照。", "下班路上有跟我们挥手！"),
+    "출근길": ("“上班路”：偶像抵达电视台，常在进场时被拍下穿搭。", "今天的上班路穿搭好好看。"),
+    "막내온탑": ("“忙内on top”：表现得像老大、或比哥哥姊姊们更强的忙内。", "忙内赢了所有哥哥，完全是忙内on top。"),
+    "맏내": ("맏이（老大）＋막내（忙内）：年纪最大却像忙内一样被宠的成员。", "明明是队长，做的事完全像忙内。"),
+    "메보": ("메인보컬（主唱）的缩写。", "果然是主唱，现场超稳。"),
+    "4세대": ("K-pop第四代：大约在2010年代末到2020年代初出道的团体。", "第四代女团中你最喜欢谁？"),
+    "줄세우기": ("“排排站”：同一位歌手的歌同时占据排行榜前面好几名。", "新专辑收录曲在榜上排排站了。"),
+    "올킬": ("“All-kill”：一首歌同时拿下韩国所有主要音乐榜的第一名。", "公开一小时就All-kill了！"),
+    "퍼올": ("Perfect All-kill的缩写：同时拿下韩国主要即时榜、日榜和周榜第一。", "Perfect All-kill维持几个小时了？"),
+    "차트인": ("“Chart-in”：歌曲进入音乐排行榜。", "新歌成功进榜了！"),
+    "음원깡패": ("“音源流氓”：每次发歌都霸榜的歌手。是称赞。", "果然是音源流氓，又是第一。"),
+    "무대천재": ("“舞台天才”：一上台就发光、表情和气场抢走每个镜头的表演者。", "一上台就像变了个人，根本是舞台天才。"),
+    "춤신춤왕": ("“舞神舞王”：跳舞超级厉害的人。", "那个成员真的是舞神舞王。"),
+    "청량": ("清凉——明亮、青春的夏日概念：蓝天、制服、在海边奔跑。", "这次回归是清凉概念！"),
+    "걸크러시": ("“Girl crush”：让其他女生也欣赏的帅气、自信概念或人。", "这次概念完全是Girl crush。"),
+    "하이틴": ("“High teen”：灵感来自美国青春电影的概念——置物柜、啦啦队、毕业舞会、糖果色。", "MV完全像青春校园电影。"),
+    "사녹": ("사전녹화（事前录制）的缩写：音乐节目在直播前、有粉丝在场录好的舞台。", "抽中事前录制，凌晨就出发。"),
+    "팬콘": ("팬 콘서트（粉丝演唱会）的缩写：结合见面会的谈话游戏和演唱会表演的活动。", "这次粉丝演唱会的歌单很棒。"),
+    "포타": ("포스타입（Postype）的缩写：粉丝发布同人文、同人图和付费内容的韩国创作平台。", "我订阅了这位作者的Postype。"),
+    "버블": ("付费订阅App，偶像会传像私讯一样的消息和照片给粉丝。", "凌晨收到泡泡消息，被吵醒了。"),
+    "위버스": ("全球粉丝平台，很多K-pop歌手会在上面发动态、开直播、看粉丝贴文。", "Weverse开直播了！"),
+    "특전": ("特典——在特定店家购买专辑或周边时额外得到的赠品（小卡、海报、贴纸）。", "为了特典在三家店买了。"),
+    "분철": ("分缀——一起买一整套（小卡或专辑）再拆分，让每个粉丝拿到想要的成员。", "有人要一起拆分小卡套组吗？"),
+    "공구": ("공동구매（团购）的缩写：粉丝一起大量购买，常为了折扣或便宜的海外运费。", "和海外粉丝一起团购了专辑。"),
+    "양도": ("让渡——把自己用不到的门票或物品转让给其他粉丝，最好是原价。", "临时有事，要转让门票。"),
+    "취켓팅": ("취소표（退票）＋抢票：抢别人退票后重新发布的票。", "捡退票抢到前排！"),
+    "꿀자리": ("“蜜位”：好位置——视野超好的演唱会座位，或任何舒服方便的地方。", "这次演唱会抽到好位置！"),
+    "시제석": ("시야제한석（视野受限席）的缩写：视线部分被挡的座位，通常比较便宜或最后才开卖。", "就算是视野受限席我也想去。"),
+    "비공굿": ("비공식 굿즈（非官方周边）的缩写：粉丝自制的周边，如贴纸、钥匙圈、手幅。", "这个非官方周边太可爱就买了。"),
+    "나눔": ("“分享”：粉丝在演唱会、咖啡厅或在线免费发送物品（杯套、贴纸、小卡）。", "演唱会前面有人在分享！"),
+    "시즌그리팅": ("“Season's greetings”：年末推出的周边套组，内含年历、手帐、照片等。简称시그。", "今年的年历套组概念好可爱。"),
+    "갓기": ("God＋아기（宝宝）：对超有才华或超可爱的年轻偶像的暱称。", "我们家神宝今天也表现很好！"),
+    "막콘": ("마지막 콘서트（最后一场演唱会）的缩写：一轮演出或巡演的最后一场。", "最后一场，大家都哭了。"),
+    "슬로건": ("手幅：写着偶像名字或应援标语的长毛巾或布条，粉丝在演唱会上举起来。", "说好最后大家一起举手幅。"),
+    "중꺾마": ("중요한 건 꺾이지 않는 마음（重要的是不屈服的心）的缩写。", "虽然输了，但不屈服的心最重要，再来一次！"),
+    "오히려좋아": ("“反而更好”：把坏情况转成正面。", "下雨只能待在家？反而更好。"),
+    "조용한퇴사": ("“安静离职”：只做工作要求的部分，不多做，准时下班。", "最近在安静离职中。"),
+    "억빠": ("억지（硬要）＋빠（粉）：不管怎样都硬要护航，就算对方明显有错。억까的反义。", "这样不是硬护航吗？"),
+    "무지성": ("无知性——不经大脑、纯凭冲动做事。", "无脑买了十张专辑。"),
+    "어쩔티비": ("어쩌라고（那又怎样）＋TV：俏皮又欠揍的“那又怎样”，常用来在无聊争论中呛声。", "“你没写作业吧？”“那又怎样～”"),
+    "저쩔티비": ("回呛어쩔티비的话——把“那又怎样”原封不动丢回去。", "“어쩔티비”“저쩔티비”“안물티비”……"),
+    "킹리적갓심": ("King＋합리적 의심（合理怀疑），把합换成king、의换成god：合理怀疑到极致。", "戴同款手链？这是神级合理怀疑。"),
+    "내돈내산": ("내 돈 주고 내가 산（自己花钱买的）的缩写：真实、非业配的心得。", "是自费心得，可以相信。"),
+    "머선129": ("带方言腔的“怎么回事？”（무슨 일이고），把일이구写成数字129。", "大家突然怎么了？发生什么事？"),
+    "갑툭튀": ("갑자기 툭 튀어나오다（突然冒出来）的缩写。", "突然冒出来的客串吓我一跳。"),
+    "얼빡샷": ("얼굴（脸）＋빡（塞满）＋shot：脸塞满整个画面的自拍。", "本命上传了大脸特写！"),
+    "존예": ("존（粗俗强调词）＋예쁘다（漂亮）：超级漂亮。", "今天的妆超美。"),
+    "존잘": ("존（粗俗强调词）＋잘생기다（帅）：超级帅。也可指超会（잘하다）。", "听说本人更帅。"),
+    "띵곡": ("명곡（名曲）的变形写法——명长得像띵：神曲。", "这次收录曲全是神曲。"),
+    "띵언": ("명언（名言）的变形写法：令人印象深刻、有智能或好笑的话。", "成员在访谈里留下名言。"),
+    "쩐다": ("表示“超赞、超强”的俚语，来自쩔다。也说쩔어。", "这次舞台真的超猛。"),
+    "졸귀": ("졸라（粗俗强调词）＋귀엽다（可爱）：超级可爱。", "这只小狗超可爱。"),
+    "열폭": ("열등감 폭발（自卑感爆发）的缩写：因为自卑或嫉妒而爆气。", "你过得好，他们才嫉妒爆气。"),
+    "멘붕": ("멘탈 붕괴（心态崩溃）的缩写：因震惊或压力完全崩溃。", "抢票失败，崩溃了。"),
+    "지린다": ("字面是“尿出来”——青少年俚语，形容厉害到受不了。", "这个舞台太猛了。"),
+    "가보자고": ("“冲吧！”——做事前的打气口号。", "凌晨抢票？冲吧！"),
+    "점메추": ("점심 메뉴 추천（午餐推荐）的缩写。晚餐版是저메추。", "推荐午餐吧，我选不出来。"),
+    "할많하않": ("할 말은 많지만 하지 않겠다（想说的很多但我不说）的缩写。", "关于这个结局……想说的很多但我不说。"),
+    "쌉가능": ("쌉（粗俗强调词，“完全”）＋가능（可能）：“完全可以”。", "一天看完16集？完全可以。"),
+    "쌉인정": ("쌉（完全）＋인정（认同）：“百分百认同”。", "这句话完全认同。"),
+    "킹정": ("King＋인정（认同）：“超级认同”。", "这张专辑是史上最强，超认同。"),
+    "엄근진": ("엄격・근엄・진지（严格、庄重、认真）的缩写：过度认真。", "开玩笑而已，干嘛这么严肃？"),
+    "많관부": ("많은 관심 부탁드립니다（请多多关注）的缩写。", "新歌请多多关注！"),
+    "관종": ("관심종자（求关注的人）的缩写：渴望被注意的人。", "又那样发文，根本求关注。"),
+    "유리멘탈": ("“玻璃心”：很容易受伤或动摇。反义是강철멘탈（钢铁心）或멘탈갑。", "一则恶评就哭了，我是玻璃心。"),
+    "멘탈갑": ("멘탈＋甲（第一）：心态超级强大的人。", "出错也笑着带过，心态超强。"),
+    "씹덕": ("粗俗、常带嘲讽的说法，指重度御宅（尤其是动漫和游戏宅）。씹是粗俗前缀。", "我是死宅，动画全看过了。"),
+    "너T야": ("“你是T吗？”——调侃别人在你想要安慰时却用逻辑回应（T＝MBTI的思考型）。", "“我今天好忧郁”“为什么？发生什么事？”“……你是T吗？”"),
+    "디토": ("来自英文“ditto”：“我也是、同上”。", "“我今天好累”“我也是”"),
+    "무야호": ("开心的欢呼——“呦呼！”——来自一段经典综艺片段。", "薪水入帐了，呦呼！"),
+    "킹갓제너럴": ("King＋god＋general：叠加称号表示最强中的最强。", "这碗方便面是王中王。"),
+    "쿨거래": ("“爽快交易”：不杀价、快速完成的二手交易。", "感谢爽快交易！"),
+    "당근하다": ("在당근마켓（红萝卜市场）这个热门在地二手App买卖东西。", "把没在用的应援棒拿去红萝卜卖了。"),
+    "꼰대": ("老顽固、说教魔：常是长辈或上司，爱说教、把过时观念强加给年轻人。", "我们组长根本是老顽固。"),
+    "라떼는말이야": ("谐音나 때는 말이야（想当年我……），나 때听起来像latte——嘲讽꼰대式说教。", "又开始“想当年”了。"),
+    "탕진잼": ("荡尽（花光）＋잼（有趣）：把钱花在小东西上的小确幸。", "在大创爽花了一波。"),
+    "영끌": ("영혼까지 끌어모으다（连灵魂都凑上）的缩写：用尽所有钱或力气。", "倾尽所有买了演唱会VIP席。"),
+    "동학개미": ("“东学蚂蚁”：2020年大举涌入韩国股市的散户。", "我也加入了东学蚂蚁的行列。"),
+    "퇴사각": ("퇴사（离职）＋각（“看起来会…”）：快要离职的迹象。", "这周第三次加班，快离职了。"),
+    "병맛": ("병신（侮辱性字眼）＋맛（味道）：故意荒谬、无厘头的搞笑风格。字根有冒犯性。", "这支广告超无厘头，却一直看下去。"),
+    "핵노잼": ("핵（核，超级）＋노잼（无聊）：超级无聊。", "昨天那部电影超级无聊。"),
+    "꿀팁": ("“蜂蜜小撇步”：超实用的技巧或生活妙招。", "教你抢票小撇步。"),
+    "반모": ("반말 모드（半语模式）的缩写：约好不用敬语、改用平语聊天。", "我们要不要改用半语？"),
+    "금사빠": ("금방 사랑에 빠지는 사람（很快就坠入爱河的人）的缩写：超容易动心的人。", "我很容易动心，对我笑一下就沦陷了。"),
+    "ㅇㅈ": ("인정（认同）的初声缩写：“对”“认同”“说得好”。", "ㅇㅈ 这张专辑最棒。"),
+    "ㅇㅋ": ("오케이（OK）的初声缩写。", "ㅇㅋ 7点见。"),
+    "ㄱㅅ": ("감사（谢谢）的初声缩写。", "谢谢分享数据！"),
+    "ㅈㅅ": ("죄송（抱歉）的初声缩写。", "迟到了抱歉！"),
+    "ㅊㅋ": ("축하（恭喜）的初声缩写。", "恭喜拿一位！"),
+    "ㅠㅠ": ("两个ㅠ看起来像流泪的眼睛——难过、感动或情绪满溢。", "演唱会结束了ㅠㅠ"),
+    "ㄱㅇㄷ": ("개이득（大赚）的初声缩写。", "里面多一张小卡 ㄱㅇㄷ"),
+    "씨발": ("韩语最重的脏话之一——类似“干”——用来表达愤怒、挫折或震惊。", "干，又错过公车了。"),
+    "ㅅㅂ": ("씨발／시발的初声缩写——打字时稍微避讳的脏话写法。", "ㅅㅂ 作业今天截止。"),
+    "존나": ("粗俗的强调词——类似“超他妈”——几乎可以放在任何字前面。", "这首歌超他妈好听。"),
+    "ㅈㄴ": ("존나的初声缩写——打字时的强调词。", "ㅈㄴ 好笑 ㅋㅋㅋ"),
+    "지랄": ("粗俗用语，指荒唐的行为或胡说八道——“放屁”“发神经”。", "少发神经。"),
+    "미친": ("“疯了”——可以是骂人（你疯了），现在也常当称赞：“미친 무대”（疯狂的舞台）。", "疯了，这价格是真的吗？"),
+    "젠장": ("“该死”——比较轻微、有点老派的抱怨。", "该死，雨伞忘了带。"),
+    "빡치다": ("超火大、气炸。粗俗但超常用。", "被插队真的气死。"),
+    "시발비용": ("“去他的消费”——因为压力大或生气而冲动花的钱。", "被上司骂，气到叫了炸鸡。"),
+    "염병": ("字面是“瘟疫”（伤寒）——老派、带方言味的咒骂，用于令人火大或荒谬的事。", "真是见鬼，又坏了。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6009,6 +6842,110 @@ JA_TRANSLATIONS = {
     "오살힘": ("「오늘을 살아갈 힘（今日を生きる力）」の略——推しのコンテンツを見て得る心のエネルギーを指すファンダム用語。日常で元気をくれる何かにも使える。", "今日オッパのVライブ見て、生きる力もらった。"),
     "밤티": ("ブサイク、ダサい、古臭いという意味の軽いディス言葉——誰かの見た目やスタイル、デザインを冗談っぽくいじるときに使う。アバターカスタマイズゲームで「밤티」というユーザーがアバターをからかわれたスクショが元ネタでバズった。", "今日のコーデ、ちょっとダサいね。"),
     "주먹자로": ("痩身注射「マンジャロ（韓国語表記마운자로）」の発音をもじった言葉遊び「주먹자로」——2026年初頭に流行った自虐ネタで、注射代が払えないから飢えて「ダイエット」するという意味。誇張したジョークであって、本当の計画ではない。", "今月のカード明細見て、もう食費削ってダイエットすることにした。"),
+    "앨포": ("앨범 포토카드（アルバムトレカ）の略。K-POPアルバムに封入されているランダムのトレカ。", "アルバムトレカ5枚、全部同じメンバーだった。"),
+    "미공포": ("미공개 포토카드（未公開トレカ）の略。特定の店舗やイベントでしかもらえないトレカ。", "このお店の未公開トレカが一番かわいい。"),
+    "엔딩요정": ("「エンディング妖精」。音楽番組のステージの最後に、カメラがアップで捉えてポーズを決めるメンバー。", "今日のエンディング妖精は誰だった？"),
+    "퇴근길": ("「退勤の道」。アイドルが放送局や会場から出るところを、待っていたファンが迎えて撮影すること。", "退勤の時に手を振ってくれた！"),
+    "출근길": ("「出勤の道」。アイドルが放送局に到着するところで、入り時の服装がよく撮影される。", "今日の出勤ファッション、本当にかわいい。"),
+    "막내온탑": ("「マンネオントップ」。年上メンバーより偉そう、または誰よりも優秀な末っ子。", "マンネがお兄さんたち全員に勝った、完全にマンネオントップ。"),
+    "맏내": ("맏이（一番上）＋막내（末っ子）。最年長なのに末っ子のように振る舞うメンバー。", "リーダーなのにやることは完全に末っ子。"),
+    "메보": ("메인보컬（メインボーカル）の略。", "さすがメボ、生歌が全然ぶれない。"),
+    "4세대": ("K-POP第4世代。おおむね2010年代後半から2020年代前半にデビューしたグループ。", "第4世代ガールズグループで推しは誰？"),
+    "줄세우기": ("「並べ」。一組のアーティストの曲がチャート上位を同時に独占すること。", "新譜の収録曲でチャートを独占したって。"),
+    "올킬": ("「オールキル」。一曲が韓国の主要音楽チャートすべてで同時に1位を取ること。", "公開1時間でオールキルした！"),
+    "퍼올": ("「パーフェクトオールキル」の略。韓国の主要リアルタイム・デイリー・ウィークリーチャートで同時1位。", "パーフェクトオールキル何時間目？"),
+    "차트인": ("「チャートイン」。曲が音楽チャートに入ること。", "新曲がチャートイン成功！"),
+    "음원깡패": ("「音源ヤクザ」。出す曲が毎回ストリーミングチャートを席巻するアーティスト。ほめ言葉。", "さすが音源ヤクザ、また1位。"),
+    "무대천재": ("「ステージの天才」。ステージで本領を発揮し、表情と存在感でカメラを奪う人。", "ステージに立つと別人、ステージの天才。"),
+    "춤신춤왕": ("「ダンスの神、ダンスの王」。ダンスがとんでもなく上手い人。", "あのメンバー、本当にダンスの神。"),
+    "청량": ("清涼。明るく若々しい夏のコンセプト。青空、制服、海辺を走るイメージ。", "今回のカムバは清涼コンセプトだって！"),
+    "걸크러시": ("「ガールクラッシュ」。女性が憧れる、強くて自信に満ちたコンセプトや人。", "今回のコンセプト完全にガールクラッシュ。"),
+    "하이틴": ("「ハイティーン」。アメリカの学園映画風コンセプト。ロッカー、チアリーダー、プロム、パステルカラー。", "MVが完全にハイティーン映画みたい。"),
+    "사녹": ("사전녹화（事前収録）の略。生放送前にファンを入れて収録する音楽番組のステージ。", "事前収録に当選したから明け方に出発する。"),
+    "팬콘": ("팬 콘서트（ファンコンサート）の略。ファンミのトークやゲームと、コンサートのステージを合わせた公演。", "今回のファンコンのセトリ良かった。"),
+    "포타": ("포스타입（Postype）の略。ファンがファンフィクやファンアート、有料コンテンツを投稿する韓国の創作プラットフォーム。", "この作家さんのポタを購読した。"),
+    "버블": ("有料購読アプリで、アイドルが個人メッセージ風のメッセージや写真をファンに送る。", "明け方にバブルが来て目が覚めた。"),
+    "위버스": ("グローバルなファンプラットフォーム。多くのK-POPアーティストが近況投稿やライブ配信をし、ファンの投稿を読む。", "Weverseでライブ始まった！"),
+    "특전": ("特典。特定の店でアルバムやグッズを買うともらえるおまけ（トレカ、ポスター、ステッカー）。", "特典のために3か所で買った。"),
+    "분철": ("分綴。セット（トレカやアルバム）を共同で買って分け、各自が推しを受け取ること。", "トレカセットの分け合い、参加する人？"),
+    "공구": ("공동구매（共同購入）の略。割引や海外送料節約のためにファンがまとめて買うこと。", "海外ファンとアルバムの共同購入をした。"),
+    "양도": ("譲渡。使えなくなったチケットやグッズを他のファンに譲ること。定価が理想。", "急用ができたのでチケット譲渡します。"),
+    "취켓팅": ("취소표（キャンセル券）＋チケッティング。他の人のキャンセルで再び出るチケットを狙うこと。", "キャンセル待ちで前の席取れた！"),
+    "꿀자리": ("「ハチミツ席」。神席。視界抜群のコンサート席や、快適で便利な場所。", "今回のコンサート、神席当たった！"),
+    "시제석": ("시야제한석（視界制限席）の略。視界が一部遮られる席で、安かったり最後に販売されたりする。", "視界制限席でも行きたい。"),
+    "비공굿": ("비공식 굿즈（非公式グッズ）の略。ステッカーやキーホルダー、スローガンなどファン手作りのグッズ。", "この非公式グッズかわいすぎて買った。"),
+    "나눔": ("「おすそ分け」。ファンがコンサートやカフェ、オンラインで無料配布すること（カップスリーブ、ステッカー、トレカ）。", "コンサート前で配布するって！"),
+    "시즌그리팅": ("「シーズングリーティング」。来年用のカレンダーや手帳、写真などが入った年末のグッズセット。略して시그。", "今年のシーグリのコンセプトかわいすぎる。"),
+    "갓기": ("God＋아기（赤ちゃん）。とても才能がある、またはかわいい年下アイドルへの愛称。", "うちの神ちゃん、今日もよく頑張った！"),
+    "막콘": ("마지막 콘서트（最後のコンサート）の略。公演期間やツアーの最終公演。", "オーラスだからみんな泣いた。"),
+    "슬로건": ("スローガン。アイドルの名前やメッセージが書かれた横長のタオルや布で、コンサートで掲げる。", "エンディングでみんなでスローガンを掲げることにした。"),
+    "중꺾마": ("중요한 건 꺾이지 않는 마음（大事なのは折れない心）の略。", "負けたけど、折れない心で、もう一回行こう！"),
+    "오히려좋아": ("「むしろ良い」。悪い状況をポジティブに受け止めること。", "雨で家にこもり？むしろ良い。"),
+    "조용한퇴사": ("「静かな退職」。仕事で求められる分だけをこなし、それ以上はしないで定時に帰ること。", "最近、静かな退職中。"),
+    "억빠": ("억지（無理やり）＋빠（ファン）。明らかに間違っていても無理やり擁護すること。억까の反対。", "それはちょっと無理やりな擁護じゃない？"),
+    "무지성": ("無知性。何も考えずに衝動だけで行動すること。", "何も考えずにアルバム10枚買った。"),
+    "어쩔티비": ("어쩌라고（だから何？）＋TV。ふざけた生意気な「だから何？」。くだらない口げんかで使う。", "「宿題やってないでしょ？」「だから何〜」"),
+    "저쩔티비": ("어쩔티비への返し。「だから何？」をそのまま投げ返す。", "「어쩔티비」「저쩔티비」「안물티비」…"),
+    "킹리적갓심": ("King＋합리적 의심（合理的な疑い）の합をking、의をgodに置き換えた言葉。最大級の「合理的な疑い」。", "同じブレスレット？これは超合理的な疑いだね。"),
+    "내돈내산": ("내 돈 주고 내가 산（自分のお金で自分で買った）の略。正直な、案件ではないレビュー。", "自腹レビューだから信用できる。"),
+    "머선129": ("方言風の「何事？」（무슨 일이고）。일이구を数字の129で書いた言葉遊び。", "急にみんなどうしたの？何事？"),
+    "갑툭튀": ("갑자기 툭 튀어나오다（急にポンと飛び出す）の略。", "いきなり出てきたカメオにびっくりした。"),
+    "얼빡샷": ("얼굴（顔）＋빡（ぎっしり）＋ショット。顔が画面いっぱいの自撮り。", "推しの顔面アップ写真が上がった！"),
+    "존예": ("존（下品な強調語）＋예쁘다（きれい）。めちゃくちゃきれい。", "今日のメイク、めっちゃきれい。"),
+    "존잘": ("존（下品な強調語）＋잘생기다（かっこいい）。超イケメン。잘하다（上手い）の意味でも。", "実物の方がもっとイケメンらしい。"),
+    "띵곡": ("명곡（名曲）の変形。명が띵に見えることから。神曲。", "今回の収録曲、全部神曲。"),
+    "띵언": ("명언（名言）の変形。印象的で、ためになる、または笑える言葉。", "メンバーがインタビューで名言を残した。"),
+    "쩐다": ("「すごい、最高」のスラング。쩔다から。쩔어とも。", "今回のステージ、まじでやばい。"),
+    "졸귀": ("졸라（下品な強調語）＋귀엽다（かわいい）。めちゃくちゃかわいい。", "この子犬めっちゃかわいい。"),
+    "열폭": ("열등감 폭발（劣等感爆発）の略。劣等感や嫉妬から攻撃的になること。", "うまくいってるから嫉妬で噛みついてるんだよ。"),
+    "멘붕": ("멘탈 붕괴（メンタル崩壊）の略。ショックやストレスで頭が真っ白になること。", "チケッティングに失敗してメンタル崩壊。"),
+    "지린다": ("直訳は「漏らす」。すごすぎて圧倒されることを表す10代のスラング。", "このステージやばすぎる。"),
+    "가보자고": ("「行こう！」。何かを始める前の気合いの掛け声。", "明け方のチケッティング？行こう！"),
+    "점메추": ("점심 메뉴 추천（昼ごはんのおすすめ）の略。夕食版は저메추。", "昼ごはんのおすすめ教えて、決められない。"),
+    "할많하않": ("할 말은 많지만 하지 않겠다（言いたいことは多いけど言わない）の略。", "今回の結末については…言いたいことは多いけど言わない。"),
+    "쌉가능": ("쌉（下品な強調語、「完全に」）＋가능（可能）。「余裕でできる」。", "1日でドラマ16話？余裕でいける。"),
+    "쌉인정": ("쌉（完全に）＋인정（認める）。「100%同意」。", "それ、完全同意。"),
+    "킹정": ("King＋인정（認める）。「完全同意」。", "今回のアルバムが歴代最高なの、完全同意。"),
+    "엄근진": ("엄격・근엄・진지（厳格・謹厳・真剣）の略。真面目すぎること。", "冗談なのに、なんでそんなに真面目？"),
+    "많관부": ("많은 관심 부탁드립니다（たくさんの関心をお願いします）の略。", "新曲、たくさん聴いてね！"),
+    "관종": ("관심종자（かまってちゃん）の略。注目を浴びたがる人。", "またあんな投稿して、かまってちゃんだね。"),
+    "유리멘탈": ("「ガラスのメンタル」。傷つきやすい、揺らぎやすい。反対は강철멘탈（鋼のメンタル）や멘탈갑。", "悪質コメント1つで泣くなんて、私ガラスのメンタル。"),
+    "멘탈갑": ("멘탈＋甲（最強）。メンタルがとても強い人。", "ミスしても笑って流す、完全にメンタル最強。"),
+    "씹덕": ("重度のオタク（特にアニメ・ゲーム好き）を指す下品でからかう言葉。씹は下品な接頭辞。", "私ガチオタだから、アニメ全部見た。"),
+    "너T야": ("「T なの？」。共感してほしいのに論理で返す人をからかう言葉（T＝MBTIの思考型）。", "「今日落ち込んでる」「なんで？何があったの？」「…Tなの？」"),
+    "디토": ("英語の「ditto」から。「同じく、私も」。", "「今日疲れた」「同じく」"),
+    "무야호": ("喜びの叫び「ヤッホー！」。愛されたバラエティのワンシーンから。", "給料入った、ムヤホ！"),
+    "킹갓제너럴": ("King＋god＋general。称号を重ねて「最強中の最強」と言う。", "このラーメンは最強の中の最強。"),
+    "쿨거래": ("「クール取引」。値切りなしでさっと済む中古取引。", "スムーズな取引ありがとうございました！"),
+    "당근하다": ("人気の地域フリマアプリ당근마켓（にんじんマーケット）で中古品を売り買いすること。", "使ってないペンライトを당근で売った。"),
+    "꼰대": ("古い考えを押しつけて説教する人（年上や上司が多い）。", "うちのチーム長、完全に老害。"),
+    "라떼는말이야": ("나 때는 말이야（俺の時代はな）の나 때をラテにかけたダジャレ。꼰대の説教を茶化す。", "また「ラテはね」が始まった。"),
+    "탕진잼": ("蕩尽（使い果たす）＋잼（楽しさ）。小さなものにお金を使い切る楽しさ。", "ダイソーで散財を楽しんだ。"),
+    "영끌": ("영혼까지 끌어모으다（魂までかき集める）の略。お金や力を最後の一滴まで使うこと。", "全財産かき集めてコンサートのVIP席を買った。"),
+    "동학개미": ("「東学アリ」。2020年に国内株に大量流入した韓国の個人投資家たち。", "私も東学アリの仲間入りした。"),
+    "퇴사각": ("퇴사（退職）＋각（〜しそうな流れ）。もうすぐ辞めそうなサイン。", "今週3回目の残業、退職コースだ。"),
+    "병맛": ("병신（侮辱語）＋맛（味）。わざとシュールでナンセンスな笑い。語源の言葉は差別的。", "このCM、シュールなのにずっと見ちゃう。"),
+    "핵노잼": ("핵（核＝超）＋노잼（つまらない）。超つまらない。", "昨日の映画、超つまらなかった。"),
+    "꿀팁": ("「ハチミツの豆知識」。とても役立つコツ、ライフハック。", "チケッティングの神ワザ教えてあげる。"),
+    "반모": ("반말 모드（タメ口モード）の略。敬語をやめてタメ口で話そうと決めること。", "タメ口にしない？"),
+    "금사빠": ("금방 사랑에 빠지는 사람（すぐ恋に落ちる人）の略。惚れっぽい人。", "惚れっぽいから、笑ってくれただけで好きになる。"),
+    "ㅇㅈ": ("인정（認める）の初声。「それな」「わかる」。", "ㅇㅈ 今回のアルバム最高。"),
+    "ㅇㅋ": ("오케이（オーケー）の初声。", "ㅇㅋ 7時にね。"),
+    "ㄱㅅ": ("감사（ありがとう）の初声。", "資料共有ありがと！"),
+    "ㅈㅅ": ("죄송（すみません）の初声。", "遅れてごめん！"),
+    "ㅊㅋ": ("축하（おめでとう）の初声。", "1位おめでと！"),
+    "ㅠㅠ": ("ㅠを2つ並べると涙を流す目に見える。悲しい、感動した、気持ちがあふれる。", "コンサート終わっちゃったㅠㅠ"),
+    "ㄱㅇㄷ": ("개이득（超お得）の初声。", "トレカが1枚多く入ってた ㄱㅇㄷ"),
+    "씨발": ("韓国語で最も強い罵り言葉の一つ。英語の「f*ck」に近く、怒りや苛立ち、驚きを表す。", "くそっ、またバス逃した。"),
+    "ㅅㅂ": ("씨발／시발の初声。少し伏せた、文字での罵り言葉。", "ㅅㅂ 課題の締め切り今日だった。"),
+    "존나": ("下品な強調語。「クソ〜」「めっちゃ」のように、ほぼ何にでも付く。", "この曲、クソいい。"),
+    "ㅈㄴ": ("존나の初声。文字で書く強調語。", "ㅈㄴ ウケる ㅋㅋㅋ"),
+    "지랄": ("ばかげた言動やたわごとを表す下品な言葉。「ふざけんな」「騒ぎ立てる」。", "ふざけるな。"),
+    "미친": ("「狂った」。悪口（頭おかしい）にも、今はほめ言葉にもよく使う：「미친 무대」（やばいステージ）。", "やば、この値段マジ？"),
+    "젠장": ("「ちくしょう」。軽くて少し古風な悪態。", "ちくしょう、傘忘れた。"),
+    "빡치다": ("めちゃくちゃ腹が立つ、ムカつく。下品だが非常によく使う。", "割り込みされてまじでムカついた。"),
+    "시발비용": ("「クソ出費」。ストレスや怒りで衝動的に使うお金。", "上司に怒られて、腹いせにチキンを頼んだ。"),
+    "염병": ("直訳は「疫病」（腸チフス）。腹立たしいことやばかげたことに使う、古風で方言っぽい悪態。", "くそったれ、また壊れた。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6054,6 +6991,13 @@ REGISTER_LABELS = {
         "zh": "僅限文字——用在聊天和留言，不會唸出來",
         "cn": "仅限文字——用在聊天和评论里，不会念出来",
         "ja": "文字だけ——チャットやコメントで使い、声には出さない",
+    },
+    "vulgar": {
+        "en": "Vulgar — a swear word or crude slang; only with close friends, never with elders, teachers or at work",
+        "es": "Vulgar — una grosería o jerga ruda; solo con amigos muy cercanos, nunca con mayores, profesores ni en el trabajo",
+        "zh": "粗俗——髒話或粗魯的俚語；只在很熟的朋友間用，絕不對長輩、老師或在職場使用",
+        "cn": "粗俗——脏话或粗鲁的俚语；只在很熟的朋友间用，绝不对长辈、老师或在职场使用",
+        "ja": "下品——悪態や乱暴なスラング。ごく親しい友達とだけ。目上の人や先生、職場では絶対に使わない",
     },
 }
 
@@ -22023,6 +22967,2633 @@ DETAILS = {
         "tags": [
             "internet",
             "funny"
+        ]
+    },
+    "앨포": {
+        "nuance": {
+            "en": "앨포 is the basic photocard; store-exclusive extras are 특전 or 미공포. Fans compare pulls and trade to get their bias.",
+            "es": "앨포 es la photocard básica; los extras exclusivos de tiendas son 특전 o 미공포. Los fans comparan lo que les salió e intercambian para conseguir a su bias.",
+            "zh": "앨포是基本款小卡；店家獨家的額外小卡叫특전或미공포。粉絲會比較抽到誰、互相交換本命。",
+            "cn": "앨포是基本款小卡；店家独家的额外小卡叫특전或미공포。粉丝会比较抽到谁、互相交换本命。",
+            "ja": "앨포は基本のトレカで、店舗限定のおまけは특전や미공포と呼ぶ。引いた結果を見せ合い、推しを交換で集める。"
+        },
+        "usage": {
+            "en": "\"앨포 교환 구해요\" (\"Looking to trade album photocards\") is a common trading post.",
+            "es": "\"앨포 교환 구해요\" (\"Busco intercambiar photocards del álbum\") es una publicación común.",
+            "zh": "「앨포 교환 구해요」（徵專輯小卡交換）是常見的交換貼文。",
+            "cn": "“앨포 교환 구해요”（征专辑小卡交换）是常见的交换贴文。",
+            "ja": "「앨포 교환 구해요」（アルバムトレカ交換募集）はよくある取引投稿。"
+        },
+        "register": "casual",
+        "similar": [
+            "포카",
+            "미공포",
+            "특전",
+            "앨범깡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "미공포": {
+        "nuance": {
+            "en": "Each store offers a different set, so fans pick where to buy based on the 미공포 — and collectors buy from several stores.",
+            "es": "Cada tienda ofrece un set distinto, así que los fans eligen dónde comprar según el 미공포, y los coleccionistas compran en varias.",
+            "zh": "每家店的版本都不同，所以粉絲會依미공포選擇在哪買——收藏者會在好幾家店都買。",
+            "cn": "每家店的版本都不同，所以粉丝会依미공포选择在哪买——收藏者会在好几家店都买。",
+            "ja": "店ごとに絵柄が違うので、ファンは미공포で購入先を選ぶ。コレクターは複数の店で買う。"
+        },
+        "usage": {
+            "en": "\"미공포 보고 예판 어디서 할지 정했어\" (\"I picked where to pre-order after seeing the unreleased cards\").",
+            "es": "\"미공포 보고 예판 어디서 할지 정했어\" (\"Elegí dónde hacer la preventa después de ver las photocards inéditas\").",
+            "zh": "「미공포 보고 예판 어디서 할지 정했어」（看了未公開小卡才決定在哪預購）。",
+            "cn": "“미공포 보고 예판 어디서 할지 정했어”（看了未公开小卡才决定在哪预购）。",
+            "ja": "「미공포 보고 예판 어디서 할지 정했어」（未公開トレカを見て予約先を決めた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "앨포",
+            "특전",
+            "예판"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "엔딩요정": {
+        "nuance": {
+            "en": "The few seconds of heavy breathing and a wink or smile are clipped endlessly — some members become famous for them.",
+            "es": "Esos segundos de respiración agitada con un guiño o sonrisa se recortan sin parar; algunos miembros se hacen famosos por ellos.",
+            "zh": "那幾秒喘著氣加上眨眼或微笑會被無限剪輯——有些成員因此出名。",
+            "cn": "那几秒喘着气加上眨眼或微笑会被无限剪辑——有些成员因此出名。",
+            "ja": "息を切らしながらウインクや笑顔を見せる数秒が切り抜かれ続け、それで有名になるメンバーも。"
+        },
+        "usage": {
+            "en": "\"엔딩요정 직캠 무한 반복 중\" (\"Watching the ending-fairy clip on loop\").",
+            "es": "\"엔딩요정 직캠 무한 반복 중\" (\"Viendo en bucle el clip de la hada del final\").",
+            "zh": "「엔딩요정 직캠 무한 반복 중」（ending妖精直拍無限循環中）。",
+            "cn": "“엔딩요정 직캠 무한 반복 중”（ending妖精直拍无限循环中）。",
+            "ja": "「엔딩요정 직캠 무한 반복 중」（エンディング妖精の直カム無限ループ中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "음악방송",
+            "직캠",
+            "심장저격"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "퇴근길": {
+        "nuance": {
+            "en": "Paired with 출근길 (arriving at work). Many agencies now set rules for waiting areas to keep things safe.",
+            "es": "Va en par con 출근길 (la llegada al trabajo). Muchas agencias ahora ponen reglas para las zonas de espera por seguridad.",
+            "zh": "和출근길（上班路）成對。現在很多經紀公司會為了安全規定等候區。",
+            "cn": "和출근길（上班路）成对。现在很多经纪公司会为了安全规定等候区。",
+            "ja": "출근길（出勤の道）と対になる言葉。安全のために待機場所のルールを決める事務所も多い。"
+        },
+        "usage": {
+            "en": "\"퇴근길 사진 떴다\" (\"The leaving-work photos are out\").",
+            "es": "\"퇴근길 사진 떴다\" (\"Salieron las fotos de su salida\").",
+            "zh": "「퇴근길 사진 떴다」（下班路照片出來了）。",
+            "cn": "“퇴근길 사진 떴다”（下班路照片出来了）。",
+            "ja": "「퇴근길 사진 떴다」（退勤ショット出た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "출근길",
+            "공방",
+            "음악방송"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "출근길": {
+        "nuance": {
+            "en": "Music-show arrival photos are a whole genre of fashion content, like 공항패션.",
+            "es": "Las fotos de llegada a los programas musicales son todo un género de contenido de moda, como el 공항패션.",
+            "zh": "音樂節目上班路照片本身就是一種時尚內容，像機場時尚一樣。",
+            "cn": "音乐节目上班路照片本身就是一种时尚内容，像机场时尚一样。",
+            "ja": "音楽番組の出勤写真は、空港ファッションと同じく一つのファッションジャンル。"
+        },
+        "usage": {
+            "en": "\"출근길 직찍 모음\" (\"a roundup of arrival photos\").",
+            "es": "\"출근길 직찍 모음\" (\"recopilación de fotos de llegada\").",
+            "zh": "「출근길 직찍 모음」（上班路現場照合集）。",
+            "cn": "“출근길 직찍 모음”（上班路现场照合集）。",
+            "ja": "「출근길 직찍 모음」（出勤の直撮りまとめ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "퇴근길",
+            "공항패션",
+            "사복패션"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "막내온탑": {
+        "nuance": {
+            "en": "A playful compliment — the joke is the hierarchy flipping in a culture where age usually decides who's in charge.",
+            "es": "Un elogio en broma: la gracia está en que se invierte la jerarquía en una cultura donde normalmente la edad decide quién manda.",
+            "zh": "帶點玩笑的稱讚——笑點在於，在通常以年齡決定地位的文化裡，階級被反轉了。",
+            "cn": "带点玩笑的称赞——笑点在于，在通常以年龄决定地位的文化里，阶级被反转了。",
+            "ja": "冗談まじりのほめ言葉。普通は年齢で上下が決まる文化で、その序列がひっくり返るのが面白さ。"
+        },
+        "usage": {
+            "en": "\"막내온탑 모먼트 모음\" (\"maknae-on-top moments compilation\").",
+            "es": "\"막내온탑 모먼트 모음\" (\"recopilación de momentos maknae on top\").",
+            "zh": "「막내온탑 모먼트 모음」（忙內on top瞬間合集）。",
+            "cn": "“막내온탑 모먼트 모음”（忙内on top瞬间合集）。",
+            "ja": "「막내온탑 모먼트 모음」（マンネオントップな瞬間まとめ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "막내",
+            "맏내"
+        ],
+        "tags": [
+            "kpop-fan",
+            "funny"
+        ]
+    },
+    "맏내": {
+        "nuance": {
+            "en": "The mirror image of 막내온탑 — another playful flip of the age hierarchy.",
+            "es": "Es el reflejo de 막내온탑, otra inversión juguetona de la jerarquía por edad.",
+            "zh": "和막내온탑剛好相反——又一種有趣的年齡階級反轉。",
+            "cn": "和막내온탑刚好相反——又一种有趣的年龄阶级反转。",
+            "ja": "막내온탑の逆バージョン。年齢の上下関係を遊びでひっくり返した言葉。"
+        },
+        "usage": {
+            "en": "\"우리 맏내 또 애교 부린다\" (\"Our oldest-baby is doing aegyo again\").",
+            "es": "\"우리 맏내 또 애교 부린다\" (\"Nuestro mayor-bebé otra vez haciendo aegyo\").",
+            "zh": "「우리 맏내 또 애교 부린다」（我們家老大忙內又在撒嬌了）。",
+            "cn": "“우리 맏내 또 애교 부린다”（我们家老大忙内又在撒娇了）。",
+            "ja": "「우리 맏내 또 애교 부린다」（うちの最年長末っ子がまた愛嬌してる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "막내온탑",
+            "막내",
+            "애교"
+        ],
+        "tags": [
+            "kpop-fan",
+            "funny"
+        ]
+    },
+    "메보": {
+        "nuance": {
+            "en": "Fans shorten every position: 메보, 리보 (lead vocal), 메댄 (main dancer), 메랩 (main rapper).",
+            "es": "Los fans acortan todas las posiciones: 메보, 리보 (líder vocal), 메댄 (bailarín principal), 메랩 (rapero principal).",
+            "zh": "粉絲會把每個位置都縮寫：메보、리보（領唱）、메댄（主舞）、메랩（主Rap）。",
+            "cn": "粉丝会把每个位置都缩写：메보、리보（领唱）、메댄（主舞）、메랩（主Rap）。",
+            "ja": "ファンはポジションを全部略す：메보、리보（リードボーカル）、메댄（メインダンサー）、메랩（メインラッパー）。"
+        },
+        "usage": {
+            "en": "\"메보 고음 파트 언제 나와?\" (\"When's the main vocal's high-note part?\").",
+            "es": "\"메보 고음 파트 언제 나와?\" (\"¿Cuándo llega la nota alta del vocalista principal?\").",
+            "zh": "「메보 고음 파트 언제 나와?」（主唱的高音段落什麼時候出來？）。",
+            "cn": "“메보 고음 파트 언제 나와?”（主唱的高音段落什么时候出来？）。",
+            "ja": "「메보 고음 파트 언제 나와?」（メボの高音パートいつ来る？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "메인보컬",
+            "리드보컬"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "4세대": {
+        "nuance": {
+            "en": "Generation boundaries aren't official and fans argue about them — talk of a 5th generation has started too.",
+            "es": "Los límites entre generaciones no son oficiales y los fans discuten sobre ellos; también ya se habla de una 5.ª generación.",
+            "zh": "世代劃分沒有官方標準，粉絲常為此爭論——也已經開始有人說第五代了。",
+            "cn": "世代划分没有官方标准，粉丝常为此争论——也已经开始有人说第五代了。",
+            "ja": "世代の区切りは公式ではなく、ファンの間でよく議論になる。第5世代という言い方も出てきている。"
+        },
+        "usage": {
+            "en": "\"이 그룹 4세대야 5세대야?\" (\"Is this group 4th gen or 5th gen?\").",
+            "es": "\"이 그룹 4세대야 5세대야?\" (\"¿Este grupo es de 4.ª o 5.ª generación?\").",
+            "zh": "「이 그룹 4세대야 5세대야?」（這團是第四代還是第五代？）。",
+            "cn": "“이 그룹 4세대야 5세대야?”（这团是第四代还是第五代？）。",
+            "ja": "「이 그룹 4세대야 5세대야?」（このグループ、第4世代？第5世代？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "걸그룹",
+            "보이그룹"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "줄세우기": {
+        "nuance": {
+            "en": "A sign of huge popularity — usually after a big comeback.",
+            "es": "Es señal de una popularidad enorme, normalmente tras un gran comeback.",
+            "zh": "超高人氣的象徵——通常發生在大型回歸之後。",
+            "cn": "超高人气的象征——通常发生在大型回归之后。",
+            "ja": "絶大な人気の証で、大型カムバック後によく起こる。"
+        },
+        "usage": {
+            "en": "\"차트 줄세우기 실화냐\" (\"They really took over the whole chart?\").",
+            "es": "\"차트 줄세우기 실화냐\" (\"¿En serio coparon toda la lista?\").",
+            "zh": "「차트 줄세우기 실화냐」（真的在榜上排排站？）。",
+            "cn": "“차트 줄세우기 실화냐”（真的在榜上排排站？）。",
+            "ja": "「차트 줄세우기 실화냐」（チャート独占ってマジ？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "올킬",
+            "음원강자",
+            "차트인"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "올킬": {
+        "nuance": {
+            "en": "The stronger version is 퍼올 (perfect all-kill), which also counts daily and weekly charts.",
+            "es": "La versión más fuerte es 퍼올 (perfect all-kill), que también cuenta las listas diarias y semanales.",
+            "zh": "更強的版本是퍼올（Perfect All-kill），還要加上日榜和週榜。",
+            "cn": "更强的版本是퍼올（Perfect All-kill），还要加上日榜和周榜。",
+            "ja": "さらに上は퍼올（パーフェクトオールキル）で、デイリー・ウィークリーチャートも含む。"
+        },
+        "usage": {
+            "en": "\"올킬 축하해!\" (\"Congrats on the all-kill!\").",
+            "es": "\"올킬 축하해!\" (\"¡Felicidades por el all-kill!\").",
+            "zh": "「올킬 축하해!」（恭喜All-kill！）。",
+            "cn": "“올킬 축하해!”（恭喜All-kill！）。",
+            "ja": "「올킬 축하해!」（オールキルおめでとう！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "퍼올",
+            "줄세우기",
+            "음원강자"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "퍼올": {
+        "nuance": {
+            "en": "Fans count hours spent at PAK as a bragging stat; chart sites track it.",
+            "es": "Los fans cuentan las horas en PAK como motivo de orgullo; hay sitios que lo registran.",
+            "zh": "粉絲會把維持PAK的時數當成炫耀數據，也有網站專門統計。",
+            "cn": "粉丝会把维持PAK的时数当成炫耀数据，也有网站专门统计。",
+            "ja": "ファンはPAKの継続時間を自慢の数字として数え、集計するサイトもある。"
+        },
+        "usage": {
+            "en": "\"퍼올 100시간 돌파!\" (\"Over 100 hours at perfect all-kill!\").",
+            "es": "\"퍼올 100시간 돌파!\" (\"¡Más de 100 horas de perfect all-kill!\").",
+            "zh": "「퍼올 100시간 돌파!」（Perfect All-kill突破100小時！）。",
+            "cn": "“퍼올 100시간 돌파!”（Perfect All-kill突破100小时！）。",
+            "ja": "「퍼올 100시간 돌파!」（パーフェクトオールキル100時間突破！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "올킬",
+            "음원강자"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "차트인": {
+        "nuance": {
+            "en": "For smaller groups just charting is a milestone worth celebrating.",
+            "es": "Para grupos más pequeños, solo entrar en la lista ya es un logro que celebrar.",
+            "zh": "對小團來說，光是進榜就值得慶祝。",
+            "cn": "对小团来说，光是进榜就值得庆祝。",
+            "ja": "小規模グループにとってはチャートインだけでもお祝いすべき節目。"
+        },
+        "usage": {
+            "en": "\"차트인 축하해, 스밍 더 하자!\" (\"Congrats on charting — let's stream more!\").",
+            "es": "\"차트인 축하해, 스밍 더 하자!\" (\"¡Felicidades por entrar a la lista, sigamos con el streaming!\").",
+            "zh": "「차트인 축하해, 스밍 더 하자!」（恭喜進榜，再多刷歌吧！）。",
+            "cn": "“차트인 축하해, 스밍 더 하자!”（恭喜进榜，再多刷歌吧！）。",
+            "ja": "「차트인 축하해, 스밍 더 하자!」（チャートインおめでとう、もっと再生しよう！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스밍",
+            "줄세우기",
+            "역주행"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "음원깡패": {
+        "nuance": {
+            "en": "Stronger and more playful than 음원강자 — 깡패 (\"gangster\") is used admiringly here.",
+            "es": "Más fuerte y juguetón que 음원강자; aquí 깡패 (\"gánster\") se usa con admiración.",
+            "zh": "比음원강자更強烈也更俏皮——這裡的깡패（流氓）是帶著佩服的意思。",
+            "cn": "比음원강자更强烈也更俏皮——这里的깡패（流氓）是带着佩服的意思。",
+            "ja": "음원강자より強くておどけた言い方。ここでの깡패（ヤクザ）は称賛の意味。"
+        },
+        "usage": {
+            "en": "\"발매하자마자 1위, 진짜 음원깡패\" (\"#1 the moment it dropped — a real chart bully\").",
+            "es": "\"발매하자마자 1위, 진짜 음원깡패\" (\"#1 apenas salió, dominador total\").",
+            "zh": "「발매하자마자 1위, 진짜 음원깡패」（一發行就第一，真正的音源流氓）。",
+            "cn": "“발매하자마자 1위, 진짜 음원깡패”（一发行就第一，真正的音源流氓）。",
+            "ja": "「발매하자마자 1위, 진짜 음원깡패」（リリース直後に1位、本物の音源ヤクザ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "음원강자",
+            "올킬",
+            "줄세우기"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "무대천재": {
+        "nuance": {
+            "en": "Often contrasted with a shy or clumsy off-stage personality — classic 반전매력.",
+            "es": "Suele contrastar con una personalidad tímida o torpe fuera del escenario; un clásico 반전매력.",
+            "zh": "常和台下害羞或迷糊的個性形成對比——典型的反差萌。",
+            "cn": "常和台下害羞或迷糊的个性形成对比——典型的反差萌。",
+            "ja": "ステージ外では照れ屋やドジなのと対比されることが多い。典型的なギャップ萌え。"
+        },
+        "usage": {
+            "en": "\"평소엔 허당인데 무대천재\" (\"Clumsy off stage, a genius on it\").",
+            "es": "\"평소엔 허당인데 무대천재\" (\"Torpe en la vida diaria, genio en el escenario\").",
+            "zh": "「평소엔 허당인데 무대천재」（平常迷糊，舞台上是天才）。",
+            "cn": "“평소엔 허당인데 무대천재”（平常迷糊，舞台上是天才）。",
+            "ja": "「평소엔 허당인데 무대천재」（普段は抜けてるのにステージの天才）。"
+        },
+        "register": "casual",
+        "similar": [
+            "무대장악력",
+            "존재감",
+            "반전매력"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage",
+            "praise"
+        ]
+    },
+    "춤신춤왕": {
+        "nuance": {
+            "en": "Playful rhyming praise; works for idols, friends or a kid at a wedding.",
+            "es": "Un elogio juguetón con rima; sirve para idols, amigos o un niño en una boda.",
+            "zh": "有押韻的俏皮稱讚；偶像、朋友或婚禮上的小孩都能用。",
+            "cn": "有押韵的俏皮称赞；偶像、朋友或婚礼上的小孩都能用。",
+            "ja": "韻を踏んだおどけたほめ言葉。アイドルにも友達にも、結婚式の子どもにも使える。"
+        },
+        "usage": {
+            "en": "\"회식에서 춤신춤왕 등극\" (\"crowned dance king at the company dinner\").",
+            "es": "\"회식에서 춤신춤왕 등극\" (\"coronado rey del baile en la cena de la empresa\").",
+            "zh": "「회식에서 춤신춤왕 등극」（在聚餐上登基舞神舞王）。",
+            "cn": "“회식에서 춤신춤왕 등극”（在聚餐上登基舞神舞王）。",
+            "ja": "「회식에서 춤신춤왕 등극」（会社の飲み会でダンスの神に即位）。"
+        },
+        "register": "casual",
+        "similar": [
+            "메인댄서",
+            "칼군무"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise",
+            "funny"
+        ]
+    },
+    "청량": {
+        "nuance": {
+            "en": "A summer staple. 청량돌 is a group known for this image.",
+            "es": "Un clásico del verano. 청량돌 es un grupo conocido por esta imagen.",
+            "zh": "夏天的固定班底。청량돌指以這種形象出名的團體。",
+            "cn": "夏天的固定班底。청량돌指以这种形象出名的团体。",
+            "ja": "夏の定番。청량돌はこのイメージで知られるグループ。"
+        },
+        "usage": {
+            "en": "\"여름엔 역시 청량이지\" (\"Summer calls for a refreshing concept\").",
+            "es": "\"여름엔 역시 청량이지\" (\"En verano, nada como el concepto refrescante\").",
+            "zh": "「여름엔 역시 청량이지」（夏天果然還是要清涼）。",
+            "cn": "“여름엔 역시 청량이지”（夏天果然还是要清凉）。",
+            "ja": "「여름엔 역시 청량이지」（夏はやっぱり清涼でしょ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콘셉트",
+            "걸크러시",
+            "하이틴"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "걸크러시": {
+        "nuance": {
+            "en": "Often shortened to 걸크. Contrasts with cute (큐티) or pure (청순) concepts.",
+            "es": "Se acorta a 걸크. Contrasta con los conceptos tiernos (큐티) o puros (청순).",
+            "zh": "常簡稱걸크。和可愛（큐티）或清純（청순）概念相對。",
+            "cn": "常简称걸크。和可爱（큐티）或清纯（청순）概念相对。",
+            "ja": "걸크と略す。キュート（큐티）や清純（청순）コンセプトと対比される。"
+        },
+        "usage": {
+            "en": "\"걸크 언니들 무대 미쳤다\" (\"The girl-crush unnies' stage was insane\").",
+            "es": "\"걸크 언니들 무대 미쳤다\" (\"La presentación de las unnies girl crush fue brutal\").",
+            "zh": "「걸크 언니들 무대 미쳤다」（Girl crush姊姊們的舞台太狂了）。",
+            "cn": "“걸크 언니들 무대 미쳤다”（Girl crush姊姊们的舞台太狂了）。",
+            "ja": "「걸크 언니들 무대 미쳤다」（ガールクラッシュなお姉さんたちのステージやばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "청량",
+            "콘셉트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "하이틴": {
+        "nuance": {
+            "en": "Also a fashion and photo style, not just for idols.",
+            "es": "También es un estilo de moda y fotos, no solo para idols.",
+            "zh": "也是一種穿搭和拍照風格，不只限於偶像。",
+            "cn": "也是一种穿搭和拍照风格，不只限于偶像。",
+            "ja": "アイドルだけでなく、ファッションや写真のスタイルでもある。"
+        },
+        "usage": {
+            "en": "\"하이틴 감성 사진\" (\"high-teen-vibe photos\").",
+            "es": "\"하이틴 감성 사진\" (\"fotos con vibra high teen\").",
+            "zh": "「하이틴 감성 사진」（High teen感照片）。",
+            "cn": "“하이틴 감성 사진”（High teen感照片）。",
+            "ja": "「하이틴 감성 사진」（ハイティーンな雰囲気の写真）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "청량",
+            "콘셉트",
+            "갬성"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "사녹": {
+        "nuance": {
+            "en": "Pre-recordings often start very early in the morning and fans may see the song performed several times.",
+            "es": "Las pregrabaciones suelen empezar muy temprano y los fans pueden ver la canción varias veces.",
+            "zh": "事前錄影常常一大早就開始，粉絲可能會看到好幾次表演。",
+            "cn": "事前录制常常一大早就开始，粉丝可能会看到好几次表演。",
+            "ja": "事前収録は早朝に始まることが多く、同じ曲を何度も見られることがある。"
+        },
+        "usage": {
+            "en": "\"사녹 몇 시 입장이야?\" (\"What time does pre-recording entry start?\").",
+            "es": "\"사녹 몇 시 입장이야?\" (\"¿A qué hora es la entrada de la pregrabación?\").",
+            "zh": "「사녹 몇 시 입장이야?」（事前錄影幾點入場？）。",
+            "cn": "“사녹 몇 시 입장이야?”（事前录制几点入场？）。",
+            "ja": "「사녹 몇 시 입장이야?」（事前収録は何時入場？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "공방",
+            "음악방송",
+            "리허설"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "팬콘": {
+        "nuance": {
+            "en": "Common for newer groups before a full concert tour, or for anniversaries.",
+            "es": "Es común en grupos nuevos antes de una gira completa, o en aniversarios.",
+            "zh": "常見於還沒開完整巡演的新團，或紀念日活動。",
+            "cn": "常见于还没开完整巡演的新团，或纪念日活动。",
+            "ja": "本格的なツアー前の新人グループや、記念日によく行われる。"
+        },
+        "usage": {
+            "en": "\"첫 팬콘 티켓팅 성공!\" (\"Got tickets to their first fan concert!\").",
+            "es": "\"첫 팬콘 티켓팅 성공!\" (\"¡Conseguí entradas para su primer fan concert!\").",
+            "zh": "「첫 팬콘 티켓팅 성공!」（第一場粉絲演唱會搶票成功！）。",
+            "cn": "“첫 팬콘 티켓팅 성공!”（第一场粉丝演唱会抢票成功！）。",
+            "ja": "「첫 팬콘 티켓팅 성공!」（初ファンコンのチケット取れた！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬미팅",
+            "첫콘",
+            "셋리스트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "포타": {
+        "nuance": {
+            "en": "Fans say \"포타에 올렸어\" (\"posted it on Postype\") the way others say \"on AO3.\"",
+            "es": "Los fans dicen \"포타에 올렸어\" (\"lo subí a Postype\") como otros dicen \"en AO3\".",
+            "zh": "粉絲說「포타에 올렸어」（發在Postype上）就像其他地方說「發在AO3」。",
+            "cn": "粉丝说“포타에 올렸어”（发在Postype上）就像其他地方说“发在AO3”。",
+            "ja": "ファンは「포타에 올렸어」（ポタに上げた）と言う。英語圏のAO3のような感覚。"
+        },
+        "usage": {
+            "en": "\"포타 링크 프로필에 있어요\" (\"My Postype link is in my profile\").",
+            "es": "\"포타 링크 프로필에 있어요\" (\"Mi enlace de Postype está en mi perfil\").",
+            "zh": "「포타 링크 프로필에 있어요」（Postype連結在個人檔案裡）。",
+            "cn": "“포타 링크 프로필에 있어요”（Postype链接在个人文件里）。",
+            "ja": "「포타 링크 프로필에 있어요」（ポタのリンクはプロフにあります）。"
+        },
+        "register": "casual",
+        "similar": [
+            "팬픽",
+            "팬아트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "버블": {
+        "nuance": {
+            "en": "Fans can reply, and the app shows their nickname to the idol — so it feels like a private chat.",
+            "es": "Los fans pueden responder y la app muestra su apodo al idol, así que se siente como un chat privado.",
+            "zh": "粉絲可以回覆，偶像那邊會看到粉絲的暱稱——所以感覺像私人聊天。",
+            "cn": "粉丝可以回复，偶像那边会看到粉丝的暱称——所以感觉像私人聊天。",
+            "ja": "ファンも返信でき、アイドル側にニックネームが表示されるので、個人チャットのように感じられる。"
+        },
+        "usage": {
+            "en": "\"버블 캡처는 공유하지 말아 주세요\" (\"Please don't share Bubble screenshots\") is a common fandom rule.",
+            "es": "\"버블 캡처는 공유하지 말아 주세요\" (\"Por favor no compartan capturas de Bubble\") es una regla común del fandom.",
+            "zh": "「버블 캡처는 공유하지 말아 주세요」（請不要分享泡泡截圖）是常見的粉絲圈規則。",
+            "cn": "“버블 캡처는 공유하지 말아 주세요”（请不要分享泡泡截屏）是常见的粉丝圈规则。",
+            "ja": "「버블 캡처는 공유하지 말아 주세요」（バブルのスクショは共有しないでください）はよくあるファンダムのルール。"
+        },
+        "register": "everyday",
+        "similar": [
+            "소통",
+            "위버스",
+            "라이브방송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "위버스": {
+        "nuance": {
+            "en": "Also used for membership sign-ups, merch shops and concert ticket verification.",
+            "es": "También se usa para membresías, tiendas de merch y verificación de entradas de conciertos.",
+            "zh": "也用來加入會員、買周邊和驗證演唱會門票。",
+            "cn": "也用来加入会员、买周边和验证演唱会门票。",
+            "ja": "会員登録やグッズショップ、コンサートチケットの認証にも使われる。"
+        },
+        "usage": {
+            "en": "\"위버스에 답글 달아 줬어!\" (\"They replied to my comment on Weverse!\").",
+            "es": "\"위버스에 답글 달아 줬어!\" (\"¡Me respondió en Weverse!\").",
+            "zh": "「위버스에 답글 달아 줬어!」（在Weverse回我留言了！）。",
+            "cn": "“위버스에 답글 달아 줬어!”（在Weverse回我留言了！）。",
+            "ja": "「위버스에 답글 달아 줬어!」（Weverseで返信くれた！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "버블",
+            "답글놀이",
+            "라이브방송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "특전": {
+        "nuance": {
+            "en": "The term comes from Japanese (tokuten). Store bonus photocards are often called 미공포.",
+            "es": "El término viene del japonés (tokuten). Las photocards de regalo de tienda suelen llamarse 미공포.",
+            "zh": "這個詞來自日文（特典）。店家特典小卡常叫미공포。",
+            "cn": "这个词来自日文（特典）。店家特典小卡常叫미공포。",
+            "ja": "日本語の「特典」から来た言葉。店舗特典のトレカは미공포とも呼ばれる。"
+        },
+        "usage": {
+            "en": "\"특전 소진 시 종료\" (\"while bonuses last\") appears on almost every pre-order page.",
+            "es": "\"특전 소진 시 종료\" (\"hasta agotar regalos\") aparece en casi todas las páginas de preventa.",
+            "zh": "幾乎每個預購頁面都寫著「특전 소진 시 종료」（特典送完為止）。",
+            "cn": "几乎每个预购页面都写着“특전 소진 시 종료”（特典送完为止）。",
+            "ja": "ほぼすべての予約ページに「특전 소진 시 종료」（特典なくなり次第終了）とある。"
+        },
+        "register": "everyday",
+        "similar": [
+            "미공포",
+            "예판",
+            "럭키드로우"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "분철": {
+        "nuance": {
+            "en": "The word originally means splitting a bound book; fans borrowed it for dividing sets by member.",
+            "es": "Originalmente significa dividir un libro encuadernado; los fans lo tomaron para repartir sets por miembro.",
+            "zh": "原本是指把裝訂好的書拆開；粉絲借用來指按成員拆分套組。",
+            "cn": "原本是指把装订好的书拆开；粉丝借用来指按成员拆分套组。",
+            "ja": "もとは製本された本を分けることを指し、ファンがメンバーごとにセットを分ける意味で使い始めた。"
+        },
+        "usage": {
+            "en": "\"분철 자리 남았어요, 막내만\" (\"One spot left in the split — the youngest only\").",
+            "es": "\"분철 자리 남았어요, 막내만\" (\"Queda un lugar en el reparto: solo el menor\").",
+            "zh": "「분철 자리 남았어요, 막내만」（拆分還剩一個位置，只剩忙內）。",
+            "cn": "“분철 자리 남았어요, 막내만”（拆分还剩一个位置，只剩忙内）。",
+            "ja": "「분철 자리 남았어요, 막내만」（分け合い枠あと1つ、マンネだけ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "공구",
+            "포카거래",
+            "포카"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "공구": {
+        "nuance": {
+            "en": "Common for international fans; organizers handle ordering and shipping.",
+            "es": "Es común entre fans internacionales; los organizadores se encargan del pedido y el envío.",
+            "zh": "海外粉絲很常用；團主負責下單和寄送。",
+            "cn": "海外粉丝很常用；团主负责下单和寄送。",
+            "ja": "海外ファンの間でよく行われ、主催者が注文や発送を担当する。"
+        },
+        "usage": {
+            "en": "\"공구 마감 내일까지!\" (\"Group buy closes tomorrow!\").",
+            "es": "\"공구 마감 내일까지!\" (\"¡La compra grupal cierra mañana!\").",
+            "zh": "「공구 마감 내일까지!」（團購明天截止！）。",
+            "cn": "“공구 마감 내일까지!”（团购明天截止！）。",
+            "ja": "「공구 마감 내일까지!」（共同購入は明日まで！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "분철",
+            "굿즈",
+            "예판"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "양도": {
+        "nuance": {
+            "en": "Fans often add 정가 양도 (\"at face value\") to show they're not scalpers (플미충). Scams are common, so people check carefully.",
+            "es": "Los fans suelen poner 정가 양도 (\"a precio original\") para mostrar que no son revendedores (플미충). Hay muchas estafas, así que se revisa con cuidado.",
+            "zh": "粉絲常寫정가 양도（原價轉讓）表示不是黃牛（플미충）。詐騙很多，所以大家會仔細確認。",
+            "cn": "粉丝常写정가 양도（原价转让）表示不是黄牛（플미충）。诈骗很多，所以大家会仔细确认。",
+            "ja": "転売屋（플미충）ではないと示すため정가 양도（定価譲渡）と書くことが多い。詐欺も多いので慎重に確認する。"
+        },
+        "usage": {
+            "en": "\"정가 양도합니다, 직거래 가능\" (\"Transferring at face value, can meet in person\").",
+            "es": "\"정가 양도합니다, 직거래 가능\" (\"Traspaso a precio original, puedo entregar en persona\").",
+            "zh": "「정가 양도합니다, 직거래 가능」（原價轉讓，可面交）。",
+            "cn": "“정가 양도합니다, 직거래 가능”（原价转让，可面交）。",
+            "ja": "「정가 양도합니다, 직거래 가능」（定価で譲渡します、手渡し可）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "플미충",
+            "티켓팅",
+            "취켓팅"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "취켓팅": {
+        "nuance": {
+            "en": "Fans refresh the booking page for hours, especially right before the cancellation deadline.",
+            "es": "Los fans recargan la página de reservas durante horas, sobre todo justo antes de la fecha límite de cancelación.",
+            "zh": "粉絲會刷新訂票頁面好幾個小時，尤其是退票截止前。",
+            "cn": "粉丝会刷新订票页面好几个小时，尤其是退票截止前。",
+            "ja": "ファンは何時間も予約ページを更新し続ける。特にキャンセル締め切り直前。"
+        },
+        "usage": {
+            "en": "\"취켓팅 성공 꿀팁 공유해요\" (\"Sharing tips for cancellation ticketing\").",
+            "es": "\"취켓팅 성공 꿀팁 공유해요\" (\"Comparto trucos para conseguir entradas canceladas\").",
+            "zh": "「취켓팅 성공 꿀팁 공유해요」（分享撿退票成功秘訣）。",
+            "cn": "“취켓팅 성공 꿀팁 공유해요”（分享捡退票成功秘诀）。",
+            "ja": "「취켓팅 성공 꿀팁 공유해요」（キャンセル待ち成功のコツを共有します）。"
+        },
+        "register": "casual",
+        "similar": [
+            "티켓팅",
+            "피케팅",
+            "광클"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "꿀자리": {
+        "nuance": {
+            "en": "Fans share seat-view photos to help others find the 꿀자리 before ticketing.",
+            "es": "Los fans comparten fotos de la vista para ayudar a otros a encontrar el 꿀자리 antes de comprar.",
+            "zh": "粉絲會分享視角照，幫大家在搶票前找好位置。",
+            "cn": "粉丝会分享视角照，帮大家在抢票前找好位置。",
+            "ja": "ファンはチケッティング前に、神席を見つけられるよう座席からの眺め写真を共有する。"
+        },
+        "usage": {
+            "en": "\"이 구역이 꿀자리래\" (\"They say this section has the best seats\").",
+            "es": "\"이 구역이 꿀자리래\" (\"Dicen que esta zona tiene los mejores asientos\").",
+            "zh": "「이 구역이 꿀자리래」（聽說這區是好位置）。",
+            "cn": "“이 구역이 꿀자리래”（听说这区是好位置）。",
+            "ja": "「이 구역이 꿀자리래」（このブロックが神席らしい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "시제석",
+            "사이드석",
+            "스탠딩석"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "시제석": {
+        "nuance": {
+            "en": "Fans often say a 시제석 still beats watching from home — and sometimes the view is better than expected.",
+            "es": "Los fans suelen decir que un 시제석 es mejor que verlo desde casa, y a veces la vista es mejor de lo esperado.",
+            "zh": "粉絲常說視野受限席還是比在家看好——有時視野比預期好。",
+            "cn": "粉丝常说视野受限席还是比在家看好——有时视野比预期好。",
+            "ja": "視界制限席でも家で見るよりいい、とファンはよく言う。意外と見えることもある。"
+        },
+        "usage": {
+            "en": "\"시제석 오픈했대!\" (\"Limited-view seats just opened!\").",
+            "es": "\"시제석 오픈했대!\" (\"¡Abrieron los asientos de vista limitada!\").",
+            "zh": "「시제석 오픈했대!」（視野受限席開賣了！）。",
+            "cn": "“시제석 오픈했대!”（视野受限席开卖了！）。",
+            "ja": "「시제석 오픈했대!」（視界制限席が開放されたって！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "사이드석",
+            "꿀자리",
+            "티켓팅"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "비공굿": {
+        "nuance": {
+            "en": "Often given away free at events as 나눔 or sold in small runs by fan artists.",
+            "es": "Suele regalarse en eventos como 나눔 o venderse en pequeñas tiradas por artistas fans.",
+            "zh": "常在活動上以나눔（分享）方式免費發送，或由粉絲畫手小量販售。",
+            "cn": "常在活动上以나눔（分享）方式免费发送，或由粉丝画手小量贩售。",
+            "ja": "イベントで나눔（無料配布）されたり、ファン作家が少数販売したりする。"
+        },
+        "usage": {
+            "en": "\"비공굿 나눔 받으러 왔어\" (\"I came to pick up the free fan-made merch\").",
+            "es": "\"비공굿 나눔 받으러 왔어\" (\"Vine a recoger el merch hecho por fans que regalan\").",
+            "zh": "「비공굿 나눔 받으러 왔어」（來領非官方周邊分享的）。",
+            "cn": "“비공굿 나눔 받으러 왔어”（来领非官方周边分享的）。",
+            "ja": "「비공굿 나눔 받으러 왔어」（非公式グッズの配布をもらいに来た）。"
+        },
+        "register": "casual",
+        "similar": [
+            "굿즈",
+            "나눔",
+            "팬아트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "나눔": {
+        "nuance": {
+            "en": "Usually announced on social media with a time, place and a password or condition to pick up.",
+            "es": "Suele anunciarse en redes con hora, lugar y una contraseña o condición para recogerlo.",
+            "zh": "通常會在社群公告時間地點，並附上暗號或領取條件。",
+            "cn": "通常会在社群公告时间地点，并附上暗号或领取条件。",
+            "ja": "たいていSNSで時間・場所と、受け取りの合言葉や条件が告知される。"
+        },
+        "usage": {
+            "en": "\"나눔 받으려면 암호 말해 주세요\" (\"Say the password to get the giveaway\").",
+            "es": "\"나눔 받으려면 암호 말해 주세요\" (\"Di la contraseña para recibir el regalo\").",
+            "zh": "「나눔 받으려면 암호 말해 주세요」（要領分享請說暗號）。",
+            "cn": "“나눔 받으려면 암호 말해 주세요”（要领分享请说暗号）。",
+            "ja": "「나눔 받으려면 암호 말해 주세요」（配布を受け取るには合言葉を言ってください）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "비공굿",
+            "생일카페",
+            "서포트"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "시즌그리팅": {
+        "nuance": {
+            "en": "Pre-orders open around November–December; the photos inside are often fans' favorite of the year.",
+            "es": "Las preventas abren hacia noviembre–diciembre; las fotos de adentro suelen ser las favoritas del año para los fans.",
+            "zh": "大約在11–12月開放預購；裡面的照片常是粉絲當年最愛的。",
+            "cn": "大约在11–12月开放预购；里面的照片常是粉丝当年最爱的。",
+            "ja": "予約は11〜12月ごろ開始。中の写真がその年一番のお気に入りになることも多い。"
+        },
+        "usage": {
+            "en": "\"시그 예판 떴다!\" (\"Season's greetings pre-orders are open!\").",
+            "es": "\"시그 예판 떴다!\" (\"¡Abrió la preventa del season's greetings!\").",
+            "zh": "「시그 예판 떴다!」（年曆套組開放預購了！）。",
+            "cn": "“시그 예판 떴다!”（年历套组开放预购了！）。",
+            "ja": "「시그 예판 떴다!」（シーグリ予約開始！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "굿즈",
+            "예판",
+            "특전"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "갓기": {
+        "nuance": {
+            "en": "Used for the youngest or a rookie; fans call idols 아기 regardless of age, out of affection.",
+            "es": "Se usa con el menor o un novato; los fans llaman 아기 a los idols sin importar la edad, por cariño.",
+            "zh": "用在忙內或新人身上；粉絲出於疼愛，不管幾歲都會叫偶像아기。",
+            "cn": "用在忙内或新人身上；粉丝出于疼爱，不管几岁都会叫偶像아기。",
+            "ja": "末っ子や新人に使う。ファンは愛情から年齢に関係なくアイドルを아기と呼ぶ。"
+        },
+        "usage": {
+            "en": "\"갓기 생일 축하해\" (\"Happy birthday to our talented baby\").",
+            "es": "\"갓기 생일 축하해\" (\"Feliz cumpleaños a nuestro bebé talentoso\").",
+            "zh": "「갓기 생일 축하해」（神寶生日快樂）。",
+            "cn": "“갓기 생일 축하해”（神宝生日快乐）。",
+            "ja": "「갓기 생일 축하해」（神ちゃん誕生日おめでとう）。"
+        },
+        "register": "casual",
+        "similar": [
+            "막내",
+            "막내온탑"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "막콘": {
+        "nuance": {
+            "en": "The opposite of 첫콘. Last shows often have special surprises and emotional speeches.",
+            "es": "Lo contrario de 첫콘. Los últimos conciertos suelen tener sorpresas especiales y discursos emotivos.",
+            "zh": "和첫콘相反。最後一場常有特別驚喜和感人的發言。",
+            "cn": "和첫콘相反。最后一场常有特别惊喜和感人的发言。",
+            "ja": "첫콘の反対。最終公演には特別なサプライズや感動的なMCがあることが多い。"
+        },
+        "usage": {
+            "en": "\"막콘 앵콜 때 서프라이즈 준비했대\" (\"They prepared a surprise for the last-show encore\").",
+            "es": "\"막콘 앵콜 때 서프라이즈 준비했대\" (\"Prepararon una sorpresa para el encore del último concierto\").",
+            "zh": "「막콘 앵콜 때 서프라이즈 준비했대」（聽說最後一場安可有準備驚喜）。",
+            "cn": "“막콘 앵콜 때 서프라이즈 준비했대”（听说最后一场安可有准备惊喜）。",
+            "ja": "「막콘 앵콜 때 서프라이즈 준비했대」（オーラスのアンコールでサプライズを準備したらしい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "첫콘",
+            "콘서트직관",
+            "다회차"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "슬로건": {
+        "nuance": {
+            "en": "Fandoms sometimes organize a 슬로건 이벤트 — everyone raising the same message at a set moment as a surprise.",
+            "es": "Los fandoms a veces organizan un 슬로건 이벤트: todos levantan el mismo mensaje en un momento acordado como sorpresa.",
+            "zh": "粉絲圈有時會辦「슬로건 이벤트」——在約定時刻大家一起舉起同樣的標語當驚喜。",
+            "cn": "粉丝圈有时会办“슬로건 이벤트”——在约定时刻大家一起举起同样的标语当惊喜。",
+            "ja": "ファンダムは슬로건 이벤트を企画することも。決めたタイミングで全員同じメッセージを掲げるサプライズ。"
+        },
+        "usage": {
+            "en": "\"슬로건 이벤트 공지 확인하세요\" (\"Check the notice for the slogan event\").",
+            "es": "\"슬로건 이벤트 공지 확인하세요\" (\"Revisen el aviso del evento de slogans\").",
+            "zh": "「슬로건 이벤트 공지 확인하세요」（請確認手幅應援活動公告）。",
+            "cn": "“슬로건 이벤트 공지 확인하세요”（请确认手幅应援活动公告）。",
+            "ja": "「슬로건 이벤트 공지 확인하세요」（スローガンイベントの告知を確認してください）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "응원문구",
+            "응원봉",
+            "나눔"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "중꺾마": {
+        "nuance": {
+            "en": "It spread in 2022 from an esports interview and then Korea's World Cup run — now a go-to line for any underdog.",
+            "es": "Se difundió en 2022 a partir de una entrevista de esports y luego con la participación de Corea en el Mundial; hoy es la frase típica de cualquier underdog.",
+            "zh": "2022年從一段電競訪談開始流行，再隨韓國隊的世界盃之旅擴散——現在是所有弱者逆襲的代表台詞。",
+            "cn": "2022年从一段电竞访谈开始流行，再随韩国队的世界杯之旅扩散——现在是所有弱者逆袭的代表台词。",
+            "ja": "2022年、eスポーツのインタビューから広まり、韓国代表のW杯での戦いで一気に定着。今では逆境の定番フレーズ。"
+        },
+        "usage": {
+            "en": "Fans use it before exams, chart battles or ticketing: \"티켓팅 망해도 중꺾마\" (\"Even if ticketing fails — never give up\").",
+            "es": "Los fans lo usan antes de exámenes, batallas en listas o ticketing: \"티켓팅 망해도 중꺾마\" (\"Aunque falle el ticketing, no me rindo\").",
+            "zh": "粉絲會在考試、打榜或搶票前用：「티켓팅 망해도 중꺾마」（就算搶票失敗也不放棄）。",
+            "cn": "粉丝会在考试、打榜或抢票前用：“티켓팅 망해도 중꺾마”（就算抢票失败也不放弃）。",
+            "ja": "試験や打榜、チケッティング前に：「티켓팅 망해도 중꺾마」（チケット取れなくても折れない心）。"
+        },
+        "register": "casual",
+        "similar": [
+            "존버",
+            "가보자고"
+        ],
+        "tags": [
+            "internet",
+            "praise"
+        ]
+    },
+    "오히려좋아": {
+        "nuance": {
+            "en": "A cheerful coping phrase, often said with a shrug — so common it's close to everyday speech now.",
+            "es": "Una frase alegre para sobrellevar las cosas, dicha con un encogimiento de hombros; tan común que ya es casi lenguaje cotidiano.",
+            "zh": "開朗的自我調適說法，常帶著聳肩的感覺——普遍到幾乎成了日常用語。",
+            "cn": "开朗的自我调适说法，常带着耸肩的感觉——普遍到几乎成了日常用语。",
+            "ja": "肩をすくめて言う前向きな言葉。今ではほぼ日常語になっている。"
+        },
+        "usage": {
+            "en": "\"콘서트 시제석이야? 오히려 좋아, 무대 옆이잖아\" (\"Limited-view seat? Even better — it's right by the stage\").",
+            "es": "\"콘서트 시제석이야? 오히려 좋아, 무대 옆이잖아\" (\"¿Asiento de vista limitada? Mejor, está junto al escenario\").",
+            "zh": "「콘서트 시제석이야? 오히려 좋아, 무대 옆이잖아」（視野受限席？反而更好，就在舞台旁邊）。",
+            "cn": "“콘서트 시제석이야? 오히려 좋아, 무대 옆이잖아”（视野受限席？反而更好，就在舞台旁边）。",
+            "ja": "「콘서트 시제석이야? 오히려 좋아, 무대 옆이잖아」（視界制限席？むしろ良い、ステージの横だし）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정신승리",
+            "럭키비키"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "조용한퇴사": {
+        "nuance": {
+            "en": "A translation of the English \"quiet quitting\" trend; you don't actually quit.",
+            "es": "Traducción de la tendencia en inglés \"quiet quitting\"; en realidad no renuncias.",
+            "zh": "翻譯自英文「quiet quitting」潮流；其實並沒有真的辭職。",
+            "cn": "翻译自英文“quiet quitting”潮流；其实并没有真的辞职。",
+            "ja": "英語の「quiet quitting」の訳語。実際に辞めるわけではない。"
+        },
+        "usage": {
+            "en": "\"칼퇴는 기본, 조용한 퇴사 모드\" (\"Leaving on time is a given — quiet-quitting mode\").",
+            "es": "\"칼퇴는 기본, 조용한 퇴사 모드\" (\"Salir a la hora es lo básico: modo renuncia silenciosa\").",
+            "zh": "「칼퇴는 기본, 조용한 퇴사 모드」（準時下班是基本，安靜離職模式）。",
+            "cn": "“칼퇴는 기본, 조용한 퇴사 모드”（准时下班是基本，安静离职模式）。",
+            "ja": "「칼퇴는 기본, 조용한 퇴사 모드」（定時退勤は基本、静かな退職モード）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "칼퇴",
+            "사축",
+            "퇴사각"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "억빠": {
+        "nuance": {
+            "en": "Usually an accusation in fan arguments.",
+            "es": "Suele ser una acusación en las discusiones entre fans.",
+            "zh": "通常是粉絲吵架時的指控。",
+            "cn": "通常是粉丝吵架时的指控。",
+            "ja": "ファン同士の言い争いで相手を責める言葉として使うことが多い。"
+        },
+        "usage": {
+            "en": "\"억까도 억빠도 하지 말자\" (\"No forced hate, no forced defending\").",
+            "es": "\"억까도 억빠도 하지 말자\" (\"Ni odio forzado ni defensa forzada\").",
+            "zh": "「억까도 억빠도 하지 말자」（不要硬黑也不要硬護）。",
+            "cn": "“억까도 억빠도 하지 말자”（不要硬黑也不要硬护）。",
+            "ja": "「억까도 억빠도 하지 말자」（無理なアンチも無理な擁護もやめよう）。"
+        },
+        "register": "casual",
+        "similar": [
+            "억까",
+            "무지성"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "무지성": {
+        "nuance": {
+            "en": "Can be self-mocking (\"무지성 구매\" — impulse buy) or an insult for thoughtless arguments.",
+            "es": "Puede ser autoburla (\"무지성 구매\": compra impulsiva) o un insulto para argumentos sin sentido.",
+            "zh": "可以自嘲（「무지성 구매」：無腦購買），也可以罵別人的論點沒腦。",
+            "cn": "可以自嘲（“무지성 구매”：无脑购买），也可以骂别人的论点没脑。",
+            "ja": "自虐（「무지성 구매」：衝動買い）にも、考えなしの主張への悪口にも使う。"
+        },
+        "usage": {
+            "en": "\"무지성 스밍 가자\" (\"Let's mindlessly stream on repeat\").",
+            "es": "\"무지성 스밍 가자\" (\"A hacer streaming sin pensar\").",
+            "zh": "「무지성 스밍 가자」（無腦刷歌走起）。",
+            "cn": "“무지성 스밍 가자”（无脑刷歌走起）。",
+            "ja": "「무지성 스밍 가자」（何も考えずに再生しまくろう）。"
+        },
+        "register": "casual",
+        "similar": [
+            "억빠",
+            "탕진잼"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "어쩔티비": {
+        "nuance": {
+            "en": "Big with kids and teens; the comeback is 저쩔티비, and it can keep escalating (어쩔냉장고…).",
+            "es": "Muy popular entre niños y adolescentes; la respuesta es 저쩔티비, y puede escalar (어쩔냉장고…).",
+            "zh": "在小孩和青少年間超紅；回嗆用저쩔티비，還能一直升級（어쩔냉장고……）。",
+            "cn": "在小孩和青少年间超红；回呛用저쩔티비，还能一直升级（어쩔냉장고……）。",
+            "ja": "子どもや10代に大人気。返しは저쩔티비で、どんどんエスカレートする（어쩔냉장고…）。"
+        },
+        "usage": {
+            "en": "Teasing only — it sounds rude if said seriously.",
+            "es": "Solo para bromear; suena grosero si se dice en serio.",
+            "zh": "只能開玩笑用——認真說會很沒禮貌。",
+            "cn": "只能开玩笑用——认真说会很没礼貌。",
+            "ja": "からかい専用。本気で言うと失礼に聞こえる。"
+        },
+        "register": "casual",
+        "similar": [
+            "저쩔티비",
+            "안물안궁"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "저쩔티비": {
+        "nuance": {
+            "en": "Part of an endless word-chain game of comebacks.",
+            "es": "Parte de un juego interminable de respuestas encadenadas.",
+            "zh": "是一種沒完沒了的接話嗆聲遊戲。",
+            "cn": "是一种没完没了的接话呛声游戏。",
+            "ja": "終わらない言い返し合戦の一部。"
+        },
+        "usage": {
+            "en": "Mostly heard among kids, or adults imitating them for laughs.",
+            "es": "Se oye sobre todo entre niños, o adultos que los imitan para reír.",
+            "zh": "多半在小孩之間，或大人模仿來搞笑。",
+            "cn": "多半在小孩之间，或大人模仿来搞笑。",
+            "ja": "主に子ども同士か、笑いのために真似する大人が使う。"
+        },
+        "register": "casual",
+        "similar": [
+            "어쩔티비",
+            "안물안궁"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "킹리적갓심": {
+        "nuance": {
+            "en": "Used half-jokingly for fan theories and dating speculation.",
+            "es": "Se usa medio en broma para teorías de fans y especulación sobre romances.",
+            "zh": "半開玩笑地用在粉絲推理和戀愛猜測上。",
+            "cn": "半开玩笑地用在粉丝推理和恋爱猜测上。",
+            "ja": "ファンの考察や熱愛の推測に、半分冗談で使う。"
+        },
+        "usage": {
+            "en": "\"킹리적갓심으로 다음 컴백 여름이다\" (\"Totally reasonable suspicion: next comeback is summer\").",
+            "es": "\"킹리적갓심으로 다음 컴백 여름이다\" (\"Sospecha razonable: el próximo comeback es en verano\").",
+            "zh": "「킹리적갓심으로 다음 컴백 여름이다」（神級合理懷疑：下次回歸是夏天）。",
+            "cn": "“킹리적갓심으로 다음 컴백 여름이다”（神级合理怀疑：下次回归是夏天）。",
+            "ja": "「킹리적갓심으로 다음 컴백 여름이다」（超合理的な疑い：次のカムバは夏）。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡밥",
+            "킹정"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "내돈내산": {
+        "nuance": {
+            "en": "Became important after the 뒷광고 (hidden ad) scandals — creators label posts 내돈내산 to show honesty.",
+            "es": "Ganó importancia tras los escándalos de 뒷광고 (publicidad oculta); los creadores lo usan para mostrar honestidad.",
+            "zh": "在뒷광고（未標示業配）爭議後變得重要——創作者會標註내돈내산表示誠實。",
+            "cn": "在뒷광고（未标示业配）争议后变得重要——创作者会标注내돈내산表示诚实。",
+            "ja": "뒷광고（ステマ）騒動の後に重要になり、正直さを示すために投稿に内돈내산と付ける。"
+        },
+        "usage": {
+            "en": "\"#내돈내산 화장품 리뷰\" (\"#selfpaid makeup review\").",
+            "es": "\"#내돈내산 화장품 리뷰\" (\"#pagadopormí reseña de maquillaje\").",
+            "zh": "「#내돈내산 화장품 리뷰」（#自費 化妝品心得）。",
+            "cn": "“#내돈내산 화장품 리뷰”（#自费 化妆品心得）。",
+            "ja": "「#내돈내산 화장품 리뷰」（#自腹 コスメレビュー）。"
+        },
+        "register": "casual",
+        "similar": [
+            "뒷광고",
+            "광고모델"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "머선129": {
+        "nuance": {
+            "en": "Popularized by a TV personality's Gyeongsang-dialect delivery; 1-2-9 read as 일-이-구.",
+            "es": "Lo popularizó una figura de la TV con acento del dialecto de Gyeongsang; 1-2-9 se lee 일-이-구.",
+            "zh": "因一位電視名人的慶尚道方言語氣而流行；1-2-9唸作일-이-구。",
+            "cn": "因一位电视名人的庆尚道方言语气而流行；1-2-9念作일-이-구。",
+            "ja": "あるタレントの慶尚道方言の言い方から広まった。1-2-9を일-이-구と読む。"
+        },
+        "usage": {
+            "en": "A light, funny way to react to sudden chaos.",
+            "es": "Una forma ligera y graciosa de reaccionar ante un caos repentino.",
+            "zh": "用來對突發混亂做出輕鬆好笑的反應。",
+            "cn": "用来对突发混乱做出轻松好笑的反应。",
+            "ja": "突然のカオスに軽くおもしろく反応する言い方。"
+        },
+        "register": "casual",
+        "similar": [
+            "실화냐",
+            "헐"
+        ],
+        "tags": [
+            "chat",
+            "reaction",
+            "funny"
+        ]
+    },
+    "갑툭튀": {
+        "nuance": {
+            "en": "For surprise appearances, jump scares or random people joining a chat.",
+            "es": "Para apariciones sorpresa, sustos repentinos o gente que entra de golpe en un chat.",
+            "zh": "用在驚喜登場、突然的驚嚇，或有人突然插進聊天。",
+            "cn": "用在惊喜登场、突然的惊吓，或有人突然插进聊天。",
+            "ja": "サプライズ登場や、ジャンプスケア、急に会話に入ってくる人に使う。"
+        },
+        "usage": {
+            "en": "\"갑툭튀 죄송한데요…\" (\"Sorry for popping in out of nowhere, but…\") is a polite way to join a thread.",
+            "es": "\"갑툭튀 죄송한데요…\" (\"Perdón por aparecer de la nada, pero…\") es una forma educada de entrar en un hilo.",
+            "zh": "「갑툭튀 죄송한데요…」（抱歉突然冒出來……）是禮貌插話的方式。",
+            "cn": "“갑툭튀 죄송한데요…”（抱歉突然冒出来……）是礼貌插话的方式。",
+            "ja": "「갑툭튀 죄송한데요…」（突然すみませんが…）はスレッドに入る丁寧な言い方。"
+        },
+        "register": "casual",
+        "similar": [
+            "카메오",
+            "헐"
+        ],
+        "tags": [
+            "chat",
+            "surprise"
+        ]
+    },
+    "얼빡샷": {
+        "nuance": {
+            "en": "Fans love them because you can see every detail; also a fun phone-camera trend.",
+            "es": "A los fans les encantan porque se ve cada detalle; también es una tendencia divertida de cámara.",
+            "zh": "粉絲很愛，因為每個細節都看得到；也是很好玩的手機拍照潮流。",
+            "cn": "粉丝很爱，因为每个细节都看得到；也是很好玩的手机拍照潮流。",
+            "ja": "細部まで見えるのでファンに大人気。スマホカメラの遊びとしても流行。"
+        },
+        "usage": {
+            "en": "\"화질 좋은 얼빡샷 감사합니다\" (\"Thank you for the high-res close-up\").",
+            "es": "\"화질 좋은 얼빡샷 감사합니다\" (\"Gracias por el primer plano en alta resolución\").",
+            "zh": "「화질 좋은 얼빡샷 감사합니다」（感謝高畫質大臉特寫）。",
+            "cn": "“화질 좋은 얼빡샷 감사합니다”（感谢高清大脸特写）。",
+            "ja": "「화질 좋은 얼빡샷 감사합니다」（高画質の顔アップありがとうございます）。"
+        },
+        "register": "casual",
+        "similar": [
+            "셀카",
+            "인생샷"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "존예": {
+        "nuance": {
+            "en": "Very common praise, but the 존 root is crude — fine with friends, not in formal settings.",
+            "es": "Elogio muy común, pero la raíz 존 es vulgar: bien entre amigos, no en contextos formales.",
+            "zh": "很常見的稱讚，但존的字根粗俗——朋友間可以，正式場合不行。",
+            "cn": "很常见的称赞，但존的字根粗俗——朋友间可以，正式场合不行。",
+            "ja": "よく使うほめ言葉だが、존は下品な語源。友達同士ならOK、改まった場ではNG。"
+        },
+        "usage": {
+            "en": "\"존예 존잘 다 모였네\" (\"All the gorgeous people are here\").",
+            "es": "\"존예 존잘 다 모였네\" (\"Se juntaron todas las bellezas\").",
+            "zh": "「존예 존잘 다 모였네」（美女帥哥全到齊了）。",
+            "cn": "“존예 존잘 다 모였네”（美女帅哥全到齐了）。",
+            "ja": "「존예 존잘 다 모였네」（美女とイケメンが勢ぞろい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "존잘",
+            "존나",
+            "얼굴천재"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "존잘": {
+        "nuance": {
+            "en": "Same crude 존 as 존예 and 존나 — keep it casual.",
+            "es": "El mismo 존 vulgar que en 존예 y 존나: úsalo solo en contextos casuales.",
+            "zh": "和존예、존나一樣的粗俗존——只在輕鬆場合用。",
+            "cn": "和존예、존나一样的粗俗존——只在轻松场合用。",
+            "ja": "존예や존나と同じ下品な존。カジュアルな場だけで。"
+        },
+        "usage": {
+            "en": "\"그림 존잘님\" (\"an amazing artist\") — fans call skilled creators 존잘님.",
+            "es": "\"그림 존잘님\" (\"un artista increíble\"): los fans llaman 존잘님 a los creadores talentosos.",
+            "zh": "「그림 존잘님」（超會畫的大大）——粉絲會叫厲害的創作者존잘님。",
+            "cn": "“그림 존잘님”（超会画的大大）——粉丝会叫厉害的创作者존잘님。",
+            "ja": "「그림 존잘님」（絵がめちゃうまい人）。ファンは上手なクリエイターを존잘님と呼ぶ。"
+        },
+        "register": "casual",
+        "similar": [
+            "존예",
+            "존나",
+            "훈남"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "띵곡": {
+        "nuance": {
+            "en": "Part of the 야민정음 family, like 띵작 (masterpiece) and 띵언 (great quote).",
+            "es": "Es de la familia 야민정음, como 띵작 (obra maestra) y 띵언 (gran frase).",
+            "zh": "屬於야민정음家族，像띵작（神作）、띵언（名言）。",
+            "cn": "属于야민정음家族，像띵작（神作）、띵언（名言）。",
+            "ja": "야민정음の仲間。띵작（名作）、띵언（名言）など。"
+        },
+        "usage": {
+            "en": "\"띵곡 추천해 줘\" (\"Recommend me some bangers\").",
+            "es": "\"띵곡 추천해 줘\" (\"Recomiéndame temazos\").",
+            "zh": "「띵곡 추천해 줘」（推薦神曲給我）。",
+            "cn": "“띵곡 추천해 줘”（推荐神曲给我）。",
+            "ja": "「띵곡 추천해 줘」（神曲教えて）。"
+        },
+        "register": "casual",
+        "similar": [
+            "띵언",
+            "갓띵작",
+            "야민정음"
+        ],
+        "tags": [
+            "praise",
+            "kpop-fan"
+        ]
+    },
+    "띵언": {
+        "nuance": {
+            "en": "Fans collect an idol's 띵언 and turn them into fan art or phone wallpapers.",
+            "es": "Los fans juntan los 띵언 de un idol y los convierten en fan art o fondos de pantalla.",
+            "zh": "粉絲會收集偶像的名言，做成飯繪或手機桌布。",
+            "cn": "粉丝会收集偶像的名言，做成饭绘或手机壁纸。",
+            "ja": "ファンはアイドルの名言を集めて、ファンアートや待ち受けにする。"
+        },
+        "usage": {
+            "en": "\"오늘의 띵언 저장\" (\"Saving today's great quote\").",
+            "es": "\"오늘의 띵언 저장\" (\"Guardando la gran frase de hoy\").",
+            "zh": "「오늘의 띵언 저장」（存下今日名言）。",
+            "cn": "“오늘의 띵언 저장”（存下今日名言）。",
+            "ja": "「오늘의 띵언 저장」（今日の名言、保存）。"
+        },
+        "register": "casual",
+        "similar": [
+            "띵곡",
+            "명대사",
+            "야민정음"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "쩐다": {
+        "nuance": {
+            "en": "A long-running slang word — a bit dated but everyone understands it.",
+            "es": "Una jerga de larga data: algo anticuada, pero todos la entienden.",
+            "zh": "用了很久的俚語——有點過時但大家都懂。",
+            "cn": "用了很久的俚语——有点过时但大家都懂。",
+            "ja": "昔からあるスラング。少し古いが誰でも分かる。"
+        },
+        "usage": {
+            "en": "\"고음 쩐다\" (\"That high note is insane\").",
+            "es": "\"고음 쩐다\" (\"Esa nota alta es increíble\").",
+            "zh": "「고음 쩐다」（高音超猛）。",
+            "cn": "“고음 쩐다”（高音超猛）。",
+            "ja": "「고음 쩐다」（高音やばい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "미쳤다",
+            "오지다",
+            "지린다"
+        ],
+        "tags": [
+            "praise",
+            "reaction"
+        ]
+    },
+    "졸귀": {
+        "nuance": {
+            "en": "Casual and a little crude — 졸라 is a softer cousin of 존나.",
+            "es": "Casual y algo vulgar: 졸라 es un primo más suave de 존나.",
+            "zh": "口語又帶點粗俗——졸라是존나比較軟的版本。",
+            "cn": "口语又带点粗俗——졸라是존나比较软的版本。",
+            "ja": "くだけていて少し下品。졸라は존나のやわらかい版。"
+        },
+        "usage": {
+            "en": "\"졸귀탱\" is an even cuter version.",
+            "es": "\"졸귀탱\" es una versión aún más tierna.",
+            "zh": "「졸귀탱」是更可愛的版本。",
+            "cn": "“졸귀탱”是更可爱的版本。",
+            "ja": "「졸귀탱」はさらにかわいい言い方。"
+        },
+        "register": "casual",
+        "similar": [
+            "커엽다",
+            "세젤귀",
+            "존예"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "열폭": {
+        "nuance": {
+            "en": "Used to dismiss haters' comments as jealousy.",
+            "es": "Se usa para descartar comentarios de haters como envidia.",
+            "zh": "用來說酸民的留言只是嫉妒。",
+            "cn": "用来说酸民的留言只是嫉妒。",
+            "ja": "アンチのコメントを嫉妬だと片付ける時に使う。"
+        },
+        "usage": {
+            "en": "\"악플은 그냥 열폭이야\" (\"Hate comments are just jealousy\").",
+            "es": "\"악플은 그냥 열폭이야\" (\"Los comentarios de odio son pura envidia\").",
+            "zh": "「악플은 그냥 열폭이야」（惡評就只是嫉妒爆氣）。",
+            "cn": "“악플은 그냥 열폭이야”（恶评就只是嫉妒爆气）。",
+            "ja": "「악플은 그냥 열폭이야」（悪質コメントはただの嫉妬）。"
+        },
+        "register": "casual",
+        "similar": [
+            "억까",
+            "관종"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "멘붕": {
+        "nuance": {
+            "en": "Very common and mild — used for everyday shocks, not serious distress.",
+            "es": "Muy común y suave; se usa para sustos cotidianos, no para angustia seria.",
+            "zh": "很常見也很輕微——用在日常小震驚，不是嚴重的痛苦。",
+            "cn": "很常见也很轻微——用在日常小震惊，不是严重的痛苦。",
+            "ja": "とてもよく使う軽い言葉。日常のショックに使い、深刻な状態には使わない。"
+        },
+        "usage": {
+            "en": "\"과제 파일 날아가서 멘붕\" (\"My assignment file got deleted — total meltdown\").",
+            "es": "\"과제 파일 날아가서 멘붕\" (\"Se me borró el archivo de la tarea, colapso total\").",
+            "zh": "「과제 파일 날아가서 멘붕」（作業檔案不見了，崩潰）。",
+            "cn": "“과제 파일 날아가서 멘붕”（作业文件不见了，崩溃）。",
+            "ja": "「과제 파일 날아가서 멘붕」（課題のファイルが消えてメンタル崩壊）。"
+        },
+        "register": "casual",
+        "similar": [
+            "유리멘탈",
+            "정줄놓",
+            "현타"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "지린다": {
+        "nuance": {
+            "en": "Part of 급식체 (with 오지다); a bit crude, often used jokingly by adults.",
+            "es": "Parte del 급식체 (con 오지다); algo vulgar, los adultos lo usan en broma.",
+            "zh": "屬於급식체（和오지다一樣）；有點粗俗，大人常開玩笑用。",
+            "cn": "属于급식체（和오지다一样）；有点粗俗，大人常开玩笑用。",
+            "ja": "급식체の一つ（오지다と同じ）。少し下品で、大人は冗談で使う。"
+        },
+        "usage": {
+            "en": "\"오지고 지린다\" (\"insane and amazing\").",
+            "es": "\"오지고 지린다\" (\"brutal e increíble\").",
+            "zh": "「오지고 지린다」（超猛超強）。",
+            "cn": "“오지고 지린다”（超猛超强）。",
+            "ja": "「오지고 지린다」（やばいしすごい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "오지다",
+            "오지고지리고",
+            "급식체"
+        ],
+        "tags": [
+            "internet",
+            "reaction"
+        ]
+    },
+    "가보자고": {
+        "nuance": {
+            "en": "A dialect-tinged, energetic version of 가보자 — upbeat and casual.",
+            "es": "Versión enérgica y con toque de dialecto de 가보자, animada y casual.",
+            "zh": "帶點方言感、有活力的가보자——開朗又口語。",
+            "cn": "带点方言感、有活力的가보자——开朗又口语。",
+            "ja": "가보자を方言っぽく勢いよく言った形。元気でカジュアル。"
+        },
+        "usage": {
+            "en": "\"오늘도 갓생 가보자고\" (\"Let's live our best life today too\").",
+            "es": "\"오늘도 갓생 가보자고\" (\"Hoy también a vivir la mejor vida\").",
+            "zh": "「오늘도 갓생 가보자고」（今天也神級人生衝起來）。",
+            "cn": "“오늘도 갓생 가보자고”（今天也神级人生冲起来）。",
+            "ja": "「오늘도 갓생 가보자고」（今日も神生活、行こう）。"
+        },
+        "register": "casual",
+        "similar": [
+            "중꺾마",
+            "가즈아"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "점메추": {
+        "nuance": {
+            "en": "A daily office-worker ritual; there are even websites and bots for it.",
+            "es": "Un ritual diario de oficinistas; hasta hay sitios y bots para eso.",
+            "zh": "上班族每天的儀式；甚至有專門的網站和機器人。",
+            "cn": "上班族每天的仪式；甚至有专门的网站和机器人。",
+            "ja": "会社員の毎日の儀式で、専用のサイトやボットまである。"
+        },
+        "usage": {
+            "en": "\"점메추 받아요\" (\"Taking lunch suggestions\").",
+            "es": "\"점메추 받아요\" (\"Acepto sugerencias para el almuerzo\").",
+            "zh": "「점메추 받아요」（徵午餐推薦）。",
+            "cn": "“점메추 받아요”（征午餐推荐）。",
+            "ja": "「점메추 받아요」（昼ごはんのおすすめ募集）。"
+        },
+        "register": "casual",
+        "similar": [
+            "저메추",
+            "혼밥"
+        ],
+        "tags": [
+            "food",
+            "worklife"
+        ]
+    },
+    "할많하않": {
+        "nuance": {
+            "en": "A passive-aggressive way to show you're unhappy without starting a fight.",
+            "es": "Una forma pasivo-agresiva de mostrar que no estás contento sin empezar una pelea.",
+            "zh": "用被動攻擊的方式表達不滿，又不正面吵架。",
+            "cn": "用被动攻击的方式表达不满，又不正面吵架。",
+            "ja": "けんかせずに不満を示す、遠回しな言い方。"
+        },
+        "usage": {
+            "en": "Often typed alone with a sigh: \"하… 할많하않\" (\"Sigh… I'll leave it there\").",
+            "es": "Se escribe sola con un suspiro: \"하… 할많하않\" (\"Ay… lo dejo ahí\").",
+            "zh": "常配嘆氣單獨打出來：「하… 할많하않」（唉……不說了）。",
+            "cn": "常配叹气单独打出来：“하… 할많하않”（唉……不说了）。",
+            "ja": "ため息と一緒に：「하… 할많하않」（はぁ…言わないでおく）。"
+        },
+        "register": "text",
+        "similar": [
+            "안물안궁",
+            "답정너"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "쌉가능": {
+        "nuance": {
+            "en": "The 쌉 prefix (also in 쌉인정) is crude-sounding, so keep it among friends.",
+            "es": "El prefijo 쌉 (también en 쌉인정) suena vulgar, así que úsalo entre amigos.",
+            "zh": "쌉這個前綴（쌉인정也有）聽起來粗俗，只在朋友間用。",
+            "cn": "쌉这个前缀（쌉인정也有）听起来粗俗，只在朋友间用。",
+            "ja": "쌉（쌉인정にも）は下品に聞こえるので友達同士で。"
+        },
+        "usage": {
+            "en": "\"쌉가능? 쌉가능!\" (\"Doable? Totally doable!\").",
+            "es": "\"쌉가능? 쌉가능!\" (\"¿Posible? ¡Totalmente!\").",
+            "zh": "「쌉가능? 쌉가능!」（可以嗎？完全可以！）。",
+            "cn": "“쌉가능? 쌉가능!”（可以吗？完全可以！）。",
+            "ja": "「쌉가능? 쌉가능!」（いける？余裕でいける！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "쌉인정",
+            "가보자고"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "쌉인정": {
+        "nuance": {
+            "en": "A stronger, cruder 인정; 킹정 is a cleaner alternative.",
+            "es": "Un 인정 más fuerte y vulgar; 킹정 es una alternativa más limpia.",
+            "zh": "更強烈也更粗的인정；킹정是比較乾淨的替代說法。",
+            "cn": "更强烈也更粗的인정；킹정是比较干净的替代说法。",
+            "ja": "인정の強くて下品な版。킹정の方がきれいな言い方。"
+        },
+        "usage": {
+            "en": "Replying to a hot take: \"ㄹㅇ 쌉인정\" (\"For real, totally agree\").",
+            "es": "Para responder a una opinión: \"ㄹㅇ 쌉인정\" (\"En serio, totalmente de acuerdo\").",
+            "zh": "回應某個看法：「ㄹㅇ 쌉인정」（真的，完全認同）。",
+            "cn": "回应某个看法：“ㄹㅇ 쌉인정”（真的，完全认同）。",
+            "ja": "意見への返事に：「ㄹㅇ 쌉인정」（マジで完全同意）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인정",
+            "킹정",
+            "ㄹㅇ"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "킹정": {
+        "nuance": {
+            "en": "Same \"king\" prefix as 킹받다; less crude than 쌉인정.",
+            "es": "Mismo prefijo \"king\" que 킹받다; menos vulgar que 쌉인정.",
+            "zh": "和킹받다一樣的「king」前綴；比쌉인정不粗俗。",
+            "cn": "和킹받다一样的“king”前缀；比쌉인정不粗俗。",
+            "ja": "킹받다と同じ「king」の接頭辞。쌉인정より下品じゃない。"
+        },
+        "usage": {
+            "en": "\"킹정합니다\" (\"I totally agree\") sounds playful-polite.",
+            "es": "\"킹정합니다\" (\"Totalmente de acuerdo\") suena juguetón y cortés.",
+            "zh": "「킹정합니다」（超級認同）聽起來俏皮又有禮。",
+            "cn": "“킹정합니다”（超级认同）听起来俏皮又有礼。",
+            "ja": "「킹정합니다」（完全同意です）はおどけつつ丁寧。"
+        },
+        "register": "casual",
+        "similar": [
+            "인정",
+            "쌉인정",
+            "킹받다"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "엄근진": {
+        "nuance": {
+            "en": "Used to tease someone who can't take a joke, or to describe a deadpan mood.",
+            "es": "Se usa para burlarse de alguien que no aguanta una broma, o para describir un tono muy serio.",
+            "zh": "用來調侃開不起玩笑的人，或形容一本正經的氣氛。",
+            "cn": "用来调侃开不起玩笑的人，或形容一本正经的气氛。",
+            "ja": "冗談が通じない人をからかったり、真顔な雰囲気を表したりする。"
+        },
+        "usage": {
+            "en": "\"엄근진 모드로 공부 중\" (\"Studying in dead-serious mode\").",
+            "es": "\"엄근진 모드로 공부 중\" (\"Estudiando en modo serio total\").",
+            "zh": "「엄근진 모드로 공부 중」（嚴肅模式讀書中）。",
+            "cn": "“엄근진 모드로 공부 중”（严肃模式读书中）。",
+            "ja": "「엄근진 모드로 공부 중」（ガチ真面目モードで勉強中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정색",
+            "극T"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "많관부": {
+        "nuance": {
+            "en": "Idols and creators use it to promote releases; fans use it to promote their idols.",
+            "es": "Idols y creadores lo usan para promocionar lanzamientos; los fans, para promocionar a sus idols.",
+            "zh": "偶像和創作者用來宣傳作品；粉絲用來推自家偶像。",
+            "cn": "偶像和创作者用来宣传作品；粉丝用来推自家偶像。",
+            "ja": "アイドルやクリエイターが告知に使い、ファンも推しの宣伝に使う。"
+        },
+        "usage": {
+            "en": "\"오늘 6시 컴백, 많관부!\" (\"Comeback at 6 today — please show your love!\").",
+            "es": "\"오늘 6시 컴백, 많관부!\" (\"Comeback hoy a las 6, ¡denle mucho amor!\").",
+            "zh": "「오늘 6시 컴백, 많관부!」（今天6點回歸，請多多關注！）。",
+            "cn": "“오늘 6시 컴백, 많관부!”（今天6点回归，请多多关注！）。",
+            "ja": "「오늘 6시 컴백, 많관부!」（今日18時カムバ、よろしくお願いします！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "컴백",
+            "좋댓구알"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "관종": {
+        "nuance": {
+            "en": "Usually negative, but people also use it self-mockingly: \"관종이라 셀카 많이 올려\" (\"I'm an attention seeker, so I post lots of selfies\").",
+            "es": "Suele ser negativo, pero también se usa en autoburla: \"관종이라 셀카 많이 올려\" (\"Soy buscadora de atención, por eso subo muchas selfies\").",
+            "zh": "通常是負面的，但也會自嘲：「관종이라 셀카 많이 올려」（我愛被關注，所以常發自拍）。",
+            "cn": "通常是负面的，但也会自嘲：“관종이라 셀카 많이 올려”（我爱被关注，所以常发自拍）。",
+            "ja": "たいてい否定的だが、自虐でも使う：「관종이라 셀카 많이 올려」（かまってちゃんだから自撮りをたくさん上げる）。"
+        },
+        "usage": {
+            "en": "Can be rude when aimed at someone.",
+            "es": "Puede ser grosero si se dirige a alguien.",
+            "zh": "對別人說會很沒禮貌。",
+            "cn": "对别人说会很没礼貌。",
+            "ja": "人に向けて言うと失礼になる。"
+        },
+        "register": "casual",
+        "similar": [
+            "어그로",
+            "인싸"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "유리멘탈": {
+        "nuance": {
+            "en": "Mostly used about yourself; calling someone else 유리멘탈 can sound dismissive.",
+            "es": "Se usa sobre uno mismo; decírselo a otro puede sonar despectivo.",
+            "zh": "多用來說自己；說別人玻璃心可能聽起來很輕視。",
+            "cn": "多用来说自己；说别人玻璃心可能听起来很轻视。",
+            "ja": "主に自分に使う。他人に言うと見下しているように聞こえることも。"
+        },
+        "usage": {
+            "en": "\"쿠크다스 멘탈\" (named after a fragile biscuit) means the same thing.",
+            "es": "\"쿠크다스 멘탈\" (por una galleta muy frágil) significa lo mismo.",
+            "zh": "「쿠크다스 멘탈」（以一種很脆的餅乾命名）意思一樣。",
+            "cn": "“쿠크다스 멘탈”（以一种很脆的饼干命名）意思一样。",
+            "ja": "「쿠크다스 멘탈」（壊れやすいクッキーの名前から）も同じ意味。"
+        },
+        "register": "casual",
+        "similar": [
+            "멘탈갑",
+            "멘붕"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "멘탈갑": {
+        "nuance": {
+            "en": "Often said about idols who stay calm during live mistakes or harsh criticism.",
+            "es": "Suele decirse de idols que mantienen la calma ante errores en vivo o críticas duras.",
+            "zh": "常用來說在現場失誤或被嚴厲批評時仍很淡定的偶像。",
+            "cn": "常用来说在现场失误或被严厉批评时仍很淡定的偶像。",
+            "ja": "生放送でのミスや厳しい批判にも動じないアイドルによく使う。"
+        },
+        "usage": {
+            "en": "\"멘탈갑 리더\" (\"a rock-solid leader\").",
+            "es": "\"멘탈갑 리더\" (\"un líder con mente de acero\").",
+            "zh": "「멘탈갑 리더」（心態超強的隊長）。",
+            "cn": "“멘탈갑 리더”（心态超强的队长）。",
+            "ja": "「멘탈갑 리더」（メンタル最強のリーダー）。"
+        },
+        "register": "casual",
+        "similar": [
+            "유리멘탈",
+            "무대매너"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "씹덕": {
+        "nuance": {
+            "en": "Self-mocking is common; aimed at others it's an insult.",
+            "es": "Es común usarlo en autoburla; dirigido a otros es un insulto.",
+            "zh": "常用來自嘲；對別人說就是罵人。",
+            "cn": "常用来自嘲；对别人说就是骂人。",
+            "ja": "自虐ではよく使うが、他人に言うと悪口になる。"
+        },
+        "usage": {
+            "en": "Gentler alternatives: 덕후, 오타쿠.",
+            "es": "Alternativas más suaves: 덕후, 오타쿠.",
+            "zh": "比較溫和的說法：덕후、오타쿠。",
+            "cn": "比较温和的说法：덕후、오타쿠。",
+            "ja": "やわらかい言い方：덕후、오타쿠。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "덕후",
+            "코덕"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "너T야": {
+        "nuance": {
+            "en": "A viral 2023 catchphrase from a song and short-form videos; part of Korea's MBTI craze.",
+            "es": "Una frase viral de 2023 surgida de una canción y videos cortos; parte de la fiebre del MBTI en Corea.",
+            "zh": "2023年因一首歌和短影音爆紅的流行語；韓國MBTI熱潮的一部分。",
+            "cn": "2023年因一首歌和短影音爆红的流行语；韩国MBTI热潮的一部分。",
+            "ja": "2023年に歌とショート動画から広まった流行語。韓国のMBTIブームの一部。"
+        },
+        "usage": {
+            "en": "Playful — friends say it to each other all the time.",
+            "es": "Es juguetón; los amigos se lo dicen todo el tiempo.",
+            "zh": "很俏皮——朋友之間常互相說。",
+            "cn": "很俏皮——朋友之间常互相说。",
+            "ja": "おふざけで、友達同士でしょっちゅう言い合う。"
+        },
+        "register": "casual",
+        "similar": [
+            "극T",
+            "극I",
+            "극E"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "디토": {
+        "nuance": {
+            "en": "The English word got a big boost in Korea from a 2022 hit song of that title.",
+            "es": "La palabra inglesa ganó mucha popularidad en Corea gracias a una canción exitosa de 2022 con ese título.",
+            "zh": "這個英文字在韓國因2022年一首同名熱門歌曲而大受歡迎。",
+            "cn": "这个英文本在韩国因2022年一首同名热门歌曲而大受欢迎。",
+            "ja": "2022年の同名ヒット曲で、韓国でも広く使われるようになった。"
+        },
+        "usage": {
+            "en": "Short and casual, good for texting.",
+            "es": "Corto y casual, ideal para mensajes.",
+            "zh": "簡短口語，適合傳訊息。",
+            "cn": "简短口语，适合传消息。",
+            "ja": "短くてカジュアル、メッセージ向き。"
+        },
+        "register": "casual",
+        "similar": [
+            "인정"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "무야호": {
+        "nuance": {
+            "en": "It comes from an older variety-show episode in which an elderly man cheerfully shouted it; the clip went viral again around 2021.",
+            "es": "Viene de un episodio antiguo de un programa de variedades en el que un señor mayor lo gritó con alegría; el clip se volvió viral otra vez hacia 2021.",
+            "zh": "來自一集老綜藝，一位老爺爺開心地喊出這句話；這段影片大約在2021年再度爆紅。",
+            "cn": "来自一集老综艺，一位老爷爷开心地喊出这句话；这段视频大约在2021年再度爆红。",
+            "ja": "昔のバラエティ番組で、あるおじいさんが元気に叫んだ場面から。2021年ごろに再びバズった。"
+        },
+        "usage": {
+            "en": "Pure good vibes — use it for any small win.",
+            "es": "Pura buena vibra; úsalo para cualquier pequeño logro.",
+            "zh": "純粹的正能量——任何小勝利都能用。",
+            "cn": "纯粹的正能量——任何小胜利都能用。",
+            "ja": "純粋にハッピーな言葉。ちょっとした勝利に何でも使える。"
+        },
+        "register": "casual",
+        "similar": [
+            "가보자고",
+            "할렐야루"
+        ],
+        "tags": [
+            "variety",
+            "funny"
+        ]
+    },
+    "킹갓제너럴": {
+        "nuance": {
+            "en": "Over-the-top on purpose — similar to 킹왕짱.",
+            "es": "Exagerado a propósito, parecido a 킹왕짱.",
+            "zh": "故意誇張——和킹왕짱類似。",
+            "cn": "故意夸张——和킹왕짱类似。",
+            "ja": "わざと大げさに言う。킹왕짱に似ている。"
+        },
+        "usage": {
+            "en": "\"킹갓제너럴 띵곡\" (\"the ultimate banger\").",
+            "es": "\"킹갓제너럴 띵곡\" (\"el temazo definitivo\").",
+            "zh": "「킹갓제너럴 띵곡」（終極神曲）。",
+            "cn": "“킹갓제너럴 띵곡”（终极神曲）。",
+            "ja": "「킹갓제너럴 띵곡」（究極の神曲）。"
+        },
+        "register": "casual",
+        "similar": [
+            "킹왕짱",
+            "갓벽"
+        ],
+        "tags": [
+            "praise",
+            "funny"
+        ]
+    },
+    "쿨거래": {
+        "nuance": {
+            "en": "Common in photocard and used-goods trading; the opposite of endless haggling.",
+            "es": "Común en intercambios de photocards y artículos usados; lo contrario de regatear sin fin.",
+            "zh": "在小卡和二手交易中很常見；和沒完沒了的殺價相反。",
+            "cn": "在小卡和二手交易中很常见；和没完没了的杀价相反。",
+            "ja": "トレカや中古品の取引でよく使う。延々と値切るのとは正反対。"
+        },
+        "usage": {
+            "en": "\"쿨거래 시 네고 가능\" (\"Small discount for a quick deal\").",
+            "es": "\"쿨거래 시 네고 가능\" (\"Descuento si el trato es rápido\").",
+            "zh": "「쿨거래 시 네고 가능」（爽快交易可小議價）。",
+            "cn": "“쿨거래 시 네고 가능”（爽快交易可小议价）。",
+            "ja": "「쿨거래 시 네고 가능」（スムーズな取引なら値引き可）。"
+        },
+        "register": "casual",
+        "similar": [
+            "당근하다",
+            "포카거래",
+            "양도"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "당근하다": {
+        "nuance": {
+            "en": "\"당근이세요?\" (\"Are you the Karrot buyer?\") is how strangers greet at the meet-up spot. 당근 alone can also mean \"of course.\"",
+            "es": "\"당근이세요?\" (\"¿Eres del Karrot?\") es como se saludan los desconocidos al encontrarse. 당근 solo también significa \"claro\".",
+            "zh": "「당근이세요?」（是紅蘿蔔交易的嗎？）是陌生人面交時的招呼語。당근單獨用也有「當然」的意思。",
+            "cn": "“당근이세요?”（是红萝卜交易的吗？）是陌生人面交时的招呼语。당근单独用也有“当然”的意思。",
+            "ja": "「당근이세요?」（당근の方ですか？）は待ち合わせ場所での挨拶。당근だけだと「もちろん」の意味にも。"
+        },
+        "usage": {
+            "en": "\"당근에 올렸어\" (\"I listed it on Karrot\").",
+            "es": "\"당근에 올렸어\" (\"Lo publiqué en Karrot\").",
+            "zh": "「당근에 올렸어」（放到紅蘿蔔上了）。",
+            "cn": "“당근에 올렸어”（放到红萝卜上了）。",
+            "ja": "「당근에 올렸어」（당근に出品した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "쿨거래",
+            "양도"
+        ],
+        "tags": [
+            "chat",
+            "worklife"
+        ]
+    },
+    "꼰대": {
+        "nuance": {
+            "en": "Not only about age — anyone can be a 꼰대. Saying \"나 꼰대 같아?\" (\"Am I being a 꼰대?\") is a common self-check.",
+            "es": "No solo tiene que ver con la edad; cualquiera puede ser 꼰대. Preguntar \"나 꼰대 같아?\" (\"¿Parezco 꼰대?\") es una autoevaluación común.",
+            "zh": "不只看年紀——誰都可能是꼰대。「나 꼰대 같아?」（我很像꼰대嗎？）是常見的自我檢查。",
+            "cn": "不只看年纪——谁都可能是꼰대。“나 꼰대 같아?”（我很像꼰대吗？）是常见的自我检查。",
+            "ja": "年齢だけではなく、誰でも꼰대になりうる。「나 꼰대 같아?」（私、꼰대っぽい？）はよくある自己チェック。"
+        },
+        "usage": {
+            "en": "Rude to say directly to a superior.",
+            "es": "Es grosero decírselo directamente a un superior.",
+            "zh": "直接對上司說很沒禮貌。",
+            "cn": "直接对上司说很没礼貌。",
+            "ja": "目上の人に直接言うのは失礼。"
+        },
+        "register": "casual",
+        "similar": [
+            "라떼는말이야",
+            "오지랖"
+        ],
+        "tags": [
+            "worklife",
+            "annoyed"
+        ]
+    },
+    "라떼는말이야": {
+        "nuance": {
+            "en": "Often illustrated with a latte cup meme; self-aware older people joke with it too.",
+            "es": "Suele ilustrarse con un meme de taza de latte; los mayores con autocrítica también bromean con él.",
+            "zh": "常配拿鐵杯迷因圖；有自覺的長輩也會拿來自嘲。",
+            "cn": "常配拿铁杯迷因图；有自觉的长辈也会拿来自嘲。",
+            "ja": "ラテのカップのミーム画像とセットで使われ、自覚のある年配の人も冗談で使う。"
+        },
+        "usage": {
+            "en": "\"라떼는 말이야, 앨범 사면 포카 한 장이었어\" (\"Back in my day, an album came with one photocard\").",
+            "es": "\"라떼는 말이야, 앨범 사면 포카 한 장이었어\" (\"En mis tiempos, el álbum traía una sola photocard\").",
+            "zh": "「라떼는 말이야, 앨범 사면 포카 한 장이었어」（想當年，買專輯只送一張小卡）。",
+            "cn": "“라떼는 말이야, 앨범 사면 포카 한 장이었어”（想当年，买专辑只送一张小卡）。",
+            "ja": "「라떼는 말이야, 앨범 사면 포카 한 장이었어」（ラテはね、アルバム買ってもトレカ1枚だったんだよ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "꼰대",
+            "흑역사"
+        ],
+        "tags": [
+            "worklife",
+            "funny"
+        ]
+    },
+    "탕진잼": {
+        "nuance": {
+            "en": "Usually about small amounts — gacha machines, cheap shops, claw machines.",
+            "es": "Suele ser con poco dinero: máquinas de gacha, tiendas baratas, máquinas de peluches.",
+            "zh": "通常是小錢——扭蛋機、平價店、夾娃娃機。",
+            "cn": "通常是小钱——扭蛋机、平价店、夹娃娃机。",
+            "ja": "たいてい少額。ガチャ、プチプラショップ、クレーンゲームなど。"
+        },
+        "usage": {
+            "en": "\"인형뽑기로 탕진잼\" (\"blowing cash on claw machines for fun\").",
+            "es": "\"인형뽑기로 탕진잼\" (\"gastando por diversión en máquinas de peluches\").",
+            "zh": "「인형뽑기로 탕진잼」（夾娃娃爽花錢）。",
+            "cn": "“인형뽑기로 탕진잼”（夹娃娃爽花钱）。",
+            "ja": "「인형뽑기로 탕진잼」（クレーンゲームで散財の楽しみ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "플렉스",
+            "텅장",
+            "시발비용"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "영끌": {
+        "nuance": {
+            "en": "Originally about young people borrowing heavily to buy homes; now used for any all-in effort.",
+            "es": "Originalmente sobre jóvenes que se endeudaban mucho para comprar casa; hoy se usa para cualquier esfuerzo total.",
+            "zh": "原本指年輕人大量借貸買房；現在可以用在任何全力以赴的事情上。",
+            "cn": "原本指年轻人大量借贷买房；现在可以用在任何全力以赴的事情上。",
+            "ja": "もとは若者が多額の借金で家を買うことを指したが、今は全力を尽くすこと全般に使う。"
+        },
+        "usage": {
+            "en": "\"영끌 스밍\" (\"streaming with every ounce of effort\").",
+            "es": "\"영끌 스밍\" (\"streaming con todo lo que tengo\").",
+            "zh": "「영끌 스밍」（拼盡全力刷歌）。",
+            "cn": "“영끌 스밍”（拼尽全力刷歌）。",
+            "ja": "「영끌 스밍」（全力でストリーミング）。"
+        },
+        "register": "casual",
+        "similar": [
+            "텅장",
+            "동학개미"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "동학개미": {
+        "nuance": {
+            "en": "A pun on the 1894 Donghak Peasant Movement; 개미 (ant) is slang for a small retail investor.",
+            "es": "Juego de palabras con el Movimiento Campesino Donghak de 1894; 개미 (hormiga) es jerga para pequeño inversor.",
+            "zh": "諧仿1894年的東學農民運動；개미（螞蟻）是散戶的俗稱。",
+            "cn": "谐仿1894年的东学农民运动；개미（蚂蚁）是散户的俗称。",
+            "ja": "1894年の東学農民運動のもじり。개미（アリ）は個人投資家の俗称。"
+        },
+        "usage": {
+            "en": "Overseas-stock investors became 서학개미 (\"Western-learning ants\").",
+            "es": "Los que invierten en acciones extranjeras pasaron a ser 서학개미 (\"hormigas del saber occidental\").",
+            "zh": "投資海外股票的人則叫서학개미（西學螞蟻）。",
+            "cn": "投资海外股票的人则叫서학개미（西学蚂蚁）。",
+            "ja": "海外株に投資する人は서학개미（西学アリ）と呼ばれる。"
+        },
+        "culture": {
+            "en": "Korean slang often borrows historical names for wordplay — the joke lands because everyone learns the Donghak movement in school.",
+            "es": "La jerga coreana suele tomar nombres históricos para juegos de palabras; el chiste funciona porque todos estudian el movimiento Donghak en la escuela.",
+            "zh": "韓國流行語常借歷史名詞玩諧音——這個梗成立，是因為大家在學校都學過東學運動。",
+            "cn": "韩国流行语常借历史名词玩谐音——这个梗成立，是因为大家在学校都学过东学运动。",
+            "ja": "韓国のスラングは歴史用語をもじることが多い。東学運動は誰もが学校で習うので、このネタが通じる。"
+        },
+        "register": "everyday",
+        "similar": [
+            "영끌",
+            "떡상",
+            "떡락"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "퇴사각": {
+        "nuance": {
+            "en": "Usually venting, not a real plan — part of the -각 pattern (결혼각, 컴백각).",
+            "es": "Suele ser desahogo, no un plan real; es parte del patrón -각 (결혼각, 컴백각).",
+            "zh": "通常只是抱怨，不是真的要辭——屬於-각句型（결혼각、컴백각）。",
+            "cn": "通常只是抱怨，不是真的要辞——属于-각句型（결혼각、컴백각）。",
+            "ja": "たいていは愚痴で本当の計画ではない。-각パターンの一つ（결혼각、컴백각）。"
+        },
+        "usage": {
+            "en": "\"월요일 아침부터 퇴사각\" (\"Monday morning and I'm already ready to quit\").",
+            "es": "\"월요일 아침부터 퇴사각\" (\"Lunes temprano y ya quiero renunciar\").",
+            "zh": "「월요일 아침부터 퇴사각」（星期一早上就想離職）。",
+            "cn": "“월요일 아침부터 퇴사각”（星期一早上就想离职）。",
+            "ja": "「월요일 아침부터 퇴사각」（月曜の朝から退職したい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "사축",
+            "칼퇴",
+            "조용한퇴사"
+        ],
+        "tags": [
+            "worklife",
+            "funny"
+        ]
+    },
+    "병맛": {
+        "nuance": {
+            "en": "Widely used for a comedy genre (병맛 웹툰, 병맛 광고), but its root is a disability slur, so many people avoid it.",
+            "es": "Se usa mucho para un género de comedia (병맛 웹툰, 병맛 광고), pero su raíz es un insulto hacia personas con discapacidad, así que muchos lo evitan.",
+            "zh": "廣泛用來指一種搞笑類型（병맛 웹툰、병맛 광고），但字根是歧視身心障礙者的字眼，很多人會避免使用。",
+            "cn": "广泛用来指一种搞笑类型（병맛 웹툰、병맛 광고），但字根是歧视身心障碍者的字眼，很多人会避免使用。",
+            "ja": "コメディのジャンル名（병맛 웹툰、병맛 광고）として広く使われるが、語源が障害者への差別語なので避ける人も多い。"
+        },
+        "usage": {
+            "en": "Safer alternatives: 엉뚱하다 (quirky), B급 감성 (B-movie vibe).",
+            "es": "Alternativas más seguras: 엉뚱하다 (excéntrico), B급 감성 (estilo serie B).",
+            "zh": "比較安全的說法：엉뚱하다（古怪）、B급 감성（B級感）。",
+            "cn": "比较安全的说法：엉뚱하다（古怪）、B급 감성（B级感）。",
+            "ja": "無難な言い換え：엉뚱하다（突拍子もない）、B급 감성（B級感）。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "대환장파티",
+            "웃음벨"
+        ],
+        "tags": [
+            "funny",
+            "variety"
+        ]
+    },
+    "핵노잼": {
+        "nuance": {
+            "en": "The opposite is 핵꿀잼 (mega fun).",
+            "es": "Lo contrario es 핵꿀잼 (súper divertido).",
+            "zh": "反義是핵꿀잼（超好玩）。",
+            "cn": "反义是핵꿀잼（超好玩）。",
+            "ja": "反対は핵꿀잼（超おもしろい）。"
+        },
+        "usage": {
+            "en": "\"핵노잼 수업 버티는 중\" (\"Surviving a mega-boring class\").",
+            "es": "\"핵노잼 수업 버티는 중\" (\"Sobreviviendo a una clase aburridísima\").",
+            "zh": "「핵노잼 수업 버티는 중」（正在撐過超無聊的課）。",
+            "cn": "“핵노잼 수업 버티는 중”（正在撑过超无聊的课）。",
+            "ja": "「핵노잼 수업 버티는 중」（超つまらない授業に耐え中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "노잼",
+            "꿀잼"
+        ],
+        "tags": [
+            "reaction",
+            "annoyed"
+        ]
+    },
+    "꿀팁": {
+        "nuance": {
+            "en": "Extremely common in post and video titles.",
+            "es": "Muy común en títulos de publicaciones y videos.",
+            "zh": "在貼文和影片標題中超常見。",
+            "cn": "在贴文和视频标题中超常见。",
+            "ja": "投稿や動画のタイトルで非常によく使われる。"
+        },
+        "usage": {
+            "en": "\"자취 꿀팁 모음\" (\"living-alone life hacks\").",
+            "es": "\"자취 꿀팁 모음\" (\"trucos para vivir solo\").",
+            "zh": "「자취 꿀팁 모음」（獨居小撇步合集）。",
+            "cn": "“자취 꿀팁 모음”（独居小撇步合集）。",
+            "ja": "「자취 꿀팁 모음」（一人暮らしのお役立ち情報まとめ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "개꿀",
+            "갓성비"
+        ],
+        "tags": [
+            "chat",
+            "internet"
+        ]
+    },
+    "반모": {
+        "nuance": {
+            "en": "Common between fans meeting online — asking first is polite, since Korean speech levels matter.",
+            "es": "Común entre fans que se conocen en línea; preguntar antes es educado, porque los niveles de habla importan en coreano.",
+            "zh": "網路上認識的粉絲之間很常見——先問比較有禮貌，因為韓語很重視敬語層級。",
+            "cn": "网络上认识的粉丝之间很常见——先问比较有礼貌，因为韩语很重视敬语层级。",
+            "ja": "ネットで知り合ったファン同士でよく使う。韓国語は敬語の段階が大事なので、先に聞くのが礼儀。"
+        },
+        "usage": {
+            "en": "\"반모 신청해도 돼요?\" (\"Can I ask to switch to casual speech?\").",
+            "es": "\"반모 신청해도 돼요?\" (\"¿Puedo pedirte que nos hablemos de tú?\").",
+            "zh": "「반모 신청해도 돼요?」（可以申請改用半語嗎？）。",
+            "cn": "“반모 신청해도 돼요?”（可以申请改用半语吗？）。",
+            "ja": "「반모 신청해도 돼요?」（タメ口にしてもいいですか？）。"
+        },
+        "culture": {
+            "en": "Korean has distinct polite and casual speech levels; switching to 반말 marks a step toward friendship.",
+            "es": "El coreano tiene niveles de habla formales y casuales distintos; pasar al 반말 marca un paso hacia la amistad.",
+            "zh": "韓語有明確的敬語和平語之分；改用반말代表關係更進一步。",
+            "cn": "韩语有明确的敬语和平语之分；改用반말代表关系更进一步。",
+            "ja": "韓国語には丁寧語とタメ口の明確な区別があり、반말に切り替えるのは友達になる一歩。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕메",
+            "소통계"
+        ],
+        "tags": [
+            "chat",
+            "kpop-fan"
+        ]
+    },
+    "금사빠": {
+        "nuance": {
+            "en": "Fans joke they're 금사빠 for every new stage or rookie group. The opposite: 금사빠 vs 철벽 (a wall, hard to win over).",
+            "es": "Los fans bromean con ser 금사빠 ante cada presentación o grupo nuevo. Lo opuesto: 철벽 (un muro, difícil de conquistar).",
+            "zh": "粉絲常開玩笑說自己看到新舞台或新團就금사빠。相反是철벽（銅牆鐵壁，很難攻陷）。",
+            "cn": "粉丝常开玩笑说自己看到新舞台或新团就금사빠。相反是철벽（铜墙铁壁，很难攻陷）。",
+            "ja": "ファンは新しいステージや新人グループにすぐ금사빠になると冗談を言う。反対は철벽（鉄壁）。"
+        },
+        "usage": {
+            "en": "\"금사빠라 최애가 매주 바뀌어\" (\"I fall so fast my bias changes every week\").",
+            "es": "\"금사빠라 최애가 매주 바뀌어\" (\"Me enamoro tan rápido que mi bias cambia cada semana\").",
+            "zh": "「금사빠라 최애가 매주 바뀌어」（我太容易動心，本命每週都換）。",
+            "cn": "“금사빠라 최애가 매주 바뀌어”（我太容易动心，本命每周都换）。",
+            "ja": "「금사빠라 최애가 매주 바뀌어」（惚れっぽくて推しが毎週変わる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "첫눈에반하다",
+            "갈아탐",
+            "입덕"
+        ],
+        "tags": [
+            "romance",
+            "kpop-fan"
+        ]
+    },
+    "ㅇㅈ": {
+        "nuance": {
+            "en": "The fastest way to agree in a chat. A playful exchange: \"ㅇㅈ?\" \"ㅇ ㅇㅈ\" (\"Agreed?\" \"Yep, agreed\").",
+            "es": "La forma más rápida de estar de acuerdo en un chat. Un intercambio juguetón: \"ㅇㅈ?\" \"ㅇ ㅇㅈ\" (\"¿De acuerdo?\" \"Sí, de acuerdo\").",
+            "zh": "聊天時最快的表示認同方式。俏皮的一問一答：「ㅇㅈ?」「ㅇ ㅇㅈ」（認同嗎？嗯認同）。",
+            "cn": "聊天时最快的表示认同方式。俏皮的一问一答：“ㅇㅈ?”“ㅇ ㅇㅈ”（认同吗？嗯认同）。",
+            "ja": "チャットで同意する一番早い方法。おふざけのやりとり：「ㅇㅈ?」「ㅇ ㅇㅈ」（認める？うん認める）。"
+        },
+        "usage": {
+            "en": "Stronger versions: ㅇㅈㅇㅈ, 킹정, 쌉인정.",
+            "es": "Versiones más fuertes: ㅇㅈㅇㅈ, 킹정, 쌉인정.",
+            "zh": "加強版：ㅇㅈㅇㅈ、킹정、쌉인정。",
+            "cn": "加强版：ㅇㅈㅇㅈ、킹정、쌉인정。",
+            "ja": "強調形：ㅇㅈㅇㅈ、킹정、쌉인정。"
+        },
+        "register": "text",
+        "similar": [
+            "인정",
+            "킹정",
+            "ㄹㅇ"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㅇㅋ": {
+        "nuance": {
+            "en": "Super common and neutral among friends; ㅇㅋㅇㅋ sounds friendlier.",
+            "es": "Muy común y neutral entre amigos; ㅇㅋㅇㅋ suena más amistoso.",
+            "zh": "朋友間超常用又中性；ㅇㅋㅇㅋ聽起來更友善。",
+            "cn": "朋友间超常用又中性；ㅇㅋㅇㅋ听起来更友善。",
+            "ja": "友達同士でとてもよく使う中立的な言葉。ㅇㅋㅇㅋの方が親しげ。"
+        },
+        "usage": {
+            "en": "A bare ㅇㅋ can feel curt to a boss — use 네, 알겠습니다 instead.",
+            "es": "Un ㅇㅋ seco puede sonar cortante con un jefe; mejor 네, 알겠습니다.",
+            "zh": "對上司只回ㅇㅋ會顯得冷淡——改用네, 알겠습니다。",
+            "cn": "对上司只回ㅇㅋ会显得冷淡——改用네, 알겠습니다。",
+            "ja": "上司にㅇㅋだけだと素っ気ない。네, 알겠습니다を使おう。"
+        },
+        "register": "text",
+        "similar": [
+            "ㅇㅈ",
+            "ㄱㅅ"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㄱㅅ": {
+        "nuance": {
+            "en": "Casual thanks between friends or in comments. ㄱㅅㄱㅅ doubles it.",
+            "es": "Gracias casuales entre amigos o en comentarios. ㄱㅅㄱㅅ lo duplica.",
+            "zh": "朋友間或留言裡的隨性道謝。ㄱㅅㄱㅅ是加倍版。",
+            "cn": "朋友间或留言里的随性道谢。ㄱㅅㄱㅅ是加倍版。",
+            "ja": "友達同士やコメントでの軽いお礼。ㄱㅅㄱㅅで二倍。"
+        },
+        "usage": {
+            "en": "Not for elders or formal messages — write 감사합니다 in full.",
+            "es": "No para mayores ni mensajes formales; escribe 감사합니다 completo.",
+            "zh": "不適合對長輩或正式訊息——要完整寫감사합니다。",
+            "cn": "不适合对长辈或正式消息——要完整写감사합니다。",
+            "ja": "目上の人や改まったメッセージには감사합니다と全部書く。"
+        },
+        "register": "text",
+        "similar": [
+            "ㅇㅋ",
+            "아자스"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㅈㅅ": {
+        "nuance": {
+            "en": "A quick, light apology — ironically very casual even though 죄송 is the polite word.",
+            "es": "Una disculpa rápida y ligera; irónicamente muy casual, aunque 죄송 es la palabra formal.",
+            "zh": "快速又輕描淡寫的道歉——明明죄송是敬語，縮寫後反而很隨便。",
+            "cn": "快速又轻描淡写的道歉——明明죄송是敬语，缩写后反而很随便。",
+            "ja": "軽くて手短な謝罪。죄송は丁寧な言葉なのに、略すと逆にとてもカジュアル。"
+        },
+        "usage": {
+            "en": "For a real apology, write it out: 죄송합니다.",
+            "es": "Para una disculpa en serio, escríbelo completo: 죄송합니다.",
+            "zh": "真正道歉時要完整寫出：죄송합니다。",
+            "cn": "真正道歉时要完整写出：죄송합니다。",
+            "ja": "本当に謝る時は죄송합니다と全部書く。"
+        },
+        "register": "text",
+        "similar": [
+            "멘고멘고",
+            "ㄱㅅ"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㅊㅋ": {
+        "nuance": {
+            "en": "Usually doubled: ㅊㅋㅊㅋ. Fandom chats flood with it after a win.",
+            "es": "Suele duplicarse: ㅊㅋㅊㅋ. Los chats de fans se llenan de esto tras una victoria.",
+            "zh": "通常會疊字：ㅊㅋㅊㅋ。贏得一位後粉絲聊天室會被洗版。",
+            "cn": "通常会叠字：ㅊㅋㅊㅋ。赢得一位后粉丝聊天室会被洗版。",
+            "ja": "たいてい重ねてㅊㅋㅊㅋ。1位を取るとファンのチャットが埋め尽くされる。"
+        },
+        "usage": {
+            "en": "Pairs with 생축 for birthdays.",
+            "es": "Se combina con 생축 en cumpleaños.",
+            "zh": "生日時會和생축一起用。",
+            "cn": "生日时会和생축一起用。",
+            "ja": "誕生日には생축と一緒に。"
+        },
+        "register": "text",
+        "similar": [
+            "생축",
+            "1위후보"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㅠㅠ": {
+        "nuance": {
+            "en": "Used for real sadness and for happy tears; ㅜㅜ is the same thing. More ㅠ = more feeling.",
+            "es": "Sirve para tristeza real y para lágrimas de felicidad; ㅜㅜ es lo mismo. Más ㅠ = más emoción.",
+            "zh": "真的難過和喜極而泣都能用；ㅜㅜ意思一樣。ㅠ越多＝情緒越強。",
+            "cn": "真的难过和喜极而泣都能用；ㅜㅜ意思一样。ㅠ越多＝情绪越强。",
+            "ja": "本当の悲しみにも嬉し泣きにも使う。ㅜㅜも同じ。ㅠが多いほど感情が強い。"
+        },
+        "usage": {
+            "en": "\"고마워ㅠㅠ\" (\"Thank you ㅠㅠ\") softens and warms a message.",
+            "es": "\"고마워ㅠㅠ\" (\"Gracias ㅠㅠ\") suaviza y da calidez al mensaje.",
+            "zh": "「고마워ㅠㅠ」（謝謝ㅠㅠ）讓訊息更柔和溫暖。",
+            "cn": "“고마워ㅠㅠ”（谢谢ㅠㅠ）让消息更柔和温暖。",
+            "ja": "「고마워ㅠㅠ」（ありがとうㅠㅠ）でメッセージがやわらかく温かくなる。"
+        },
+        "register": "text",
+        "similar": [
+            "오열",
+            "감동",
+            "ㅋㅋ"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "ㄱㅇㄷ": {
+        "nuance": {
+            "en": "Same casual tone as 개이득; text only.",
+            "es": "El mismo tono casual que 개이득; solo por escrito.",
+            "zh": "和개이득一樣口語；只用在文字上。",
+            "cn": "和개이득一样口语；只用在文本上。",
+            "ja": "개이득と同じくだけた言い方。文字のみ。"
+        },
+        "usage": {
+            "en": "\"ㄱㅇㄷ ㅋㅋ\" is a classic reaction to a lucky break.",
+            "es": "\"ㄱㅇㄷ ㅋㅋ\" es la reacción clásica ante un golpe de suerte.",
+            "zh": "「ㄱㅇㄷ ㅋㅋ」是走運時的經典反應。",
+            "cn": "“ㄱㅇㄷ ㅋㅋ”是走运时的经典反应。",
+            "ja": "「ㄱㅇㄷ ㅋㅋ」はラッキーな時の定番リアクション。"
+        },
+        "register": "text",
+        "similar": [
+            "개이득",
+            "개꿀"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "씨발": {
+        "nuance": {
+            "en": "Very strong. You'll hear it in movies, dramas with mature ratings and among close friends, but it is offensive in most situations.",
+            "es": "Muy fuerte. Se oye en películas, dramas para adultos y entre amigos muy cercanos, pero es ofensiva en la mayoría de situaciones.",
+            "zh": "非常重。在電影、成人分級的劇和很熟的朋友間會聽到，但在大多數場合都很冒犯。",
+            "cn": "非常重。在电影、成人分级的剧和很熟的朋友间会听到，但在大多数场合都很冒犯。",
+            "ja": "非常に強い言葉。映画や大人向けドラマ、ごく親しい友達の間では耳にするが、ほとんどの場面で失礼にあたる。"
+        },
+        "usage": {
+            "en": "Online it's often censored as ㅅㅂ, 시발 or ㅆㅂ. Learn to recognize it; think twice before using it.",
+            "es": "En internet suele censurarse como ㅅㅂ, 시발 o ㅆㅂ. Aprende a reconocerla; piénsalo dos veces antes de usarla.",
+            "zh": "網路上常寫成ㅅㅂ、시발或ㅆㅂ來避諱。學會認得就好，使用前要三思。",
+            "cn": "网络上常写成ㅅㅂ、시발或ㅆㅂ来避讳。学会认得就好，使用前要三思。",
+            "ja": "ネットではㅅㅂ、시발、ㅆㅂと伏せ字にされることが多い。聞き取れるようにしておき、使う前によく考えて。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "ㅅㅂ",
+            "샤갈",
+            "시발비용"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㅅㅂ": {
+        "nuance": {
+            "en": "Feels a bit lighter than writing it out, but it's still a swear word.",
+            "es": "Se siente un poco más ligero que escribirlo completo, pero sigue siendo una grosería.",
+            "zh": "比完整寫出來稍微輕一點，但仍然是髒話。",
+            "cn": "比完整写出来稍微轻一点，但仍然是脏话。",
+            "ja": "全部書くより少し軽く感じるが、罵り言葉であることに変わりはない。"
+        },
+        "usage": {
+            "en": "Common in frustrated posts and chats among close friends.",
+            "es": "Común en publicaciones de frustración y chats entre amigos cercanos.",
+            "zh": "常見於抱怨貼文和好友聊天。",
+            "cn": "常见于抱怨贴文和好友聊天。",
+            "ja": "イライラした投稿や、親しい友達とのチャットでよく見る。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "씨발",
+            "ㅈㄴ"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "존나": {
+        "nuance": {
+            "en": "Extremely common among young people, but crude in origin. It's the root of 존예, 존잘 and 존맛.",
+            "es": "Muy común entre jóvenes, pero de origen vulgar. Es la raíz de 존예, 존잘 y 존맛.",
+            "zh": "在年輕人間超常見，但字源粗俗。존예、존잘、존맛都是從這裡來的。",
+            "cn": "在年轻人间超常见，但字源粗俗。존예、존잘、존맛都是从这里来的。",
+            "ja": "若者の間で非常によく使われるが、語源は下品。존예、존잘、존맛の元になっている。"
+        },
+        "usage": {
+            "en": "Softer swaps: 진짜, 완전, 엄청 (really, totally, very).",
+            "es": "Opciones más suaves: 진짜, 완전, 엄청 (de verdad, totalmente, muy).",
+            "zh": "比較溫和的替代：진짜、완전、엄청（真的、完全、非常）。",
+            "cn": "比较温和的替代：진짜、완전、엄청（真的、完全、非常）。",
+            "ja": "やわらかい言い換え：진짜、완전、엄청（本当に、完全に、すごく）。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "ㅈㄴ",
+            "존예",
+            "존맛탱",
+            "졸귀"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "ㅈㄴ": {
+        "nuance": {
+            "en": "Very common in comments; still crude.",
+            "es": "Muy común en comentarios; sigue siendo vulgar.",
+            "zh": "留言中很常見；仍然很粗俗。",
+            "cn": "留言中很常见；仍然很粗俗。",
+            "ja": "コメントでよく見るが、下品なのは同じ。"
+        },
+        "usage": {
+            "en": "Read it as 존나 when you see it.",
+            "es": "Cuando lo veas, léelo como 존나.",
+            "zh": "看到時就讀成존나。",
+            "cn": "看到时就读成존나。",
+            "ja": "見かけたら존나と読む。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "존나",
+            "ㅅㅂ"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "지랄": {
+        "nuance": {
+            "en": "Rude, but between close friends it can be oddly affectionate: \"지랄도 풍년이다\" (\"what a bumper crop of nonsense\").",
+            "es": "Es grosero, pero entre amigos cercanos puede sonar extrañamente cariñoso: \"지랄도 풍년이다\" (\"qué cosecha de tonterías\").",
+            "zh": "很沒禮貌，但在好朋友間反而有種莫名的親暱感：「지랄도 풍년이다」（胡鬧大豐收）。",
+            "cn": "很没礼貌，但在好朋友间反而有种莫名的亲暱感：“지랄도 풍년이다”（胡闹大丰收）。",
+            "ja": "失礼だが、親しい友達同士では妙に親しみのある言い方にもなる：「지랄도 풍년이다」（ふざけるのも大概にしろ）。"
+        },
+        "usage": {
+            "en": "Typed as ㅈㄹ. Never use it with strangers or elders.",
+            "es": "Se escribe ㅈㄹ. Nunca lo uses con desconocidos ni mayores.",
+            "zh": "打字寫成ㅈㄹ。絕對不要對陌生人或長輩用。",
+            "cn": "打字写成ㅈㄹ。绝对不要对陌生人或长辈用。",
+            "ja": "文字ではㅈㄹ。知らない人や目上の人には絶対に使わない。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "씨발",
+            "미친"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "미친": {
+        "nuance": {
+            "en": "As an exclamation or praise it's mild; said to a person (\"미친놈\") it's a real insult.",
+            "es": "Como exclamación o elogio es suave; dicho a una persona (\"미친놈\") es un insulto de verdad.",
+            "zh": "當感嘆或稱讚很輕微；對人說（미친놈）就是真的罵人。",
+            "cn": "当感叹或称赞很轻微；对人说（미친놈）就是真的骂人。",
+            "ja": "感嘆やほめ言葉なら軽いが、人に向けると（미친놈）本物の悪口。"
+        },
+        "usage": {
+            "en": "See also 미쳤다 (\"that's insane!\") for the reaction form.",
+            "es": "Mira también 미쳤다 (\"¡qué locura!\") para la forma de reacción.",
+            "zh": "反應用法也可以看미쳤다（瘋了！）。",
+            "cn": "反应用法也可以看미쳤다（疯了！）。",
+            "ja": "リアクションの形は미쳤다（やばい！）も参照。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "미쳤다",
+            "지랄"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "젠장": {
+        "nuance": {
+            "en": "Much milder than 씨발 — common in subtitles and translated dialogue.",
+            "es": "Mucho más suave que 씨발; común en subtítulos y diálogos traducidos.",
+            "zh": "比씨발輕得多——常出現在字幕和翻譯台詞中。",
+            "cn": "比씨발轻得多——常出现在字幕和翻译台词中。",
+            "ja": "씨발よりずっと軽い。字幕や翻訳されたセリフでよく見る。"
+        },
+        "usage": {
+            "en": "\"제기랄\" is a similar mild curse.",
+            "es": "\"제기랄\" es una grosería suave parecida.",
+            "zh": "「제기랄」是類似的輕微咒罵。",
+            "cn": "“제기랄”是类似的轻微咒骂。",
+            "ja": "「제기랄」も似た軽い悪態。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "샤갈",
+            "씨발"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "빡치다": {
+        "nuance": {
+            "en": "Stronger and cruder than 짜증나 (annoyed); 킹받다 is the playful version.",
+            "es": "Más fuerte y vulgar que 짜증나 (molesto); 킹받다 es la versión juguetona.",
+            "zh": "比짜증나（煩）更強烈更粗俗；킹받다是俏皮版。",
+            "cn": "比짜증나（烦）更强烈更粗俗；킹받다是俏皮版。",
+            "ja": "짜증나（イラつく）より強くて下品。おふざけ版は킹받다。"
+        },
+        "usage": {
+            "en": "Noun form: 빡침 (\"rage\"), as in \"빡침 주의\" (\"rage warning\").",
+            "es": "Sustantivo: 빡침 (\"rabia\"), como en \"빡침 주의\" (\"aviso de rabia\").",
+            "zh": "名詞形：빡침（火大），如「빡침 주의」（火大注意）。",
+            "cn": "名词形：빡침（火大），如“빡침 주의”（火大注意）。",
+            "ja": "名詞形は빡침（怒り）。「빡침 주의」（イライラ注意）など。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "킹받다",
+            "급짜증",
+            "극혐"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "시발비용": {
+        "nuance": {
+            "en": "Became a widely known term around 2017; the polite media version is 홧김비용 (\"spending in a fit of anger\").",
+            "es": "Se hizo muy conocido hacia 2017; la versión educada en los medios es 홧김비용 (\"gasto por enojo\").",
+            "zh": "大約在2017年廣為人知；媒體上比較文雅的說法是홧김비용（氣頭上的消費）。",
+            "cn": "大约在2017年广为人知；媒体上比较文雅的说法是홧김비용（气头上的消费）。",
+            "ja": "2017年ごろに広く知られるようになった。メディアでの丁寧な言い方は홧김비용（腹立ちまぎれの出費）。"
+        },
+        "usage": {
+            "en": "Mostly used jokingly about yourself.",
+            "es": "Se usa sobre todo en broma sobre uno mismo.",
+            "zh": "多半用來自嘲。",
+            "cn": "多半用来自嘲。",
+            "ja": "主に自分のことを冗談で言う時に使う。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "탕진잼",
+            "텅장",
+            "씨발"
+        ],
+        "tags": [
+            "chat",
+            "worklife"
+        ]
+    },
+    "염병": {
+        "nuance": {
+            "en": "Sounds rough and old-school; often heard in period dramas or from grandparents in comedies.",
+            "es": "Suena rudo y de la vieja escuela; se oye en dramas de época o en abuelos de comedias.",
+            "zh": "聽起來粗野又老派；常在古裝劇或喜劇裡的爺爺奶奶口中聽到。",
+            "cn": "听起来粗野又老派；常在古装剧或喜剧里的爷爷奶奶口中听到。",
+            "ja": "荒っぽく昔風に聞こえる。時代劇やコメディのおじいさん・おばあさんの口からよく聞く。"
+        },
+        "usage": {
+            "en": "\"염병하네\" (\"what nonsense\") is a common angry retort.",
+            "es": "\"염병하네\" (\"qué estupidez\") es una respuesta enojada común.",
+            "zh": "「염병하네」（胡說什麼）是常見的生氣回嗆。",
+            "cn": "“염병하네”（胡说什么）是常见的生气回呛。",
+            "ja": "「염병하네」（ふざけたこと言うな）はよくある怒りの返し。"
+        },
+        "register": "vulgar",
+        "similar": [
+            "젠장",
+            "지랄"
+        ],
+        "tags": [
+            "chat"
         ]
     },
 }
