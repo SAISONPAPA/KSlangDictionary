@@ -56,6 +56,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/guides/korean-dating-slang.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/quiz/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3322,11 +3327,6 @@
   </url>
   <url>
     <loc>https://hellokslang.com/word/sa-nae-yeon-ae.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellokslang.com/word/bul-so.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

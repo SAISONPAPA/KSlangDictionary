@@ -463,12 +463,12 @@ IDOL = [
      "브이로그에서 완전 털털한 모습 보여줬어.", "In the vlog, they showed a really down-to-earth, relaxed side.",
      "En el vlog mostró un lado muy relajado y sencillo.",
      "YouTube content", "Draft — please double-check"),
-    ("공방", "gong-bang", "Personal livestream",
-     "\"Public broadcast\" — a casual, personal livestream an idol does directly for fans.",
-     "\"Transmisión pública\": una transmisión en vivo casual y personal que un ídolo hace directamente para los fans.",
-     "갑자기 공방 켰어, 빨리 들어가!", "They suddenly started a livestream, get in quick!",
-     "¡De repente empezó una transmisión en vivo, entra rápido!",
-     "Livestreaming platforms", "Draft — please double-check"),
+    ("공방", "gong-bang", "Attending a music show taping",
+     "Short for 공개방송 (\"open broadcast\") — going in person to a music show's pre-recording or live broadcast to watch and cheer for your idol.",
+     "Abreviatura de 공개방송 (\"emisión abierta\"): ir en persona a la pregrabación o la emisión en vivo de un programa musical para ver y animar a tu idol.",
+     "이번 주 음방 공방 당첨됐어!", "I got picked to attend this week's music show taping!",
+     "¡Me eligieron para ir a la grabación del programa musical de esta semana!",
+     "Music show fan culture", "Verified (web-checked)"),
     ("만능돌", "man-neung-dol", "All-rounder idol",
      "An \"all-rounder idol\" skilled across singing, dancing, rapping, and visuals.",
      "Un \"ídolo todoterreno\", talentoso en canto, baile, rap y también en apariencia.",
@@ -3944,12 +3944,6 @@ DATING = [
      "이 드라마 사내연애 전개가 진짜 설레.", "This drama's workplace romance storyline is so exciting.",
      "La trama de romance de oficina de este drama es muy emocionante.",
      "K-drama trope talk", "Draft — please double-check"),
-    ("불소", "bul-so", "Fiery blind date",
-     "\"Burning blind date\" — a blind date with intense, immediate chemistry or spark.",
-     "\"Cita a ciegas ardiente\": una cita a ciegas con química o chispa intensa e inmediata.",
-     "이번 주 불소 잡혔다는데 기대돼.", "I heard there's a fiery blind date lined up this week, I'm excited.",
-     "Escuché que hay una cita a ciegas con mucha química esta semana, estoy emocionada.",
-     "Casual dating talk", "Draft — please double-check"),
     ("패완얼", "pae-wan-eol", "Fashion's finished by the face",
      "Short for \"fashion is completed by the face\" — a saying that a good-looking face elevates any outfit, no matter how simple.",
      "Abreviatura de \"la moda se completa con la cara\": un dicho que dice que una cara atractiva mejora cualquier atuendo, sin importar lo simple que sea.",
@@ -4096,7 +4090,7 @@ ZH_TW_TRANSLATIONS = {
     "트레이닝": ("練習生出道前接受的歌唱、舞蹈等各項技能培訓。", "聽說他們每天都忙著接受培訓。"),
     "셀프캠": ("偶像自己拍攝、而非由團隊拍攝的影像內容。", "自拍影片上線了，超可愛。"),
     "브이로그": ("影像日誌，常展現偶像的日常生活或幕後時刻。", "Vlog裡展現出很隨性自在的一面。"),
-    "공방": ("「公開放送」——偶像直接為粉絲進行的輕鬆個人直播。", "突然開了個人直播，快進去！"),
+    "공방": ("공개방송（公開放送）的縮寫——親自到音樂節目的事前錄影或直播現場，為偶像應援。", "這週音樂節目的公開放送我抽中了！"),
     "만능돌": ("在唱歌、跳舞、饒舌、visual各方面都很全面的「全能偶像」。", "那個成員真的是全能偶像。"),
     "실력돌": ("「實力派偶像」——主要以才華（歌唱、舞蹈）而非外貌或形象聞名的偶像。", "這個團以實力派偶像聞名。"),
     "예능돌": ("在綜藝、談話節目中表現風趣、擅長的偶像。", "那個成員已經完全站穩綜藝咖的位置了。"),
@@ -4660,7 +4654,6 @@ ZH_TW_TRANSLATIONS = {
     "천일": ("交往滿一千天的紀念日，是百日紀念的加強版。", "下個月是我們的千日紀念。"),
     "열애인정": ("名人情侶（常透過經紀公司）正式承認交往關係，承認戀情。", "最後承認戀情了！"),
     "사내연애": ("與同公司同事交往，是韓劇常見的劇情套路，辦公室戀情。", "這部劇的辦公室戀情發展真的很讓人心動。"),
-    "불소": ("「燃燒的相親」——雙方一見面就火花四射、氣氛熱烈的相親。", "聽說這禮拜安排了火花四射的相親，好期待。"),
     "패완얼": ("「時尚的完成是臉」的簡稱——意指帥氣或漂亮的長相能撐起任何穿搭。", "果然臉才是關鍵，穿什麼都好看。"),
     "아우라 파밍": ("刻意（或毫不費力地）透過幾個有型的瞬間，累積自己的「氣場」——如同主角般的酷感。源自英文圈的TikTok迷因，後來被韓國Z世代／α世代採用。", "你看到他接住那個水壺了嗎？完全在攢氣場。"),
     "오살힘": ("「今天活下去的力量」的縮寫——粉絲看到本命的內容後獲得的情緒能量，也可延伸指任何能讓你撐過一天的小小動力。", "今天看完歐巴的V Live，得到了活下去的力量。"),
@@ -4773,7 +4766,7 @@ ZH_CN_TRANSLATIONS = {
     "트레이닝": ("练习生出道前接受的歌唱、舞蹈等各项技能培训。", "听说他们每天都忙着接受培训。"),
     "셀프캠": ("偶像自己拍摄、而非由团队拍摄的影像内容。", "自拍视频上线了，超可爱。"),
     "브이로그": ("影像日志，常展现偶像的日常生活或幕后时刻。", "Vlog里展现出很随性自在的一面。"),
-    "공방": ("“公开放送”——偶像直接为粉丝进行的轻松个人直播。", "突然开了个人直播，快进去！"),
+    "공방": ("공개방송（公开放送）的缩写——亲自到音乐节目的预录或直播现场，为偶像应援。", "这周音乐节目的公开放送我抽中了！"),
     "만능돌": ("在唱歌、跳舞、饶舌、visual各方面都很全面的“全能偶像”。", "那个成员真的是全能偶像。"),
     "실력돌": ("“实力派偶像”——主要以才华（歌唱、舞蹈）而非外貌或形象闻名的偶像。", "这个团以实力派偶像闻名。"),
     "예능돌": ("在综艺、谈话节目中表现风趣、擅长的偶像。", "那个成员已经完全站稳综艺咖的位置了。"),
@@ -5329,7 +5322,6 @@ ZH_CN_TRANSLATIONS = {
     "천일": ("交往满一千天的纪念日，是百日纪念的加强版。", "下个月是我们的千日纪念。"),
     "열애인정": ("名人情侣（常通过经纪公司）正式承认交往关系，承认恋情。", "最后承认恋情了！"),
     "사내연애": ("与同公司同事交往，是韩剧常见的剧情套路，办公室恋情。", "这部剧的办公室恋情发展真的很让人心动。"),
-    "불소": ("“燃烧的相亲”——双方一见面就火花四射、气氛热烈的相亲。", "听说这礼拜安排了火花四射的相亲，好期待。"),
     "패완얼": ("“时尚的完成是脸”的简称——意指帅气或漂亮的长相能撑起任何穿搭。", "果然脸才是关键，穿什么都好看。"),
     "아우라 파밍": ("刻意（或毫不费力地）通过几个有型的瞬间，累积自己的「气场」——如同主角般的酷感。源自英文圈的TikTok迷因，后来被韩国Z世代／α世代采用。", "你看到他接住那个水壶了吗？完全在攒气场。"),
     "오살힘": ("「今天活下去的力量」的缩写——粉丝看到本命的内容后获得的情绪能量，也可延伸指任何能让你撑过一天的小小动力。", "今天看完欧巴的V Live，得到了活下去的力量。"),
@@ -5430,7 +5422,7 @@ JA_TRANSLATIONS = {
     "트레이닝": ("デビュー前に練習生が受ける歌唱、ダンスなどの技能訓練。", "毎日トレーニングを受けるので忙しかったらしい。"),
     "셀프캠": ("制作チームではなく、アイドル自身が自分を撮影した映像。", "セルフカム動画が上がった、めちゃくちゃ可愛い。"),
     "브이로그": ("アイドルの日常や舞台裏の様子を見せる動画日記。", "Vlogで完全に自然体な姿を見せてくれた。"),
-    "공방": ("「公開放送」の略——アイドルがファンのために直接行う気軽な個人配信。", "突然配信始めた、早く入って！"),
+    "공방": ("공개방송（公開放送）の略——音楽番組の事前収録や生放送の現場に直接行って、推しを応援すること。", "今週の音楽番組の公開放送、当選した！"),
     "만능돌": ("歌、ダンス、ラップ、ビジュアルすべてに秀でた「万能アイドル」。", "あのメンバーは本当にオールラウンダーだよ。"),
     "실력돌": ("ビジュアルよりも実力（歌唱力、ダンス力）で主に知られる「実力アイドル」。", "このグループは実力派アイドルとして有名。"),
     "예능돌": ("バラエティ番組やトーク番組で面白く活躍することで知られるアイドル。", "あのメンバーはもう完全にバラエティアイドルとして定着した。"),
@@ -6012,7 +6004,6 @@ JA_TRANSLATIONS = {
     "천일": ("100日記念日をさらに大きくした、交際1000日の記念日。", "来月が私たちの1000日記念日。"),
     "열애인정": ("芸能人カップルが、事務所を通じてなど正式に交際を認めること。", "ついに交際を認めたって！"),
     "사내연애": ("同じ会社の同僚と付き合うこと——ドラマによくあるトロープ。", "このドラマの社内恋愛展開、本当にドキドキする。"),
-    "불소": ("「燃える合コン」——一瞬で強い相性や火花が生まれる合コン。", "今週火花散る合コンがセッティングされたって、楽しみ。"),
     "패완얼": ("「ファッションの完成は顔」の略——どんなにシンプルな服でも、整った顔立ちが引き立てるという言葉。", "やっぱり顔が全て、何着ても似合う。"),
     "아우라 파밍": ("「オーラ」（かっこよさ、主人公感）を、さりげなく、あるいは意図的に見せつける行為。英語圏のTikTokミームが由来で、韓国のZ世代・α世代に広まった。", "さっきの水筒キャッチ、完全にオーラ稼いでたよね。"),
     "오살힘": ("「오늘을 살아갈 힘（今日を生きる力）」の略——推しのコンテンツを見て得る心のエネルギーを指すファンダム用語。日常で元気をくれる何かにも使える。", "今日オッパのVライブ見て、生きる力もらった。"),
@@ -6078,6 +6069,9 @@ TAG_LABELS = {
     "favorites": {"en": "Favorites", "es": "Favoritos", "zh": "最愛", "cn": "最爱", "ja": "お気に入り"},
     "romance":   {"en": "Dating & romance", "es": "Amor y citas", "zh": "戀愛", "cn": "恋爱", "ja": "恋愛"},
     "drama":     {"en": "K-drama tropes", "es": "Clichés de K-drama", "zh": "韓劇套路", "cn": "韩剧套路", "ja": "韓ドラあるある"},
+    "industry":  {"en": "K-pop industry", "es": "Industria del K-pop", "zh": "K-pop產業", "cn": "K-pop产业", "ja": "K-POP業界"},
+    "stage":     {"en": "Stages & shows", "es": "Escenarios y shows", "zh": "舞台與表演", "cn": "舞台与表演", "ja": "ステージ・公演"},
+    "beauty":    {"en": "K-beauty", "es": "K-beauty", "zh": "韓系美妝", "cn": "韩系美妆", "ja": "韓国コスメ・美容"},
 }
 
 DETAILS = {
@@ -9193,6 +9187,3601 @@ DETAILS = {
         "similar": ["훈남", "훈녀", "남친룩"],
         "tags": ["praise", "funny", "internet"],
     },
+    "연습생": {
+        "nuance": {
+            "en": "A trainee: someone signed to an agency who practices singing, dancing and more — sometimes for years — hoping to debut.",
+            "es": "Un aprendiz (trainee): alguien contratado por una agencia que entrena canto, baile y más, a veces durante años, con la esperanza de debutar.",
+            "zh": "練習生：和經紀公司簽約、苦練唱歌跳舞等技能——有時長達數年——等待出道的人。",
+            "cn": "练习生：和经纪公司签约、苦练唱歌跳舞等技能——有时长达数年——等待出道的人。",
+            "ja": "練習生。事務所に所属して歌やダンスなどを練習し、デビューを目指す人。期間が何年にも及ぶことも。"
+        },
+        "usage": {
+            "en": "\"연습생 기간만 5년이었대\" (\"They say she was a trainee for five years\"). Long trainee periods are a common talking point in debut stories.",
+            "es": "\"연습생 기간만 5년이었대\" (\"Dicen que fue trainee cinco años\"). Los largos periodos de entrenamiento son tema frecuente en las historias de debut.",
+            "zh": "「연습생 기간만 5년이었대」（聽說光是練習生就當了五年）。漫長的練習生期是出道故事裡常見的話題。",
+            "cn": "“연습생 기간만 5년이었대”（听说光是练习生就当了五年）。漫长的练习生期是出道故事里常见的话题。",
+            "ja": "「연습생 기간만 5년이었대」（練習生期間だけで5年だったらしい）。長い練習生期間はデビュー秘話の定番。"
+        },
+        "culture": {
+            "en": "Large agencies run long, competitive training systems, and only some trainees ever debut — which is why fans respect how long an idol trained.",
+            "es": "Las grandes agencias tienen sistemas de entrenamiento largos y competitivos, y solo algunos trainees llegan a debutar; por eso los fans valoran cuánto tiempo entrenó un idol.",
+            "zh": "大型經紀公司有漫長又競爭激烈的培訓制度，只有部分練習生能出道——所以粉絲很看重偶像當了多久的練習生。",
+            "cn": "大型经纪公司有漫长又竞争激烈的培训制度，只有部分练习生能出道——所以粉丝很看重偶像当了多久的练习生。",
+            "ja": "大手事務所には長く厳しい育成システムがあり、デビューできるのは一部だけ。だからファンは練習生期間の長さに敬意を払う。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데뷔조",
+            "연습생활",
+            "트레이닝",
+            "소속사"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "비주얼": {
+        "nuance": {
+            "en": "The \"visual\": the member officially or unofficially known as the group's face — the one whose looks define its image.",
+            "es": "La \"visual\": el miembro conocido, oficial o extraoficialmente, como la cara del grupo, cuya apariencia define su imagen.",
+            "zh": "「顏擔」：官方或公認代表團體門面、以外貌定義團體形象的成員。",
+            "cn": "“颜担”：官方或公认代表团体门面、以外貌定义团体形象的成员。",
+            "ja": "「ビジュアル」。公式・非公式にグループの顔とされるメンバーで、その見た目がグループのイメージを作る。"
+        },
+        "usage": {
+            "en": "Also a general compliment: \"오늘 비주얼 미쳤다\" (\"Today's visuals are insane\").",
+            "es": "También es un elogio general: \"오늘 비주얼 미쳤다\" (\"Hoy la apariencia está de locos\").",
+            "zh": "也可以當一般稱讚：「오늘 비주얼 미쳤다」（今天的顏值太誇張了）。",
+            "cn": "也可以当一般称赞：“오늘 비주얼 미쳤다”（今天的颜值太夸张了）。",
+            "ja": "一般的なほめ言葉にも：「오늘 비주얼 미쳤다」（今日のビジュやばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "센터",
+            "얼굴천재",
+            "실물"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "리더": {
+        "nuance": {
+            "en": "The leader: the member who speaks for the group, gives the greetings and looks after the others.",
+            "es": "El líder: el miembro que habla por el grupo, dirige los saludos y cuida a los demás.",
+            "zh": "隊長：代表團體發言、帶頭打招呼、照顧其他成員的人。",
+            "cn": "队长：代表团体发言、带头打招呼、照顾其他成员的人。",
+            "ja": "リーダー。グループを代表して話し、あいさつを仕切り、メンバーの面倒を見る人。"
+        },
+        "usage": {
+            "en": "Leaders usually start the group greeting on shows and give award speeches: \"리더가 수상 소감 말하다가 울었어\" (\"The leader cried during the award speech\").",
+            "es": "Los líderes suelen iniciar el saludo grupal y dar los discursos de premios: \"리더가 수상 소감 말하다가 울었어\" (\"El líder lloró en el discurso\").",
+            "zh": "隊長通常帶頭喊團體口號、發表得獎感言：「리더가 수상 소감 말하다가 울었어」（隊長發表得獎感言時哭了）。",
+            "cn": "队长通常带头喊团体口号、发表得奖感言：“리더가 수상 소감 말하다가 울었어”（队长发表得奖感言时哭了）。",
+            "ja": "番組でのあいさつの音頭や受賞スピーチはリーダーの役目：「리더가 수상 소감 말하다가 울었어」（リーダーが受賞コメントで泣いた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "막내",
+            "완전체"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "메인보컬": {
+        "nuance": {
+            "en": "Main vocalist: the strongest singer, who takes the hardest parts — high notes, ad-libs and the climax of the song.",
+            "es": "Vocalista principal: quien mejor canta y se queda con las partes más difíciles: notas altas, ad-libs y el clímax de la canción.",
+            "zh": "主唱：唱功最強的成員，負責高音、即興和歌曲高潮等最難的部分。",
+            "cn": "主唱：唱功最强的成员，负责高音、即兴和歌曲高潮等最难的部分。",
+            "ja": "メインボーカル。一番の歌唱力を持ち、高音やアドリブ、サビの盛り上がりなど難しいパートを担当する。"
+        },
+        "usage": {
+            "en": "Positions are a big part of fan talk: \"메인보컬 고음 라이브로 들으면 소름 돋아\" (\"The main vocal's high note live gives me chills\").",
+            "es": "Las posiciones son parte clave de la charla fan: \"메인보컬 고음 라이브로 들으면 소름 돋아\" (\"La nota alta de la vocalista principal en vivo me da escalofríos\").",
+            "zh": "隊內分工是粉絲常聊的話題：「메인보컬 고음 라이브로 들으면 소름 돋아」（主唱的現場高音聽了起雞皮疙瘩）。",
+            "cn": "队内分工是粉丝常聊的话题：“메인보컬 고음 라이브로 들으면 소름 돋아”（主唱的现场高音听了起鸡皮疙瘩）。",
+            "ja": "ポジションはファンの定番トーク：「메인보컬 고음 라이브로 들으면 소름 돋아」（メインボーカルの生の高音、鳥肌立つ）。"
+        },
+        "culture": {
+            "en": "K-pop groups often list each member's official position (main/lead/sub vocal, main dancer, main rapper, visual, center) — something many Western groups don't do.",
+            "es": "Los grupos de K-pop suelen asignar posiciones oficiales a cada miembro (vocal principal/líder/secundario, bailarín principal, rapero principal, visual, centro), algo poco común en grupos occidentales.",
+            "zh": "K-pop團體常會公布每位成員的官方位置（主唱／領唱／副唱、主舞、主Rap、顏擔、C位）——這在許多西方團體中並不常見。",
+            "cn": "K-pop团体常会公布每位成员的官方位置（主唱／领唱／副唱、主舞、主Rap、颜担、C位）——这在许多西方团体中并不常见。",
+            "ja": "K-POPグループは各メンバーの公式ポジション（メイン／リード／サブボーカル、メインダンサー、メインラッパー、ビジュアル、センター）を明示することが多い。欧米のグループではあまり見られない文化。"
+        },
+        "register": "everyday",
+        "similar": [
+            "리드보컬",
+            "서브보컬",
+            "라이브"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "센터": {
+        "nuance": {
+            "en": "The center: the member who stands in the middle of the formation at key moments, drawing the camera's focus.",
+            "es": "El centro: el miembro que se coloca en medio de la formación en los momentos clave y atrae la cámara.",
+            "zh": "C位：在關鍵時刻站在隊形正中央、吸引鏡頭焦點的成員。",
+            "cn": "C位：在关键时刻站在队形正中央、吸引镜头焦点的成员。",
+            "ja": "センター。重要な場面でフォーメーションの真ん中に立ち、カメラの注目を集めるメンバー。"
+        },
+        "usage": {
+            "en": "\"이번 곡은 막내가 센터야\" (\"The youngest member is center for this song\"). Who gets center is closely watched by fans.",
+            "es": "\"이번 곡은 막내가 센터야\" (\"En esta canción, la menor es el centro\"). Los fans siguen de cerca quién queda al centro.",
+            "zh": "「이번 곡은 막내가 센터야」（這首歌由忙內站C位）。誰站C位粉絲都很在意。",
+            "cn": "“이번 곡은 막내가 센터야”（这首歌由忙内站C位）。谁站C位粉丝都很在意。",
+            "ja": "「이번 곡은 막내가 센터야」（今回の曲はマンネがセンター）。誰がセンターかはファンの関心事。"
+        },
+        "register": "everyday",
+        "similar": [
+            "비주얼",
+            "칼군무",
+            "퍼포먼스"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "활동": {
+        "nuance": {
+            "en": "\"Activities\": the promotion period after a release, when a group performs on music shows, appears on variety shows and does fan events.",
+            "es": "\"Actividades\": el periodo de promoción tras un lanzamiento, cuando el grupo actúa en programas musicales, sale en shows de variedades y hace eventos con fans.",
+            "zh": "「活動」：發片後的宣傳期，團體會上音樂節目、綜藝和粉絲活動。",
+            "cn": "“活动”：发片后的宣传期，团体会上音乐节目、综艺和粉丝活动。",
+            "ja": "「活動」。リリース後のプロモーション期間で、音楽番組やバラエティ出演、ファンイベントなどを行う。"
+        },
+        "usage": {
+            "en": "\"이번 활동 끝나면 콘서트 한대\" (\"They'll hold a concert after this promotion ends\"). Also 활동기 (promo period) vs. 공백기 (hiatus).",
+            "es": "\"이번 활동 끝나면 콘서트 한대\" (\"Al terminar esta promoción harán un concierto\"). También 활동기 (periodo de promoción) vs. 공백기 (pausa).",
+            "zh": "「이번 활동 끝나면 콘서트 한대」（這次活動結束後要開演唱會）。也有활동기（活動期）和공백기（空白期）的對比。",
+            "cn": "“이번 활동 끝나면 콘서트 한대”（这次活动结束后要开演唱会）。也有활동기（活动期）和공백기（空白期）的对比。",
+            "ja": "「이번 활동 끝나면 콘서트 한대」（今回の活動が終わったらコンサートするって）。활동기（活動期）と공백기（空白期）の対比も。"
+        },
+        "register": "everyday",
+        "similar": [
+            "컴백",
+            "음악방송",
+            "후속곡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "자컨": {
+        "nuance": {
+            "en": "Short for 자체 콘텐츠 (\"in-house content\"): variety-style videos a group's own team makes and posts on its channels.",
+            "es": "Abreviatura de 자체 콘텐츠 (\"contenido propio\"): videos tipo variedades que el propio equipo del grupo produce y publica en sus canales.",
+            "zh": "자체 콘텐츠（自製內容）的縮寫：團體自家團隊製作、在官方頻道上傳的綜藝式影片。",
+            "cn": "자체 콘텐츠（自制内容）的缩写：团体自家团队制作、在官方频道上传的综艺式视频。",
+            "ja": "자체 콘텐츠（自主コンテンツ）の略。グループの自社チームが作って公式チャンネルに上げるバラエティ動画。"
+        },
+        "usage": {
+            "en": "\"공백기에도 자컨이 꾸준히 올라와서 좋아\" (\"I love that they keep posting self-content even during the hiatus\").",
+            "es": "\"공백기에도 자컨이 꾸준히 올라와서 좋아\" (\"Me encanta que sigan subiendo contenido propio incluso en la pausa\").",
+            "zh": "「공백기에도 자컨이 꾸준히 올라와서 좋아」（空白期也持續更新自製內容，好開心）。",
+            "cn": "“공백기에도 자컨이 꾸준히 올라와서 좋아”（空白期也持续更新自制内容，好开心）。",
+            "ja": "「공백기에도 자컨이 꾸준히 올라와서 좋아」（空白期でも自主コンテンツが上がるの嬉しい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "자컨돌",
+            "콘텐츠맛집",
+            "비하인드"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "굿즈": {
+        "nuance": {
+            "en": "From English \"goods\": official merch — light sticks, photocards, clothing, keyrings, season's greetings and more.",
+            "es": "Del inglés \"goods\": merch oficial, como light sticks, photocards, ropa, llaveros, season's greetings y más.",
+            "zh": "來自英文「goods」：官方周邊——應援棒、小卡、衣服、鑰匙圈、年曆等等。",
+            "cn": "来自英文“goods”：官方周边——应援棒、小卡、衣服、钥匙圈、年历等等。",
+            "ja": "英語の「goods」から。公式グッズのこと。ペンライト、トレカ、服、キーホルダー、シーズングリーティングなど。"
+        },
+        "usage": {
+            "en": "\"콘서트 굿즈 줄이 너무 길어\" (\"The concert merch line is so long\"). Fan-made items are 비공굿 (unofficial merch).",
+            "es": "\"콘서트 굿즈 줄이 너무 길어\" (\"La fila del merch del concierto es larguísima\"). Lo hecho por fans es 비공굿 (merch no oficial).",
+            "zh": "「콘서트 굿즈 줄이 너무 길어」（演唱會周邊的隊伍好長）。粉絲自製的叫비공굿（非官方周邊）。",
+            "cn": "“콘서트 굿즈 줄이 너무 길어”（演唱会周边的队伍好长）。粉丝自制的叫비공굿（非官方周边）。",
+            "ja": "「콘서트 굿즈 줄이 너무 길어」（コンサートのグッズ列が長すぎる）。ファン手作りのものは비공굿（非公式グッズ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "포카",
+            "응원봉",
+            "팝업스토어"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팬미팅": {
+        "nuance": {
+            "en": "A fan meeting: an event mixing talk segments, games and a few songs — more relaxed and personal than a concert.",
+            "es": "Un fan meeting: un evento con charlas, juegos y algunas canciones, más relajado y cercano que un concierto.",
+            "zh": "粉絲見面會：結合談話、遊戲和幾首歌的活動——比演唱會更輕鬆、更貼近粉絲。",
+            "cn": "粉丝见面会：结合谈话、游戏和几首歌的活动——比演唱会更轻松、更贴近粉丝。",
+            "ja": "ファンミーティング。トークやゲーム、数曲の歌を交えたイベントで、コンサートより気軽で距離が近い。"
+        },
+        "usage": {
+            "en": "Often shortened to 팬미: \"이번 팬미 게임 코너 너무 웃겼어\" (\"The game segment at this fan meeting was hilarious\").",
+            "es": "Suele acortarse a 팬미: \"이번 팬미 게임 코너 너무 웃겼어\" (\"La parte de juegos de este fan meeting fue graciosísima\").",
+            "zh": "常簡稱팬미：「이번 팬미 게임 코너 너무 웃겼어」（這次見面會的遊戲環節超好笑）。",
+            "cn": "常简称팬미：“이번 팬미 게임 코너 너무 웃겼어”（这次见面会的游戏环节超好笑）。",
+            "ja": "팬미と略すことも：「이번 팬미 게임 코너 너무 웃겼어」（今回のファンミのゲームコーナー面白すぎた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬싸",
+            "팬송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "쇼케이스": {
+        "nuance": {
+            "en": "A showcase: a release-day event where a group performs new songs and talks about the album, for press or fans.",
+            "es": "Un showcase: un evento el día del lanzamiento donde el grupo presenta canciones nuevas y habla del álbum ante prensa o fans.",
+            "zh": "Showcase：發片當天的活動，團體在媒體或粉絲面前表演新歌、介紹專輯。",
+            "cn": "Showcase：发片当天的活动，团体在媒体或粉丝面前表演新歌、介绍专辑。",
+            "ja": "ショーケース。リリース当日などに、メディアやファンの前で新曲を披露し、アルバムについて話すイベント。"
+        },
+        "usage": {
+            "en": "\"쇼케이스에서 신곡 처음 공개했어\" (\"They revealed the new song for the first time at the showcase\").",
+            "es": "\"쇼케이스에서 신곡 처음 공개했어\" (\"Presentaron la canción nueva por primera vez en el showcase\").",
+            "zh": "「쇼케이스에서 신곡 처음 공개했어」（在showcase上首次公開了新歌）。",
+            "cn": "“쇼케이스에서 신곡 처음 공개했어”（在showcase上首次公开了新歌）。",
+            "ja": "「쇼케이스에서 신곡 처음 공개했어」（ショーケースで新曲を初披露した）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "컴백",
+            "타이틀곡",
+            "컴백무대"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "세계관": {
+        "nuance": {
+            "en": "世界觀 — a group's storyline or universe, told through music videos, teasers and albums, with symbols fans decode.",
+            "es": "世界觀: el universo o historia de un grupo, contado en videoclips, teasers y álbumes, con símbolos que los fans descifran.",
+            "zh": "世界觀——團體透過MV、預告和專輯講述的故事宇宙，裡面藏著讓粉絲解讀的線索。",
+            "cn": "世界观——团体通过MV、预告和专辑讲述的故事宇宙，里面藏着让粉丝解读的线索。",
+            "ja": "世界観。MVやティーザー、アルバムを通して描かれるグループのストーリーや世界で、ファンが考察する伏線が散りばめられている。"
+        },
+        "usage": {
+            "en": "Theory threads love it: \"이번 뮤비로 세계관 떡밥 풀렸다\" (\"This MV finally explained some of the lore\").",
+            "es": "Los hilos de teorías lo adoran: \"이번 뮤비로 세계관 떡밥 풀렸다\" (\"Este MV por fin explicó parte del universo\").",
+            "zh": "考察串最愛：「이번 뮤비로 세계관 떡밥 풀렸다」（這支MV終於解開了世界觀的伏筆）。",
+            "cn": "考察串最爱：“이번 뮤비로 세계관 떡밥 풀렸다”（这支MV终于解开了世界观的伏笔）。",
+            "ja": "考察スレで大人気：「이번 뮤비로 세계관 떡밥 풀렸다」（今回のMVで世界観の伏線が回収された）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콘셉트",
+            "뮤비",
+            "티저"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "유닛": {
+        "nuance": {
+            "en": "A unit: a smaller sub-group made of some members of a group, releasing music with its own concept.",
+            "es": "Una subunidad: un grupo más pequeño formado por algunos miembros, que lanza música con su propio concepto.",
+            "zh": "小分隊：由團體部分成員組成的子團，以獨立概念發行音樂。",
+            "cn": "小分队：由团体部分成员组成的子团，以独立概念发行音乐。",
+            "ja": "ユニット。グループの一部メンバーで構成された小グループで、独自のコンセプトで活動する。"
+        },
+        "usage": {
+            "en": "\"보컬 유닛 나온다니까 너무 기대돼\" (\"A vocal unit is coming — I'm so excited\").",
+            "es": "\"보컬 유닛 나온다니까 너무 기대돼\" (\"Va a salir una subunidad vocal, ¡qué emoción!\").",
+            "zh": "「보컬 유닛 나온다니까 너무 기대돼」（聽說要出Vocal小分隊，好期待）。",
+            "cn": "“보컬 유닛 나온다니까 너무 기대돼”（听说要出Vocal小分队，好期待）。",
+            "ja": "「보컬 유닛 나온다니까 너무 기대돼」（ボーカルユニットが出るって、楽しみすぎる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "유닛곡",
+            "솔로데뷔",
+            "완전체"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "서브보컬": {
+        "nuance": {
+            "en": "Sub-vocalist: a member who sings supporting lines and harmonies, below the main and lead vocalists in the official lineup.",
+            "es": "Vocalista secundario: quien canta líneas de apoyo y armonías, después del vocalista principal y el líder vocal.",
+            "zh": "副唱：負責輔助段落和和聲的成員，排在主唱和領唱之後。",
+            "cn": "副唱：负责辅助段落和和声的成员，排在主唱和领唱之后。",
+            "ja": "サブボーカル。補助的なパートやハモリを担当するメンバーで、メイン・リードボーカルに次ぐポジション。"
+        },
+        "usage": {
+            "en": "Fans often hope a sub-vocal gets more lines: \"서브보컬인데 음색이 너무 좋아서 파트 더 줬으면\" (\"She's a sub-vocal, but her tone is so good I wish she got more lines\").",
+            "es": "Los fans suelen pedir más líneas para los secundarios: \"서브보컬인데 음색이 너무 좋아서 파트 더 줬으면\" (\"Es vocal secundaria, pero su tono es tan bonito que ojalá le dieran más partes\").",
+            "zh": "粉絲常希望副唱多分點歌詞：「서브보컬인데 음색이 너무 좋아서 파트 더 줬으면」（雖然是副唱，但音色太好了，希望多分點段落）。",
+            "cn": "粉丝常希望副唱多分点歌词：“서브보컬인데 음색이 너무 좋아서 파트 더 줬으면”（虽然是副唱，但音色太好了，希望多分点段落）。",
+            "ja": "サブボーカルのパートを増やしてほしいというファンも多い：「서브보컬인데 음색이 너무 좋아서 파트 더 줬으면」（サブボーカルだけど声が良すぎるからもっとパートを）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "메인보컬",
+            "리드보컬"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "리드보컬": {
+        "nuance": {
+            "en": "Lead vocalist: the second vocal position, carrying big parts of the song just below the main vocalist.",
+            "es": "Líder vocal: la segunda posición vocal, que lleva partes importantes de la canción justo después del vocalista principal.",
+            "zh": "領唱：第二主唱位置，負責歌曲中份量很重的段落，僅次於主唱。",
+            "cn": "领唱：第二主唱位置，负责歌曲中份量很重的段落，仅次于主唱。",
+            "ja": "リードボーカル。メインボーカルに次ぐポジションで、曲の重要なパートを多く担当する。"
+        },
+        "usage": {
+            "en": "\"리드보컬 파트에서 분위기가 확 바뀌어\" (\"The mood shifts completely at the lead vocal's part\").",
+            "es": "\"리드보컬 파트에서 분위기가 확 바뀌어\" (\"En la parte del líder vocal cambia todo el ambiente\").",
+            "zh": "「리드보컬 파트에서 분위기가 확 바뀌어」（到了領唱的段落，氣氛一下子就變了）。",
+            "cn": "“리드보컬 파트에서 분위기가 확 바뀌어”（到了领唱的段落，气氛一下子就变了）。",
+            "ja": "「리드보컬 파트에서 분위기가 확 바뀌어」（リードボーカルのパートで雰囲気が一気に変わる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "메인보컬",
+            "서브보컬"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "메인댄서": {
+        "nuance": {
+            "en": "Main dancer: the group's strongest dancer, often given dance breaks and the hardest moves.",
+            "es": "Bailarín principal: quien mejor baila en el grupo; suele llevarse los dance breaks y los pasos más difíciles.",
+            "zh": "主舞：團內舞蹈實力最強的成員，常負責Dance Break和最難的動作。",
+            "cn": "主舞：团内舞蹈实力最强的成员，常负责Dance Break和最难的动作。",
+            "ja": "メインダンサー。グループで一番のダンス実力者で、ダンスブレイクや難しい振り付けを任されることが多い。"
+        },
+        "usage": {
+            "en": "\"메인댄서 직캠은 꼭 따로 봐야 돼\" (\"You have to watch the main dancer's fancam separately\").",
+            "es": "\"메인댄서 직캠은 꼭 따로 봐야 돼\" (\"El fancam del bailarín principal hay que verlo aparte\").",
+            "zh": "「메인댄서 직캠은 꼭 따로 봐야 돼」（主舞的直拍一定要另外看）。",
+            "cn": "“메인댄서 직캠은 꼭 따로 봐야 돼”（主舞的直拍一定要另外看）。",
+            "ja": "「메인댄서 직캠은 꼭 따로 봐야 돼」（メインダンサーの直カムは絶対単独で見るべき）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "칼군무",
+            "퍼포먼스",
+            "직캠"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "메인래퍼": {
+        "nuance": {
+            "en": "Main rapper: the member who takes the main rap verses, often also writing their own lyrics.",
+            "es": "Rapero principal: el miembro que se encarga de los versos de rap principales y a menudo escribe sus propias letras.",
+            "zh": "主Rapper：負責主要Rap段落的成員，常常也自己寫詞。",
+            "cn": "主Rapper：负责主要Rap段落的成员，常常也自己写词。",
+            "ja": "メインラッパー。主要なラップパートを担当するメンバーで、自分で歌詞を書くことも多い。"
+        },
+        "usage": {
+            "en": "\"메인래퍼 벌스가 이 곡의 킬링파트야\" (\"The main rapper's verse is the killing part of this song\").",
+            "es": "\"메인래퍼 벌스가 이 곡의 킬링파트야\" (\"El verso del rapero principal es la mejor parte de esta canción\").",
+            "zh": "「메인래퍼 벌스가 이 곡의 킬링파트야」（主Rapper的那段是這首歌的Killing Part）。",
+            "cn": "“메인래퍼 벌스가 이 곡의 킬링파트야”（主Rapper的那段是这首歌的Killing Part）。",
+            "ja": "「메인래퍼 벌스가 이 곡의 킬링파트야」（メインラッパーのバースがこの曲のキリングパート）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "메인보컬",
+            "메인댄서"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "비하인드": {
+        "nuance": {
+            "en": "Behind-the-scenes footage: what happened off-camera at a shoot, stage or recording.",
+            "es": "Material detrás de cámaras: lo que pasó fuera de cámara en una sesión, escenario o grabación.",
+            "zh": "幕後花絮：拍攝、舞台或錄音時鏡頭外發生的事。",
+            "cn": "幕后花絮：拍摄、舞台或录音时镜头外发生的事。",
+            "ja": "ビハインド映像。撮影やステージ、レコーディングでカメラの外で起きていたこと。"
+        },
+        "usage": {
+            "en": "\"뮤비 비하인드 떴어!\" (\"The MV behind-the-scenes is out!\"). Fans often love these more than the main content.",
+            "es": "\"뮤비 비하인드 떴어!\" (\"¡Salió el detrás de cámaras del MV!\"). A muchos fans les gusta más que el contenido principal.",
+            "zh": "「뮤비 비하인드 떴어!」（MV幕後出來了！）。很多粉絲甚至更愛花絮。",
+            "cn": "“뮤비 비하인드 떴어!”（MV幕后出来了！）。很多粉丝甚至更爱花絮。",
+            "ja": "「뮤비 비하인드 떴어!」（MVのビハインド出た！）。本編よりビハインドが好きなファンも多い。"
+        },
+        "register": "everyday",
+        "similar": [
+            "자컨",
+            "백스테이지",
+            "셀프캠"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "칼군무": {
+        "nuance": {
+            "en": "\"Knife group dance\": choreography performed in perfect, razor-sharp sync — every arm and angle matching.",
+            "es": "\"Baile grupal de cuchillo\": coreografía en perfecta sincronía, afilada como navaja, con cada brazo y ángulo idéntico.",
+            "zh": "「刀群舞」：整齊到像刀切一樣的群舞——每個手臂和角度都一致。",
+            "cn": "“刀群舞”：整齐到像刀切一样的群舞——每个手臂和角度都一致。",
+            "ja": "「カル群舞」。ナイフで切ったようにそろった群舞で、腕の角度まで完璧に一致している。"
+        },
+        "usage": {
+            "en": "A big compliment: \"이 그룹 칼군무는 진짜 인정\" (\"This group's synchronization is undeniable\").",
+            "es": "Un gran elogio: \"이 그룹 칼군무는 진짜 인정\" (\"La sincronía de este grupo es innegable\").",
+            "zh": "高度讚美：「이 그룹 칼군무는 진짜 인정」（這團的刀群舞真的服氣）。",
+            "cn": "高度赞美：“이 그룹 칼군무는 진짜 인정”（这团的刀群舞真的服气）。",
+            "ja": "最高のほめ言葉：「이 그룹 칼군무는 진짜 인정」（このグループのカル群舞は本当に認める）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "퍼포먼스",
+            "메인댄서",
+            "센터"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage",
+            "praise"
+        ]
+    },
+    "킬링파트": {
+        "nuance": {
+            "en": "\"Killing part\": the most addictive, memorable moment of a song — often a hook, line or move.",
+            "es": "\"Killing part\": el momento más adictivo y memorable de una canción, muchas veces un gancho, una frase o un paso.",
+            "zh": "「Killing Part」：一首歌最上頭、最讓人印象深刻的瞬間——通常是副歌、某句歌詞或某個動作。",
+            "cn": "“Killing Part”：一首歌最上头、最让人印象深刻的瞬间——通常是副歌、某句歌词或某个动作。",
+            "ja": "「キリングパート」。曲の中で一番中毒性があり記憶に残る瞬間。フックや一節、振り付けのことも。"
+        },
+        "usage": {
+            "en": "\"이 곡 킬링파트는 2절 끝 고음이지\" (\"This song's killing part is the high note at the end of the second verse\").",
+            "es": "\"이 곡 킬링파트는 2절 끝 고음이지\" (\"La mejor parte de esta canción es la nota alta al final de la segunda estrofa\").",
+            "zh": "「이 곡 킬링파트는 2절 끝 고음이지」（這首歌的Killing Part就是第二段結尾的高音）。",
+            "cn": "“이 곡 킬링파트는 2절 끝 고음이지”（这首歌的Killing Part就是第二段结尾的高音）。",
+            "ja": "「이 곡 킬링파트는 2절 끝 고음이지」（この曲のキリングパートは2番終わりの高音でしょ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "후크송",
+            "챌린지",
+            "타이틀곡"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "후크송": {
+        "nuance": {
+            "en": "A \"hook song\": a track built around a short, repeated phrase that gets stuck in your head after one listen.",
+            "es": "Una \"hook song\": una canción construida alrededor de una frase corta y repetitiva que se te queda pegada al primer intento.",
+            "zh": "洗腦歌：圍繞一段簡短重複的旋律或歌詞打造，聽一次就忘不掉的歌。",
+            "cn": "洗脑歌：围绕一段简短重复的旋律或歌词打造，听一次就忘不掉的歌。",
+            "ja": "フックソング。短いフレーズの繰り返しを中心に作られ、一度聴いたら頭から離れない曲。"
+        },
+        "usage": {
+            "en": "\"후크송이라 하루 종일 머릿속에서 안 나가\" (\"It's a hook song, so it's been stuck in my head all day\").",
+            "es": "\"후크송이라 하루 종일 머릿속에서 안 나가\" (\"Es una canción pegajosa, no me sale de la cabeza en todo el día\").",
+            "zh": "「후크송이라 하루 종일 머릿속에서 안 나가」（是洗腦歌，一整天都在腦中循環）。",
+            "cn": "“후크송이라 하루 종일 머릿속에서 안 나가”（是洗脑歌，一整天都在脑中循环）。",
+            "ja": "「후크송이라 하루 종일 머릿속에서 안 나가」（フックソングだから一日中頭から離れない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "킬링파트",
+            "챌린지"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "데뷔조": {
+        "nuance": {
+            "en": "The \"debut team\": the trainees picked to debut together — especially the final lineup on a survival show.",
+            "es": "El \"equipo de debut\": los trainees elegidos para debutar juntos, sobre todo la formación final de un programa de supervivencia.",
+            "zh": "出道組：被選中一起出道的練習生——尤其是選秀節目的最終名單。",
+            "cn": "出道组：被选中一起出道的练习生——尤其是选秀节目的最终名单。",
+            "ja": "デビュー組。一緒にデビューする練習生たち。特にサバイバル番組の最終メンバーを指す。"
+        },
+        "usage": {
+            "en": "\"이번 순위로는 데뷔조에 들 것 같아\" (\"At this ranking, she looks set to make the debut lineup\").",
+            "es": "\"이번 순위로는 데뷔조에 들 것 같아\" (\"Con este puesto parece que entrará en el grupo de debut\").",
+            "zh": "「이번 순위로는 데뷔조에 들 것 같아」（照這次排名看，應該能進出道組）。",
+            "cn": "“이번 순위로는 데뷔조에 들 것 같아”（照这次排名看，应该能进出道组）。",
+            "ja": "「이번 순위로는 데뷔조에 들 것 같아」（今回の順位ならデビュー組に入れそう）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "연습생",
+            "서바이벌",
+            "데뷔"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "서바이벌": {
+        "nuance": {
+            "en": "A survival show: a competition program where trainees are ranked and eliminated until a final group debuts.",
+            "es": "Un programa de supervivencia: una competencia en la que los trainees son clasificados y eliminados hasta que debuta un grupo final.",
+            "zh": "選秀節目：練習生被排名、淘汰，直到最終組成出道團體的競賽節目。",
+            "cn": "选秀节目：练习生被排名、淘汰，直到最终组成出道团体的竞赛节目。",
+            "ja": "サバイバル番組。練習生が順位をつけられ脱落していき、最後に残ったメンバーでデビューする競争番組。"
+        },
+        "usage": {
+            "en": "\"이번 서바이벌 원픽 누구야?\" (\"Who's your one pick on this survival show?\").",
+            "es": "\"이번 서바이벌 원픽 누구야?\" (\"¿Quién es tu favorito en este programa de supervivencia?\").",
+            "zh": "「이번 서바이벌 원픽 누구야?」（這次選秀你的本命是誰？）。",
+            "cn": "“이번 서바이벌 원픽 누구야?”（这次选秀你的本命是谁？）。",
+            "ja": "「이번 서바이벌 원픽 누구야?」（今回のサバイバル番組の推しは誰？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데뷔조",
+            "국민프로듀서",
+            "탈락",
+            "원픽"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "재계약": {
+        "nuance": {
+            "en": "Contract renewal: whether members re-sign with their agency when their contract ends — a nervous time for fans.",
+            "es": "Renovación de contrato: si los miembros vuelven a firmar con su agencia al terminar el contrato, un momento de nervios para los fans.",
+            "zh": "續約：合約到期時成員是否和經紀公司續簽——粉絲最緊張的時期。",
+            "cn": "续约：合约到期时成员是否和经纪公司续签——粉丝最紧张的时期。",
+            "ja": "再契約。契約満了時にメンバーが事務所と契約を更新するかどうか。ファンがやきもきする時期。"
+        },
+        "usage": {
+            "en": "\"전원 재계약 소식 떴다!\" (\"News just dropped: all members renewed!\").",
+            "es": "\"전원 재계약 소식 떴다!\" (\"¡Confirmado: todos los miembros renovaron!\").",
+            "zh": "「전원 재계약 소식 떴다!」（全員續約的消息出來了！）。",
+            "cn": "“전원 재계약 소식 떴다!”（全员续约的消息出来了！）。",
+            "ja": "「전원 재계약 소식 떴다!」（全員再契約のニュース来た！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "전속계약",
+            "소속사"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "전속계약": {
+        "nuance": {
+            "en": "專屬契約 — an exclusive contract tying an artist to one agency for a set period.",
+            "es": "專屬契約: un contrato exclusivo que vincula a un artista con una sola agencia por un tiempo determinado.",
+            "zh": "專屬合約——將藝人在一定期間內綁定於單一經紀公司的合約。",
+            "cn": "专属合约——将艺人在一定期间内绑定於单一经纪公司的合约。",
+            "ja": "専属契約。一定期間、アーティストを一つの事務所に所属させる契約。"
+        },
+        "usage": {
+            "en": "Usually seen in news: \"전속계약 만료\" (contract expiry), \"전속계약 분쟁\" (contract dispute).",
+            "es": "Suele verse en noticias: \"전속계약 만료\" (fin del contrato), \"전속계약 분쟁\" (disputa contractual).",
+            "zh": "常見於新聞：「전속계약 만료」（合約到期）、「전속계약 분쟁」（合約糾紛）。",
+            "cn": "常见于新闻：“전속계약 만료”（合约到期）、“전속계약 분쟁”（合约纠纷）。",
+            "ja": "ニュースでよく見る：「전속계약 만료」（専属契約満了）、「전속계약 분쟁」（契約紛争）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "재계약",
+            "소속사",
+            "정산"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "정산": {
+        "nuance": {
+            "en": "精算 — the settlement of earnings between artist and agency, after costs like training and production are recouped.",
+            "es": "精算: el reparto de ganancias entre artista y agencia, una vez recuperados costos como entrenamiento y producción.",
+            "zh": "精算（結算）——藝人和經紀公司之間的收益分配，通常要先扣回培訓、製作等成本。",
+            "cn": "精算（结算）——艺人和经纪公司之间的收益分配，通常要先扣回培训、制作等成本。",
+            "ja": "精算。練習や制作などの費用を回収した後に行われる、アーティストと事務所の収益の分配。"
+        },
+        "usage": {
+            "en": "\"드디어 첫 정산 받았대\" (\"They finally got their first payout\") — a milestone idols sometimes mention on shows.",
+            "es": "\"드디어 첫 정산 받았대\" (\"Por fin recibieron su primer pago\"), un hito que algunos idols mencionan en programas.",
+            "zh": "「드디어 첫 정산 받았대」（聽說終於拿到第一次分潤了）——偶像有時會在節目上提到的里程碑。",
+            "cn": "“드디어 첫 정산 받았대”（听说终于拿到第一次分润了）——偶像有时会在节目上提到的里程碑。",
+            "ja": "「드디어 첫 정산 받았대」（ついに初めての精算を受け取ったって）。アイドルが番組で語ることもある節目。"
+        },
+        "register": "everyday",
+        "similar": [
+            "전속계약",
+            "소속사"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "완전체": {
+        "nuance": {
+            "en": "\"Complete form\": the full group with every member present — after solo work, military service or a hiatus.",
+            "es": "\"Forma completa\": el grupo entero con todos los miembros, después de actividades en solitario, servicio militar o una pausa.",
+            "zh": "「完全體」：全員到齊的完整團體——通常在個人活動、兵役或空白期之後。",
+            "cn": "“完全体”：全员到齐的完整团体——通常在个人活动、兵役或空白期之后。",
+            "ja": "「完全体」。メンバー全員がそろった状態。ソロ活動や兵役、活動休止の後によく使う。"
+        },
+        "usage": {
+            "en": "\"완전체 컴백이 몇 년 만이야!\" (\"A full-group comeback after how many years!\").",
+            "es": "\"완전체 컴백이 몇 년 만이야!\" (\"¡Un comeback con todos los miembros después de tantos años!\").",
+            "zh": "「완전체 컴백이 몇 년 만이야!」（隔了幾年的完全體回歸！）。",
+            "cn": "“완전체 컴백이 몇 년 만이야!”（隔了几年的完全体回归！）。",
+            "ja": "「완전체 컴백이 몇 년 만이야!」（完全体カムバック、何年ぶり！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "유닛",
+            "리더",
+            "컴백"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "싱글": {
+        "nuance": {
+            "en": "A single: a short release with one or a few songs, smaller than a mini album.",
+            "es": "Un sencillo: un lanzamiento corto con una o pocas canciones, más pequeño que un mini álbum.",
+            "zh": "單曲：只有一首或少數幾首歌的發行，比迷你專輯小。",
+            "cn": "单曲：只有一首或少数几首歌的发行，比迷你专辑小。",
+            "ja": "シングル。1曲か数曲だけのリリースで、ミニアルバムより小規模。"
+        },
+        "usage": {
+            "en": "\"이번엔 디지털 싱글로 나온대\" (\"This time it's coming out as a digital single\").",
+            "es": "\"이번엔 디지털 싱글로 나온대\" (\"Esta vez sale como sencillo digital\").",
+            "zh": "「이번엔 디지털 싱글로 나온대」（這次是以數位單曲發行）。",
+            "cn": "“이번엔 디지털 싱글로 나온대”（这次是以数字单曲发行）。",
+            "ja": "「이번엔 디지털 싱글로 나온대」（今回はデジタルシングルで出るって）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "미니앨범",
+            "정규앨범",
+            "타이틀곡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "타이틀곡": {
+        "nuance": {
+            "en": "The title track: the album's lead song, with the music video and music-show promotions.",
+            "es": "La canción principal: la del álbum que tiene videoclip y se promociona en programas musicales.",
+            "zh": "主打歌：專輯的代表曲，會拍MV、上音樂節目宣傳。",
+            "cn": "主打歌：专辑的代表曲，会拍MV、上音乐节目宣传。",
+            "ja": "タイトル曲。アルバムのリード曲で、MVが作られ音楽番組で披露される。"
+        },
+        "usage": {
+            "en": "\"타이틀곡보다 수록곡이 더 좋아\" (\"I like the B-sides more than the title track\") is a classic fan opinion.",
+            "es": "\"타이틀곡보다 수록곡이 더 좋아\" (\"Me gustan más las otras canciones que la principal\") es una opinión fan clásica.",
+            "zh": "「타이틀곡보다 수록곡이 더 좋아」（比起主打歌，我更喜歡收錄曲）是經典的粉絲發言。",
+            "cn": "“타이틀곡보다 수록곡이 더 좋아”（比起主打歌，我更喜欢收录曲）是经典的粉丝发言。",
+            "ja": "「타이틀곡보다 수록곡이 더 좋아」（タイトル曲より収録曲が好き）はファンの定番意見。"
+        },
+        "register": "everyday",
+        "similar": [
+            "수록곡",
+            "후속곡",
+            "컴백무대"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "수록곡": {
+        "nuance": {
+            "en": "A B-side: any album track that isn't the title track. Fans often argue some B-sides deserved to be the title.",
+            "es": "Una canción B-side: cualquier tema del álbum que no es el principal. Los fans suelen decir que algunos merecían ser el sencillo.",
+            "zh": "收錄曲：專輯中主打歌以外的歌。粉絲常說某些收錄曲更適合當主打。",
+            "cn": "收录曲：专辑中主打歌以外的歌。粉丝常说某些收录曲更适合当主打。",
+            "ja": "収録曲。タイトル曲以外のアルバム曲。「この収録曲こそタイトルにすべきだった」と語るファンも多い。"
+        },
+        "usage": {
+            "en": "\"수록곡 맛집이야, 전곡 다 좋아\" (\"This album is full of great B-sides — every track is good\").",
+            "es": "\"수록곡 맛집이야, 전곡 다 좋아\" (\"Este álbum está lleno de joyas, todas las canciones son buenas\").",
+            "zh": "「수록곡 맛집이야, 전곡 다 좋아」（收錄曲寶藏專輯，每首都好聽）。",
+            "cn": "“수록곡 맛집이야, 전곡 다 좋아”（收录曲宝藏专辑，每首都好听）。",
+            "ja": "「수록곡 맛집이야, 전곡 다 좋아」（収録曲の名店、全曲いい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "타이틀곡",
+            "정규앨범",
+            "미니앨범"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "정규앨범": {
+        "nuance": {
+            "en": "正規 album — a full-length studio album, usually ten or more tracks. A first one is a milestone for a group.",
+            "es": "Álbum 正規: un álbum de estudio completo, normalmente de diez canciones o más. El primero es un hito para un grupo.",
+            "zh": "正規專輯——完整長度的錄音室專輯，通常十首以上。第一張正規專輯是團體的重要里程碑。",
+            "cn": "正规专辑——完整长度的录音室专辑，通常十首以上。第一张正规专辑是团体的重要里程碑。",
+            "ja": "正規アルバム。通常10曲以上のフルアルバムで、1stフルアルバムはグループにとって大きな節目。"
+        },
+        "usage": {
+            "en": "\"데뷔 3년 만에 첫 정규앨범이야\" (\"It's their first full album, three years after debut\").",
+            "es": "\"데뷔 3년 만에 첫 정규앨범이야\" (\"Es su primer álbum completo, tres años después del debut\").",
+            "zh": "「데뷔 3년 만에 첫 정규앨범이야」（出道三年才出第一張正規專輯）。",
+            "cn": "“데뷔 3년 만에 첫 정규앨범이야”（出道三年才出第一张正规专辑）。",
+            "ja": "「데뷔 3년 만에 첫 정규앨범이야」（デビュー3年で初の正規アルバム）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "미니앨범",
+            "싱글",
+            "수록곡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "미니앨범": {
+        "nuance": {
+            "en": "A mini album (EP): usually around four to seven tracks — the most common K-pop release format.",
+            "es": "Un mini álbum (EP): normalmente de cuatro a siete canciones, el formato de lanzamiento más común en el K-pop.",
+            "zh": "迷你專輯（EP）：大約四到七首歌，是K-pop最常見的發行形式。",
+            "cn": "迷你专辑（EP）：大约四到七首歌，是K-pop最常见的发行形式。",
+            "ja": "ミニアルバム（EP）。だいたい4〜7曲で、K-POPで最も一般的なリリース形態。"
+        },
+        "usage": {
+            "en": "Albums are often numbered: \"5th 미니앨범\" (\"5th mini album\").",
+            "es": "Los álbumes suelen numerarse: \"5th 미니앨범\" (\"5.º mini álbum\").",
+            "zh": "專輯常會編號：「5th 미니앨범」（第五張迷你專輯）。",
+            "cn": "专辑常会编号：“5th 미니앨범”（第五张迷你专辑）。",
+            "ja": "番号付きで呼ぶことが多い：「5th 미니앨범」（5thミニアルバム）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "정규앨범",
+            "싱글"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "안무가": {
+        "nuance": {
+            "en": "按舞家 — a choreographer who creates a song's dance. Some have become famous in their own right.",
+            "es": "按舞家: el coreógrafo que crea el baile de una canción. Algunos se han vuelto famosos por sí mismos.",
+            "zh": "編舞家：負責創作歌曲舞蹈的人，有些本身也成了名人。",
+            "cn": "编舞家：负责创作歌曲舞蹈的人，有些本身也成了名人。",
+            "ja": "振付師。曲のダンスを作る人で、本人が有名になるケースもある。"
+        },
+        "usage": {
+            "en": "\"이번 안무가 누구야? 동작 진짜 독특해\" (\"Who choreographed this one? The moves are so unique\").",
+            "es": "\"이번 안무가 누구야? 동작 진짜 독특해\" (\"¿Quién hizo esta coreografía? Los pasos son muy originales\").",
+            "zh": "「이번 안무가 누구야? 동작 진짜 독특해」（這次是誰編的舞？動作好特別）。",
+            "cn": "“이번 안무가 누구야? 동작 진짜 독특해”（这次是谁编的舞？动作好特别）。",
+            "ja": "「이번 안무가 누구야? 동작 진짜 독특해」（今回の振付師誰？動きが独特）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "퍼포먼스",
+            "칼군무",
+            "안무영상"
+        ],
+        "tags": [
+            "industry",
+            "stage"
+        ]
+    },
+    "작곡가": {
+        "nuance": {
+            "en": "作曲家 — a composer who writes a song's music. Fans check album credits to see who wrote what.",
+            "es": "作曲家: el compositor que escribe la música de una canción. Los fans revisan los créditos para ver quién hizo qué.",
+            "zh": "作曲家：負責寫歌曲旋律的人。粉絲會看專輯製作名單確認是誰寫的。",
+            "cn": "作曲家：负责写歌曲旋律的人。粉丝会看专辑制作名单确认是谁写的。",
+            "ja": "作曲家。曲のメロディーを作る人。ファンはクレジットで誰が書いたかをチェックする。"
+        },
+        "usage": {
+            "en": "\"멤버가 작곡가로 이름 올렸어!\" (\"A member is credited as composer!\").",
+            "es": "\"멤버가 작곡가로 이름 올렸어!\" (\"¡Un miembro aparece como compositor!\").",
+            "zh": "「멤버가 작곡가로 이름 올렸어!」（成員名列作曲了！）。",
+            "cn": "“멤버가 작곡가로 이름 올렸어!”（成员名列作曲了！）。",
+            "ja": "「멤버가 작곡가로 이름 올렸어!」（メンバーが作曲にクレジットされた！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "작사가",
+            "프로듀서",
+            "자체제작돌"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "작사가": {
+        "nuance": {
+            "en": "作詞家 — a lyricist who writes a song's words.",
+            "es": "作詞家: quien escribe la letra de una canción.",
+            "zh": "作詞家：負責寫歌詞的人。",
+            "cn": "作词家：负责写歌词的人。",
+            "ja": "作詞家。曲の歌詞を書く人。"
+        },
+        "usage": {
+            "en": "\"이번 가사 멤버가 직접 썼대\" (\"They say a member wrote these lyrics\"). Credits are listed as 작사 (lyrics), 작곡 (music), 편곡 (arrangement).",
+            "es": "\"이번 가사 멤버가 직접 썼대\" (\"Dicen que un miembro escribió esta letra\"). Los créditos aparecen como 작사 (letra), 작곡 (música), 편곡 (arreglos).",
+            "zh": "「이번 가사 멤버가 직접 썼대」（聽說這次的歌詞是成員親自寫的）。製作名單會寫작사（作詞）、작곡（作曲）、편곡（編曲）。",
+            "cn": "“이번 가사 멤버가 직접 썼대”（听说这次的歌词是成员亲自写的）。制作名单会写작사（作词）、작곡（作曲）、편곡（编曲）。",
+            "ja": "「이번 가사 멤버가 직접 썼대」（今回の歌詞、メンバーが書いたって）。クレジットは작사（作詞）、작곡（作曲）、편곡（編曲）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "작곡가",
+            "프로듀서"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "스타일리스트": {
+        "nuance": {
+            "en": "A stylist who plans an idol's outfits and overall look for stages, shoots and events.",
+            "es": "Un estilista que planea los outfits y el look de un idol para escenarios, sesiones y eventos.",
+            "zh": "造型師：負責規劃偶像舞台、拍攝和活動的服裝與整體造型。",
+            "cn": "造型师：负责规划偶像舞台、拍摄和活动的服装与整体造型。",
+            "ja": "スタイリスト。ステージや撮影、イベントでのアイドルの衣装や全体のスタイリングを担当する。"
+        },
+        "usage": {
+            "en": "Fans praise or blame them by outfit: \"스타일리스트 이번엔 일 잘했다\" (\"The stylist did a great job this time\").",
+            "es": "Los fans los elogian o critican según los outfits: \"스타일리스트 이번엔 일 잘했다\" (\"Esta vez el estilista lo hizo genial\").",
+            "zh": "粉絲會依服裝誇讚或抱怨：「스타일리스트 이번엔 일 잘했다」（這次造型師做得很好）。",
+            "cn": "粉丝会依服装夸赞或抱怨：“스타일리스트 이번엔 일 잘했다”（这次造型师做得很好）。",
+            "ja": "衣装次第で褒められたり責められたり：「스타일리스트 이번엔 일 잘했다」（今回スタイリストいい仕事した）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "코디",
+            "무대의상",
+            "메이크업아티스트"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "라인업": {
+        "nuance": {
+            "en": "A lineup: the members of a group, or the list of artists performing at an event.",
+            "es": "Una alineación: los miembros de un grupo o la lista de artistas que actúan en un evento.",
+            "zh": "陣容：團體的成員組成，或活動的表演藝人名單。",
+            "cn": "阵容：团体的成员组成，或活动的表演艺人名单。",
+            "ja": "ラインナップ。グループのメンバー構成や、イベントの出演者リスト。"
+        },
+        "usage": {
+            "en": "\"연말 무대 라인업 떴어!\" (\"The year-end show lineup is out!\").",
+            "es": "\"연말 무대 라인업 떴어!\" (\"¡Salió la lista de artistas del show de fin de año!\").",
+            "zh": "「연말 무대 라인업 떴어!」（年末舞台陣容公布了！）。",
+            "cn": "“연말 무대 라인업 떴어!”（年末舞台阵容公布了！）。",
+            "ja": "「연말 무대 라인업 떴어!」（年末ステージのラインナップ出た！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "완전체",
+            "가요대전",
+            "데뷔조"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "신곡": {
+        "nuance": {
+            "en": "新曲 — a new song. The everyday word for any freshly released track.",
+            "es": "新曲: una canción nueva. La palabra cotidiana para cualquier tema recién salido.",
+            "zh": "新曲——新歌，任何剛發行的歌都可以這樣叫。",
+            "cn": "新曲——新歌，任何刚发行的歌都可以这样叫。",
+            "ja": "新曲。リリースされたばかりの曲を指す一般的な言葉。"
+        },
+        "usage": {
+            "en": "\"신곡 나오자마자 무한 반복 중\" (\"I've had the new song on repeat since it dropped\").",
+            "es": "\"신곡 나오자마자 무한 반복 중\" (\"Tengo la canción nueva en bucle desde que salió\").",
+            "zh": "「신곡 나오자마자 무한 반복 중」（新歌一出就無限循環中）。",
+            "cn": "“신곡 나오자마자 무한 반복 중”（新歌一出就无限循环中）。",
+            "ja": "「신곡 나오자마자 무한 반복 중」（新曲出た瞬間から無限リピート中）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "컴백",
+            "타이틀곡",
+            "티저"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "프로듀서": {
+        "nuance": {
+            "en": "A producer who shapes a song's overall sound — and in K-pop, sometimes a group's whole musical direction.",
+            "es": "Un productor que define el sonido general de una canción y, en el K-pop, a veces toda la dirección musical de un grupo.",
+            "zh": "製作人：決定歌曲整體聲音的人——在K-pop中有時也主導團體的整個音樂方向。",
+            "cn": "制作人：决定歌曲整体声音的人——在K-pop中有时也主导团体的整个音乐方向。",
+            "ja": "プロデューサー。曲全体のサウンドを作る人。K-POPではグループの音楽的方向性全体を担うことも。"
+        },
+        "usage": {
+            "en": "\"이번 앨범 멤버가 프로듀싱했대\" (\"A member produced this album\") — a point of pride for self-producing groups.",
+            "es": "\"이번 앨범 멤버가 프로듀싱했대\" (\"Un miembro produjo este álbum\"), motivo de orgullo para grupos que se autoproducen.",
+            "zh": "「이번 앨범 멤버가 프로듀싱했대」（這張專輯是成員製作的）——自製團體的驕傲。",
+            "cn": "“이번 앨범 멤버가 프로듀싱했대”（这张专辑是成员制作的）——自制团体的骄傲。",
+            "ja": "「이번 앨범 멤버가 프로듀싱했대」（今回のアルバム、メンバーがプロデュースしたって）。自主制作グループの誇り。"
+        },
+        "register": "everyday",
+        "similar": [
+            "작곡가",
+            "자체제작돌",
+            "국민프로듀서"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "콜라보": {
+        "nuance": {
+            "en": "Short for \"collaboration\": two artists working together, or an idol teaming up with a brand.",
+            "es": "Abreviatura de \"colaboración\": dos artistas que trabajan juntos o un idol que se une a una marca.",
+            "zh": "collaboration的縮寫：兩位藝人合作，或偶像與品牌聯名。",
+            "cn": "collaboration的缩写：两位艺人合作，或偶像与品牌联名。",
+            "ja": "「コラボレーション」の略。アーティスト同士の共演や、アイドルとブランドのコラボ。"
+        },
+        "usage": {
+            "en": "\"이 콜라보 조합 미쳤다\" (\"This collab combo is insane\").",
+            "es": "\"이 콜라보 조합 미쳤다\" (\"Esta combinación de colaboración es una locura\").",
+            "zh": "「이 콜라보 조합 미쳤다」（這個合作組合太狂了）。",
+            "cn": "“이 콜라보 조합 미쳤다”（这个合作组合太狂了）。",
+            "ja": "「이 콜라보 조합 미쳤다」（このコラボの組み合わせやばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "피처링",
+            "팝업스토어",
+            "광고모델"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "온택트": {
+        "nuance": {
+            "en": "\"Online + contact\": a Korean-coined word for meeting and connecting online — fan meetings, concerts and events held over the internet.",
+            "es": "\"Online + contacto\": palabra creada en Corea para conectar en línea, como fan meetings, conciertos y eventos por internet.",
+            "zh": "「Online＋contact」：韓國自創的詞，指透過網路見面交流——線上見面會、演唱會等活動。",
+            "cn": "“Online＋contact”：韩国自创的词，指通过网络见面交流——在线见面会、演唱会等活动。",
+            "ja": "「オンライン＋コンタクト」。韓国で生まれた造語で、ネットを通じてつながること。オンラインのファンミやコンサートなど。"
+        },
+        "usage": {
+            "en": "Mostly in event names: \"온택트 팬미팅\" (\"online fan meeting\"). It spread widely in 2020, when in-person events stopped.",
+            "es": "Sobre todo en nombres de eventos: \"온택트 팬미팅\" (\"fan meeting en línea\"). Se extendió en 2020, cuando se suspendieron los eventos presenciales.",
+            "zh": "多用在活動名稱：「온택트 팬미팅」（線上見面會）。在2020年實體活動停擺時廣泛流行。",
+            "cn": "多用在活动名称：“온택트 팬미팅”（在线见面会）。在2020年实体活动停摆时广泛流行。",
+            "ja": "主にイベント名で：「온택트 팬미팅」（オンラインファンミーティング）。対面イベントが止まった2020年に広まった。"
+        },
+        "register": "everyday",
+        "similar": [
+            "랜선",
+            "온라인콘서트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "랜선": {
+        "nuance": {
+            "en": "\"LAN cable\": used before a noun to mean \"online\" or \"virtual\" — 랜선 콘서트, 랜선 이모 (an online \"aunt\" who adores a celebrity's kid).",
+            "es": "\"Cable LAN\": se pone antes de un sustantivo para decir \"en línea\" o \"virtual\": 랜선 콘서트, 랜선 이모 (una \"tía\" virtual que adora al hijo de un famoso).",
+            "zh": "「網路線」：放在名詞前表示「線上的、虛擬的」——랜선 콘서트（線上演唱會）、랜선 이모（在網路上疼愛明星孩子的「阿姨」）。",
+            "cn": "“网络线”：放在名词前表示“在线的、虚拟的”——랜선 콘서트（在线演唱会）、랜선 이모（在网络上疼爱明星孩子的“阿姨”）。",
+            "ja": "「LANケーブル」。名詞の前につけて「オンラインの、バーチャルの」の意味に。랜선 콘서트（オンラインコンサート）、랜선 이모（芸能人の子をネットで見守る「おば」）。"
+        },
+        "usage": {
+            "en": "\"랜선으로 같이 응원하자!\" (\"Let's cheer together online!\").",
+            "es": "\"랜선으로 같이 응원하자!\" (\"¡Animemos juntos en línea!\").",
+            "zh": "「랜선으로 같이 응원하자!」（一起在線上應援吧！）。",
+            "cn": "“랜선으로 같이 응원하자!”（一起在在线应援吧！）。",
+            "ja": "「랜선으로 같이 응원하자!」（オンラインで一緒に応援しよう！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "온택트",
+            "온라인콘서트"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "무대매너": {
+        "nuance": {
+            "en": "Stage manners: how an idol carries themselves on stage — eye contact, interaction with fans, professionalism through mistakes.",
+            "es": "Modales en el escenario: cómo se comporta un idol en el escenario, con contacto visual, interacción con los fans y profesionalismo ante errores.",
+            "zh": "舞台禮儀：偶像在舞台上的表現——眼神交流、和粉絲互動、出錯時的專業態度。",
+            "cn": "舞台礼仪：偶像在舞台上的表现——眼神交流、和粉丝交互、出错时的专业态度。",
+            "ja": "ステージマナー。ステージ上での振る舞い。アイコンタクトやファンとの交流、ミスの時のプロ意識など。"
+        },
+        "usage": {
+            "en": "\"무대매너가 너무 좋아서 입덕했어\" (\"His stage manners are what got me into the fandom\").",
+            "es": "\"무대매너가 너무 좋아서 입덕했어\" (\"Me hice fan por lo buenos que son sus modales en el escenario\").",
+            "zh": "「무대매너가 너무 좋아서 입덕했어」（因為舞台禮儀太好而入坑）。",
+            "cn": "“무대매너가 너무 좋아서 입덕했어”（因为舞台礼仪太好而入坑）。",
+            "ja": "「무대매너가 너무 좋아서 입덕했어」（ステージマナーが良すぎて沼った）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "무대장악력",
+            "존재감",
+            "팬서비스"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage",
+            "praise"
+        ]
+    },
+    "티키타카": {
+        "nuance": {
+            "en": "From the football style tiki-taka (quick short passes): fast, natural back-and-forth banter between people with great chemistry.",
+            "es": "Del estilo de fútbol tiki-taka (pases cortos y rápidos): intercambio de bromas rápido y natural entre personas con mucha química.",
+            "zh": "來自足球的tiki-taka（快速短傳）：默契好的人之間你一言我一語、自然又快速的互動。",
+            "cn": "来自足球的tiki-taka（快速短传）：默契好的人之间你一言我一语、自然又快速的交互。",
+            "ja": "サッカーのティキ・タカ（素早いショートパス）から。相性のいい人同士の、テンポのいい掛け合い。"
+        },
+        "usage": {
+            "en": "\"두 사람 티키타카 너무 웃겨\" (\"The banter between those two is hilarious\").",
+            "es": "\"두 사람 티키타카 너무 웃겨\" (\"El ida y vuelta entre esos dos es graciosísimo\").",
+            "zh": "「두 사람 티키타카 너무 웃겨」（兩人的你來我往太好笑了）。",
+            "cn": "“두 사람 티키타카 너무 웃겨”（两人的你来我往太好笑了）。",
+            "ja": "「두 사람 티키타카 너무 웃겨」（二人の掛け合い面白すぎる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "케미",
+            "예능돌"
+        ],
+        "tags": [
+            "reaction",
+            "praise"
+        ]
+    },
+    "걸그룹": {
+        "nuance": {
+            "en": "A girl group: a K-pop group made up of women.",
+            "es": "Un girl group: un grupo de K-pop formado por mujeres.",
+            "zh": "女團：由女性成員組成的K-pop團體。",
+            "cn": "女团：由女性成员组成的K-pop团体。",
+            "ja": "ガールズグループ。女性メンバーで構成されたK-POPグループ。"
+        },
+        "usage": {
+            "en": "Also in generations: \"4세대 걸그룹\" (\"fourth-generation girl groups\").",
+            "es": "También por generaciones: \"4세대 걸그룹\" (\"girl groups de cuarta generación\").",
+            "zh": "也會分世代：「4세대 걸그룹」（第四代女團）。",
+            "cn": "也会分世代：“4세대 걸그룹”（第四代女团）。",
+            "ja": "世代で分けることも：「4세대 걸그룹」（第4世代ガールズグループ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "보이그룹",
+            "혼성그룹"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "보이그룹": {
+        "nuance": {
+            "en": "A boy group: a K-pop group made up of men. Often shortened to 남돌 (male idols).",
+            "es": "Un boy group: un grupo de K-pop formado por hombres. Suele decirse 남돌 (idols hombres).",
+            "zh": "男團：由男性成員組成的K-pop團體，常簡稱남돌（男偶像）。",
+            "cn": "男团：由男性成员组成的K-pop团体，常简称남돌（男偶像）。",
+            "ja": "ボーイズグループ。男性メンバーで構成されたK-POPグループ。남돌（男性アイドル）とも。"
+        },
+        "usage": {
+            "en": "\"요즘 보이그룹 중에 퍼포먼스 제일 잘하는 팀은?\" (\"Which boy group has the best performances right now?\").",
+            "es": "\"요즘 보이그룹 중에 퍼포먼스 제일 잘하는 팀은?\" (\"¿Qué boy group tiene las mejores presentaciones ahora?\").",
+            "zh": "「요즘 보이그룹 중에 퍼포먼스 제일 잘하는 팀은?」（最近男團中表演最強的是哪團？）。",
+            "cn": "“요즘 보이그룹 중에 퍼포먼스 제일 잘하는 팀은?”（最近男团中表演最强的是哪团？）。",
+            "ja": "「요즘 보이그룹 중에 퍼포먼스 제일 잘하는 팀은?」（最近のボーイズグループでパフォーマンス一番すごいのは？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "걸그룹",
+            "혼성그룹"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "혼성그룹": {
+        "nuance": {
+            "en": "混成 group — a co-ed group with both men and women. Much rarer in K-pop than boy or girl groups.",
+            "es": "Grupo 混成: un grupo mixto con hombres y mujeres. Mucho menos común en el K-pop que los grupos de chicos o chicas.",
+            "zh": "混聲團體——男女成員混合的團體，在K-pop中比男團、女團少見得多。",
+            "cn": "混声团体——男女成员混合的团体，在K-pop中比男团、女团少见得多。",
+            "ja": "混成グループ。男女混合のグループで、K-POPでは男女別のグループよりずっと少ない。"
+        },
+        "usage": {
+            "en": "\"혼성그룹은 요즘 보기 드물어\" (\"Co-ed groups are rare these days\").",
+            "es": "\"혼성그룹은 요즘 보기 드물어\" (\"Los grupos mixtos son raros hoy en día\").",
+            "zh": "「혼성그룹은 요즘 보기 드물어」（最近很少見到混聲團體）。",
+            "cn": "“혼성그룹은 요즘 보기 드물어”（最近很少见到混声团体）。",
+            "ja": "「혼성그룹은 요즘 보기 드물어」（最近、男女混合グループは珍しい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "걸그룹",
+            "보이그룹"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "데뷔곡": {
+        "nuance": {
+            "en": "A debut song: the very first song a group or artist releases.",
+            "es": "Una canción de debut: la primera canción que lanza un grupo o artista.",
+            "zh": "出道曲：團體或歌手發行的第一首歌。",
+            "cn": "出道曲：团体或歌手发行的第一首歌。",
+            "ja": "デビュー曲。グループや歌手が最初にリリースする曲。"
+        },
+        "usage": {
+            "en": "Revisiting it is a fan ritual: \"데뷔곡 다시 들으니까 감회가 새롭다\" (\"Listening to the debut song again brings back so many feelings\").",
+            "es": "Volver a escucharla es un ritual fan: \"데뷔곡 다시 들으니까 감회가 새롭다\" (\"Volver a oír la canción de debut me trae muchos recuerdos\").",
+            "zh": "重聽出道曲是粉絲儀式：「데뷔곡 다시 들으니까 감회가 새롭다」（重聽出道曲感觸好深）。",
+            "cn": "重听出道曲是粉丝仪式：“데뷔곡 다시 들으니까 감회가 새롭다”（重听出道曲感触好深）。",
+            "ja": "聴き返すのはファンの儀式：「데뷔곡 다시 들으니까 감회가 새롭다」（デビュー曲を聴き返すと感慨深い）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데뷔",
+            "데뷔무대",
+            "데뷔초"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "후속곡": {
+        "nuance": {
+            "en": "A follow-up track: a second song from the same album promoted after the title track.",
+            "es": "Una canción de seguimiento: un segundo tema del mismo álbum que se promociona después de la canción principal.",
+            "zh": "後續曲：主打歌之後，接著宣傳的同專輯第二首歌。",
+            "cn": "后续曲：主打歌之后，接着宣传的同专辑第二首歌。",
+            "ja": "後続曲。タイトル曲の後に続けてプロモーションする、同じアルバムの2曲目。"
+        },
+        "usage": {
+            "en": "\"후속곡 활동 확정!\" (\"Follow-up promotions confirmed!\") — great news when fans loved a B-side.",
+            "es": "\"후속곡 활동 확정!\" (\"¡Confirmada la promoción del siguiente sencillo!\"), gran noticia cuando a los fans les gustó un B-side.",
+            "zh": "「후속곡 활동 확정!」（確定有後續曲活動！）——粉絲愛的收錄曲被選上時是大好消息。",
+            "cn": "“후속곡 활동 확정!”（确定有后续曲活动！）——粉丝爱的收录曲被选上时是大好消息。",
+            "ja": "「후속곡 활동 확정!」（後続曲活動決定！）。好きな収録曲が選ばれたファンには朗報。"
+        },
+        "register": "everyday",
+        "similar": [
+            "타이틀곡",
+            "수록곡",
+            "활동"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "앵콜무대": {
+        "nuance": {
+            "en": "An encore stage: on music shows, the winner performs the song again after getting #1 — often messy, emotional and fun.",
+            "es": "Un escenario de encore: en los programas musicales, el ganador repite la canción tras ganar el #1, a menudo de forma caótica, emotiva y divertida.",
+            "zh": "安可舞台：在音樂節目拿下一位後再唱一次，常常很隨性、感動又好玩。",
+            "cn": "安可舞台：在音乐节目拿下一位后再唱一次，常常很随性、感动又好玩。",
+            "ja": "アンコールステージ。音楽番組で1位を取った後に再び歌うステージで、自由で感動的で楽しいことが多い。"
+        },
+        "usage": {
+            "en": "\"앵콜무대에서 울면서 노래 못 했어\" (\"She was crying too hard to sing during the encore\"). Fans also film it as 앵콜 직캠.",
+            "es": "\"앵콜무대에서 울면서 노래 못 했어\" (\"Lloraba tanto en el encore que no pudo cantar\"). Los fans también lo graban como 앵콜 직캠.",
+            "zh": "「앵콜무대에서 울면서 노래 못 했어」（安可舞台哭到唱不下去）。粉絲也會拍앵콜 직캠（安可直拍）。",
+            "cn": "“앵콜무대에서 울면서 노래 못 했어”（安可舞台哭到唱不下去）。粉丝也会拍앵콜 직캠（安可直拍）。",
+            "ja": "「앵콜무대에서 울면서 노래 못 했어」（アンコールで泣いて歌えなかった）。앵콜 직캠（アンコール直カム）も人気。"
+        },
+        "register": "everyday",
+        "similar": [
+            "1위후보",
+            "음악방송",
+            "라이브"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "1위후보": {
+        "nuance": {
+            "en": "A #1 nominee: one of the songs competing for first place on a weekly music show.",
+            "es": "Una nominación al #1: una de las canciones que compiten por el primer puesto en un programa musical semanal.",
+            "zh": "一位候補：每週音樂節目中角逐第一名的歌曲之一。",
+            "cn": "一位候补：每周音乐节目中角逐第一名的歌曲之一。",
+            "ja": "1位候補。週間音楽番組で1位を争う曲の一つ。"
+        },
+        "usage": {
+            "en": "\"드디어 1위후보 올랐어! 투표하자\" (\"We're finally a #1 nominee! Let's vote\").",
+            "es": "\"드디어 1위후보 올랐어! 투표하자\" (\"¡Por fin estamos nominados al #1! A votar\").",
+            "zh": "「드디어 1위후보 올랐어! 투표하자」（終於成為一位候補了！快投票）。",
+            "cn": "“드디어 1위후보 올랐어! 투표하자”（终于成为一位候补了！快投票）。",
+            "ja": "「드디어 1위후보 올랐어! 투표하자」（ついに1位候補入り！投票しよう）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "음악방송",
+            "트리플크라운",
+            "앵콜무대"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "트리플크라운": {
+        "nuance": {
+            "en": "Triple crown: winning #1 three times on the same music show with the same song. On some shows that retires the song from the chart.",
+            "es": "Triple corona: ganar el #1 tres veces en el mismo programa musical con la misma canción. En algunos programas, la canción sale entonces del ranking.",
+            "zh": "三冠王：同一首歌在同一音樂節目拿下三次一位。在部分節目中，達成後該曲會退出排名。",
+            "cn": "三冠王：同一首歌在同一音乐节目拿下三次一位。在部分节目中，达成后该曲会退出排名。",
+            "ja": "トリプルクラウン。同じ曲で同じ音楽番組の1位を3回獲得すること。番組によってはその曲がランキングから外れる。"
+        },
+        "usage": {
+            "en": "\"트리플크라운 달성 축하해!\" (\"Congrats on the triple crown!\").",
+            "es": "\"트리플크라운 달성 축하해!\" (\"¡Felicidades por la triple corona!\").",
+            "zh": "「트리플크라운 달성 축하해!」（恭喜達成三冠王！）。",
+            "cn": "“트리플크라운 달성 축하해!”（恭喜达成三冠王！）。",
+            "ja": "「트리플크라운 달성 축하해!」（トリプルクラウン達成おめでとう！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "1위후보",
+            "음악방송",
+            "음원강자"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "신인상": {
+        "nuance": {
+            "en": "新人賞 — the rookie award at year-end music awards. Each group can only win it in its debut year, so it's a once-in-a-career prize.",
+            "es": "新人賞: el premio a mejor novato en las ceremonias de fin de año. Solo se gana en el año de debut, así que es único en la carrera.",
+            "zh": "新人賞——年末音樂頒獎典禮的新人獎。只有出道那年有資格，是一生只有一次的獎。",
+            "cn": "新人赏——年末音乐颁奖典礼的新人奖。只有出道那年有资格，是一生只有一次的奖。",
+            "ja": "新人賞。年末の音楽授賞式の新人賞で、デビューした年にしか取れない一生に一度の賞。"
+        },
+        "usage": {
+            "en": "\"신인상 받고 다들 울었어\" (\"They all cried after winning the rookie award\").",
+            "es": "\"신인상 받고 다들 울었어\" (\"Todos lloraron al ganar el premio a novato\").",
+            "zh": "「신인상 받고 다들 울었어」（拿到新人獎大家都哭了）。",
+            "cn": "“신인상 받고 다들 울었어”（拿到新人奖大家都哭了）。",
+            "ja": "「신인상 받고 다들 울었어」（新人賞を取ってみんな泣いた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "대상",
+            "데뷔",
+            "가요대전"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "대상": {
+        "nuance": {
+            "en": "大賞 (daesang) — the grand prize, the highest award at a year-end music ceremony, such as Artist or Song of the Year.",
+            "es": "大賞 (daesang): el gran premio, el mayor galardón en una ceremonia de fin de año, como Artista o Canción del Año.",
+            "zh": "大賞——年末音樂頒獎典禮上的最高獎項，例如年度歌手或年度歌曲。",
+            "cn": "大赏——年末音乐颁奖典礼上的最高奖项，例如年度歌手或年度歌曲。",
+            "ja": "大賞（テサン）。年末の音楽授賞式で最高の賞。年間最優秀アーティストや年間最優秀曲など。"
+        },
+        "usage": {
+            "en": "\"대상 받는 순간 팬들도 같이 울었어\" (\"Fans cried along the moment they won the daesang\").",
+            "es": "\"대상 받는 순간 팬들도 같이 울었어\" (\"Los fans lloraron con ellos en el momento del daesang\").",
+            "zh": "「대상 받는 순간 팬들도 같이 울었어」（拿下大賞的瞬間粉絲也跟著哭了）。",
+            "cn": "“대상 받는 순간 팬들도 같이 울었어”（拿下大赏的瞬间粉丝也跟着哭了）。",
+            "ja": "「대상 받는 순간 팬들도 같이 울었어」（大賞を取った瞬間、ファンも一緒に泣いた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "신인상",
+            "가요대전",
+            "톱아이돌"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "음악방송": {
+        "nuance": {
+            "en": "A music show: weekly TV programs where artists perform and compete for #1. Usually shortened to 음방.",
+            "es": "Un programa musical: programas semanales de TV donde los artistas actúan y compiten por el #1. Se acorta a 음방.",
+            "zh": "音樂節目：藝人表演並爭奪一位的每週電視節目，常簡稱음방。",
+            "cn": "音乐节目：艺人表演并争夺一位的每周电视节目，常简称음방。",
+            "ja": "音楽番組。アーティストがパフォーマンスして1位を競う週間テレビ番組。略して음방。"
+        },
+        "usage": {
+            "en": "\"이번 주 음방 스케줄 정리했어\" (\"I put together this week's music show schedule\").",
+            "es": "\"이번 주 음방 스케줄 정리했어\" (\"Hice la lista de programas musicales de esta semana\").",
+            "zh": "「이번 주 음방 스케줄 정리했어」（整理了這週的音樂節目行程）。",
+            "cn": "“이번 주 음방 스케줄 정리했어”（整理了这周的音乐节目行程）。",
+            "ja": "「이번 주 음방 스케줄 정리했어」（今週の音楽番組スケジュールまとめた）。"
+        },
+        "culture": {
+            "en": "Korea has a music show nearly every weekday across different channels, so a comeback week means performing almost daily.",
+            "es": "Corea tiene programas musicales casi todos los días de la semana en distintos canales, así que una semana de comeback implica actuar casi a diario.",
+            "zh": "韓國幾乎每個工作日都有不同電視台的音樂節目，所以回歸週幾乎天天都要表演。",
+            "cn": "韩国几乎每个工作日都有不同电视台的音乐节目，所以回归周几乎天天都要表演。",
+            "ja": "韓国ではほぼ毎日どこかの局で音楽番組があり、カムバック週はほぼ毎日ステージに立つことになる。"
+        },
+        "register": "everyday",
+        "similar": [
+            "1위후보",
+            "공방",
+            "컴백무대"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "가요대전": {
+        "nuance": {
+            "en": "歌謠大戰 — the name of a big year-end music festival, used loosely for the whole season of year-end shows with special collab stages.",
+            "es": "歌謠大戰: nombre de un gran festival musical de fin de año; se usa en general para la temporada de shows de fin de año con escenarios especiales.",
+            "zh": "歌謠大戰——大型年末音樂盛典的名稱，也泛指年末各台特別舞台的整個季節。",
+            "cn": "歌谣大战——大型年末音乐盛典的名称，也泛指年末各台特别舞台的整个季节。",
+            "ja": "歌謡大戦。大型年末音楽祭の名前で、スペシャルステージが続く年末の音楽祭シーズン全体を指すことも。"
+        },
+        "usage": {
+            "en": "Fans wait all year for special stages: \"가요대전 스페셜 무대 미쳤어\" (\"The year-end special stage was insane\").",
+            "es": "Los fans esperan todo el año los escenarios especiales: \"가요대전 스페셜 무대 미쳤어\" (\"El escenario especial de fin de año fue una locura\").",
+            "zh": "粉絲整年都在等特別舞台：「가요대전 스페셜 무대 미쳤어」（歌謠大戰的特別舞台太狂了）。",
+            "cn": "粉丝整年都在等特别舞台：“가요대전 스페셜 무대 미쳤어”（歌谣大战的特别舞台太狂了）。",
+            "ja": "ファンは特別ステージを一年中待っている：「가요대전 스페셜 무대 미쳤어」（歌謡大戦のスペシャルステージやばかった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "대상",
+            "라인업",
+            "신인상"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "컴백무대": {
+        "nuance": {
+            "en": "A comeback stage: the first music show performance of a new title track.",
+            "es": "Un escenario de comeback: la primera presentación de una nueva canción principal en un programa musical.",
+            "zh": "回歸舞台：新主打歌在音樂節目上的第一次表演。",
+            "cn": "回归舞台：新主打歌在音乐节目上的第一次表演。",
+            "ja": "カムバックステージ。新しいタイトル曲の音楽番組での初披露。"
+        },
+        "usage": {
+            "en": "\"컴백무대 의상 너무 예뻐\" (\"The comeback stage outfits are so pretty\").",
+            "es": "\"컴백무대 의상 너무 예뻐\" (\"Los outfits del escenario de comeback son preciosos\").",
+            "zh": "「컴백무대 의상 너무 예뻐」（回歸舞台的服裝好美）。",
+            "cn": "“컴백무대 의상 너무 예뻐”（回归舞台的服装好美）。",
+            "ja": "「컴백무대 의상 너무 예뻐」（カムバステージの衣装かわいすぎる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "컴백",
+            "타이틀곡",
+            "음악방송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "광고모델": {
+        "nuance": {
+            "en": "A brand model or ambassador: the celebrity who fronts a brand's ads. Landing big ones is a sign of popularity.",
+            "es": "Modelo publicitario o embajador: la celebridad que protagoniza los anuncios de una marca. Conseguir marcas grandes es señal de popularidad.",
+            "zh": "廣告代言人：擔任品牌廣告主角的藝人。接到大品牌代言是人氣的象徵。",
+            "cn": "广告代言人：担任品牌广告主角的艺人。接到大品牌代言是人气的象征。",
+            "ja": "広告モデル。ブランドの広告に起用される芸能人。大手ブランドの起用は人気の証。"
+        },
+        "usage": {
+            "en": "Fans often buy the product to support them: \"최애가 광고모델이라 이것만 써\" (\"My bias is the ambassador, so I only use this brand\").",
+            "es": "Los fans suelen comprar el producto para apoyarlos: \"최애가 광고모델이라 이것만 써\" (\"Mi bias es el modelo, así que solo uso esta marca\").",
+            "zh": "粉絲常會買產品支持：「최애가 광고모델이라 이것만 써」（本命是代言人，所以我只用這個）。",
+            "cn": "粉丝常会买产品支持：“최애가 광고모델이라 이것만 써”（本命是代言人，所以我只用这个）。",
+            "ja": "ファンは商品を買って応援することも：「최애가 광고모델이라 이것만 써」（推しが広告モデルだからこれしか使わない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콜라보",
+            "톱아이돌"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "팬송": {
+        "nuance": {
+            "en": "A fan song: a track written for and dedicated to the fandom, often thanking fans by name.",
+            "es": "Una canción para fans: un tema escrito y dedicado al fandom, a menudo mencionándolo por su nombre.",
+            "zh": "粉絲歌：寫給粉絲、獻給粉絲團的歌，常會唱出粉絲名。",
+            "cn": "粉丝歌：写给粉丝、献给粉丝团的歌，常会唱出粉丝名。",
+            "ja": "ファンソング。ファンダムのために作られ捧げられた曲で、ファンの名前が歌詞に入ることも。"
+        },
+        "usage": {
+            "en": "\"콘서트 마지막 곡은 항상 팬송이야\" (\"The last song of the concert is always the fan song\").",
+            "es": "\"콘서트 마지막 곡은 항상 팬송이야\" (\"La última canción del concierto siempre es la de los fans\").",
+            "zh": "「콘서트 마지막 곡은 항상 팬송이야」（演唱會最後一首總是粉絲歌）。",
+            "cn": "“콘서트 마지막 곡은 항상 팬송이야”（演唱会最后一首总是粉丝歌）。",
+            "ja": "「콘서트 마지막 곡은 항상 팬송이야」（コンサートの最後の曲はいつもファンソング）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬미팅",
+            "수록곡",
+            "팬덤명"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "퍼포먼스": {
+        "nuance": {
+            "en": "Performance: in K-pop, the whole stage package — choreography, formations, expressions and staging.",
+            "es": "Performance: en el K-pop, todo el paquete escénico: coreografía, formaciones, expresiones y puesta en escena.",
+            "zh": "表演：在K-pop中指整體舞台——編舞、隊形、表情和舞台設計。",
+            "cn": "表演：在K-pop中指整体舞台——编舞、队形、表情和舞台设计。",
+            "ja": "パフォーマンス。K-POPでは振り付け、フォーメーション、表情、演出を含めたステージ全体を指す。"
+        },
+        "usage": {
+            "en": "\"퍼포먼스 맛집\" (\"a performance powerhouse\") is high praise for a group known for great stages.",
+            "es": "\"퍼포먼스 맛집\" (\"un paraíso de performance\") es un gran elogio para un grupo con presentaciones geniales.",
+            "zh": "「퍼포먼스 맛집」（表演寶藏團）是對舞台超強團體的高度讚美。",
+            "cn": "“퍼포먼스 맛집”（表演宝藏团）是对舞台超强团体的高度赞美。",
+            "ja": "「퍼포먼스 맛집」（パフォーマンスの名店）はステージがすごいグループへの最高のほめ言葉。"
+        },
+        "register": "everyday",
+        "similar": [
+            "칼군무",
+            "무대퀄리티",
+            "메인댄서"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "소속사": {
+        "nuance": {
+            "en": "所屬社 — the agency an idol belongs to: it trains, manages and promotes them.",
+            "es": "所屬社: la agencia a la que pertenece un idol, que lo entrena, gestiona y promociona.",
+            "zh": "所屬社——偶像隸屬的經紀公司，負責培訓、管理和宣傳。",
+            "cn": "所属社——偶像隶属的经纪公司，负责培训、管理和宣传。",
+            "ja": "所属事務所。アイドルの育成、マネジメント、プロモーションを行う会社。"
+        },
+        "usage": {
+            "en": "Fans often address it directly when unhappy: \"소속사 일 좀 해라\" (\"Agency, do your job\").",
+            "es": "Los fans le hablan directamente cuando están molestos: \"소속사 일 좀 해라\" (\"Agencia, haz tu trabajo\").",
+            "zh": "粉絲不滿時常直接喊話：「소속사 일 좀 해라」（公司好好做事吧）。",
+            "cn": "粉丝不满时常直接喊话：“소속사 일 좀 해라”（公司好好做事吧）。",
+            "ja": "不満があるとファンは直接訴える：「소속사 일 좀 해라」（事務所ちゃんと仕事して）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "대형기획사",
+            "중소돌",
+            "전속계약"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "대형기획사": {
+        "nuance": {
+            "en": "A major agency: one of the large, well-funded entertainment companies with big promotion budgets.",
+            "es": "Una agencia grande: una de las compañías de entretenimiento grandes y con mucho presupuesto para promoción.",
+            "zh": "大型經紀公司：資金雄厚、宣傳預算大的大型娛樂公司。",
+            "cn": "大型经纪公司：资金雄厚、宣传预算大的大型娱乐公司。",
+            "ja": "大手事務所。資金力があり、大きなプロモーション予算を持つエンタメ会社。"
+        },
+        "usage": {
+            "en": "\"대형기획사 신인이라 데뷔 전부터 화제였어\" (\"As a big-agency rookie group, they were buzzed about before debut\").",
+            "es": "\"대형기획사 신인이라 데뷔 전부터 화제였어\" (\"Como novatos de una agencia grande, eran tema antes del debut\").",
+            "zh": "「대형기획사 신인이라 데뷔 전부터 화제였어」（大公司的新人，出道前就很受關注）。",
+            "cn": "“대형기획사 신인이라 데뷔 전부터 화제였어”（大公司的新人，出道前就很受关注）。",
+            "ja": "「대형기획사 신인이라 데뷔 전부터 화제였어」（大手の新人だから、デビュー前から話題だった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "소속사",
+            "중소돌"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "중소돌": {
+        "nuance": {
+            "en": "Short for 중소기획사 아이돌: an idol from a small or mid-size agency, with fewer resources than the big companies.",
+            "es": "Abreviatura de 중소기획사 아이돌: un idol de una agencia pequeña o mediana, con menos recursos que las grandes.",
+            "zh": "중소기획사 아이돌（中小公司偶像）的縮寫：資源比大公司少的偶像。",
+            "cn": "중소기획사 아이돌（中小公司偶像）的缩写：资源比大公司少的偶像。",
+            "ja": "중소기획사 아이돌（中小事務所アイドル）の略。大手より資源の少ない事務所のアイドル。"
+        },
+        "usage": {
+            "en": "Often said with pride when they succeed: \"중소돌의 기적\" (\"a small-agency miracle\").",
+            "es": "Suele decirse con orgullo cuando triunfan: \"중소돌의 기적\" (\"el milagro de un grupo de agencia pequeña\").",
+            "zh": "成功時常帶著驕傲說：「중소돌의 기적」（中小公司偶像的奇蹟）。",
+            "cn": "成功时常带着骄傲说：“중소돌의 기적”（中小公司偶像的奇迹）。",
+            "ja": "成功すると誇らしげに：「중소돌의 기적」（中小事務所アイドルの奇跡）。"
+        },
+        "register": "casual",
+        "similar": [
+            "대형기획사",
+            "소속사",
+            "역주행"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "아이돌판": {
+        "nuance": {
+            "en": "\"The idol scene\": 판 means a field or arena, so this is the K-pop idol world as a whole — industry and fandoms together.",
+            "es": "\"El mundo idol\": 판 significa campo o escenario, así que es el mundo del K-pop en conjunto, industria y fandoms juntos.",
+            "zh": "「偶像圈」：판是「場子、圈子」的意思，指整個K-pop偶像世界——產業和粉絲圈。",
+            "cn": "“偶像圈”：판是“场子、圈子”的意思，指整个K-pop偶像世界——产业和粉丝圈。",
+            "ja": "「アイドル界」。판は「場、界隈」の意味で、業界とファンダムを含むK-POPアイドルの世界全体。"
+        },
+        "usage": {
+            "en": "\"아이돌판 10년 차인데 이런 건 처음 봐\" (\"I've been in the idol scene ten years and never seen this\").",
+            "es": "\"아이돌판 10년 차인데 이런 건 처음 봐\" (\"Llevo diez años en el mundo idol y nunca había visto esto\").",
+            "zh": "「아이돌판 10년 차인데 이런 건 처음 봐」（混偶像圈十年，第一次看到這種事）。",
+            "cn": "“아이돌판 10년 차인데 이런 건 처음 봐”（混偶像圈十年，第一次看到这种事）。",
+            "ja": "「아이돌판 10년 차인데 이런 건 처음 봐」（アイドル界10年目だけど、こんなの初めて見た）。"
+        },
+        "register": "casual",
+        "similar": [
+            "소속사",
+            "덕질"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "연습생활": {
+        "nuance": {
+            "en": "Trainee life: the daily routine before debut — lessons, monthly evaluations, diets and long practice hours.",
+            "es": "La vida de trainee: la rutina antes del debut, con clases, evaluaciones mensuales, dietas y largas horas de práctica.",
+            "zh": "練習生生活：出道前的日常——上課、月末評估、控制飲食和長時間練習。",
+            "cn": "练习生生活：出道前的日常——上课、月末评估、控制饮食和长时间练习。",
+            "ja": "練習生生活。デビュー前の日々。レッスン、月末評価、食事管理、長時間の練習。"
+        },
+        "usage": {
+            "en": "Idols often recall it on shows: \"연습생활 때 컵라면만 먹었어요\" (\"I lived on cup noodles as a trainee\").",
+            "es": "Los idols lo recuerdan en programas: \"연습생활 때 컵라면만 먹었어요\" (\"Cuando era trainee solo comía ramen instantáneo\").",
+            "zh": "偶像常在節目上回憶：「연습생활 때 컵라면만 먹었어요」（練習生時期只吃泡麵）。",
+            "cn": "偶像常在节目上回忆：“연습생활 때 컵라면만 먹었어요”（练习生时期只吃方便面）。",
+            "ja": "番組でよく振り返る：「연습생활 때 컵라면만 먹었어요」（練習生時代はカップ麺ばかり食べてました）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "연습생",
+            "트레이닝",
+            "데뷔"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "트레이닝": {
+        "nuance": {
+            "en": "Training: the vocal, dance, language and media lessons trainees take before debut.",
+            "es": "Entrenamiento: las clases de canto, baile, idiomas y manejo de medios que toman los trainees antes del debut.",
+            "zh": "訓練：練習生出道前接受的歌唱、舞蹈、語言和媒體應對課程。",
+            "cn": "训练：练习生出道前接受的歌唱、舞蹈、语言和媒体应对课程。",
+            "ja": "トレーニング。練習生がデビュー前に受ける歌、ダンス、語学、メディア対応のレッスン。"
+        },
+        "usage": {
+            "en": "\"보컬 트레이닝 받고 라이브가 확 늘었어\" (\"Her live vocals improved a lot after vocal training\").",
+            "es": "\"보컬 트레이닝 받고 라이브가 확 늘었어\" (\"Su canto en vivo mejoró mucho con el entrenamiento vocal\").",
+            "zh": "「보컬 트레이닝 받고 라이브가 확 늘었어」（接受歌唱訓練後現場進步很多）。",
+            "cn": "“보컬 트레이닝 받고 라이브가 확 늘었어”（接受歌唱训练后现场进步很多）。",
+            "ja": "「보컬 트레이닝 받고 라이브가 확 늘었어」（ボイトレを受けて生歌がすごく上達した）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "연습생",
+            "연습생활"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "셀프캠": {
+        "nuance": {
+            "en": "A self-cam: footage idols film of themselves — on stage, backstage or in daily life.",
+            "es": "Una self-cam: videos que los idols graban de sí mismos, en el escenario, detrás de cámaras o en su día a día.",
+            "zh": "自拍影片：偶像自己拍的影片——舞台上、後台或日常生活。",
+            "cn": "自拍视频：偶像自己拍的视频——舞台上、后台或日常生活。",
+            "ja": "セルフカム。アイドルが自分で撮影した映像。ステージ、舞台裏、日常など。"
+        },
+        "usage": {
+            "en": "\"셀프캠이라 표정이 너무 잘 보여\" (\"Since it's a self-cam, you can really see the expressions\").",
+            "es": "\"셀프캠이라 표정이 너무 잘 보여\" (\"Como es self-cam, se ven muy bien las expresiones\").",
+            "zh": "「셀프캠이라 표정이 너무 잘 보여」（因為是自拍，表情看得超清楚）。",
+            "cn": "“셀프캠이라 표정이 너무 잘 보여”（因为是自拍，表情看得超清楚）。",
+            "ja": "「셀프캠이라 표정이 너무 잘 보여」（セルフカムだから表情がよく見える）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "브이로그",
+            "자컨",
+            "직캠"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "브이로그": {
+        "nuance": {
+            "en": "A vlog: video diaries of daily life. Idol vlogs show schedules, hobbies, cafés and travel.",
+            "es": "Un vlog: diarios en video de la vida diaria. Los vlogs de idols muestran agenda, hobbies, cafés y viajes.",
+            "zh": "Vlog：記錄日常生活的影片。偶像vlog會拍行程、興趣、咖啡廳和旅行。",
+            "cn": "Vlog：记录日常生活的视频。偶像vlog会拍行程、兴趣、咖啡厅和旅行。",
+            "ja": "Vlog。日常を記録した動画。アイドルのVlogではスケジュール、趣味、カフェ、旅行などを見せる。"
+        },
+        "usage": {
+            "en": "\"해외 투어 브이로그 올라왔어!\" (\"The world tour vlog is up!\").",
+            "es": "\"해외 투어 브이로그 올라왔어!\" (\"¡Subieron el vlog de la gira!\").",
+            "zh": "「해외 투어 브이로그 올라왔어!」（海外巡演vlog上傳了！）。",
+            "cn": "“해외 투어 브이로그 올라왔어!”（海外巡演vlog上传了！）。",
+            "ja": "「해외 투어 브이로그 올라왔어!」（海外ツアーのVlog上がった！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "셀프캠",
+            "자컨",
+            "커플브이로그"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "공방": {
+        "nuance": {
+            "en": "Short for 공개방송 (\"open broadcast\"): going in person to watch a music show's pre-recording or live broadcast.",
+            "es": "Abreviatura de 공개방송 (\"emisión abierta\"): ir en persona a ver la pregrabación o la emisión en vivo de un programa musical.",
+            "zh": "공개방송（公開放送）的縮寫：親自到音樂節目的事前錄影或直播現場觀看。",
+            "cn": "공개방송（公开放送）的缩写：亲自到音乐节目的事前录制或直播现场观看。",
+            "ja": "공개방송（公開放送）の略。音楽番組の事前収録や生放送を現場で観覧すること。"
+        },
+        "usage": {
+            "en": "\"공방 뛰다\" means to attend tapings: \"컴백 주라 매일 공방 뛰어\" (\"It's comeback week, so I'm going to tapings every day\").",
+            "es": "\"공방 뛰다\" significa ir a grabaciones: \"컴백 주라 매일 공방 뛰어\" (\"Es semana de comeback, voy a grabaciones todos los días\").",
+            "zh": "「공방 뛰다」是跑公開放送的意思：「컴백 주라 매일 공방 뛰어」（回歸週，每天都在跑公開放送）。",
+            "cn": "“공방 뛰다”是跑公开放送的意思：“컴백 주라 매일 공방 뛰어”（回归周，每天都在跑公开放送）。",
+            "ja": "「공방 뛰다」は公開放送に通うこと：「컴백 주라 매일 공방 뛰어」（カムバ週だから毎日公開放送に通ってる）。"
+        },
+        "culture": {
+            "en": "Pre-recordings let fans watch a song performed several times up close, while a live broadcast stage lasts only a few minutes — so dedicated fans prefer the pre-recordings.",
+            "es": "Las pregrabaciones permiten ver la canción varias veces de cerca, mientras que el escenario en vivo dura solo unos minutos; por eso los fans más dedicados las prefieren.",
+            "zh": "事前錄影可以近距離看好幾次表演，直播舞台只有幾分鐘——所以死忠粉更喜歡事前錄影。",
+            "cn": "事前录制可以近距离看好几次表演，直播舞台只有几分钟——所以死忠粉更喜欢事前录制。",
+            "ja": "事前収録では何度も近くでパフォーマンスを見られるが、生放送のステージは数分だけ。だから熱心なファンは事前収録を好む。"
+        },
+        "register": "casual",
+        "similar": [
+            "음악방송",
+            "컴백무대"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ],
+        "sources": [
+            {
+                "title": "음악방송 100배 즐기기, 아이돌 팬을 위한 '공방매뉴얼'① 공방 준비하기",
+                "publisher": "TenAsia",
+                "date": "2014-03-31",
+                "url": "https://www.tenasia.co.kr/article/2014033118654"
+            }
+        ]
+    },
+    "만능돌": {
+        "nuance": {
+            "en": "萬能 + idol: an all-rounder who can sing, dance, rap and do variety — good at everything.",
+            "es": "萬能 + idol: un idol todoterreno que canta, baila, rapea y hace variedades; bueno en todo.",
+            "zh": "萬能＋偶像：唱歌、跳舞、Rap、綜藝樣樣都行的全能偶像。",
+            "cn": "万能＋偶像：唱歌、跳舞、Rap、综艺样样都行的全能偶像。",
+            "ja": "万能＋アイドル。歌、ダンス、ラップ、バラエティ、何でもこなすオールラウンダー。"
+        },
+        "usage": {
+            "en": "\"작곡까지 하는 만능돌\" (\"an all-rounder who even composes\").",
+            "es": "\"작곡까지 하는 만능돌\" (\"un idol todoterreno que hasta compone\").",
+            "zh": "「작곡까지 하는 만능돌」（連作曲都會的全能偶像）。",
+            "cn": "“작곡까지 하는 만능돌”（连作曲都会的全能偶像）。",
+            "ja": "「작곡까지 하는 만능돌」（作曲までする万能アイドル）。"
+        },
+        "register": "casual",
+        "similar": [
+            "실력돌",
+            "예능돌",
+            "메인보컬"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "실력돌": {
+        "nuance": {
+            "en": "實力 + idol: an idol known for real skill — strong live vocals or dancing — more than image.",
+            "es": "實力 + idol: un idol conocido por su talento real, como voz en vivo o baile, más que por su imagen.",
+            "zh": "實力＋偶像：比起形象，更以真材實料——現場唱功或舞蹈——出名的偶像。",
+            "cn": "实力＋偶像：比起形象，更以真材实料——现场唱功或舞蹈——出名的偶像。",
+            "ja": "実力＋アイドル。イメージよりも、生歌やダンスなど本物の実力で知られるアイドル。"
+        },
+        "usage": {
+            "en": "\"라이브 들어 보면 왜 실력돌인지 알아\" (\"Listen to them live and you'll see why they're called skilled idols\").",
+            "es": "\"라이브 들어 보면 왜 실력돌인지 알아\" (\"Escúchalos en vivo y sabrás por qué dicen que tienen talento\").",
+            "zh": "「라이브 들어 보면 왜 실력돌인지 알아」（聽過現場就知道為什麼是實力派）。",
+            "cn": "“라이브 들어 보면 왜 실력돌인지 알아”（听过现场就知道为什么是实力派）。",
+            "ja": "「라이브 들어 보면 왜 실력돌인지 알아」（生歌を聴けば実力派と呼ばれる理由がわかる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "만능돌",
+            "라이브",
+            "메인보컬"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "예능돌": {
+        "nuance": {
+            "en": "藝能 + idol: an idol who shines on variety and talk shows — quick-witted, funny and great at reactions.",
+            "es": "藝能 + idol: un idol que brilla en programas de variedades, ingenioso, gracioso y con grandes reacciones.",
+            "zh": "綜藝＋偶像：在綜藝和談話節目中特別亮眼——反應快、有梗、很會接話的偶像。",
+            "cn": "综艺＋偶像：在综艺和谈话节目中特别亮眼——反应快、有梗、很会接话的偶像。",
+            "ja": "バラエティ＋アイドル。バラエティやトーク番組で輝く、頭の回転が速くて面白いアイドル。"
+        },
+        "usage": {
+            "en": "\"예능돌이라 섭외 1순위래\" (\"Being a variety idol, he's everyone's first booking\").",
+            "es": "\"예능돌이라 섭외 1순위래\" (\"Como es idol de variedades, todos lo quieren primero en sus programas\").",
+            "zh": "「예능돌이라 섭외 1순위래」（因為是綜藝咖，是邀約第一人選）。",
+            "cn": "“예능돌이라 섭외 1순위래”（因为是综艺咖，是邀约第一人选）。",
+            "ja": "「예능돌이라 섭외 1순위래」（バラエティ強者だからキャスティング1番手らしい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "만능돌",
+            "티키타카",
+            "자컨"
+        ],
+        "tags": [
+            "kpop-fan",
+            "funny"
+        ]
+    },
+    "음원강자": {
+        "nuance": {
+            "en": "\"Digital-chart powerhouse\": an artist whose songs reliably top streaming charts.",
+            "es": "\"Potencia de streaming\": un artista cuyas canciones siempre encabezan las listas digitales.",
+            "zh": "「音源強者」：歌曲總能在串流排行榜上名列前茅的歌手。",
+            "cn": "“音源强者”：歌曲总能在串流排行榜上名列前茅的歌手。",
+            "ja": "「音源強者」。曲を出せば必ずストリーミングチャートの上位に入るアーティスト。"
+        },
+        "usage": {
+            "en": "\"역시 음원강자, 공개하자마자 1위\" (\"A true chart powerhouse — #1 the moment it dropped\").",
+            "es": "\"역시 음원강자, 공개하자마자 1위\" (\"Una auténtica potencia: #1 en cuanto salió\").",
+            "zh": "「역시 음원강자, 공개하자마자 1위」（果然是音源強者，一公開就第一）。",
+            "cn": "“역시 음원강자, 공개하자마자 1위”（果然是音源强者，一公开就第一）。",
+            "ja": "「역시 음원강자, 공개하자마자 1위」（さすが音源強者、公開直後に1位）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "역주행",
+            "트리플크라운"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry",
+            "praise"
+        ]
+    },
+    "역주행": {
+        "nuance": {
+            "en": "\"Driving the wrong way\": when an old song climbs the charts again long after release, often thanks to a viral clip.",
+            "es": "\"Ir en sentido contrario\": cuando una canción vieja vuelve a subir en las listas mucho después de salir, a menudo por un clip viral.",
+            "zh": "「逆行」：發行很久的歌突然再度衝上排行榜，常常是因為某段影片爆紅。",
+            "cn": "“逆行”：发行很久的歌突然再度冲上排行榜，常常是因为某段视频爆红。",
+            "ja": "「逆走」。発売からかなり経った曲が再びチャートを上がること。バズった動画がきっかけのことが多い。"
+        },
+        "usage": {
+            "en": "\"직캠 하나로 역주행했잖아\" (\"That song made a comeback on the charts thanks to one fancam\").",
+            "es": "\"직캠 하나로 역주행했잖아\" (\"Esa canción volvió a las listas gracias a un solo fancam\").",
+            "zh": "「직캠 하나로 역주행했잖아」（靠一支直拍就逆行了）。",
+            "cn": "“직캠 하나로 역주행했잖아”（靠一支直拍就逆行了）。",
+            "ja": "「직캠 하나로 역주행했잖아」（直カム一本で逆走したじゃん）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "음원강자",
+            "직캠",
+            "챌린지"
+        ],
+        "tags": [
+            "kpop-fan",
+            "surprise"
+        ]
+    },
+    "백댄서": {
+        "nuance": {
+            "en": "Backup dancers: dancers who perform behind or around the artist on stage.",
+            "es": "Bailarines de apoyo: quienes bailan detrás o alrededor del artista en el escenario.",
+            "zh": "伴舞：在舞台上於歌手身後或周圍跳舞的舞者。",
+            "cn": "伴舞：在舞台上于歌手身后或周围跳舞的舞者。",
+            "ja": "バックダンサー。ステージでアーティストの後ろや周りで踊るダンサー。"
+        },
+        "usage": {
+            "en": "\"이번 무대 백댄서 구성이 엄청 화려해\" (\"The backup dancer setup on this stage is so extravagant\").",
+            "es": "\"이번 무대 백댄서 구성이 엄청 화려해\" (\"El grupo de bailarines de apoyo en este escenario es espectacular\").",
+            "zh": "「이번 무대 백댄서 구성이 엄청 화려해」（這次舞台的伴舞陣容超華麗）。",
+            "cn": "“이번 무대 백댄서 구성이 엄청 화려해”（这次舞台的伴舞阵容超华丽）。",
+            "ja": "「이번 무대 백댄서 구성이 엄청 화려해」（今回のステージ、バックダンサーの構成が豪華）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "안무가",
+            "퍼포먼스"
+        ],
+        "tags": [
+            "industry",
+            "stage"
+        ]
+    },
+    "메이크업아티스트": {
+        "nuance": {
+            "en": "A makeup artist who does an idol's makeup for stages, shoots and events.",
+            "es": "Un maquillador que se encarga del maquillaje de un idol para escenarios, sesiones y eventos.",
+            "zh": "化妝師：負責偶像舞台、拍攝和活動妝容的人。",
+            "cn": "化妆师：负责偶像舞台、拍摄和活动妆容的人。",
+            "ja": "メイクアップアーティスト。ステージや撮影、イベントでアイドルのメイクを担当する人。"
+        },
+        "usage": {
+            "en": "\"이번 메이크업 진짜 찰떡이다\" (\"This makeup suits her perfectly\"). Often shortened to 메이크업 or 메컵.",
+            "es": "\"이번 메이크업 진짜 찰떡이다\" (\"Este maquillaje le queda perfecto\"). Suele acortarse a 메이크업 o 메컵.",
+            "zh": "「이번 메이크업 진짜 찰떡이다」（這次的妝超適合）。常簡稱메이크업或메컵。",
+            "cn": "“이번 메이크업 진짜 찰떡이다”（这次的妆超适合）。常简称메이크업或메컵。",
+            "ja": "「이번 메이크업 진짜 찰떡이다」（今回のメイク、ぴったり）。메이크업や메컵と略す。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스타일리스트",
+            "코디",
+            "물광"
+        ],
+        "tags": [
+            "industry",
+            "beauty"
+        ]
+    },
+    "코디": {
+        "nuance": {
+            "en": "Short for coordinator: the stylist who picks and manages an idol's outfits day to day. Also used for any outfit combination.",
+            "es": "Abreviatura de coordinador: el estilista que elige y gestiona los outfits del idol a diario. También se usa para cualquier combinación de ropa.",
+            "zh": "coordinator的縮寫：日常負責挑選和管理偶像服裝的造型師。也可以指一套穿搭。",
+            "cn": "coordinator的缩写：日常负责挑选和管理偶像服装的造型师。也可以指一套穿搭。",
+            "ja": "「コーディネーター」の略。アイドルの日々の衣装を選び管理するスタイリスト。服のコーデ自体も指す。"
+        },
+        "usage": {
+            "en": "\"오늘 코디 누구야? 너무 잘 어울려\" (\"Who styled today's outfit? It suits them so well\").",
+            "es": "\"오늘 코디 누구야? 너무 잘 어울려\" (\"¿Quién eligió el outfit de hoy? Le queda genial\").",
+            "zh": "「오늘 코디 누구야? 너무 잘 어울려」（今天誰搭的？超適合）。",
+            "cn": "“오늘 코디 누구야? 너무 잘 어울려”（今天谁搭的？超适合）。",
+            "ja": "「오늘 코디 누구야? 너무 잘 어울려」（今日のコーデ誰？すごく似合う）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스타일리스트",
+            "무대의상"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "매니저": {
+        "nuance": {
+            "en": "A manager who handles an idol's schedules, communication and daily support.",
+            "es": "Un mánager que se encarga de la agenda, la comunicación y el apoyo diario de un idol.",
+            "zh": "經紀人：負責偶像行程、聯繫和日常支援的人。",
+            "cn": "经纪人：负责偶像行程、联系和日常支持的人。",
+            "ja": "マネージャー。アイドルのスケジュール、連絡、日々のサポートを担当する人。"
+        },
+        "usage": {
+            "en": "Managers sometimes become familiar faces in vlogs: \"매니저님이랑 케미 너무 웃겨\" (\"Their chemistry with the manager is hilarious\").",
+            "es": "Los mánagers a veces se vuelven caras conocidas en vlogs: \"매니저님이랑 케미 너무 웃겨\" (\"Su química con el mánager es graciosísima\").",
+            "zh": "經紀人有時也會在vlog裡變成熟面孔：「매니저님이랑 케미 너무 웃겨」（和經紀人的化學反應超好笑）。",
+            "cn": "经纪人有时也会在vlog里变成熟面孔：“매니저님이랑 케미 너무 웃겨”（和经纪人的化学反应超好笑）。",
+            "ja": "Vlogでおなじみの顔になるマネージャーも：「매니저님이랑 케미 너무 웃겨」（マネージャーさんとのケミが面白い）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "로드매니저",
+            "소속사"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "로드매니저": {
+        "nuance": {
+            "en": "A road manager: the manager who travels with the idol, drives to schedules and handles on-site needs.",
+            "es": "Un road manager: el mánager que viaja con el idol, lo lleva a sus actividades y atiende lo que haga falta en el lugar.",
+            "zh": "隨行經紀人：陪偶像跑行程、開車接送並處理現場事務的經紀人。",
+            "cn": "随行经纪人：陪偶像跑行程、开车接送并处理现场事务的经纪人。",
+            "ja": "ロードマネージャー。アイドルに同行し、現場への送迎やその場の対応をするマネージャー。"
+        },
+        "usage": {
+            "en": "\"로드매니저부터 시작해서 실장까지 됐대\" (\"He started as a road manager and worked his way up to director\").",
+            "es": "\"로드매니저부터 시작해서 실장까지 됐대\" (\"Empezó como road manager y llegó a director\").",
+            "zh": "「로드매니저부터 시작해서 실장까지 됐대」（從隨行經紀人做起，一路升到室長）。",
+            "cn": "“로드매니저부터 시작해서 실장까지 됐대”（从随行经纪人做起，一路升到室长）。",
+            "ja": "「로드매니저부터 시작해서 실장까지 됐대」（ロードマネージャーから始めて室長になったらしい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "매니저"
+        ],
+        "tags": [
+            "industry"
+        ]
+    },
+    "팝업스토어": {
+        "nuance": {
+            "en": "A pop-up store: a temporary themed shop for an album, anniversary or brand collab, with exclusive merch and photo zones.",
+            "es": "Una pop-up store: una tienda temporal temática para un álbum, aniversario o colaboración, con merch exclusivo y zonas de fotos.",
+            "zh": "快閃店：為專輯、紀念日或品牌聯名開設的期間限定主題店，有獨家周邊和拍照區。",
+            "cn": "快闪店：为专辑、纪念日或品牌联名开设的期间限定主题店，有独家周边和拍照区。",
+            "ja": "ポップアップストア。アルバムや記念日、ブランドコラボのための期間限定ショップで、限定グッズやフォトゾーンがある。"
+        },
+        "usage": {
+            "en": "\"팝업 오픈런 하려고 새벽에 나왔어\" (\"I came out at dawn to be first in line for the pop-up\"). Often just 팝업.",
+            "es": "\"팝업 오픈런 하려고 새벽에 나왔어\" (\"Salí de madrugada para ser la primera en la pop-up\"). Suele decirse solo 팝업.",
+            "zh": "「팝업 오픈런 하려고 새벽에 나왔어」（為了搶快閃店開門，凌晨就出門了）。常簡稱팝업。",
+            "cn": "“팝업 오픈런 하려고 새벽에 나왔어”（为了抢快闪店开门，凌晨就出门了）。常简称팝업。",
+            "ja": "「팝업 오픈런 하려고 새벽에 나왔어」（ポップアップの開店ダッシュのため明け方に来た）。팝업と略す。"
+        },
+        "register": "everyday",
+        "similar": [
+            "굿즈",
+            "콜라보"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "온라인콘서트": {
+        "nuance": {
+            "en": "An online concert: a show streamed live over the internet, often with multi-angle cameras and AR effects.",
+            "es": "Un concierto en línea: un show transmitido en vivo por internet, a menudo con varias cámaras y efectos de realidad aumentada.",
+            "zh": "線上演唱會：透過網路直播的演出，常有多角度鏡頭和AR特效。",
+            "cn": "在线演唱会：通过网络直播的演出，常有多角度镜头和AR特效。",
+            "ja": "オンラインコンサート。インターネットで生配信される公演で、マルチアングルやAR演出があることも。"
+        },
+        "usage": {
+            "en": "\"티켓 못 구해서 온라인콘서트로 봤어\" (\"I couldn't get tickets, so I watched the online stream\").",
+            "es": "\"티켓 못 구해서 온라인콘서트로 봤어\" (\"No conseguí entradas, así que lo vi en línea\").",
+            "zh": "「티켓 못 구해서 온라인콘서트로 봤어」（沒搶到票，所以看線上演唱會）。",
+            "cn": "“티켓 못 구해서 온라인콘서트로 봤어”（没抢到票，所以看在线演唱会）。",
+            "ja": "「티켓 못 구해서 온라인콘서트로 봤어」（チケット取れなかったからオンラインで見た）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "온택트",
+            "랜선",
+            "월드투어"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "월드투어": {
+        "nuance": {
+            "en": "A world tour: a concert tour across many countries — the moment international fans finally see their idols live.",
+            "es": "Una gira mundial: una gira de conciertos por muchos países, el momento en que los fans internacionales por fin ven a sus idols en vivo.",
+            "zh": "世界巡演：跨多國的巡迴演唱會——海外粉絲終於能看到偶像本人的時刻。",
+            "cn": "世界巡演：跨多国的巡回演唱会——海外粉丝终于能看到偶像本人的时刻。",
+            "ja": "ワールドツアー。多くの国を回るコンサートツアー。海外ファンがやっと推しに会える機会。"
+        },
+        "usage": {
+            "en": "\"월드투어 일정에 우리 도시 있어!!\" (\"Our city is on the world tour schedule!!\").",
+            "es": "\"월드투어 일정에 우리 도시 있어!!\" (\"¡¡Nuestra ciudad está en la gira mundial!!\").",
+            "zh": "「월드투어 일정에 우리 도시 있어!!」（世界巡演有我們的城市！！）。",
+            "cn": "“월드투어 일정에 우리 도시 있어!!”（世界巡演有我们的城市！！）。",
+            "ja": "「월드투어 일정에 우리 도시 있어!!」（ワールドツアーに私たちの街が入ってる！！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "셋리스트",
+            "스탠딩석"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "피처링": {
+        "nuance": {
+            "en": "Featuring: a guest artist singing or rapping on someone else's song.",
+            "es": "Featuring: un artista invitado que canta o rapea en la canción de otro.",
+            "zh": "Featuring：客串演唱或Rap別人的歌。",
+            "cn": "Featuring：客串演唱或Rap别人的歌。",
+            "ja": "フィーチャリング。他のアーティストの曲にゲストとして歌やラップで参加すること。"
+        },
+        "usage": {
+            "en": "\"이 피처링 조합은 생각도 못 했어\" (\"I never saw this feature combo coming\").",
+            "es": "\"이 피처링 조합은 생각도 못 했어\" (\"Jamás imaginé esta combinación de featuring\").",
+            "zh": "「이 피처링 조합은 생각도 못 했어」（完全沒想到這個featuring組合）。",
+            "cn": "“이 피처링 조합은 생각도 못 했어”（完全没想到这个featuring组合）。",
+            "ja": "「이 피처링 조합은 생각도 못 했어」（このフィーチャリングの組み合わせは予想外）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콜라보",
+            "수록곡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "물광": {
+        "nuance": {
+            "en": "\"Water glow\": a dewy, hydrated skin finish that looks fresh and moist, a staple of K-beauty makeup.",
+            "es": "\"Brillo de agua\": un acabado de piel jugoso e hidratado que se ve fresco, básico del maquillaje K-beauty.",
+            "zh": "「水光」：水潤、保濕、看起來清透的膚質效果，是韓系妝容的基本款。",
+            "cn": "“水光”：水润、保湿、看起来清透的肤质效果，是韩系妆容的基本款。",
+            "ja": "「水光」。みずみずしく潤ったツヤ肌の仕上がりで、韓国メイクの定番。"
+        },
+        "usage": {
+            "en": "\"물광 메이크업 하는 법\" (\"how to do water-glow makeup\") is a common tutorial title.",
+            "es": "\"물광 메이크업 하는 법\" (\"cómo hacer maquillaje de brillo de agua\") es un título común de tutoriales.",
+            "zh": "「물광 메이크업 하는 법」（水光妝怎麼畫）是很常見的教學標題。",
+            "cn": "“물광 메이크업 하는 법”（水光妆怎么画）是很常见的教学标题。",
+            "ja": "「물광 메이크업 하는 법」（水光メイクのやり方）はよくあるチュートリアルのタイトル。"
+        },
+        "register": "everyday",
+        "similar": [
+            "꿀광",
+            "유리피부",
+            "꿀피부"
+        ],
+        "tags": [
+            "beauty",
+            "praise"
+        ]
+    },
+    "꿀광": {
+        "nuance": {
+            "en": "\"Honey glow\": a rich, radiant shine, as if the skin were coated in honey — glossier than 물광.",
+            "es": "\"Brillo de miel\": un resplandor intenso, como si la piel estuviera cubierta de miel, más brillante que 물광.",
+            "zh": "「蜜光」：彷彿抹上蜂蜜般飽滿亮澤的光感——比물광更有光澤。",
+            "cn": "“蜜光”：仿佛抹上蜂蜜般饱满亮泽的光感——比물광更有光泽。",
+            "ja": "「ハチミツ光」。ハチミツを塗ったような濃いツヤで、물광よりもつやつや。"
+        },
+        "usage": {
+            "en": "\"조명 받으니까 꿀광 장난 아니다\" (\"Under the lights, that honey glow is unreal\").",
+            "es": "\"조명 받으니까 꿀광 장난 아니다\" (\"Con la luz, ese brillo de miel es increíble\").",
+            "zh": "「조명 받으니까 꿀광 장난 아니다」（打上燈光後蜜光超驚人）。",
+            "cn": "“조명 받으니까 꿀광 장난 아니다”（打上灯光后蜜光超惊人）。",
+            "ja": "「조명 받으니까 꿀광 장난 아니다」（照明が当たるとハチミツ光がすごい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "물광",
+            "꿀피부",
+            "유리피부"
+        ],
+        "tags": [
+            "beauty",
+            "praise"
+        ]
+    },
+    "유리피부": {
+        "nuance": {
+            "en": "\"Glass skin\": skin so clear, smooth and luminous it looks almost translucent. The term spread worldwide through K-beauty.",
+            "es": "\"Piel de cristal\": piel tan limpia, lisa y luminosa que parece casi translúcida. El término se hizo global gracias al K-beauty.",
+            "zh": "「玻璃肌」：清透、光滑、透亮到幾乎透明的肌膚。這個詞隨著韓系美妝紅遍全球。",
+            "cn": "“玻璃肌”：清透、光滑、透亮到几乎透明的肌肤。这个词随着韩系美妆红遍全球。",
+            "ja": "「ガラス肌」。透き通るほどクリアでなめらか、ツヤのある肌。K-ビューティーとともに世界に広まった言葉。"
+        },
+        "usage": {
+            "en": "\"유리피부 만드는 루틴\" (\"a routine for glass skin\"), or as praise: \"고화질 직캠인데도 유리피부야\" (\"Even in a 4K fancam her skin is like glass\").",
+            "es": "\"유리피부 만드는 루틴\" (\"rutina para piel de cristal\"), o como elogio: \"고화질 직캠인데도 유리피부야\" (\"Hasta en un fancam en alta definición tiene piel de cristal\").",
+            "zh": "「유리피부 만드는 루틴」（打造玻璃肌的保養步驟），或當稱讚：「고화질 직캠인데도 유리피부야」（高畫質直拍也是玻璃肌）。",
+            "cn": "“유리피부 만드는 루틴”（打造玻璃肌的保养步骤），或当称赞：“고화질 직캠인데도 유리피부야”（高清直拍也是玻璃肌）。",
+            "ja": "「유리피부 만드는 루틴」（ガラス肌を作るルーティン）、ほめ言葉で「고화질 직캠인데도 유리피부야」（高画質の直カムでもガラス肌）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "꿀피부",
+            "물광",
+            "무결점"
+        ],
+        "tags": [
+            "beauty",
+            "praise"
+        ]
+    },
+    "꿀피부": {
+        "nuance": {
+            "en": "\"Honey skin\": smooth, moist, healthy-looking skin — sweet and glowing like honey.",
+            "es": "\"Piel de miel\": piel lisa, hidratada y de aspecto sano, dulce y luminosa como la miel.",
+            "zh": "「蜜肌」：光滑、水潤、看起來很健康的肌膚——像蜂蜜一樣甜美有光澤。",
+            "cn": "“蜜肌”：光滑、水润、看起来很健康的肌肤——像蜂蜜一样甜美有光泽。",
+            "ja": "「ハチミツ肌」。なめらかで潤った健康的な肌。ハチミツのようにつややか。"
+        },
+        "usage": {
+            "en": "\"민낯인데도 꿀피부네\" (\"Even barefaced, her skin is flawless\").",
+            "es": "\"민낯인데도 꿀피부네\" (\"Incluso sin maquillaje tiene la piel perfecta\").",
+            "zh": "「민낯인데도 꿀피부네」（素顏也是蜜肌）。",
+            "cn": "“민낯인데도 꿀피부네”（素颜也是蜜肌）。",
+            "ja": "「민낯인데도 꿀피부네」（すっぴんでもハチミツ肌だね）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "유리피부",
+            "꿀광",
+            "물광"
+        ],
+        "tags": [
+            "beauty",
+            "praise"
+        ]
+    },
+    "애교살": {
+        "nuance": {
+            "en": "\"Aegyo fat\": the small puffy band right under the eyes that shows when you smile — seen as cute and youthful in Korea.",
+            "es": "\"Grasa de aegyo\": la pequeña franja abultada justo debajo de los ojos que aparece al sonreír; en Corea se ve tierna y juvenil.",
+            "zh": "「臥蠶」：眼睛正下方、笑起來會出現的小小隆起，在韓國被認為可愛又顯年輕。",
+            "cn": "“卧蚕”：眼睛正下方、笑起来会出现的小小隆起，在韩国被认为可爱又显年轻。",
+            "ja": "「涙袋」。目のすぐ下にある、笑うとふっくら出るふくらみ。韓国ではかわいらしく若々しい印象とされる。"
+        },
+        "usage": {
+            "en": "Makeup often enhances it: \"애교살 메이크업\" (\"aegyo-sal makeup\"). As praise: \"웃을 때 애교살이 너무 예뻐\" (\"Her eye smile is so pretty\").",
+            "es": "El maquillaje suele resaltarla: \"애교살 메이크업\" (\"maquillaje de aegyo-sal\"). Como elogio: \"웃을 때 애교살이 너무 예뻐\" (\"Cuando sonríe se le ve preciosa\").",
+            "zh": "化妝常會強調它：「애교살 메이크업」（臥蠶妝）。當稱讚：「웃을 때 애교살이 너무 예뻐」（笑起來臥蠶好漂亮）。",
+            "cn": "化妆常会强调它：“애교살 메이크업”（卧蚕妆）。当称赞：“웃을 때 애교살이 너무 예뻐”（笑起来卧蚕好漂亮）。",
+            "ja": "メイクで強調することも：「애교살 메이크업」（涙袋メイク）。ほめ言葉で「웃을 때 애교살이 너무 예뻐」（笑った時の涙袋がかわいい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "애교",
+            "비주얼"
+        ],
+        "tags": [
+            "beauty"
+        ]
+    },
+    "코덕": {
+        "nuance": {
+            "en": "코스메틱 (cosmetics) + 덕후 (otaku): someone obsessed with makeup and skincare — testing, collecting and reviewing products.",
+            "es": "코스메틱 (cosméticos) + 덕후 (otaku): alguien obsesionado con el maquillaje y el skincare, que prueba, colecciona y reseña productos.",
+            "zh": "코스메틱（化妝品）＋덕후（御宅）：熱衷彩妝保養的人——試用、收集、寫評價。",
+            "cn": "코스메틱（化妆品）＋덕후（御宅）：热衷彩妆保养的人——试用、收集、写评价。",
+            "ja": "코스메틱（コスメ）＋덕후（オタク）。メイクやスキンケアに夢中な人。試して集めてレビューする。"
+        },
+        "usage": {
+            "en": "\"코덕이라 신상 나오면 다 사 봐야 돼\" (\"I'm a beauty junkie, so I have to try every new release\").",
+            "es": "\"코덕이라 신상 나오면 다 사 봐야 돼\" (\"Soy fanática de la cosmética, tengo que probar cada novedad\").",
+            "zh": "「코덕이라 신상 나오면 다 사 봐야 돼」（我是美妝控，出新品一定要買來試）。",
+            "cn": "“코덕이라 신상 나오면 다 사 봐야 돼”（我是美妆控，出新品一定要买来试）。",
+            "ja": "「코덕이라 신상 나오면 다 사 봐야 돼」（コスメオタクだから新作は全部試さないと）。"
+        },
+        "register": "casual",
+        "similar": [
+            "덕질",
+            "물광",
+            "유리피부"
+        ],
+        "tags": [
+            "beauty",
+            "kpop-fan"
+        ]
+    },
+    "무결점": {
+        "nuance": {
+            "en": "無缺點 — flawless: no blemishes, no mistakes. Used for skin, looks, or a perfect performance.",
+            "es": "無缺點: impecable, sin imperfecciones ni errores. Se usa para la piel, la apariencia o una presentación perfecta.",
+            "zh": "無缺點——完美無瑕，沒有瑕疵也沒有失誤。可以形容皮膚、外貌或完美的表演。",
+            "cn": "无缺点——完美无瑕，没有瑕疵也没有失误。可以形容皮肤、外貌或完美的表演。",
+            "ja": "無欠点。シミも失敗もない、完璧なこと。肌や見た目、完璧なパフォーマンスにも使う。"
+        },
+        "usage": {
+            "en": "\"무결점 라이브\" (\"a flawless live\") or \"무결점 피부\" (\"flawless skin\").",
+            "es": "\"무결점 라이브\" (\"un en vivo impecable\") o \"무결점 피부\" (\"piel impecable\").",
+            "zh": "「무결점 라이브」（零失誤的現場）或「무결점 피부」（無瑕肌膚）。",
+            "cn": "“무결점 라이브”（零失误的现场）或“무결점 피부”（无瑕肌肤）。",
+            "ja": "「무결점 라이브」（ノーミスの生歌）や「무결점 피부」（完璧な肌）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "유리피부",
+            "비주얼",
+            "실물"
+        ],
+        "tags": [
+            "praise",
+            "beauty"
+        ]
+    },
+    "방송사고": {
+        "nuance": {
+            "en": "\"Broadcast accident\": an on-air mishap — a mic cutting out, a wrong subtitle, a camera catching what it shouldn't.",
+            "es": "\"Accidente de transmisión\": un error al aire, como un micrófono que se apaga, un subtítulo equivocado o una cámara que capta lo que no debía.",
+            "zh": "「播出事故」：直播中的意外——麥克風沒聲音、字幕打錯、鏡頭拍到不該拍的東西。",
+            "cn": "“播出事故”：直播中的意外——麦克风没声音、字幕打错、镜头拍到不该拍的东西。",
+            "ja": "「放送事故」。生放送中のハプニング。マイクが切れる、字幕の間違い、映ってはいけないものが映るなど。"
+        },
+        "usage": {
+            "en": "Often funny in hindsight: \"이 방송사고 장면 레전드야\" (\"This on-air blooper is legendary\").",
+            "es": "Suele ser gracioso con el tiempo: \"이 방송사고 장면 레전드야\" (\"Este error en vivo es legendario\").",
+            "zh": "事後常成為笑點：「이 방송사고 장면 레전드야」（這段播出事故是傳奇）。",
+            "cn": "事后常成为笑点：“이 방송사고 장면 레전드야”（这段播出事故是传奇）。",
+            "ja": "後から笑い話になることも：「이 방송사고 장면 레전드야」（この放送事故の場面はレジェンド）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "음악방송",
+            "립싱크",
+            "라이브"
+        ],
+        "tags": [
+            "funny",
+            "surprise"
+        ]
+    },
+    "초동": {
+        "nuance": {
+            "en": "Short for 초동 판매량: an album's sales in its first week after release — the number fandoms watch most closely.",
+            "es": "Abreviatura de 초동 판매량: las ventas de un álbum en su primera semana; la cifra que más vigilan los fandoms.",
+            "zh": "초동 판매량（首週銷量）的縮寫：專輯發行後第一週的銷量——粉絲最關注的數字。",
+            "cn": "초동 판매량（首周销量）的缩写：专辑发行后第一周的销量——粉丝最关注的数字。",
+            "ja": "초동 판매량（初動販売量）の略。発売後1週間のアルバム売上で、ファンダムが一番注目する数字。"
+        },
+        "usage": {
+            "en": "\"초동 기록 경신하자!\" (\"Let's break our first-week record!\") — fans often buy albums during this week on purpose.",
+            "es": "\"초동 기록 경신하자!\" (\"¡Rompamos nuestro récord de primera semana!\"); los fans compran álbumes justo en esa semana a propósito.",
+            "zh": "「초동 기록 경신하자!」（一起刷新首週紀錄！）——粉絲常會特地在這一週買專輯。",
+            "cn": "“초동 기록 경신하자!”（一起刷新首周纪录！）——粉丝常会特地在这一周买专辑。",
+            "ja": "「초동 기록 경신하자!」（初動記録を更新しよう！）。ファンはわざとこの週にアルバムを買う。"
+        },
+        "culture": {
+            "en": "Korean first-week album sales are commonly tracked by the Hanteo Chart, which is why fans time their purchases to that window.",
+            "es": "Las ventas de la primera semana en Corea se siguen comúnmente con el Hanteo Chart, por eso los fans programan sus compras en ese periodo.",
+            "zh": "韓國的首週專輯銷量通常以Hanteo Chart統計，所以粉絲會刻意在這段期間購買。",
+            "cn": "韩国的首周专辑销量通常以Hanteo Chart统计，所以粉丝会刻意在这段期间购买。",
+            "ja": "韓国の初動売上は主にHanteo Chartで集計されるため、ファンはその期間に合わせて購入する。"
+        },
+        "register": "everyday",
+        "similar": [
+            "음원강자",
+            "컴백",
+            "빌보드차트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "빌보드차트": {
+        "nuance": {
+            "en": "The U.S. Billboard charts (like the Hot 100 and Billboard 200) — a big benchmark for K-pop's global success.",
+            "es": "Las listas Billboard de EE. UU. (como el Hot 100 y el Billboard 200), una gran referencia del éxito global del K-pop.",
+            "zh": "美國告示牌排行榜（如Hot 100和Billboard 200）——衡量K-pop全球成績的重要指標。",
+            "cn": "美国告示牌排行榜（如Hot 100和Billboard 200）——衡量K-pop全球成绩的重要指针。",
+            "ja": "アメリカのビルボードチャート（Hot 100やBillboard 200など）。K-POPの世界的成功を測る大きな指標。"
+        },
+        "usage": {
+            "en": "\"빌보드차트 진입 축하해!\" (\"Congrats on entering the Billboard charts!\").",
+            "es": "\"빌보드차트 진입 축하해!\" (\"¡Felicidades por entrar en las listas de Billboard!\").",
+            "zh": "「빌보드차트 진입 축하해!」（恭喜進入告示牌排行榜！）。",
+            "cn": "“빌보드차트 진입 축하해!”（恭喜进入告示牌排行榜！）。",
+            "ja": "「빌보드차트 진입 축하해!」（ビルボードチャート入りおめでとう！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "음원강자",
+            "월드투어",
+            "초동"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ]
+    },
+    "활동명": {
+        "nuance": {
+            "en": "活動名 — the name an idol promotes under. It can be their real name or a stage name.",
+            "es": "活動名: el nombre con el que un idol promociona. Puede ser su nombre real o uno artístico.",
+            "zh": "活動名——偶像宣傳時使用的名字，可以是本名，也可以是藝名。",
+            "cn": "活动名——偶像宣传时使用的名字，可以是本名，也可以是艺名。",
+            "ja": "活動名。アイドルが活動に使う名前。本名の場合も芸名の場合もある。"
+        },
+        "usage": {
+            "en": "\"활동명은 영어인데 본명은 한국 이름이야\" (\"Her stage name is English, but her real name is Korean\").",
+            "es": "\"활동명은 영어인데 본명은 한국 이름이야\" (\"Su nombre artístico es en inglés, pero el real es coreano\").",
+            "zh": "「활동명은 영어인데 본명은 한국 이름이야」（活動名是英文，本名是韓文名字）。",
+            "cn": "“활동명은 영어인데 본명은 한국 이름이야”（活动名是英文，本名是韩文名字）。",
+            "ja": "「활동명은 영어인데 본명은 한국 이름이야」（活動名は英語だけど本名は韓国名）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "예명",
+            "본명"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "본명": {
+        "nuance": {
+            "en": "本名 — a person's real, legal name.",
+            "es": "本名: el nombre real y legal de una persona.",
+            "zh": "本名——一個人的真實姓名。",
+            "cn": "本名——一个人的真实姓名。",
+            "ja": "本名。本当の名前、戸籍上の名前。"
+        },
+        "usage": {
+            "en": "Fans sometimes call idols by their real name as a sign of closeness: \"본명으로 부르면 더 다정한 느낌\" (\"Using the real name feels more affectionate\").",
+            "es": "A veces los fans llaman a los idols por su nombre real como señal de cercanía: \"본명으로 부르면 더 다정한 느낌\" (\"Llamarlo por su nombre real se siente más cariñoso\").",
+            "zh": "粉絲有時會叫偶像本名表示親近：「본명으로 부르면 더 다정한 느낌」（叫本名感覺更親密）。",
+            "cn": "粉丝有时会叫偶像本名表示亲近：“본명으로 부르면 더 다정한 느낌”（叫本名感觉更亲密）。",
+            "ja": "親しみを込めて本名で呼ぶファンも：「본명으로 부르면 더 다정한 느낌」（本名で呼ぶともっと親しい感じ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "활동명",
+            "예명"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "예명": {
+        "nuance": {
+            "en": "藝名 — a stage name chosen for performing, different from the real name.",
+            "es": "藝名: un nombre artístico elegido para actuar, distinto del nombre real.",
+            "zh": "藝名——為了演藝活動而取的名字，和本名不同。",
+            "cn": "艺名——为了演艺活动而取的名字，和本名不同。",
+            "ja": "芸名。活動のために付けた、本名とは違う名前。"
+        },
+        "usage": {
+            "en": "\"예명 뜻이 뭔지 인터뷰에서 말해 줬어\" (\"He explained what his stage name means in an interview\").",
+            "es": "\"예명 뜻이 뭔지 인터뷰에서 말해 줬어\" (\"Explicó el significado de su nombre artístico en una entrevista\").",
+            "zh": "「예명 뜻이 뭔지 인터뷰에서 말해 줬어」（他在訪談中說了藝名的意思）。",
+            "cn": "“예명 뜻이 뭔지 인터뷰에서 말해 줬어”（他在访谈中说了艺名的意思）。",
+            "ja": "「예명 뜻이 뭔지 인터뷰에서 말해 줬어」（インタビューで芸名の意味を話してた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "활동명",
+            "본명"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "앨범자켓": {
+        "nuance": {
+            "en": "Album jacket: the cover art and packaging design. K-pop albums often come in several versions with different covers.",
+            "es": "Portada del álbum: el diseño de la carátula y el empaque. Los álbumes de K-pop suelen tener varias versiones con portadas distintas.",
+            "zh": "專輯封面：封面和包裝設計。K-pop專輯常有多個版本、不同封面。",
+            "cn": "专辑封面：封面和包装设计。K-pop专辑常有多个版本、不同封面。",
+            "ja": "アルバムジャケット。カバーやパッケージのデザイン。K-POPのアルバムは複数バージョンでジャケットが違うことが多い。"
+        },
+        "usage": {
+            "en": "\"앨범자켓 버전별로 다 예뻐서 고를 수가 없어\" (\"Every version's cover is so pretty I can't choose\").",
+            "es": "\"앨범자켓 버전별로 다 예뻐서 고를 수가 없어\" (\"Todas las portadas son tan bonitas que no puedo elegir\").",
+            "zh": "「앨범자켓 버전별로 다 예뻐서 고를 수가 없어」（每個版本的封面都好美，選不出來）。",
+            "cn": "“앨범자켓 버전별로 다 예뻐서 고를 수가 없어”（每个版本的封面都好美，选不出来）。",
+            "ja": "「앨범자켓 버전별로 다 예뻐서 고를 수가 없어」（どのバージョンのジャケットもかわいくて選べない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콘셉트포토",
+            "정규앨범",
+            "초회한정반"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "뮤비": {
+        "nuance": {
+            "en": "Short for 뮤직비디오: a music video (MV).",
+            "es": "Abreviatura de 뮤직비디오: un videoclip (MV).",
+            "zh": "뮤직비디오（音樂錄影帶）的縮寫：MV。",
+            "cn": "뮤직비디오（音乐录制带）的缩写：MV。",
+            "ja": "뮤직비디오（ミュージックビデオ）の略。MV。"
+        },
+        "usage": {
+            "en": "\"뮤비 공개 1시간 만에 조회수 100만\" (\"A million views within an hour of the MV release\") — fans track view counts closely.",
+            "es": "\"뮤비 공개 1시간 만에 조회수 100만\" (\"Un millón de vistas una hora después de estrenar el MV\"); los fans siguen de cerca las visualizaciones.",
+            "zh": "「뮤비 공개 1시간 만에 조회수 100만」（MV公開一小時觀看數破百萬）——粉絲很在意觀看數。",
+            "cn": "“뮤비 공개 1시간 만에 조회수 100만”（MV公开一小时观看数破百万）——粉丝很在意观看数。",
+            "ja": "「뮤비 공개 1시간 만에 조회수 100만」（MV公開1時間で100万回再生）。ファンは再生数を細かく追う。"
+        },
+        "register": "casual",
+        "similar": [
+            "티저",
+            "세계관",
+            "타이틀곡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "안무영상": {
+        "nuance": {
+            "en": "A choreography video, often a dance practice: a fixed-camera video of the full dance, usually in practice clothes.",
+            "es": "Un video de coreografía, a menudo un dance practice: el baile completo grabado con cámara fija, normalmente con ropa de ensayo.",
+            "zh": "舞蹈影片，常指練習室版：用固定鏡頭拍下完整舞蹈，通常穿練習服。",
+            "cn": "舞蹈视频，常指练习室版：用固定镜头拍下完整舞蹈，通常穿练习服。",
+            "ja": "振り付け映像。多くは練習室バージョンで、固定カメラでダンス全体を撮影したもの。たいてい練習着。"
+        },
+        "usage": {
+            "en": "Fans learn dances from it: \"안무영상 거울 모드로 연습 중\" (\"Practicing with the mirrored dance video\").",
+            "es": "Los fans aprenden el baile con él: \"안무영상 거울 모드로 연습 중\" (\"Practicando con el video en modo espejo\").",
+            "zh": "粉絲會照著學：「안무영상 거울 모드로 연습 중」（用鏡像版練習室影片練舞中）。",
+            "cn": "粉丝会照着学：“안무영상 거울 모드로 연습 중”（用镜像版练习室视频练舞中）。",
+            "ja": "ファンはこれで踊りを覚える：「안무영상 거울 모드로 연습 중」（ミラー版で練習中）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "안무가",
+            "칼군무",
+            "챌린지"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "챌린지": {
+        "nuance": {
+            "en": "A dance challenge: a short viral dance to a song's hook that idols and fans film and post on short-video apps.",
+            "es": "Un challenge de baile: un baile corto y viral con el gancho de una canción que idols y fans graban y suben a apps de videos cortos.",
+            "zh": "舞蹈挑戰：配合歌曲副歌的短舞，偶像和粉絲拍下來上傳到短影音平台。",
+            "cn": "舞蹈挑战：配合歌曲副歌的短舞，偶像和粉丝拍下来上传到短影音平台。",
+            "ja": "ダンスチャレンジ。曲のサビに合わせた短いダンスを、アイドルやファンが撮影してショート動画アプリに投稿する。"
+        },
+        "usage": {
+            "en": "Idols often film it together: \"선배랑 챌린지 찍었어!\" (\"I filmed the challenge with my senior!\").",
+            "es": "Los idols suelen grabarlo juntos: \"선배랑 챌린지 찍었어!\" (\"¡Grabé el challenge con mi sunbae!\").",
+            "zh": "偶像之間常會一起拍：「선배랑 챌린지 찍었어!」（和前輩一起拍了挑戰！）。",
+            "cn": "偶像之间常会一起拍：“선배랑 챌린지 찍었어!”（和前辈一起拍了挑战！）。",
+            "ja": "アイドル同士で一緒に撮ることも多い：「선배랑 챌린지 찍었어!」（先輩とチャレンジ撮った！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "킬링파트",
+            "후크송",
+            "역주행"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "스탠딩석": {
+        "nuance": {
+            "en": "Standing section: the floor area with no seats, where fans stand close to the stage — usually entered by ticket number.",
+            "es": "Zona de pie: el área sin asientos donde los fans están de pie cerca del escenario; normalmente se entra por número de entrada.",
+            "zh": "站票區：沒有座位、粉絲站著看、離舞台很近的區域——通常依票號入場。",
+            "cn": "站票区：没有座位、粉丝站着看、离舞台很近的区域——通常依票号入场。",
+            "ja": "スタンディング席。座席がなく、ステージ近くで立って見るエリア。入場は整理番号順が多い。"
+        },
+        "usage": {
+            "en": "\"스탠딩석 앞번호 잡았어!\" (\"I got a low number for standing!\").",
+            "es": "\"스탠딩석 앞번호 잡았어!\" (\"¡Conseguí un número bajo para la zona de pie!\").",
+            "zh": "「스탠딩석 앞번호 잡았어!」（搶到站票區前排號碼！）。",
+            "cn": "“스탠딩석 앞번호 잡았어!”（抢到站票区前排号码！）。",
+            "ja": "「스탠딩석 앞번호 잡았어!」（スタンディングの若い番号取れた！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "지정석",
+            "월드투어",
+            "콜사인"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "지정석": {
+        "nuance": {
+            "en": "指定席 — an assigned, numbered seat at a concert.",
+            "es": "指定席: un asiento numerado y asignado en un concierto.",
+            "zh": "指定席——演唱會上有號碼的座位。",
+            "cn": "指定席——演唱会上有号码的座位。",
+            "ja": "指定席。コンサートで番号が決まっている座席。"
+        },
+        "usage": {
+            "en": "\"체력 생각해서 이번엔 지정석으로 갔어\" (\"I went for an assigned seat this time to save my energy\").",
+            "es": "\"체력 생각해서 이번엔 지정석으로 갔어\" (\"Esta vez elegí asiento numerado para no cansarme\").",
+            "zh": "「체력 생각해서 이번엔 지정석으로 갔어」（考慮體力，這次選了指定席）。",
+            "cn": "“체력 생각해서 이번엔 지정석으로 갔어”（考虑体力，这次选了指定席）。",
+            "ja": "「체력 생각해서 이번엔 지정석으로 갔어」（体力を考えて今回は指定席にした）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스탠딩석",
+            "월드투어"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "콜사인": {
+        "nuance": {
+            "en": "Call sign: the shouted cue fans do together at set points — like a group greeting or chant.",
+            "es": "Call sign: el grito o la consigna que los fans hacen juntos en momentos concretos, como un saludo o un canto grupal.",
+            "zh": "Call Sign：粉絲在固定時刻一起喊的口號——像是團體問候或應援口號。",
+            "cn": "Call Sign：粉丝在固定时刻一起喊的口号——像是团体问候或应援口号。",
+            "ja": "コールサイン。決まったタイミングでファンが一斉に叫ぶ掛け声。グループのあいさつや応援コールなど。"
+        },
+        "usage": {
+            "en": "\"콘서트 전에 콜사인 연습해 가자\" (\"Let's practice the call before the concert\").",
+            "es": "\"콘서트 전에 콜사인 연습해 가자\" (\"Practiquemos el call antes del concierto\").",
+            "zh": "「콘서트 전에 콜사인 연습해 가자」（演唱會前先練好口號吧）。",
+            "cn": "“콘서트 전에 콜사인 연습해 가자”（演唱会前先练好口号吧）。",
+            "ja": "「콘서트 전에 콜사인 연습해 가자」（コンサート前にコール練習していこう）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "떼창",
+            "응원봉",
+            "스탠딩석"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "셋리스트": {
+        "nuance": {
+            "en": "A setlist: the songs performed at a concert, in order.",
+            "es": "Un setlist: las canciones que se interpretan en un concierto, en orden.",
+            "zh": "歌單：演唱會上表演的歌曲順序。",
+            "cn": "歌单：演唱会上表演的歌曲顺序。",
+            "ja": "セットリスト。コンサートで披露される曲とその順番。"
+        },
+        "usage": {
+            "en": "\"스포 싫으면 셋리스트 검색하지 마\" (\"If you hate spoilers, don't look up the setlist\").",
+            "es": "\"스포 싫으면 셋리스트 검색하지 마\" (\"Si odias los spoilers, no busques el setlist\").",
+            "zh": "「스포 싫으면 셋리스트 검색하지 마」（討厭被劇透就別搜歌單）。",
+            "cn": "“스포 싫으면 셋리스트 검색하지 마”（讨厌被剧透就别搜歌单）。",
+            "ja": "「스포 싫으면 셋리스트 검색하지 마」（ネタバレ嫌なら、セトリ検索しないで）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "오프닝곡",
+            "월드투어",
+            "앵콜무대"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "오프닝곡": {
+        "nuance": {
+            "en": "The opening song: the first song of a concert, chosen to make a strong first impression.",
+            "es": "La canción de apertura: la primera canción del concierto, elegida para causar una gran primera impresión.",
+            "zh": "開場曲：演唱會的第一首歌，用來製造強烈的第一印象。",
+            "cn": "开场曲：演唱会的第一首歌，用来制造强烈的第一印象。",
+            "ja": "オープニング曲。コンサートの1曲目で、強いインパクトを与えるために選ばれる。"
+        },
+        "usage": {
+            "en": "\"오프닝곡부터 소리 질렀어\" (\"I was screaming from the very first song\").",
+            "es": "\"오프닝곡부터 소리 질렀어\" (\"Grité desde la primera canción\").",
+            "zh": "「오프닝곡부터 소리 질렀어」（從開場曲就開始尖叫）。",
+            "cn": "“오프닝곡부터 소리 질렀어”（从开场曲就开始尖叫）。",
+            "ja": "「오프닝곡부터 소리 질렀어」（1曲目から叫んだ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "셋리스트",
+            "월드투어"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "순위발표식": {
+        "nuance": {
+            "en": "The ranking announcement: the survival-show episode where contestants learn their rank — who stays, who's out, who debuts.",
+            "es": "El anuncio de posiciones: el episodio del programa de supervivencia donde los concursantes conocen su puesto: quién sigue, quién sale y quién debuta.",
+            "zh": "排名發表式：選秀節目公布名次的環節——誰留下、誰淘汰、誰出道。",
+            "cn": "排名发表式：选秀节目公布名次的环节——谁留下、谁淘汰、谁出道。",
+            "ja": "順位発表式。サバイバル番組で順位が発表される回。残るか、脱落か、デビューか。"
+        },
+        "usage": {
+            "en": "\"순위발표식 보다가 심장 터질 뻔\" (\"My heart nearly burst watching the ranking announcement\").",
+            "es": "\"순위발표식 보다가 심장 터질 뻔\" (\"Casi me explota el corazón viendo el anuncio de posiciones\").",
+            "zh": "「순위발표식 보다가 심장 터질 뻔」（看排名發表式心臟差點爆炸）。",
+            "cn": "“순위발표식 보다가 심장 터질 뻔”（看排名发表式心脏差点爆炸）。",
+            "ja": "「순위발표식 보다가 심장 터질 뻔」（順位発表式を見てて心臓が破裂しそうだった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "서바이벌",
+            "탈락",
+            "생존",
+            "데뷔조"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "탈락": {
+        "nuance": {
+            "en": "脫落 — elimination: being cut from a survival or competition show.",
+            "es": "脫落: eliminación, quedar fuera de un programa de supervivencia o competencia.",
+            "zh": "脫落——淘汰：在選秀或競賽節目中被刷掉。",
+            "cn": "脱落——淘汰：在选秀或竞赛节目中被刷掉。",
+            "ja": "脱落。サバイバル番組や競争番組から落ちること。"
+        },
+        "usage": {
+            "en": "\"원픽이 탈락해서 너무 속상해\" (\"My one pick got eliminated and I'm so upset\").",
+            "es": "\"원픽이 탈락해서 너무 속상해\" (\"Eliminaron a mi favorito y estoy muy triste\").",
+            "zh": "「원픽이 탈락해서 너무 속상해」（本命被淘汰了，好難過）。",
+            "cn": "“원픽이 탈락해서 너무 속상해”（本命被淘汰了，好难过）。",
+            "ja": "「원픽이 탈락해서 너무 속상해」（推しが脱落して悲しすぎる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "생존",
+            "순위발표식",
+            "서바이벌"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "생존": {
+        "nuance": {
+            "en": "生存 — survival: making it through to the next round of a survival show.",
+            "es": "生存: sobrevivir, pasar a la siguiente ronda de un programa de supervivencia.",
+            "zh": "生存——在選秀節目中晉級下一輪。",
+            "cn": "生存——在选秀节目中晋级下一轮。",
+            "ja": "生存。サバイバル番組で次のラウンドに進むこと。"
+        },
+        "usage": {
+            "en": "\"이번 회차 생존 확정!\" (\"Confirmed safe this round!\").",
+            "es": "\"이번 회차 생존 확정!\" (\"¡Confirmado: sigue esta ronda!\").",
+            "zh": "「이번 회차 생존 확정!」（這一輪確定生存！）。",
+            "cn": "“이번 회차 생존 확정!”（这一轮确定生存！）。",
+            "ja": "「이번 회차 생존 확정!」（今回の生存確定！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "탈락",
+            "순위발표식",
+            "서바이벌"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "미션": {
+        "nuance": {
+            "en": "A mission: a task contestants must complete on a survival or competition show, like a cover stage or original song.",
+            "es": "Una misión: una tarea que los concursantes deben cumplir en un programa de supervivencia, como un cover o una canción original.",
+            "zh": "任務：選秀或競賽節目中參賽者要完成的課題，例如翻唱舞台或原創曲。",
+            "cn": "任务：选秀或竞赛节目中参赛者要完成的课题，例如翻唱舞台或原创曲。",
+            "ja": "ミッション。サバイバル番組や競争番組で参加者がこなす課題。カバーステージやオリジナル曲など。"
+        },
+        "usage": {
+            "en": "\"이번 미션 곡 너무 어렵다\" (\"This mission's song is so hard\").",
+            "es": "\"이번 미션 곡 너무 어렵다\" (\"La canción de esta misión es dificilísima\").",
+            "zh": "「이번 미션 곡 너무 어렵다」（這次的任務曲好難）。",
+            "cn": "“이번 미션 곡 너무 어렵다”（这次的任务曲好难）。",
+            "ja": "「이번 미션 곡 너무 어렵다」（今回のミッション曲、難しすぎる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팀배틀",
+            "포지션평가",
+            "서바이벌"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "팀배틀": {
+        "nuance": {
+            "en": "A team battle: a survival-show round where contestants split into teams and compete head-to-head on stage.",
+            "es": "Una batalla por equipos: una ronda del programa de supervivencia en la que los concursantes se dividen en equipos y compiten cara a cara.",
+            "zh": "團隊對戰：選秀節目中參賽者分組、在舞台上正面較量的環節。",
+            "cn": "团队对战：选秀节目中参赛者分组、在舞台上正面较量的环节。",
+            "ja": "チームバトル。サバイバル番組で参加者がチームに分かれ、ステージで対決するラウンド。"
+        },
+        "usage": {
+            "en": "\"팀배틀 조 편성 보고 소리 질렀어\" (\"I screamed when I saw the team battle lineup\").",
+            "es": "\"팀배틀 조 편성 보고 소리 질렀어\" (\"Grité al ver cómo quedaron los equipos\").",
+            "zh": "「팀배틀 조 편성 보고 소리 질렀어」（看到團隊對戰分組就尖叫了）。",
+            "cn": "“팀배틀 조 편성 보고 소리 질렀어”（看到团队对战分组就尖叫了）。",
+            "ja": "「팀배틀 조 편성 보고 소리 질렀어」（チームバトルの組分け見て叫んだ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "미션",
+            "포지션평가",
+            "서바이벌"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "포지션평가": {
+        "nuance": {
+            "en": "Position evaluation: a survival-show round where contestants are judged in one area — vocal, dance or rap.",
+            "es": "Evaluación por posición: una ronda del programa de supervivencia en la que se evalúa a los concursantes en un área: voz, baile o rap.",
+            "zh": "位置評價：選秀節目中依單一領域——歌唱、舞蹈或Rap——評分的環節。",
+            "cn": "位置评价：选秀节目中依单一领域——歌唱、舞蹈或Rap——评分的环节。",
+            "ja": "ポジション評価。サバイバル番組で、ボーカル、ダンス、ラップなど一つの分野で評価されるラウンド。"
+        },
+        "usage": {
+            "en": "\"포지션평가에서 보컬로 1등 했대\" (\"She came first in the vocal position evaluation\").",
+            "es": "\"포지션평가에서 보컬로 1등 했대\" (\"Quedó primera en la evaluación vocal\").",
+            "zh": "「포지션평가에서 보컬로 1등 했대」（她在位置評價的Vocal組拿了第一）。",
+            "cn": "“포지션평가에서 보컬로 1등 했대”（她在位置评价的Vocal组拿了第一）。",
+            "ja": "「포지션평가에서 보컬로 1등 했대」（ポジション評価のボーカルで1位だったって）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팀배틀",
+            "미션",
+            "메인보컬"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "국민프로듀서": {
+        "nuance": {
+            "en": "\"National producers\": the viewers who vote on a survival show, together deciding who debuts.",
+            "es": "\"Productores nacionales\": los espectadores que votan en un programa de supervivencia y deciden juntos quién debuta.",
+            "zh": "「國民製作人」：在選秀節目中投票、共同決定誰能出道的觀眾。",
+            "cn": "“国民制作人”：在选秀节目中投票、共同决定谁能出道的观众。",
+            "ja": "「国民プロデューサー」。サバイバル番組で投票し、誰がデビューするかを一緒に決める視聴者。"
+        },
+        "usage": {
+            "en": "Shows address viewers this way: \"국민프로듀서님, 투표해 주세요!\" (\"National producers, please vote!\").",
+            "es": "Los programas se dirigen así al público: \"국민프로듀서님, 투표해 주세요!\" (\"¡Productores nacionales, voten, por favor!\").",
+            "zh": "節目會這樣稱呼觀眾：「국민프로듀서님, 투표해 주세요!」（國民製作人，請投票！）。",
+            "cn": "节目会这样称呼观众：“국민프로듀서님, 투표해 주세요!”（国民制作人，请投票！）。",
+            "ja": "番組は視聴者をこう呼ぶ：「국민프로듀서님, 투표해 주세요!」（国民プロデューサーの皆さん、投票してください！）。"
+        },
+        "culture": {
+            "en": "The term was popularized by Mnet's survival show Produce 101 (2016), where viewer votes chose the debut lineup.",
+            "es": "El término se popularizó con el programa de Mnet Produce 101 (2016), donde los votos del público elegían el grupo de debut.",
+            "zh": "這個詞因Mnet選秀節目《Produce 101》（2016）而流行，該節目由觀眾投票決定出道名單。",
+            "cn": "这个词因Mnet选秀节目《Produce 101》（2016）而流行，该节目由观众投票决定出道名单。",
+            "ja": "この言葉はMnetのサバイバル番組『PRODUCE 101』（2016年）で広まった。視聴者投票でデビューメンバーが決まった。"
+        },
+        "register": "everyday",
+        "similar": [
+            "서바이벌",
+            "원픽",
+            "데뷔조"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "립싱크": {
+        "nuance": {
+            "en": "Lip sync: miming to a pre-recorded vocal instead of singing live. Fans often debate it after stages.",
+            "es": "Lip sync: hacer playback con una voz pregrabada en lugar de cantar en vivo. Los fans suelen debatirlo tras las presentaciones.",
+            "zh": "對嘴：跟著預錄人聲做嘴型而非真唱。粉絲常在舞台後討論這件事。",
+            "cn": "对嘴：跟着预录人声做嘴型而非真唱。粉丝常在舞台后讨论这件事。",
+            "ja": "口パク。生で歌わず、事前録音の歌声に合わせて口を動かすこと。ステージ後にファンの議論になりがち。"
+        },
+        "usage": {
+            "en": "\"이 춤 추면서 립싱크 아니고 라이브라고?\" (\"Dancing like that, and it's live, not lip sync?\").",
+            "es": "\"이 춤 추면서 립싱크 아니고 라이브라고?\" (\"¿Bailando así y no es playback, sino en vivo?\").",
+            "zh": "「이 춤 추면서 립싱크 아니고 라이브라고?」（跳這種舞，居然不是對嘴是真唱？）。",
+            "cn": "“이 춤 추면서 립싱크 아니고 라이브라고?”（跳这种舞，居然不是对嘴是真唱？）。",
+            "ja": "「이 춤 추면서 립싱크 아니고 라이브라고?」（このダンスしながら口パクじゃなくて生歌？）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "라이브",
+            "방송사고",
+            "음악방송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "라이브": {
+        "nuance": {
+            "en": "Live: singing with your real voice on stage, as opposed to lip syncing. Strong live vocals are a big point of pride.",
+            "es": "En vivo: cantar con tu voz real en el escenario, en lugar de hacer playback. Cantar bien en vivo es motivo de orgullo.",
+            "zh": "現場：在舞台上真唱，而不是對嘴。現場唱功好是很大的驕傲。",
+            "cn": "现场：在舞台上真唱，而不是对嘴。现场唱功好是很大的骄傲。",
+            "ja": "生歌。口パクではなく、ステージで実際に歌うこと。生歌の上手さは大きな誇り。"
+        },
+        "usage": {
+            "en": "\"라이브 실력 실화냐\" (\"Is that live vocal for real?\"). Also used for livestreams: \"라이브 켰어!\" (\"They went live!\").",
+            "es": "\"라이브 실력 실화냐\" (\"¿En serio canta así en vivo?\"). También para transmisiones: \"라이브 켰어!\" (\"¡Están en vivo!\").",
+            "zh": "「라이브 실력 실화냐」（這現場實力是真的嗎）。也用於直播：「라이브 켰어!」（開直播了！）。",
+            "cn": "“라이브 실력 실화냐”（这现场实力是真的吗）。也用于直播：“라이브 켰어!”（开直播了！）。",
+            "ja": "「라이브 실력 실화냐」（この生歌の実力、本当？）。配信にも使う：「라이브 켰어!」（ライブ配信始まった！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "립싱크",
+            "실력돌",
+            "메인보컬"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "백스테이지": {
+        "nuance": {
+            "en": "Backstage: the area behind the stage where performers get ready — and the footage fans love from there.",
+            "es": "Backstage: la zona detrás del escenario donde se preparan los artistas, y los videos de ahí que los fans adoran.",
+            "zh": "後台：舞台後方表演者準備的地方——以及粉絲最愛的後台影片。",
+            "cn": "后台：舞台后方表演者准备的地方——以及粉丝最爱的后台视频。",
+            "ja": "バックステージ。ステージ裏の準備エリア。そこで撮られたファンが大好きな映像も指す。"
+        },
+        "usage": {
+            "en": "\"백스테이지 영상에서 멤버들 장난치는 거 너무 귀여워\" (\"The members messing around in the backstage video is so cute\").",
+            "es": "\"백스테이지 영상에서 멤버들 장난치는 거 너무 귀여워\" (\"Los miembros bromeando en el video de backstage son adorables\").",
+            "zh": "「백스테이지 영상에서 멤버들 장난치는 거 너무 귀여워」（後台影片裡成員們打鬧好可愛）。",
+            "cn": "“백스테이지 영상에서 멤버들 장난치는 거 너무 귀여워”（后台视频里成员们打闹好可爱）。",
+            "ja": "「백스테이지 영상에서 멤버들 장난치는 거 너무 귀여워」（バックステージ映像でふざけ合うメンバーかわいすぎる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "비하인드",
+            "리허설"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "실물": {
+        "nuance": {
+            "en": "實物 — how someone looks in person. 실물 깡패 (\"in-person gangster\") means they look even better live than on screen.",
+            "es": "實物: cómo se ve alguien en persona. 실물 깡패 (\"gánster en persona\") significa que se ve aún mejor en vivo que en pantalla.",
+            "zh": "實物——本人親眼看到的樣子。실물 깡패（本人流氓）是說本人比螢幕上還好看。",
+            "cn": "实物——本人亲眼看到的样子。실물 깡패（本人流氓）是说本人比屏幕上还好看。",
+            "ja": "実物。直接見た時の見た目。실물 깡패（実物ヤクザ）は画面より実物の方がずっとかっこいい、という意味。"
+        },
+        "usage": {
+            "en": "\"팬싸에서 봤는데 실물이 훨씬 나아\" (\"I saw him at the fansign — he's way better in person\").",
+            "es": "\"팬싸에서 봤는데 실물이 훨씬 나아\" (\"Lo vi en el fansign, en persona es mucho mejor\").",
+            "zh": "「팬싸에서 봤는데 실물이 훨씬 나아」（在簽售會看到，本人好看多了）。",
+            "cn": "“팬싸에서 봤는데 실물이 훨씬 나아”（在签售会看到，本人好看多了）。",
+            "ja": "「팬싸에서 봤는데 실물이 훨씬 나아」（サイン会で見たけど、実物の方がずっといい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "비주얼",
+            "무결점",
+            "팬싸"
+        ],
+        "tags": [
+            "praise",
+            "kpop-fan"
+        ]
+    },
+    "존재감": {
+        "nuance": {
+            "en": "存在感 — presence: the quality that makes someone stand out, even with a small part.",
+            "es": "存在感: presencia, la cualidad que hace que alguien destaque incluso con una parte pequeña.",
+            "zh": "存在感——即使分量不多也能讓人注意到的特質。",
+            "cn": "存在感——即使分量不多也能让人注意到的特质。",
+            "ja": "存在感。パートが少なくても目を引く力。"
+        },
+        "usage": {
+            "en": "\"파트 짧은데 존재감 미쳤다\" (\"His part is short, but his presence is insane\").",
+            "es": "\"파트 짧은데 존재감 미쳤다\" (\"Su parte es corta, pero su presencia es brutal\").",
+            "zh": "「파트 짧은데 존재감 미쳤다」（段落很短，存在感卻超強）。",
+            "cn": "“파트 짧은데 존재감 미쳤다”（段落很短，存在感却超强）。",
+            "ja": "「파트 짧은데 존재감 미쳤다」（パート短いのに存在感やばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "무대장악력",
+            "무대매너",
+            "센터"
+        ],
+        "tags": [
+            "praise",
+            "stage"
+        ]
+    },
+    "무대장악력": {
+        "nuance": {
+            "en": "Stage command: the power to own the whole stage and pull every eye in the room toward you.",
+            "es": "Dominio escénico: la capacidad de adueñarse del escenario y atraer todas las miradas.",
+            "zh": "舞台掌控力：能掌握整個舞台、吸引全場目光的能力。",
+            "cn": "舞台掌控力：能掌握整个舞台、吸引全场目光的能力。",
+            "ja": "ステージ掌握力。ステージ全体を支配し、会場中の視線を集める力。"
+        },
+        "usage": {
+            "en": "\"솔로 무대인데도 무대장악력이 엄청나\" (\"Even alone on stage, she completely owns it\").",
+            "es": "\"솔로 무대인데도 무대장악력이 엄청나\" (\"Aun sola en el escenario, lo domina por completo\").",
+            "zh": "「솔로 무대인데도 무대장악력이 엄청나」（即使是個人舞台，掌控力也超強）。",
+            "cn": "“솔로 무대인데도 무대장악력이 엄청나”（即使是个人舞台，掌控力也超强）。",
+            "ja": "「솔로 무대인데도 무대장악력이 엄청나」（ソロステージなのに掌握力がすごい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "존재감",
+            "무대매너",
+            "퍼포먼스"
+        ],
+        "tags": [
+            "praise",
+            "stage"
+        ]
+    },
+    "하이라이트메들리": {
+        "nuance": {
+            "en": "A highlight medley: a short pre-release clip stitching together snippets of every track on the album.",
+            "es": "Un highlight medley: un clip corto previo al lanzamiento que une fragmentos de todas las canciones del álbum.",
+            "zh": "Highlight Medley：發行前公開、串接專輯每首歌片段的短影片。",
+            "cn": "Highlight Medley：发行前公开、串接专辑每首歌片段的短视频。",
+            "ja": "ハイライトメドレー。発売前に公開される、アルバム全曲の一部をつなげた短い映像。"
+        },
+        "usage": {
+            "en": "\"하이라이트메들리 듣고 3번 트랙에 꽂혔어\" (\"After the highlight medley I'm hooked on track 3\").",
+            "es": "\"하이라이트메들리 듣고 3번 트랙에 꽂혔어\" (\"Después del highlight medley me enganché con la pista 3\").",
+            "zh": "「하이라이트메들리 듣고 3번 트랙에 꽂혔어」（聽了Highlight Medley就迷上第三首）。",
+            "cn": "“하이라이트메들리 듣고 3번 트랙에 꽂혔어”（听了Highlight Medley就迷上第三首）。",
+            "ja": "「하이라이트메들리 듣고 3번 트랙에 꽂혔어」（ハイライトメドレー聴いて3曲目にハマった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "티저",
+            "수록곡",
+            "컴백"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "콘텐츠맛집": {
+        "nuance": {
+            "en": "\"Content restaurant\": 맛집 means a great place to eat, so this is a group that serves up consistently fun content.",
+            "es": "\"Restaurante de contenido\": 맛집 significa un lugar con comida buenísima, así que es un grupo que siempre ofrece contenido divertido.",
+            "zh": "「內容美食店」：맛집是「好吃的店」，指總是端出有趣內容的團體。",
+            "cn": "“内容美食店”：맛집是“好吃的店”，指总是端出有趣内容的团体。",
+            "ja": "「コンテンツの名店」。맛집は「おいしい店」のことで、いつも面白いコンテンツを出してくれるグループ。"
+        },
+        "usage": {
+            "en": "\"공백기에도 볼 게 많아, 완전 콘텐츠맛집\" (\"Even on hiatus there's so much to watch — a total content powerhouse\").",
+            "es": "\"공백기에도 볼 게 많아, 완전 콘텐츠맛집\" (\"Incluso en pausa hay mucho que ver, una mina de contenido\").",
+            "zh": "「공백기에도 볼 게 많아, 완전 콘텐츠맛집」（空白期也有好多可看，根本是內容寶庫）。",
+            "cn": "“공백기에도 볼 게 많아, 완전 콘텐츠맛집”（空白期也有好多可看，根本是内容宝库）。",
+            "ja": "「공백기에도 볼 게 많아, 완전 콘텐츠맛집」（空白期でも見るものがたくさん、完全にコンテンツの名店）。"
+        },
+        "register": "casual",
+        "similar": [
+            "자컨",
+            "자컨돌",
+            "예능돌"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "데뷔초": {
+        "nuance": {
+            "en": "The early days right after debut. Fans love comparing 데뷔초 clips to now.",
+            "es": "Los primeros tiempos justo después del debut. A los fans les encanta comparar los clips de 데뷔초 con el presente.",
+            "zh": "出道初期。粉絲很愛拿出道初期的影片和現在比較。",
+            "cn": "出道初期。粉丝很爱拿出道初期的视频和现在比较。",
+            "ja": "デビュー初期。ファンはデビュー初期の映像と今を比べるのが大好き。"
+        },
+        "usage": {
+            "en": "\"데뷔초 영상 보니까 다들 아기였네\" (\"Watching early-debut videos, they were all babies\").",
+            "es": "\"데뷔초 영상 보니까 다들 아기였네\" (\"Viendo videos del debut, eran todos unos bebés\").",
+            "zh": "「데뷔초 영상 보니까 다들 아기였네」（看出道初期的影片，大家都還是寶寶）。",
+            "cn": "“데뷔초 영상 보니까 다들 아기였네”（看出道初期的视频，大家都还是宝宝）。",
+            "ja": "「데뷔초 영상 보니까 다들 아기였네」（デビュー初期の映像見たら、みんな赤ちゃんだった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데뷔",
+            "데뷔곡",
+            "전성기"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "전성기": {
+        "nuance": {
+            "en": "全盛期 — the peak era: an artist's most popular, successful period.",
+            "es": "全盛期: la época dorada, el periodo de mayor popularidad y éxito de un artista.",
+            "zh": "全盛期——歌手最受歡迎、最成功的時期。",
+            "cn": "全盛期——歌手最受欢迎、最成功的时期。",
+            "ja": "全盛期。アーティストが最も人気で成功している時期。"
+        },
+        "usage": {
+            "en": "Fans like to say it's still ongoing: \"전성기는 지금부터야\" (\"Their peak starts now\").",
+            "es": "A los fans les gusta decir que sigue: \"전성기는 지금부터야\" (\"Su mejor época empieza ahora\").",
+            "zh": "粉絲喜歡說還在持續：「전성기는 지금부터야」（全盛期現在才開始）。",
+            "cn": "粉丝喜欢说还在持续：“전성기는 지금부터야”（全盛期现在才开始）。",
+            "ja": "ファンは「今から」と言いたがる：「전성기는 지금부터야」（全盛期はこれから）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "톱아이돌",
+            "데뷔초",
+            "역주행"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "원픽": {
+        "nuance": {
+            "en": "\"One pick\": your single top choice. It comes from survival shows, where you could vote for just one contestant.",
+            "es": "\"One pick\": tu única elección principal. Viene de los programas de supervivencia, donde a veces solo podías votar por un concursante.",
+            "zh": "「One Pick」：你唯一的首選。來自選秀節目，觀眾只能投給一位參賽者。",
+            "cn": "“One Pick”：你唯一的首选。来自选秀节目，观众只能投给一位参赛者。",
+            "ja": "「ワンピック」。たった一人の一推し。一人にだけ投票するサバイバル番組から生まれた言葉。"
+        },
+        "usage": {
+            "en": "Now used for anything: \"이번 앨범 원픽은 5번 트랙\" (\"My top pick on this album is track 5\").",
+            "es": "Ahora se usa para todo: \"이번 앨범 원픽은 5번 트랙\" (\"Mi favorita de este álbum es la pista 5\").",
+            "zh": "現在什麼都能用：「이번 앨범 원픽은 5번 트랙」（這張專輯我的首選是第五首）。",
+            "cn": "现在什么都能用：“이번 앨범 원픽은 5번 트랙”（这张专辑我的首选是第五首）。",
+            "ja": "今は何にでも使う：「이번 앨범 원픽은 5번 트랙」（今回のアルバムの一推しは5曲目）。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애",
+            "서바이벌",
+            "국민프로듀서"
+        ],
+        "tags": [
+            "kpop-fan",
+            "favorites"
+        ]
+    },
+    "톱아이돌": {
+        "nuance": {
+            "en": "A top idol: an idol or group at the very peak of popularity, with sold-out tours, awards and big brand deals.",
+            "es": "Un idol top: un idol o grupo en lo más alto de la popularidad, con giras agotadas, premios y contratos con grandes marcas.",
+            "zh": "頂流偶像：人氣在最頂端的偶像或團體——巡演完售、拿大獎、接大品牌代言。",
+            "cn": "顶流偶像：人气在最顶端的偶像或团体——巡演完售、拿大奖、接大品牌代言。",
+            "ja": "トップアイドル。人気の頂点にいるアイドルやグループ。ツアー完売、受賞、大手ブランド契約など。"
+        },
+        "usage": {
+            "en": "\"연습생 때부터 톱아이돌 될 줄 알았어\" (\"I knew she'd be a top idol since her trainee days\").",
+            "es": "\"연습생 때부터 톱아이돌 될 줄 알았어\" (\"Sabía que sería una idol top desde que era trainee\").",
+            "zh": "「연습생 때부터 톱아이돌 될 줄 알았어」（從練習生時期就知道她會成為頂流）。",
+            "cn": "“연습생 때부터 톱아이돌 될 줄 알았어”（从练习生时期就知道她会成为顶流）。",
+            "ja": "「연습생 때부터 톱아이돌 될 줄 알았어」（練習生の頃からトップアイドルになると思ってた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "전성기",
+            "대상",
+            "광고모델"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "리메이크": {
+        "nuance": {
+            "en": "A remake: a new official recording of an older song, often with a fresh arrangement.",
+            "es": "Un remake: una nueva grabación oficial de una canción antigua, a menudo con un arreglo nuevo.",
+            "zh": "翻唱重製：用新的編曲正式重新錄製的舊歌。",
+            "cn": "翻唱重制：用新的编曲正式重新录制的旧歌。",
+            "ja": "リメイク。昔の曲を新しいアレンジで正式に録音し直したもの。"
+        },
+        "usage": {
+            "en": "\"90년대 명곡 리메이크라 부모님도 아시더라\" (\"It's a remake of a '90s classic, so even my parents knew it\").",
+            "es": "\"90년대 명곡 리메이크라 부모님도 아시더라\" (\"Es un remake de un clásico de los 90, hasta mis padres la conocían\").",
+            "zh": "「90년대 명곡 리메이크라 부모님도 아시더라」（是90年代名曲重製，連爸媽都知道）。",
+            "cn": "“90년대 명곡 리메이크라 부모님도 아시더라”（是90年代名曲重制，连爸妈都知道）。",
+            "ja": "「90년대 명곡 리메이크라 부모님도 아시더라」（90年代の名曲のリメイクだから親も知ってた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "커버곡",
+            "역주행"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "생일시": {
+        "nuance": {
+            "en": "\"Birthday time\": turning an idol's birthday into a clock time — September 4 becomes 9:04 — and celebrating at that minute.",
+            "es": "\"Hora de cumpleaños\": convertir el cumpleaños de un idol en una hora del reloj (el 4 de septiembre se vuelve 9:04) y celebrarlo en ese minuto.",
+            "zh": "「生日時間」：把偶像生日換成時間——9月4日就是9:04——在那一分鐘慶祝。",
+            "cn": "“生日时间”：把偶像生日换成时间——9月4日就是9:04——在那一分钟庆祝。",
+            "ja": "「誕生日時」。アイドルの誕生日を時刻に置き換えること。9月4日なら9:04で、その時刻にお祝いする。"
+        },
+        "usage": {
+            "en": "Fans post or check the clock at that minute: \"생일시에 맞춰서 축하 글 올리자\" (\"Let's post our birthday messages at the birthday time\").",
+            "es": "Los fans publican o miran el reloj en ese minuto: \"생일시에 맞춰서 축하 글 올리자\" (\"Publiquemos los mensajes de cumpleaños a la hora del cumpleaños\").",
+            "zh": "粉絲會在那一分鐘發文或看時鐘：「생일시에 맞춰서 축하 글 올리자」（在生日時間一起發祝福吧）。",
+            "cn": "粉丝会在那一分钟发文或看时钟：“생일시에 맞춰서 축하 글 올리자”（在生日时间一起发祝福吧）。",
+            "ja": "その時刻に投稿したり時計を見たり：「생일시에 맞춰서 축하 글 올리자」（誕生日時に合わせてお祝い投稿しよう）。"
+        },
+        "register": "casual",
+        "similar": [
+            "생카",
+            "덕질"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "갈아탐": {
+        "nuance": {
+            "en": "From 갈아타다 (to transfer, switch rides): switching your bias or fandom to someone new.",
+            "es": "De 갈아타다 (cambiar de transporte): cambiar tu bias o tu fandom por otro.",
+            "zh": "來自갈아타다（換乘）：把本命或粉絲圈換成新的。",
+            "cn": "来自갈아타다（换乘）：把本命或粉丝圈换成新的。",
+            "ja": "갈아타다（乗り換える）から。推しやファンダムを乗り換えること。"
+        },
+        "usage": {
+            "en": "Often a joke: \"이번 무대 보고 최애 갈아탐\" (\"Saw this stage and switched biases\").",
+            "es": "Suele ser en broma: \"이번 무대 보고 최애 갈아탐\" (\"Vi esta presentación y cambié de bias\").",
+            "zh": "常是開玩笑：「이번 무대 보고 최애 갈아탐」（看完這個舞台就換本命了）。",
+            "cn": "常是开玩笑：“이번 무대 보고 최애 갈아탐”（看完这个舞台就换本命了）。",
+            "ja": "冗談でよく使う：「이번 무대 보고 최애 갈아탐」（今回のステージ見て推し乗り換えた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애",
+            "차애",
+            "탈덕"
+        ],
+        "tags": [
+            "kpop-fan",
+            "funny"
+        ]
+    },
+    "솔로데뷔": {
+        "nuance": {
+            "en": "A solo debut: a group member releasing music under their own name, usually while staying in the group.",
+            "es": "Un debut en solitario: un miembro del grupo que lanza música con su propio nombre, normalmente sin dejar el grupo.",
+            "zh": "個人出道：團體成員以自己的名義發行音樂，通常仍留在團體中。",
+            "cn": "个人出道：团体成员以自己的名义发行音乐，通常仍留在团体中。",
+            "ja": "ソロデビュー。グループのメンバーが自分の名前で音楽を出すこと。多くはグループに残ったまま。"
+        },
+        "usage": {
+            "en": "\"드디어 솔로데뷔! 앨범 다 예약했어\" (\"Finally a solo debut! I preordered every version\").",
+            "es": "\"드디어 솔로데뷔! 앨범 다 예약했어\" (\"¡Por fin debut en solitario! Reservé todas las versiones\").",
+            "zh": "「드디어 솔로데뷔! 앨범 다 예약했어」（終於個人出道！全版本都預購了）。",
+            "cn": "“드디어 솔로데뷔! 앨범 다 예약했어”（终于个人出道！全版本都预购了）。",
+            "ja": "「드디어 솔로데뷔! 앨범 다 예약했어」（ついにソロデビュー！全形態予約した）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "유닛",
+            "완전체",
+            "데뷔"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "자체제작돌": {
+        "nuance": {
+            "en": "自體製作 + idol: a group whose members write and produce much of their own music.",
+            "es": "自體製作 + idol: un grupo cuyos miembros escriben y producen gran parte de su propia música.",
+            "zh": "自體製作＋偶像：成員自己寫歌、製作大部分音樂的團體。",
+            "cn": "自体制作＋偶像：成员自己写歌、制作大部分音乐的团体。",
+            "ja": "自主制作＋アイドル。メンバーが自分たちで曲の多くを作り、プロデュースするグループ。"
+        },
+        "usage": {
+            "en": "\"자체제작돌이라 음악 색깔이 확실해\" (\"Since they produce their own music, their sound is really distinct\").",
+            "es": "\"자체제작돌이라 음악 색깔이 확실해\" (\"Como producen su propia música, su sonido es muy propio\").",
+            "zh": "「자체제작돌이라 음악 색깔이 확실해」（因為是自製團，音樂風格很鮮明）。",
+            "cn": "“자체제작돌이라 음악 색깔이 확실해”（因为是自制团，音乐风格很鲜明）。",
+            "ja": "「자체제작돌이라 음악 색깔이 확실해」（自主制作グループだから音楽のカラーがはっきりしてる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "프로듀서",
+            "작곡가",
+            "만능돌"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "자컨돌": {
+        "nuance": {
+            "en": "자컨 + idol: a group famous for its self-made variety content, so fans always have something to watch.",
+            "es": "자컨 + idol: un grupo famoso por su contenido propio de variedades, así que los fans siempre tienen algo que ver.",
+            "zh": "자컨＋偶像：以自製綜藝內容出名的團體，粉絲永遠有東西可看。",
+            "cn": "자컨＋偶像：以自制综艺内容出名的团体，粉丝永远有东西可看。",
+            "ja": "자컨＋アイドル。自主バラエティコンテンツで有名なグループで、ファンはいつも見るものに困らない。"
+        },
+        "usage": {
+            "en": "\"자컨돌이라 입덕하면 볼 게 산더미야\" (\"They're a self-content group, so once you're in, there's a mountain to watch\").",
+            "es": "\"자컨돌이라 입덕하면 볼 게 산더미야\" (\"Como hacen mucho contenido, al entrar al fandom tienes montañas que ver\").",
+            "zh": "「자컨돌이라 입덕하면 볼 게 산더미야」（是自製內容團，入坑後有一大堆可以看）。",
+            "cn": "“자컨돌이라 입덕하면 볼 게 산더미야”（是自制内容团，入坑后有一大堆可以看）。",
+            "ja": "「자컨돌이라 입덕하면 볼 게 산더미야」（自主コンテンツが多いグループだから、沼ると見るものが山ほど）。"
+        },
+        "register": "casual",
+        "similar": [
+            "자컨",
+            "콘텐츠맛집",
+            "예능돌"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "개인방송": {
+        "nuance": {
+            "en": "個人放送 — a solo livestream by one member, chatting with fans in real time.",
+            "es": "個人放送: una transmisión en vivo de un solo miembro, charlando con los fans en tiempo real.",
+            "zh": "個人直播：單一成員開的直播，即時和粉絲聊天。",
+            "cn": "个人直播：单一成员开的直播，即时和粉丝聊天。",
+            "ja": "個人配信。メンバー一人が行うライブ配信で、ファンとリアルタイムで話す。"
+        },
+        "usage": {
+            "en": "\"새벽에 갑자기 개인방송 켜서 다들 놀랐어\" (\"He suddenly went live solo at dawn and everyone was surprised\").",
+            "es": "\"새벽에 갑자기 개인방송 켜서 다들 놀랐어\" (\"De repente hizo un directo en solitario de madrugada y todos se sorprendieron\").",
+            "zh": "「새벽에 갑자기 개인방송 켜서 다들 놀랐어」（凌晨突然開個人直播，大家都嚇一跳）。",
+            "cn": "“새벽에 갑자기 개인방송 켜서 다들 놀랐어”（凌晨突然开个人直播，大家都吓一跳）。",
+            "ja": "「새벽에 갑자기 개인방송 켜서 다들 놀랐어」（明け方に突然個人配信始めてみんな驚いた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "라이브",
+            "셀프캠",
+            "브이로그"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ]
+    },
+    "데뷔무대": {
+        "nuance": {
+            "en": "A debut stage: a group's very first official performance, usually on a music show.",
+            "es": "Un escenario de debut: la primera presentación oficial de un grupo, normalmente en un programa musical.",
+            "zh": "出道舞台：團體的第一次正式表演，通常在音樂節目上。",
+            "cn": "出道舞台：团体的第一次正式表演，通常在音乐节目上。",
+            "ja": "デビューステージ。グループ初の公式ステージで、多くは音楽番組。"
+        },
+        "usage": {
+            "en": "\"데뷔무대 때 긴장해서 손 떨던 거 기억나\" (\"I remember their hands shaking from nerves at the debut stage\").",
+            "es": "\"데뷔무대 때 긴장해서 손 떨던 거 기억나\" (\"Recuerdo cómo les temblaban las manos de nervios en el debut\").",
+            "zh": "「데뷔무대 때 긴장해서 손 떨던 거 기억나」（還記得出道舞台時緊張到手抖）。",
+            "cn": "“데뷔무대 때 긴장해서 손 떨던 거 기억나”（还记得出道舞台时紧张到手抖）。",
+            "ja": "「데뷔무대 때 긴장해서 손 떨던 거 기억나」（デビューステージで緊張して手が震えてたの覚えてる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데뷔",
+            "데뷔곡",
+            "음악방송"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "화보": {
+        "nuance": {
+            "en": "畫報 — a styled photo shoot or pictorial, especially for magazines.",
+            "es": "畫報: una sesión de fotos producida o un reportaje fotográfico, sobre todo para revistas.",
+            "zh": "畫報——為雜誌等拍攝的造型寫真。",
+            "cn": "画报——为杂志等拍摄的造型写真。",
+            "ja": "画報。雑誌などのためのスタイリングされたグラビア撮影。"
+        },
+        "usage": {
+            "en": "\"이번 화보 분위기 장난 아니야\" (\"The mood of this photo shoot is unreal\").",
+            "es": "\"이번 화보 분위기 장난 아니야\" (\"El ambiente de esta sesión de fotos es increíble\").",
+            "zh": "「이번 화보 분위기 장난 아니야」（這次畫報的氛圍太絕了）。",
+            "cn": "“이번 화보 분위기 장난 아니야”（这次画报的氛围太绝了）。",
+            "ja": "「이번 화보 분위기 장난 아니야」（今回のグラビアの雰囲気やばい）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "콘셉트포토",
+            "광고모델"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "초회한정반": {
+        "nuance": {
+            "en": "初回限定盤 — a first-press limited edition with extras like photobooks or cards. The term is especially common for Japanese releases.",
+            "es": "初回限定盤: una primera edición limitada con extras como photobooks o tarjetas. Es especialmente común en lanzamientos japoneses.",
+            "zh": "初回限定盤——附寫真書或小卡等特典的首批限量版，在日本發行中特別常見。",
+            "cn": "初回限定盘——附写真书或小卡等特典的首批限量版，在日本发行中特别常见。",
+            "ja": "初回限定盤。フォトブックやカードなどの特典付きの限定版。特に日本リリースでよく使われる。"
+        },
+        "usage": {
+            "en": "\"초회한정반은 금방 품절돼\" (\"The first-press limited edition sells out fast\").",
+            "es": "\"초회한정반은 금방 품절돼\" (\"La edición limitada se agota rápido\").",
+            "zh": "「초회한정반은 금방 품절돼」（初回限定盤很快就賣完）。",
+            "cn": "“초회한정반은 금방 품절돼”（初回限定盘很快就卖完）。",
+            "ja": "「초회한정반은 금방 품절돼」（初回限定盤はすぐ売り切れる）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "앨범자켓",
+            "굿즈",
+            "포카"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "무대의상": {
+        "nuance": {
+            "en": "Stage costume: the outfit made or styled specifically for a performance.",
+            "es": "Vestuario de escenario: la ropa hecha o elegida específicamente para una presentación.",
+            "zh": "舞台服裝：專門為表演製作或搭配的服裝。",
+            "cn": "舞台服装：专门为表演制作或搭配的服装。",
+            "ja": "ステージ衣装。パフォーマンスのために特別に作られたりスタイリングされた服。"
+        },
+        "usage": {
+            "en": "\"오늘 무대의상 레전드 갱신\" (\"Today's stage outfit is a new legend\").",
+            "es": "\"오늘 무대의상 레전드 갱신\" (\"El vestuario de hoy es nuevo nivel de leyenda\").",
+            "zh": "「오늘 무대의상 레전드 갱신」（今天的舞台服裝刷新傳奇）。",
+            "cn": "“오늘 무대의상 레전드 갱신”（今天的舞台服装刷新传奇）。",
+            "ja": "「오늘 무대의상 레전드 갱신」（今日のステージ衣装、レジェンド更新）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스타일리스트",
+            "코디",
+            "컴백무대"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "리허설": {
+        "nuance": {
+            "en": "A rehearsal: a run-through before a show or broadcast to check sound, positions and cameras.",
+            "es": "Un ensayo: una prueba antes de un show o transmisión para revisar sonido, posiciones y cámaras.",
+            "zh": "彩排：表演或播出前的走位排練，檢查音響、站位和鏡頭。",
+            "cn": "彩排：表演或播出前的走位排练，检查音响、站位和镜头。",
+            "ja": "リハーサル。公演や放送前に音響、立ち位置、カメラを確認する通し練習。"
+        },
+        "usage": {
+            "en": "\"리허설 영상인데도 본방보다 좋아\" (\"Even the rehearsal video is better than the broadcast\").",
+            "es": "\"리허설 영상인데도 본방보다 좋아\" (\"Hasta el video del ensayo es mejor que la emisión\").",
+            "zh": "「리허설 영상인데도 본방보다 좋아」（彩排影片都比正式播出好看）。",
+            "cn": "“리허설 영상인데도 본방보다 좋아”（彩排视频都比正式播出好看）。",
+            "ja": "「리허설 영상인데도 본방보다 좋아」（リハ映像なのに本番より良い）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "백스테이지",
+            "음악방송",
+            "공방"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "유닛곡": {
+        "nuance": {
+            "en": "A unit song: a track sung by only some members, often included on a group album or performed at concerts.",
+            "es": "Una canción de subunidad: un tema que cantan solo algunos miembros, a menudo incluido en el álbum del grupo o en conciertos.",
+            "zh": "小分隊曲：只由部分成員演唱的歌，常收錄在團體專輯或在演唱會上表演。",
+            "cn": "小分队曲：只由部分成员演唱的歌，常收录在团体专辑或在演唱会上表演。",
+            "ja": "ユニット曲。一部のメンバーだけで歌う曲。グループのアルバムに収録されたりコンサートで披露されたりする。"
+        },
+        "usage": {
+            "en": "\"콘서트 유닛곡 무대가 제일 기대돼\" (\"I'm most excited about the unit stages at the concert\").",
+            "es": "\"콘서트 유닛곡 무대가 제일 기대돼\" (\"Lo que más espero del concierto son las canciones de subunidad\").",
+            "zh": "「콘서트 유닛곡 무대가 제일 기대돼」（演唱會最期待小分隊舞台）。",
+            "cn": "“콘서트 유닛곡 무대가 제일 기대돼”（演唱会最期待小分队舞台）。",
+            "ja": "「콘서트 유닛곡 무대가 제일 기대돼」（コンサートのユニット曲ステージが一番楽しみ）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "유닛",
+            "수록곡"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "커버곡": {
+        "nuance": {
+            "en": "A cover song: performing someone else's song, often at concerts, year-end shows or on YouTube.",
+            "es": "Una canción cover: interpretar la canción de otro artista, a menudo en conciertos, shows de fin de año o en YouTube.",
+            "zh": "翻唱曲：演唱別人的歌，常出現在演唱會、年末舞台或YouTube。",
+            "cn": "翻唱曲：演唱别人的歌，常出现在演唱会、年末舞台或YouTube。",
+            "ja": "カバー曲。他のアーティストの曲を歌うこと。コンサートや年末ステージ、YouTubeでよく見る。"
+        },
+        "usage": {
+            "en": "\"선배 곡 커버해서 화제됐어\" (\"Their cover of a senior's song went viral\").",
+            "es": "\"선배 곡 커버해서 화제됐어\" (\"Su cover de la canción de un sunbae se hizo viral\").",
+            "zh": "「선배 곡 커버해서 화제됐어」（翻唱前輩的歌引起話題）。",
+            "cn": "“선배 곡 커버해서 화제됐어”（翻唱前辈的歌引起话题）。",
+            "ja": "「선배 곡 커버해서 화제됐어」（先輩の曲をカバーして話題になった）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "리메이크",
+            "미션"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "무대퀄리티": {
+        "nuance": {
+            "en": "Stage quality: the overall finish of a performance — set, lighting, styling, choreography and vocals together.",
+            "es": "Calidad del escenario: el acabado general de una presentación: escenografía, luces, estilismo, coreografía y voz.",
+            "zh": "舞台品質：表演的整體完成度——佈景、燈光、造型、舞蹈和唱功。",
+            "cn": "舞台品质：表演的整体完成度——布景、灯光、造型、舞蹈和唱功。",
+            "ja": "ステージのクオリティ。セット、照明、スタイリング、振り付け、歌を含めたパフォーマンス全体の完成度。"
+        },
+        "usage": {
+            "en": "\"무대퀄리티가 콘서트급이야\" (\"The stage quality is concert-level\").",
+            "es": "\"무대퀄리티가 콘서트급이야\" (\"La calidad del escenario es de nivel concierto\").",
+            "zh": "「무대퀄리티가 콘서트급이야」（舞台品質是演唱會等級）。",
+            "cn": "“무대퀄리티가 콘서트급이야”（舞台品质是演唱会等级）。",
+            "ja": "「무대퀄리티가 콘서트급이야」（ステージのクオリティがコンサート級）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "퍼포먼스",
+            "무대의상",
+            "칼군무"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
+    "콘셉트포토": {
+        "nuance": {
+            "en": "Concept photos: official images released before an album that reveal its theme, styling and mood.",
+            "es": "Fotos conceptuales: imágenes oficiales publicadas antes del álbum que revelan su tema, estilo y ambiente.",
+            "zh": "概念照：專輯發行前公開的官方照片，揭示主題、造型和氛圍。",
+            "cn": "概念照：专辑发行前公开的官方照片，揭示主题、造型和氛围。",
+            "ja": "コンセプトフォト。アルバム発売前に公開される公式写真で、テーマやスタイリング、雰囲気を見せる。"
+        },
+        "usage": {
+            "en": "\"콘셉트포토 뜨자마자 트렌드 올라갔어\" (\"The moment the concept photos dropped, they started trending\").",
+            "es": "\"콘셉트포토 뜨자마자 트렌드 올라갔어\" (\"En cuanto salieron las fotos conceptuales, fueron tendencia\").",
+            "zh": "「콘셉트포토 뜨자마자 트렌드 올라갔어」（概念照一公開就上熱搜）。",
+            "cn": "“콘셉트포토 뜨자마자 트렌드 올라갔어”（概念照一公开就上热搜）。",
+            "ja": "「콘셉트포토 뜨자마자 트렌드 올라갔어」（コンセプトフォトが出た瞬間トレンド入りした）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "티저",
+            "콘셉트",
+            "화보"
+        ],
+        "tags": [
+            "kpop-fan"
+        ]
+    },
+    "무대멘트": {
+        "nuance": {
+            "en": "Stage talk: what idols say to the audience between songs — greetings, thanks and jokes. Often just 멘트.",
+            "es": "Charla en el escenario: lo que dicen los idols al público entre canciones, como saludos, agradecimientos y bromas. A menudo solo 멘트.",
+            "zh": "舞台講話：偶像在歌曲之間對觀眾說的話——問候、感謝和玩笑。常簡稱멘트。",
+            "cn": "舞台讲话：偶像在歌曲之间对观众说的话——问候、感谢和玩笑。常简称멘트。",
+            "ja": "ステージMC。曲の合間にアイドルが観客に話すこと。あいさつ、感謝、冗談など。멘트とも。"
+        },
+        "usage": {
+            "en": "\"마지막 멘트에서 다 같이 울었어\" (\"Everyone cried during the final speech\").",
+            "es": "\"마지막 멘트에서 다 같이 울었어\" (\"Todos lloramos con las palabras finales\").",
+            "zh": "「마지막 멘트에서 다 같이 울었어」（最後的講話大家一起哭了）。",
+            "cn": "“마지막 멘트에서 다 같이 울었어”（最后的讲话大家一起哭了）。",
+            "ja": "「마지막 멘트에서 다 같이 울었어」（最後のMCでみんな泣いた）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "팬미팅",
+            "콜사인",
+            "셋리스트"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ]
+    },
 }
 
 
@@ -9280,6 +12869,29 @@ COLLECTIONS = [
              "words": ["1004", "8282"]},
             {"heading": {"en": "Fan shorthand", "es": "Abreviaturas de fans", "zh": "粉絲縮寫", "cn": "粉丝缩写", "ja": "ファンの略語"},
              "words": ["덕계못", "어덕행덕", "갠팬", "생카", "오살힘", "문찐"]},
+        ],
+    },
+    {
+        "slug": "korean-dating-slang",
+        "title": {"en": "Korean Dating Slang", "es": "Jerga coreana del amor y las citas", "zh": "韓語戀愛流行語", "cn": "韩语恋爱流行语", "ja": "韓国語の恋愛スラング"},
+        "intro": {
+            "en": "From the ambiguous \"talking stage\" to 100-day anniversaries and the drama tropes everyone loves to hate — this is how Koreans talk about crushes, dating and breakups. Each word has a short explanation and a link to its full card.",
+            "es": "Desde la ambigua etapa de \"algo más que amigos\" hasta los aniversarios de 100 días y los clichés de K-drama que todos aman odiar: así hablan los coreanos de crushes, citas y rupturas. Cada palabra tiene una breve explicación y un enlace a su tarjeta completa.",
+            "zh": "從曖昧不明的「暧昧期」到交往百日紀念，再到大家又愛又恨的韓劇套路——這就是韓國人談論暗戀、約會和分手的方式。每個詞都附上簡短說明和完整卡片的連結。",
+            "cn": "从暧昧不明的“暧昧期”到交往百日纪念，再到大家又爱又恨的韩剧套路——这就是韩国人谈论暗恋、约会和分手的方式。每个词都附上简短说明和完整卡片的链接。",
+            "ja": "曖昧な「友達以上恋人未満」から100日記念日、そして誰もがツッコみたくなる韓ドラのお約束まで——韓国人が片思い、デート、別れについて話すときの言葉をまとめた。短い説明と詳しいカードへのリンク付き。",
+        },
+        "sections": [
+            {"heading": {"en": "Before it's official", "es": "Antes de que sea oficial", "zh": "正式交往之前", "cn": "正式交往之前", "ja": "付き合う前"},
+             "words": ["썸", "썸타다", "밀당", "그린라이트", "짝사랑", "짝남", "짝녀", "고백"]},
+            {"heading": {"en": "Meeting someone", "es": "Conocer a alguien", "zh": "認識新對象", "cn": "认识新对象", "ja": "出会い"},
+             "words": ["소개팅", "애프터", "자만추", "모솔", "솔로탈출", "여사친", "남사친"]},
+            {"heading": {"en": "Couple life", "es": "La vida en pareja", "zh": "情侶生活", "cn": "情侣生活", "ja": "カップルの日常"},
+             "words": ["백일", "천일", "애칭", "럽스타그램", "권태기", "장거리연애", "곰신"]},
+            {"heading": {"en": "Red flags and breakups", "es": "Señales de alerta y rupturas", "zh": "警訊與分手", "cn": "警讯与分手", "ja": "要注意サインと別れ"},
+             "words": ["어장관리", "잠수이별", "환승연애", "이별", "재회"]},
+            {"heading": {"en": "K-drama romance tropes", "es": "Clichés románticos del K-drama", "zh": "韓劇戀愛套路", "cn": "韩剧恋爱套路", "ja": "韓ドラ恋愛のお約束"},
+             "words": ["계약연애", "재벌", "츤데레", "나쁜남자", "캔디", "출생의 비밀", "삼각관계", "첫사랑", "심쿵"]},
         ],
     },
 ]
