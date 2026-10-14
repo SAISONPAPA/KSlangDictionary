@@ -31,6 +31,30 @@ def esc(s):
     return html_escape_lib.escape(s, quote=True)
 
 
+CAT_ORDER = ["Idol Essentials", "Fandom Feels", "Broadcast & Variety", "Online Memes", "Dating & Romance"]
+CAT_KEY = {"Idol Essentials": "idol", "Fandom Feels": "fandom", "Broadcast & Variety": "broadcast",
+           "Online Memes": "meme", "Dating & Romance": "dating"}
+CAT_LABELS = {
+    "Idol Essentials": {"en": "Idol Essentials", "es": "Esenciales del ídolo", "zh": "偶像必修詞彙", "cn": "偶像必修词汇", "ja": "アイドル基本用語"},
+    "Fandom Feels": {"en": "Fandom Feels", "es": "Sentimientos del fandom", "zh": "飯圈心情", "cn": "饭圈心情", "ja": "ファンダムの気持ち"},
+    "Broadcast & Variety": {"en": "Broadcast & Variety", "es": "TV y Variedades", "zh": "廣播與綜藝", "cn": "广播与综艺", "ja": "放送・バラエティ"},
+    "Online Memes": {"en": "Online Memes", "es": "Memes de internet", "zh": "網路迷因", "cn": "网络迷因", "ja": "ネットミーム"},
+    "Dating & Romance": {"en": "Dating & Romance", "es": "Citas y romance", "zh": "戀愛與曖昧", "cn": "恋爱与暧昧", "ja": "恋愛表現"},
+}
+ALL_LABEL = {"en": "All", "es": "Todas", "zh": "全部", "cn": "全部", "ja": "すべて"}
+
+
+def attrs(d):
+    return " ".join(f'data-{l}="{esc(d[l])}"' for l in ("en", "es", "zh", "cn", "ja"))
+
+
+def cat_button(key, count, labels, active=False):
+    lab = {l: f"{labels[l]} {count}" for l in ("en", "es", "zh", "cn", "ja")}
+    cls = "cat-chip active" if active else "cat-chip"
+    return (f'\n        <button type="button" class="{cls}" data-filter="{key}" aria-pressed="{str(active).lower()}" '
+            f'{attrs(lab)}>{esc(lab["en"])}</button>')
+
+
 def build_lookup():
     """Map Korean term -> (full tuple, category_kr, category_en)."""
     lookup = {}
@@ -60,41 +84,39 @@ def main():
     total_new = 0
     missing = []
 
-    for iso_date, terms in db.NEW_WORDS_LOG:
-        cards = ""
+    for gi, (iso_date, terms) in enumerate(db.NEW_WORDS_LOG):
+        chips = ""
+        counts = {}
         for term in terms:
             entry = lookup.get(term)
             if not entry:
                 missing.append((iso_date, term))
                 continue
             t, cat_kr, cat_en = entry
-            kr, rom, en_short, meaning_en, meaning_es, ex_kr, ex_en, ex_es, where, status = t
+            kr, rom, en_short = t[0], t[1], t[2]
             slug = slugify(rom)
-            cat_url = CATEGORY_URL.get(cat_en, "category.html")
-            zh = db.ZH_TW_TRANSLATIONS.get(kr)
-            meaning_zh = zh[0] if zh else meaning_en
-            cn = db.ZH_CN_TRANSLATIONS.get(kr)
-            meaning_cn = cn[0] if cn else meaning_en
-            ja = db.JA_TRANSLATIONS.get(kr)
-            meaning_ja = ja[0] if ja else meaning_en
+            key = CAT_KEY[cat_en]
+            counts[cat_en] = counts.get(cat_en, 0) + 1
             total_new += 1
-            cards += f'''
-      <a class="new-card" href="word/{esc(slug)}.html">
-        <div class="new-card-top">
-          <div class="kr-big">{esc(kr)}</div>
-          <div class="rom-big">{esc(rom)}</div>
-          <span class="cat-pill">{esc(cat_kr)} · {esc(cat_en)}</span>
-        </div>
-        <p class="def" data-en="{esc(meaning_en)}" data-es="{esc(meaning_es)}" data-zh="{esc(meaning_zh)}" data-cn="{esc(meaning_cn)}" data-ja="{esc(meaning_ja)}">{esc(meaning_en)}</p>
-      </a>'''
-        if not cards:
+            chips += f'''
+        <a class="word-chip" data-cat="{key}" href="word/{esc(slug)}.html" title="{esc(en_short)}"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">{esc(kr)}</span><span class="chip-rom">{esc(rom)}</span></a>'''
+        if not chips:
             continue
+        n = sum(counts.values())
+        filters = cat_button("all", n, ALL_LABEL, active=True)
+        for cat_en in CAT_ORDER:
+            if counts.get(cat_en):
+                filters += cat_button(CAT_KEY[cat_en], counts[cat_en], CAT_LABELS[cat_en])
+        cnt = {"en": f"{n} new word" + ("" if n == 1 else "s"), "es": f"{n} palabra" + ("" if n == 1 else "s") + " nueva" + ("" if n == 1 else "s"),
+               "zh": f"新增 {n} 個詞", "cn": f"新增 {n} 个词", "ja": f"{n}語を追加"}
         groups_html += f'''
-    <div class="date-group">
-      <div class="date-label">{esc(format_date(iso_date))}</div>
-      <div class="new-grid">{cards}
+    <details class="date-group"{" open" if gi == 0 else ""}>
+      <summary class="date-head"><span class="date-label">{esc(format_date(iso_date))}</span><span class="date-count" {attrs(cnt)}>{esc(cnt["en"])}</span><span class="date-toggle" aria-hidden="true"></span></summary>
+      <div class="cat-filter" role="group" aria-label="Filter by category">{filters}
       </div>
-    </div>'''
+      <div class="chip-grid">{chips}
+      </div>
+    </details>'''
 
     if missing:
         print("WARNING: terms in NEW_WORDS_LOG not found in CATEGORIES (skipped):")
@@ -200,6 +222,23 @@ def main():
     a.addEventListener('click', function(){{
       var menu = document.getElementById('mobileMenu');
       if(menu) menu.classList.remove('open');
+    }});
+  }});
+
+  document.querySelectorAll('.date-group').forEach(function(group){{
+    var buttons = group.querySelectorAll('.cat-chip');
+    buttons.forEach(function(btn){{
+      btn.addEventListener('click', function(){{
+        var f = btn.getAttribute('data-filter');
+        buttons.forEach(function(b){{
+          var on = b === btn;
+          b.classList.toggle('active', on);
+          b.setAttribute('aria-pressed', on ? 'true' : 'false');
+        }});
+        group.querySelectorAll('.word-chip').forEach(function(chip){{
+          chip.hidden = !(f === 'all' || chip.getAttribute('data-cat') === f);
+        }});
+      }});
     }});
   }});
 
@@ -357,36 +396,48 @@ PAGE_CSS = """
   .page-sub{ margin-top:10px; color: var(--ink-soft); font-size:15px; font-weight:500; }
 
   .new-feed{ margin-top: 8px; padding-bottom: 60px; }
-  .date-group{ margin-top: 34px; }
-  .date-label{
-    font-family: var(--mono); font-size:12.5px; font-weight:700; letter-spacing:.5px;
-    color: var(--brass); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line);
-  }
-  .new-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
-  @media (max-width: 700px){ .new-grid{ grid-template-columns: 1fr; } }
+  .date-group{ margin-top: 30px; }
+  .date-head{ list-style:none; cursor:pointer; display:flex; align-items:center; gap:12px; flex-wrap:wrap; padding: 4px 0 12px; border-bottom: 1px solid var(--line); }
+  .date-head::-webkit-details-marker{ display:none; }
+  .date-count{ font-size:13px; font-weight:700; color: var(--ink-soft); }
+  .date-toggle{ margin-left:auto; width:28px; height:28px; border-radius:50%; border:1px solid var(--line); position:relative; flex:none; }
+  .date-toggle::before{ content:""; position:absolute; left:50%; top:45%; width:8px; height:8px; border-right:2px solid var(--ink-soft); border-bottom:2px solid var(--ink-soft); transform: translate(-50%,-50%) rotate(45deg); transition: transform .2s; }
+  .date-group[open] .date-toggle::before{ transform: translate(-50%,-30%) rotate(-135deg); }
+  .date-head:focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 4px; border-radius: 6px; }
 
-  .new-card{
-    display:block;
+  .cat-filter{ display:flex; flex-wrap:wrap; gap:8px; margin: 16px 0 14px; }
+  .cat-chip{ font: inherit; font-size:12.5px; font-weight:700; padding:7px 13px; border-radius:999px; cursor:pointer;
+    background: transparent; color: var(--ink-soft); border: 1px solid var(--line); transition: transform .25s var(--ease-pop), background .2s, color .2s; }
+  .cat-chip:hover{ color: var(--ink); border-color: var(--ink-soft); }
+  .cat-chip.active{ background: var(--garnet); color:#fff; border-color: var(--garnet); transform: rotate(-1.5deg); }
+  .cat-chip:focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 2px; }
+
+  .chip-grid{ display:flex; flex-wrap:wrap; gap:10px; padding-bottom: 6px; }
+  .word-chip{
+    display:inline-flex; align-items:baseline; gap:7px; padding: 9px 14px 9px 12px; border-radius: 10px;
     background-image:
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/filter%3E%3C/svg%3E"),
-      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 30%, var(--card-face) 100%);
-    background-size: 140px 140px, cover;
-    background-blend-mode: multiply, normal;
-    color: var(--card-ink);
-    border: 1px solid var(--card-line); border-radius: var(--radius-card);
-    padding: 18px 20px; position: relative; overflow: hidden;
-    transition: transform .15s var(--ease-flip), box-shadow .15s var(--ease-flip);
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 40%, var(--card-face) 100%);
+    background-size: 140px 140px, cover; background-blend-mode: multiply, normal;
+    color: var(--card-ink); border: 1px solid var(--card-line);
+    box-shadow: 0 6px 14px -10px rgba(0,0,0,.6);
+    transition: transform .25s var(--ease-pop), box-shadow .2s;
   }
-  .new-card:hover{ transform: translateY(-2px); box-shadow: 0 14px 32px -18px rgba(0,0,0,.5); }
-  .new-card::before{ content:""; position:absolute; top:0; left:0; right:0; height:3px; background: var(--garnet); }
-  .new-card-top{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:8px; }
-  .new-card .kr-big{ font-family: var(--font-kr); font-size:20px; color: var(--card-ink); }
-  .new-card .rom-big{ font-family: var(--mono); font-style: italic; font-size:11.5px; color: var(--card-ink-soft); }
-  .new-card .cat-pill{
-    margin-left:auto; font-family: var(--mono); font-size:9.5px; font-weight:700; letter-spacing:.3px; padding:3px 9px; border-radius:999px;
-    background: var(--brass-soft); color: #7A6224; white-space:nowrap;
-  }
-  .new-card .def{ font-size:13px; color: var(--card-ink-soft); line-height:1.5; }
+  .word-chip:nth-child(3n+1){ transform: rotate(-.8deg); }
+  .word-chip:nth-child(3n+2){ transform: rotate(.6deg); }
+  .word-chip:hover{ transform: rotate(0) translateY(-2px) scale(1.04); box-shadow: 0 10px 20px -10px rgba(0,0,0,.6); }
+  .word-chip:focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 2px; }
+  .word-chip[hidden]{ display:none; }
+  .chip-dot{ width:8px; height:8px; border-radius:50%; flex:none; align-self:center; box-shadow: 0 0 0 2px var(--sticker-edge, #F8F1E3); }
+  .word-chip[data-cat="idol"] .chip-dot{ background: var(--pop-pink, #FF6FAE); }
+  .word-chip[data-cat="fandom"] .chip-dot{ background: var(--pop-lilac, #B9A2FF); }
+  .word-chip[data-cat="broadcast"] .chip-dot{ background: var(--pop-mint, #74E3C4); }
+  .word-chip[data-cat="meme"] .chip-dot{ background: var(--pop-lemon, #FFE16B); }
+  .word-chip[data-cat="dating"] .chip-dot{ background: var(--garnet, #B21B3E); }
+  .chip-kr{ font-family: var(--font-kr); font-size:17px; line-height:1.1; }
+  .chip-rom{ font-family: var(--mono); font-style: italic; font-size:11px; color: var(--card-ink-soft); }
+  @media (max-width: 480px){ .chip-rom{ display:none; } .word-chip{ padding: 9px 12px 9px 10px; } }
+  @media (prefers-reduced-motion: reduce){ .word-chip, .cat-chip{ transition:none; } .word-chip:nth-child(n){ transform:none; } }
 """
 
 HEADER_HTML = """<header>

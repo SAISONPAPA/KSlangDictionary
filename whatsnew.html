@@ -166,36 +166,48 @@
   .page-sub{ margin-top:10px; color: var(--ink-soft); font-size:15px; font-weight:500; }
 
   .new-feed{ margin-top: 8px; padding-bottom: 60px; }
-  .date-group{ margin-top: 34px; }
-  .date-label{
-    font-family: var(--mono); font-size:12.5px; font-weight:700; letter-spacing:.5px;
-    color: var(--brass); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--line);
-  }
-  .new-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
-  @media (max-width: 700px){ .new-grid{ grid-template-columns: 1fr; } }
+  .date-group{ margin-top: 30px; }
+  .date-head{ list-style:none; cursor:pointer; display:flex; align-items:center; gap:12px; flex-wrap:wrap; padding: 4px 0 12px; border-bottom: 1px solid var(--line); }
+  .date-head::-webkit-details-marker{ display:none; }
+  .date-count{ font-size:13px; font-weight:700; color: var(--ink-soft); }
+  .date-toggle{ margin-left:auto; width:28px; height:28px; border-radius:50%; border:1px solid var(--line); position:relative; flex:none; }
+  .date-toggle::before{ content:""; position:absolute; left:50%; top:45%; width:8px; height:8px; border-right:2px solid var(--ink-soft); border-bottom:2px solid var(--ink-soft); transform: translate(-50%,-50%) rotate(45deg); transition: transform .2s; }
+  .date-group[open] .date-toggle::before{ transform: translate(-50%,-30%) rotate(-135deg); }
+  .date-head:focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 4px; border-radius: 6px; }
 
-  .new-card{
-    display:block;
+  .cat-filter{ display:flex; flex-wrap:wrap; gap:8px; margin: 16px 0 14px; }
+  .cat-chip{ font: inherit; font-size:12.5px; font-weight:700; padding:7px 13px; border-radius:999px; cursor:pointer;
+    background: transparent; color: var(--ink-soft); border: 1px solid var(--line); transition: transform .25s var(--ease-pop), background .2s, color .2s; }
+  .cat-chip:hover{ color: var(--ink); border-color: var(--ink-soft); }
+  .cat-chip.active{ background: var(--garnet); color:#fff; border-color: var(--garnet); transform: rotate(-1.5deg); }
+  .cat-chip:focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 2px; }
+
+  .chip-grid{ display:flex; flex-wrap:wrap; gap:10px; padding-bottom: 6px; }
+  .word-chip{
+    display:inline-flex; align-items:baseline; gap:7px; padding: 9px 14px 9px 12px; border-radius: 10px;
     background-image:
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/filter%3E%3C/svg%3E"),
-      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 30%, var(--card-face) 100%);
-    background-size: 140px 140px, cover;
-    background-blend-mode: multiply, normal;
-    color: var(--card-ink);
-    border: 1px solid var(--card-line); border-radius: var(--radius-card);
-    padding: 18px 20px; position: relative; overflow: hidden;
-    transition: transform .15s var(--ease-flip), box-shadow .15s var(--ease-flip);
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+      linear-gradient(160deg, var(--card-face) 0%, var(--card-face-hi) 40%, var(--card-face) 100%);
+    background-size: 140px 140px, cover; background-blend-mode: multiply, normal;
+    color: var(--card-ink); border: 1px solid var(--card-line);
+    box-shadow: 0 6px 14px -10px rgba(0,0,0,.6);
+    transition: transform .25s var(--ease-pop), box-shadow .2s;
   }
-  .new-card:hover{ transform: translateY(-2px); box-shadow: 0 14px 32px -18px rgba(0,0,0,.5); }
-  .new-card::before{ content:""; position:absolute; top:0; left:0; right:0; height:3px; background: var(--garnet); }
-  .new-card-top{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:8px; }
-  .new-card .kr-big{ font-family: var(--font-kr); font-size:20px; color: var(--card-ink); }
-  .new-card .rom-big{ font-family: var(--mono); font-style: italic; font-size:11.5px; color: var(--card-ink-soft); }
-  .new-card .cat-pill{
-    margin-left:auto; font-family: var(--mono); font-size:9.5px; font-weight:700; letter-spacing:.3px; padding:3px 9px; border-radius:999px;
-    background: var(--brass-soft); color: #7A6224; white-space:nowrap;
-  }
-  .new-card .def{ font-size:13px; color: var(--card-ink-soft); line-height:1.5; }
+  .word-chip:nth-child(3n+1){ transform: rotate(-.8deg); }
+  .word-chip:nth-child(3n+2){ transform: rotate(.6deg); }
+  .word-chip:hover{ transform: rotate(0) translateY(-2px) scale(1.04); box-shadow: 0 10px 20px -10px rgba(0,0,0,.6); }
+  .word-chip:focus-visible{ outline: 2px solid var(--garnet-bright); outline-offset: 2px; }
+  .word-chip[hidden]{ display:none; }
+  .chip-dot{ width:8px; height:8px; border-radius:50%; flex:none; align-self:center; box-shadow: 0 0 0 2px var(--sticker-edge, #F8F1E3); }
+  .word-chip[data-cat="idol"] .chip-dot{ background: var(--pop-pink, #FF6FAE); }
+  .word-chip[data-cat="fandom"] .chip-dot{ background: var(--pop-lilac, #B9A2FF); }
+  .word-chip[data-cat="broadcast"] .chip-dot{ background: var(--pop-mint, #74E3C4); }
+  .word-chip[data-cat="meme"] .chip-dot{ background: var(--pop-lemon, #FFE16B); }
+  .word-chip[data-cat="dating"] .chip-dot{ background: var(--garnet, #B21B3E); }
+  .chip-kr{ font-family: var(--font-kr); font-size:17px; line-height:1.1; }
+  .chip-rom{ font-family: var(--mono); font-style: italic; font-size:11px; color: var(--card-ink-soft); }
+  @media (max-width: 480px){ .chip-rom{ display:none; } .word-chip{ padding: 9px 12px 9px 10px; } }
+  @media (prefers-reduced-motion: reduce){ .word-chip, .cat-chip{ transition:none; } .word-chip:nth-child(n){ transform:none; } }
 
 </style>
 <link rel="stylesheet" href="assets/pokku.css">
@@ -259,901 +271,148 @@
   </section>
 
   <div class="new-feed">
-    <div class="date-group">
-      <div class="date-label">October 14, 2026</div>
-      <div class="new-grid">
-      <a class="new-card" href="word/ael-po.html">
-        <div class="new-card-top">
-          <div class="kr-big">앨포</div>
-          <div class="rom-big">ael-po</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="Short for 앨범 포토카드 — the random photocard that comes inside a K-pop album." data-es="Abreviatura de 앨범 포토카드: la photocard aleatoria que viene dentro de un álbum de K-pop." data-zh="앨범 포토카드（專輯小卡）的縮寫：K-pop專輯裡附的隨機小卡。" data-cn="앨범 포토카드（专辑小卡）的缩写：K-pop专辑里附的随机小卡。" data-ja="앨범 포토카드（アルバムトレカ）の略。K-POPアルバムに封入されているランダムのトレカ。">Short for 앨범 포토카드 — the random photocard that comes inside a K-pop album.</p>
-      </a>
-      <a class="new-card" href="word/mi-gong-po.html">
-        <div class="new-card-top">
-          <div class="kr-big">미공포</div>
-          <div class="rom-big">mi-gong-po</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="Short for 미공개 포토카드 — an &quot;unreleased&quot; photocard given only by a specific store or event." data-es="Abreviatura de 미공개 포토카드: una photocard &quot;inédita&quot; que solo da una tienda o evento específico." data-zh="미공개 포토카드（未公開小卡）的縮寫：只有特定店家或活動才送的小卡。" data-cn="미공개 포토카드（未公开小卡）的缩写：只有特定店家或活动才送的小卡。" data-ja="미공개 포토카드（未公開トレカ）の略。特定の店舗やイベントでしかもらえないトレカ。">Short for 미공개 포토카드 — an &quot;unreleased&quot; photocard given only by a specific store or event.</p>
-      </a>
-      <a class="new-card" href="word/en-ding-yo-jeong.html">
-        <div class="new-card-top">
-          <div class="kr-big">엔딩요정</div>
-          <div class="rom-big">en-ding-yo-jeong</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Ending fairy&quot; — the member the camera zooms in on, holding a pose, as a music-show stage ends." data-es="&quot;Hada del final&quot;: el miembro en el que la cámara hace zoom, posando, al terminar una presentación en un programa musical." data-zh="「ending妖精」：音樂節目表演結束時，鏡頭特寫並停格擺姿勢的成員。" data-cn="“ending妖精”：音乐节目表演结束时，镜头特写并停格摆姿势的成员。" data-ja="「エンディング妖精」。音楽番組のステージの最後に、カメラがアップで捉えてポーズを決めるメンバー。">&quot;Ending fairy&quot; — the member the camera zooms in on, holding a pose, as a music-show stage ends.</p>
-      </a>
-      <a class="new-card" href="word/toe-geun-gil.html">
-        <div class="new-card-top">
-          <div class="kr-big">퇴근길</div>
-          <div class="rom-big">toe-geun-gil</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;The way home from work&quot; — idols leaving a broadcast station or venue, greeted and photographed by waiting fans." data-es="&quot;El camino de salida del trabajo&quot;: los idols saliendo de una televisora o recinto, recibidos y fotografiados por fans que esperan." data-zh="「下班路」：偶像離開電視台或場館時，被等候的粉絲迎接、拍照。" data-cn="“下班路”：偶像离开电视台或场馆时，被等候的粉丝迎接、拍照。" data-ja="「退勤の道」。アイドルが放送局や会場から出るところを、待っていたファンが迎えて撮影すること。">&quot;The way home from work&quot; — idols leaving a broadcast station or venue, greeted and photographed by waiting fans.</p>
-      </a>
-      <a class="new-card" href="word/chul-geun-gil.html">
-        <div class="new-card-top">
-          <div class="kr-big">출근길</div>
-          <div class="rom-big">chul-geun-gil</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;The way to work&quot; — idols arriving at a broadcast station, often photographed in their outfits on the way in." data-es="&quot;El camino al trabajo&quot;: los idols llegando a una televisora, a menudo fotografiados con su outfit al entrar." data-zh="「上班路」：偶像抵達電視台，常在進場時被拍下穿搭。" data-cn="“上班路”：偶像抵达电视台，常在进场时被拍下穿搭。" data-ja="「出勤の道」。アイドルが放送局に到着するところで、入り時の服装がよく撮影される。">&quot;The way to work&quot; — idols arriving at a broadcast station, often photographed in their outfits on the way in.</p>
-      </a>
-      <a class="new-card" href="word/mak-nae-on-tap.html">
-        <div class="new-card-top">
-          <div class="kr-big">막내온탑</div>
-          <div class="rom-big">mak-nae-on-tap</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Maknae on top&quot; — the youngest member who acts like the boss or outshines the older members." data-es="&quot;Maknae on top&quot;: el miembro menor que actúa como el jefe o brilla más que los mayores." data-zh="「忙內on top」：表現得像老大、或比哥哥姊姊們更強的忙內。" data-cn="“忙内on top”：表现得像老大、或比哥哥姊姊们更强的忙内。" data-ja="「マンネオントップ」。年上メンバーより偉そう、または誰よりも優秀な末っ子。">&quot;Maknae on top&quot; — the youngest member who acts like the boss or outshines the older members.</p>
-      </a>
-      <a class="new-card" href="word/mat-nae.html">
-        <div class="new-card-top">
-          <div class="kr-big">맏내</div>
-          <div class="rom-big">mat-nae</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="맏이 (oldest) + 막내 (youngest): the oldest member who acts like the baby of the group." data-es="맏이 (mayor) + 막내 (menor): el miembro mayor que se comporta como el bebé del grupo." data-zh="맏이（老大）＋막내（忙內）：年紀最大卻像忙內一樣被寵的成員。" data-cn="맏이（老大）＋막내（忙内）：年纪最大却像忙内一样被宠的成员。" data-ja="맏이（一番上）＋막내（末っ子）。最年長なのに末っ子のように振る舞うメンバー。">맏이 (oldest) + 막내 (youngest): the oldest member who acts like the baby of the group.</p>
-      </a>
-      <a class="new-card" href="word/me-bo.html">
-        <div class="new-card-top">
-          <div class="kr-big">메보</div>
-          <div class="rom-big">me-bo</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="Short for 메인보컬 — the main vocalist." data-es="Abreviatura de 메인보컬: el vocalista principal." data-zh="메인보컬（主唱）的縮寫。" data-cn="메인보컬（主唱）的缩写。" data-ja="메인보컬（メインボーカル）の略。">Short for 메인보컬 — the main vocalist.</p>
-      </a>
-      <a class="new-card" href="word/sa-se-dae.html">
-        <div class="new-card-top">
-          <div class="kr-big">4세대</div>
-          <div class="rom-big">sa-se-dae</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="The 4th generation of K-pop — groups that debuted roughly from the late 2010s into the early 2020s." data-es="La 4.ª generación del K-pop: grupos que debutaron aproximadamente entre finales de los 2010 y principios de los 2020." data-zh="K-pop第四代：大約在2010年代末到2020年代初出道的團體。" data-cn="K-pop第四代：大约在2010年代末到2020年代初出道的团体。" data-ja="K-POP第4世代。おおむね2010年代後半から2020年代前半にデビューしたグループ。">The 4th generation of K-pop — groups that debuted roughly from the late 2010s into the early 2020s.</p>
-      </a>
-      <a class="new-card" href="word/jul-se-u-gi.html">
-        <div class="new-card-top">
-          <div class="kr-big">줄세우기</div>
-          <div class="rom-big">jul-se-u-gi</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Lining up&quot; — when one artist&#x27;s songs fill several top spots on a chart at once." data-es="&quot;Hacer fila&quot;: cuando las canciones de un solo artista ocupan varios primeros puestos de una lista a la vez." data-zh="「排排站」：同一位歌手的歌同時佔據排行榜前面好幾名。" data-cn="“排排站”：同一位歌手的歌同时占据排行榜前面好几名。" data-ja="「並べ」。一組のアーティストの曲がチャート上位を同時に独占すること。">&quot;Lining up&quot; — when one artist&#x27;s songs fill several top spots on a chart at once.</p>
-      </a>
-      <a class="new-card" href="word/ol-kil.html">
-        <div class="new-card-top">
-          <div class="kr-big">올킬</div>
-          <div class="rom-big">ol-kil</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;All-kill&quot; — a song hitting #1 on all of Korea&#x27;s major music charts at the same time." data-es="&quot;All-kill&quot;: una canción que llega al #1 en todas las principales listas musicales de Corea al mismo tiempo." data-zh="「All-kill」：一首歌同時拿下韓國所有主要音樂榜的第一名。" data-cn="“All-kill”：一首歌同时拿下韩国所有主要音乐榜的第一名。" data-ja="「オールキル」。一曲が韓国の主要音楽チャートすべてで同時に1位を取ること。">&quot;All-kill&quot; — a song hitting #1 on all of Korea&#x27;s major music charts at the same time.</p>
-      </a>
-      <a class="new-card" href="word/peo-ol.html">
-        <div class="new-card-top">
-          <div class="kr-big">퍼올</div>
-          <div class="rom-big">peo-ol</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="Short for &quot;perfect all-kill&quot; — #1 on Korea&#x27;s major real-time, daily and weekly charts all at once." data-es="Abreviatura de &quot;perfect all-kill&quot;: #1 en las principales listas coreanas en tiempo real, diarias y semanales a la vez." data-zh="Perfect All-kill的縮寫：同時拿下韓國主要即時榜、日榜和週榜第一。" data-cn="Perfect All-kill的缩写：同时拿下韩国主要即时榜、日榜和周榜第一。" data-ja="「パーフェクトオールキル」の略。韓国の主要リアルタイム・デイリー・ウィークリーチャートで同時1位。">Short for &quot;perfect all-kill&quot; — #1 on Korea&#x27;s major real-time, daily and weekly charts all at once.</p>
-      </a>
-      <a class="new-card" href="word/cha-teu-in.html">
-        <div class="new-card-top">
-          <div class="kr-big">차트인</div>
-          <div class="rom-big">cha-teu-in</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Chart-in&quot; — a song entering a music chart." data-es="&quot;Chart-in&quot;: que una canción entre en una lista musical." data-zh="「Chart-in」：歌曲進入音樂排行榜。" data-cn="“Chart-in”：歌曲进入音乐排行榜。" data-ja="「チャートイン」。曲が音楽チャートに入ること。">&quot;Chart-in&quot; — a song entering a music chart.</p>
-      </a>
-      <a class="new-card" href="word/eum-won-kkang-pae.html">
-        <div class="new-card-top">
-          <div class="kr-big">음원깡패</div>
-          <div class="rom-big">eum-won-kkang-pae</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Digital-chart gangster&quot; — an artist whose releases dominate the streaming charts every time. A compliment." data-es="&quot;Gánster de las listas&quot;: un artista cuyas canciones dominan las listas de streaming cada vez. Es un elogio." data-zh="「音源流氓」：每次發歌都霸榜的歌手。是稱讚。" data-cn="“音源流氓”：每次发歌都霸榜的歌手。是称赞。" data-ja="「音源ヤクザ」。出す曲が毎回ストリーミングチャートを席巻するアーティスト。ほめ言葉。">&quot;Digital-chart gangster&quot; — an artist whose releases dominate the streaming charts every time. A compliment.</p>
-      </a>
-      <a class="new-card" href="word/mu-dae-cheon-jae.html">
-        <div class="new-card-top">
-          <div class="kr-big">무대천재</div>
-          <div class="rom-big">mu-dae-cheon-jae</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Stage genius&quot; — a performer who comes alive on stage, with expressions and presence that steal every camera shot." data-es="&quot;Genio del escenario&quot;: un artista que cobra vida en el escenario, con expresiones y presencia que se roban cada toma." data-zh="「舞台天才」：一上台就發光、表情和氣場搶走每個鏡頭的表演者。" data-cn="“舞台天才”：一上台就发光、表情和气场抢走每个镜头的表演者。" data-ja="「ステージの天才」。ステージで本領を発揮し、表情と存在感でカメラを奪う人。">&quot;Stage genius&quot; — a performer who comes alive on stage, with expressions and presence that steal every camera shot.</p>
-      </a>
-      <a class="new-card" href="word/chum-sin-chum-wang.html">
-        <div class="new-card-top">
-          <div class="kr-big">춤신춤왕</div>
-          <div class="rom-big">chum-sin-chum-wang</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Dance god, dance king&quot; — someone who is ridiculously good at dancing." data-es="&quot;Dios del baile, rey del baile&quot;: alguien que baila increíblemente bien." data-zh="「舞神舞王」：跳舞超級厲害的人。" data-cn="“舞神舞王”：跳舞超级厉害的人。" data-ja="「ダンスの神、ダンスの王」。ダンスがとんでもなく上手い人。">&quot;Dance god, dance king&quot; — someone who is ridiculously good at dancing.</p>
-      </a>
-      <a class="new-card" href="word/cheong-nyang.html">
-        <div class="new-card-top">
-          <div class="kr-big">청량</div>
-          <div class="rom-big">cheong-nyang</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="淸凉 — &quot;refreshing&quot;: a bright, youthful summer concept — blue skies, school uniforms, running on the beach." data-es="淸凉, &quot;refrescante&quot;: un concepto veraniego, luminoso y juvenil: cielos azules, uniformes escolares, correr en la playa." data-zh="清涼——明亮、青春的夏日概念：藍天、制服、在海邊奔跑。" data-cn="清凉——明亮、青春的夏日概念：蓝天、制服、在海边奔跑。" data-ja="清涼。明るく若々しい夏のコンセプト。青空、制服、海辺を走るイメージ。">淸凉 — &quot;refreshing&quot;: a bright, youthful summer concept — blue skies, school uniforms, running on the beach.</p>
-      </a>
-      <a class="new-card" href="word/geol-keu-reo-si.html">
-        <div class="new-card-top">
-          <div class="kr-big">걸크러시</div>
-          <div class="rom-big">geol-keu-reo-si</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;Girl crush&quot; — a fierce, confident concept or person that other women admire." data-es="&quot;Girl crush&quot;: un concepto o persona feroz y segura que otras mujeres admiran." data-zh="「Girl crush」：讓其他女生也欣賞的帥氣、自信概念或人。" data-cn="“Girl crush”：让其他女生也欣赏的帅气、自信概念或人。" data-ja="「ガールクラッシュ」。女性が憧れる、強くて自信に満ちたコンセプトや人。">&quot;Girl crush&quot; — a fierce, confident concept or person that other women admire.</p>
-      </a>
-      <a class="new-card" href="word/ha-i-tin.html">
-        <div class="new-card-top">
-          <div class="kr-big">하이틴</div>
-          <div class="rom-big">ha-i-tin</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="&quot;High teen&quot; — a concept inspired by American teen movies: lockers, cheerleaders, prom, bubblegum colors." data-es="&quot;High teen&quot;: un concepto inspirado en películas adolescentes estadounidenses: casilleros, porristas, graduación, colores chicle." data-zh="「High teen」：靈感來自美國青春電影的概念——置物櫃、啦啦隊、畢業舞會、糖果色。" data-cn="“High teen”：灵感来自美国青春电影的概念——置物柜、啦啦队、毕业舞会、糖果色。" data-ja="「ハイティーン」。アメリカの学園映画風コンセプト。ロッカー、チアリーダー、プロム、パステルカラー。">&quot;High teen&quot; — a concept inspired by American teen movies: lockers, cheerleaders, prom, bubblegum colors.</p>
-      </a>
-      <a class="new-card" href="word/sa-nok.html">
-        <div class="new-card-top">
-          <div class="kr-big">사녹</div>
-          <div class="rom-big">sa-nok</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="Short for 사전녹화 — a music show&#x27;s pre-recorded stage, filmed before the live broadcast with fans in the audience." data-es="Abreviatura de 사전녹화: la presentación pregrabada de un programa musical, filmada antes de la emisión en vivo con fans en el público." data-zh="사전녹화（事前錄影）的縮寫：音樂節目在直播前、有粉絲在場錄好的舞台。" data-cn="사전녹화（事前录制）的缩写：音乐节目在直播前、有粉丝在场录好的舞台。" data-ja="사전녹화（事前収録）の略。生放送前にファンを入れて収録する音楽番組のステージ。">Short for 사전녹화 — a music show&#x27;s pre-recorded stage, filmed before the live broadcast with fans in the audience.</p>
-      </a>
-      <a class="new-card" href="word/paen-kon.html">
-        <div class="new-card-top">
-          <div class="kr-big">팬콘</div>
-          <div class="rom-big">paen-kon</div>
-          <span class="cat-pill">아이돌 필수 용어 · Idol Essentials</span>
-        </div>
-        <p class="def" data-en="Short for 팬 콘서트 — a show mixing a fan meeting&#x27;s talk and games with a concert&#x27;s full performances." data-es="Abreviatura de 팬 콘서트: un show que mezcla la charla y los juegos de un fan meeting con presentaciones completas de concierto." data-zh="팬 콘서트（粉絲演唱會）的縮寫：結合見面會的談話遊戲和演唱會表演的活動。" data-cn="팬 콘서트（粉丝演唱会）的缩写：结合见面会的谈话游戏和演唱会表演的活动。" data-ja="팬 콘서트（ファンコンサート）の略。ファンミのトークやゲームと、コンサートのステージを合わせた公演。">Short for 팬 콘서트 — a show mixing a fan meeting&#x27;s talk and games with a concert&#x27;s full performances.</p>
-      </a>
-      <a class="new-card" href="word/po-ta.html">
-        <div class="new-card-top">
-          <div class="kr-big">포타</div>
-          <div class="rom-big">po-ta</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="Short for 포스타입 (Postype) — a Korean creator platform where fans post fanfics, fan art and paid content." data-es="Abreviatura de 포스타입 (Postype): una plataforma coreana donde los fans publican fanfics, fan art y contenido pagado." data-zh="포스타입（Postype）的縮寫：粉絲發布同人文、同人圖和付費內容的韓國創作平台。" data-cn="포스타입（Postype）的缩写：粉丝发布同人文、同人图和付费内容的韩国创作平台。" data-ja="포스타입（Postype）の略。ファンがファンフィクやファンアート、有料コンテンツを投稿する韓国の創作プラットフォーム。">Short for 포스타입 (Postype) — a Korean creator platform where fans post fanfics, fan art and paid content.</p>
-      </a>
-      <a class="new-card" href="word/beo-beul.html">
-        <div class="new-card-top">
-          <div class="kr-big">버블</div>
-          <div class="rom-big">beo-beul</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="A paid subscription app where idols send personal-style messages and photos to fans." data-es="Una app de suscripción pagada donde los idols envían mensajes y fotos de estilo personal a los fans." data-zh="付費訂閱App，偶像會傳像私訊一樣的訊息和照片給粉絲。" data-cn="付费订阅App，偶像会传像私讯一样的消息和照片给粉丝。" data-ja="有料購読アプリで、アイドルが個人メッセージ風のメッセージや写真をファンに送る。">A paid subscription app where idols send personal-style messages and photos to fans.</p>
-      </a>
-      <a class="new-card" href="word/wi-beo-seu.html">
-        <div class="new-card-top">
-          <div class="kr-big">위버스</div>
-          <div class="rom-big">wi-beo-seu</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="A global fan platform where many K-pop artists post updates, go live and read fan posts." data-es="Una plataforma global de fans donde muchos artistas de K-pop publican novedades, hacen directos y leen publicaciones de fans." data-zh="全球粉絲平台，很多K-pop歌手會在上面發動態、開直播、看粉絲貼文。" data-cn="全球粉丝平台，很多K-pop歌手会在上面发动态、开直播、看粉丝贴文。" data-ja="グローバルなファンプラットフォーム。多くのK-POPアーティストが近況投稿やライブ配信をし、ファンの投稿を読む。">A global fan platform where many K-pop artists post updates, go live and read fan posts.</p>
-      </a>
-      <a class="new-card" href="word/teuk-jeon.html">
-        <div class="new-card-top">
-          <div class="kr-big">특전</div>
-          <div class="rom-big">teuk-jeon</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="特典 — an extra gift (photocard, poster, sticker) you get for buying an album or merch at a specific store." data-es="特典: un regalo extra (photocard, póster, sticker) que recibes al comprar un álbum o merch en una tienda específica." data-zh="特典——在特定店家購買專輯或周邊時額外得到的贈品（小卡、海報、貼紙）。" data-cn="特典——在特定店家购买专辑或周边时额外得到的赠品（小卡、海报、贴纸）。" data-ja="特典。特定の店でアルバムやグッズを買うともらえるおまけ（トレカ、ポスター、ステッカー）。">特典 — an extra gift (photocard, poster, sticker) you get for buying an album or merch at a specific store.</p>
-      </a>
-      <a class="new-card" href="word/bun-cheol.html">
-        <div class="new-card-top">
-          <div class="kr-big">분철</div>
-          <div class="rom-big">bun-cheol</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="分綴 — buying a full set (of photocards or albums) together and splitting it so each fan gets the member they want." data-es="分綴: comprar un set completo (de photocards o álbumes) entre varios y repartirlo para que cada fan reciba al miembro que quiere." data-zh="分綴——一起買一整套（小卡或專輯）再拆分，讓每個粉絲拿到想要的成員。" data-cn="分缀——一起买一整套（小卡或专辑）再拆分，让每个粉丝拿到想要的成员。" data-ja="分綴。セット（トレカやアルバム）を共同で買って分け、各自が推しを受け取ること。">分綴 — buying a full set (of photocards or albums) together and splitting it so each fan gets the member they want.</p>
-      </a>
-      <a class="new-card" href="word/gong-gu.html">
-        <div class="new-card-top">
-          <div class="kr-big">공구</div>
-          <div class="rom-big">gong-gu</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="Short for 공동구매 — fans buying together in bulk, often to get discounts or to ship overseas more cheaply." data-es="Abreviatura de 공동구매: fans comprando juntos al por mayor, a menudo para obtener descuentos o enviar al extranjero más barato." data-zh="공동구매（團購）的縮寫：粉絲一起大量購買，常為了折扣或便宜的海外運費。" data-cn="공동구매（团购）的缩写：粉丝一起大量购买，常为了折扣或便宜的海外运费。" data-ja="공동구매（共同購入）の略。割引や海外送料節約のためにファンがまとめて買うこと。">Short for 공동구매 — fans buying together in bulk, often to get discounts or to ship overseas more cheaply.</p>
-      </a>
-      <a class="new-card" href="word/yang-do.html">
-        <div class="new-card-top">
-          <div class="kr-big">양도</div>
-          <div class="rom-big">yang-do</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="讓渡 — passing a ticket or item you can&#x27;t use to another fan, ideally at the original price." data-es="讓渡: pasar a otro fan una entrada o artículo que no puedes usar, idealmente al precio original." data-zh="讓渡——把自己用不到的門票或物品轉讓給其他粉絲，最好是原價。" data-cn="让渡——把自己用不到的门票或物品转让给其他粉丝，最好是原价。" data-ja="譲渡。使えなくなったチケットやグッズを他のファンに譲ること。定価が理想。">讓渡 — passing a ticket or item you can&#x27;t use to another fan, ideally at the original price.</p>
-      </a>
-      <a class="new-card" href="word/chwi-ket-ting.html">
-        <div class="new-card-top">
-          <div class="kr-big">취켓팅</div>
-          <div class="rom-big">chwi-ket-ting</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="취소표 (canceled tickets) + ticketing: hunting for tickets that get released again after other people cancel." data-es="취소표 (entradas canceladas) + ticketing: cazar entradas que vuelven a salir cuando otros cancelan." data-zh="취소표（退票）＋搶票：搶別人退票後重新釋出的票。" data-cn="취소표（退票）＋抢票：抢别人退票后重新发布的票。" data-ja="취소표（キャンセル券）＋チケッティング。他の人のキャンセルで再び出るチケットを狙うこと。">취소표 (canceled tickets) + ticketing: hunting for tickets that get released again after other people cancel.</p>
-      </a>
-      <a class="new-card" href="word/kkul-ja-ri.html">
-        <div class="new-card-top">
-          <div class="kr-big">꿀자리</div>
-          <div class="rom-big">kkul-ja-ri</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="&quot;Honey seat&quot; — a great spot: a concert seat with a perfect view, or any comfy, convenient place." data-es="&quot;Asiento de miel&quot;: un lugar ideal, como un asiento de concierto con vista perfecta o cualquier sitio cómodo." data-zh="「蜜位」：好位置——視野超好的演唱會座位，或任何舒服方便的地方。" data-cn="“蜜位”：好位置——视野超好的演唱会座位，或任何舒服方便的地方。" data-ja="「ハチミツ席」。神席。視界抜群のコンサート席や、快適で便利な場所。">&quot;Honey seat&quot; — a great spot: a concert seat with a perfect view, or any comfy, convenient place.</p>
-      </a>
-      <a class="new-card" href="word/si-je-seok.html">
-        <div class="new-card-top">
-          <div class="kr-big">시제석</div>
-          <div class="rom-big">si-je-seok</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="Short for 시야제한석 — a seat with a partly blocked view, usually sold cheaper or opened last." data-es="Abreviatura de 시야제한석: un asiento con vista parcialmente bloqueada, normalmente más barato o vendido al final." data-zh="시야제한석（視野受限席）的縮寫：視線部分被擋的座位，通常比較便宜或最後才開賣。" data-cn="시야제한석（视野受限席）的缩写：视线部分被挡的座位，通常比较便宜或最后才开卖。" data-ja="시야제한석（視界制限席）の略。視界が一部遮られる席で、安かったり最後に販売されたりする。">Short for 시야제한석 — a seat with a partly blocked view, usually sold cheaper or opened last.</p>
-      </a>
-      <a class="new-card" href="word/bi-gong-gut.html">
-        <div class="new-card-top">
-          <div class="kr-big">비공굿</div>
-          <div class="rom-big">bi-gong-gut</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="Short for 비공식 굿즈 — fan-made merch, like stickers, keyrings or slogans, not made by the agency." data-es="Abreviatura de 비공식 굿즈: merch hecho por fans, como stickers, llaveros o slogans, no producido por la agencia." data-zh="비공식 굿즈（非官方周邊）的縮寫：粉絲自製的周邊，如貼紙、鑰匙圈、手幅。" data-cn="비공식 굿즈（非官方周边）的缩写：粉丝自制的周边，如贴纸、钥匙圈、手幅。" data-ja="비공식 굿즈（非公式グッズ）の略。ステッカーやキーホルダー、スローガンなどファン手作りのグッズ。">Short for 비공식 굿즈 — fan-made merch, like stickers, keyrings or slogans, not made by the agency.</p>
-      </a>
-      <a class="new-card" href="word/na-num.html">
-        <div class="new-card-top">
-          <div class="kr-big">나눔</div>
-          <div class="rom-big">na-num</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="&quot;Sharing&quot; — fans giving away free items (cup sleeves, stickers, photocards) at concerts, cafés or online." data-es="&quot;Compartir&quot;: fans que regalan artículos (fundas de vaso, stickers, photocards) en conciertos, cafés o en línea." data-zh="「分享」：粉絲在演唱會、咖啡廳或線上免費發送物品（杯套、貼紙、小卡）。" data-cn="“分享”：粉丝在演唱会、咖啡厅或在线免费发送物品（杯套、贴纸、小卡）。" data-ja="「おすそ分け」。ファンがコンサートやカフェ、オンラインで無料配布すること（カップスリーブ、ステッカー、トレカ）。">&quot;Sharing&quot; — fans giving away free items (cup sleeves, stickers, photocards) at concerts, cafés or online.</p>
-      </a>
-      <a class="new-card" href="word/si-jeun-geu-ri-ting.html">
-        <div class="new-card-top">
-          <div class="kr-big">시즌그리팅</div>
-          <div class="rom-big">si-jeun-geu-ri-ting</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="&quot;Season&#x27;s greetings&quot; — a year-end merch package with a calendar, diary, photos and goodies for the coming year. Short: 시그." data-es="&quot;Season&#x27;s greetings&quot;: un paquete de merch de fin de año con calendario, agenda, fotos y extras para el año siguiente. Corto: 시그." data-zh="「Season&#x27;s greetings」：年末推出的周邊套組，內含年曆、手帳、照片等。簡稱시그。" data-cn="“Season&#x27;s greetings”：年末推出的周边套组，内含年历、手帐、照片等。简称시그。" data-ja="「シーズングリーティング」。来年用のカレンダーや手帳、写真などが入った年末のグッズセット。略して시그。">&quot;Season&#x27;s greetings&quot; — a year-end merch package with a calendar, diary, photos and goodies for the coming year. Short: 시그.</p>
-      </a>
-      <a class="new-card" href="word/gat-gi.html">
-        <div class="new-card-top">
-          <div class="kr-big">갓기</div>
-          <div class="rom-big">gat-gi</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="God + 아기 (baby): an affectionate name for a young idol who is incredibly talented or cute." data-es="God + 아기 (bebé): un apodo cariñoso para un idol joven increíblemente talentoso o tierno." data-zh="God＋아기（寶寶）：對超有才華或超可愛的年輕偶像的暱稱。" data-cn="God＋아기（宝宝）：对超有才华或超可爱的年轻偶像的暱称。" data-ja="God＋아기（赤ちゃん）。とても才能がある、またはかわいい年下アイドルへの愛称。">God + 아기 (baby): an affectionate name for a young idol who is incredibly talented or cute.</p>
-      </a>
-      <a class="new-card" href="word/mak-kon.html">
-        <div class="new-card-top">
-          <div class="kr-big">막콘</div>
-          <div class="rom-big">mak-kon</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="Short for 마지막 콘서트 — the final show of a concert run or tour." data-es="Abreviatura de 마지막 콘서트: el último show de una serie de conciertos o gira." data-zh="마지막 콘서트（最後一場演唱會）的縮寫：一輪演出或巡演的最後一場。" data-cn="마지막 콘서트（最后一场演唱会）的缩写：一轮演出或巡演的最后一场。" data-ja="마지막 콘서트（最後のコンサート）の略。公演期間やツアーの最終公演。">Short for 마지막 콘서트 — the final show of a concert run or tour.</p>
-      </a>
-      <a class="new-card" href="word/seul-ro-geon.html">
-        <div class="new-card-top">
-          <div class="kr-big">슬로건</div>
-          <div class="rom-big">seul-ro-geon</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="A long towel or banner with an idol&#x27;s name or a message, held up by fans at concerts." data-es="Una toalla o pancarta larga con el nombre del idol o un mensaje, que los fans levantan en los conciertos." data-zh="手幅：寫著偶像名字或應援標語的長毛巾或布條，粉絲在演唱會上舉起來。" data-cn="手幅：写着偶像名字或应援标语的长毛巾或布条，粉丝在演唱会上举起来。" data-ja="スローガン。アイドルの名前やメッセージが書かれた横長のタオルや布で、コンサートで掲げる。">A long towel or banner with an idol&#x27;s name or a message, held up by fans at concerts.</p>
-      </a>
-      <a class="new-card" href="word/jung-kkeok-ma.html">
-        <div class="new-card-top">
-          <div class="kr-big">중꺾마</div>
-          <div class="rom-big">jung-kkeok-ma</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 중요한 건 꺾이지 않는 마음 — &quot;what matters is a heart that doesn&#x27;t break.&quot;" data-es="Abreviatura de 중요한 건 꺾이지 않는 마음: &quot;lo importante es un corazón que no se quiebra&quot;." data-zh="중요한 건 꺾이지 않는 마음（重要的是不屈服的心）的縮寫。" data-cn="중요한 건 꺾이지 않는 마음（重要的是不屈服的心）的缩写。" data-ja="중요한 건 꺾이지 않는 마음（大事なのは折れない心）の略。">Short for 중요한 건 꺾이지 않는 마음 — &quot;what matters is a heart that doesn&#x27;t break.&quot;</p>
-      </a>
-      <a class="new-card" href="word/o-hi-ryeo-jo-a.html">
-        <div class="new-card-top">
-          <div class="kr-big">오히려좋아</div>
-          <div class="rom-big">o-hi-ryeo-jo-a</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Actually, that&#x27;s even better&quot; — turning a bad situation into a positive one." data-es="&quot;De hecho, mejor&quot;: convertir una mala situación en algo positivo." data-zh="「反而更好」：把壞情況轉成正面。" data-cn="“反而更好”：把坏情况转成正面。" data-ja="「むしろ良い」。悪い状況をポジティブに受け止めること。">&quot;Actually, that&#x27;s even better&quot; — turning a bad situation into a positive one.</p>
-      </a>
-      <a class="new-card" href="word/jo-yong-han-toe-sa.html">
-        <div class="new-card-top">
-          <div class="kr-big">조용한퇴사</div>
-          <div class="rom-big">jo-yong-han-toe-sa</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Quiet quitting&quot; — doing only what your job requires, no more, and leaving on time." data-es="&quot;Renuncia silenciosa&quot;: hacer solo lo que exige el trabajo, nada más, y salir a la hora." data-zh="「安靜離職」：只做工作要求的部分，不多做，準時下班。" data-cn="“安静离职”：只做工作要求的部分，不多做，准时下班。" data-ja="「静かな退職」。仕事で求められる分だけをこなし、それ以上はしないで定時に帰ること。">&quot;Quiet quitting&quot; — doing only what your job requires, no more, and leaving on time.</p>
-      </a>
-      <a class="new-card" href="word/eok-ppa.html">
-        <div class="new-card-top">
-          <div class="kr-big">억빠</div>
-          <div class="rom-big">eok-ppa</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="억지 (forced) + 빠 (fan): defending someone no matter what, even when they&#x27;re clearly wrong. The opposite of 억까." data-es="억지 (forzado) + 빠 (fan): defender a alguien pase lo que pase, aunque claramente esté mal. Lo contrario de 억까." data-zh="억지（硬要）＋빠（粉）：不管怎樣都硬要護航，就算對方明顯有錯。억까的反義。" data-cn="억지（硬要）＋빠（粉）：不管怎样都硬要护航，就算对方明显有错。억까的反义。" data-ja="억지（無理やり）＋빠（ファン）。明らかに間違っていても無理やり擁護すること。억까の反対。">억지 (forced) + 빠 (fan): defending someone no matter what, even when they&#x27;re clearly wrong. The opposite of 억까.</p>
-      </a>
-      <a class="new-card" href="word/mu-ji-seong.html">
-        <div class="new-card-top">
-          <div class="kr-big">무지성</div>
-          <div class="rom-big">mu-ji-seong</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="無知性 — &quot;no intellect&quot;: doing something without thinking, on pure impulse." data-es="無知性, &quot;sin intelecto&quot;: hacer algo sin pensar, por puro impulso." data-zh="無知性——不經大腦、純憑衝動做事。" data-cn="无知性——不经大脑、纯凭冲动做事。" data-ja="無知性。何も考えずに衝動だけで行動すること。">無知性 — &quot;no intellect&quot;: doing something without thinking, on pure impulse.</p>
-      </a>
-      <a class="new-card" href="word/eo-jjeol-ti-bi.html">
-        <div class="new-card-top">
-          <div class="kr-big">어쩔티비</div>
-          <div class="rom-big">eo-jjeol-ti-bi</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="어쩌라고 (&quot;so what?&quot;) + TV: a playful, cheeky &quot;so what?&quot; — often to win a silly argument." data-es="어쩌라고 (&quot;¿y qué?&quot;) + TV: un &quot;¿y qué?&quot; juguetón y descarado, a menudo para ganar una discusión tonta." data-zh="어쩌라고（那又怎樣）＋TV：俏皮又欠揍的「那又怎樣」，常用來在無聊爭論中嗆聲。" data-cn="어쩌라고（那又怎样）＋TV：俏皮又欠揍的“那又怎样”，常用来在无聊争论中呛声。" data-ja="어쩌라고（だから何？）＋TV。ふざけた生意気な「だから何？」。くだらない口げんかで使う。">어쩌라고 (&quot;so what?&quot;) + TV: a playful, cheeky &quot;so what?&quot; — often to win a silly argument.</p>
-      </a>
-      <a class="new-card" href="word/jeo-jjeol-ti-bi.html">
-        <div class="new-card-top">
-          <div class="kr-big">저쩔티비</div>
-          <div class="rom-big">jeo-jjeol-ti-bi</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="The comeback to 어쩔티비 — bouncing the &quot;so what?&quot; right back." data-es="La respuesta a 어쩔티비: devolver el &quot;¿y qué?&quot; de inmediato." data-zh="回嗆어쩔티비的話——把「那又怎樣」原封不動丟回去。" data-cn="回呛어쩔티비的话——把“那又怎样”原封不动丢回去。" data-ja="어쩔티비への返し。「だから何？」をそのまま投げ返す。">The comeback to 어쩔티비 — bouncing the &quot;so what?&quot; right back.</p>
-      </a>
-      <a class="new-card" href="word/king-ri-jeok-gat-sim.html">
-        <div class="new-card-top">
-          <div class="kr-big">킹리적갓심</div>
-          <div class="rom-big">king-ri-jeok-gat-sim</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="King + 합리적 의심 (reasonable suspicion) with 합→king, 의→god: a &quot;reasonable suspicion&quot; taken to the max." data-es="King + 합리적 의심 (sospecha razonable), cambiando 합 por king y 의 por god: una &quot;sospecha razonable&quot; llevada al máximo." data-zh="King＋합리적 의심（合理懷疑），把합換成king、의換成god：合理懷疑到極致。" data-cn="King＋합리적 의심（合理怀疑），把합换成king、의换成god：合理怀疑到极致。" data-ja="King＋합리적 의심（合理的な疑い）の합をking、의をgodに置き換えた言葉。最大級の「合理的な疑い」。">King + 합리적 의심 (reasonable suspicion) with 합→king, 의→god: a &quot;reasonable suspicion&quot; taken to the max.</p>
-      </a>
-      <a class="new-card" href="word/nae-don-nae-san.html">
-        <div class="new-card-top">
-          <div class="kr-big">내돈내산</div>
-          <div class="rom-big">nae-don-nae-san</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 내 돈 주고 내가 산 — &quot;I paid for it myself&quot;: an honest, not-sponsored review." data-es="Abreviatura de 내 돈 주고 내가 산: &quot;lo pagué yo&quot;, una reseña honesta, no patrocinada." data-zh="내 돈 주고 내가 산（自己花錢買的）的縮寫：真實、非業配的心得。" data-cn="내 돈 주고 내가 산（自己花钱买的）的缩写：真实、非业配的心得。" data-ja="내 돈 주고 내가 산（自分のお金で自分で買った）の略。正直な、案件ではないレビュー。">Short for 내 돈 주고 내가 산 — &quot;I paid for it myself&quot;: an honest, not-sponsored review.</p>
-      </a>
-      <a class="new-card" href="word/meo-seon-129.html">
-        <div class="new-card-top">
-          <div class="kr-big">머선129</div>
-          <div class="rom-big">meo-seon-129</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="A dialect-flavored &quot;what&#x27;s going on?&quot; (무슨 일이고) where 일이구 is written as the numbers 129." data-es="Un &quot;¿qué pasa?&quot; con tono de dialecto (무슨 일이고), donde 일이구 se escribe con los números 129." data-zh="帶方言腔的「怎麼回事？」（무슨 일이고），把일이구寫成數字129。" data-cn="带方言腔的“怎么回事？”（무슨 일이고），把일이구写成数字129。" data-ja="方言風の「何事？」（무슨 일이고）。일이구を数字の129で書いた言葉遊び。">A dialect-flavored &quot;what&#x27;s going on?&quot; (무슨 일이고) where 일이구 is written as the numbers 129.</p>
-      </a>
-      <a class="new-card" href="word/gap-tuk-twi.html">
-        <div class="new-card-top">
-          <div class="kr-big">갑툭튀</div>
-          <div class="rom-big">gap-tuk-twi</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 갑자기 툭 튀어나오다 — popping up suddenly out of nowhere." data-es="Abreviatura de 갑자기 툭 튀어나오다: aparecer de repente de la nada." data-zh="갑자기 툭 튀어나오다（突然冒出來）的縮寫。" data-cn="갑자기 툭 튀어나오다（突然冒出来）的缩写。" data-ja="갑자기 툭 튀어나오다（急にポンと飛び出す）の略。">Short for 갑자기 툭 튀어나오다 — popping up suddenly out of nowhere.</p>
-      </a>
-      <a class="new-card" href="word/eol-ppak-syat.html">
-        <div class="new-card-top">
-          <div class="kr-big">얼빡샷</div>
-          <div class="rom-big">eol-ppak-syat</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="얼굴 (face) + 빡 (tightly) + shot: a selfie where the face fills the whole frame." data-es="얼굴 (cara) + 빡 (apretado) + shot: una selfie donde la cara llena todo el encuadre." data-zh="얼굴（臉）＋빡（塞滿）＋shot：臉塞滿整個畫面的自拍。" data-cn="얼굴（脸）＋빡（塞满）＋shot：脸塞满整个画面的自拍。" data-ja="얼굴（顔）＋빡（ぎっしり）＋ショット。顔が画面いっぱいの自撮り。">얼굴 (face) + 빡 (tightly) + shot: a selfie where the face fills the whole frame.</p>
-      </a>
-      <a class="new-card" href="word/jon-ye.html">
-        <div class="new-card-top">
-          <div class="kr-big">존예</div>
-          <div class="rom-big">jon-ye</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="존 (a crude intensifier) + 예쁘다 (pretty): insanely pretty." data-es="존 (intensificador vulgar) + 예쁘다 (bonita): bellísima." data-zh="존（粗俗強調詞）＋예쁘다（漂亮）：超級漂亮。" data-cn="존（粗俗强调词）＋예쁘다（漂亮）：超级漂亮。" data-ja="존（下品な強調語）＋예쁘다（きれい）。めちゃくちゃきれい。">존 (a crude intensifier) + 예쁘다 (pretty): insanely pretty.</p>
-      </a>
-      <a class="new-card" href="word/jon-jal.html">
-        <div class="new-card-top">
-          <div class="kr-big">존잘</div>
-          <div class="rom-big">jon-jal</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="존 (a crude intensifier) + 잘생기다 (handsome): insanely good-looking. Also &quot;super skilled&quot; (잘하다)." data-es="존 (intensificador vulgar) + 잘생기다 (guapo): guapísimo. También &quot;súper hábil&quot; (잘하다)." data-zh="존（粗俗強調詞）＋잘생기다（帥）：超級帥。也可指超會（잘하다）。" data-cn="존（粗俗强调词）＋잘생기다（帅）：超级帅。也可指超会（잘하다）。" data-ja="존（下品な強調語）＋잘생기다（かっこいい）。超イケメン。잘하다（上手い）の意味でも。">존 (a crude intensifier) + 잘생기다 (handsome): insanely good-looking. Also &quot;super skilled&quot; (잘하다).</p>
-      </a>
-      <a class="new-card" href="word/tting-gok.html">
-        <div class="new-card-top">
-          <div class="kr-big">띵곡</div>
-          <div class="rom-big">tting-gok</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="명곡 (masterpiece song) respelled — 명 looks like 띵 — a great song, a banger." data-es="명곡 (canción maestra) reescrito, porque 명 se parece a 띵: una gran canción." data-zh="명곡（名曲）的變形寫法——명長得像띵：神曲。" data-cn="명곡（名曲）的变形写法——명长得像띵：神曲。" data-ja="명곡（名曲）の変形。명が띵に見えることから。神曲。">명곡 (masterpiece song) respelled — 명 looks like 띵 — a great song, a banger.</p>
-      </a>
-      <a class="new-card" href="word/tting-eon.html">
-        <div class="new-card-top">
-          <div class="kr-big">띵언</div>
-          <div class="rom-big">tting-eon</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="명언 (wise saying) respelled — a memorable, wise or funny quote." data-es="명언 (frase célebre) reescrito: una cita memorable, sabia o graciosa." data-zh="명언（名言）的變形寫法：令人印象深刻、有智慧或好笑的話。" data-cn="명언（名言）的变形写法：令人印象深刻、有智能或好笑的话。" data-ja="명언（名言）の変形。印象的で、ためになる、または笑える言葉。">명언 (wise saying) respelled — a memorable, wise or funny quote.</p>
-      </a>
-      <a class="new-card" href="word/jjeon-da.html">
-        <div class="new-card-top">
-          <div class="kr-big">쩐다</div>
-          <div class="rom-big">jjeon-da</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Slang for &quot;amazing, awesome&quot; — from 쩔다. Also 쩔어." data-es="Jerga para &quot;increíble, genial&quot;, de 쩔다. También 쩔어." data-zh="表示「超讚、超強」的俚語，來自쩔다。也說쩔어。" data-cn="表示“超赞、超强”的俚语，来自쩔다。也说쩔어。" data-ja="「すごい、最高」のスラング。쩔다から。쩔어とも。">Slang for &quot;amazing, awesome&quot; — from 쩔다. Also 쩔어.</p>
-      </a>
-      <a class="new-card" href="word/jol-gwi.html">
-        <div class="new-card-top">
-          <div class="kr-big">졸귀</div>
-          <div class="rom-big">jol-gwi</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="졸라 (a crude intensifier) + 귀엽다 (cute): insanely cute." data-es="졸라 (intensificador vulgar) + 귀엽다 (lindo): tiernísimo." data-zh="졸라（粗俗強調詞）＋귀엽다（可愛）：超級可愛。" data-cn="졸라（粗俗强调词）＋귀엽다（可爱）：超级可爱。" data-ja="졸라（下品な強調語）＋귀엽다（かわいい）。めちゃくちゃかわいい。">졸라 (a crude intensifier) + 귀엽다 (cute): insanely cute.</p>
-      </a>
-      <a class="new-card" href="word/yeol-pok.html">
-        <div class="new-card-top">
-          <div class="kr-big">열폭</div>
-          <div class="rom-big">yeol-pok</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 열등감 폭발 — &quot;inferiority complex explosion&quot;: lashing out because you feel inferior or jealous." data-es="Abreviatura de 열등감 폭발: &quot;explosión de complejo de inferioridad&quot;, reaccionar mal por envidia o inseguridad." data-zh="열등감 폭발（自卑感爆發）的縮寫：因為自卑或嫉妒而爆氣。" data-cn="열등감 폭발（自卑感爆发）的缩写：因为自卑或嫉妒而爆气。" data-ja="열등감 폭발（劣等感爆発）の略。劣等感や嫉妬から攻撃的になること。">Short for 열등감 폭발 — &quot;inferiority complex explosion&quot;: lashing out because you feel inferior or jealous.</p>
-      </a>
-      <a class="new-card" href="word/men-bung.html">
-        <div class="new-card-top">
-          <div class="kr-big">멘붕</div>
-          <div class="rom-big">men-bung</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 멘탈 붕괴 — &quot;mental collapse&quot;: totally losing it from shock or stress." data-es="Abreviatura de 멘탈 붕괴: &quot;colapso mental&quot;, perder la cabeza por un shock o estrés." data-zh="멘탈 붕괴（心態崩潰）的縮寫：因震驚或壓力完全崩潰。" data-cn="멘탈 붕괴（心态崩溃）的缩写：因震惊或压力完全崩溃。" data-ja="멘탈 붕괴（メンタル崩壊）の略。ショックやストレスで頭が真っ白になること。">Short for 멘탈 붕괴 — &quot;mental collapse&quot;: totally losing it from shock or stress.</p>
-      </a>
-      <a class="new-card" href="word/ji-rin-da.html">
-        <div class="new-card-top">
-          <div class="kr-big">지린다</div>
-          <div class="rom-big">ji-rin-da</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Literally &quot;to wet yourself&quot; — teen slang for something so amazing it&#x27;s overwhelming." data-es="Literalmente &quot;orinarse encima&quot;: jerga adolescente para algo tan increíble que abruma." data-zh="字面是「尿出來」——青少年俚語，形容厲害到受不了。" data-cn="字面是“尿出来”——青少年俚语，形容厉害到受不了。" data-ja="直訳は「漏らす」。すごすぎて圧倒されることを表す10代のスラング。">Literally &quot;to wet yourself&quot; — teen slang for something so amazing it&#x27;s overwhelming.</p>
-      </a>
-      <a class="new-card" href="word/ga-bo-ja-go.html">
-        <div class="new-card-top">
-          <div class="kr-big">가보자고</div>
-          <div class="rom-big">ga-bo-ja-go</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Let&#x27;s go!&quot; — a hyped-up rallying cry before doing something." data-es="&quot;¡Vamos!&quot;: un grito de ánimo antes de hacer algo." data-zh="「衝吧！」——做事前的打氣口號。" data-cn="“冲吧！”——做事前的打气口号。" data-ja="「行こう！」。何かを始める前の気合いの掛け声。">&quot;Let&#x27;s go!&quot; — a hyped-up rallying cry before doing something.</p>
-      </a>
-      <a class="new-card" href="word/jeom-me-chu.html">
-        <div class="new-card-top">
-          <div class="kr-big">점메추</div>
-          <div class="rom-big">jeom-me-chu</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 점심 메뉴 추천 — &quot;lunch menu recommendation.&quot; The dinner version is 저메추." data-es="Abreviatura de 점심 메뉴 추천: &quot;recomendación de menú para el almuerzo&quot;. La versión de la cena es 저메추." data-zh="점심 메뉴 추천（午餐推薦）的縮寫。晚餐版是저메추。" data-cn="점심 메뉴 추천（午餐推荐）的缩写。晚餐版是저메추。" data-ja="점심 메뉴 추천（昼ごはんのおすすめ）の略。夕食版は저메추。">Short for 점심 메뉴 추천 — &quot;lunch menu recommendation.&quot; The dinner version is 저메추.</p>
-      </a>
-      <a class="new-card" href="word/hal-man-ha-an.html">
-        <div class="new-card-top">
-          <div class="kr-big">할많하않</div>
-          <div class="rom-big">hal-man-ha-an</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 할 말은 많지만 하지 않겠다 — &quot;I have a lot to say, but I&#x27;ll hold back.&quot;" data-es="Abreviatura de 할 말은 많지만 하지 않겠다: &quot;tengo mucho que decir, pero me lo callo&quot;." data-zh="할 말은 많지만 하지 않겠다（想說的很多但我不說）的縮寫。" data-cn="할 말은 많지만 하지 않겠다（想说的很多但我不说）的缩写。" data-ja="할 말은 많지만 하지 않겠다（言いたいことは多いけど言わない）の略。">Short for 할 말은 많지만 하지 않겠다 — &quot;I have a lot to say, but I&#x27;ll hold back.&quot;</p>
-      </a>
-      <a class="new-card" href="word/ssap-ga-neung.html">
-        <div class="new-card-top">
-          <div class="kr-big">쌉가능</div>
-          <div class="rom-big">ssap-ga-neung</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="쌉 (a crude intensifier, &quot;totally&quot;) + 가능 (possible): &quot;absolutely doable.&quot;" data-es="쌉 (intensificador vulgar, &quot;totalmente&quot;) + 가능 (posible): &quot;totalmente posible&quot;." data-zh="쌉（粗俗強調詞，「完全」）＋가능（可能）：「完全可以」。" data-cn="쌉（粗俗强调词，“完全”）＋가능（可能）：“完全可以”。" data-ja="쌉（下品な強調語、「完全に」）＋가능（可能）。「余裕でできる」。">쌉 (a crude intensifier, &quot;totally&quot;) + 가능 (possible): &quot;absolutely doable.&quot;</p>
-      </a>
-      <a class="new-card" href="word/ssap-in-jeong.html">
-        <div class="new-card-top">
-          <div class="kr-big">쌉인정</div>
-          <div class="rom-big">ssap-in-jeong</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="쌉 (&quot;totally&quot;) + 인정 (agreed): &quot;100% agree.&quot;" data-es="쌉 (&quot;totalmente&quot;) + 인정 (de acuerdo): &quot;100 % de acuerdo&quot;." data-zh="쌉（完全）＋인정（認同）：「百分百認同」。" data-cn="쌉（完全）＋인정（认同）：“百分百认同”。" data-ja="쌉（完全に）＋인정（認める）。「100%同意」。">쌉 (&quot;totally&quot;) + 인정 (agreed): &quot;100% agree.&quot;</p>
-      </a>
-      <a class="new-card" href="word/king-jeong.html">
-        <div class="new-card-top">
-          <div class="kr-big">킹정</div>
-          <div class="rom-big">king-jeong</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="King + 인정 (agreed): &quot;absolutely agree.&quot;" data-es="King + 인정 (de acuerdo): &quot;absolutamente de acuerdo&quot;." data-zh="King＋인정（認同）：「超級認同」。" data-cn="King＋인정（认同）：“超级认同”。" data-ja="King＋인정（認める）。「完全同意」。">King + 인정 (agreed): &quot;absolutely agree.&quot;</p>
-      </a>
-      <a class="new-card" href="word/eom-geun-jin.html">
-        <div class="new-card-top">
-          <div class="kr-big">엄근진</div>
-          <div class="rom-big">eom-geun-jin</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 엄격·근엄·진지 — &quot;strict, solemn, serious&quot;: being way too serious." data-es="Abreviatura de 엄격·근엄·진지: &quot;estricto, solemne, serio&quot;, ser demasiado serio." data-zh="엄격・근엄・진지（嚴格、莊重、認真）的縮寫：過度認真。" data-cn="엄격・근엄・진지（严格、庄重、认真）的缩写：过度认真。" data-ja="엄격・근엄・진지（厳格・謹厳・真剣）の略。真面目すぎること。">Short for 엄격·근엄·진지 — &quot;strict, solemn, serious&quot;: being way too serious.</p>
-      </a>
-      <a class="new-card" href="word/man-gwan-bu.html">
-        <div class="new-card-top">
-          <div class="kr-big">많관부</div>
-          <div class="rom-big">man-gwan-bu</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 많은 관심 부탁드립니다 — &quot;please give it lots of love/attention.&quot;" data-es="Abreviatura de 많은 관심 부탁드립니다: &quot;por favor, denle mucho cariño y atención&quot;." data-zh="많은 관심 부탁드립니다（請多多關注）的縮寫。" data-cn="많은 관심 부탁드립니다（请多多关注）的缩写。" data-ja="많은 관심 부탁드립니다（たくさんの関心をお願いします）の略。">Short for 많은 관심 부탁드립니다 — &quot;please give it lots of love/attention.&quot;</p>
-      </a>
-      <a class="new-card" href="word/gwan-jong.html">
-        <div class="new-card-top">
-          <div class="kr-big">관종</div>
-          <div class="rom-big">gwan-jong</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 관심종자 — someone who craves attention." data-es="Abreviatura de 관심종자: alguien que busca atención todo el tiempo." data-zh="관심종자（求關注的人）的縮寫：渴望被注意的人。" data-cn="관심종자（求关注的人）的缩写：渴望被注意的人。" data-ja="관심종자（かまってちゃん）の略。注目を浴びたがる人。">Short for 관심종자 — someone who craves attention.</p>
-      </a>
-      <a class="new-card" href="word/yu-ri-men-tal.html">
-        <div class="new-card-top">
-          <div class="kr-big">유리멘탈</div>
-          <div class="rom-big">yu-ri-men-tal</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Glass mentality&quot; — easily hurt or shaken. The opposite is 강철멘탈 (steel mental) or 멘탈갑." data-es="&quot;Mentalidad de cristal&quot;: que se lastima o se altera fácilmente. Lo contrario es 강철멘탈 (mente de acero) o 멘탈갑." data-zh="「玻璃心」：很容易受傷或動搖。反義是강철멘탈（鋼鐵心）或멘탈갑。" data-cn="“玻璃心”：很容易受伤或动摇。反义是강철멘탈（钢铁心）或멘탈갑。" data-ja="「ガラスのメンタル」。傷つきやすい、揺らぎやすい。反対は강철멘탈（鋼のメンタル）や멘탈갑。">&quot;Glass mentality&quot; — easily hurt or shaken. The opposite is 강철멘탈 (steel mental) or 멘탈갑.</p>
-      </a>
-      <a class="new-card" href="word/men-tal-gap.html">
-        <div class="new-card-top">
-          <div class="kr-big">멘탈갑</div>
-          <div class="rom-big">men-tal-gap</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="멘탈 + 甲 (top): someone with an incredibly strong mindset." data-es="멘탈 + 甲 (lo mejor): alguien con una mentalidad increíblemente fuerte." data-zh="멘탈＋甲（第一）：心態超級強大的人。" data-cn="멘탈＋甲（第一）：心态超级强大的人。" data-ja="멘탈＋甲（最強）。メンタルがとても強い人。">멘탈 + 甲 (top): someone with an incredibly strong mindset.</p>
-      </a>
-      <a class="new-card" href="word/ssip-deok.html">
-        <div class="new-card-top">
-          <div class="kr-big">씹덕</div>
-          <div class="rom-big">ssip-deok</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="A crude, often mocking word for a hardcore otaku — especially anime and game fans. 씹 is a vulgar prefix." data-es="Una palabra vulgar y a menudo burlona para un otaku extremo, sobre todo de anime y videojuegos. 씹 es un prefijo vulgar." data-zh="粗俗、常帶嘲諷的說法，指重度御宅（尤其是動漫和遊戲宅）。씹是粗俗前綴。" data-cn="粗俗、常带嘲讽的说法，指重度御宅（尤其是动漫和游戏宅）。씹是粗俗前缀。" data-ja="重度のオタク（特にアニメ・ゲーム好き）を指す下品でからかう言葉。씹は下品な接頭辞。">A crude, often mocking word for a hardcore otaku — especially anime and game fans. 씹 is a vulgar prefix.</p>
-      </a>
-      <a class="new-card" href="word/neo-t-ya.html">
-        <div class="new-card-top">
-          <div class="kr-big">너T야</div>
-          <div class="rom-big">neo-t-ya</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Are you a T?&quot; — teasing someone for replying logically when you wanted sympathy (T = Thinking in MBTI)." data-es="&quot;¿Eres T?&quot;: burlarse de alguien por responder con lógica cuando querías empatía (T = Thinking en el MBTI)." data-zh="「你是T嗎？」——調侃別人在你想要安慰時卻用邏輯回應（T＝MBTI的思考型）。" data-cn="“你是T吗？”——调侃别人在你想要安慰时却用逻辑回应（T＝MBTI的思考型）。" data-ja="「T なの？」。共感してほしいのに論理で返す人をからかう言葉（T＝MBTIの思考型）。">&quot;Are you a T?&quot; — teasing someone for replying logically when you wanted sympathy (T = Thinking in MBTI).</p>
-      </a>
-      <a class="new-card" href="word/di-to.html">
-        <div class="new-card-top">
-          <div class="kr-big">디토</div>
-          <div class="rom-big">di-to</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="From English &quot;ditto&quot; — &quot;same here, me too.&quot;" data-es="Del inglés &quot;ditto&quot;: &quot;igual, yo también&quot;." data-zh="來自英文「ditto」：「我也是、同上」。" data-cn="来自英文“ditto”：“我也是、同上”。" data-ja="英語の「ditto」から。「同じく、私も」。">From English &quot;ditto&quot; — &quot;same here, me too.&quot;</p>
-      </a>
-      <a class="new-card" href="word/mu-ya-ho.html">
-        <div class="new-card-top">
-          <div class="kr-big">무야호</div>
-          <div class="rom-big">mu-ya-ho</div>
-          <span class="cat-pill">방송 · 예능 · Broadcast &amp; Variety</span>
-        </div>
-        <p class="def" data-en="A joyful shout of celebration — &quot;woohoo!&quot; — from a beloved variety-show clip." data-es="Un grito de celebración, &quot;¡yuju!&quot;, de un querido clip de un programa de variedades." data-zh="開心的歡呼——「呦呼！」——來自一段經典綜藝片段。" data-cn="开心的欢呼——“呦呼！”——来自一段经典综艺片段。" data-ja="喜びの叫び「ヤッホー！」。愛されたバラエティのワンシーンから。">A joyful shout of celebration — &quot;woohoo!&quot; — from a beloved variety-show clip.</p>
-      </a>
-      <a class="new-card" href="word/king-gat-je-neo-reol.html">
-        <div class="new-card-top">
-          <div class="kr-big">킹갓제너럴</div>
-          <div class="rom-big">king-gat-je-neo-reol</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="King + god + general — stacking titles to call something the absolute best." data-es="King + god + general: acumulando títulos para decir que algo es lo mejor de lo mejor." data-zh="King＋god＋general：疊加稱號表示最強中的最強。" data-cn="King＋god＋general：叠加称号表示最强中的最强。" data-ja="King＋god＋general。称号を重ねて「最強中の最強」と言う。">King + god + general — stacking titles to call something the absolute best.</p>
-      </a>
-      <a class="new-card" href="word/kul-geo-rae.html">
-        <div class="new-card-top">
-          <div class="kr-big">쿨거래</div>
-          <div class="rom-big">kul-geo-rae</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Cool deal&quot; — a quick, no-haggling second-hand trade." data-es="&quot;Trato cool&quot;: una compraventa de segunda mano rápida y sin regateo." data-zh="「爽快交易」：不殺價、快速完成的二手交易。" data-cn="“爽快交易”：不杀价、快速完成的二手交易。" data-ja="「クール取引」。値切りなしでさっと済む中古取引。">&quot;Cool deal&quot; — a quick, no-haggling second-hand trade.</p>
-      </a>
-      <a class="new-card" href="word/dang-geun-ha-da.html">
-        <div class="new-card-top">
-          <div class="kr-big">당근하다</div>
-          <div class="rom-big">dang-geun-ha-da</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="To buy or sell second-hand items on 당근마켓 (Karrot), a popular local marketplace app." data-es="Comprar o vender artículos de segunda mano en 당근마켓 (Karrot), una app de mercado local muy popular." data-zh="在당근마켓（紅蘿蔔市場）這個熱門在地二手App買賣東西。" data-cn="在당근마켓（红萝卜市场）这个热门在地二手App买卖东西。" data-ja="人気の地域フリマアプリ당근마켓（にんじんマーケット）で中古品を売り買いすること。">To buy or sell second-hand items on 당근마켓 (Karrot), a popular local marketplace app.</p>
-      </a>
-      <a class="new-card" href="word/kkon-dae.html">
-        <div class="new-card-top">
-          <div class="kr-big">꼰대</div>
-          <div class="rom-big">kkon-dae</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Someone (often older or a boss) who lectures and forces outdated views on younger people." data-es="Alguien (a menudo mayor o un jefe) que sermonea e impone ideas anticuadas a los más jóvenes." data-zh="老頑固、說教魔：常是長輩或上司，愛說教、把過時觀念強加給年輕人。" data-cn="老顽固、说教魔：常是长辈或上司，爱说教、把过时观念强加给年轻人。" data-ja="古い考えを押しつけて説教する人（年上や上司が多い）。">Someone (often older or a boss) who lectures and forces outdated views on younger people.</p>
-      </a>
-      <a class="new-card" href="word/ra-tte-neun-ma-ri-ya.html">
-        <div class="new-card-top">
-          <div class="kr-big">라떼는말이야</div>
-          <div class="rom-big">ra-tte-neun-ma-ri-ya</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="A pun on 나 때는 말이야 (&quot;back in my day&quot;) with 나 때 → latte — mocking 꼰대 lectures." data-es="Juego de palabras con 나 때는 말이야 (&quot;en mis tiempos&quot;), donde 나 때 suena como latte; se burla de los sermones de los 꼰대." data-zh="諧音나 때는 말이야（想當年我……），나 때聽起來像latte——嘲諷꼰대式說教。" data-cn="谐音나 때는 말이야（想当年我……），나 때听起来像latte——嘲讽꼰대式说教。" data-ja="나 때는 말이야（俺の時代はな）の나 때をラテにかけたダジャレ。꼰대の説教を茶化す。">A pun on 나 때는 말이야 (&quot;back in my day&quot;) with 나 때 → latte — mocking 꼰대 lectures.</p>
-      </a>
-      <a class="new-card" href="word/tang-jin-jaem.html">
-        <div class="new-card-top">
-          <div class="kr-big">탕진잼</div>
-          <div class="rom-big">tang-jin-jaem</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="蕩盡 (spending it all) + 잼 (fun): the small joy of splurging cash on little things." data-es="蕩盡 (gastarlo todo) + 잼 (diversión): la pequeña alegría de gastar dinero en cositas." data-zh="蕩盡（花光）＋잼（有趣）：把錢花在小東西上的小確幸。" data-cn="荡尽（花光）＋잼（有趣）：把钱花在小东西上的小确幸。" data-ja="蕩尽（使い果たす）＋잼（楽しさ）。小さなものにお金を使い切る楽しさ。">蕩盡 (spending it all) + 잼 (fun): the small joy of splurging cash on little things.</p>
-      </a>
-      <a class="new-card" href="word/yeong-kkeul.html">
-        <div class="new-card-top">
-          <div class="kr-big">영끌</div>
-          <div class="rom-big">yeong-kkeul</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 영혼까지 끌어모으다 — &quot;scraping together even your soul&quot;: using every last bit of money or effort." data-es="Abreviatura de 영혼까지 끌어모으다: &quot;juntar hasta el alma&quot;, usar hasta el último centavo o esfuerzo." data-zh="영혼까지 끌어모으다（連靈魂都湊上）的縮寫：用盡所有錢或力氣。" data-cn="영혼까지 끌어모으다（连灵魂都凑上）的缩写：用尽所有钱或力气。" data-ja="영혼까지 끌어모으다（魂までかき集める）の略。お金や力を最後の一滴まで使うこと。">Short for 영혼까지 끌어모으다 — &quot;scraping together even your soul&quot;: using every last bit of money or effort.</p>
-      </a>
-      <a class="new-card" href="word/dong-hak-gae-mi.html">
-        <div class="new-card-top">
-          <div class="kr-big">동학개미</div>
-          <div class="rom-big">dong-hak-gae-mi</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Donghak ants&quot; — the wave of Korean retail investors who poured into domestic stocks in 2020." data-es="&quot;Hormigas Donghak&quot;: la ola de pequeños inversores coreanos que entraron en masa a las acciones locales en 2020." data-zh="「東學螞蟻」：2020年大舉湧入韓國股市的散戶。" data-cn="“东学蚂蚁”：2020年大举涌入韩国股市的散户。" data-ja="「東学アリ」。2020年に国内株に大量流入した韓国の個人投資家たち。">&quot;Donghak ants&quot; — the wave of Korean retail investors who poured into domestic stocks in 2020.</p>
-      </a>
-      <a class="new-card" href="word/toe-sa-gak.html">
-        <div class="new-card-top">
-          <div class="kr-big">퇴사각</div>
-          <div class="rom-big">toe-sa-gak</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="퇴사 (quitting a job) + 각 (&quot;it&#x27;s looking like&quot;): signs you&#x27;re about to quit." data-es="퇴사 (renunciar) + 각 (&quot;tiene pinta de&quot;): señales de que estás a punto de renunciar." data-zh="퇴사（離職）＋각（「看起來會…」）：快要離職的跡象。" data-cn="퇴사（离职）＋각（“看起来会…”）：快要离职的迹象。" data-ja="퇴사（退職）＋각（〜しそうな流れ）。もうすぐ辞めそうなサイン。">퇴사 (quitting a job) + 각 (&quot;it&#x27;s looking like&quot;): signs you&#x27;re about to quit.</p>
-      </a>
-      <a class="new-card" href="word/byeong-mat.html">
-        <div class="new-card-top">
-          <div class="kr-big">병맛</div>
-          <div class="rom-big">byeong-mat</div>
-          <span class="cat-pill">방송 · 예능 · Broadcast &amp; Variety</span>
-        </div>
-        <p class="def" data-en="병신 (a slur) + 맛 (taste): deliberately absurd, nonsensical humor — weird in a funny way. The root word is offensive." data-es="병신 (un insulto) + 맛 (sabor): humor deliberadamente absurdo y sin sentido, raro pero gracioso. La raíz es ofensiva." data-zh="병신（侮辱性字眼）＋맛（味道）：故意荒謬、無厘頭的搞笑風格。字根有冒犯性。" data-cn="병신（侮辱性字眼）＋맛（味道）：故意荒谬、无厘头的搞笑风格。字根有冒犯性。" data-ja="병신（侮辱語）＋맛（味）。わざとシュールでナンセンスな笑い。語源の言葉は差別的。">병신 (a slur) + 맛 (taste): deliberately absurd, nonsensical humor — weird in a funny way. The root word is offensive.</p>
-      </a>
-      <a class="new-card" href="word/haek-no-jaem.html">
-        <div class="new-card-top">
-          <div class="kr-big">핵노잼</div>
-          <div class="rom-big">haek-no-jaem</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="핵 (nuclear, &quot;mega&quot;) + 노잼 (no fun): extremely boring." data-es="핵 (nuclear, &quot;mega&quot;) + 노잼 (sin gracia): aburridísimo." data-zh="핵（核，超級）＋노잼（無聊）：超級無聊。" data-cn="핵（核，超级）＋노잼（无聊）：超级无聊。" data-ja="핵（核＝超）＋노잼（つまらない）。超つまらない。">핵 (nuclear, &quot;mega&quot;) + 노잼 (no fun): extremely boring.</p>
-      </a>
-      <a class="new-card" href="word/kkul-tip.html">
-        <div class="new-card-top">
-          <div class="kr-big">꿀팁</div>
-          <div class="rom-big">kkul-tip</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Honey tip&quot; — a really useful tip or life hack." data-es="&quot;Tip de miel&quot;: un consejo o truco realmente útil." data-zh="「蜂蜜小撇步」：超實用的技巧或生活妙招。" data-cn="“蜂蜜小撇步”：超实用的技巧或生活妙招。" data-ja="「ハチミツの豆知識」。とても役立つコツ、ライフハック。">&quot;Honey tip&quot; — a really useful tip or life hack.</p>
-      </a>
-      <a class="new-card" href="word/ban-mo.html">
-        <div class="new-card-top">
-          <div class="kr-big">반모</div>
-          <div class="rom-big">ban-mo</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Short for 반말 모드 — agreeing to drop polite speech and talk casually." data-es="Abreviatura de 반말 모드: acordar dejar el habla formal y hablar de tú." data-zh="반말 모드（半語模式）的縮寫：約好不用敬語、改用平語聊天。" data-cn="반말 모드（半语模式）的缩写：约好不用敬语、改用平语聊天。" data-ja="반말 모드（タメ口モード）の略。敬語をやめてタメ口で話そうと決めること。">Short for 반말 모드 — agreeing to drop polite speech and talk casually.</p>
-      </a>
-      <a class="new-card" href="word/geum-sa-ppa.html">
-        <div class="new-card-top">
-          <div class="kr-big">금사빠</div>
-          <div class="rom-big">geum-sa-ppa</div>
-          <span class="cat-pill">연애 · 썸 표현 · Dating &amp; Romance</span>
-        </div>
-        <p class="def" data-en="Short for 금방 사랑에 빠지는 사람 — someone who falls in love super easily." data-es="Abreviatura de 금방 사랑에 빠지는 사람: alguien que se enamora con mucha facilidad." data-zh="금방 사랑에 빠지는 사람（很快就墜入愛河的人）的縮寫：超容易動心的人。" data-cn="금방 사랑에 빠지는 사람（很快就坠入爱河的人）的缩写：超容易动心的人。" data-ja="금방 사랑에 빠지는 사람（すぐ恋に落ちる人）の略。惚れっぽい人。">Short for 금방 사랑에 빠지는 사람 — someone who falls in love super easily.</p>
-      </a>
-      <a class="new-card" href="word/ij.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅇㅈ</div>
-          <div class="rom-big">ij</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 인정 (&quot;agreed&quot;): &quot;true,&quot; &quot;valid,&quot; &quot;facts.&quot;" data-es="Consonantes iniciales de 인정 (&quot;de acuerdo&quot;): &quot;cierto&quot;, &quot;válido&quot;." data-zh="인정（認同）的初聲縮寫：「對」「認同」「說得好」。" data-cn="인정（认同）的初声缩写：“对”“认同”“说得好”。" data-ja="인정（認める）の初声。「それな」「わかる」。">Initial consonants of 인정 (&quot;agreed&quot;): &quot;true,&quot; &quot;valid,&quot; &quot;facts.&quot;</p>
-      </a>
-      <a class="new-card" href="word/ok.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅇㅋ</div>
-          <div class="rom-big">ok</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 오케이 (&quot;okay&quot;)." data-es="Consonantes iniciales de 오케이 (&quot;okey&quot;)." data-zh="오케이（OK）的初聲縮寫。" data-cn="오케이（OK）的初声缩写。" data-ja="오케이（オーケー）の初声。">Initial consonants of 오케이 (&quot;okay&quot;).</p>
-      </a>
-      <a class="new-card" href="word/gs.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㄱㅅ</div>
-          <div class="rom-big">gs</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 감사 (&quot;thanks&quot;)." data-es="Consonantes iniciales de 감사 (&quot;gracias&quot;)." data-zh="감사（謝謝）的初聲縮寫。" data-cn="감사（谢谢）的初声缩写。" data-ja="감사（ありがとう）の初声。">Initial consonants of 감사 (&quot;thanks&quot;).</p>
-      </a>
-      <a class="new-card" href="word/js.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅈㅅ</div>
-          <div class="rom-big">js</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 죄송 (&quot;sorry&quot;)." data-es="Consonantes iniciales de 죄송 (&quot;perdón&quot;)." data-zh="죄송（抱歉）的初聲縮寫。" data-cn="죄송（抱歉）的初声缩写。" data-ja="죄송（すみません）の初声。">Initial consonants of 죄송 (&quot;sorry&quot;).</p>
-      </a>
-      <a class="new-card" href="word/chk.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅊㅋ</div>
-          <div class="rom-big">chk</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 축하 (&quot;congrats&quot;)." data-es="Consonantes iniciales de 축하 (&quot;felicidades&quot;)." data-zh="축하（恭喜）的初聲縮寫。" data-cn="축하（恭喜）的初声缩写。" data-ja="축하（おめでとう）の初声。">Initial consonants of 축하 (&quot;congrats&quot;).</p>
-      </a>
-      <a class="new-card" href="word/yu-yu.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅠㅠ</div>
-          <div class="rom-big">yu-yu</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Two ㅠ vowels that look like crying eyes with tears — sad, touched, or overwhelmed." data-es="Dos vocales ㅠ que parecen ojos llorando: triste, conmovido o abrumado." data-zh="兩個ㅠ看起來像流淚的眼睛——難過、感動或情緒滿溢。" data-cn="两个ㅠ看起来像流泪的眼睛——难过、感动或情绪满溢。" data-ja="ㅠを2つ並べると涙を流す目に見える。悲しい、感動した、気持ちがあふれる。">Two ㅠ vowels that look like crying eyes with tears — sad, touched, or overwhelmed.</p>
-      </a>
-      <a class="new-card" href="word/gid.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㄱㅇㄷ</div>
-          <div class="rom-big">gid</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 개이득 (&quot;huge win&quot;)." data-es="Consonantes iniciales de 개이득 (&quot;gran ganancia&quot;)." data-zh="개이득（大賺）的初聲縮寫。" data-cn="개이득（大赚）的初声缩写。" data-ja="개이득（超お得）の初声。">Initial consonants of 개이득 (&quot;huge win&quot;).</p>
-      </a>
-      <a class="new-card" href="word/ssi-bal.html">
-        <div class="new-card-top">
-          <div class="kr-big">씨발</div>
-          <div class="rom-big">ssi-bal</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="One of the strongest Korean swear words — like &quot;f*ck&quot; — used for anger, frustration or shock." data-es="Una de las groserías más fuertes del coreano, como &quot;j*der&quot; o &quot;ch*ngada&quot;, para enojo, frustración o sorpresa." data-zh="韓語最重的髒話之一——類似「幹」——用來表達憤怒、挫折或震驚。" data-cn="韩语最重的脏话之一——类似“干”——用来表达愤怒、挫折或震惊。" data-ja="韓国語で最も強い罵り言葉の一つ。英語の「f*ck」に近く、怒りや苛立ち、驚きを表す。">One of the strongest Korean swear words — like &quot;f*ck&quot; — used for anger, frustration or shock.</p>
-      </a>
-      <a class="new-card" href="word/sb.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅅㅂ</div>
-          <div class="rom-big">sb</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 씨발/시발 — the typed, slightly censored form of the swear word." data-es="Consonantes iniciales de 씨발/시발: la forma escrita y algo censurada de la grosería." data-zh="씨발／시발的初聲縮寫——打字時稍微避諱的髒話寫法。" data-cn="씨발／시발的初声缩写——打字时稍微避讳的脏话写法。" data-ja="씨발／시발の初声。少し伏せた、文字での罵り言葉。">Initial consonants of 씨발/시발 — the typed, slightly censored form of the swear word.</p>
-      </a>
-      <a class="new-card" href="word/jon-na.html">
-        <div class="new-card-top">
-          <div class="kr-big">존나</div>
-          <div class="rom-big">jon-na</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="A crude intensifier — &quot;f*cking,&quot; &quot;super&quot; — that goes in front of almost anything." data-es="Un intensificador vulgar, como &quot;súper&quot; o &quot;bien&quot; en sentido grosero, que va delante de casi todo." data-zh="粗俗的強調詞——類似「超他媽」——幾乎可以放在任何字前面。" data-cn="粗俗的强调词——类似“超他妈”——几乎可以放在任何字前面。" data-ja="下品な強調語。「クソ〜」「めっちゃ」のように、ほぼ何にでも付く。">A crude intensifier — &quot;f*cking,&quot; &quot;super&quot; — that goes in front of almost anything.</p>
-      </a>
-      <a class="new-card" href="word/jn.html">
-        <div class="new-card-top">
-          <div class="kr-big">ㅈㄴ</div>
-          <div class="rom-big">jn</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Initial consonants of 존나 — the typed form of the intensifier." data-es="Consonantes iniciales de 존나: la forma escrita del intensificador." data-zh="존나的初聲縮寫——打字時的強調詞。" data-cn="존나的初声缩写——打字时的强调词。" data-ja="존나の初声。文字で書く強調語。">Initial consonants of 존나 — the typed form of the intensifier.</p>
-      </a>
-      <a class="new-card" href="word/ji-ral.html">
-        <div class="new-card-top">
-          <div class="kr-big">지랄</div>
-          <div class="rom-big">ji-ral</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="A crude word for ridiculous behavior or nonsense — &quot;bullsh*t,&quot; &quot;throwing a fit.&quot;" data-es="Una palabra vulgar para comportamientos ridículos o tonterías: &quot;pendejadas&quot;, &quot;hacer berrinche&quot;." data-zh="粗俗用語，指荒唐的行為或胡說八道——「放屁」「發神經」。" data-cn="粗俗用语，指荒唐的行为或胡说八道——“放屁”“发神经”。" data-ja="ばかげた言動やたわごとを表す下品な言葉。「ふざけんな」「騒ぎ立てる」。">A crude word for ridiculous behavior or nonsense — &quot;bullsh*t,&quot; &quot;throwing a fit.&quot;</p>
-      </a>
-      <a class="new-card" href="word/mi-chin.html">
-        <div class="new-card-top">
-          <div class="kr-big">미친</div>
-          <div class="rom-big">mi-chin</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Crazy&quot; — as an insult (&quot;you&#x27;re crazy&quot;) or, very often now, as praise: &quot;미친 무대&quot; (&quot;an insane stage&quot;)." data-es="&quot;Loco&quot;: como insulto (&quot;estás loco&quot;) o, muy a menudo hoy, como elogio: &quot;미친 무대&quot; (&quot;una presentación de locos&quot;)." data-zh="「瘋了」——可以是罵人（你瘋了），現在也常當稱讚：「미친 무대」（瘋狂的舞台）。" data-cn="“疯了”——可以是骂人（你疯了），现在也常当称赞：“미친 무대”（疯狂的舞台）。" data-ja="「狂った」。悪口（頭おかしい）にも、今はほめ言葉にもよく使う：「미친 무대」（やばいステージ）。">&quot;Crazy&quot; — as an insult (&quot;you&#x27;re crazy&quot;) or, very often now, as praise: &quot;미친 무대&quot; (&quot;an insane stage&quot;).</p>
-      </a>
-      <a class="new-card" href="word/jen-jang.html">
-        <div class="new-card-top">
-          <div class="kr-big">젠장</div>
-          <div class="rom-big">jen-jang</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Damn it&quot; — a mild, slightly old-fashioned curse of frustration." data-es="&quot;Maldición&quot;: una grosería suave y algo anticuada de frustración." data-zh="「該死」——比較輕微、有點老派的抱怨。" data-cn="“该死”——比较轻微、有点老派的抱怨。" data-ja="「ちくしょう」。軽くて少し古風な悪態。">&quot;Damn it&quot; — a mild, slightly old-fashioned curse of frustration.</p>
-      </a>
-      <a class="new-card" href="word/ppak-chi-da.html">
-        <div class="new-card-top">
-          <div class="kr-big">빡치다</div>
-          <div class="rom-big">ppak-chi-da</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="To get really angry — &quot;pissed off.&quot; Crude but extremely common." data-es="Enojarse mucho, &quot;encabronarse&quot;. Vulgar pero muy común." data-zh="超火大、氣炸。粗俗但超常用。" data-cn="超火大、气炸。粗俗但超常用。" data-ja="めちゃくちゃ腹が立つ、ムカつく。下品だが非常によく使う。">To get really angry — &quot;pissed off.&quot; Crude but extremely common.</p>
-      </a>
-      <a class="new-card" href="word/si-bal-bi-yong.html">
-        <div class="new-card-top">
-          <div class="kr-big">시발비용</div>
-          <div class="rom-big">si-bal-bi-yong</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;F*ck-it money&quot; — money you spend impulsively because you&#x27;re stressed or angry." data-es="&quot;Dinero de a la mierda&quot;: dinero que gastas por impulso porque estás estresado o enojado." data-zh="「去他的消費」——因為壓力大或生氣而衝動花的錢。" data-cn="“去他的消费”——因为压力大或生气而冲动花的钱。" data-ja="「クソ出費」。ストレスや怒りで衝動的に使うお金。">&quot;F*ck-it money&quot; — money you spend impulsively because you&#x27;re stressed or angry.</p>
-      </a>
-      <a class="new-card" href="word/yeom-byeong.html">
-        <div class="new-card-top">
-          <div class="kr-big">염병</div>
-          <div class="rom-big">yeom-byeong</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Literally &quot;plague&quot; (typhoid) — an old-fashioned, dialect-flavored curse for something infuriating or absurd." data-es="Literalmente &quot;peste&quot; (tifoidea): una maldición anticuada, con sabor a dialecto, para algo que enfurece o es absurdo." data-zh="字面是「瘟疫」（傷寒）——老派、帶方言味的咒罵，用於令人火大或荒謬的事。" data-cn="字面是“瘟疫”（伤寒）——老派、带方言味的咒骂，用于令人火大或荒谬的事。" data-ja="直訳は「疫病」（腸チフス）。腹立たしいことやばかげたことに使う、古風で方言っぽい悪態。">Literally &quot;plague&quot; (typhoid) — an old-fashioned, dialect-flavored curse for something infuriating or absurd.</p>
-      </a>
-      <a class="new-card" href="word/won-yeong-jeok-sa-go.html">
-        <div class="new-card-top">
-          <div class="kr-big">원영적사고</div>
-          <div class="rom-big">won-yeong-jeok-sa-go</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Wonyoung-style thinking&quot; — ultra-positive thinking that turns any bad luck into good luck. Named after IVE member Jang Won-young." data-es="&quot;Pensamiento al estilo Wonyoung&quot;: pensamiento ultrapositivo que convierte cualquier mala suerte en buena. Se llama así por Jang Won-young, miembro de IVE." data-zh="「元英式思考」：把任何壞運都轉成好運的超正向思考。名稱來自IVE成員張員瑛。" data-cn="“元英式思考”：把任何坏运都转成好运的超正向思考。名称来自IVE成员张员瑛。" data-ja="「ウォニョン的思考」。どんな不運も幸運に変える超ポジティブ思考。IVEのチャン・ウォニョンにちなむ。">&quot;Wonyoung-style thinking&quot; — ultra-positive thinking that turns any bad luck into good luck. Named after IVE member Jang Won-young.</p>
-      </a>
+    <details class="date-group" open>
+      <summary class="date-head"><span class="date-label">October 14, 2026</span><span class="date-count" data-en="105 new words" data-es="105 palabras nuevas" data-zh="新增 105 個詞" data-cn="新增 105 个词" data-ja="105語を追加">105 new words</span><span class="date-toggle" aria-hidden="true"></span></summary>
+      <div class="cat-filter" role="group" aria-label="Filter by category">
+        <button type="button" class="cat-chip active" data-filter="all" aria-pressed="true" data-en="All 105" data-es="Todas 105" data-zh="全部 105" data-cn="全部 105" data-ja="すべて 105">All 105</button>
+        <button type="button" class="cat-chip" data-filter="idol" aria-pressed="false" data-en="Idol Essentials 21" data-es="Esenciales del ídolo 21" data-zh="偶像必修詞彙 21" data-cn="偶像必修词汇 21" data-ja="アイドル基本用語 21">Idol Essentials 21</button>
+        <button type="button" class="cat-chip" data-filter="fandom" aria-pressed="false" data-en="Fandom Feels 16" data-es="Sentimientos del fandom 16" data-zh="飯圈心情 16" data-cn="饭圈心情 16" data-ja="ファンダムの気持ち 16">Fandom Feels 16</button>
+        <button type="button" class="cat-chip" data-filter="broadcast" aria-pressed="false" data-en="Broadcast &amp; Variety 2" data-es="TV y Variedades 2" data-zh="廣播與綜藝 2" data-cn="广播与综艺 2" data-ja="放送・バラエティ 2">Broadcast &amp; Variety 2</button>
+        <button type="button" class="cat-chip" data-filter="meme" aria-pressed="false" data-en="Online Memes 65" data-es="Memes de internet 65" data-zh="網路迷因 65" data-cn="网络迷因 65" data-ja="ネットミーム 65">Online Memes 65</button>
+        <button type="button" class="cat-chip" data-filter="dating" aria-pressed="false" data-en="Dating &amp; Romance 1" data-es="Citas y romance 1" data-zh="戀愛與曖昧 1" data-cn="恋爱与暧昧 1" data-ja="恋愛表現 1">Dating &amp; Romance 1</button>
       </div>
-    </div>
-    <div class="date-group">
-      <div class="date-label">August 11, 2026</div>
-      <div class="new-grid">
-      <a class="new-card" href="word/a-u-ra-pa-ming.html">
-        <div class="new-card-top">
-          <div class="kr-big">아우라 파밍</div>
-          <div class="rom-big">a-u-ra pa-ming</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Deliberately (or effortlessly) building up your &quot;aura&quot; — cool, main-character energy — through small stylish moments. Borrowed from an English-language TikTok meme and adopted by Korean Gen Z/Alpha." data-es="Cultivar deliberadamente (o sin esfuerzo) tu &quot;aura&quot;: ese factor de genialidad tipo protagonista, a través de pequeños momentos con estilo. Prestado de un meme de TikTok en inglés y adoptado por la Generación Z/Alpha coreana." data-zh="刻意（或毫不費力地）透過幾個有型的瞬間，累積自己的「氣場」——如同主角般的酷感。源自英文圈的TikTok迷因，後來被韓國Z世代／α世代採用。" data-cn="刻意（或毫不费力地）通过几个有型的瞬间，累积自己的「气场」——如同主角般的酷感。源自英文圈的TikTok迷因，后来被韩国Z世代／α世代采用。" data-ja="「オーラ」（かっこよさ、主人公感）を、さりげなく、あるいは意図的に見せつける行為。英語圏のTikTokミームが由来で、韓国のZ世代・α世代に広まった。">Deliberately (or effortlessly) building up your &quot;aura&quot; — cool, main-character energy — through small stylish moments. Borrowed from an English-language TikTok meme and adopted by Korean Gen Z/Alpha.</p>
-      </a>
-      <a class="new-card" href="word/o-sal-him.html">
-        <div class="new-card-top">
-          <div class="kr-big">오살힘</div>
-          <div class="rom-big">o-sal-him</div>
-          <span class="cat-pill">팬덤 표현 · Fandom Feels</span>
-        </div>
-        <p class="def" data-en="Short for &quot;오늘을 살아갈 힘&quot; (&quot;the strength to live through today&quot;) — a fandom term for the emotional boost fans get from seeing content of their bias, extended to anything that gives you a little push to get through the day." data-es="Abreviatura de &quot;오늘을 살아갈 힘&quot; (&quot;la fuerza para vivir hoy&quot;): término de fandom para el impulso emocional que sienten los fans al ver contenido de su bias, extendido a cualquier cosa que te dé un empujoncito para pasar el día." data-zh="「今天活下去的力量」的縮寫——粉絲看到本命的內容後獲得的情緒能量，也可延伸指任何能讓你撐過一天的小小動力。" data-cn="「今天活下去的力量」的缩写——粉丝看到本命的内容后获得的情绪能量，也可延伸指任何能让你撑过一天的小小动力。" data-ja="「오늘을 살아갈 힘（今日を生きる力）」の略——推しのコンテンツを見て得る心のエネルギーを指すファンダム用語。日常で元気をくれる何かにも使える。">Short for &quot;오늘을 살아갈 힘&quot; (&quot;the strength to live through today&quot;) — a fandom term for the emotional boost fans get from seeing content of their bias, extended to anything that gives you a little push to get through the day.</p>
-      </a>
-      <a class="new-card" href="word/bam-ti.html">
-        <div class="new-card-top">
-          <div class="kr-big">밤티</div>
-          <div class="rom-big">bam-ti</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="A mild dig meaning ugly, lame, or outdated — used to teasingly call out a person&#x27;s look, style, or a design choice. Originated from an avatar-customization game where a user named &quot;밤티&quot; got mocked for their avatar; the screenshot went viral." data-es="Una pulla suave que significa feo, poco cool o anticuado, usada para burlarse en broma del look, el estilo o una elección de diseño de alguien. Se originó en un juego de personalización de avatares donde un usuario llamado &quot;밤티&quot; fue objeto de burla por su avatar; la captura se volvió viral." data-zh="帶點調侃意味的詞，意思是醜、俗氣或過時——用來半開玩笑地吐槽某人的造型、風格或設計。源自一款頭像自訂遊戲，一位暱稱「밤티」的使用者因頭像被嘲笑，截圖因此爆紅。" data-cn="带点调侃意味的词，意思是丑、俗气或过时——用来半开玩笑地吐槽某人的造型、风格或设计。源自一款头像自订游戏，一位暱称「밤티」的用户因头像被嘲笑，截屏因此爆红。" data-ja="ブサイク、ダサい、古臭いという意味の軽いディス言葉——誰かの見た目やスタイル、デザインを冗談っぽくいじるときに使う。アバターカスタマイズゲームで「밤티」というユーザーがアバターをからかわれたスクショが元ネタでバズった。">A mild dig meaning ugly, lame, or outdated — used to teasingly call out a person&#x27;s look, style, or a design choice. Originated from an avatar-customization game where a user named &quot;밤티&quot; got mocked for their avatar; the screenshot went viral.</p>
-      </a>
-      <a class="new-card" href="word/ju-meok-ja-ro.html">
-        <div class="new-card-top">
-          <div class="kr-big">주먹자로</div>
-          <div class="rom-big">ju-meok-ja-ro</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="Wordplay twisting the pronunciation of 마운자로 (Mounjaro, the weight-loss injection) into 주먹자로 — a self-deprecating 2026 joke about not being able to afford the drug, so &quot;dieting&quot; by starving instead. Said as an exaggerated joke, not a literal plan." data-es="Juego de palabras que retuerce la pronunciación de 마운자로 (Mounjaro, la inyección para bajar de peso) en 주먹자로: una broma autocrítica de 2026 sobre no poder pagar el medicamento, así que la &quot;dieta&quot; es simplemente pasar hambre. Se dice en tono exagerado, no como plan real." data-zh="把瘦身針劑「Mounjaro（韓文音譯마운자로）」的發音故意唸歪成「주먹자로」的雙關語——2026年初流行的自嘲哏，意思是打不起針，只好用挨餓來「減肥」。是誇張搞笑的說法，不是真的行動指南。" data-cn="把瘦身针剂「Mounjaro（韩文音译마운자로）」的发音故意念歪成「주먹자로」的双关语——2026年初流行的自嘲哏，意思是打不起针，只好用挨饿来「减肥」。是夸张搞笑的说法，不是真的行动指南。" data-ja="痩身注射「マンジャロ（韓国語表記마운자로）」の発音をもじった言葉遊び「주먹자로」——2026年初頭に流行った自虐ネタで、注射代が払えないから飢えて「ダイエット」するという意味。誇張したジョークであって、本当の計画ではない。">Wordplay twisting the pronunciation of 마운자로 (Mounjaro, the weight-loss injection) into 주먹자로 — a self-deprecating 2026 joke about not being able to afford the drug, so &quot;dieting&quot; by starving instead. Said as an exaggerated joke, not a literal plan.</p>
-      </a>
+      <div class="chip-grid">
+        <a class="word-chip" data-cat="idol" href="word/ael-po.html" title="Album photocard"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">앨포</span><span class="chip-rom">ael-po</span></a>
+        <a class="word-chip" data-cat="idol" href="word/mi-gong-po.html" title="Unreleased photocard"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">미공포</span><span class="chip-rom">mi-gong-po</span></a>
+        <a class="word-chip" data-cat="idol" href="word/en-ding-yo-jeong.html" title="Ending fairy"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">엔딩요정</span><span class="chip-rom">en-ding-yo-jeong</span></a>
+        <a class="word-chip" data-cat="idol" href="word/toe-geun-gil.html" title="Leaving-work walk"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">퇴근길</span><span class="chip-rom">toe-geun-gil</span></a>
+        <a class="word-chip" data-cat="idol" href="word/chul-geun-gil.html" title="Arriving-at-work walk"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">출근길</span><span class="chip-rom">chul-geun-gil</span></a>
+        <a class="word-chip" data-cat="idol" href="word/mak-nae-on-tap.html" title="Maknae on top"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">막내온탑</span><span class="chip-rom">mak-nae-on-tap</span></a>
+        <a class="word-chip" data-cat="idol" href="word/mat-nae.html" title="Oldest-but-babyish member"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">맏내</span><span class="chip-rom">mat-nae</span></a>
+        <a class="word-chip" data-cat="idol" href="word/me-bo.html" title="Main vocal (short)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">메보</span><span class="chip-rom">me-bo</span></a>
+        <a class="word-chip" data-cat="idol" href="word/sa-se-dae.html" title="Fourth generation"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">4세대</span><span class="chip-rom">sa-se-dae</span></a>
+        <a class="word-chip" data-cat="idol" href="word/jul-se-u-gi.html" title="Chart lineup"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">줄세우기</span><span class="chip-rom">jul-se-u-gi</span></a>
+        <a class="word-chip" data-cat="idol" href="word/ol-kil.html" title="All-kill"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">올킬</span><span class="chip-rom">ol-kil</span></a>
+        <a class="word-chip" data-cat="idol" href="word/peo-ol.html" title="Perfect all-kill"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">퍼올</span><span class="chip-rom">peo-ol</span></a>
+        <a class="word-chip" data-cat="idol" href="word/cha-teu-in.html" title="Chart entry"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">차트인</span><span class="chip-rom">cha-teu-in</span></a>
+        <a class="word-chip" data-cat="idol" href="word/eum-won-kkang-pae.html" title="Chart bully"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">음원깡패</span><span class="chip-rom">eum-won-kkang-pae</span></a>
+        <a class="word-chip" data-cat="idol" href="word/mu-dae-cheon-jae.html" title="Stage genius"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">무대천재</span><span class="chip-rom">mu-dae-cheon-jae</span></a>
+        <a class="word-chip" data-cat="idol" href="word/chum-sin-chum-wang.html" title="Dance god, dance king"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">춤신춤왕</span><span class="chip-rom">chum-sin-chum-wang</span></a>
+        <a class="word-chip" data-cat="idol" href="word/cheong-nyang.html" title="Refreshing concept"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">청량</span><span class="chip-rom">cheong-nyang</span></a>
+        <a class="word-chip" data-cat="idol" href="word/geol-keu-reo-si.html" title="Girl crush"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">걸크러시</span><span class="chip-rom">geol-keu-reo-si</span></a>
+        <a class="word-chip" data-cat="idol" href="word/ha-i-tin.html" title="High-teen concept"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">하이틴</span><span class="chip-rom">ha-i-tin</span></a>
+        <a class="word-chip" data-cat="idol" href="word/sa-nok.html" title="Pre-recording"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">사녹</span><span class="chip-rom">sa-nok</span></a>
+        <a class="word-chip" data-cat="idol" href="word/paen-kon.html" title="Fan concert"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">팬콘</span><span class="chip-rom">paen-kon</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/po-ta.html" title="Postype (fan platform)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">포타</span><span class="chip-rom">po-ta</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/beo-beul.html" title="Bubble (fan messaging app)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">버블</span><span class="chip-rom">beo-beul</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/wi-beo-seu.html" title="Weverse"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">위버스</span><span class="chip-rom">wi-beo-seu</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/teuk-jeon.html" title="Store bonus"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">특전</span><span class="chip-rom">teuk-jeon</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/bun-cheol.html" title="Splitting a set"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">분철</span><span class="chip-rom">bun-cheol</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/gong-gu.html" title="Group purchase"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">공구</span><span class="chip-rom">gong-gu</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/yang-do.html" title="Ticket/item transfer"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">양도</span><span class="chip-rom">yang-do</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/chwi-ket-ting.html" title="Cancellation ticketing"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">취켓팅</span><span class="chip-rom">chwi-ket-ting</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/kkul-ja-ri.html" title="Honey seat"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">꿀자리</span><span class="chip-rom">kkul-ja-ri</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/si-je-seok.html" title="Limited-view seat"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">시제석</span><span class="chip-rom">si-je-seok</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/bi-gong-gut.html" title="Unofficial merch"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">비공굿</span><span class="chip-rom">bi-gong-gut</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/na-num.html" title="Fan giveaway"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">나눔</span><span class="chip-rom">na-num</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/si-jeun-geu-ri-ting.html" title="Season&#x27;s greetings package"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">시즌그리팅</span><span class="chip-rom">si-jeun-geu-ri-ting</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/gat-gi.html" title="God-tier baby"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">갓기</span><span class="chip-rom">gat-gi</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/mak-kon.html" title="Last concert"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">막콘</span><span class="chip-rom">mak-kon</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/seul-ro-geon.html" title="Slogan banner"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">슬로건</span><span class="chip-rom">seul-ro-geon</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jung-kkeok-ma.html" title="Never give up"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">중꺾마</span><span class="chip-rom">jung-kkeok-ma</span></a>
+        <a class="word-chip" data-cat="meme" href="word/o-hi-ryeo-jo-a.html" title="Even better, actually"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">오히려좋아</span><span class="chip-rom">o-hi-ryeo-jo-a</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jo-yong-han-toe-sa.html" title="Quiet quitting"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">조용한퇴사</span><span class="chip-rom">jo-yong-han-toe-sa</span></a>
+        <a class="word-chip" data-cat="meme" href="word/eok-ppa.html" title="Forced defending"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">억빠</span><span class="chip-rom">eok-ppa</span></a>
+        <a class="word-chip" data-cat="meme" href="word/mu-ji-seong.html" title="Mindless"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">무지성</span><span class="chip-rom">mu-ji-seong</span></a>
+        <a class="word-chip" data-cat="meme" href="word/eo-jjeol-ti-bi.html" title="So what? (TV)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">어쩔티비</span><span class="chip-rom">eo-jjeol-ti-bi</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jeo-jjeol-ti-bi.html" title="So what? (comeback)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">저쩔티비</span><span class="chip-rom">jeo-jjeol-ti-bi</span></a>
+        <a class="word-chip" data-cat="meme" href="word/king-ri-jeok-gat-sim.html" title="Totally reasonable suspicion"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">킹리적갓심</span><span class="chip-rom">king-ri-jeok-gat-sim</span></a>
+        <a class="word-chip" data-cat="meme" href="word/nae-don-nae-san.html" title="Bought with my own money"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">내돈내산</span><span class="chip-rom">nae-don-nae-san</span></a>
+        <a class="word-chip" data-cat="meme" href="word/meo-seon-129.html" title="What&#x27;s going on?"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">머선129</span><span class="chip-rom">meo-seon-129</span></a>
+        <a class="word-chip" data-cat="meme" href="word/gap-tuk-twi.html" title="Out of nowhere"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">갑툭튀</span><span class="chip-rom">gap-tuk-twi</span></a>
+        <a class="word-chip" data-cat="meme" href="word/eol-ppak-syat.html" title="Face-filling close-up"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">얼빡샷</span><span class="chip-rom">eol-ppak-syat</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jon-ye.html" title="Super pretty"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">존예</span><span class="chip-rom">jon-ye</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jon-jal.html" title="Super handsome"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">존잘</span><span class="chip-rom">jon-jal</span></a>
+        <a class="word-chip" data-cat="meme" href="word/tting-gok.html" title="Banger"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">띵곡</span><span class="chip-rom">tting-gok</span></a>
+        <a class="word-chip" data-cat="meme" href="word/tting-eon.html" title="Great quote"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">띵언</span><span class="chip-rom">tting-eon</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jjeon-da.html" title="Awesome"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">쩐다</span><span class="chip-rom">jjeon-da</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jol-gwi.html" title="Super cute"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">졸귀</span><span class="chip-rom">jol-gwi</span></a>
+        <a class="word-chip" data-cat="meme" href="word/yeol-pok.html" title="Jealous outburst"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">열폭</span><span class="chip-rom">yeol-pok</span></a>
+        <a class="word-chip" data-cat="meme" href="word/men-bung.html" title="Mental breakdown"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">멘붕</span><span class="chip-rom">men-bung</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ji-rin-da.html" title="Insane (teen slang)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">지린다</span><span class="chip-rom">ji-rin-da</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ga-bo-ja-go.html" title="Let&#x27;s go!"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">가보자고</span><span class="chip-rom">ga-bo-ja-go</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jeom-me-chu.html" title="Lunch menu recs"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">점메추</span><span class="chip-rom">jeom-me-chu</span></a>
+        <a class="word-chip" data-cat="meme" href="word/hal-man-ha-an.html" title="I have a lot to say, but I won&#x27;t"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">할많하않</span><span class="chip-rom">hal-man-ha-an</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ssap-ga-neung.html" title="Totally possible"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">쌉가능</span><span class="chip-rom">ssap-ga-neung</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ssap-in-jeong.html" title="Totally agree"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">쌉인정</span><span class="chip-rom">ssap-in-jeong</span></a>
+        <a class="word-chip" data-cat="meme" href="word/king-jeong.html" title="Totally agree (king)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">킹정</span><span class="chip-rom">king-jeong</span></a>
+        <a class="word-chip" data-cat="meme" href="word/eom-geun-jin.html" title="Dead serious"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">엄근진</span><span class="chip-rom">eom-geun-jin</span></a>
+        <a class="word-chip" data-cat="meme" href="word/man-gwan-bu.html" title="Please show lots of interest"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">많관부</span><span class="chip-rom">man-gwan-bu</span></a>
+        <a class="word-chip" data-cat="meme" href="word/gwan-jong.html" title="Attention seeker"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">관종</span><span class="chip-rom">gwan-jong</span></a>
+        <a class="word-chip" data-cat="meme" href="word/yu-ri-men-tal.html" title="Glass mental"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">유리멘탈</span><span class="chip-rom">yu-ri-men-tal</span></a>
+        <a class="word-chip" data-cat="meme" href="word/men-tal-gap.html" title="Mentally unshakable"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">멘탈갑</span><span class="chip-rom">men-tal-gap</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ssip-deok.html" title="Hardcore otaku (crude)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">씹덕</span><span class="chip-rom">ssip-deok</span></a>
+        <a class="word-chip" data-cat="meme" href="word/neo-t-ya.html" title="Are you a T?"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">너T야</span><span class="chip-rom">neo-t-ya</span></a>
+        <a class="word-chip" data-cat="meme" href="word/di-to.html" title="Same here"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">디토</span><span class="chip-rom">di-to</span></a>
+        <a class="word-chip" data-cat="broadcast" href="word/mu-ya-ho.html" title="Woohoo!"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">무야호</span><span class="chip-rom">mu-ya-ho</span></a>
+        <a class="word-chip" data-cat="meme" href="word/king-gat-je-neo-reol.html" title="King god general"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">킹갓제너럴</span><span class="chip-rom">king-gat-je-neo-reol</span></a>
+        <a class="word-chip" data-cat="meme" href="word/kul-geo-rae.html" title="Smooth deal"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">쿨거래</span><span class="chip-rom">kul-geo-rae</span></a>
+        <a class="word-chip" data-cat="meme" href="word/dang-geun-ha-da.html" title="To trade on Karrot"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">당근하다</span><span class="chip-rom">dang-geun-ha-da</span></a>
+        <a class="word-chip" data-cat="meme" href="word/kkon-dae.html" title="Condescending old-timer"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">꼰대</span><span class="chip-rom">kkon-dae</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ra-tte-neun-ma-ri-ya.html" title="Back in my day"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">라떼는말이야</span><span class="chip-rom">ra-tte-neun-ma-ri-ya</span></a>
+        <a class="word-chip" data-cat="meme" href="word/tang-jin-jaem.html" title="Fun of blowing money"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">탕진잼</span><span class="chip-rom">tang-jin-jaem</span></a>
+        <a class="word-chip" data-cat="meme" href="word/yeong-kkeul.html" title="Scraping together everything"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">영끌</span><span class="chip-rom">yeong-kkeul</span></a>
+        <a class="word-chip" data-cat="meme" href="word/dong-hak-gae-mi.html" title="Korean retail investors"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">동학개미</span><span class="chip-rom">dong-hak-gae-mi</span></a>
+        <a class="word-chip" data-cat="meme" href="word/toe-sa-gak.html" title="Time to quit vibes"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">퇴사각</span><span class="chip-rom">toe-sa-gak</span></a>
+        <a class="word-chip" data-cat="broadcast" href="word/byeong-mat.html" title="Absurd humor"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">병맛</span><span class="chip-rom">byeong-mat</span></a>
+        <a class="word-chip" data-cat="meme" href="word/haek-no-jaem.html" title="Mega boring"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">핵노잼</span><span class="chip-rom">haek-no-jaem</span></a>
+        <a class="word-chip" data-cat="meme" href="word/kkul-tip.html" title="Honey tip"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">꿀팁</span><span class="chip-rom">kkul-tip</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ban-mo.html" title="Casual-speech mode"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">반모</span><span class="chip-rom">ban-mo</span></a>
+        <a class="word-chip" data-cat="dating" href="word/geum-sa-ppa.html" title="Falls in love fast"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">금사빠</span><span class="chip-rom">geum-sa-ppa</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ij.html" title="Agreed"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅇㅈ</span><span class="chip-rom">ij</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ok.html" title="OK"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅇㅋ</span><span class="chip-rom">ok</span></a>
+        <a class="word-chip" data-cat="meme" href="word/gs.html" title="Thanks"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㄱㅅ</span><span class="chip-rom">gs</span></a>
+        <a class="word-chip" data-cat="meme" href="word/js.html" title="Sorry"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅈㅅ</span><span class="chip-rom">js</span></a>
+        <a class="word-chip" data-cat="meme" href="word/chk.html" title="Congrats"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅊㅋ</span><span class="chip-rom">chk</span></a>
+        <a class="word-chip" data-cat="meme" href="word/yu-yu.html" title="Crying eyes"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅠㅠ</span><span class="chip-rom">yu-yu</span></a>
+        <a class="word-chip" data-cat="meme" href="word/gid.html" title="Huge win"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㄱㅇㄷ</span><span class="chip-rom">gid</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ssi-bal.html" title="F*ck (swear)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">씨발</span><span class="chip-rom">ssi-bal</span></a>
+        <a class="word-chip" data-cat="meme" href="word/sb.html" title="F*ck (typed)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅅㅂ</span><span class="chip-rom">sb</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jon-na.html" title="F*cking (intensifier)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">존나</span><span class="chip-rom">jon-na</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jn.html" title="F*cking (typed)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">ㅈㄴ</span><span class="chip-rom">jn</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ji-ral.html" title="Bullsh*t / fuss"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">지랄</span><span class="chip-rom">ji-ral</span></a>
+        <a class="word-chip" data-cat="meme" href="word/mi-chin.html" title="Crazy / insane"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">미친</span><span class="chip-rom">mi-chin</span></a>
+        <a class="word-chip" data-cat="meme" href="word/jen-jang.html" title="Damn it"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">젠장</span><span class="chip-rom">jen-jang</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ppak-chi-da.html" title="To be pissed off"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">빡치다</span><span class="chip-rom">ppak-chi-da</span></a>
+        <a class="word-chip" data-cat="meme" href="word/si-bal-bi-yong.html" title="Rage spending"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">시발비용</span><span class="chip-rom">si-bal-bi-yong</span></a>
+        <a class="word-chip" data-cat="meme" href="word/yeom-byeong.html" title="Damn plague (curse)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">염병</span><span class="chip-rom">yeom-byeong</span></a>
+        <a class="word-chip" data-cat="meme" href="word/won-yeong-jeok-sa-go.html" title="Wonyoung-style thinking"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">원영적사고</span><span class="chip-rom">won-yeong-jeok-sa-go</span></a>
       </div>
-    </div>
-    <div class="date-group">
-      <div class="date-label">July 29, 2026</div>
-      <div class="new-grid">
-      <a class="new-card" href="word/yeong-keu-keu.html">
-        <div class="new-card-top">
-          <div class="kr-big">영크크</div>
-          <div class="rom-big">yeong-keu-keu</div>
-          <span class="cat-pill">온라인 밈 · Online Memes</span>
-        </div>
-        <p class="def" data-en="&quot;Young creator crew&quot; — from the title of a CORTIS song, now used to jokingly praise someone for being completely on top of current trends and memes. The positive opposite of 늙크크." data-es="&quot;Young creator crew&quot;: del título de una canción de CORTIS, ahora usado para elogiar en broma a alguien por estar completamente al tanto de las tendencias y memes actuales. El opuesto positivo de 늙크크." data-zh="「年輕創作者團隊」——源自CORTIS歌曲標題，現在用來開玩笑稱讚某人完全跟得上最新潮流和迷因。是「늙크크」的正面反義詞。" data-cn="“年轻创作者团队”——源自CORTIS歌曲标题，现在用来开玩笑称赞某人完全跟得上最新潮流和迷因。是“늙크크”的正面反义词。" data-ja="「若手クリエイタークルー」——CORTISの曲のタイトルから来た言葉で、最新のトレンドやミームに完全に精通している人を冗談っぽく褒める言葉。늙크크の反対。">&quot;Young creator crew&quot; — from the title of a CORTIS song, now used to jokingly praise someone for being completely on top of current trends and memes. The positive opposite of 늙크크.</p>
-      </a>
+    </details>
+    <details class="date-group">
+      <summary class="date-head"><span class="date-label">August 11, 2026</span><span class="date-count" data-en="4 new words" data-es="4 palabras nuevas" data-zh="新增 4 個詞" data-cn="新增 4 个词" data-ja="4語を追加">4 new words</span><span class="date-toggle" aria-hidden="true"></span></summary>
+      <div class="cat-filter" role="group" aria-label="Filter by category">
+        <button type="button" class="cat-chip active" data-filter="all" aria-pressed="true" data-en="All 4" data-es="Todas 4" data-zh="全部 4" data-cn="全部 4" data-ja="すべて 4">All 4</button>
+        <button type="button" class="cat-chip" data-filter="fandom" aria-pressed="false" data-en="Fandom Feels 1" data-es="Sentimientos del fandom 1" data-zh="飯圈心情 1" data-cn="饭圈心情 1" data-ja="ファンダムの気持ち 1">Fandom Feels 1</button>
+        <button type="button" class="cat-chip" data-filter="meme" aria-pressed="false" data-en="Online Memes 3" data-es="Memes de internet 3" data-zh="網路迷因 3" data-cn="网络迷因 3" data-ja="ネットミーム 3">Online Memes 3</button>
       </div>
-    </div>
+      <div class="chip-grid">
+        <a class="word-chip" data-cat="meme" href="word/a-u-ra-pa-ming.html" title="Aura farming"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">아우라 파밍</span><span class="chip-rom">a-u-ra pa-ming</span></a>
+        <a class="word-chip" data-cat="fandom" href="word/o-sal-him.html" title="Strength to get through today"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">오살힘</span><span class="chip-rom">o-sal-him</span></a>
+        <a class="word-chip" data-cat="meme" href="word/bam-ti.html" title="Lame/uncool (teasing)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">밤티</span><span class="chip-rom">bam-ti</span></a>
+        <a class="word-chip" data-cat="meme" href="word/ju-meok-ja-ro.html" title="Broke-diet joke (Mounjaro pun)"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">주먹자로</span><span class="chip-rom">ju-meok-ja-ro</span></a>
+      </div>
+    </details>
+    <details class="date-group">
+      <summary class="date-head"><span class="date-label">July 29, 2026</span><span class="date-count" data-en="1 new word" data-es="1 palabra nueva" data-zh="新增 1 個詞" data-cn="新增 1 个词" data-ja="1語を追加">1 new word</span><span class="date-toggle" aria-hidden="true"></span></summary>
+      <div class="cat-filter" role="group" aria-label="Filter by category">
+        <button type="button" class="cat-chip active" data-filter="all" aria-pressed="true" data-en="All 1" data-es="Todas 1" data-zh="全部 1" data-cn="全部 1" data-ja="すべて 1">All 1</button>
+        <button type="button" class="cat-chip" data-filter="meme" aria-pressed="false" data-en="Online Memes 1" data-es="Memes de internet 1" data-zh="網路迷因 1" data-cn="网络迷因 1" data-ja="ネットミーム 1">Online Memes 1</button>
+      </div>
+      <div class="chip-grid">
+        <a class="word-chip" data-cat="meme" href="word/yeong-keu-keu.html" title="Totally in the loop"><span class="chip-dot" aria-hidden="true"></span><span class="chip-kr">영크크</span><span class="chip-rom">yeong-keu-keu</span></a>
+      </div>
+    </details>
   </div>
 </main>
 
@@ -1200,6 +459,23 @@
     a.addEventListener('click', function(){
       var menu = document.getElementById('mobileMenu');
       if(menu) menu.classList.remove('open');
+    });
+  });
+
+  document.querySelectorAll('.date-group').forEach(function(group){
+    var buttons = group.querySelectorAll('.cat-chip');
+    buttons.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var f = btn.getAttribute('data-filter');
+        buttons.forEach(function(b){
+          var on = b === btn;
+          b.classList.toggle('active', on);
+          b.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        group.querySelectorAll('.word-chip').forEach(function(chip){
+          chip.hidden = !(f === 'all' || chip.getAttribute('data-cat') === f);
+        });
+      });
     });
   });
 
