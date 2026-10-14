@@ -2802,11 +2802,11 @@ MEME = [
      "A este precio con esta calidad, es un valor increíble.",
      "Product/food reviews", "Draft — please double-check"),
     ("혜자스럽다", "hye-ja-seu-reop-da", "Generous value",
-     "\"Hyeja-like\" — describes a generous portion or great value, named after a historical figure known for generosity.",
-     "\"Como Hyeja\": describe una porción generosa o un gran valor, en honor a una figura histórica conocida por su generosidad.",
+     "\"Hyeja-like\" — generous portions or great value for the price. It comes from a convenience-store lunch box launched in 2010 with actress Kim Hye-ja, famous for packing a lot in for little money.",
+     "\"Como Hyeja\": porciones generosas o gran relación calidad-precio. Viene de una lonchera de tienda de conveniencia lanzada en 2010 con la actriz Kim Hye-ja, famosa por traer mucho por poco dinero.",
      "이 식당 진짜 혜자스러워.", "This restaurant is seriously generous with portions.",
      "Este restaurante de verdad da porciones muy generosas.",
-     "Food reviews", "Draft — please double-check"),
+     "Food reviews", "Verified (web-checked)"),
     ("인생샷", "in-saeng-syat", "Once-in-a-lifetime shot",
      "\"Life shot\" — a posed photo so good it becomes someone's all-time best picture.",
      "\"Foto de la vida\": una foto posada tan buena que se convierte en la mejor foto de alguien.",
@@ -4230,7 +4230,7 @@ ZH_TW_TRANSLATIONS = {
     "카공족": ("「咖啡廳讀書族」——長時間在咖啡廳讀書或工作的人。", "這間咖啡廳很受咖啡廳讀書族歡迎。"),
     "스세권": ("「星巴克＋生活圈」——住家附近就有星巴克，仿照房地產用語的玩笑說法。", "我完全住在星巴克生活圈裡。"),
     "갓성비": ("「神＋性價比」——形容CP值高到驚人。", "這個價格有這種品質，真的是神級CP值。"),
-    "혜자스럽다": ("「惠子式的」——形容份量大方、CP值高，源自一位以慷慨聞名的歷史人物名字。", "這家餐廳份量真的很佛心。"),
+    "혜자스럽다": ("「惠子式的」——形容份量大方、CP值高。源自2010年與演員金惠子合作推出、以便宜又豐盛聞名的便利商店便當。", "這家餐廳份量真的很佛心。"),
     "인생샷": ("「人生照片」——好到成為某人史上最佳照片的擺拍照。", "在這裡拍到了此生最棒的一張照片！"),
     "맛집": ("「美味之家」——以特別好吃聞名的餐廳。", "這裡完全是隱藏版美食店。"),
     "오지랖": ("未經邀請就插手他人事務、多管閒事。", "那不就是在多管閒事嗎？"),
@@ -4904,7 +4904,7 @@ ZH_CN_TRANSLATIONS = {
     "카공족": ("“咖啡厅读书族”——长时间在咖啡厅读书或工作的人。", "这间咖啡厅很受咖啡厅读书族欢迎。"),
     "스세권": ("“星巴克＋生活圈”——住家附近就有星巴克，仿照房地产用语的玩笑说法。", "我完全住在星巴克生活圈里。"),
     "갓성비": ("“神＋性价比”——形容CP值高到惊人。", "这个价格有这种品质，真的是神级CP值。"),
-    "혜자스럽다": ("“惠子式的”——形容份量大方、CP值高，源自一位以慷慨闻名的历史人物名字。", "这家餐厅份量真的很佛心。"),
+    "혜자스럽다": ("“惠子式的”——形容份量大方、性价比高。源自2010年与演员金惠子合作推出、以便宜又丰盛闻名的便利店便当。", "这家餐厅份量真的很良心。"),
     "인생샷": ("“人生照片”——好到成为某人史上最佳照片的摆拍照。", "在这里拍到了此生最棒的一张照片！"),
     "맛집": ("“美味之家”——以特别好吃闻名的餐厅。", "这里完全是隐藏版美食店。"),
     "오지랖": ("未经邀请就插手他人事务、多管闲事。", "那不就是在多管闲事吗？"),
@@ -5568,7 +5568,7 @@ JA_TRANSLATIONS = {
     "카공족": ("「カフェ勉強部族」——カフェの席で長時間勉強や作業をする人々。", "このカフェ、カフェ勉強族に人気がある。"),
     "스세권": ("「スターバックス＋生活圏」——徒歩圏内にスタバがあること、不動産用語のパロディ。", "私、完全にスタバ圏に住んでる。"),
     "갓성비": ("「神＋コストパフォーマンス」——驚くほどコスパが良いこと。", "この値段でこのクオリティなら神コスパだよ。"),
-    "혜자스럽다": ("気前が良く、コスパが良いことを表す——寛大さで知られた歴史上の人物の名前から来ている。", "このお店、マジで太っ腹だよね。"),
+    "혜자스럽다": ("「ヘジャっぽい」——量が多くてコスパが良いこと。2010年に女優キム・ヘジャさんと発売された、安くてボリューム満点のコンビニ弁当が由来。", "このお店、マジでボリュームたっぷり。"),
     "인생샷": ("「人生写真」——誰かにとって史上最高になるほど良く撮れたポーズ写真。", "ここで人生ショット撮れた！"),
     "맛집": ("「味の家」——特に美味しいことで知られるレストラン。", "ここ完全に隠れた名店だよ。"),
     "오지랖": ("頼まれてもいないのに他人のことに口出しすること。", "それってただのお節介じゃない？"),
@@ -6075,6 +6075,8 @@ TAG_LABELS = {
     "variety":   {"en": "Variety shows", "es": "Programas de variedades", "zh": "綜藝節目", "cn": "综艺节目", "ja": "バラエティ番組"},
     "webtoon":   {"en": "Webtoons & web novels", "es": "Webtoons y webnovelas", "zh": "網漫與網路小說", "cn": "网漫与网络小说", "ja": "ウェブトゥーン・Web小説"},
     "tradition": {"en": "Korean traditions", "es": "Tradiciones coreanas", "zh": "韓國傳統", "cn": "韩国传统", "ja": "韓国の伝統"},
+    "worklife":  {"en": "Work & daily life", "es": "Trabajo y vida diaria", "zh": "職場與日常", "cn": "职场与日常", "ja": "仕事と日常"},
+    "food":      {"en": "Food talk", "es": "Comida", "zh": "美食用語", "cn": "美食用语", "ja": "グルメ"},
 }
 
 DETAILS = {
@@ -18454,6 +18456,3573 @@ DETAILS = {
         ],
         "tags": [
             "kpop-fan"
+        ]
+    },
+    "인정": {
+        "nuance": {
+            "en": "認定 — \"acknowledged\": agreeing that something is true or fair. Online it's a quick \"facts\" or \"valid.\"",
+            "es": "認定, \"reconocido\": estar de acuerdo en que algo es cierto o justo. En internet es un rápido \"es verdad\" o \"válido\".",
+            "zh": "認定——「認同」：同意某件事是真的或合理的。在網路上就是「說得對」「認同」。",
+            "cn": "认定——“认同”：同意某件事是真的或合理的。在网络上就是“说得对”“认同”。",
+            "ja": "認定。何かが正しい・妥当だと認めること。ネットでは「それな」「わかる」の意味。"
+        },
+        "usage": {
+            "en": "\"그건 인정\" (\"I'll give you that\"); written as ㅇㅈ in chats. \"인정? 어 인정\" (\"Agreed? Yep, agreed\") is a playful back-and-forth.",
+            "es": "\"그건 인정\" (\"En eso tienes razón\"); en chats se escribe ㅇㅈ. \"인정? 어 인정\" (\"¿De acuerdo? Sí, de acuerdo\") es un juego de ida y vuelta.",
+            "zh": "「그건 인정」（這點我認同）；聊天時寫成ㅇㅈ。「인정? 어 인정」（認同嗎？嗯認同）是俏皮的一問一答。",
+            "cn": "“그건 인정”（这点我认同）；聊天时写成ㅇㅈ。“인정? 어 인정”（认同吗？嗯认同）是俏皮的一问一答。",
+            "ja": "「그건 인정」（それは認める）；チャットではㅇㅈ。「인정? 어 인정」（認める？うん認める）はおふざけの掛け合い。"
+        },
+        "register": "everyday",
+        "similar": [
+            "반박불가",
+            "빼박"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "헐": {
+        "nuance": {
+            "en": "An all-purpose gasp: shock, disbelief or \"no way\" — good news or bad.",
+            "es": "Una exclamación para todo: sorpresa, incredulidad o \"no puede ser\", con noticias buenas o malas.",
+            "zh": "萬用驚嘆詞：震驚、不敢相信、「不會吧」——好消息壞消息都能用。",
+            "cn": "万用惊叹词：震惊、不敢相信、“不会吧”——好消息坏消息都能用。",
+            "ja": "万能の驚きの言葉。衝撃、信じられない、「うそでしょ」。良い知らせにも悪い知らせにも。"
+        },
+        "usage": {
+            "en": "\"헐, 진짜?\" (\"Whoa, seriously?\"); doubled for effect: \"헐헐헐\". Fine with friends, not with your boss.",
+            "es": "\"헐, 진짜?\" (\"¿Qué? ¿En serio?\"); se repite para enfatizar: \"헐헐헐\". Bien con amigos, no con tu jefe.",
+            "zh": "「헐, 진짜?」（天啊，真的假的？）；也會疊字：「헐헐헐」。朋友間OK，對上司就別用。",
+            "cn": "“헐, 진짜?”（天啊，真的假的？）；也会叠字：“헐헐헐”。朋友间OK，对上司就别用。",
+            "ja": "「헐, 진짜?」（えっ、マジ？）；重ねて「헐헐헐」とも。友達ならOK、上司には使わない。"
+        },
+        "register": "casual",
+        "similar": [
+            "대박",
+            "실화냐",
+            "미쳤다"
+        ],
+        "tags": [
+            "reaction",
+            "surprise"
+        ]
+    },
+    "TMI": {
+        "nuance": {
+            "en": "\"Too much information\": an unnecessary detail. In Korea it's often a cute self-intro: sharing random personal facts on purpose.",
+            "es": "\"Too much information\": un detalle innecesario. En Corea suele usarse con ternura para compartir datos personales random a propósito.",
+            "zh": "「Too much information」：不必要的細節。在韓國常被可愛地用來故意分享自己的瑣事。",
+            "cn": "“Too much information”：不必要的细节。在韩国常被可爱地用来故意分享自己的琐事。",
+            "ja": "「Too much information」。余計な情報。韓国では、わざと自分のどうでもいい情報を話すかわいい自己紹介としてもよく使う。"
+        },
+        "usage": {
+            "en": "Idols answer fan questions with \"오늘의 TMI\" (\"today's TMI\"): \"TMI: 저 오늘 양말 짝짝이예요\" (\"TMI: I'm wearing mismatched socks today\").",
+            "es": "Los idols responden con \"오늘의 TMI\" (\"el TMI de hoy\"): \"TMI: 저 오늘 양말 짝짝이예요\" (\"TMI: hoy traigo calcetines distintos\").",
+            "zh": "偶像會分享「오늘의 TMI」（今日TMI）：「TMI: 저 오늘 양말 짝짝이예요」（TMI：我今天襪子穿不同雙）。",
+            "cn": "偶像会分享“오늘의 TMI”（今日TMI）：“TMI: 저 오늘 양말 짝짝이예요”（TMI：我今天袜子穿不同双）。",
+            "ja": "アイドルは「오늘의 TMI」（今日のTMI）を話す：「TMI: 저 오늘 양말 짝짝이예요」（TMI：今日靴下が左右バラバラです）。"
+        },
+        "register": "casual",
+        "similar": [
+            "안물안궁",
+            "무물보"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "답정너": {
+        "nuance": {
+            "en": "Short for 답은 정해져 있고 너는 대답만 해: \"the answer is decided, you just say it\" — asking a question when you only want one reply.",
+            "es": "Abreviatura de 답은 정해져 있고 너는 대답만 해: \"la respuesta ya está decidida, tú solo dila\"; preguntar cuando solo quieres una respuesta.",
+            "zh": "답은 정해져 있고 너는 대답만 해（答案早就定了，你照說就好）的縮寫：只想聽某個答案的提問。",
+            "cn": "답은 정해져 있고 너는 대답만 해（答案早就定了，你照说就好）的缩写：只想听某个答案的提问。",
+            "ja": "답은 정해져 있고 너는 대답만 해（答えは決まってるから、お前は答えるだけ）の略。欲しい答えが一つしかない質問。"
+        },
+        "usage": {
+            "en": "\"'나 살쪘지?' 이거 완전 답정너 질문이야\" (\"'Did I gain weight?' — that question has only one right answer\").",
+            "es": "\"'나 살쪘지?' 이거 완전 답정너 질문이야\" (\"'¿Engordé?' es una pregunta con una sola respuesta correcta\").",
+            "zh": "「'나 살쪘지?' 이거 완전 답정너 질문이야」（「我是不是變胖了？」這根本是只有一個答案的問題）。",
+            "cn": "“'나 살쪘지?' 이거 완전 답정너 질문이야”（“我是不是变胖了？”这根本是只有一个答案的问题）。",
+            "ja": "「'나 살쪘지?' 이거 완전 답정너 질문이야」（「私太った？」は答えが一つしかない質問）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정신승리",
+            "팩폭"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "갓생": {
+        "nuance": {
+            "en": "God + 인생 (life): a disciplined, productive life — early mornings, workouts, study, saving. A big MZ-generation trend.",
+            "es": "God + 인생 (vida): una vida disciplinada y productiva, con madrugones, ejercicio, estudio y ahorro. Gran tendencia de la generación MZ.",
+            "zh": "God＋인생（人生）：自律又有生產力的生活——早起、運動、讀書、存錢。MZ世代的大潮流。",
+            "cn": "God＋인생（人生）：自律又有生产力的生活——早起、运动、读书、存钱。MZ世代的大潮流。",
+            "ja": "God＋인생（人生）。早起き、運動、勉強、貯金など、自律的で生産的な暮らし。MZ世代の大きなトレンド。"
+        },
+        "usage": {
+            "en": "\"이번 달은 갓생 살아 보자\" (\"Let's live the god-tier life this month\"). Often posted as daily routine vlogs.",
+            "es": "\"이번 달은 갓생 살아 보자\" (\"Este mes vamos a vivir una vida top\"). Suele compartirse en vlogs de rutina diaria.",
+            "zh": "「이번 달은 갓생 살아 보자」（這個月來過神級人生吧）。常以日常vlog形式分享。",
+            "cn": "“이번 달은 갓생 살아 보자”（这个月来过神级人生吧）。常以日常vlog形式分享。",
+            "ja": "「이번 달은 갓생 살아 보자」（今月こそ神生活しよう）。日常のルーティンVlogで発信されることが多い。"
+        },
+        "register": "casual",
+        "similar": [
+            "미라클모닝",
+            "오운완",
+            "무지출챌린지"
+        ],
+        "tags": [
+            "worklife",
+            "praise"
+        ]
+    },
+    "만찢": {
+        "nuance": {
+            "en": "Short for 만화를 찢고 나온: \"torn out of a comic\" — so good-looking it's like a manhwa character came to life. 만찢남 / 만찢녀.",
+            "es": "Abreviatura de 만화를 찢고 나온: \"salido de un cómic\", tan atractivo que parece un personaje de manhwa en la vida real. 만찢남 / 만찢녀.",
+            "zh": "만화를 찢고 나온（撕開漫畫走出來的）的縮寫：帥／美得像漫畫人物活過來。만찢남／만찢녀。",
+            "cn": "만화를 찢고 나온（撕开漫画走出来的）的缩写：帅／美得像漫画人物活过来。만찢남／만찢녀。",
+            "ja": "만화를 찢고 나온（漫画を破って出てきた）の略。漫画のキャラが現実に出てきたほど美しいこと。만찢남／만찢녀。"
+        },
+        "usage": {
+            "en": "\"웹툰 실사화 캐스팅 완전 만찢남\" (\"The live-action casting is straight out of the webtoon\").",
+            "es": "\"웹툰 실사화 캐스팅 완전 만찢남\" (\"El actor de la adaptación parece salido del webtoon\").",
+            "zh": "「웹툰 실사화 캐스팅 완전 만찢남」（網漫真人化的選角完全像從漫畫走出來）。",
+            "cn": "“웹툰 실사화 캐스팅 완전 만찢남”（网漫真人化的选角完全像从漫画走出来）。",
+            "ja": "「웹툰 실사화 캐스팅 완전 만찢남」（ウェブトゥーン実写化のキャスト、完全に漫画から出てきた人）。"
+        },
+        "register": "casual",
+        "similar": [
+            "얼굴천재",
+            "비주얼",
+            "순정만화"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "얼죽아": {
+        "nuance": {
+            "en": "Short for 얼어 죽어도 아이스 아메리카노: \"iced Americano even if I freeze to death\" — iced coffee lovers, all year round.",
+            "es": "Abreviatura de 얼어 죽어도 아이스 아메리카노: \"americano helado aunque me muera de frío\"; fans del café helado todo el año.",
+            "zh": "얼어 죽어도 아이스 아메리카노（凍死也要喝冰美式）的縮寫：一年四季都喝冰咖啡的人。",
+            "cn": "얼어 죽어도 아이스 아메리카노（冻死也要喝冰美式）的缩写：一年四季都喝冰咖啡的人。",
+            "ja": "얼어 죽어도 아이스 아메리카노（凍え死んでもアイスアメリカーノ）の略。一年中アイスコーヒー派の人。"
+        },
+        "usage": {
+            "en": "\"영하 10도인데 얼죽아 실화?\" (\"It's -10°C and you're still on iced coffee?\"). The opposite camp: 뜨죽따 (hot even if I boil).",
+            "es": "\"영하 10도인데 얼죽아 실화?\" (\"¿Hace -10 °C y sigues con café helado?\"). El bando opuesto: 뜨죽따 (caliente aunque me queme).",
+            "zh": "「영하 10도인데 얼죽아 실화?」（零下10度還喝冰的？）。對立陣營：뜨죽따（燙死也要喝熱的）。",
+            "cn": "“영하 10도인데 얼죽아 실화?”（零下10度还喝冰的？）。对立阵营：뜨죽따（烫死也要喝热的）。",
+            "ja": "「영하 10도인데 얼죽아 실화?」（氷点下10度なのにアイス？）。反対派は뜨죽따（熱くて死んでもホット）。"
+        },
+        "culture": {
+            "en": "Iced Americano is practically Korea's default coffee — cafés sell it year-round, which is why the joke works.",
+            "es": "El americano helado es casi el café por defecto en Corea; las cafeterías lo venden todo el año, por eso funciona el chiste.",
+            "zh": "冰美式幾乎是韓國的國民咖啡——咖啡廳一年四季都在賣，所以這個梗才成立。",
+            "cn": "冰美式几乎是韩国的国民咖啡——咖啡厅一年四季都在卖，所以这个梗才成立。",
+            "ja": "アイスアメリカーノは韓国の定番コーヒーで、カフェでは一年中売れている。だからこのネタが成り立つ。"
+        },
+        "register": "casual",
+        "similar": [
+            "국룰",
+            "카공족"
+        ],
+        "tags": [
+            "food",
+            "funny"
+        ]
+    },
+    "급식체": {
+        "nuance": {
+            "en": "\"School-lunch style\" (급식 = school meals): the exaggerated slang associated with teens — 오지고, 지리고, 실화냐 and friends.",
+            "es": "\"Estilo comedor escolar\" (급식 = comida escolar): la jerga exagerada asociada a los adolescentes, como 오지고, 지리고, 실화냐.",
+            "zh": "「營養午餐體」（급식＝學校午餐）：和青少年連結在一起的誇張流行語——오지고、지리고、실화냐等。",
+            "cn": "“营养午餐体”（급식＝学校午餐）：和青少年链接在一起的夸张流行语——오지고、지리고、실화냐等。",
+            "ja": "「給食体」（급식＝学校給食）。10代に結びつけられる大げさなスラング。오지고、지리고、실화냐など。"
+        },
+        "usage": {
+            "en": "Adults use it ironically: \"급식체 따라 해 봤는데 어색하네\" (\"I tried talking like a teen and it felt so awkward\").",
+            "es": "Los adultos lo usan con ironía: \"급식체 따라 해 봤는데 어색하네\" (\"Intenté hablar como adolescente y fue incómodo\").",
+            "zh": "大人會反諷地用：「급식체 따라 해 봤는데 어색하네」（模仿營養午餐體好彆扭）。",
+            "cn": "大人会反讽地用：“급식체 따라 해 봤는데 어색하네”（模仿营养午餐体好别扭）。",
+            "ja": "大人は皮肉で使う：「급식체 따라 해 봤는데 어색하네」（給食体をまねてみたけど違和感ある）。"
+        },
+        "register": "casual",
+        "similar": [
+            "오지고지리고",
+            "별다줄",
+            "야민정음"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "인생네컷": {
+        "nuance": {
+            "en": "\"Life four-cut\": photo booths that print a strip of four photos — a staple of hangouts, dates and fan events. Also a brand name, now used generically.",
+            "es": "\"Cuatro cortes de vida\": cabinas que imprimen una tira de cuatro fotos, infaltables en salidas, citas y eventos de fans. Es también una marca, hoy usada de forma genérica.",
+            "zh": "「人生四格」：印出四格照片的自拍機——聚會、約會、粉絲活動必備。也是品牌名，現在泛指這類照相亭。",
+            "cn": "“人生四格”：印出四格照片的自拍机——聚会、约会、粉丝活动必备。也是品牌名，现在泛指这类照相亭。",
+            "ja": "「人生4カット」。4枚の写真を1枚にプリントするフォトブース。遊びやデート、ファンイベントの定番。ブランド名だが一般名詞化している。"
+        },
+        "usage": {
+            "en": "Idol-themed frames are popular: \"최애 프레임으로 인생네컷 찍었어\" (\"I took four-cut photos with my bias's frame\").",
+            "es": "Los marcos de idols son populares: \"최애 프레임으로 인생네컷 찍었어\" (\"Me tomé fotos con el marco de mi bias\").",
+            "zh": "偶像聯名相框很受歡迎：「최애 프레임으로 인생네컷 찍었어」（用本命相框拍了人生四格）。",
+            "cn": "偶像联名相框很受欢迎：“최애 프레임으로 인생네컷 찍었어”（用本命相框拍了人生四格）。",
+            "ja": "アイドルフレームが人気：「최애 프레임으로 인생네컷 찍었어」（推しフレームで人生4カット撮った）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "인생샷",
+            "셀카",
+            "인증샷"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "빼박": {
+        "nuance": {
+            "en": "Short for 빼도 박도 못하다 — no way out: undeniable, no room for excuses.",
+            "es": "Abreviatura de 빼도 박도 못하다, sin salida: innegable, sin espacio para excusas.",
+            "zh": "빼도 박도 못하다（進退兩難）的縮寫：無法否認、沒有藉口。",
+            "cn": "빼도 박도 못하다（进退两难）的缩写：无法否认、没有借口。",
+            "ja": "빼도 박도 못하다（抜くことも押すこともできない）の略。言い逃れできない、確定的。"
+        },
+        "usage": {
+            "en": "\"이건 빼박 열애다\" (\"This is undeniable proof they're dating\"). Casual and blunt.",
+            "es": "\"이건 빼박 열애다\" (\"Esto es prueba innegable de que salen\"). Casual y directo.",
+            "zh": "「이건 빼박 열애다」（這是鐵證，他們在交往）。口語又直接。",
+            "cn": "“이건 빼박 열애다”（这是铁证，他们在交往）。口语又直接。",
+            "ja": "「이건 빼박 열애다」（これは確定で交際中）。くだけた直接的な言い方。"
+        },
+        "register": "casual",
+        "similar": [
+            "반박불가",
+            "인정"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "극혐": {
+        "nuance": {
+            "en": "極嫌 — \"extreme disgust\": strongly hating something.",
+            "es": "極嫌, \"asco extremo\": odiar algo con fuerza.",
+            "zh": "極嫌——極度厭惡。",
+            "cn": "极嫌——极度厌恶。",
+            "ja": "極嫌。ものすごく嫌い、大嫌い。"
+        },
+        "usage": {
+            "en": "Strong — better for bugs and smells than for people: \"바퀴벌레 극혐\" (\"I absolutely hate cockroaches\").",
+            "es": "Es fuerte; mejor para bichos y olores que para personas: \"바퀴벌레 극혐\" (\"Odio las cucarachas\").",
+            "zh": "語氣很重——用在蟲或氣味比用在人身上好：「바퀴벌레 극혐」（超討厭蟑螂）。",
+            "cn": "语气很重——用在虫或气味比用在人身上好：“바퀴벌레 극혐”（超讨厌蟑螂）。",
+            "ja": "強い言葉なので、人より虫やにおいに：「바퀴벌레 극혐」（ゴキブリ無理すぎる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "노답",
+            "무개념"
+        ],
+        "tags": [
+            "annoyed",
+            "reaction"
+        ]
+    },
+    "오지다": {
+        "nuance": {
+            "en": "Originally a word meaning \"solid, satisfyingly full\"; in slang it means amazing or intense — a classic of teen speak (급식체).",
+            "es": "Originalmente una palabra que significa \"sólido, satisfactoriamente lleno\"; en jerga significa increíble o intenso, un clásico del habla adolescente (급식체).",
+            "zh": "原本是「紮實、令人滿足」的意思；在流行語中指超厲害、超強——青少年用語（급식체）的經典。",
+            "cn": "原本是“扎实、令人满足”的意思；在流行语中指超厉害、超强——青少年用语（급식체）的经典。",
+            "ja": "もとは「中身が詰まっている、満ち足りた」という意味。スラングではすごい、強烈の意味で、10代言葉（급식체）の定番。"
+        },
+        "usage": {
+            "en": "\"이번 무대 오졌다\" (\"This stage was insane\").",
+            "es": "\"이번 무대 오졌다\" (\"Esta presentación estuvo brutal\").",
+            "zh": "「이번 무대 오졌다」（這次舞台太猛了）。",
+            "cn": "“이번 무대 오졌다”（这次舞台太猛了）。",
+            "ja": "「이번 무대 오졌다」（今回のステージやばかった）。"
+        },
+        "register": "casual",
+        "similar": [
+            "오지고지리고",
+            "미쳤다",
+            "급식체"
+        ],
+        "tags": [
+            "praise",
+            "reaction"
+        ]
+    },
+    "낫닝겐": {
+        "nuance": {
+            "en": "English \"not\" + Japanese ningen (人間, human): \"not human\" — looks or skills too perfect to be real.",
+            "es": "\"Not\" del inglés + ningen (人間, humano) del japonés: \"no humano\", una apariencia o habilidad demasiado perfecta para ser real.",
+            "zh": "英文「not」＋日文ningen（人間）：「非人類」——外貌或實力完美到不像真人。",
+            "cn": "英文“not”＋日文ningen（人间）：“非人类”——外貌或实力完美到不像真人。",
+            "ja": "英語の「not」＋日本語の「人間」。「人間じゃない」ほど完璧な見た目や実力。"
+        },
+        "usage": {
+            "en": "\"비율 낫닝겐이다\" (\"Those proportions aren't human\").",
+            "es": "\"비율 낫닝겐이다\" (\"Esas proporciones no son humanas\").",
+            "zh": "「비율 낫닝겐이다」（這比例根本不是人類）。",
+            "cn": "“비율 낫닝겐이다”（这比例根本不是人类）。",
+            "ja": "「비율 낫닝겐이다」（スタイルが人間じゃない）。"
+        },
+        "register": "casual",
+        "similar": [
+            "넘사벽",
+            "얼굴천재",
+            "만렙"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "군싹": {
+        "nuance": {
+            "en": "Short for 군침이 싹 도네: \"my mouth is instantly watering\" — food that looks irresistible.",
+            "es": "Abreviatura de 군침이 싹 도네: \"se me hace agua la boca al instante\", comida que se ve irresistible.",
+            "zh": "군침이 싹 도네（口水瞬間流出來）的縮寫：看起來超好吃的食物。",
+            "cn": "군침이 싹 도네（口水瞬间流出来）的缩写：看起来超好吃的食物。",
+            "ja": "군침이 싹 도네（よだれが一気に出る）の略。見ただけでたまらなく美味しそうな食べ物。"
+        },
+        "usage": {
+            "en": "\"이 먹방 군싹이다\" (\"This mukbang has me drooling\").",
+            "es": "\"이 먹방 군싹이다\" (\"Este mukbang me hace agua la boca\").",
+            "zh": "「이 먹방 군싹이다」（這個吃播看得我口水直流）。",
+            "cn": "“이 먹방 군싹이다”（这个吃播看得我口水直流）。",
+            "ja": "「이 먹방 군싹이다」（このモッパン、よだれ出る）。"
+        },
+        "register": "casual",
+        "similar": [
+            "존맛탱",
+            "맛집",
+            "먹방"
+        ],
+        "tags": [
+            "food"
+        ]
+    },
+    "쫌쫌따리": {
+        "nuance": {
+            "en": "Tiny bits, little by little — small amounts that slowly add up.",
+            "es": "Poquito a poco, de a pedacitos: cantidades pequeñas que se van sumando.",
+            "zh": "一點一點、零零碎碎——慢慢累積的小量。",
+            "cn": "一点一点、零零碎碎——慢慢累积的小量。",
+            "ja": "ちょっとずつ、ちまちまと。少しずつ積み重なる小さな量。"
+        },
+        "usage": {
+            "en": "\"쫌쫌따리 모아서 콘서트 티켓 샀어\" (\"I saved bit by bit and bought a concert ticket\").",
+            "es": "\"쫌쫌따리 모아서 콘서트 티켓 샀어\" (\"Ahorré poquito a poco y compré la entrada del concierto\").",
+            "zh": "「쫌쫌따리 모아서 콘서트 티켓 샀어」（一點一點存錢買了演唱會門票）。",
+            "cn": "“쫌쫌따리 모아서 콘서트 티켓 샀어”（一点一点存钱买了演唱会门票）。",
+            "ja": "「쫌쫌따리 모아서 콘서트 티켓 샀어」（ちまちま貯めてコンサートのチケット買った）。"
+        },
+        "register": "casual",
+        "similar": [
+            "무지출챌린지",
+            "텅장"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "손절": {
+        "nuance": {
+            "en": "損切 — \"cutting losses\" (a stock-market term): cutting someone off, ending a friendship for good.",
+            "es": "損切, \"cortar pérdidas\" (término bursátil): cortar con alguien, terminar una amistad para siempre.",
+            "zh": "損切——「停損」（股市用語）：和某人斷絕往來、結束友誼。",
+            "cn": "损切——“停损”（股市用语）：和某人断绝往来、结束友谊。",
+            "ja": "損切り（株用語）。人との縁を切ること、友人関係を完全に終わらせること。"
+        },
+        "usage": {
+            "en": "\"뒷담 하는 친구는 손절했어\" (\"I cut off the friend who talked behind my back\").",
+            "es": "\"뒷담 하는 친구는 손절했어\" (\"Corté con la amiga que hablaba a mis espaldas\").",
+            "zh": "「뒷담 하는 친구는 손절했어」（背後說壞話的朋友我斷了）。",
+            "cn": "“뒷담 하는 친구는 손절했어”（背后说坏话的朋友我断了）。",
+            "ja": "「뒷담 하는 친구는 손절했어」（陰口言う友達とは縁を切った）。"
+        },
+        "register": "casual",
+        "similar": [
+            "극혐",
+            "현타"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "흑화": {
+        "nuance": {
+            "en": "黑化 — \"turning dark\": a character snapping and turning bitter or villainous. Jokingly, someone pushed past their limit.",
+            "es": "黑化, \"volverse oscuro\": un personaje que se quiebra y se vuelve amargo o villano. En broma, alguien que llegó a su límite.",
+            "zh": "黑化——角色崩潰後變得陰暗或反派化。開玩笑時指人被逼到極限。",
+            "cn": "黑化——角色崩溃后变得阴暗或反派化。开玩笑时指人被逼到极限。",
+            "ja": "黒化。キャラがキレて闇落ち・悪役化すること。冗談では、我慢の限界を超えた人にも。"
+        },
+        "usage": {
+            "en": "\"막내 계속 놀리다가 흑화했어\" (\"They kept teasing the youngest until he turned dark\").",
+            "es": "\"막내 계속 놀리다가 흑화했어\" (\"Molestaron tanto al menor que se volvió oscuro\").",
+            "zh": "「막내 계속 놀리다가 흑화했어」（一直捉弄忙內，結果他黑化了）。",
+            "cn": "“막내 계속 놀리다가 흑화했어”（一直捉弄忙内，结果他黑化了）。",
+            "ja": "「막내 계속 놀리다가 흑화했어」（マンネをいじり続けたら闇落ちした）。"
+        },
+        "register": "casual",
+        "similar": [
+            "반전",
+            "흑역사"
+        ],
+        "tags": [
+            "drama",
+            "funny"
+        ]
+    },
+    "극T": {
+        "nuance": {
+            "en": "Extreme \"T\" (Thinking) in MBTI: someone who answers feelings with logic and solutions.",
+            "es": "\"T\" (Thinking) extremo en el MBTI: alguien que responde a los sentimientos con lógica y soluciones.",
+            "zh": "極度的MBTI「T」（思考型）：用邏輯和解決方案回應別人情緒的人。",
+            "cn": "极度的MBTI“T”（思考型）：用逻辑和解决方案回应别人情绪的人。",
+            "ja": "MBTIの極端な「T」（思考型）。気持ちの話に論理や解決策で返す人。"
+        },
+        "usage": {
+            "en": "The classic test: \"나 우울해서 빵 샀어\" (\"I was sad so I bought bread\") — a 극T asks \"무슨 빵?\" (\"What kind of bread?\").",
+            "es": "La prueba clásica: \"나 우울해서 빵 샀어\" (\"Estaba triste y compré pan\"); un 극T pregunta \"무슨 빵?\" (\"¿Qué pan?\").",
+            "zh": "經典測試：「나 우울해서 빵 샀어」（我很憂鬱所以買了麵包）——극T會問「무슨 빵?」（什麼麵包？）。",
+            "cn": "经典测试：“나 우울해서 빵 샀어”（我很忧郁所以买了面包）——극T会问“무슨 빵?”（什么面包？）。",
+            "ja": "定番テスト：「나 우울해서 빵 샀어」（落ち込んだからパン買った）に、극T は「무슨 빵?」（何のパン？）と返す。"
+        },
+        "culture": {
+            "en": "MBTI types are a huge conversation topic in Korea — people share them like star signs, at work, on dates and on variety shows.",
+            "es": "Los tipos MBTI son un tema enorme en Corea: la gente los comparte como signos del zodiaco, en el trabajo, en citas y en programas.",
+            "zh": "MBTI在韓國是超熱門話題——大家像聊星座一樣在職場、約會和綜藝裡分享。",
+            "cn": "MBTI在韩国是超热门话题——大家像聊星座一样在职场、约会和综艺里分享。",
+            "ja": "MBTIは韓国で大人気の話題で、星座のように職場やデート、バラエティで語られる。"
+        },
+        "register": "casual",
+        "similar": [
+            "극I",
+            "극E",
+            "팩폭"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "프사": {
+        "nuance": {
+            "en": "Short for 프로필 사진: a profile picture, especially on KakaoTalk.",
+            "es": "Abreviatura de 프로필 사진: foto de perfil, sobre todo en KakaoTalk.",
+            "zh": "프로필 사진（大頭貼）的縮寫，尤其指KakaoTalk的頭像。",
+            "cn": "프로필 사진（大头贴）的缩写，尤其指KakaoTalk的头像。",
+            "ja": "프로필 사진（プロフィール写真）の略。特にカカオトークのアイコン。"
+        },
+        "usage": {
+            "en": "\"프사 바꿨네? 남친이야?\" (\"New profile pic? Is that your boyfriend?\").",
+            "es": "\"프사 바꿨네? 남친이야?\" (\"¿Cambiaste la foto de perfil? ¿Es tu novio?\").",
+            "zh": "「프사 바꿨네? 남친이야?」（換大頭貼了？是男朋友嗎？）。",
+            "cn": "“프사 바꿨네? 남친이야?”（换大头贴了？是男朋友吗？）。",
+            "ja": "「프사 바꿨네? 남친이야?」（アイコン変えた？彼氏？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "셀카",
+            "인생샷"
+        ],
+        "tags": [
+            "chat",
+            "internet"
+        ]
+    },
+    "뇌피셜": {
+        "nuance": {
+            "en": "뇌 (brain) + 오피셜 (official): a personal guess presented as if it were official fact.",
+            "es": "뇌 (cerebro) + 오피셜 (oficial): una suposición personal presentada como si fuera un hecho oficial.",
+            "zh": "뇌（腦）＋오피셜（官方）：把自己的猜測說得像官方事實。",
+            "cn": "뇌（脑）＋오피셜（官方）：把自己的猜测说得像官方事实。",
+            "ja": "뇌（脳）＋오피셜（公式）。個人の推測を公式の事実のように言うこと。"
+        },
+        "usage": {
+            "en": "\"출처 없는 뇌피셜이니까 믿지 마\" (\"It's just baseless speculation — don't believe it\").",
+            "es": "\"출처 없는 뇌피셜이니까 믿지 마\" (\"Es pura suposición sin fuente, no lo creas\").",
+            "zh": "「출처 없는 뇌피셜이니까 믿지 마」（沒有出處的腦補，別信）。",
+            "cn": "“출처 없는 뇌피셜이니까 믿지 마”（没有出处的脑补，别信）。",
+            "ja": "「출처 없는 뇌피셜이니까 믿지 마」（出典なしの脳内情報だから信じないで）。"
+        },
+        "register": "casual",
+        "similar": [
+            "팩폭",
+            "근자감"
+        ],
+        "tags": [
+            "internet",
+            "chat"
+        ]
+    },
+    "기레기": {
+        "nuance": {
+            "en": "기자 (reporter) + 쓰레기 (trash): an insult for sensationalist or careless journalists.",
+            "es": "기자 (periodista) + 쓰레기 (basura): un insulto para periodistas sensacionalistas o descuidados.",
+            "zh": "기자（記者）＋쓰레기（垃圾）：罵譁眾取寵或不負責任的記者。",
+            "cn": "기자（记者）＋쓰레기（垃圾）：骂哗众取宠或不负责任的记者。",
+            "ja": "기자（記者）＋쓰레기（ゴミ）。扇情的、いい加減な記者への罵り言葉。"
+        },
+        "usage": {
+            "en": "An insult — fans use it when a rumor article spreads: \"기레기 기사에 속지 마\" (\"Don't fall for that clickbait article\").",
+            "es": "Es un insulto; los fans lo usan cuando circula una nota de rumores: \"기레기 기사에 속지 마\" (\"No caigas en esa nota amarillista\").",
+            "zh": "是罵人的話——粉絲在八卦報導擴散時會用：「기레기 기사에 속지 마」（別被垃圾記者的報導騙了）。",
+            "cn": "是骂人的话——粉丝在八卦报导扩散时会用：“기레기 기사에 속지 마”（别被垃圾记者的报导骗了）。",
+            "ja": "罵り言葉。噂記事が広まった時にファンが使う：「기레기 기사에 속지 마」（ゴミ記者の記事に騙されないで）。"
+        },
+        "register": "casual",
+        "similar": [
+            "어그로",
+            "나락"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "플렉스": {
+        "nuance": {
+            "en": "From hip-hop \"flex\": showing off — usually a big, satisfying purchase.",
+            "es": "Del \"flex\" del hip-hop: presumir, normalmente una compra grande y satisfactoria.",
+            "zh": "來自嘻哈的「flex」：炫耀——通常是一筆爽快的大消費。",
+            "cn": "来自嘻哈的“flex”：炫耀——通常是一笔爽快的大消费。",
+            "ja": "ヒップホップの「flex」から。見せびらかすこと。たいてい思い切った買い物。"
+        },
+        "usage": {
+            "en": "\"월급날 기념으로 플렉스했어\" (\"I splurged to celebrate payday\") — followed shortly by 텅장.",
+            "es": "\"월급날 기념으로 플렉스했어\" (\"Me di un gusto para celebrar el día de pago\"), seguido pronto por 텅장.",
+            "zh": "「월급날 기념으로 플렉스했어」（發薪日犒賞自己大買一波）——接著就是텅장（空帳戶）。",
+            "cn": "“월급날 기념으로 플렉스했어”（发薪日犒赏自己大买一波）——接着就是텅장（空帐户）。",
+            "ja": "「월급날 기념으로 플렉스했어」（給料日記念にフレックスした）。すぐ後に텅장が来る。"
+        },
+        "register": "casual",
+        "similar": [
+            "텅장",
+            "갓성비"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "갬성": {
+        "nuance": {
+            "en": "A playful spelling of 감성 (sensibility): a moody, pretty, Instagrammable vibe.",
+            "es": "Una forma juguetona de escribir 감성 (sensibilidad): una vibra estética, bonita y \"instagrameable\".",
+            "zh": "감성（感性）的俏皮寫法：有氛圍、好看、適合上IG的感覺。",
+            "cn": "감성（感性）的俏皮写法：有氛围、好看、适合上IG的感觉。",
+            "ja": "감성（感性）をもじった書き方。エモくておしゃれで、インスタ映えする雰囲気。"
+        },
+        "usage": {
+            "en": "\"갬성 카페\" (\"aesthetic café\"); \"사진 갬성 미쳤다\" (\"The vibe of this photo is amazing\").",
+            "es": "\"갬성 카페\" (\"café estético\"); \"사진 갬성 미쳤다\" (\"La vibra de esta foto es increíble\").",
+            "zh": "「갬성 카페」（氛圍感咖啡廳）；「사진 갬성 미쳤다」（照片氛圍感爆棚）。",
+            "cn": "“갬성 카페”（氛围感咖啡厅）；“사진 갬성 미쳤다”（照片氛围感爆棚）。",
+            "ja": "「갬성 카페」（エモいカフェ）；「사진 갬성 미쳤다」（写真のエモさやばい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인생샷",
+            "인생네컷"
+        ],
+        "tags": [
+            "chat",
+            "praise"
+        ]
+    },
+    "인생짤": {
+        "nuance": {
+            "en": "\"Life pic\": the single best photo or GIF of someone — the one fans save forever.",
+            "es": "\"Imagen de vida\": la mejor foto o GIF de alguien, la que los fans guardan para siempre.",
+            "zh": "「人生圖」：某人最好看的一張照片或動圖——粉絲會永久收藏的那張。",
+            "cn": "“人生图”：某人最好看的一张照片或动图——粉丝会永久收藏的那张。",
+            "ja": "「人生画像」。その人の最高の一枚（写真やGIF）。ファンが一生保存するもの。"
+        },
+        "usage": {
+            "en": "\"오늘 직캠에서 인생짤 나왔다\" (\"Today's fancam gave us a legendary pic\").",
+            "es": "\"오늘 직캠에서 인생짤 나왔다\" (\"El fancam de hoy nos dio una imagen legendaria\").",
+            "zh": "「오늘 직캠에서 인생짤 나왔다」（今天的直拍出了人生圖）。",
+            "cn": "“오늘 직캠에서 인생짤 나왔다”（今天的直拍出了人生图）。",
+            "ja": "「오늘 직캠에서 인생짤 나왔다」（今日の直カムから人生画像が出た）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인생샷",
+            "짤방",
+            "레전드"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ]
+    },
+    "얼굴천재": {
+        "nuance": {
+            "en": "\"Face genius\": someone so good-looking it's like a talent.",
+            "es": "\"Genio de la cara\": alguien tan atractivo que parece un talento.",
+            "zh": "「顏值天才」：好看到像是一種天賦。",
+            "cn": "“颜值天才”：好看到像是一种天赋。",
+            "ja": "「顔の天才」。才能レベルで顔が良い人。"
+        },
+        "usage": {
+            "en": "\"민낯도 얼굴천재\" (\"A face genius even barefaced\").",
+            "es": "\"민낯도 얼굴천재\" (\"Un genio de la belleza incluso sin maquillaje\").",
+            "zh": "「민낯도 얼굴천재」（素顏也是顏值天才）。",
+            "cn": "“민낯도 얼굴천재”（素颜也是颜值天才）。",
+            "ja": "「민낯도 얼굴천재」（すっぴんでも顔の天才）。"
+        },
+        "register": "casual",
+        "similar": [
+            "비주얼",
+            "만찢",
+            "낫닝겐"
+        ],
+        "tags": [
+            "praise",
+            "kpop-fan"
+        ]
+    },
+    "인싸": {
+        "nuance": {
+            "en": "Short for \"insider\": a sociable, popular person who's always in the middle of things.",
+            "es": "Abreviatura de \"insider\": una persona sociable y popular que siempre está en el centro de todo.",
+            "zh": "「insider」的縮寫：交際廣、人緣好、總在圈子中心的人。",
+            "cn": "“insider”的缩写：交际广、人缘好、总在圈子中心的人。",
+            "ja": "「インサイダー」の略。社交的で人気があり、いつも輪の中心にいる人。"
+        },
+        "usage": {
+            "en": "Also for trendy things: \"요즘 인싸템\" (\"the item all the cool kids have\").",
+            "es": "También para cosas de moda: \"요즘 인싸템\" (\"el artículo que tienen todos los populares\").",
+            "zh": "也能形容流行的東西：「요즘 인싸템」（最近的潮人必備單品）。",
+            "cn": "也能形容流行的东西：“요즘 인싸템”（最近的潮人必备单品）。",
+            "ja": "流行りの物にも：「요즘 인싸템」（最近の陽キャアイテム）。"
+        },
+        "register": "casual",
+        "similar": [
+            "아싸",
+            "핵인싸",
+            "인싸력"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "아싸": {
+        "nuance": {
+            "en": "Short for \"outsider\": someone who keeps to themselves — often used proudly or self-mockingly.",
+            "es": "Abreviatura de \"outsider\": alguien que prefiere estar solo; a menudo se dice con orgullo o en broma sobre uno mismo.",
+            "zh": "「outsider」的縮寫：不太合群、喜歡獨處的人——常帶自豪或自嘲。",
+            "cn": "“outsider”的缩写：不太合群、喜欢独处的人——常带自豪或自嘲。",
+            "ja": "「アウトサイダー」の略。輪に入らず一人を好む人。誇らしげに、または自虐的に使う。"
+        },
+        "usage": {
+            "en": "\"나 아싸라 단톡방 알림 꺼 놨어\" (\"I'm an outsider, so I muted the group chat\").",
+            "es": "\"나 아싸라 단톡방 알림 꺼 놨어\" (\"Soy antisocial, así que silencié el chat grupal\").",
+            "zh": "「나 아싸라 단톡방 알림 꺼 놨어」（我是邊緣人，把群組通知關了）。",
+            "cn": "“나 아싸라 단톡방 알림 꺼 놨어”（我是边缘人，把群组通知关了）。",
+            "ja": "「나 아싸라 단톡방 알림 꺼 놨어」（陰キャだからグループチャットの通知切ってる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인싸",
+            "혼놀",
+            "극I"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "존맛탱": {
+        "nuance": {
+            "en": "Insanely delicious. The 존 comes from a crude intensifier, so it's casual — 존맛 for short.",
+            "es": "Deliciosísimo. El 존 viene de un intensificador vulgar, así que es muy casual; corto: 존맛.",
+            "zh": "超級好吃。존來自粗俗的強調詞，所以很口語——簡稱존맛。",
+            "cn": "超级好吃。존来自粗俗的强调词，所以很口语——简称존맛。",
+            "ja": "めちゃくちゃ美味しい。존は下品な強調語から来ているのでくだけた言い方。略して존맛。"
+        },
+        "usage": {
+            "en": "\"여기 떡볶이 존맛탱\" (\"The tteokbokki here is unreal\"). Gentler alternatives: 맛있다, 맛꿀마.",
+            "es": "\"여기 떡볶이 존맛탱\" (\"El tteokbokki de aquí es una locura\"). Opciones más suaves: 맛있다, 맛꿀마.",
+            "zh": "「여기 떡볶이 존맛탱」（這家辣炒年糕超好吃）。比較溫和的說法：맛있다、맛꿀마。",
+            "cn": "“여기 떡볶이 존맛탱”（这家辣炒年糕超好吃）。比较温和的说法：맛있다、맛꿀마。",
+            "ja": "「여기 떡볶이 존맛탱」（ここのトッポッキ激うま）。穏やかな言い方は맛있다、맛꿀마。"
+        },
+        "register": "casual",
+        "similar": [
+            "맛꿀마",
+            "군싹",
+            "맛집"
+        ],
+        "tags": [
+            "food",
+            "praise"
+        ]
+    },
+    "갓띵작": {
+        "nuance": {
+            "en": "God + 띵작 (명작, \"masterpiece,\" respelled because 띵 looks like 명): an all-time great.",
+            "es": "God + 띵작 (명작, \"obra maestra\", reescrita porque 띵 se parece a 명): una obra legendaria.",
+            "zh": "God＋띵작（명작「名作」，因為띵長得像명而改寫）：神作。",
+            "cn": "God＋띵작（명작“名作”，因为띵长得像명而改写）：神作。",
+            "ja": "God＋띵작（명작＝名作。띵が명に見えることから）。神作品。"
+        },
+        "usage": {
+            "en": "\"이 드라마 갓띵작이야, 무조건 봐\" (\"This drama is a god-tier masterpiece — just watch it\").",
+            "es": "\"이 드라마 갓띵작이야, 무조건 봐\" (\"Este drama es una obra maestra, tienes que verlo\").",
+            "zh": "「이 드라마 갓띵작이야, 무조건 봐」（這部劇是神作，一定要看）。",
+            "cn": "“이 드라마 갓띵작이야, 무조건 봐”（这部剧是神作，一定要看）。",
+            "ja": "「이 드라마 갓띵작이야, 무조건 봐」（このドラマは神作、絶対見て）。"
+        },
+        "register": "casual",
+        "similar": [
+            "명작",
+            "인생작",
+            "야민정음"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "오운완": {
+        "nuance": {
+            "en": "Short for 오늘 운동 완료: \"today's workout, done\" — the classic caption for gym selfies.",
+            "es": "Abreviatura de 오늘 운동 완료: \"entrenamiento de hoy, hecho\"; la leyenda clásica de las selfies en el gym.",
+            "zh": "오늘 운동 완료（今日運動完成）的縮寫：健身自拍的經典標籤。",
+            "cn": "오늘 운동 완료（今日运动完成）的缩写：健身自拍的经典标签。",
+            "ja": "오늘 운동 완료（今日の運動完了）の略。ジム自撮りの定番キャプション。"
+        },
+        "usage": {
+            "en": "Often as a hashtag: #오운완.",
+            "es": "Suele usarse como hashtag: #오운완.",
+            "zh": "常當成標籤：#오운완。",
+            "cn": "常当成标签：#오운완。",
+            "ja": "ハッシュタグでよく使う：#오운완。"
+        },
+        "register": "casual",
+        "similar": [
+            "갓생",
+            "미라클모닝"
+        ],
+        "tags": [
+            "worklife",
+            "internet"
+        ]
+    },
+    "무물보": {
+        "nuance": {
+            "en": "Short for 무엇이든 물어보세요: \"ask me anything\" — opening up for followers' questions.",
+            "es": "Abreviatura de 무엇이든 물어보세요: \"pregúntame lo que quieras\"; abrir espacio a las preguntas de los seguidores.",
+            "zh": "무엇이든 물어보세요（什麼都可以問）的縮寫：開放粉絲提問。",
+            "cn": "무엇이든 물어보세요（什么都可以问）的缩写：开放粉丝提问。",
+            "ja": "무엇이든 물어보세요（何でも聞いてください）の略。フォロワーからの質問を受け付けること。"
+        },
+        "usage": {
+            "en": "\"스토리로 무물보 받아요\" (\"Taking questions via stories\").",
+            "es": "\"스토리로 무물보 받아요\" (\"Respondo preguntas por historias\").",
+            "zh": "「스토리로 무물보 받아요」（限時動態開放提問）。",
+            "cn": "“스토리로 무물보 받아요”（限时动态开放提问）。",
+            "ja": "「스토리로 무물보 받아요」（ストーリーで質問受付中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "TMI",
+            "소통"
+        ],
+        "tags": [
+            "internet",
+            "kpop-fan"
+        ]
+    },
+    "스불재": {
+        "nuance": {
+            "en": "Short for 스스로 불러온 재앙: \"a disaster you summoned yourself\" — trouble that's entirely your own fault.",
+            "es": "Abreviatura de 스스로 불러온 재앙: \"un desastre que tú mismo invocaste\"; un problema que es totalmente culpa tuya.",
+            "zh": "스스로 불러온 재앙（自己招來的災難）的縮寫：完全是自找的麻煩。",
+            "cn": "스스로 불러온 재앙（自己招来的灾难）的缩写：完全是自找的麻烦。",
+            "ja": "스스로 불러온 재앙（自ら招いた災い）の略。完全に自業自得のトラブル。"
+        },
+        "usage": {
+            "en": "\"새벽 3시에 라면 먹고 퉁퉁 부은 건 스불재\" (\"Eating ramyeon at 3 a.m. and waking up puffy is on me\").",
+            "es": "\"새벽 3시에 라면 먹고 퉁퉁 부은 건 스불재\" (\"Comer ramyeon a las 3 a. m. y despertar hinchada es culpa mía\").",
+            "zh": "「새벽 3시에 라면 먹고 퉁퉁 부은 건 스불재」（凌晨三點吃泡麵然後水腫，完全自找的）。",
+            "cn": "“새벽 3시에 라면 먹고 퉁퉁 부은 건 스불재”（凌晨三点吃方便面然后水肿，完全自找的）。",
+            "ja": "「새벽 3시에 라면 먹고 퉁퉁 부은 건 스불재」（夜中3時にラーメン食べてむくんだのは自業自得）。"
+        },
+        "register": "casual",
+        "similar": [
+            "현타",
+            "폭망",
+            "이생망"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "정색": {
+        "nuance": {
+            "en": "正色 — suddenly turning serious or stone-faced, often when a joke goes too far.",
+            "es": "正色: ponerse serio de golpe o con cara de piedra, a menudo cuando una broma se pasa.",
+            "zh": "正色——突然變得嚴肅、板起臉，常在玩笑開過頭時。",
+            "cn": "正色——突然变得严肃、板起脸，常在玩笑开过头时。",
+            "ja": "正色。急に真顔になること。冗談が行き過ぎた時によく起こる。"
+        },
+        "usage": {
+            "en": "\"장난인데 왜 정색해?\" (\"It was a joke — why so serious?\"). Variety shows love a sudden 정색 for laughs.",
+            "es": "\"장난인데 왜 정색해?\" (\"Era broma, ¿por qué te pones serio?\"). En variedades, un 정색 repentino da risa.",
+            "zh": "「장난인데 왜 정색해?」（開玩笑而已，幹嘛突然認真？）。綜藝很愛突然정색來搞笑。",
+            "cn": "“장난인데 왜 정색해?”（开玩笑而已，干嘛突然认真？）。综艺很爱突然정색来搞笑。",
+            "ja": "「장난인데 왜 정색해?」（冗談なのになんで真顔？）。バラエティでは急な真顔が笑いになる。"
+        },
+        "register": "everyday",
+        "similar": [
+            "갑분싸",
+            "급발진"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "불금": {
+        "nuance": {
+            "en": "Short for 불타는 금요일: \"burning Friday\" — Friday night, time to go out after the work week.",
+            "es": "Abreviatura de 불타는 금요일: \"viernes ardiente\", el viernes por la noche, hora de salir tras la semana laboral.",
+            "zh": "불타는 금요일（燃燒的星期五）的縮寫：週五晚上，工作一週後出去玩的時候。",
+            "cn": "불타는 금요일（燃烧的星期五）的缩写：周五晚上，工作一周后出去玩的时候。",
+            "ja": "불타는 금요일（燃える金曜日）の略。仕事終わりに遊びに出る金曜の夜。花金。"
+        },
+        "usage": {
+            "en": "\"불금인데 집에서 드라마 정주행 중\" (\"It's Friday night and I'm binge-watching at home\").",
+            "es": "\"불금인데 집에서 드라마 정주행 중\" (\"Es viernes por la noche y estoy viendo dramas en casa\").",
+            "zh": "「불금인데 집에서 드라마 정주행 중」（週五晚上在家追劇中）。",
+            "cn": "“불금인데 집에서 드라마 정주행 중”（周五晚上在家追剧中）。",
+            "ja": "「불금인데 집에서 드라마 정주행 중」（花金なのに家でドラマ一気見中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "칼퇴"
+        ],
+        "tags": [
+            "worklife",
+            "chat"
+        ]
+    },
+    "칼퇴": {
+        "nuance": {
+            "en": "칼 (knife-sharp, exact) + 퇴근 (leaving work): clocking out exactly on time.",
+            "es": "칼 (exacto como cuchillo) + 퇴근 (salir del trabajo): salir del trabajo justo a la hora.",
+            "zh": "칼（像刀一樣準）＋퇴근（下班）：準時下班。",
+            "cn": "칼（像刀一样准）＋퇴근（下班）：准时下班。",
+            "ja": "칼（ナイフのようにきっちり）＋퇴근（退勤）。定時ぴったりに退勤すること。"
+        },
+        "usage": {
+            "en": "\"오늘은 무조건 칼퇴한다\" (\"I'm leaving right on time today, no matter what\").",
+            "es": "\"오늘은 무조건 칼퇴한다\" (\"Hoy salgo a la hora sí o sí\").",
+            "zh": "「오늘은 무조건 칼퇴한다」（今天一定要準時下班）。",
+            "cn": "“오늘은 무조건 칼퇴한다”（今天一定要准时下班）。",
+            "ja": "「오늘은 무조건 칼퇴한다」（今日は絶対定時で帰る）。"
+        },
+        "culture": {
+            "en": "Long hours and unpaid overtime were long a norm in Korean offices, so leaving on time feels like a small victory worth naming.",
+            "es": "Las jornadas largas y las horas extra no pagadas fueron por mucho tiempo la norma en oficinas coreanas, así que salir a la hora es una pequeña victoria.",
+            "zh": "長工時和無薪加班長期是韓國職場常態，所以準時下班像是值得命名的小勝利。",
+            "cn": "长工时和无薪加班长期是韩国职场常态，所以准时下班像是值得命名的小胜利。",
+            "ja": "長時間労働やサービス残業が長く当たり前だった韓国の職場では、定時退勤は名前がつくほどの小さな勝利。"
+        },
+        "register": "casual",
+        "similar": [
+            "불금",
+            "사축",
+            "메신저감옥"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "사축": {
+        "nuance": {
+            "en": "社畜 — \"company livestock\" (borrowed from Japanese shachiku): a self-mocking term for an overworked office worker.",
+            "es": "社畜, \"ganado de empresa\" (del japonés shachiku): término burlón para un oficinista sobreexplotado.",
+            "zh": "社畜——「公司的牲畜」（來自日文）：上班族自嘲過勞的說法。",
+            "cn": "社畜——“公司的牲畜”（来自日文）：上班族自嘲过劳的说法。",
+            "ja": "社畜。日本語から入った言葉で、働かされすぎの会社員の自虐表現。"
+        },
+        "usage": {
+            "en": "\"오늘도 야근하는 사축의 하루\" (\"Another overtime day in the life of a corporate drone\").",
+            "es": "\"오늘도 야근하는 사축의 하루\" (\"Otro día de horas extra en la vida de un esclavo corporativo\").",
+            "zh": "「오늘도 야근하는 사축의 하루」（今天也在加班的社畜日常）。",
+            "cn": "“오늘도 야근하는 사축의 하루”（今天也在加班的社畜日常）。",
+            "ja": "「오늘도 야근하는 사축의 하루」（今日も残業する社畜の一日）。"
+        },
+        "register": "casual",
+        "similar": [
+            "칼퇴",
+            "메신저감옥",
+            "현타"
+        ],
+        "tags": [
+            "worklife",
+            "funny"
+        ]
+    },
+    "메신저감옥": {
+        "nuance": {
+            "en": "\"Messenger prison\": being trapped by work chats that keep coming after hours.",
+            "es": "\"Cárcel de mensajería\": estar atrapado por chats de trabajo que siguen llegando fuera del horario.",
+            "zh": "「通訊軟體監獄」：下班後還不斷收到工作訊息、無法脫身。",
+            "cn": "“通信软件监狱”：下班后还不断收到工作消息、无法脱身。",
+            "ja": "「メッセンジャー監獄」。退勤後も仕事のチャットが届き続けて逃げられない状態。"
+        },
+        "usage": {
+            "en": "\"퇴근했는데 단톡방 알림 계속 와, 메신저감옥이야\" (\"I left work, but the group chat won't stop — messenger prison\").",
+            "es": "\"퇴근했는데 단톡방 알림 계속 와, 메신저감옥이야\" (\"Ya salí del trabajo, pero el chat grupal no para; es una cárcel\").",
+            "zh": "「퇴근했는데 단톡방 알림 계속 와, 메신저감옥이야」（下班了群組還一直響，根本是訊息監獄）。",
+            "cn": "“퇴근했는데 단톡방 알림 계속 와, 메신저감옥이야”（下班了群组还一直响，根本是消息监狱）。",
+            "ja": "「퇴근했는데 단톡방 알림 계속 와, 메신저감옥이야」（退勤したのにグループの通知が止まらない、メッセンジャー監獄）。"
+        },
+        "register": "casual",
+        "similar": [
+            "칼퇴",
+            "사축"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "미라클모닝": {
+        "nuance": {
+            "en": "\"Miracle morning\": waking up very early to work out, read or study before the day starts.",
+            "es": "\"Mañana milagrosa\": despertarse muy temprano para hacer ejercicio, leer o estudiar antes de empezar el día.",
+            "zh": "「奇蹟早晨」：一大早起床運動、閱讀或讀書，再開始一天。",
+            "cn": "“奇迹早晨”：一大早起床运动、阅读或读书，再开始一天。",
+            "ja": "「ミラクルモーニング」。一日が始まる前に早起きして運動や読書、勉強をすること。"
+        },
+        "usage": {
+            "en": "\"미라클모닝 3일 차, 벌써 졸려\" (\"Day 3 of miracle mornings — already sleepy\").",
+            "es": "\"미라클모닝 3일 차, 벌써 졸려\" (\"Día 3 de mañanas milagrosas y ya tengo sueño\").",
+            "zh": "「미라클모닝 3일 차, 벌써 졸려」（奇蹟早晨第三天，已經好睏）。",
+            "cn": "“미라클모닝 3일 차, 벌써 졸려”（奇迹早晨第三天，已经好困）。",
+            "ja": "「미라클모닝 3일 차, 벌써 졸려」（ミラクルモーニング3日目、もう眠い）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "갓생",
+            "오운완"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "케바케": {
+        "nuance": {
+            "en": "Konglish for \"case by case\": it depends.",
+            "es": "Konglish de \"case by case\": depende.",
+            "zh": "韓式英文「case by case」：看情況。",
+            "cn": "韩式英文“case by case”：看情况。",
+            "ja": "和製英語ならぬ韓製英語の「case by case」。場合による。"
+        },
+        "usage": {
+            "en": "\"연애 스타일은 케바케지\" (\"Dating styles vary case by case\"). Similar: 사바사 (person by person).",
+            "es": "\"연애 스타일은 케바케지\" (\"Los estilos de pareja dependen de cada caso\"). Parecido: 사바사 (depende de la persona).",
+            "zh": "「연애 스타일은 케바케지」（戀愛風格要看情況）。類似說法：사바사（看人）。",
+            "cn": "“연애 스타일은 케바케지”（恋爱风格要看情况）。类似说法：사바사（看人）。",
+            "ja": "「연애 스타일은 케바케지」（恋愛スタイルはケースバイケース）。似た言葉に사바사（人による）。"
+        },
+        "register": "casual",
+        "similar": [
+            "취존"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "핑프": {
+        "nuance": {
+            "en": "Short for \"finger princess/prince\": someone too lazy to search, who asks others things they could easily look up.",
+            "es": "Abreviatura de \"finger princess/prince\": alguien demasiado flojo para buscar, que pregunta cosas que podría encontrar fácilmente.",
+            "zh": "「finger princess／prince」的縮寫：懶得自己查，一直問別人很容易查到的事。",
+            "cn": "“finger princess／prince”的缩写：懒得自己查，一直问别人很容易查到的事。",
+            "ja": "「フィンガープリンセス／プリンス」の略。自分で検索せず、簡単に調べられることを人に聞く人。"
+        },
+        "usage": {
+            "en": "\"검색하면 바로 나오잖아, 핑프야?\" (\"It's one search away — are you that lazy?\").",
+            "es": "\"검색하면 바로 나오잖아, 핑프야?\" (\"Sale con una búsqueda, ¿tanta flojera?\").",
+            "zh": "「검색하면 바로 나오잖아, 핑프야?」（一搜就有了，你是伸手牌嗎？）。",
+            "cn": "“검색하면 바로 나오잖아, 핑프야?”（一搜就有了，你是伸手牌吗？）。",
+            "ja": "「검색하면 바로 나오잖아, 핑프야?」（検索すればすぐ出るよ、ググらない人？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "뇌피셜",
+            "무물보"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "뇌섹남": {
+        "nuance": {
+            "en": "Short for 뇌가 섹시한 남자: \"a man with a sexy brain\" — attractive because he's smart and witty.",
+            "es": "Abreviatura de 뇌가 섹시한 남자: \"un hombre con un cerebro sexy\", atractivo por ser inteligente e ingenioso.",
+            "zh": "뇌가 섹시한 남자（大腦很性感的男人）的縮寫：因為聰明風趣而有魅力的男人。",
+            "cn": "뇌가 섹시한 남자（大脑很性感的男人）的缩写：因为聪明风趣而有魅力的男人。",
+            "ja": "뇌가 섹시한 남자（脳がセクシーな男）の略。頭が良くて機転が利くから魅力的な男性。"
+        },
+        "usage": {
+            "en": "\"퀴즈 다 맞히는 거 보니 뇌섹남이네\" (\"He got every quiz question right — such a brainy hottie\").",
+            "es": "\"퀴즈 다 맞히는 거 보니 뇌섹남이네\" (\"Acertó todas las preguntas, qué atractivo inteligente\").",
+            "zh": "「퀴즈 다 맞히는 거 보니 뇌섹남이네」（題目全答對，根本是腦性男）。",
+            "cn": "“퀴즈 다 맞히는 거 보니 뇌섹남이네”（题目全答对，根本是脑性男）。",
+            "ja": "「퀴즈 다 맞히는 거 보니 뇌섹남이네」（クイズ全問正解、脳がセクシーな男だね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "훈남",
+            "반전매력"
+        ],
+        "tags": [
+            "romance",
+            "praise"
+        ]
+    },
+    "갓벽": {
+        "nuance": {
+            "en": "God + 완벽 (perfect): absolutely flawless.",
+            "es": "God + 완벽 (perfecto): absolutamente impecable.",
+            "zh": "God＋완벽（完美）：完美到神級。",
+            "cn": "God＋완벽（完美）：完美到神级。",
+            "ja": "God＋완벽（完璧）。神レベルで完璧。"
+        },
+        "usage": {
+            "en": "\"라이브 음정 갓벽\" (\"Pitch-perfect live vocals\").",
+            "es": "\"라이브 음정 갓벽\" (\"Afinación en vivo perfecta\").",
+            "zh": "「라이브 음정 갓벽」（現場音準完美）。",
+            "cn": "“라이브 음정 갓벽”（现场音准完美）。",
+            "ja": "「라이브 음정 갓벽」（生歌の音程が神完璧）。"
+        },
+        "register": "casual",
+        "similar": [
+            "무결점",
+            "갓띵작",
+            "레전드"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "순삭": {
+        "nuance": {
+            "en": "Short for 순간 삭제: \"instantly deleted\" — time that vanishes because you're having fun.",
+            "es": "Abreviatura de 순간 삭제: \"borrado al instante\", el tiempo que desaparece porque te estás divirtiendo.",
+            "zh": "순간 삭제（瞬間刪除）的縮寫：玩得太開心，時間一下子就不見了。",
+            "cn": "순간 삭제（瞬间删除）的缩写：玩得太开心，时间一下子就不见了。",
+            "ja": "순간 삭제（瞬間削除）の略。楽しくて時間が一瞬で消えること。"
+        },
+        "usage": {
+            "en": "\"두 시간 순삭\" (\"Two hours gone in a blink\").",
+            "es": "\"두 시간 순삭\" (\"Dos horas se fueron volando\").",
+            "zh": "「두 시간 순삭」（兩個小時瞬間消失）。",
+            "cn": "“두 시간 순삭”（两个小时瞬间消失）。",
+            "ja": "「두 시간 순삭」（2時間が一瞬で消えた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정주행",
+            "몰입감"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "웃프다": {
+        "nuance": {
+            "en": "웃기다 (funny) + 슬프다 (sad): funny and sad at the same time.",
+            "es": "웃기다 (gracioso) + 슬프다 (triste): gracioso y triste al mismo tiempo.",
+            "zh": "웃기다（好笑）＋슬프다（悲傷）：又好笑又心酸。",
+            "cn": "웃기다（好笑）＋슬프다（悲伤）：又好笑又心酸。",
+            "ja": "웃기다（面白い）＋슬프다（悲しい）。笑えるけど悲しい。"
+        },
+        "usage": {
+            "en": "\"월급날 통장 보니까 웃프다\" (\"Looking at my bank account on payday is funny and sad\").",
+            "es": "\"월급날 통장 보니까 웃프다\" (\"Ver mi cuenta el día de pago es tragicómico\").",
+            "zh": "「월급날 통장 보니까 웃프다」（發薪日看存摺，又好笑又心酸）。",
+            "cn": "“월급날 통장 보니까 웃프다”（发薪日看存折，又好笑又心酸）。",
+            "ja": "「월급날 통장 보니까 웃프다」（給料日に通帳見ると笑えて悲しい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "안습",
+            "현타"
+        ],
+        "tags": [
+            "reaction",
+            "funny"
+        ]
+    },
+    "안물안궁": {
+        "nuance": {
+            "en": "Short for 안 물어봤고 안 궁금해: \"didn't ask, don't care\" — teasing or blunt.",
+            "es": "Abreviatura de 안 물어봤고 안 궁금해: \"no pregunté y no me interesa\", burlón o directo.",
+            "zh": "안 물어봤고 안 궁금해（沒問也不好奇）的縮寫：調侃或直接地說「沒人想知道」。",
+            "cn": "안 물어봤고 안 궁금해（没问也不好奇）的缩写：调侃或直接地说“没人想知道”。",
+            "ja": "안 물어봤고 안 궁금해（聞いてないし気にならない）の略。からかい、または率直に。"
+        },
+        "usage": {
+            "en": "Can sting, so mostly among close friends: \"안물안궁인데 계속 얘기하네 ㅋㅋ\" (\"Nobody asked, but you keep going lol\").",
+            "es": "Puede doler, así que se usa entre amigos cercanos: \"안물안궁인데 계속 얘기하네 ㅋㅋ\" (\"Nadie preguntó, pero sigues jaja\").",
+            "zh": "可能會傷人，多在好朋友之間用：「안물안궁인데 계속 얘기하네 ㅋㅋ」（沒人問你還一直講ㅋㅋ）。",
+            "cn": "可能会伤人，多在好朋友之间用：“안물안궁인데 계속 얘기하네 ㅋㅋ”（没人问你还一直讲ㅋㅋ）。",
+            "ja": "傷つけることもあるので親しい友達同士で：「안물안궁인데 계속 얘기하네 ㅋㅋ」（誰も聞いてないのに話し続けるww）。"
+        },
+        "register": "casual",
+        "similar": [
+            "TMI",
+            "노잼"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "복세편살": {
+        "nuance": {
+            "en": "Short for 복잡한 세상 편하게 살자: \"let's live easy in this complicated world\" — a relaxed life motto.",
+            "es": "Abreviatura de 복잡한 세상 편하게 살자: \"vivamos tranquilos en este mundo complicado\", un lema de vida relajado.",
+            "zh": "복잡한 세상 편하게 살자（複雜的世界輕鬆過）的縮寫：輕鬆的生活座右銘。",
+            "cn": "복잡한 세상 편하게 살자（复杂的世界轻松过）的缩写：轻松的生活座右铭。",
+            "ja": "복잡한 세상 편하게 살자（複雑な世の中、楽に生きよう）の略。肩の力を抜いた人生のモットー。"
+        },
+        "usage": {
+            "en": "\"고민하지 마, 복세편살\" (\"Don't overthink it — keep life simple\").",
+            "es": "\"고민하지 마, 복세편살\" (\"No le des tantas vueltas, vive tranquila\").",
+            "zh": "「고민하지 마, 복세편살」（別想太多，輕鬆過）。",
+            "cn": "“고민하지 마, 복세편살”（别想太多，轻松过）。",
+            "ja": "「고민하지 마, 복세편살」（悩まないで、気楽に生きよう）。"
+        },
+        "register": "casual",
+        "similar": [
+            "갓생",
+            "취존"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "별다줄": {
+        "nuance": {
+            "en": "Short for 별걸 다 줄인다: \"they abbreviate everything\" — a joke about Korea's love of shortening words.",
+            "es": "Abreviatura de 별걸 다 줄인다: \"lo abrevian todo\", un chiste sobre el gusto coreano por acortar palabras.",
+            "zh": "별걸 다 줄인다（什麼都要縮寫）的縮寫：吐槽韓國人愛縮寫的玩笑。",
+            "cn": "별걸 다 줄인다（什么都要缩写）的缩写：吐槽韩国人爱缩写的玩笑。",
+            "ja": "별걸 다 줄인다（何でも略す）の略。何でも略したがる韓国語への自虐ネタ。"
+        },
+        "usage": {
+            "en": "The joke is that 별다줄 itself is an abbreviation. \"이것까지 줄여? 별다줄이다\" (\"You shortened that too? Unbelievable\").",
+            "es": "La gracia es que 별다줄 también es una abreviatura. \"이것까지 줄여? 별다줄이다\" (\"¿Eso también lo abrevian? Increíble\").",
+            "zh": "笑點是별다줄本身也是縮寫。「이것까지 줄여? 별다줄이다」（連這個都縮？什麼都縮）。",
+            "cn": "笑点是별다줄本身也是缩写。“이것까지 줄여? 별다줄이다”（连这个都缩？什么都缩）。",
+            "ja": "별다줄自体が略語なのがオチ。「이것까지 줄여? 별다줄이다」（それまで略すの？何でも略すね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "급식체",
+            "야민정음"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "커엽다": {
+        "nuance": {
+            "en": "귀엽다 (cute) respelled: 귀 looks like 커 when squished — a 야민정음 joke.",
+            "es": "귀엽다 (lindo) reescrito: 귀 parece 커 si lo aplastas; un chiste de 야민정음.",
+            "zh": "귀엽다（可愛）的變形寫法：귀擠在一起看起來像커——야민정음式的玩笑。",
+            "cn": "귀엽다（可爱）的变形写法：귀挤在一起看起来像커——야민정음式的玩笑。",
+            "ja": "귀엽다（かわいい）の変形。귀を詰めると커に見えることから。야민정음の遊び。"
+        },
+        "usage": {
+            "en": "\"우리 강아지 너무 커엽다\" (\"My puppy is too cute\").",
+            "es": "\"우리 강아지 너무 커엽다\" (\"Mi perrito es demasiado lindo\").",
+            "zh": "「우리 강아지 너무 커엽다」（我家狗狗太可愛了）。",
+            "cn": "“우리 강아지 너무 커엽다”（我家狗狗太可爱了）。",
+            "ja": "「우리 강아지 너무 커엽다」（うちの犬かわいすぎる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "야민정음",
+            "오나전",
+            "세젤귀"
+        ],
+        "tags": [
+            "praise",
+            "internet"
+        ]
+    },
+    "카공족": {
+        "nuance": {
+            "en": "카페 (café) + 공부 (study) + 族 (tribe): people who study or work for hours at café tables.",
+            "es": "카페 (café) + 공부 (estudio) + 族 (tribu): gente que estudia o trabaja por horas en las mesas de un café.",
+            "zh": "카페（咖啡廳）＋공부（讀書）＋族：在咖啡廳一坐好幾小時讀書或工作的人。",
+            "cn": "카페（咖啡厅）＋공부（读书）＋族：在咖啡厅一坐好几小时读书或工作的人。",
+            "ja": "카페＋공부（勉強）＋族。カフェで何時間も勉強や仕事をする人たち。"
+        },
+        "usage": {
+            "en": "\"카공족 많아서 자리가 없어\" (\"Too many café-studiers — no seats left\").",
+            "es": "\"카공족 많아서 자리가 없어\" (\"Hay tantos estudiando en el café que no queda lugar\").",
+            "zh": "「카공족 많아서 자리가 없어」（咖啡廳讀書族太多，沒位子了）。",
+            "cn": "“카공족 많아서 자리가 없어”（咖啡厅读书族太多，没位子了）。",
+            "ja": "「카공족 많아서 자리가 없어」（カフェ勉強族が多くて席がない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "얼죽아",
+            "갓생"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "스세권": {
+        "nuance": {
+            "en": "Starbucks + 역세권 (\"near a subway station,\" a real-estate selling point): living within walking distance of a Starbucks.",
+            "es": "Starbucks + 역세권 (\"cerca del metro\", un argumento inmobiliario): vivir a una caminata de un Starbucks.",
+            "zh": "星巴克＋역세권（捷運生活圈，房地產賣點）：住在走路就到星巴克的地方。",
+            "cn": "星巴克＋역세권（捷运生活圈，房地产卖点）：住在走路就到星巴克的地方。",
+            "ja": "スタバ＋역세권（駅近、不動産の売り文句）。スターバックスまで歩いて行ける所に住んでいること。"
+        },
+        "usage": {
+            "en": "Other -세권 jokes: 편세권 (near a convenience store), 숲세권 (near a forest/park).",
+            "es": "Otros chistes con -세권: 편세권 (cerca de una tienda de conveniencia), 숲세권 (cerca de un bosque o parque).",
+            "zh": "其他-세권玩笑：편세권（便利商店生活圈）、숲세권（森林公園生活圈）。",
+            "cn": "其他-세권玩笑：편세권（便利商店生活圈）、숲세권（森林公园生活圈）。",
+            "ja": "他にも-세권のネタ：편세권（コンビニ近）、숲세권（森・公園近）。"
+        },
+        "register": "casual",
+        "similar": [
+            "얼죽아",
+            "카공족"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "갓성비": {
+        "nuance": {
+            "en": "God + 가성비 (value for money): unbelievably good value.",
+            "es": "God + 가성비 (relación calidad-precio): una relación calidad-precio increíble.",
+            "zh": "God＋가성비（CP值）：CP值高到不可思議。",
+            "cn": "God＋가성비（CP值）：CP值高到不可思议。",
+            "ja": "God＋가성비（コスパ）。信じられないほどコスパが良い。"
+        },
+        "usage": {
+            "en": "\"이 가격에 이 퀄리티? 갓성비다\" (\"This quality for this price? Insane value\").",
+            "es": "\"이 가격에 이 퀄리티? 갓성비다\" (\"¿Esta calidad a este precio? Una ganga total\").",
+            "zh": "「이 가격에 이 퀄리티? 갓성비다」（這價格這品質？神級CP值）。",
+            "cn": "“이 가격에 이 퀄리티? 갓성비다”（这价格这品质？神级CP值）。",
+            "ja": "「이 가격에 이 퀄리티? 갓성비다」（この値段でこのクオリティ？神コスパ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "혜자스럽다"
+        ],
+        "tags": [
+            "praise",
+            "food"
+        ]
+    },
+    "혜자스럽다": {
+        "nuance": {
+            "en": "\"Hye-ja-like\": generous, great value for the money. It comes from a convenience-store lunch box launched in 2010 with actress Kim Hye-ja, known for packing in a lot for a low price.",
+            "es": "\"Como Hye-ja\": generoso, gran relación calidad-precio. Viene de una lonchera de tienda de conveniencia lanzada en 2010 con la actriz Kim Hye-ja, conocida por traer mucho a bajo precio.",
+            "zh": "「惠子式的」：份量大方、CP值超高。源自2010年與演員金惠子合作推出、以便宜又豐盛聞名的便利商店便當。",
+            "cn": "“惠子式的”：份量大方、CP值超高。源自2010年与演员金惠子合作推出、以便宜又丰盛闻名的便利商店便当。",
+            "ja": "「ヘジャっぽい」。量が多くてコスパ抜群なこと。2010年に女優キム・ヘジャさんと発売された、安くてボリュームたっぷりのコンビニ弁当が由来。"
+        },
+        "usage": {
+            "en": "\"반찬 리필 무한? 혜자스럽다\" (\"Unlimited side-dish refills? So generous\"). Short form: 혜자.",
+            "es": "\"반찬 리필 무한? 혜자스럽다\" (\"¿Guarniciones ilimitadas? Qué generoso\"). Forma corta: 혜자.",
+            "zh": "「반찬 리필 무한? 혜자스럽다」（小菜無限續？太佛心了）。簡稱혜자。",
+            "cn": "“반찬 리필 무한? 혜자스럽다”（小菜无限续？太佛心了）。简称혜자。",
+            "ja": "「반찬 리필 무한? 혜자스럽다」（おかずおかわり無限？太っ腹）。略して혜자。"
+        },
+        "register": "casual",
+        "similar": [
+            "갓성비",
+            "맛집"
+        ],
+        "tags": [
+            "food",
+            "praise"
+        ],
+        "sources": [
+            {
+                "title": "고물가에 간편식 인기, 편의점 업계 '가성비 도시락' 전쟁",
+                "publisher": "매일신문 (Maeil Shinmun)",
+                "date": "2023-04-10",
+                "url": "https://www.imaeil.com/page/view/2023041010270842031"
+            }
+        ]
+    },
+    "인생샷": {
+        "nuance": {
+            "en": "\"Life shot\": the best photo you've ever taken (or had taken) of yourself.",
+            "es": "\"Foto de vida\": la mejor foto que te has tomado (o te han tomado).",
+            "zh": "「人生照」：自己拍過（或被拍過）最好看的照片。",
+            "cn": "“人生照”：自己拍过（或被拍过）最好看的照片。",
+            "ja": "「人生ショット」。今までで一番よく撮れた自分の写真。"
+        },
+        "usage": {
+            "en": "Cafés and spots advertise it: \"인생샷 명소\" (\"a spot for once-in-a-lifetime photos\").",
+            "es": "Cafés y lugares lo anuncian: \"인생샷 명소\" (\"el lugar para la foto de tu vida\").",
+            "zh": "咖啡廳和景點會打廣告：「인생샷 명소」（人生照名所）。",
+            "cn": "咖啡厅和景点会打广告：“인생샷 명소”（人生照名所）。",
+            "ja": "カフェや観光地の宣伝文句に：「인생샷 명소」（人生ショットの名所）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인생짤",
+            "인생네컷",
+            "갬성"
+        ],
+        "tags": [
+            "chat",
+            "praise"
+        ]
+    },
+    "맛집": {
+        "nuance": {
+            "en": "맛 (taste) + 집 (place): a restaurant known for great food. Also used as \"a place that's great at something.\"",
+            "es": "맛 (sabor) + 집 (lugar): un restaurante famoso por su comida. También \"un lugar muy bueno en algo\".",
+            "zh": "맛（味道）＋집（店）：以好吃出名的餐廳。也引申為「某方面很強的地方」。",
+            "cn": "맛（味道）＋집（店）：以好吃出名的餐厅。也引申为“某方面很强的地方”。",
+            "ja": "맛（味）＋집（店）。美味しいと評判の店。転じて「〇〇の名店」の意味でも使う。"
+        },
+        "usage": {
+            "en": "\"숨은 맛집\" (\"a hidden gem\"); figurative: \"수록곡 맛집\" (\"an album full of great B-sides\").",
+            "es": "\"숨은 맛집\" (\"una joya escondida\"); en sentido figurado: \"수록곡 맛집\" (\"un álbum lleno de buenas canciones\").",
+            "zh": "「숨은 맛집」（隱藏版美食店）；比喻用法：「수록곡 맛집」（收錄曲寶庫）。",
+            "cn": "“숨은 맛집”（隐藏版美食店）；比喻用法：“수록곡 맛집”（收录曲宝库）。",
+            "ja": "「숨은 맛집」（隠れた名店）；比喩的に「수록곡 맛집」（収録曲の名店）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "존맛탱",
+            "콘텐츠맛집",
+            "군싹"
+        ],
+        "tags": [
+            "food"
+        ]
+    },
+    "오지랖": {
+        "nuance": {
+            "en": "Originally the front flap of a traditional coat; now meddling — butting into other people's business.",
+            "es": "Originalmente el faldón delantero de un abrigo tradicional; hoy, meterse en asuntos ajenos.",
+            "zh": "原指傳統外衣的前襟；現在指多管閒事。",
+            "cn": "原指传统外衣的前襟；现在指多管闲事。",
+            "ja": "もとは伝統衣装の前身頃。今はおせっかい、他人のことに首を突っ込むこと。"
+        },
+        "usage": {
+            "en": "\"오지랖 넓다\" (\"to be nosy,\" literally \"a wide flap\"): \"결혼 언제 하냐니, 오지랖이야\" (\"Asking when I'll marry? That's none of your business\").",
+            "es": "\"오지랖 넓다\" (\"ser metiche\", literalmente \"faldón ancho\"): \"결혼 언제 하냐니, 오지랖이야\" (\"¿Preguntar cuándo me caso? Eso no te incumbe\").",
+            "zh": "「오지랖 넓다」（愛管閒事，字面是「前襟很寬」）：「결혼 언제 하냐니, 오지랖이야」（問我什麼時候結婚？管太多了）。",
+            "cn": "“오지랖 넓다”（爱管闲事，字面是“前襟很宽”）：“결혼 언제 하냐니, 오지랖이야”（问我什么时候结婚？管太多了）。",
+            "ja": "「오지랖 넓다」（おせっかい、直訳は「前身頃が広い」）：「결혼 언제 하냐니, 오지랖이야」（いつ結婚するって？余計なお世話）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "프로불편러",
+            "TMI"
+        ],
+        "tags": [
+            "chat",
+            "annoyed"
+        ]
+    },
+    "넘사벽": {
+        "nuance": {
+            "en": "Short for 넘을 수 없는 4차원의 벽: \"a fourth-dimensional wall you can't climb\" — a level no one else can reach.",
+            "es": "Abreviatura de 넘을 수 없는 4차원의 벽: \"un muro de cuarta dimensión imposible de escalar\", un nivel que nadie más alcanza.",
+            "zh": "넘을 수 없는 4차원의 벽（無法跨越的四次元之牆）的縮寫：別人望塵莫及的程度。",
+            "cn": "넘을 수 없는 4차원의 벽（无法跨越的四次元之墙）的缩写：别人望尘莫及的程度。",
+            "ja": "넘을 수 없는 4차원의 벽（越えられない4次元の壁）の略。誰も届かないレベル。"
+        },
+        "usage": {
+            "en": "\"춤 실력은 넘사벽\" (\"Her dancing is in another league\").",
+            "es": "\"춤 실력은 넘사벽\" (\"Su baile está en otra liga\").",
+            "zh": "「춤 실력은 넘사벽」（舞蹈實力望塵莫及）。",
+            "cn": "“춤 실력은 넘사벽”（舞蹈实力望尘莫及）。",
+            "ja": "「춤 실력은 넘사벽」（ダンスの実力は別次元）。"
+        },
+        "register": "casual",
+        "similar": [
+            "낫닝겐",
+            "만렙",
+            "클라스"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "급발진": {
+        "nuance": {
+            "en": "急發進 — \"sudden unintended acceleration\" (a car malfunction): an abrupt, over-the-top emotional reaction.",
+            "es": "急發進, \"aceleración repentina\" (una falla de auto): una reacción emocional abrupta y exagerada.",
+            "zh": "急發進——「暴衝」（汽車故障）：突然、過度的情緒反應。",
+            "cn": "急发进——“暴冲”（汽车故障）：突然、过度的情绪反应。",
+            "ja": "急発進（車の暴走）から。急に感情が爆発する、過剰な反応。"
+        },
+        "usage": {
+            "en": "\"갑자기 왜 급발진이야?\" (\"Why'd you suddenly blow up?\").",
+            "es": "\"갑자기 왜 급발진이야?\" (\"¿Por qué explotaste de repente?\").",
+            "zh": "「갑자기 왜 급발진이야?」（幹嘛突然暴走？）。",
+            "cn": "“갑자기 왜 급발진이야?”（干嘛突然暴走？）。",
+            "ja": "「갑자기 왜 급발진이야?」（なんで急にキレてるの？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "정색",
+            "급짜증"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "프로불편러": {
+        "nuance": {
+            "en": "\"Pro\" + 불편 (uncomfortable) + \"-er\": someone who habitually finds something to be offended by online.",
+            "es": "\"Pro\" + 불편 (incómodo) + \"-er\": alguien que siempre encuentra algo que le ofende en internet.",
+            "zh": "「Pro」＋불편（不舒服）＋「-er」：在網路上總能找到東西不爽的人。",
+            "cn": "“Pro”＋불편（不舒服）＋“-er”：在网络上总能找到东西不爽的人。",
+            "ja": "「プロ」＋불편（不快）＋「-er」。ネットで何にでも文句をつける人。"
+        },
+        "usage": {
+            "en": "Often used to dismiss criticism, so it can be unfair: \"프로불편러 등장\" (\"Here comes the professional complainer\").",
+            "es": "Suele usarse para descartar críticas, así que puede ser injusto: \"프로불편러 등장\" (\"Llegó el quejón profesional\").",
+            "zh": "常被拿來否定批評，所以有時不公平：「프로불편러 등장」（職業不爽人出現了）。",
+            "cn": "常被拿来否定批评，所以有时不公平：“프로불편러 등장”（职业不爽人出现了）。",
+            "ja": "批判を退けるのに使われがちなので不公平なことも：「프로불편러 등장」（プロの不快民登場）。"
+        },
+        "register": "casual",
+        "similar": [
+            "오지랖",
+            "무개념"
+        ],
+        "tags": [
+            "internet",
+            "annoyed"
+        ]
+    },
+    "무개념": {
+        "nuance": {
+            "en": "無概念 — clueless about basic manners: thoughtless or inconsiderate behavior.",
+            "es": "無概念: sin noción de los modales básicos, comportamiento desconsiderado.",
+            "zh": "無概念——沒常識、不顧別人感受。",
+            "cn": "无概念——没常识、不顾别人感受。",
+            "ja": "無概念。基本的なマナーをわきまえない、非常識な振る舞い。"
+        },
+        "usage": {
+            "en": "\"공연 중에 사진 찍는 무개념 관객\" (\"thoughtless audience members taking photos mid-show\").",
+            "es": "\"공연 중에 사진 찍는 무개념 관객\" (\"espectadores desconsiderados que toman fotos en pleno show\").",
+            "zh": "「공연 중에 사진 찍는 무개념 관객」（演出中拍照的沒常識觀眾）。",
+            "cn": "“공연 중에 사진 찍는 무개념 관객”（演出中拍照的没常识观众）。",
+            "ja": "「공연 중에 사진 찍는 무개념 관객」（公演中に写真を撮る非常識な観客）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "프로불편러",
+            "극혐",
+            "낄끼빠빠"
+        ],
+        "tags": [
+            "annoyed"
+        ]
+    },
+    "웃음벨": {
+        "nuance": {
+            "en": "\"Laugh bell\": someone or something that sets everyone off laughing every time.",
+            "es": "\"Campana de risa\": alguien o algo que hace reír a todos cada vez.",
+            "zh": "「笑點鈴」：每次一出現就讓大家笑出來的人或事。",
+            "cn": "“笑点铃”：每次一出现就让大家笑出来的人或事。",
+            "ja": "「笑いのベル」。毎回みんなを笑わせる人や物。"
+        },
+        "usage": {
+            "en": "\"막내가 우리 그룹 웃음벨이야\" (\"The youngest is our group's laugh trigger\").",
+            "es": "\"막내가 우리 그룹 웃음벨이야\" (\"El menor es el que nos hace reír a todos\").",
+            "zh": "「막내가 우리 그룹 웃음벨이야」（忙內是我們團的笑點）。",
+            "cn": "“막내가 우리 그룹 웃음벨이야”（忙内是我们团的笑点）。",
+            "ja": "「막내가 우리 그룹 웃음벨이야」（マンネがうちのグループの笑いのスイッチ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "예능감",
+            "드립력"
+        ],
+        "tags": [
+            "funny",
+            "praise"
+        ]
+    },
+    "핵실화": {
+        "nuance": {
+            "en": "핵 (nuclear, \"super\") + 실화 (true story): unbelievably real — \"this actually happened?!\"",
+            "es": "핵 (nuclear, \"súper\") + 실화 (historia real): increíblemente real, \"¡¿esto pasó de verdad?!\"",
+            "zh": "핵（核，超級）＋실화（真實故事）：真實到不可思議——「這是真的？！」",
+            "cn": "핵（核，超级）＋실화（真实故事）：真实到不可思议——“这是真的？！”",
+            "ja": "핵（核＝超）＋실화（実話）。信じられないほど本当の話、「これマジ？！」"
+        },
+        "usage": {
+            "en": "\"이거 핵실화임\" (\"This 100% really happened\").",
+            "es": "\"이거 핵실화임\" (\"Esto pasó de verdad, en serio\").",
+            "zh": "「이거 핵실화임」（這絕對是真事）。",
+            "cn": "“이거 핵실화임”（这绝对是真事）。",
+            "ja": "「이거 핵실화임」（これガチの実話）。"
+        },
+        "register": "casual",
+        "similar": [
+            "실화냐",
+            "레알"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "레알": {
+        "nuance": {
+            "en": "From \"real\" (as in Real Madrid's spelling): \"for real,\" \"seriously.\" Same as ㄹㅇ.",
+            "es": "De \"real\" (como en Real Madrid): \"de verdad\", \"en serio\". Igual que ㄹㅇ.",
+            "zh": "來自「real」（像皇家馬德里的拼法）：「真的」「認真的」。和ㄹㅇ一樣。",
+            "cn": "来自“real”（像皇家马德里的拼法）：“真的”“认真的”。和ㄹㅇ一样。",
+            "ja": "「real」（レアル・マドリードの綴りから）。「マジで」「本当に」。ㄹㅇと同じ。"
+        },
+        "usage": {
+            "en": "\"레알 맛있어\" (\"It's seriously delicious\"). A bit older; ㄹㅇ is more common now.",
+            "es": "\"레알 맛있어\" (\"Está buenísimo, en serio\"). Algo más antiguo; hoy es más común ㄹㅇ.",
+            "zh": "「레알 맛있어」（真的好吃）。有點舊了，現在比較常用ㄹㅇ。",
+            "cn": "“레알 맛있어”（真的好吃）。有点旧了，现在比较常用ㄹㅇ。",
+            "ja": "「레알 맛있어」（マジで美味しい）。少し古めで、今はㄹㅇの方がよく使われる。"
+        },
+        "register": "casual",
+        "similar": [
+            "ㄹㅇ",
+            "핵실화"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "대박사건": {
+        "nuance": {
+            "en": "대박 + 事件: huge news — something shocking or exciting that just happened.",
+            "es": "대박 + 事件: una noticia enorme, algo impactante o emocionante que acaba de pasar.",
+            "zh": "대박＋事件：大事件——剛發生的驚人或令人興奮的事。",
+            "cn": "대박＋事件：大事件——刚发生的惊人或令人兴奋的事。",
+            "ja": "대박＋事件。大事件。今起きたばかりの衝撃的な、またはワクワクする出来事。"
+        },
+        "usage": {
+            "en": "\"대박사건! 최애가 우리 나라 온대!\" (\"Huge news! My bias is coming to our country!\").",
+            "es": "\"대박사건! 최애가 우리 나라 온대!\" (\"¡Noticia bomba! ¡Mi bias viene a nuestro país!\").",
+            "zh": "「대박사건! 최애가 우리 나라 온대!」（大事件！本命要來我們國家！）。",
+            "cn": "“대박사건! 최애가 우리 나라 온대!”（大事件！本命要来我们国家！）。",
+            "ja": "「대박사건! 최애가 우리 나라 온대!」（大事件！推しがうちの国に来るって！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "대박",
+            "헐",
+            "핵실화"
+        ],
+        "tags": [
+            "surprise",
+            "reaction"
+        ]
+    },
+    "미쳤다": {
+        "nuance": {
+            "en": "\"It's crazy\": the go-to reaction for anything amazing — usually praise, not an insult.",
+            "es": "\"Es una locura\": la reacción típica ante algo increíble; casi siempre un elogio, no un insulto.",
+            "zh": "「瘋了」：看到超厲害的東西時的必備反應——通常是稱讚，不是罵人。",
+            "cn": "“疯了”：看到超厉害的东西时的必备反应——通常是称赞，不是骂人。",
+            "ja": "「やばい」。すごいものへの定番リアクション。たいていほめ言葉で、悪口ではない。"
+        },
+        "usage": {
+            "en": "\"이번 무대 미쳤다\" (\"This stage is insane\"). Saying it directly to a person (\"너 미쳤어?\") is a different story.",
+            "es": "\"이번 무대 미쳤다\" (\"Esta presentación está de locos\"). Decírselo a alguien (\"너 미쳤어?\") es otra cosa.",
+            "zh": "「이번 무대 미쳤다」（這次舞台瘋了）。直接對人說「너 미쳤어?」（你瘋了嗎？）就是另一回事了。",
+            "cn": "“이번 무대 미쳤다”（这次舞台疯了）。直接对人说“너 미쳤어?”（你疯了吗？）就是另一回事了。",
+            "ja": "「이번 무대 미쳤다」（今回のステージやばい）。人に直接「너 미쳤어?」（頭おかしいの？）と言うのは別。"
+        },
+        "register": "casual",
+        "similar": [
+            "실화냐",
+            "대박",
+            "오지다"
+        ],
+        "tags": [
+            "reaction",
+            "praise"
+        ]
+    },
+    "실화냐": {
+        "nuance": {
+            "en": "\"Is this a true story?\": disbelief at something too good, too bad or too absurd to be real.",
+            "es": "\"¿Es una historia real?\": incredulidad ante algo demasiado bueno, malo o absurdo para ser verdad.",
+            "zh": "「這是真的嗎？」：對好到、糟到或荒謬到不像真的事情表示不敢相信。",
+            "cn": "“这是真的吗？”：对好到、糟到或荒谬到不像真的事情表示不敢相信。",
+            "ja": "「これ実話？」。良すぎる、ひどすぎる、ありえなさすぎることへの驚き。"
+        },
+        "usage": {
+            "en": "\"이 비주얼 실화냐\" (\"Are these looks even real?\").",
+            "es": "\"이 비주얼 실화냐\" (\"¿Esta belleza es real?\").",
+            "zh": "「이 비주얼 실화냐」（這顏值是真的嗎？）。",
+            "cn": "“이 비주얼 실화냐”（这颜值是真的吗？）。",
+            "ja": "「이 비주얼 실화냐」（このビジュアル実在する？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "핵실화",
+            "헐",
+            "미쳤다"
+        ],
+        "tags": [
+            "reaction",
+            "surprise"
+        ]
+    },
+    "샤갈": {
+        "nuance": {
+            "en": "An exclamation of annoyance — a softened twist on a strong Korean swear word, so it's still rude.",
+            "es": "Una exclamación de fastidio, una versión suavizada de una grosería fuerte en coreano; sigue siendo grosero.",
+            "zh": "表示煩躁的感嘆詞——是韓語一句重髒話的委婉變形，所以還是不禮貌。",
+            "cn": "表示烦躁的感叹词——是韩语一句重脏话的委婉变形，所以还是不礼貌。",
+            "ja": "イライラを表す感嘆詞。強い罵り言葉をやわらげた形だが、失礼なのは変わらない。"
+        },
+        "usage": {
+            "en": "Only among very close friends: \"아 샤갈, 또 버스 놓쳤어\" (\"Ugh, missed the bus again\").",
+            "es": "Solo entre amigos muy cercanos: \"아 샤갈, 또 버스 놓쳤어\" (\"Ay, perdí el bus otra vez\").",
+            "zh": "只在很熟的朋友間用：「아 샤갈, 또 버스 놓쳤어」（可惡，又錯過公車了）。",
+            "cn": "只在很熟的朋友间用：“아 샤갈, 또 버스 놓쳤어”（可恶，又错过公车了）。",
+            "ja": "ごく親しい友達の間だけで：「아 샤갈, 또 버스 놓쳤어」（くそ、またバス逃した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "급짜증",
+            "노답"
+        ],
+        "tags": [
+            "annoyed",
+            "chat"
+        ]
+    },
+    "인생작": {
+        "nuance": {
+            "en": "\"Life work\": the drama, movie or book that means the most to you of all time.",
+            "es": "\"Obra de vida\": el drama, película o libro que más significa para ti de todos los tiempos.",
+            "zh": "「人生作品」：對你來說意義最重大的劇、電影或書。",
+            "cn": "“人生作品”：对你来说意义最重大的剧、电影或书。",
+            "ja": "「人生作」。一生で一番大切なドラマ、映画、本。"
+        },
+        "usage": {
+            "en": "\"이 드라마가 내 인생작이야\" (\"This drama is my all-time favorite\").",
+            "es": "\"이 드라마가 내 인생작이야\" (\"Este drama es mi favorito de toda la vida\").",
+            "zh": "「이 드라마가 내 인생작이야」（這部劇是我的人生劇）。",
+            "cn": "“이 드라마가 내 인생작이야”（这部剧是我的人生剧）。",
+            "ja": "「이 드라마가 내 인생작이야」（このドラマが私の人生作）。"
+        },
+        "register": "casual",
+        "similar": [
+            "명작",
+            "인생곡",
+            "갓띵작"
+        ],
+        "tags": [
+            "favorites",
+            "drama"
+        ]
+    },
+    "최애캐": {
+        "nuance": {
+            "en": "최애 + 캐릭터: your favorite character in a drama, webtoon, anime or game.",
+            "es": "최애 + 캐릭터: tu personaje favorito de un drama, webtoon, anime o juego.",
+            "zh": "최애＋캐릭터（角色）：劇、網漫、動畫或遊戲中最愛的角色。",
+            "cn": "최애＋캐릭터（角色）：剧、网漫、动画或游戏中最爱的角色。",
+            "ja": "최애＋캐릭터（キャラクター）。ドラマやウェブトゥーン、アニメ、ゲームの推しキャラ。"
+        },
+        "usage": {
+            "en": "\"최애캐가 죽어서 오열했어\" (\"My favorite character died and I sobbed\").",
+            "es": "\"최애캐가 죽어서 오열했어\" (\"Murió mi personaje favorito y lloré a mares\").",
+            "zh": "「최애캐가 죽어서 오열했어」（最愛角色死了，我大哭）。",
+            "cn": "“최애캐가 죽어서 오열했어”（最爱角色死了，我大哭）。",
+            "ja": "「최애캐가 죽어서 오열했어」（推しキャラが死んで号泣した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애",
+            "과몰입"
+        ],
+        "tags": [
+            "favorites",
+            "webtoon"
+        ]
+    },
+    "스압": {
+        "nuance": {
+            "en": "Short for 스크롤 압박: \"scroll pressure\" — a warning that a post is very long or image-heavy.",
+            "es": "Abreviatura de 스크롤 압박: \"presión de scroll\", aviso de que una publicación es muy larga o tiene muchas imágenes.",
+            "zh": "스크롤 압박（滾動壓力）的縮寫：提醒貼文很長或圖很多。",
+            "cn": "스크롤 압박（滚动压力）的缩写：提醒贴文很长或图很多。",
+            "ja": "스크롤 압박（スクロール圧迫）の略。投稿がとても長い、画像が多いという注意書き。"
+        },
+        "usage": {
+            "en": "In post titles: \"(스압) 콘서트 후기\" (\"[Long post] concert review\").",
+            "es": "En títulos: \"(스압) 콘서트 후기\" (\"[Publicación larga] reseña del concierto\").",
+            "zh": "放在標題：「(스압) 콘서트 후기」（[長文注意] 演唱會心得）。",
+            "cn": "放在标题：“(스압) 콘서트 후기”（[长文注意] 演唱会心得）。",
+            "ja": "タイトルに：「(스압) 콘서트 후기」（[長文注意] コンサートの感想）。"
+        },
+        "register": "casual",
+        "similar": [
+            "짤방",
+            "스포주의"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "오열": {
+        "nuance": {
+            "en": "嗚咽 — sobbing uncontrollably. Online it's an exaggerated way to say a scene made you cry.",
+            "es": "嗚咽: llorar sin control. En internet, una forma exagerada de decir que una escena te hizo llorar.",
+            "zh": "嗚咽——痛哭失聲。網路上是誇張地說某場戲讓你哭了。",
+            "cn": "呜咽——痛哭失声。网络上是夸张地说某场戏让你哭了。",
+            "ja": "嗚咽。声を上げて泣くこと。ネットではシーンに泣かされたことを大げさに言う時に。"
+        },
+        "usage": {
+            "en": "\"마지막 회 보고 오열함\" (\"I sobbed through the finale\").",
+            "es": "\"마지막 회 보고 오열함\" (\"Lloré a mares con el final\").",
+            "zh": "「마지막 회 보고 오열함」（看完最終集痛哭）。",
+            "cn": "“마지막 회 보고 오열함”（看完最终集痛哭）。",
+            "ja": "「마지막 회 보고 오열함」（最終回を見て号泣した）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "눈물버튼",
+            "감동",
+            "신파"
+        ],
+        "tags": [
+            "reaction",
+            "drama"
+        ]
+    },
+    "눈물버튼": {
+        "nuance": {
+            "en": "\"Tear button\": a scene, song or line that makes you cry every single time.",
+            "es": "\"Botón de lágrimas\": una escena, canción o frase que te hace llorar cada vez.",
+            "zh": "「淚腺按鈕」：每次都讓你哭的場景、歌曲或台詞。",
+            "cn": "“泪腺按钮”：每次都让你哭的场景、歌曲或台词。",
+            "ja": "「涙ボタン」。毎回泣いてしまうシーンや曲、セリフ。"
+        },
+        "usage": {
+            "en": "\"이 노래는 콘서트 눈물버튼이야\" (\"This song is the concert tear-jerker\").",
+            "es": "\"이 노래는 콘서트 눈물버튼이야\" (\"Esta canción siempre hace llorar en el concierto\").",
+            "zh": "「이 노래는 콘서트 눈물버튼이야」（這首歌是演唱會淚點）。",
+            "cn": "“이 노래는 콘서트 눈물버튼이야”（这首歌是演唱会泪点）。",
+            "ja": "「이 노래는 콘서트 눈물버튼이야」（この曲はコンサートの涙ボタン）。"
+        },
+        "register": "casual",
+        "similar": [
+            "오열",
+            "신파",
+            "감동"
+        ],
+        "tags": [
+            "drama",
+            "reaction"
+        ]
+    },
+    "심장폭행": {
+        "nuance": {
+            "en": "\"Heart assault\": something so cute or exciting it feels like your heart got attacked.",
+            "es": "\"Ataque al corazón\": algo tan tierno o emocionante que sientes que te atacaron el corazón.",
+            "zh": "「心臟暴擊」：可愛或刺激到像心臟被攻擊一樣。",
+            "cn": "“心脏暴击”：可爱或刺激到像心脏被攻击一样。",
+            "ja": "「心臓暴行」。かわいすぎたり刺激的すぎたりして心臓を攻撃された気分。"
+        },
+        "usage": {
+            "en": "\"윙크 심장폭행이야\" (\"That wink is an attack on my heart\").",
+            "es": "\"윙크 심장폭행이야\" (\"Ese guiño es un ataque a mi corazón\").",
+            "zh": "「윙크 심장폭행이야」（那個wink是心臟暴擊）。",
+            "cn": "“윙크 심장폭행이야”（那个wink是心脏暴击）。",
+            "ja": "「윙크 심장폭행이야」（そのウインクは心臓への暴行）。"
+        },
+        "register": "casual",
+        "similar": [
+            "심쿵",
+            "심장저격"
+        ],
+        "tags": [
+            "reaction",
+            "kpop-fan"
+        ]
+    },
+    "노답": {
+        "nuance": {
+            "en": "No + 답 (answer): hopeless — no solution, no saving it.",
+            "es": "No + 답 (respuesta): sin remedio, sin solución.",
+            "zh": "No＋답（答案）：無解、沒救了。",
+            "cn": "No＋답（答案）：无解、没救了。",
+            "ja": "No＋답（答え）。お手上げ、どうしようもない。"
+        },
+        "usage": {
+            "en": "\"이 상황 노답이다\" (\"This situation is hopeless\").",
+            "es": "\"이 상황 노답이다\" (\"Esta situación no tiene remedio\").",
+            "zh": "「이 상황 노답이다」（這狀況無解）。",
+            "cn": "“이 상황 노답이다”（这状况无解）。",
+            "ja": "「이 상황 노답이다」（この状況、どうしようもない）。"
+        },
+        "register": "casual",
+        "similar": [
+            "이생망",
+            "폭망"
+        ],
+        "tags": [
+            "annoyed"
+        ]
+    },
+    "킹왕짱": {
+        "nuance": {
+            "en": "King + 왕 (王, king) + 짱 (the best): \"the best of the best,\" stacked for emphasis. Retro 2000s slang, now used for fun.",
+            "es": "King + 왕 (王, rey) + 짱 (lo mejor): \"lo mejor de lo mejor\", acumulado para enfatizar. Jerga retro de los 2000, hoy usada en broma.",
+            "zh": "King＋왕（王）＋짱（最棒）：「最棒中的最棒」，疊字強調。2000年代的復古流行語，現在拿來玩。",
+            "cn": "King＋왕（王）＋짱（最棒）：“最棒中的最棒”，叠字强调。2000年代的复古流行语，现在拿来玩。",
+            "ja": "King＋왕（王）＋짱（最高）。「最高の中の最高」を重ねて強調。2000年代のレトロなスラングで、今はネタとして使う。"
+        },
+        "usage": {
+            "en": "\"우리 엄마 요리 킹왕짱\" (\"My mom's cooking is the absolute best\").",
+            "es": "\"우리 엄마 요리 킹왕짱\" (\"La comida de mi mamá es lo máximo\").",
+            "zh": "「우리 엄마 요리 킹왕짱」（我媽煮的菜宇宙無敵好吃）。",
+            "cn": "“우리 엄마 요리 킹왕짱”（我妈煮的菜宇宙无敌好吃）。",
+            "ja": "「우리 엄마 요리 킹왕짱」（うちのお母さんの料理は最強）。"
+        },
+        "register": "casual",
+        "similar": [
+            "갓벽",
+            "레전드"
+        ],
+        "tags": [
+            "praise",
+            "funny"
+        ]
+    },
+    "오나전": {
+        "nuance": {
+            "en": "완전 (totally) typed \"wrong\" on purpose — 완 becomes 오나 — a cute, playful spelling.",
+            "es": "완전 (totalmente) escrito \"mal\" a propósito: 완 se vuelve 오나; una grafía tierna y juguetona.",
+            "zh": "故意「打錯」的완전（完全）——완變成오나，可愛又俏皮的寫法。",
+            "cn": "故意“打错”的완전（完全）——완变成오나，可爱又俏皮的写法。",
+            "ja": "완전（完全に）をわざと「打ち間違えた」形。완が오나になる、かわいい書き方。"
+        },
+        "usage": {
+            "en": "\"오나전 커엽다\" (\"Totes adorbs\").",
+            "es": "\"오나전 커엽다\" (\"Súper tierno\").",
+            "zh": "「오나전 커엽다」（超級可愛的啦）。",
+            "cn": "“오나전 커엽다”（超级可爱的啦）。",
+            "ja": "「오나전 커엽다」（ちょーかわいい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "커엽다",
+            "야민정음"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "부먹찍먹": {
+        "nuance": {
+            "en": "부어 먹기 vs. 찍어 먹기 — pouring the sauce over 탕수육 (sweet-and-sour pork) vs. dipping it: Korea's classic food debate.",
+            "es": "부어 먹기 vs. 찍어 먹기: verter la salsa sobre el 탕수육 (cerdo agridulce) o mojarlo, el debate gastronómico clásico de Corea.",
+            "zh": "부어 먹기（淋醬吃）vs. 찍어 먹기（沾醬吃）——糖醋肉要淋還是沾，韓國經典的飲食之爭。",
+            "cn": "부어 먹기（淋酱吃）vs. 찍어 먹기（沾酱吃）——糖醋肉要淋还是沾，韩国经典的饮食之争。",
+            "ja": "부어 먹기（かけて食べる）vs. 찍어 먹기（つけて食べる）。酢豚（탕수육）のソース論争で、韓国の定番の食べ方論争。"
+        },
+        "usage": {
+            "en": "A favorite icebreaker on shows: \"부먹이에요, 찍먹이에요?\" (\"Pour or dip?\").",
+            "es": "Una pregunta rompehielos favorita en los programas: \"부먹이에요, 찍먹이에요?\" (\"¿Verter o mojar?\").",
+            "zh": "節目上的經典破冰題：「부먹이에요, 찍먹이에요?」（你是淋派還是沾派？）。",
+            "cn": "节目上的经典破冰题：“부먹이에요, 찍먹이에요?”（你是淋派还是沾派？）。",
+            "ja": "番組の定番アイスブレイク：「부먹이에요, 찍먹이에요?」（かける派？つける派？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "국룰",
+            "취존"
+        ],
+        "tags": [
+            "food",
+            "funny"
+        ]
+    },
+    "자뻑": {
+        "nuance": {
+            "en": "자기 (self) + 뻑 가다 (to be blown away): being smitten with yourself — usually said jokingly.",
+            "es": "자기 (uno mismo) + 뻑 가다 (quedar flechado): estar enamorado de uno mismo; suele decirse en broma.",
+            "zh": "자기（自己）＋뻑 가다（被迷倒）：被自己迷倒，通常是開玩笑。",
+            "cn": "자기（自己）＋뻑 가다（被迷倒）：被自己迷倒，通常是开玩笑。",
+            "ja": "자기（自分）＋뻑 가다（惚れ込む）。自分に惚れ惚れすること。たいてい冗談で。"
+        },
+        "usage": {
+            "en": "\"오늘 셀카 잘 나와서 자뻑 중\" (\"My selfies came out great — I'm admiring myself\").",
+            "es": "\"오늘 셀카 잘 나와서 자뻑 중\" (\"Las selfies me salieron geniales, me estoy admirando\").",
+            "zh": "「오늘 셀카 잘 나와서 자뻑 중」（今天自拍超好看，自戀中）。",
+            "cn": "“오늘 셀카 잘 나와서 자뻑 중”（今天自拍超好看，自恋中）。",
+            "ja": "「오늘 셀카 잘 나와서 자뻑 중」（今日自撮りうまく撮れて自分に惚れ惚れ中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "근자감",
+            "셀카"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "야민정음": {
+        "nuance": {
+            "en": "A pun on 훈민정음 (the original name of Hangul): swapping letters that look alike — 명 → 띵, 귀 → 커, 대 → 머 — to make playful \"misreadings.\"",
+            "es": "Juego de palabras con 훈민정음 (nombre original del hangul): cambiar letras parecidas (명 → 띵, 귀 → 커, 대 → 머) para crear \"lecturas erróneas\" divertidas.",
+            "zh": "諧仿훈민정음（韓文字的原名）：把長得像的字母互換——명→띵、귀→커、대→머——製造好笑的「誤讀」。",
+            "cn": "谐仿훈민정음（韩文本的原名）：把长得像的字母互换——명→띵、귀→커、대→머——制造好笑的“误读”。",
+            "ja": "훈민정음（ハングルの元の名前）のパロディ。形の似た文字を入れ替えて（명→띵、귀→커、대→머）面白い「読み間違い」を作る遊び。"
+        },
+        "usage": {
+            "en": "The famous example: 댕댕이 for 멍멍이 (puppy), because 댕 looks like 멍.",
+            "es": "El ejemplo famoso: 댕댕이 en lugar de 멍멍이 (perrito), porque 댕 se parece a 멍.",
+            "zh": "最有名的例子：댕댕이代替멍멍이（狗狗），因為댕長得像멍。",
+            "cn": "最有名的例子：댕댕이代替멍멍이（狗狗），因为댕长得像멍。",
+            "ja": "有名な例：멍멍이（わんちゃん）を댕댕이と書く。댕が멍に見えるから。"
+        },
+        "culture": {
+            "en": "It only works visually in Hangul, which makes it a fun puzzle for learners once they can read the alphabet.",
+            "es": "Solo funciona visualmente en hangul, así que es un acertijo divertido para quienes ya saben leer el alfabeto.",
+            "zh": "這種玩法只在韓文字形上成立，學會讀韓文後就是很好玩的謎題。",
+            "cn": "这种玩法只在韩文本形上成立，学会读韩文后就是很好玩的谜题。",
+            "ja": "ハングルの見た目でしか成立しない遊びなので、文字が読めるようになった学習者には楽しいパズルになる。"
+        },
+        "register": "casual",
+        "similar": [
+            "커엽다",
+            "갓띵작",
+            "오나전"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "강퇴": {
+        "nuance": {
+            "en": "Short for 강제 퇴장: being kicked out — removed from a group chat, game or community.",
+            "es": "Abreviatura de 강제 퇴장: ser expulsado de un chat grupal, juego o comunidad.",
+            "zh": "강제 퇴장（強制退出）的縮寫：被踢出群組、遊戲或社群。",
+            "cn": "강제 퇴장（强制退出）的缩写：被踢出群组、游戏或社群。",
+            "ja": "강제 퇴장（強制退場）の略。グループチャットやゲーム、コミュニティから追い出されること。"
+        },
+        "usage": {
+            "en": "\"스포해서 단톡방에서 강퇴당했어\" (\"I got kicked from the group chat for spoiling\").",
+            "es": "\"스포해서 단톡방에서 강퇴당했어\" (\"Me sacaron del chat grupal por hacer spoiler\").",
+            "zh": "「스포해서 단톡방에서 강퇴당했어」（因為劇透被踢出群組）。",
+            "cn": "“스포해서 단톡방에서 강퇴당했어”（因为剧透被踢出群组）。",
+            "ja": "「스포해서 단톡방에서 강퇴당했어」（ネタバレしてグループから強制退出させられた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "손절"
+        ],
+        "tags": [
+            "internet",
+            "chat"
+        ]
+    },
+    "극I": {
+        "nuance": {
+            "en": "Extreme \"I\" (introvert) in MBTI: someone who needs a lot of alone time to recharge.",
+            "es": "\"I\" (introvertido) extremo en el MBTI: alguien que necesita mucho tiempo a solas para recargarse.",
+            "zh": "極度的MBTI「I」（內向型）：需要大量獨處時間充電的人。",
+            "cn": "极度的MBTI“I”（内向型）：需要大量独处时间充电的人。",
+            "ja": "MBTIの極端な「I」（内向型）。充電に一人の時間がたくさん必要な人。"
+        },
+        "usage": {
+            "en": "\"극I라서 약속 취소되면 기뻐\" (\"I'm super introverted, so I'm secretly happy when plans get canceled\").",
+            "es": "\"극I라서 약속 취소되면 기뻐\" (\"Soy súper introvertida, me alegra cuando cancelan planes\").",
+            "zh": "「극I라서 약속 취소되면 기뻐」（我是極I，約會取消反而開心）。",
+            "cn": "“극I라서 약속 취소되면 기뻐”（我是极I，约会取消反而开心）。",
+            "ja": "「극I라서 약속 취소되면 기뻐」（極Iだから予定がキャンセルになると嬉しい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "극E",
+            "극T",
+            "아싸"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "극E": {
+        "nuance": {
+            "en": "Extreme \"E\" (extrovert) in MBTI: someone energized by people who can't stand staying home alone.",
+            "es": "\"E\" (extrovertido) extremo en el MBTI: alguien que se recarga con gente y no soporta quedarse solo en casa.",
+            "zh": "極度的MBTI「E」（外向型）：靠和人相處充電、受不了一個人待在家的人。",
+            "cn": "极度的MBTI“E”（外向型）：靠和人相处充电、受不了一个人待在家的人。",
+            "ja": "MBTIの極端な「E」（外向型）。人と会うと元気になり、家に一人でいるのが耐えられない人。"
+        },
+        "usage": {
+            "en": "\"극E라 주말에 약속 세 개 잡았어\" (\"I'm a total extrovert — I made three plans this weekend\").",
+            "es": "\"극E라 주말에 약속 세 개 잡았어\" (\"Soy súper extrovertida, tengo tres planes este fin de semana\").",
+            "zh": "「극E라 주말에 약속 세 개 잡았어」（我是極E，週末約了三個行程）。",
+            "cn": "“극E라 주말에 약속 세 개 잡았어”（我是极E，周末约了三个行程）。",
+            "ja": "「극E라 주말에 약속 세 개 잡았어」（極Eだから週末に予定3つ入れた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "극I",
+            "인싸",
+            "핵인싸"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "과몰입": {
+        "nuance": {
+            "en": "過沒入 — over-immersion: getting way too emotionally invested in a show, character or story.",
+            "es": "過沒入: sobreinmersión, involucrarse demasiado emocionalmente con un programa, personaje o historia.",
+            "zh": "過度沉浸：對劇、角色或故事投入太多感情。",
+            "cn": "过度沉浸：对剧、角色或故事投入太多感情。",
+            "ja": "過没入。ドラマやキャラ、物語に感情移入しすぎること。"
+        },
+        "usage": {
+            "en": "\"과몰입해서 악역 배우한테 화났어\" (\"I got so invested I was mad at the actor who played the villain\").",
+            "es": "\"과몰입해서 악역 배우한테 화났어\" (\"Me metí tanto que me enojé con el actor que hacía de villano\").",
+            "zh": "「과몰입해서 악역 배우한테 화났어」（太入戲了，對演反派的演員生氣）。",
+            "cn": "“과몰입해서 악역 배우한테 화났어”（太入戏了，对演反派的演员生气）。",
+            "ja": "「과몰입해서 악역 배우한테 화났어」（入り込みすぎて悪役の俳優に腹が立った）。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애캐",
+            "정주행",
+            "몰입감"
+        ],
+        "tags": [
+            "drama",
+            "kpop-fan"
+        ]
+    },
+    "개이득": {
+        "nuance": {
+            "en": "개 (a slang intensifier, \"super\") + 이득 (profit): a great, unexpected win.",
+            "es": "개 (intensificador coloquial, \"súper\") + 이득 (ganancia): una gran ganancia inesperada.",
+            "zh": "개（口語強調詞，「超」）＋이득（利益）：意外大賺。",
+            "cn": "개（口语强调词，“超”）＋이득（利益）：意外大赚。",
+            "ja": "개（「超」の意味の俗語的強調）＋이득（得）。思わぬ大きな得。"
+        },
+        "usage": {
+            "en": "\"1+1 행사라니 개이득\" (\"A buy-one-get-one sale? Huge win\").",
+            "es": "\"1+1 행사라니 개이득\" (\"¿Dos por uno? ¡Qué suerte!\").",
+            "zh": "「1+1 행사라니 개이득」（買一送一？賺翻了）。",
+            "cn": "“1+1 행사라니 개이득”（买一送一？赚翻了）。",
+            "ja": "「1+1 행사라니 개이득」（1個買うと1個おまけ？超お得）。"
+        },
+        "register": "casual",
+        "similar": [
+            "개꿀",
+            "갓성비"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "취향존중": {
+        "nuance": {
+            "en": "趣向尊重 — respecting people's tastes: \"to each their own.\" Often shortened to 취존.",
+            "es": "趣向尊重: respetar los gustos ajenos, \"cada quien con lo suyo\". Se acorta a 취존.",
+            "zh": "趣向尊重——尊重每個人的喜好，「各有所好」。常簡稱취존。",
+            "cn": "趣向尊重——尊重每个人的喜好，“各有所好”。常简称취존。",
+            "ja": "趣向尊重。人の好みを尊重すること、「人それぞれ」。略して취존。"
+        },
+        "usage": {
+            "en": "Ends a debate politely: \"민트초코 싫어해도 취향존중\" (\"You don't like mint chocolate? To each their own\").",
+            "es": "Cierra un debate con cortesía: \"민트초코 싫어해도 취향존중\" (\"¿No te gusta el chocolate con menta? Respeto tu gusto\").",
+            "zh": "禮貌地結束爭論：「민트초코 싫어해도 취향존중」（不喜歡薄荷巧克力也尊重你）。",
+            "cn": "礼貌地结束争论：“민트초코 싫어해도 취향존중”（不喜欢薄荷巧克力也尊重你）。",
+            "ja": "議論を穏やかに締める：「민트초코 싫어해도 취향존중」（チョコミント嫌いでも好みは尊重）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "취존",
+            "케바케"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "셀카": {
+        "nuance": {
+            "en": "Short for 셀프 카메라 (\"self camera\"): a selfie.",
+            "es": "Abreviatura de 셀프 카메라 (\"cámara propia\"): una selfie.",
+            "zh": "셀프 카메라（自拍相機）的縮寫：自拍。",
+            "cn": "셀프 카메라（自拍相机）的缩写：自拍。",
+            "ja": "셀프 카메라（セルフカメラ）の略。自撮り。"
+        },
+        "usage": {
+            "en": "Idols' selfie posts make fans' day: \"최애 셀카 떴다!\" (\"My bias posted a selfie!\").",
+            "es": "Las selfies de los idols alegran el día: \"최애 셀카 떴다!\" (\"¡Mi bias subió una selfie!\").",
+            "zh": "偶像發自拍粉絲最開心：「최애 셀카 떴다!」（本命發自拍了！）。",
+            "cn": "偶像发自拍粉丝最开心：“최애 셀카 떴다!”（本命发自拍了！）。",
+            "ja": "推しの自撮りはファンのご褒美：「최애 셀카 떴다!」（推しの自撮り来た！）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "프사",
+            "인생샷",
+            "셀프캠"
+        ],
+        "tags": [
+            "chat",
+            "kpop-fan"
+        ]
+    },
+    "오지고지리고": {
+        "nuance": {
+            "en": "Stacked teen slang — 오지다 + 지리다 (both \"amazing\") — the poster child of 급식체.",
+            "es": "Jerga adolescente acumulada, 오지다 + 지리다 (ambas \"increíble\"), el ejemplo emblemático del 급식체.",
+            "zh": "疊加的青少年流行語——오지다＋지리다（都是「超強」）——營養午餐體的代表。",
+            "cn": "叠加的青少年流行语——오지다＋지리다（都是“超强”）——营养午餐体的代表。",
+            "ja": "10代スラングの重ね技。오지다＋지리다（どちらも「すごい」）で、給食体の代名詞。"
+        },
+        "usage": {
+            "en": "Mostly used jokingly now: \"오지고지리고 렛츠고\" (\"Amazing, incredible, let's go\").",
+            "es": "Hoy se usa sobre todo en broma: \"오지고지리고 렛츠고\" (\"Increíble, brutal, ¡vamos!\").",
+            "zh": "現在多半開玩笑用：「오지고지리고 렛츠고」（超猛超強，衝啊）。",
+            "cn": "现在多半开玩笑用：“오지고지리고 렛츠고”（超猛超强，冲啊）。",
+            "ja": "今はほぼネタで使う：「오지고지리고 렛츠고」（やばい、すごい、レッツゴー）。"
+        },
+        "register": "casual",
+        "similar": [
+            "오지다",
+            "급식체"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "오조오억": {
+        "nuance": {
+            "en": "An absurdly big made-up number (\"five trillion, five hundred million\"): \"a gazillion.\"",
+            "es": "Un número absurdo inventado (\"cinco billones quinientos millones\"): \"un montón de millones\".",
+            "zh": "誇張到荒謬的虛構數字（「五兆五億」）：數不清那麼多。",
+            "cn": "夸张到荒谬的虚构数字（“五兆五亿”）：数不清那么多。",
+            "ja": "でたらめに大きい数（「5兆5億」）。数え切れないほど、の意味。"
+        },
+        "usage": {
+            "en": "\"사랑해 오조오억 번\" (\"Love you a gazillion times\"). In 2021 it got caught up in an online gender-conflict controversy, so some people avoid it.",
+            "es": "\"사랑해 오조오억 번\" (\"Te quiero un montón de millones de veces\"). En 2021 quedó envuelto en una polémica en línea sobre conflictos de género, así que algunos lo evitan.",
+            "zh": "「사랑해 오조오억 번」（愛你五兆五億次）。2021年曾捲入網路性別對立爭議，所以有些人會避免使用。",
+            "cn": "“사랑해 오조오억 번”（爱你五兆五亿次）。2021年曾卷入网络性别对立争议，所以有些人会避免使用。",
+            "ja": "「사랑해 오조오억 번」（5兆5億回愛してる）。2021年にネット上のジェンダー対立の論争に巻き込まれたため、使うのを避ける人もいる。"
+        },
+        "register": "casual",
+        "similar": [
+            "킹왕짱"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "개꿀": {
+        "nuance": {
+            "en": "개 (\"super\") + 꿀 (honey, \"sweet deal\"): a really sweet situation — easy, lucky, great.",
+            "es": "개 (\"súper\") + 꿀 (miel, \"buen negocio\"): una situación muy dulce, fácil, con suerte, genial.",
+            "zh": "개（超）＋꿀（蜂蜜，「好康」）：超爽的情況——輕鬆、幸運、很棒。",
+            "cn": "개（超）＋꿀（蜂蜜，“好康”）：超爽的情况——轻松、幸运、很棒。",
+            "ja": "개（超）＋꿀（ハチミツ＝おいしい話）。楽で運が良くて最高な状況。"
+        },
+        "usage": {
+            "en": "\"수업 휴강이래, 개꿀\" (\"Class is canceled — sweet\").",
+            "es": "\"수업 휴강이래, 개꿀\" (\"Cancelaron la clase, qué maravilla\").",
+            "zh": "「수업 휴강이래, 개꿀」（停課了，爽）。",
+            "cn": "“수업 휴강이래, 개꿀”（停课了，爽）。",
+            "ja": "「수업 휴강이래, 개꿀」（休講だって、最高）。"
+        },
+        "register": "casual",
+        "similar": [
+            "개이득",
+            "꿀잼"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "핵인싸": {
+        "nuance": {
+            "en": "핵 (nuclear, \"ultra\") + 인싸: an ultra-popular social butterfly.",
+            "es": "핵 (nuclear, \"ultra\") + 인싸: alguien súper popular y sociable.",
+            "zh": "핵（核，「超級」）＋인싸：超級社交達人。",
+            "cn": "핵（核，“超级”）＋인싸：超级社交达人。",
+            "ja": "핵（核＝超）＋인싸。超人気の社交家、ウルトラ陽キャ。"
+        },
+        "usage": {
+            "en": "\"전교생이 다 아는 핵인싸\" (\"an ultra-popular kid the whole school knows\").",
+            "es": "\"전교생이 다 아는 핵인싸\" (\"la más popular, toda la escuela la conoce\").",
+            "zh": "「전교생이 다 아는 핵인싸」（全校都認識的超級人氣王）。",
+            "cn": "“전교생이 다 아는 핵인싸”（全校都认识的超级人气王）。",
+            "ja": "「전교생이 다 아는 핵인싸」（全校生徒が知ってる超陽キャ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인싸",
+            "인싸력",
+            "극E"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "팩폭": {
+        "nuance": {
+            "en": "Short for 팩트 폭력 (\"fact violence\"): hitting someone with a blunt, painful truth.",
+            "es": "Abreviatura de 팩트 폭력 (\"violencia de hechos\"): golpear a alguien con una verdad directa y dolorosa.",
+            "zh": "팩트 폭력（事實暴力）的縮寫：用直白又刺痛的事實打擊對方。",
+            "cn": "팩트 폭력（事实暴力）的缩写：用直白又刺痛的事实打击对方。",
+            "ja": "팩트 폭력（ファクト暴力）の略。率直で痛い事実をぶつけること。"
+        },
+        "usage": {
+            "en": "\"팩폭 그만해, 아프잖아\" (\"Stop with the brutal truths — it hurts\").",
+            "es": "\"팩폭 그만해, 아프잖아\" (\"Ya basta de verdades crudas, me duele\").",
+            "zh": "「팩폭 그만해, 아프잖아」（別再說扎心的事實了，好痛）。",
+            "cn": "“팩폭 그만해, 아프잖아”（别再说扎心的事实了，好痛）。",
+            "ja": "「팩폭 그만해, 아프잖아」（正論パンチやめて、痛いよ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "반박불가",
+            "극T",
+            "현타"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "근자감": {
+        "nuance": {
+            "en": "Short for 근거 없는 자신감: \"confidence with no basis.\"",
+            "es": "Abreviatura de 근거 없는 자신감: \"confianza sin fundamento\".",
+            "zh": "근거 없는 자신감（毫無根據的自信）的縮寫。",
+            "cn": "근거 없는 자신감（毫无根据的自信）的缩写。",
+            "ja": "근거 없는 자신감（根拠のない自信）の略。"
+        },
+        "usage": {
+            "en": "Can be affectionate: \"공부 안 했는데 근자감 넘쳐\" (\"Didn't study, but somehow full of confidence\").",
+            "es": "Puede ser cariñoso: \"공부 안 했는데 근자감 넘쳐\" (\"No estudié, pero me sobra confianza\").",
+            "zh": "也可以很親暱：「공부 안 했는데 근자감 넘쳐」（沒讀書卻莫名自信滿滿）。",
+            "cn": "也可以很亲暱：“공부 안 했는데 근자감 넘쳐”（没读书却莫名自信满满）。",
+            "ja": "愛嬌を込めても：「공부 안 했는데 근자감 넘쳐」（勉強してないのに根拠のない自信だけはある）。"
+        },
+        "register": "casual",
+        "similar": [
+            "자뻑",
+            "정신승리"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "오또케": {
+        "nuance": {
+            "en": "A baby-talk version of 어떡해 (\"what do I do?\"). Note: online it has also been used to mock women, so it can come across badly.",
+            "es": "Versión infantil de 어떡해 (\"¿qué hago?\"). Ojo: en internet también se ha usado para burlarse de las mujeres, así que puede caer mal.",
+            "zh": "어떡해（怎麼辦）的撒嬌版說法。注意：在網路上它也曾被用來嘲諷女性，可能讓人不舒服。",
+            "cn": "어떡해（怎么办）的撒娇版说法。注意：在网络上它也曾被用来嘲讽女性，可能让人不舒服。",
+            "ja": "어떡해（どうしよう）の赤ちゃん言葉バージョン。注意：ネットでは女性を揶揄する言葉としても使われてきたため、印象が悪くなることがある。"
+        },
+        "usage": {
+            "en": "Safest when talking about yourself, playfully: \"지갑 두고 왔어, 오또케\" (\"Left my wallet at home, what do I do\"). Avoid using it about others.",
+            "es": "Mejor usarlo sobre ti misma y en broma: \"지갑 두고 왔어, 오또케\" (\"Olvidé la billetera, ¿qué hago?\"). Evita usarlo sobre otras personas.",
+            "zh": "用在自己身上、開玩笑最安全：「지갑 두고 왔어, 오또케」（錢包忘了帶，怎麼辦啦）。避免用來說別人。",
+            "cn": "用在自己身上、开玩笑最安全：“지갑 두고 왔어, 오또케”（钱包忘了带，怎么办啦）。避免用来说别人。",
+            "ja": "自分のことを冗談で言うのが無難：「지갑 두고 왔어, 오또케」（財布忘れた、どうしよ〜）。他人に向けて使うのは避けて。"
+        },
+        "register": "casual",
+        "similar": [
+            "애교"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "부럽다": {
+        "nuance": {
+            "en": "To be envious: \"I'm so jealous\" — usually friendly, not bitter.",
+            "es": "Sentir envidia: \"qué envidia\", normalmente de forma amistosa, no amarga.",
+            "zh": "羨慕：「好羨慕」——通常是友善的，不是酸。",
+            "cn": "羡慕：“好羡慕”——通常是友善的，不是酸。",
+            "ja": "うらやましい。たいてい好意的で、ひがみではない。"
+        },
+        "usage": {
+            "en": "\"팬싸 당첨이라니 부럽다!\" (\"You won a fan sign? So jealous!\"). Short: 부럽.",
+            "es": "\"팬싸 당첨이라니 부럽다!\" (\"¿Ganaste un fansign? ¡Qué envidia!\"). Corto: 부럽.",
+            "zh": "「팬싸 당첨이라니 부럽다!」（抽中簽售會？好羨慕！）。簡稱부럽。",
+            "cn": "“팬싸 당첨이라니 부럽다!”（抽中签售会？好羡慕！）。简称부럽。",
+            "ja": "「팬싸 당첨이라니 부럽다!」（サイン会当選？うらやましい！）。略して부럽。"
+        },
+        "register": "everyday",
+        "similar": [
+            "성덕",
+            "덕계못"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "소름": {
+        "nuance": {
+            "en": "Goosebumps: chills from awe, excitement or fear.",
+            "es": "Piel de gallina: escalofríos por asombro, emoción o miedo.",
+            "zh": "雞皮疙瘩：因驚嘆、興奮或害怕起的寒顫。",
+            "cn": "鸡皮疙瘩：因惊叹、兴奋或害怕起的寒颤。",
+            "ja": "鳥肌。感動、興奮、恐怖でぞくっとすること。"
+        },
+        "usage": {
+            "en": "\"고음에서 소름 돋았어\" (\"The high note gave me goosebumps\"); \"소름 끼쳐\" leans toward creepy.",
+            "es": "\"고음에서 소름 돋았어\" (\"La nota alta me puso la piel de gallina\"); \"소름 끼쳐\" se inclina más a lo espeluznante.",
+            "zh": "「고음에서 소름 돋았어」（高音讓我起雞皮疙瘩）；「소름 끼쳐」比較偏毛骨悚然。",
+            "cn": "“고음에서 소름 돋았어”（高音让我起鸡皮疙瘩）；“소름 끼쳐”比较偏毛骨悚然。",
+            "ja": "「고음에서 소름 돋았어」（高音で鳥肌立った）；「소름 끼쳐」はぞっとする寄り。"
+        },
+        "register": "everyday",
+        "similar": [
+            "반전",
+            "미쳤다",
+            "감동"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "감동": {
+        "nuance": {
+            "en": "感動 — being deeply moved or touched.",
+            "es": "感動: estar profundamente conmovido.",
+            "zh": "感動——深受打動。",
+            "cn": "感动——深受打动。",
+            "ja": "感動。深く心を動かされること。"
+        },
+        "usage": {
+            "en": "\"팬레터 읽어 주는데 감동받았어\" (\"I was so touched when they read our fan letters\"). Intensified: 감동 실화.",
+            "es": "\"팬레터 읽어 주는데 감동받았어\" (\"Me emocioné cuando leyeron nuestras cartas\"). Intensificado: 감동 실화.",
+            "zh": "「팬레터 읽어 주는데 감동받았어」（他念我們的粉絲信，好感動）。加強版：감동 실화。",
+            "cn": "“팬레터 읽어 주는데 감동받았어”（他念我们的粉丝信，好感动）。加强版：감동 실화。",
+            "ja": "「팬레터 읽어 주는데 감동받았어」（ファンレターを読んでくれて感動した）。強調形は감동 실화。"
+        },
+        "register": "everyday",
+        "similar": [
+            "오열",
+            "가슴에 국밥 쏟음",
+            "소름"
+        ],
+        "tags": [
+            "reaction"
+        ]
+    },
+    "유죄": {
+        "nuance": {
+            "en": "有罪 — \"guilty\": jokingly charging someone with being too charming, cute or handsome.",
+            "es": "有罪, \"culpable\": acusar en broma a alguien de ser demasiado encantador, tierno o guapo.",
+            "zh": "有罪——開玩笑說某人可愛或帥到犯罪。",
+            "cn": "有罪——开玩笑说某人可爱或帅到犯罪。",
+            "ja": "有罪。かわいすぎる、かっこよすぎることを冗談で「罪」とすること。"
+        },
+        "usage": {
+            "en": "\"이 미소 유죄\" (\"This smile should be illegal\").",
+            "es": "\"이 미소 유죄\" (\"Esta sonrisa debería ser ilegal\").",
+            "zh": "「이 미소 유죄」（這個笑容有罪）。",
+            "cn": "“이 미소 유죄”（这个笑容有罪）。",
+            "ja": "「이 미소 유죄」（この笑顔は有罪）。"
+        },
+        "register": "casual",
+        "similar": [
+            "얼굴천재",
+            "심장폭행"
+        ],
+        "tags": [
+            "praise",
+            "funny"
+        ]
+    },
+    "아자스": {
+        "nuance": {
+            "en": "A clipped, playful \"thanks\" borrowed from Japanese (arigatō gozaimasu).",
+            "es": "Un \"gracias\" corto y juguetón, tomado del japonés (arigatō gozaimasu).",
+            "zh": "從日文「arigatō gozaimasu」借來的俏皮簡短「謝啦」。",
+            "cn": "从日文“arigatō gozaimasu”借来的俏皮简短“谢啦”。",
+            "ja": "日本語「ありがとうございます」を縮めた、おどけた「ありがと」。"
+        },
+        "usage": {
+            "en": "\"커피 사 줘서 아자스!\" (\"Thanks for the coffee!\").",
+            "es": "\"커피 사 줘서 아자스!\" (\"¡Gracias por el café!\").",
+            "zh": "「커피 사 줘서 아자스!」（謝謝你請我喝咖啡！）。",
+            "cn": "“커피 사 줘서 아자스!”（谢谢你请我喝咖啡！）。",
+            "ja": "「커피 사 줘서 아자스!」（コーヒーおごってくれてあざす！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "멘고멘고",
+            "꺄르"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "멘고멘고": {
+        "nuance": {
+            "en": "A cutesy \"sorry, sorry\" built from Japanese gomen (ごめん, \"sorry\").",
+            "es": "Un \"perdón, perdón\" tierno, formado a partir del japonés gomen (ごめん, \"perdón\").",
+            "zh": "從日文gomen（ごめん，抱歉）變來的可愛版「抱歉抱歉」。",
+            "cn": "从日文gomen（ごめん，抱歉）变来的可爱版“抱歉抱歉”。",
+            "ja": "日本語の「ごめん」から作られた、かわいい「ごめんごめん」。"
+        },
+        "usage": {
+            "en": "For small slips with friends: \"답장 늦어서 멘고멘고\" (\"Sorry sorry for the late reply\"). Too light for a real apology.",
+            "es": "Para pequeños descuidos con amigos: \"답장 늦어서 멘고멘고\" (\"Perdón, perdón por responder tarde\"). Demasiado ligero para una disculpa seria.",
+            "zh": "朋友間的小失誤用：「답장 늦어서 멘고멘고」（回太慢了抱歉抱歉）。正式道歉就太輕了。",
+            "cn": "朋友间的小失误用：“답장 늦어서 멘고멘고”（回太慢了抱歉抱歉）。正式道歉就太轻了。",
+            "ja": "友達とのちょっとしたミスに：「답장 늦어서 멘고멘고」（返信遅れてごめんごめん）。本気の謝罪には軽すぎる。"
+        },
+        "register": "casual",
+        "similar": [
+            "아자스",
+            "꺄르"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "꺄르": {
+        "nuance": {
+            "en": "A happy squeal: 꺅 (a shriek) blended with the cheer 야르 — pure fangirl delight.",
+            "es": "Un chillido de felicidad: 꺅 (grito agudo) mezclado con el festejo 야르; pura alegría fan.",
+            "zh": "開心的尖叫：꺅（尖叫聲）＋歡呼야르——純粹的迷妹喜悅。",
+            "cn": "开心的尖叫：꺅（尖叫声）＋欢呼야르——纯粹的迷妹喜悦。",
+            "ja": "嬉しい悲鳴。꺅（キャー）と歓声야르を合わせた言葉で、ファンの純粋な喜び。"
+        },
+        "usage": {
+            "en": "\"최애가 손 흔들어 줬어 꺄르!\" (\"My bias waved at me, eeee!\").",
+            "es": "\"최애가 손 흔들어 줬어 꺄르!\" (\"¡Mi bias me saludó, kyaaa!\").",
+            "zh": "「최애가 손 흔들어 줬어 꺄르!」（本命跟我揮手了，呀啊！）。",
+            "cn": "“최애가 손 흔들어 줬어 꺄르!”（本命跟我挥手了，呀啊！）。",
+            "ja": "「최애가 손 흔들어 줬어 꺄르!」（推しが手を振ってくれた、キャー！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "할렐야루",
+            "심쿵"
+        ],
+        "tags": [
+            "reaction",
+            "kpop-fan"
+        ]
+    },
+    "할렐야루": {
+        "nuance": {
+            "en": "Hallelujah + 야루 (from the cheer 야르): an over-the-top shout of joy for really good news.",
+            "es": "Aleluya + 야루 (del festejo 야르): un grito de alegría exagerado por una muy buena noticia.",
+            "zh": "Hallelujah＋야루（來自歡呼야르）：聽到超好消息時的誇張歡呼。",
+            "cn": "Hallelujah＋야루（来自欢呼야르）：听到超好消息时的夸张欢呼。",
+            "ja": "ハレルヤ＋야루（歓声야르から）。すごく良い知らせへの大げさな歓喜の叫び。"
+        },
+        "usage": {
+            "en": "\"시험 끝났다, 할렐야루!\" (\"Exams are over — hallelujah!\").",
+            "es": "\"시험 끝났다, 할렐야루!\" (\"¡Se acabaron los exámenes, aleluya!\").",
+            "zh": "「시험 끝났다, 할렐야루!」（考完了，哈利路亞！）。",
+            "cn": "“시험 끝났다, 할렐야루!”（考完了，哈利路亚！）。",
+            "ja": "「시험 끝났다, 할렐야루!」（試験終わった、ハレルヤ！）。"
+        },
+        "register": "casual",
+        "similar": [
+            "꺄르",
+            "대박사건"
+        ],
+        "tags": [
+            "reaction",
+            "funny"
+        ]
+    },
+    "가슴에 국밥 쏟음": {
+        "nuance": {
+            "en": "\"Spilled gukbap (hot rice soup) on my chest\": a funny way to say something warmed your heart.",
+            "es": "\"Se me derramó gukbap (sopa caliente de arroz) en el pecho\": una forma graciosa de decir que algo te calentó el corazón.",
+            "zh": "「湯飯灑在胸口」：好笑地形容某件事讓你心頭一暖。",
+            "cn": "“汤饭洒在胸口”：好笑地形容某件事让你心头一暖。",
+            "ja": "「胸にクッパをこぼした」。心が温まったことをおもしろく言う表現。"
+        },
+        "usage": {
+            "en": "\"멤버들끼리 챙겨 주는 거 보고 가슴에 국밥 쏟음\" (\"Seeing the members look after each other warmed my heart\").",
+            "es": "\"멤버들끼리 챙겨 주는 거 보고 가슴에 국밥 쏟음\" (\"Ver cómo se cuidan los miembros me calentó el corazón\").",
+            "zh": "「멤버들끼리 챙겨 주는 거 보고 가슴에 국밥 쏟음」（看到成員們互相照顧，心頭一暖）。",
+            "cn": "“멤버들끼리 챙겨 주는 거 보고 가슴에 국밥 쏟음”（看到成员们互相照顾，心头一暖）。",
+            "ja": "「멤버들끼리 챙겨 주는 거 보고 가슴에 국밥 쏟음」（メンバー同士で気遣い合うのを見て胸にクッパこぼれた）。"
+        },
+        "register": "casual",
+        "similar": [
+            "감동",
+            "무해력"
+        ],
+        "tags": [
+            "reaction",
+            "funny"
+        ]
+    },
+    "드렁슨": {
+        "nuance": {
+            "en": "A cute respelling of 드르렁 (the sound of snoring) — playful talk about sleeping or snoring.",
+            "es": "Una forma tierna de escribir 드르렁 (el sonido de roncar); para hablar de dormir o roncar en broma.",
+            "zh": "드르렁（打呼聲）的可愛變形寫法——俏皮地說睡覺或打呼。",
+            "cn": "드르렁（打呼声）的可爱变形写法——俏皮地说睡觉或打呼。",
+            "ja": "드르렁（いびきの音）のかわいい変形。寝ることやいびきをおどけて言う。"
+        },
+        "usage": {
+            "en": "\"피곤해서 바로 드렁슨\" (\"So tired I'm out like a light — zzz\").",
+            "es": "\"피곤해서 바로 드렁슨\" (\"Tan cansada que me dormí al instante, zzz\").",
+            "zh": "「피곤해서 바로 드렁슨」（太累了，秒睡呼呼）。",
+            "cn": "“피곤해서 바로 드렁슨”（太累了，秒睡呼呼）。",
+            "ja": "「피곤해서 바로 드렁슨」（疲れてすぐグーグー）。"
+        },
+        "register": "casual",
+        "similar": [
+            "커엽다"
+        ],
+        "tags": [
+            "funny",
+            "chat"
+        ]
+    },
+    "젬민이": {
+        "nuance": {
+            "en": "A pun on 제미나이 (Gemini, the AI) turned into a nickname-like name: someone who asks AI about absolutely everything.",
+            "es": "Un juego de palabras con 제미나이 (Gemini, la IA) convertido en apodo: alguien que le pregunta todo a la IA.",
+            "zh": "제미나이（Gemini AI）的諧音，變成像人名的暱稱：什麼事都問AI的人。",
+            "cn": "제미나이（Gemini AI）的谐音，变成像人名的暱称：什么事都问AI的人。",
+            "ja": "제미나이（AIのGemini）をあだ名風にもじった言葉。何でもAIに聞く人。"
+        },
+        "usage": {
+            "en": "\"메뉴 고르는 것도 AI한테 물어봐? 완전 젬민이네\" (\"You ask AI what to order too? Total AI kid\").",
+            "es": "\"메뉴 고르는 것도 AI한테 물어봐? 완전 젬민이네\" (\"¿Hasta para elegir comida le preguntas a la IA? Qué dependiente\").",
+            "zh": "「메뉴 고르는 것도 AI한테 물어봐? 완전 젬민이네」（連點餐都問AI？根本是젬민이）。",
+            "cn": "“메뉴 고르는 것도 AI한테 물어봐? 완전 젬민이네”（连点餐都问AI？根本是젬민이）。",
+            "ja": "「메뉴 고르는 것도 AI한테 물어봐? 완전 젬민이네」（メニュー選びもAIに聞くの？完全に젬민이だね）。"
+        },
+        "register": "casual",
+        "similar": [
+            "핑프"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "기카노보": {
+        "nuance": {
+            "en": "Short for 기본 카메라 노 보정: \"default camera, no editing\" — a raw, unfiltered photo.",
+            "es": "Abreviatura de 기본 카메라 노 보정: \"cámara básica, sin edición\", una foto sin filtros.",
+            "zh": "기본 카메라 노 보정（原相機、沒修圖）的縮寫：完全沒濾鏡的照片。",
+            "cn": "기본 카메라 노 보정（原相机、没修图）的缩写：完全没滤镜的照片。",
+            "ja": "기본 카메라 노 보정（標準カメラ・無加工）の略。フィルターなしのそのままの写真。"
+        },
+        "usage": {
+            "en": "A brag about looks: \"기카노보인데 이 정도라고?\" (\"No filter, no edits — and it looks like this?\").",
+            "es": "Un alarde de belleza: \"기카노보인데 이 정도라고?\" (\"¿Sin filtro ni edición y se ve así?\").",
+            "zh": "炫耀顏值：「기카노보인데 이 정도라고?」（原相機沒修就這樣？）。",
+            "cn": "炫耀颜值：“기카노보인데 이 정도라고?”（原相机没修就这样？）。",
+            "ja": "見た目自慢に：「기카노보인데 이 정도라고?」（無加工でこれ？）。"
+        },
+        "register": "casual",
+        "similar": [
+            "셀카",
+            "인생샷",
+            "무결점"
+        ],
+        "tags": [
+            "internet",
+            "praise"
+        ]
+    },
+    "~한지 감도 안 옴": {
+        "nuance": {
+            "en": "\"I can't even sense when I last…\": an exaggerated way to say it's been forever since you did something.",
+            "es": "\"Ni siquiera recuerdo cuándo fue la última vez que…\": forma exagerada de decir que hace siglos que no haces algo.",
+            "zh": "「連上次……是什麼時候都沒感覺了」：誇張地說好久沒做某件事。",
+            "cn": "“连上次……是什么时候都没感觉了”：夸张地说好久没做某件事。",
+            "ja": "「〜したのがいつか見当もつかない」。ずいぶん長くしていないことを大げさに言う表現。"
+        },
+        "usage": {
+            "en": "\"연애한 지 감도 안 옴\" (\"I can't even remember the last time I dated\").",
+            "es": "\"연애한 지 감도 안 옴\" (\"Ni me acuerdo de cuándo salí con alguien por última vez\").",
+            "zh": "「연애한 지 감도 안 옴」（上次談戀愛是什麼時候已經沒印象了）。",
+            "cn": "“연애한 지 감도 안 옴”（上次谈恋爱是什么时候已经没印象了）。",
+            "ja": "「연애한 지 감도 안 옴」（最後に恋愛したのがいつか見当もつかない）。"
+        },
+        "register": "casual",
+        "similar": [
+            "순삭",
+            "현타"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "반박시내말이맞음": {
+        "nuance": {
+            "en": "\"If you disagree, I'm right\": a joking line to end an argument by declaring victory.",
+            "es": "\"Si no estás de acuerdo, tengo razón\": una frase en broma para cerrar una discusión declarándose ganador.",
+            "zh": "「如果反駁，那就是我說得對」：開玩笑宣布勝利、結束爭論的話。",
+            "cn": "“如果反驳，那就是我说得对”：开玩笑宣布胜利、结束争论的话。",
+            "ja": "「反論したら私が正しい」。勝利宣言で議論を終わらせる冗談のフレーズ。"
+        },
+        "usage": {
+            "en": "Tacked onto hot takes: \"민초는 맛있다. 반박시내말이맞음\" (\"Mint chocolate is delicious. Disagree and I'm right\").",
+            "es": "Se agrega a opiniones polémicas: \"민초는 맛있다. 반박시내말이맞음\" (\"El chocolate con menta es rico. Si no estás de acuerdo, tengo razón\").",
+            "zh": "加在爭議發言後面：「민초는 맛있다. 반박시내말이맞음」（薄荷巧克力好吃。反駁就是我對）。",
+            "cn": "加在争议发言后面：“민초는 맛있다. 반박시내말이맞음”（薄荷巧克力好吃。反驳就是我对）。",
+            "ja": "持論の後に付ける：「민초는 맛있다. 반박시내말이맞음」（チョコミントは美味しい。反論したら私が正しい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "답정너",
+            "정신승리",
+            "반박불가"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "무지출챌린지": {
+        "nuance": {
+            "en": "無支出 challenge: trying to spend zero money for a day, week or month — often shared on social media.",
+            "es": "Reto 無支出: intentar no gastar nada durante un día, semana o mes; suele compartirse en redes.",
+            "zh": "零支出挑戰：試著一天、一週或一個月完全不花錢——常在社群上分享。",
+            "cn": "零支出挑战：试着一天、一周或一个月完全不花钱——常在社群上分享。",
+            "ja": "無支出チャレンジ。1日・1週間・1か月お金を使わずに過ごす挑戦。SNSで共有されることが多い。"
+        },
+        "usage": {
+            "en": "\"무지출챌린지 3일 차인데 굿즈 예판 떴어…\" (\"Day 3 of no-spend and the merch pre-order just opened…\").",
+            "es": "\"무지출챌린지 3일 차인데 굿즈 예판 떴어…\" (\"Día 3 sin gastar y justo abrió la preventa de merch…\").",
+            "zh": "「무지출챌린지 3일 차인데 굿즈 예판 떴어…」（零支出第三天，周邊預購就開了……）。",
+            "cn": "“무지출챌린지 3일 차인데 굿즈 예판 떴어…”（零支出第三天，周边预购就开了……）。",
+            "ja": "「무지출챌린지 3일 차인데 굿즈 예판 떴어…」（無支出3日目なのにグッズ予約が始まった…）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "텅장",
+            "쫌쫌따리"
+        ],
+        "tags": [
+            "worklife"
+        ]
+    },
+    "세젤예": {
+        "nuance": {
+            "en": "Short for 세상에서 제일 예쁜: \"the prettiest in the world.\"",
+            "es": "Abreviatura de 세상에서 제일 예쁜: \"la más bonita del mundo\".",
+            "zh": "세상에서 제일 예쁜（世界上最漂亮）的縮寫。",
+            "cn": "세상에서 제일 예쁜（世界上最漂亮）的缩写。",
+            "ja": "세상에서 제일 예쁜（世界で一番きれい）の略。"
+        },
+        "usage": {
+            "en": "\"우리 최애 세젤예\" (\"My bias is the prettiest in the world\").",
+            "es": "\"우리 최애 세젤예\" (\"Mi bias es la más bonita del mundo\").",
+            "zh": "「우리 최애 세젤예」（我家本命世界最美）。",
+            "cn": "“우리 최애 세젤예”（我家本命世界最美）。",
+            "ja": "「우리 최애 세젤예」（うちの推しが世界一きれい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "세젤귀",
+            "얼굴천재"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "세젤귀": {
+        "nuance": {
+            "en": "Short for 세상에서 제일 귀여운: \"the cutest in the world.\"",
+            "es": "Abreviatura de 세상에서 제일 귀여운: \"lo más tierno del mundo\".",
+            "zh": "세상에서 제일 귀여운（世界上最可愛）的縮寫。",
+            "cn": "세상에서 제일 귀여운（世界上最可爱）的缩写。",
+            "ja": "세상에서 제일 귀여운（世界で一番かわいい）の略。"
+        },
+        "usage": {
+            "en": "\"우리 집 고양이 세젤귀\" (\"My cat is the cutest in the world\").",
+            "es": "\"우리 집 고양이 세젤귀\" (\"Mi gato es el más tierno del mundo\").",
+            "zh": "「우리 집 고양이 세젤귀」（我家貓咪世界最可愛）。",
+            "cn": "“우리 집 고양이 세젤귀”（我家猫咪世界最可爱）。",
+            "ja": "「우리 집 고양이 세젤귀」（うちの猫が世界一かわいい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "세젤예",
+            "커엽다"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "낄끼빠빠": {
+        "nuance": {
+            "en": "Short for 낄 때 끼고 빠질 때 빠져라: \"join in when it's your place, step back when it's not\" — read the room.",
+            "es": "Abreviatura de 낄 때 끼고 빠질 때 빠져라: \"únete cuando te toca, retírate cuando no\"; lee el ambiente.",
+            "zh": "낄 때 끼고 빠질 때 빠져라（該加入就加入，該退就退）的縮寫：看場合。",
+            "cn": "낄 때 끼고 빠질 때 빠져라（该加入就加入，该退就退）的缩写：看场合。",
+            "ja": "낄 때 끼고 빠질 때 빠져라（入るべき時に入り、引くべき時に引け）の略。空気を読め。"
+        },
+        "usage": {
+            "en": "\"커플 데이트에 따라가지 마, 낄끼빠빠\" (\"Don't tag along on their date — read the room\").",
+            "es": "\"커플 데이트에 따라가지 마, 낄끼빠빠\" (\"No vayas a su cita, lee el ambiente\").",
+            "zh": "「커플 데이트에 따라가지 마, 낄끼빠빠」（別跟去人家約會，看場合）。",
+            "cn": "“커플 데이트에 따라가지 마, 낄끼빠빠”（别跟去人家约会，看场合）。",
+            "ja": "「커플 데이트에 따라가지 마, 낄끼빠빠」（カップルのデートについて行かないで、空気読んで）。"
+        },
+        "register": "casual",
+        "similar": [
+            "무개념",
+            "오지랖"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "정신승리": {
+        "nuance": {
+            "en": "\"Mental victory\": convincing yourself you won (or it's fine) after losing.",
+            "es": "\"Victoria mental\": convencerte de que ganaste (o de que está bien) después de perder.",
+            "zh": "「精神勝利」：輸了之後說服自己其實贏了（或沒關係）。",
+            "cn": "“精神胜利”：输了之后说服自己其实赢了（或没关系）。",
+            "ja": "「精神的勝利」。負けた後に、実は勝った（大丈夫だった）と自分に言い聞かせること。"
+        },
+        "usage": {
+            "en": "\"티켓팅 실패했지만 집에서 편하게 보는 게 낫다고 정신승리 중\" (\"Lost ticketing, but telling myself watching from home is better\").",
+            "es": "\"티켓팅 실패했지만 집에서 편하게 보는 게 낫다고 정신승리 중\" (\"No conseguí entradas, pero me convenzo de que verlo en casa es mejor\").",
+            "zh": "「티켓팅 실패했지만 집에서 편하게 보는 게 낫다고 정신승리 중」（搶票失敗，正在精神勝利：在家看比較舒服）。",
+            "cn": "“티켓팅 실패했지만 집에서 편하게 보는 게 낫다고 정신승리 중”（抢票失败，正在精神胜利：在家看比较舒服）。",
+            "ja": "「티켓팅 실패했지만 집에서 편하게 보는 게 낫다고 정신승리 중」（チケット取れなかったけど家で見る方が楽だと精神勝利中）。"
+        },
+        "register": "casual",
+        "similar": [
+            "근자감",
+            "반박시내말이맞음"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "무해력": {
+        "nuance": {
+            "en": "無害 + 力 (power): the charm of being completely innocent, gentle and harmless.",
+            "es": "無害 + 力 (poder): el encanto de ser completamente inocente, dulce e inofensivo.",
+            "zh": "無害＋力：完全天真、溫柔、無害的魅力。",
+            "cn": "无害＋力：完全天真、温柔、无害的魅力。",
+            "ja": "無害＋力。まったく悪意がなく、優しく無垢であることの魅力。"
+        },
+        "usage": {
+            "en": "\"이 영상 무해력 최고야, 힐링된다\" (\"This video is so wholesome — so healing\").",
+            "es": "\"이 영상 무해력 최고야, 힐링된다\" (\"Este video es tan inofensivo y tierno, me relaja\").",
+            "zh": "「이 영상 무해력 최고야, 힐링된다」（這影片無害力滿分，好療癒）。",
+            "cn": "“이 영상 무해력 최고야, 힐링된다”（这视频无害力满分，好疗愈）。",
+            "ja": "「이 영상 무해력 최고야, 힐링된다」（この動画、無害力最高で癒される）。"
+        },
+        "register": "casual",
+        "similar": [
+            "세젤귀",
+            "가슴에 국밥 쏟음"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "밈각": {
+        "nuance": {
+            "en": "Meme + 각 (\"it's looking like\"): something with clear potential to become a meme.",
+            "es": "Meme + 각 (\"tiene pinta de\"): algo con claro potencial para volverse meme.",
+            "zh": "Meme＋각（「看起來會…」）：明顯有潛力變成迷因的東西。",
+            "cn": "Meme＋각（“看起来会…”）：明显有潜力变成迷因的东西。",
+            "ja": "ミーム＋각（〜しそうな流れ）。ミームになりそうな気配のあるもの。"
+        },
+        "usage": {
+            "en": "\"이 표정 완전 밈각이다\" (\"This facial expression is going to be a meme\").",
+            "es": "\"이 표정 완전 밈각이다\" (\"Esta cara va a ser meme\").",
+            "zh": "「이 표정 완전 밈각이다」（這表情一定會變迷因）。",
+            "cn": "“이 표정 완전 밈각이다”（这表情一定会变迷因）。",
+            "ja": "「이 표정 완전 밈각이다」（この表情、絶対ミームになる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "떡상",
+            "짤방"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "손민수": {
+        "nuance": {
+            "en": "Named after a webtoon character who copies the heroine's style: copying someone's outfit or look exactly. Used as a verb: 손민수하다.",
+            "es": "Por un personaje de webtoon que copia el estilo de la protagonista: copiar exactamente la ropa o el look de alguien. Se usa como verbo: 손민수하다.",
+            "zh": "得名於一位模仿女主角穿搭的網漫角色：完全照抄某人的穿搭或造型。可當動詞：손민수하다。",
+            "cn": "得名于一位模仿女主角穿搭的网漫角色：完全照抄某人的穿搭或造型。可当动词：손민수하다。",
+            "ja": "ヒロインのスタイルを真似するウェブトゥーンのキャラ名から。誰かの服装や見た目をそっくり真似すること。動詞は손민수하다。"
+        },
+        "usage": {
+            "en": "Fans use it for idol outfits: \"최애 공항패션 손민수했어\" (\"I copied my bias's airport outfit\").",
+            "es": "Los fans lo usan con los outfits de idols: \"최애 공항패션 손민수했어\" (\"Copié el outfit de aeropuerto de mi bias\").",
+            "zh": "粉絲用來說模仿偶像穿搭：「최애 공항패션 손민수했어」（我照抄了本命的機場穿搭）。",
+            "cn": "粉丝用来说模仿偶像穿搭：“최애 공항패션 손민수했어”（我照抄了本命的机场穿搭）。",
+            "ja": "アイドルの服を真似る時に：「최애 공항패션 손민수했어」（推しの空港ファッションを真似した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "공항패션",
+            "사복패션"
+        ],
+        "tags": [
+            "internet",
+            "webtoon"
+        ]
+    },
+    "현타": {
+        "nuance": {
+            "en": "Short for 현자 타임 / 현실 자각 타임: a sudden \"reality check\" moment when you sober up and see things clearly.",
+            "es": "Abreviatura de 현자 타임 / 현실 자각 타임: un momento repentino de \"baño de realidad\" en que ves las cosas con claridad.",
+            "zh": "현자 타임／현실 자각 타임（賢者時間／認清現實時間）的縮寫：突然清醒、看清現實的瞬間。",
+            "cn": "현자 타임／현실 자각 타임（贤者时间／认清现实时间）的缩写：突然清醒、看清现实的瞬间。",
+            "ja": "현자 타임／현실 자각 타임（賢者タイム／現実を自覚する時間）の略。急に冷静になり現実が見える瞬間。"
+        },
+        "usage": {
+            "en": "\"택배 박스 쌓인 거 보고 현타 왔어\" (\"Seeing the pile of delivery boxes hit me with a reality check\").",
+            "es": "\"택배 박스 쌓인 거 보고 현타 왔어\" (\"Ver la pila de cajas de pedidos me dio un baño de realidad\").",
+            "zh": "「택배 박스 쌓인 거 보고 현타 왔어」（看到堆積的包裹箱，突然清醒了）。",
+            "cn": "“택배 박스 쌓인 거 보고 현타 왔어”（看到堆积的包裹箱，突然清醒了）。",
+            "ja": "「택배 박스 쌓인 거 보고 현타 왔어」（積み上がった宅配の箱を見て我に返った）。"
+        },
+        "register": "casual",
+        "similar": [
+            "스불재",
+            "사축",
+            "이생망"
+        ],
+        "tags": [
+            "chat",
+            "reaction"
+        ]
+    },
+    "정줄놓": {
+        "nuance": {
+            "en": "Short for 정신줄을 놓다: \"letting go of your mental rope\" — zoning out or losing it.",
+            "es": "Abreviatura de 정신줄을 놓다: \"soltar la cuerda de la mente\", desconectarse o perder la cabeza.",
+            "zh": "정신줄을 놓다（放開理智線）的縮寫：恍神或失控。",
+            "cn": "정신줄을 놓다（放开理智线）的缩写：恍神或失控。",
+            "ja": "정신줄을 놓다（正気の綱を手放す）の略。ぼーっとする、正気を失う。"
+        },
+        "usage": {
+            "en": "\"시험 기간이라 정줄놓 상태\" (\"It's exam season and I've completely lost it\").",
+            "es": "\"시험 기간이라 정줄놓 상태\" (\"Es temporada de exámenes y perdí la cabeza\").",
+            "zh": "「시험 기간이라 정줄놓 상태」（考試期間，理智線已斷）。",
+            "cn": "“시험 기간이라 정줄놓 상태”（考试期间，理智线已断）。",
+            "ja": "「시험 기간이라 정줄놓 상태」（試験期間で正気を失ってる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "현타"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "급짜증": {
+        "nuance": {
+            "en": "急 + 짜증: a sudden flash of irritation.",
+            "es": "急 + 짜증: un ataque repentino de fastidio.",
+            "zh": "急＋짜증（煩躁）：突然一股火上來。",
+            "cn": "急＋짜증（烦躁）：突然一股火上来。",
+            "ja": "急＋짜증（イライラ）。急にイラッとすること。"
+        },
+        "usage": {
+            "en": "\"광고 30초라니 급짜증\" (\"A 30-second ad? Instant irritation\").",
+            "es": "\"광고 30초라니 급짜증\" (\"¿Un anuncio de 30 segundos? Qué fastidio\").",
+            "zh": "「광고 30초라니 급짜증」（廣告30秒？瞬間煩躁）。",
+            "cn": "“광고 30초라니 급짜증”（广告30秒？瞬间烦躁）。",
+            "ja": "「광고 30초라니 급짜증」（広告30秒？急にイラッ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "급발진",
+            "샤갈"
+        ],
+        "tags": [
+            "annoyed"
+        ]
+    },
+    "개고생": {
+        "nuance": {
+            "en": "개 (a slang intensifier) + 고생 (hardship): going through a really rough time.",
+            "es": "개 (intensificador coloquial) + 고생 (penurias): pasarla muy mal.",
+            "zh": "개（口語強調詞）＋고생（辛苦）：吃盡苦頭。",
+            "cn": "개（口语强调词）＋고생（辛苦）：吃尽苦头。",
+            "ja": "개（俗語の強調）＋고생（苦労）。ひどい苦労をすること。"
+        },
+        "usage": {
+            "en": "\"이사하느라 개고생했어\" (\"Moving was such a struggle\"). Casual — not for formal settings.",
+            "es": "\"이사하느라 개고생했어\" (\"La mudanza fue una pesadilla\"). Coloquial, no para situaciones formales.",
+            "zh": "「이사하느라 개고생했어」（搬家累死了）。很口語，不適合正式場合。",
+            "cn": "“이사하느라 개고생했어”（搬家累死了）。很口语，不适合正式场合。",
+            "ja": "「이사하느라 개고생했어」（引っ越しでめちゃくちゃ苦労した）。くだけた言い方で、改まった場では使わない。"
+        },
+        "register": "casual",
+        "similar": [
+            "폭망",
+            "존버"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "극락": {
+        "nuance": {
+            "en": "極樂 — Buddhist paradise: pure bliss, heaven on earth.",
+            "es": "極樂, el paraíso budista: felicidad pura, el cielo en la tierra.",
+            "zh": "極樂——佛教的極樂世界：極致的幸福。",
+            "cn": "极乐——佛教的极乐世界：极致的幸福。",
+            "ja": "極楽。仏教の極楽浄土から、至福、天国のような気分。"
+        },
+        "usage": {
+            "en": "\"퇴근하고 눕는 순간 극락\" (\"Lying down after work is pure bliss\").",
+            "es": "\"퇴근하고 눕는 순간 극락\" (\"Acostarme después del trabajo es el paraíso\").",
+            "zh": "「퇴근하고 눕는 순간 극락」（下班躺下的瞬間就是極樂）。",
+            "cn": "“퇴근하고 눕는 순간 극락”（下班躺下的瞬间就是极乐）。",
+            "ja": "「퇴근하고 눕는 순간 극락」（仕事終わりに横になった瞬間が極楽）。"
+        },
+        "register": "casual",
+        "similar": [
+            "힐링예능",
+            "감동"
+        ],
+        "tags": [
+            "reaction",
+            "praise"
+        ]
+    },
+    "폭망": {
+        "nuance": {
+            "en": "爆 + 망하다 (to be ruined): a total, spectacular failure.",
+            "es": "爆 + 망하다 (arruinarse): un fracaso total y espectacular.",
+            "zh": "爆＋망하다（完蛋）：徹底搞砸。",
+            "cn": "爆＋망하다（完蛋）：彻底搞砸。",
+            "ja": "爆＋망하다（終わる）。完全な大失敗。"
+        },
+        "usage": {
+            "en": "\"발표 폭망했어\" (\"My presentation was a complete disaster\").",
+            "es": "\"발표 폭망했어\" (\"Mi presentación fue un desastre total\").",
+            "zh": "「발표 폭망했어」（報告徹底搞砸了）。",
+            "cn": "“발표 폭망했어”（报告彻底搞砸了）。",
+            "ja": "「발표 폭망했어」（発表が大失敗した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "노답",
+            "스불재",
+            "떡락"
+        ],
+        "tags": [
+            "annoyed"
+        ]
+    },
+    "인싸력": {
+        "nuance": {
+            "en": "인싸 + 力 (power): how socially popular and outgoing someone is.",
+            "es": "인싸 + 力 (poder): qué tan popular y sociable es alguien.",
+            "zh": "인싸＋力：一個人的社交力、人氣程度。",
+            "cn": "인싸＋力：一个人的社交力、人气程度。",
+            "ja": "인싸＋力。どれだけ社交的で人気があるか、陽キャ力。"
+        },
+        "usage": {
+            "en": "\"처음 본 사람이랑 바로 친해지다니 인싸력 미쳤다\" (\"Making friends with strangers instantly? Insane social skills\").",
+            "es": "\"처음 본 사람이랑 바로 친해지다니 인싸력 미쳤다\" (\"¿Hacerse amiga de desconocidos al instante? Qué habilidad social\").",
+            "zh": "「처음 본 사람이랑 바로 친해지다니 인싸력 미쳤다」（跟初次見面的人馬上變熟，社交力太強了）。",
+            "cn": "“처음 본 사람이랑 바로 친해지다니 인싸력 미쳤다”（跟初次见面的人马上变熟，社交力太强了）。",
+            "ja": "「처음 본 사람이랑 바로 친해지다니 인싸력 미쳤다」（初対面の人とすぐ仲良くなるなんて陽キャ力やばい）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인싸",
+            "핵인싸"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "반박불가": {
+        "nuance": {
+            "en": "反駁不可 — impossible to argue with; undeniably true.",
+            "es": "反駁不可: imposible de rebatir, innegablemente cierto.",
+            "zh": "反駁不可——無法反駁、千真萬確。",
+            "cn": "反驳不可——无法反驳、千真万确。",
+            "ja": "反駁不可。反論の余地がない、紛れもない事実。"
+        },
+        "usage": {
+            "en": "\"이번 앨범 역대급, 반박불가\" (\"This album is their best ever — no arguments\").",
+            "es": "\"이번 앨범 역대급, 반박불가\" (\"Este álbum es su mejor, sin discusión\").",
+            "zh": "「이번 앨범 역대급, 반박불가」（這張專輯史上最強，無法反駁）。",
+            "cn": "“이번 앨범 역대급, 반박불가”（这张专辑史上最强，无法反驳）。",
+            "ja": "「이번 앨범 역대급, 반박불가」（今回のアルバムは歴代最高、異論は認めない）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "인정",
+            "빼박",
+            "팩폭"
+        ],
+        "tags": [
+            "chat",
+            "praise"
+        ]
+    },
+    "국뽕": {
+        "nuance": {
+            "en": "국가 (nation) + 뽕 (from 히로뽕, a slang word for a drug): a rush of national pride — sometimes overdone.",
+            "es": "국가 (nación) + 뽕 (de 히로뽕, jerga para una droga): un subidón de orgullo nacional, a veces exagerado.",
+            "zh": "국가（國家）＋뽕（來自히로뽕，毒品的俗稱）：一股愛國自豪感——有時過頭。",
+            "cn": "국가（国家）＋뽕（来自히로뽕，毒品的俗称）：一股爱国自豪感——有时过头。",
+            "ja": "국가（国家）＋뽕（薬物の俗称히로뽕から）。国への誇りで高揚すること。行き過ぎることも。"
+        },
+        "usage": {
+            "en": "\"외국인이 한국 노래 따라 부르는 거 보니 국뽕 차오른다\" (\"Seeing foreigners sing along to a Korean song fills me with national pride\"). As criticism: \"국뽕 영화\" (\"a jingoistic film\").",
+            "es": "\"외국인이 한국 노래 따라 부르는 거 보니 국뽕 차오른다\" (\"Ver a extranjeros cantar una canción coreana me llena de orgullo\"). Como crítica: \"국뽕 영화\" (\"película patriotera\").",
+            "zh": "「외국인이 한국 노래 따라 부르는 거 보니 국뽕 차오른다」（看外國人跟唱韓國歌，愛國心爆棚）。批評時：「국뽕 영화」（國族主義電影）。",
+            "cn": "“외국인이 한국 노래 따라 부르는 거 보니 국뽕 차오른다”（看外国人跟唱韩国歌，爱国心爆棚）。批评时：“국뽕 영화”（国族主义电影）。",
+            "ja": "「외국인이 한국 노래 따라 부르는 거 보니 국뽕 차오른다」（外国人が韓国の歌を歌うのを見て愛国心が湧く）。批判では「국뽕 영화」（国威発揚映画）。"
+        },
+        "register": "casual",
+        "similar": [
+            "과몰입"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "웃참": {
+        "nuance": {
+            "en": "Short for 웃음 참기: trying hard not to laugh — and usually failing.",
+            "es": "Abreviatura de 웃음 참기: intentar no reírse, y casi siempre fallar.",
+            "zh": "웃음 참기（忍住不笑）的縮寫：拼命憋笑——通常會失敗。",
+            "cn": "웃음 참기（忍住不笑）的缩写：拼命憋笑——通常会失败。",
+            "ja": "웃음 참기（笑いをこらえる）の略。必死に笑いをこらえること。たいてい失敗する。"
+        },
+        "usage": {
+            "en": "Popular challenge: \"웃참 챌린지 실패\" (\"Failed the try-not-to-laugh challenge\").",
+            "es": "Reto popular: \"웃참 챌린지 실패\" (\"Fallé el reto de no reírme\").",
+            "zh": "熱門挑戰：「웃참 챌린지 실패」（憋笑挑戰失敗）。",
+            "cn": "热门挑战：“웃참 챌린지 실패”（憋笑挑战失败）。",
+            "ja": "人気のチャレンジ：「웃참 챌린지 실패」（笑ってはいけないチャレンジ失敗）。"
+        },
+        "register": "casual",
+        "similar": [
+            "웃음벨",
+            "정색"
+        ],
+        "tags": [
+            "funny",
+            "variety"
+        ]
+    },
+    "클라스": {
+        "nuance": {
+            "en": "From \"class\": a whole other level of skill or caliber.",
+            "es": "De \"class\": un nivel completamente superior de habilidad o categoría.",
+            "zh": "來自「class」：完全不同等級的實力或水準。",
+            "cn": "来自“class”：完全不同等级的实力或水准。",
+            "ja": "「クラス」から。実力や格が一段上であること。"
+        },
+        "usage": {
+            "en": "\"역시 클라스가 다르다\" (\"Truly in a different class\").",
+            "es": "\"역시 클라스가 다르다\" (\"Definitivamente es de otra categoría\").",
+            "zh": "「역시 클라스가 다르다」（果然是不同等級）。",
+            "cn": "“역시 클라스가 다르다”（果然是不同等级）。",
+            "ja": "「역시 클라스가 다르다」（さすが格が違う）。"
+        },
+        "register": "casual",
+        "similar": [
+            "넘사벽",
+            "명불허전"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "취존": {
+        "nuance": {
+            "en": "Short for 취향 존중: \"respect people's tastes\" — to each their own.",
+            "es": "Abreviatura de 취향 존중: \"respeta los gustos\", cada quien con lo suyo.",
+            "zh": "취향 존중（尊重喜好）的縮寫：各有所好。",
+            "cn": "취향 존중（尊重喜好）的缩写：各有所好。",
+            "ja": "취향 존중（好みの尊重）の略。人それぞれ。"
+        },
+        "usage": {
+            "en": "\"파인애플 피자? 취존합니다\" (\"Pineapple pizza? I respect it\").",
+            "es": "\"파인애플 피자? 취존합니다\" (\"¿Pizza con piña? Respeto tu gusto\").",
+            "zh": "「파인애플 피자? 취존합니다」（鳳梨披薩？尊重你的喜好）。",
+            "cn": "“파인애플 피자? 취존합니다”（凤梨披萨？尊重你的喜好）。",
+            "ja": "「파인애플 피자? 취존합니다」（パイナップルピザ？好みは尊重します）。"
+        },
+        "register": "casual",
+        "similar": [
+            "취향존중",
+            "케바케"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "클린걸": {
+        "nuance": {
+            "en": "\"Clean girl\": a polished, natural-looking style — simple makeup, neat hair, wellness routines.",
+            "es": "\"Clean girl\": un estilo pulido y natural, con maquillaje simple, peinado prolijo y rutinas de bienestar.",
+            "zh": "「Clean girl」：乾淨自然的風格——淡妝、整齊的髮型、健康生活習慣。",
+            "cn": "“Clean girl”：干净自然的风格——淡妆、整齐的发型、健康生活习惯。",
+            "ja": "「クリーンガール」。シンプルなメイク、きちんとした髪、ウェルネス習慣など、清潔感のあるナチュラルなスタイル。"
+        },
+        "usage": {
+            "en": "\"클린걸 메이크업 튜토리얼\" (\"clean-girl makeup tutorial\").",
+            "es": "\"클린걸 메이크업 튜토리얼\" (\"tutorial de maquillaje clean girl\").",
+            "zh": "「클린걸 메이크업 튜토리얼」（Clean girl妝容教學）。",
+            "cn": "“클린걸 메이크업 튜토리얼”（Clean girl妆容教学）。",
+            "ja": "「클린걸 메이크업 튜토리얼」（クリーンガールメイクのチュートリアル）。"
+        },
+        "register": "casual",
+        "similar": [
+            "꾸안꾸",
+            "갓생"
+        ],
+        "tags": [
+            "beauty"
+        ]
+    },
+    "맛꿀마": {
+        "nuance": {
+            "en": "A playful way to say \"delicious,\" spread by comedy videos — a gentler alternative to 존맛탱.",
+            "es": "Una forma juguetona de decir \"delicioso\", difundida por videos de comedia; una alternativa más suave a 존맛탱.",
+            "zh": "俏皮地說「好吃」，因搞笑影片而流行——比존맛탱溫和的說法。",
+            "cn": "俏皮地说“好吃”，因搞笑视频而流行——比존맛탱温和的说法。",
+            "ja": "「美味しい」をおどけて言う言葉で、コメディ動画で広まった。존맛탱より穏やかな言い方。"
+        },
+        "usage": {
+            "en": "\"엄마표 김치찌개 맛꿀마\" (\"Mom's kimchi stew is so good\").",
+            "es": "\"엄마표 김치찌개 맛꿀마\" (\"El kimchi jjigae de mi mamá está riquísimo\").",
+            "zh": "「엄마표 김치찌개 맛꿀마」（媽媽煮的泡菜鍋超好吃）。",
+            "cn": "“엄마표 김치찌개 맛꿀마”（妈妈煮的泡菜锅超好吃）。",
+            "ja": "「엄마표 김치찌개 맛꿀마」（母さんのキムチチゲ、うまっ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "존맛탱",
+            "군싹"
+        ],
+        "tags": [
+            "food",
+            "praise"
+        ]
+    },
+    "콜건적": {
+        "nuance": {
+            "en": "Cola + 건강 (health) + -적: someone who orders a feast but insists on zero-calorie cola, as if that balances it out.",
+            "es": "Cola + 건강 (salud) + -적: alguien que pide un festín pero insiste en la cola sin calorías, como si eso lo compensara.",
+            "zh": "可樂＋건강（健康）＋-적：點了一桌大餐卻堅持喝零卡可樂，好像這樣就能抵銷。",
+            "cn": "可乐＋건강（健康）＋-적：点了一桌大餐却坚持喝零卡可乐，好像这样就能抵销。",
+            "ja": "コーラ＋건강（健康）＋-적。ごちそうを頼みつつコーラだけはゼロカロリーにこだわる人。"
+        },
+        "usage": {
+            "en": "\"치킨 두 마리에 제로콜라, 완전 콜건적\" (\"Two whole chickens and a zero cola — peak cola-health logic\").",
+            "es": "\"치킨 두 마리에 제로콜라, 완전 콜건적\" (\"Dos pollos fritos y una cola cero: lógica saludable de cola\").",
+            "zh": "「치킨 두 마리에 제로콜라, 완전 콜건적」（兩隻炸雞配零卡可樂，完全是可樂健康派）。",
+            "cn": "“치킨 두 마리에 제로콜라, 완전 콜건적”（两只炸鸡配零卡可乐，完全是可乐健康派）。",
+            "ja": "「치킨 두 마리에 제로콜라, 완전 콜건적」（チキン2羽にゼロコーラ、完全にコーラ健康派）。"
+        },
+        "register": "casual",
+        "similar": [
+            "얼죽아"
+        ],
+        "tags": [
+            "food",
+            "funny"
+        ]
+    },
+    "음본나": {
+        "nuance": {
+            "en": "Short for 음식이 본 나 (\"me, as seen by the food\"): a photo angle shot from the plate looking up at the person eating.",
+            "es": "Abreviatura de 음식이 본 나 (\"yo, visto por la comida\"): un ángulo de foto desde el plato mirando hacia quien come.",
+            "zh": "음식이 본 나（食物眼中的我）的縮寫：從盤子往上拍吃東西的人的拍照角度。",
+            "cn": "음식이 본 나（食物眼中的我）的缩写：从盘子往上拍吃东西的人的拍照角度。",
+            "ja": "음식이 본 나（食べ物から見た私）の略。皿から食べる人を見上げるアングルの写真。"
+        },
+        "usage": {
+            "en": "\"음본나 각도로 찍어 줘\" (\"Take it from the food's point of view\").",
+            "es": "\"음본나 각도로 찍어 줘\" (\"Tómala desde el punto de vista de la comida\").",
+            "zh": "「음본나 각도로 찍어 줘」（幫我用食物視角拍）。",
+            "cn": "“음본나 각도로 찍어 줘”（帮我用食物视角拍）。",
+            "ja": "「음본나 각도로 찍어 줘」（食べ物目線のアングルで撮って）。"
+        },
+        "register": "casual",
+        "similar": [
+            "인생샷",
+            "먹방"
+        ],
+        "tags": [
+            "food",
+            "internet"
+        ]
+    },
+    "랜선생님": {
+        "nuance": {
+            "en": "랜선 (online) + 선생님 (teacher): a creator you've only met online who teaches you something real.",
+            "es": "랜선 (en línea) + 선생님 (maestro): un creador que solo conoces en línea pero que te enseña algo de verdad.",
+            "zh": "랜선（網路）＋선생님（老師）：只在網路上認識、卻真的教會你東西的創作者。",
+            "cn": "랜선（网络）＋선생님（老师）：只在网络上认识、却真的教会你东西的创作者。",
+            "ja": "랜선（オンライン）＋선생님（先生）。ネットでしか知らないけれど、本当に何かを教えてくれるクリエイター。"
+        },
+        "usage": {
+            "en": "\"요리는 이 유튜버가 내 랜선생님이야\" (\"This YouTuber is my online cooking teacher\").",
+            "es": "\"요리는 이 유튜버가 내 랜선생님이야\" (\"Este youtuber es mi profe de cocina en línea\").",
+            "zh": "「요리는 이 유튜버가 내 랜선생님이야」（做菜方面，這位YouTuber是我的線上老師）。",
+            "cn": "“요리는 이 유튜버가 내 랜선생님이야”（做菜方面，这位YouTuber是我的在线老师）。",
+            "ja": "「요리는 이 유튜버가 내 랜선생님이야」（料理はこのYouTuberが私のネット先生）。"
+        },
+        "register": "casual",
+        "similar": [
+            "랜선",
+            "브이로그"
+        ],
+        "tags": [
+            "internet",
+            "praise"
+        ]
+    },
+    "위쑤시개": {
+        "nuance": {
+            "en": "위 (stomach) + 이쑤시개 (toothpick): super-spicy food eaten to \"poke\" the stress away.",
+            "es": "위 (estómago) + 이쑤시개 (palillo): comida muy picante que se come para \"pinchar\" el estrés.",
+            "zh": "위（胃）＋이쑤시개（牙籤）：為了戳走壓力而吃的超辣食物。",
+            "cn": "위（胃）＋이쑤시개（牙签）：为了戳走压力而吃的超辣食物。",
+            "ja": "위（胃）＋이쑤시개（つまようじ）。ストレスを「つつき出す」ために食べる激辛料理。"
+        },
+        "usage": {
+            "en": "\"오늘 너무 힘들어서 위쑤시개 먹으러 간다\" (\"Rough day — going for something fiery to poke the stress away\").",
+            "es": "\"오늘 너무 힘들어서 위쑤시개 먹으러 간다\" (\"Día pesado, voy por algo muy picante para sacar el estrés\").",
+            "zh": "「오늘 너무 힘들어서 위쑤시개 먹으러 간다」（今天好累，去吃辣的戳走壓力）。",
+            "cn": "“오늘 너무 힘들어서 위쑤시개 먹으러 간다”（今天好累，去吃辣的戳走压力）。",
+            "ja": "「오늘 너무 힘들어서 위쑤시개 먹으러 간다」（今日しんどいから激辛でストレス発散しに行く）。"
+        },
+        "register": "casual",
+        "similar": [
+            "존맛탱",
+            "현타"
+        ],
+        "tags": [
+            "food",
+            "funny"
+        ]
+    },
+    "구취": {
+        "nuance": {
+            "en": "Short for 구독 취소: unsubscribing from a channel or account. (Careful: 구취 also means bad breath.)",
+            "es": "Abreviatura de 구독 취소: cancelar la suscripción a un canal o cuenta. (Ojo: 구취 también significa mal aliento.)",
+            "zh": "구독 취소（取消訂閱）的縮寫。（注意：구취也是「口臭」的意思。）",
+            "cn": "구독 취소（取消订阅）的缩写。（注意：구취也是“口臭”的意思。）",
+            "ja": "구독 취소（登録解除）の略。（注意：구취は「口臭」の意味でもある。）"
+        },
+        "usage": {
+            "en": "\"뒷광고 해서 구취했어\" (\"I unsubscribed because of the hidden ads\").",
+            "es": "\"뒷광고 해서 구취했어\" (\"Cancelé la suscripción por la publicidad encubierta\").",
+            "zh": "「뒷광고 해서 구취했어」（因為業配不標示，取消訂閱了）。",
+            "cn": "“뒷광고 해서 구취했어”（因为业配不标示，取消订阅了）。",
+            "ja": "「뒷광고 해서 구취했어」（ステマしたから登録解除した）。"
+        },
+        "register": "casual",
+        "similar": [
+            "좋댓구알"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "보배": {
+        "nuance": {
+            "en": "Short for 보조 배터리: a portable power bank. (보배 also means \"treasure.\")",
+            "es": "Abreviatura de 보조 배터리: un cargador portátil. (보배 también significa \"tesoro\".)",
+            "zh": "보조 배터리（行動電源）的縮寫。（보배本身也有「寶貝」的意思。）",
+            "cn": "보조 배터리（行动电源）的缩写。（보배本身也有“宝贝”的意思。）",
+            "ja": "보조 배터리（モバイルバッテリー）の略。（보배は「宝物」の意味でもある。）"
+        },
+        "usage": {
+            "en": "A concert essential: \"콘서트 갈 때 보배 필수\" (\"A power bank is a must for concerts\").",
+            "es": "Imprescindible en conciertos: \"콘서트 갈 때 보배 필수\" (\"El cargador portátil es obligatorio para conciertos\").",
+            "zh": "演唱會必備：「콘서트 갈 때 보배 필수」（去演唱會一定要帶行動電源）。",
+            "cn": "演唱会必备：“콘서트 갈 때 보배 필수”（去演唱会一定要带行动电源）。",
+            "ja": "コンサートの必需品：「콘서트 갈 때 보배 필수」（コンサートにはモバイルバッテリー必須）。"
+        },
+        "register": "casual",
+        "similar": [
+            "직관",
+            "콘서트직관"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "이생망": {
+        "nuance": {
+            "en": "Short for 이번 생은 망했다: \"this life is ruined\" — exaggerated, joking despair over small failures.",
+            "es": "Abreviatura de 이번 생은 망했다: \"esta vida está arruinada\", desesperación exagerada y en broma por fracasos pequeños.",
+            "zh": "이번 생은 망했다（這輩子完了）的縮寫：為小失敗誇張地開玩笑哀嘆。",
+            "cn": "이번 생은 망했다（这辈子完了）的缩写：为小失败夸张地开玩笑哀叹。",
+            "ja": "이번 생은 망했다（今世は終わった）の略。小さな失敗を大げさに嘆く冗談。"
+        },
+        "usage": {
+            "en": "\"알람 못 듣고 지각, 이생망\" (\"Slept through my alarm and was late — this life is over\"). It's a joke, not real despair.",
+            "es": "\"알람 못 듣고 지각, 이생망\" (\"No oí la alarma y llegué tarde, mi vida se acabó\"). Es una broma, no desesperación real.",
+            "zh": "「알람 못 듣고 지각, 이생망」（沒聽到鬧鐘遲到了，這輩子完了）。是玩笑，不是真的絕望。",
+            "cn": "“알람 못 듣고 지각, 이생망”（没听到闹钟迟到了，这辈子完了）。是玩笑，不是真的绝望。",
+            "ja": "「알람 못 듣고 지각, 이생망」（アラームに気づかず遅刻、今世終わった）。冗談で、本当の絶望ではない。"
+        },
+        "register": "casual",
+        "similar": [
+            "폭망",
+            "노답",
+            "현타"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "꾸안꾸": {
+        "nuance": {
+            "en": "Short for 꾸민 듯 안 꾸민 듯: \"styled but looks unstyled\" — effortless-looking fashion or makeup.",
+            "es": "Abreviatura de 꾸민 듯 안 꾸민 듯: \"arreglado pero parece natural\", moda o maquillaje que parecen sin esfuerzo.",
+            "zh": "꾸민 듯 안 꾸민 듯（像打扮又像沒打扮）的縮寫：看起來毫不費力的穿搭或妝容。",
+            "cn": "꾸민 듯 안 꾸민 듯（像打扮又像没打扮）的缩写：看起来毫不费力的穿搭或妆容。",
+            "ja": "꾸민 듯 안 꾸민 듯（着飾ったようで着飾ってない）の略。頑張ってない風に見えるおしゃれやメイク。"
+        },
+        "usage": {
+            "en": "\"꾸안꾸 데일리룩\" (\"effortless everyday look\").",
+            "es": "\"꾸안꾸 데일리룩\" (\"look diario natural\").",
+            "zh": "「꾸안꾸 데일리룩」（看似不費力的日常穿搭）。",
+            "cn": "“꾸안꾸 데일리룩”（看似不费力的日常穿搭）。",
+            "ja": "「꾸안꾸 데일리룩」（抜け感のあるデイリールック）。"
+        },
+        "register": "casual",
+        "similar": [
+            "클린걸",
+            "사복패션"
+        ],
+        "tags": [
+            "beauty"
+        ]
+    },
+    "완내스": {
+        "nuance": {
+            "en": "Short for 완전 내 스타일: \"totally my style.\"",
+            "es": "Abreviatura de 완전 내 스타일: \"totalmente mi estilo\".",
+            "zh": "완전 내 스타일（完全是我的菜）的縮寫。",
+            "cn": "완전 내 스타일（完全是我的菜）的缩写。",
+            "ja": "완전 내 스타일（完全に私好み）の略。"
+        },
+        "usage": {
+            "en": "\"이번 콘셉트 완내스\" (\"This concept is totally my style\").",
+            "es": "\"이번 콘셉트 완내스\" (\"Este concepto es totalmente mi estilo\").",
+            "zh": "「이번 콘셉트 완내스」（這次的概念完全是我的菜）。",
+            "cn": "“이번 콘셉트 완내스”（这次的概念完全是我的菜）。",
+            "ja": "「이번 콘셉트 완내스」（今回のコンセプト完全に好み）。"
+        },
+        "register": "casual",
+        "similar": [
+            "취향저격",
+            "꾸안꾸"
+        ],
+        "tags": [
+            "praise"
+        ]
+    },
+    "돔황챠": {
+        "nuance": {
+            "en": "A deliberately garbled spelling of 도망쳐 (\"run!\") — a dramatic, joking warning.",
+            "es": "Una forma deliberadamente deformada de escribir 도망쳐 (\"¡corre!\"), una advertencia dramática en broma.",
+            "zh": "故意寫歪的도망쳐（快逃！）——誇張又搞笑的警告。",
+            "cn": "故意写歪的도망쳐（快逃！）——夸张又搞笑的警告。",
+            "ja": "도망쳐（逃げて！）をわざと崩した書き方。大げさでおふざけの警告。"
+        },
+        "usage": {
+            "en": "\"이 드라마 보면 밤새요, 돔황챠\" (\"This drama will keep you up all night — run while you can\").",
+            "es": "\"이 드라마 보면 밤새요, 돔황챠\" (\"Este drama te hará trasnochar, ¡huye mientras puedas!\").",
+            "zh": "「이 드라마 보면 밤새요, 돔황챠」（看這部劇會熬夜，快逃）。",
+            "cn": "“이 드라마 보면 밤새요, 돔황챠”（看这部剧会熬夜，快逃）。",
+            "ja": "「이 드라마 보면 밤새요, 돔황챠」（このドラマ見たら徹夜確定、逃げて）。"
+        },
+        "register": "casual",
+        "similar": [
+            "야민정음",
+            "오나전"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ]
+    },
+    "생축": {
+        "nuance": {
+            "en": "Short for 생일 축하: \"happy birthday\" — quick and casual.",
+            "es": "Abreviatura de 생일 축하: \"feliz cumpleaños\", rápido y casual.",
+            "zh": "생일 축하（生日快樂）的縮寫：簡短又隨性。",
+            "cn": "생일 축하（生日快乐）的缩写：简短又随性。",
+            "ja": "생일 축하（誕生日おめでとう）の略。短くてカジュアル。"
+        },
+        "usage": {
+            "en": "\"생축! 오늘 하루 행복하게 보내\" (\"HBD! Have a happy day\"). Use the full 생일 축하해요 for elders.",
+            "es": "\"생축! 오늘 하루 행복하게 보내\" (\"¡Feliz cumple! Que tengas un lindo día\"). Con mayores, usa la forma completa 생일 축하해요.",
+            "zh": "「생축! 오늘 하루 행복하게 보내」（生日快樂！祝你今天開心）。對長輩要用完整的생일 축하해요。",
+            "cn": "“생축! 오늘 하루 행복하게 보내”（生日快乐！祝你今天开心）。对长辈要用完整的생일 축하해요。",
+            "ja": "「생축! 오늘 하루 행복하게 보내」（誕おめ！今日一日楽しんで）。目上の人には생일 축하해요を。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애생일",
+            "생일카페"
+        ],
+        "tags": [
+            "chat"
+        ]
+    },
+    "텅장": {
+        "nuance": {
+            "en": "텅 (empty) + 통장 (bankbook): an empty bank account, usually right after payday spending.",
+            "es": "텅 (vacío) + 통장 (libreta bancaria): una cuenta vacía, normalmente justo después de gastar el sueldo.",
+            "zh": "텅（空）＋통장（存摺）：空空的帳戶，通常是發薪後花光了。",
+            "cn": "텅（空）＋통장（存折）：空空的帐户，通常是发薪后花光了。",
+            "ja": "텅（空っぽ）＋통장（通帳）。空っぽの口座。たいてい給料日直後の散財の後。"
+        },
+        "usage": {
+            "en": "\"컴백 굿즈 사고 텅장 됐어\" (\"Bought comeback merch and now my account is empty\").",
+            "es": "\"컴백 굿즈 사고 텅장 됐어\" (\"Compré merch del comeback y me quedé sin un peso\").",
+            "zh": "「컴백 굿즈 사고 텅장 됐어」（買了回歸周邊，帳戶空了）。",
+            "cn": "“컴백 굿즈 사고 텅장 됐어”（买了回归周边，帐户空了）。",
+            "ja": "「컴백 굿즈 사고 텅장 됐어」（カムバグッズ買って口座が空っぽ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "플렉스",
+            "무지출챌린지"
+        ],
+        "tags": [
+            "chat",
+            "funny"
+        ]
+    },
+    "고인물": {
+        "nuance": {
+            "en": "\"Stagnant water\": a long-time veteran of a game, hobby or community — very skilled, sometimes intimidating to newcomers.",
+            "es": "\"Agua estancada\": un veterano de un juego, hobby o comunidad, muy hábil y a veces intimidante para los novatos.",
+            "zh": "「死水」：在遊戲、興趣或社群裡待很久的老手——很強，有時讓新手望而生畏。",
+            "cn": "“死水”：在游戏、兴趣或社群里待很久的老手——很强，有时让新手望而生畏。",
+            "ja": "「よどんだ水」。ゲームや趣味、コミュニティの古参。とても上手で、新人には近寄りがたいことも。"
+        },
+        "usage": {
+            "en": "\"이 팬덤 고인물들은 데뷔 전 영상까지 다 알아\" (\"The veterans in this fandom know even the pre-debut videos\").",
+            "es": "\"이 팬덤 고인물들은 데뷔 전 영상까지 다 알아\" (\"Los veteranos de este fandom conocen hasta los videos de antes del debut\").",
+            "zh": "「이 팬덤 고인물들은 데뷔 전 영상까지 다 알아」（這個粉絲圈的老粉連出道前的影片都知道）。",
+            "cn": "“이 팬덤 고인물들은 데뷔 전 영상까지 다 알아”（这个粉丝圈的老粉连出道前的视频都知道）。",
+            "ja": "「이 팬덤 고인물들은 데뷔 전 영상까지 다 알아」（このファンダムの古参はデビュー前の動画まで知ってる）。"
+        },
+        "register": "casual",
+        "similar": [
+            "만렙",
+            "찐팬"
+        ],
+        "tags": [
+            "internet"
+        ]
+    },
+    "주먹자로": {
+        "nuance": {
+            "en": "A pun on 마운자로 (Mounjaro, a weight-loss drug): a self-mocking joke about not being able to afford it. It's wordplay, not a diet method.",
+            "es": "Juego de palabras con 마운자로 (Mounjaro, un medicamento para bajar de peso): un chiste burlón sobre no poder pagarlo. Es un juego de palabras, no un método de dieta.",
+            "zh": "마운자로（Mounjaro，減重藥）的諧音：自嘲買不起的玩笑。只是文字遊戲，不是減肥方法。",
+            "cn": "마운자로（Mounjaro，减重药）的谐音：自嘲买不起的玩笑。只是文本游戏，不是减肥方法。",
+            "ja": "마운자로（マンジャロ、減量薬）のもじり。高くて手が出ないことを自虐するジョーク。言葉遊びであって、ダイエット法ではない。"
+        },
+        "usage": {
+            "en": "Mostly in self-deprecating posts: \"카드값 보고 주먹자로 하기로 함\" (\"Saw my card bill, so I guess it's 'fist-jaro' for me\").",
+            "es": "Sobre todo en publicaciones autocríticas: \"카드값 보고 주먹자로 하기로 함\" (\"Vi la cuenta de la tarjeta, así que me toca 'puño-jaro'\").",
+            "zh": "多用在自嘲貼文：「카드값 보고 주먹자로 하기로 함」（看了信用卡帳單，只好「拳頭자로」了）。",
+            "cn": "多用在自嘲贴文：“카드값 보고 주먹자로 하기로 함”（看了信用卡帐单，只好“拳头자로”了）。",
+            "ja": "自虐投稿で：「카드값 보고 주먹자로 하기로 함」（カードの請求見て「拳ジャロ」にすることにした）。"
+        },
+        "register": "casual",
+        "similar": [
+            "이생망",
+            "웃프다"
+        ],
+        "tags": [
+            "internet",
+            "funny"
         ]
     },
 }

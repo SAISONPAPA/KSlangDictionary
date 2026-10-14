@@ -112,7 +112,7 @@ python3 generate_sitemap.py    # → sitemap.xml
 
 ### 단어 상세 콘텐츠 — `DETAILS` (build_kslang_db.py)
 
-번역 사전처럼 **별도 선택 사전**이라 기존 튜플은 안 건드림. 들어있는 단어만 word 페이지에 뉘앙스 / 사용법 / 문화 맥락 / 톤 / 비슷한 표현 / 출처 섹션이 생기고, 빠진 필드는 섹션 자체가 안 보임.
+번역 사전처럼 **별도 선택 사전**이라 기존 튜플은 안 건드림. **2026-10 기준 전 단어(654개) 상세 완료** — 새 단어를 추가할 때도 DETAILS 항목을 같이 넣을 것. 태그 목록은 `TAG_LABELS`(kpop-fan, romance, drama, industry, stage, beauty, variety, webtoon, tradition, worklife, food 등). 번체를 먼저 쓰고 간체는 OpenCC `tw2sp`로 변환 후 따옴표를 “ ”로 바꿈. 들어있는 단어만 word 페이지에 뉘앙스 / 사용법 / 문화 맥락 / 톤 / 비슷한 표현 / 출처 섹션이 생기고, 빠진 필드는 섹션 자체가 안 보임.
 - `nuance`·`usage`·`culture`는 **5개 언어 전부** 채울 것 (`{en, es, zh, cn, ja}`). 페이지에선 선택한 언어만 보이고(기본 영어), HTML엔 5개 다 들어감. 기존 뜻·예문은 지금처럼 5개 언어가 다 쌓여서 보임 — 의도된 차이.
 - `similar`는 DB에 실제 있는 `kr`만, `tags`는 `TAG_LABELS` 키만, `register`는 `REGISTER_LABELS` 키만 (casual / everyday / text).
 - `sources`는 **직접 열어서 내용 확인한 페이지만**. 못 찾으면 비워둘 것 (최애·감다살처럼). 유래가 불확실하면 불확실하다고 쓸 것 (대박 참고 — 국립국어원도 미확정이라고 함). 지어낸 통계·인용·가사·실존 인물 예문 금지.
