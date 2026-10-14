@@ -3311,12 +3311,6 @@ MEME = [
      "그건 그냥 근자감 아니야?", "Isn't that just baseless confidence?",
      "¿Eso no es solo confianza sin fundamento?",
      "Casual social commentary", "Verified (web-checked)"),
-    ("오또케", "o-tto-ke", "What do I do (cutely)",
-     "A cutesy, exaggerated way of saying 어떡해 (\"what do I do\"), often used as an aegyo expression of panic or distress.",
-     "Una forma tierna y exagerada de decir 어떡해 (\"qué hago\"), a menudo usada como expresión de aegyo de pánico o angustia.",
-     "나 지갑 잃어버렸어, 오또케!", "I lost my wallet, what do I do!",
-     "¡Perdí mi cartera, qué hago!",
-     "Casual aegyo speech", "Draft — please double-check"),
     ("부럽다", "bu-reop-da", "I'm jealous",
      "Expressing envy or jealousy toward someone else's good fortune.",
      "Expresar envidia o celos hacia la buena fortuna de otra persona.",
@@ -4967,7 +4961,6 @@ ZH_TW_TRANSLATIONS = {
     "핵인싸": ("「核彈級insider」——인싸的加強版，形容社交上超級受歡迎、人脈超廣的人。", "那個人在學校裡完全是超級人氣王。"),
     "팩폭": ("「事實轟炸」——直白地說出令人不舒服但很中肯的真相。", "朋友一句事實暴擊讓我無話可說。"),
     "근자감": ("「沒有根據的自信」的簡稱——缺乏實力或證據支撐的自信。", "那不就只是沒來由的自信嗎？"),
-    "오또케": ("誇張可愛地說「어떡해」（怎麼辦）的方式，常用來表達慌張或困擾的撒嬌語氣。", "我錢包不見了，怎麼辦！"),
     "부럽다": ("表達對他人好運的羨慕或嫉妒。", "你去了那場演唱會？真的好羨慕。"),
     "소름": ("「雞皮疙瘩」——形容令人起雞皮疙瘩的事物，無論是興奮、恐懼還是敬畏。", "看完這個舞台整個起雞皮疙瘩。"),
     "감동": ("被某件事情感動、觸動內心。", "聽完這個故事真的很感動。"),
@@ -5756,7 +5749,6 @@ ZH_CN_TRANSLATIONS = {
     "핵인싸": ("“核弹级insider”——인싸的加强版，形容社交上超级受欢迎、人脉超广的人。", "那个人在学校里完全是超级人气王。"),
     "팩폭": ("“事实轰炸”——直白地说出令人不舒服但很中肯的真相。", "朋友一句事实暴击让我无话可说。"),
     "근자감": ("“没有根据的自信”的简称——缺乏实力或证据支撑的自信。", "那不就只是没来由的自信吗？"),
-    "오또케": ("夸张可爱地说“어떡해”（怎么办）的方式，常用来表达慌张或困扰的撒娇语气。", "我钱包不见了，怎么办！"),
     "부럽다": ("表达对他人好运的羡慕或嫉妒。", "你去了那场演唱会？真的好羡慕。"),
     "소름": ("“鸡皮疙瘩”——形容令人起鸡皮疙瘩的事物，无论是兴奋、恐惧还是敬畏。", "看完这个舞台整个起鸡皮疙瘩。"),
     "감동": ("被某件事情感动、触动内心。", "听完这个故事真的很感动。"),
@@ -6535,7 +6527,6 @@ JA_TRANSLATIONS = {
     "핵인싸": ("「核＋インサイダー」——인싸をさらに強調した表現で、非常に社交的で人脈の広い人を表す。", "あの子は学校で完全に超陽キャだよ。"),
     "팩폭": ("「事実爆撃」——不快だが的を射た真実をストレートに言うこと。", "友達にファクト爆弾食らって何も言えなかった。"),
     "근자감": ("「根拠のない自信」の略——実力や証拠に裏付けされていない自信。", "それってただの根拠のない自信じゃない？"),
-    "오또케": ("어떡해（どうしよう）を大げさで可愛らしく言う表現で、パニックや困惑を表すアヨ表現としてよく使われる。", "財布なくした、どうしよう！"),
     "부럽다": ("他人の幸運に対して羨望や嫉妬を表すこと。", "あのコンサート行ったの？めっちゃ羨ましい。"),
     "소름": ("興奮、恐怖、畏敬の念など、鳥肌が立つようなものを表す言葉。", "このステージ見て鳥肌立った。"),
     "감동": ("何かに心を動かされ、感激すること。", "この話聞いて本当に感動した。"),
@@ -25664,37 +25655,6 @@ DETAILS = {
                 "publisher": "90 Day Korean",
                 "date": "2026-08-24",
                 "url": "https://www.90daykorean.com/?p=2431"
-            }
-        ]
-    },
-    "오또케": {
-        "nuance": {
-            "en": "A baby-talk version of 어떡해 (\"what do I do?\"). Note: online it has also been used to mock women, so it can come across badly.",
-            "es": "Versión infantil de 어떡해 (\"¿qué hago?\"). Ojo: en internet también se ha usado para burlarse de las mujeres, así que puede caer mal.",
-            "zh": "어떡해（怎麼辦）的撒嬌版說法。注意：在網路上它也曾被用來嘲諷女性，可能讓人不舒服。",
-            "cn": "어떡해（怎么办）的撒娇版说法。注意：在网络上它也曾被用来嘲讽女性，可能让人不舒服。",
-            "ja": "어떡해（どうしよう）の赤ちゃん言葉バージョン。注意：ネットでは女性を揶揄する言葉としても使われてきたため、印象が悪くなることがある。"
-        },
-        "usage": {
-            "en": "Safest when talking about yourself, playfully: \"지갑 두고 왔어, 오또케\" (\"Left my wallet at home, what do I do\"). Avoid using it about others.",
-            "es": "Mejor usarlo sobre ti misma y en broma: \"지갑 두고 왔어, 오또케\" (\"Olvidé la billetera, ¿qué hago?\"). Evita usarlo sobre otras personas.",
-            "zh": "用在自己身上、開玩笑最安全：「지갑 두고 왔어, 오또케」（錢包忘了帶，怎麼辦啦）。避免用來說別人。",
-            "cn": "用在自己身上、开玩笑最安全：“지갑 두고 왔어, 오또케”（钱包忘了带，怎么办啦）。避免用来说别人。",
-            "ja": "自分のことを冗談で言うのが無難：「지갑 두고 왔어, 오또케」（財布忘れた、どうしよ〜）。他人に向けて使うのは避けて。"
-        },
-        "register": "casual",
-        "similar": [
-            "애교"
-        ],
-        "tags": [
-            "chat"
-        ],
-        "sources": [
-            {
-                "title": "'오또케오또케'·'허버허버'…진화되고 있는 일상의 혐오 표현들",
-                "publisher": "Dailian",
-                "date": "2022-02-17",
-                "url": "https://www.dailian.co.kr/news/view/1083964/"
             }
         ]
     },
