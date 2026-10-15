@@ -31,6 +31,7 @@ from PIL import Image, ImageDraw
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
 import generate_instagram_cards as g  # noqa: E402
+from mascot import poka  # noqa: E402
 
 db = g.db
 RW, RH = 1080, 1920
@@ -174,10 +175,10 @@ def build_layers(word, distractors):
     L["it_means"] = text_layer("IT MEANS…", g.load_font("bricolage_bold", 78), g.CREAM_INK)
     L["got_it"] = text_layer("Got it right?", g.load_font("bricolage_bold", 92), g.CREAM_INK)
 
-    term_font = g.load_font("black_han_sans", 300 if len(word["kr"]) <= 3 else 220)
+    term_font = g.load_font("black_han_sans", 270 if len(word["kr"]) <= 3 else 200)
     foil = g.draw_foil_gradient_text(word["kr"], term_font)
-    if foil.width > RW - 140:
-        foil = foil.resize((RW - 140, int(foil.height * (RW - 140) / foil.width)), Image.LANCZOS)
+    if foil.width > RW - 560:  # leave room for 포카 on the left and the countdown on the right
+        foil = foil.resize((RW - 560, int(foil.height * (RW - 560) / foil.width)), Image.LANCZOS)
     L["term"] = foil
     L["rom"] = text_layer(f"/{word['rom']}/", g.load_font("mono_italic", 42), g.CREAM_INK_SOFT)
 
@@ -219,6 +220,26 @@ def backdrop(f):
     return img
 
 
+def mascot(c, f):
+    """포카's acting: happy hello → thinking during countdown → cheering at reveal."""
+    t = f / FPS
+    if f < T_COUNT:
+        img = poka("happy", arm_l=-150 + 25 * math.sin(t * 14), arm_r=-40, size=0.68)
+        y = 650 + 6 * math.sin(t * 6)
+        sc = pop(f, 4, 9)
+    elif f < T_REVEAL:
+        img = poka("think", arm_l=-120, arm_r=-30, stick_tilt=-15 + 8 * math.sin(t * 5), size=0.68,
+                   lean=4 * math.sin(t * 2.5))
+        y, sc = 650, 1
+    else:
+        k = (f - T_REVEAL) / FPS
+        up = abs(math.sin(k * 9)) * 50 * max(0.0, 1 - k / 1.4)
+        img = poka("excited", arm_l=-130 + 20 * math.sin(k * 18), arm_r=-60, stick_tilt=25 * math.sin(k * 14),
+                   size=0.68, lean=-4)
+        y, sc = 650 - up, 1
+    return img, y, sc
+
+
 # ---------------------------------------------------------------------------
 # frames
 # ---------------------------------------------------------------------------
@@ -245,13 +266,17 @@ def render_frames(word, distractors):
             s = 1.45 - 0.45 * ease_out_back(prog(f, 0, 12), 1.6)
             if T_REVEAL <= f < T_REVEAL + 8:
                 s *= 1 + 0.06 * (1 - prog(f, T_REVEAL, 8))
-            put(c, L["term"], CX, 640 + dy, s)
-            put(c, L["rom"], CX, 820 + dy, alpha=ease_out_cubic(prog(f, 6, 8)))
+            put(c, L["term"], CX + 95, 640 + dy, s)
+            put(c, L["rom"], CX + 95, 820 + dy, alpha=ease_out_cubic(prog(f, 6, 8)))
+
+            # 포카
+            m, my, msc = mascot(c, f)
+            put(c, m, 170, my + dy, msc)
 
             # countdown
             if T_COUNT <= f < T_REVEAL:
                 n = 3 - (f - T_COUNT) // 30
-                put(c, L["count"][n], 935, 520 + dy, pop(f, T_COUNT + (3 - n) * 30, 7))
+                put(c, L["count"][n], 985, 470 + dy, pop(f, T_COUNT + (3 - n) * 30, 7))
 
             # answers
             for i, o in enumerate(L["opt"]):
@@ -290,13 +315,19 @@ def render_frames(word, distractors):
             put(c, L["card"], CX, y, shadow=True)
             if f >= T_CARD + 18:
                 put(c, L["tape"], CX, y - L["card"].height / 2 + 6 - 0, pop(f, T_CARD + 18, 6))
+                peek = poka("wink", arm_l=-150 + 20 * math.sin(f / FPS * 10), arm_r=-35, size=0.5)
+                put(c, peek, 905, y + L["card"].height / 2 - 40, pop(f, T_CARD + 22, 9))
 
         # ---- CTA
         if f >= T_CTA:
-            put(c, L["got_it"], CX, 700, pop(f, T_CTA + 6, 9))
-            put(c, L["comment"], CX, 830, alpha=ease_out_cubic(prog(f, T_CTA + 12, 8)))
-            put(c, L["follow"], CX, 1010, pop(f, T_CTA + 18, 9))
-            put(c, L["site"], CX, 1180, alpha=ease_out_cubic(prog(f, T_CTA + 22, 8)))
+            put(c, L["got_it"], CX, 470, pop(f, T_CTA + 6, 9))
+            put(c, L["comment"], CX, 590, alpha=ease_out_cubic(prog(f, T_CTA + 12, 8)))
+            t = f / FPS
+            hi = poka("happy" if (f // 12) % 4 else "wink", arm_l=-150 + 30 * math.sin(t * 12), arm_r=-50,
+                      stick_tilt=15 * math.sin(t * 8), size=0.9)
+            put(c, hi, CX, 900 + 8 * math.sin(t * 6), pop(f, T_CTA + 2, 10))
+            put(c, L["follow"], CX, 1210, pop(f, T_CTA + 18, 9))
+            put(c, L["site"], CX, 1330, alpha=ease_out_cubic(prog(f, T_CTA + 22, 8)))
 
         yield c.convert("RGB")
 
