@@ -4,10 +4,10 @@ Instagram Reel (9:16 MP4) — "Guess the meaning" quiz format.
 
   0.0s  giant foil word + "GUESS THE MEANING" headline (no empty first frame)
   0.3s  three answer stickers pop in (A/B/C)
-  1.0s  3-2-1 countdown
-  4.0s  reveal: wrong answers fade, right one turns garnet
-  5.5s  the dictionary card (EN + ES meaning)
-  8.3s  "Got it right? Comment!" + follow
+  1.5s  3-2-1 countdown
+  4.5s  reveal: wrong answers fade, right one turns garnet
+  6.5s  the dictionary card (EN + ES meaning)
+ 10.2s  "Got it right? Comment!" + follow   (13s total)
 
 Wrong answers are the short English titles of REAL related words from the DB
 (DETAILS["similar"], Verified only), so the quiz never invents meanings.
@@ -40,11 +40,11 @@ CX = RW // 2
 
 # timeline (frames)
 T_OPTS = 9          # first answer sticker
-T_COUNT = 30        # countdown starts
-T_REVEAL = 120
-T_CARD = 165
-T_CTA = 250
-T_END = 300
+T_COUNT = 45        # countdown starts (1.5s to read the answers first)
+T_REVEAL = 135
+T_CARD = 195
+T_CTA = 305
+T_END = 390         # 13s total
 
 LETTER_COLORS = [g.POP_LEMON, g.POP_LILAC, g.POP_MINT]
 
