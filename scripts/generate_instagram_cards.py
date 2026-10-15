@@ -368,8 +368,8 @@ def finish(canvas):
 # ---------------------------------------------------------------------------
 # Slides
 # ---------------------------------------------------------------------------
-def render_hook_slide(word, new_word=False):
-    canvas = backdrop(None if new_word else "1/4")
+def build_hook_card(word, new_word=False, stage=3):
+    """stage < 3 is only used by the reel to reveal the hook step by step."""
     card = new_card(word["cat_en"])
     d = ImageDraw.Draw(card)
     cx = CARD_W // 2
@@ -377,6 +377,8 @@ def render_hook_slide(word, new_word=False):
     q_font = load_font("bricolage_bold", 54)
     center_text(d, 300, "NEW WORD ALERT" if new_word else "Your bias just said…", q_font, CARD_INK)
 
+    if stage < 2:
+        return card
     term_font = load_font("black_han_sans", 230 if len(word["kr"]) <= 3 else 170)
     foil = draw_foil_gradient_text(word["kr"], term_font)
     if foil.width > TEXT_W:
@@ -386,6 +388,8 @@ def render_hook_slide(word, new_word=False):
     rom_font = load_font("mono_italic", 40)
     center_text(d, 520 + foil.height // 2 + 90, f"/{word['rom']}/", rom_font, CARD_INK_SOFT)
 
+    if stage < 3:
+        return card
     y = 520 + foil.height // 2 + 220
     if new_word:
         f = load_font("hanken_bold", 44)
@@ -395,24 +399,10 @@ def render_hook_slide(word, new_word=False):
     else:
         f = load_font("bricolage_bold", 50)
         center_text(d, y, "…wait, what does it mean?", f, GARNET)
-
-    angle = -1.6
-    place_card(canvas, card, angle)
-    # decorations sit on the card edges, never over the text block
-    place(canvas, tape(240, 60, "lilac").rotate(-8, expand=True, resample=Image.BICUBIC), W / 2, CARD_Y + 4, shadow=False)
-    place(canvas, sticker("♥", POP_PINK, "noto_kr_bold", 54, circle=True), CARD_X + CARD_W - 40, CARD_Y + 150, 12)
-    if new_word:
-        place(canvas, sticker("NEW", POP_LEMON, "black_han_sans", 46), CARD_X + 110, CARD_Y + CARD_H - 24, 7)
-    else:
-        place(canvas, sticker("SWIPE →", POP_LEMON, "bricolage_bold", 40), CARD_X + CARD_W - 140, CARD_Y + CARD_H - 20, -6)
-    sparkle(canvas, 70, 1300, 46)
-    sparkle(canvas, 1030, 175, 34, POP_MINT)
-    sparkle(canvas, 1000, 1310, 28, POP_PINK)
-    return finish(canvas)
+    return card
 
 
-def render_meaning_slide(word):
-    canvas = backdrop("2/4")
+def build_meaning_card(word):
     card = new_card(word["cat_en"])
     d = ImageDraw.Draw(card)
     x = PAD
@@ -445,17 +435,10 @@ def render_meaning_slide(word):
     for line in es_lines:
         d.text((x, y), line, font=es_font, fill=CARD_INK_SOFT, anchor="ls")
         y += 50
-
-    place_card(canvas, card)  # long text → card stays level
-    place(canvas, tape(200, 54, "pink").rotate(30, expand=True, resample=Image.BICUBIC), CARD_X + 30, CARD_Y + 20, shadow=False)
-    place(canvas, tape(200, 54, "pink").rotate(30, expand=True, resample=Image.BICUBIC), CARD_X + CARD_W - 30, CARD_Y + CARD_H - 20, shadow=False)
-    place(canvas, sticker("✦", POP_LILAC, "noto_kr_bold", 50, circle=True), CARD_X + CARD_W - 50, CARD_Y + 40, -10)
-    sparkle(canvas, 50, 1310, 34, POP_LEMON)
-    return finish(canvas)
+    return card
 
 
-def render_usage_slide(word):
-    canvas = backdrop("3/4")
+def build_usage_card(word):
     card = new_card(word["cat_en"])
     d = ImageDraw.Draw(card)
     x = PAD
@@ -506,17 +489,10 @@ def render_usage_slide(word):
         for line in tip_lines:
             draw_rich(d, (x, y), line, tip_font, tip_kr, CARD_INK)
             y += 48
-
-    place_card(canvas, card)
-    place(canvas, tape(230, 58, "mint").rotate(-4, expand=True, resample=Image.BICUBIC), W / 2, CARD_Y + 2, shadow=False)
-    place(canvas, sticker("ㅋㅋ", POP_MINT, "black_han_sans", 46, circle=True), CARD_X + CARD_W - 46, CARD_Y + CARD_H - 50, 9)
-    sparkle(canvas, 1030, 1300, 40)
-    sparkle(canvas, 46, 160, 30, POP_PINK)
-    return finish(canvas)
+    return card
 
 
-def render_cta_slide():
-    canvas = backdrop("4/4")
+def build_cta_card():
     cw, ch = 760, 760
     card = Image.new("RGBA", (cw, ch), CARDSTOCK + (255,))
     noise = Image.effect_noise((cw, ch), 40).point(lambda v: max(0, v - 128) // 6)
@@ -538,6 +514,53 @@ def render_cta_slide():
     m = Image.new("L", (cw, ch), 0)
     ImageDraw.Draw(m).rounded_rectangle([0, 0, cw - 1, ch - 1], radius=32, fill=255)
     card.putalpha(m)
+    return card
+
+
+def render_hook_slide(word, new_word=False):
+    canvas = backdrop(None if new_word else "1/4")
+    card = build_hook_card(word, new_word)
+
+    angle = -1.6
+    place_card(canvas, card, angle)
+    # decorations sit on the card edges, never over the text block
+    place(canvas, tape(240, 60, "lilac").rotate(-8, expand=True, resample=Image.BICUBIC), W / 2, CARD_Y + 4, shadow=False)
+    place(canvas, sticker("♥", POP_PINK, "noto_kr_bold", 54, circle=True), CARD_X + CARD_W - 40, CARD_Y + 150, 12)
+    if new_word:
+        place(canvas, sticker("NEW", POP_LEMON, "black_han_sans", 46), CARD_X + 110, CARD_Y + CARD_H - 24, 7)
+    else:
+        place(canvas, sticker("SWIPE →", POP_LEMON, "bricolage_bold", 40), CARD_X + CARD_W - 140, CARD_Y + CARD_H - 20, -6)
+    sparkle(canvas, 70, 1300, 46)
+    sparkle(canvas, 1030, 175, 34, POP_MINT)
+    sparkle(canvas, 1000, 1310, 28, POP_PINK)
+    return finish(canvas)
+
+
+def render_meaning_slide(word):
+    canvas = backdrop("2/4")
+    card = build_meaning_card(word)
+    place_card(canvas, card)  # long text → card stays level
+    place(canvas, tape(200, 54, "pink").rotate(30, expand=True, resample=Image.BICUBIC), CARD_X + 30, CARD_Y + 20, shadow=False)
+    place(canvas, tape(200, 54, "pink").rotate(30, expand=True, resample=Image.BICUBIC), CARD_X + CARD_W - 30, CARD_Y + CARD_H - 20, shadow=False)
+    place(canvas, sticker("✦", POP_LILAC, "noto_kr_bold", 50, circle=True), CARD_X + CARD_W - 50, CARD_Y + 40, -10)
+    sparkle(canvas, 50, 1310, 34, POP_LEMON)
+    return finish(canvas)
+
+
+def render_usage_slide(word):
+    canvas = backdrop("3/4")
+    card = build_usage_card(word)
+    place_card(canvas, card)
+    place(canvas, tape(230, 58, "mint").rotate(-4, expand=True, resample=Image.BICUBIC), W / 2, CARD_Y + 2, shadow=False)
+    place(canvas, sticker("ㅋㅋ", POP_MINT, "black_han_sans", 46, circle=True), CARD_X + CARD_W - 46, CARD_Y + CARD_H - 50, 9)
+    sparkle(canvas, 1030, 1300, 40)
+    sparkle(canvas, 46, 160, 30, POP_PINK)
+    return finish(canvas)
+
+
+def render_cta_slide():
+    canvas = backdrop("4/4")
+    card = build_cta_card()
     place(canvas, card, W / 2, 560, 2.2)
     place(canvas, tape(220, 56, "lilac").rotate(-12, expand=True, resample=Image.BICUBIC), W / 2 - 230, 200, shadow=False)
     place(canvas, tape(220, 56, "pink").rotate(14, expand=True, resample=Image.BICUBIC), W / 2 + 240, 925, shadow=False)
