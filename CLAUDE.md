@@ -176,6 +176,8 @@ python3 check_site.py          # 마지막 검사
 - 콘텐츠 우선순위: **릴스(주 3~4개, 신규 팔로워 유입용) > 캐러셀(주 2~3개, 저장/공유 유도용) > 스토리(거의 매일, 기존 팔로워 유지용)**
 - 카테고리 5개를 요일별 테마로 로테이션 (월 아이돌용어 → 화 밈 → 수 팬덤 → 목 방송예능 → 금 연애썸)
 - 인스타그램 자동 게시는 아이디/비번 공유 방식이 아니라 **Meta Business Suite(무료, 공식 OAuth 방식)**로 해야 함 — 계정 정지 위험 없음.
+- **자동 게시: Metricool 커넥터 (2026-10-15 연결, 무료 플랜 = 월 20개 예약 한도)**. 브랜드 blogId `7434570`, 시간대 Asia/Seoul. 이미지는 공개 URL이 필요해서 카드 PNG를 **`social` 브랜치**(사이트와 무관한 orphan 브랜치)의 `cards/<날짜>-<slug>/`에 push하고 `https://raw.githubusercontent.com/SAISONPAPA/KSlangDictionary/social/cards/...` 주소로 예약함 (Metricool이 예약 시점에 자기 서버로 복사함). main의 `assets/instagram/`은 .gitignore.
+- 기본 게시 시간: 한국 오전 10시 (= 미국 동부 전날 밤 9시, 멕시코시티 저녁 7시).
 - 해시태그는 3~5개면 충분 (많이 넣던 시절 지남). 저장/공유 유도 문구가 2026년 알고리즘에서 제일 중요한 신호.
 - `scripts/generate_instagram_cards.py` — 카드뉴스 PNG 자동 생성 도구. 5개 빌드 스크립트와 달리 자동 파이프라인에 안 걸려있음 (수동 실행).
   ```bash
