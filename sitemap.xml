@@ -1596,6 +1596,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/pol-kku.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/tap-kku.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/paen-a-jeo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/dae-bak.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3466,6 +3481,21 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/geu-jap-chae.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/je-got-nae.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/a-bo-ha.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/sseom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3907,6 +3937,26 @@
   </url>
   <url>
     <loc>https://hellokslang.com/word/e-gen-nam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/sseom-nam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/de-i-teu-tong-jang.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/dol-sing.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/yeon-peu.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
