@@ -246,7 +246,7 @@ IDOL = [
      "Un álbum de formato corto (EP), entre un sencillo y un álbum completo en duración.",
      "이번 미니앨범 트랙 다 좋더라.", "Every track on this mini album was good.",
      "Todas las canciones de este mini álbum estuvieron buenas.",
-     "Release announcements", "Draft — please double-check"),
+     "Release announcements", "Verified (web-checked)"),
     ("안무가", "an-mu-ga", "Choreographer",
      "The person who creates a group's dance choreography.",
      "La persona que crea la coreografía de baile de un grupo.",
@@ -1847,6 +1847,24 @@ FANDOM = [
      "엔딩 때 다 같이 슬로건 들기로 했어.", "We all agreed to hold up slogans at the ending.",
      "Acordamos levantar los slogans juntos al final.",
      "Concert fan culture", "Verified (web-checked)"),
+    ("폴꾸", "pol-kku", "Photocard decorating",
+     "Short for 폴라로이드 꾸미기 — decorating Polaroids and idol photocards with stickers, tape and glitter.",
+     "Abreviatura de 폴라로이드 꾸미기: decorar polaroids y photocards de idols con stickers, cinta y brillos.",
+     "주말에 최애 포카로 폴꾸했어.", "I spent the weekend decorating my bias's photocard.",
+     "Pasé el fin de semana decorando la photocard de mi bias.",
+     "Fan crafts, stationery shops, Instagram/TikTok", "Verified (web-checked)"),
+    ("탑꾸", "tap-kku", "Toploader decorating",
+     "Short for 탑로더 꾸미기 — decorating the clear plastic toploader that holds a photocard.",
+     "Abreviatura de 탑로더 꾸미기: decorar el toploader, la funda de plástico donde se guarda la photocard.",
+     "콘서트 가기 전에 탑꾸 새로 했어.", "I redid my toploader decorations before the concert.",
+     "Antes del concierto volví a decorar mi toploader.",
+     "Fan crafts, concerts, bag charms", "Verified (web-checked)"),
+    ("팬아저", "paen-a-jeo", "Saved even as a non-fan",
+     "Short for 팬이 아니어도 저장 — a photo or clip so good that even non-fans save it.",
+     "Abreviatura de 팬이 아니어도 저장: una foto o clip tan buena que hasta quien no es fan la guarda.",
+     "이 사진 진짜 팬아저다.", "This photo is a must-save, fan or not.",
+     "Esta foto se guarda aunque no seas fan.",
+     "SNS comments, fan accounts, image posts", "Verified (web-checked)"),
 ]
 
 BROADCAST = [
@@ -3754,7 +3772,7 @@ MEME = [
      "Un \"¿qué pasa?\" con tono de dialecto (무슨 일이고), donde 일이구 se escribe con los números 129.",
      "갑자기 다들 왜 이래? 머선129?", "Why is everyone acting like this all of a sudden? What's going on?",
      "¿Por qué todos actúan así de repente? ¿Qué pasa?",
-     "Online chat, reactions", "Draft — please double-check"),
+     "Online chat, reactions", "Verified (web-checked)"),
     ("갑툭튀", "gap-tuk-twi", "Out of nowhere",
      "Short for 갑자기 툭 튀어나오다 — popping up suddenly out of nowhere.",
      "Abreviatura de 갑자기 툭 튀어나오다: aparecer de repente de la nada.",
@@ -3934,7 +3952,7 @@ MEME = [
      "Juego de palabras con 나 때는 말이야 (\"en mis tiempos\"), donde 나 때 suena como latte; se burla de los sermones de los 꼰대.",
      "또 라떼는 말이야 시작하셨다.", "Here comes another \"back in my day.\"",
      "Ya empezó otra vez con su \"en mis tiempos\".",
-     "Work and family talk", "Draft — please double-check"),
+     "Work and family talk", "Verified (web-checked)"),
     ("탕진잼", "tang-jin-jaem", "Fun of blowing money",
      "蕩盡 (spending it all) + 잼 (fun): the small joy of splurging cash on little things.",
      "蕩盡 (gastarlo todo) + 잼 (diversión): la pequeña alegría de gastar dinero en cositas.",
@@ -4097,6 +4115,24 @@ MEME = [
      "오늘 무대 폼 미쳤다!", "Today's stage — they're in crazy good form!",
      "¡La presentación de hoy está en otro nivel!",
      "Stage reactions, sports, social media comments", "Verified (web-checked)"),
+    ("그잡채", "geu-jap-chae", "The very thing itself",
+     "A pun on 그 자체 (\"itself\") swapped for 잡채 (glass-noodle dish) — \"the definition of\" something.",
+     "Juego de palabras: 그 자체 (\"en sí mismo\") cambiado por 잡채 (plato de fideos). Significa \"la definición de\" algo.",
+     "오늘 착장 청량 그잡채다.", "Today's outfit is refreshing vibes, the very definition.",
+     "El outfit de hoy es la definición de fresco.",
+     "SNS captions, comments, chats", "Verified (web-checked)"),
+    ("제곧내", "je-got-nae", "Title says it all",
+     "Short for 제목이 곧 내용 — \"the title is the content\"; nothing more to read in the post.",
+     "Abreviatura de 제목이 곧 내용: \"el título es el contenido\"; no hay nada más que leer en el post.",
+     "제곧내. 내일 콘서트 같이 갈 사람?", "Title says it all. Anyone going to the concert with me tomorrow?",
+     "El título lo dice todo. ¿Alguien viene conmigo al concierto mañana?",
+     "Online forums, community posts, fan cafés", "Verified (web-checked)"),
+    ("아보하", "a-bo-ha", "A very ordinary day",
+     "Short for 아주 보통의 하루 — valuing a calm, ordinary day over flashy little treats.",
+     "Abreviatura de 아주 보통의 하루: valorar un día tranquilo y normal más que los pequeños lujos llamativos.",
+     "오늘은 별일 없이 아보하 완료.", "Nothing happened today — a very ordinary day, done.",
+     "Hoy no pasó nada: un día normalito, cumplido.",
+     "Lifestyle trend talk, SNS diaries, articles", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4634,6 +4670,30 @@ DATING = [
      "내 이상형은 섬세한 에겐남이야.", "My ideal type is a thoughtful egen guy.",
      "Mi tipo ideal es un chico egen detallista.",
      "Dating talk, personality-type memes, social media", "Verified (web-checked)"),
+    ("썸남", "sseom-nam", "Talking-stage guy",
+     "The guy you're in a 썸 (talking stage) with; the girl version is 썸녀.",
+     "El chico con el que estás en 썸 (etapa de conocerse); la versión femenina es 썸녀.",
+     "썸남한테 선톡 올까?", "Will my talking-stage guy text me first?",
+     "¿Me escribirá primero el chico con el que estoy en algo?",
+     "Chats with friends, dating talk, dramas", "Verified (web-checked)"),
+    ("데이트통장", "de-i-teu-tong-jang", "Couple's date fund",
+     "A shared bank account a couple both pay into to cover date costs.",
+     "Una cuenta bancaria compartida en la que la pareja deposita dinero para pagar sus citas.",
+     "우리 이번 달부터 데이트통장 만들었어.", "We started a shared date account this month.",
+     "Este mes abrimos una cuenta compartida para las citas.",
+     "Couples, dating advice, online debates", "Verified (web-checked)"),
+    ("돌싱", "dol-sing", "Divorced and single again",
+     "Short for 돌아온 싱글 (\"returned single\") — someone who is single again after a divorce.",
+     "Abreviatura de 돌아온 싱글 (\"soltero que regresa\"): alguien que vuelve a estar soltero tras un divorcio.",
+     "요즘 돌싱 연애 프로그램이 인기야.", "Dating shows for divorced singles are popular these days.",
+     "Hoy en día están de moda los realities de citas para divorciados.",
+     "TV, news, dating shows", "Verified (web-checked)"),
+    ("연프", "yeon-peu", "Dating reality show",
+     "Short for 연애 프로그램 — a dating reality show.",
+     "Abreviatura de 연애 프로그램: un reality de citas.",
+     "요즘 무슨 연프 봐?", "Which dating show are you watching these days?",
+     "¿Qué reality de citas estás viendo últimamente?",
+     "TV and streaming talk, SNS", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4657,6 +4717,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-10-19", ["폴꾸", "탑꾸", "팬아저", "그잡채", "제곧내", "아보하", "썸남", "데이트통장", "돌싱", "연프"]),
     ("2026-10-14", ["플러팅", "읽씹", "안읽씹", "선톡", "깻잎논쟁", "테토남", "에겐남", "현커", "추구미", "폼 미쳤다"]),
     ("2026-10-14", ["앨포", "미공포", "엔딩요정", "퇴근길", "출근길", "막내온탑", "맏내", "메보", "4세대", "줄세우기", "올킬", "퍼올", "차트인", "음원깡패", "무대천재", "춤신춤왕", "청량", "걸크러시", "하이틴", "사녹", "팬콘", "포타", "버블", "위버스", "특전", "분철", "공구", "양도", "취켓팅", "꿀자리", "시제석", "비공굿", "나눔", "시즌그리팅", "갓기", "막콘", "슬로건", "중꺾마", "오히려좋아", "조용한퇴사", "억빠", "무지성", "어쩔티비", "저쩔티비", "킹리적갓심", "내돈내산", "머선129", "갑툭튀", "얼빡샷", "존예", "존잘", "띵곡", "띵언", "쩐다", "졸귀", "열폭", "멘붕", "지린다", "가보자고", "점메추", "할많하않", "쌉가능", "쌉인정", "킹정", "엄근진", "많관부", "관종", "유리멘탈", "멘탈갑", "씹덕", "너T야", "디토", "무야호", "킹갓제너럴", "쿨거래", "당근하다", "꼰대", "라떼는말이야", "탕진잼", "영끌", "동학개미", "퇴사각", "병맛", "핵노잼", "꿀팁", "반모", "금사빠", "ㅇㅈ", "ㅇㅋ", "ㄱㅅ", "ㅈㅅ", "ㅊㅋ", "ㅠㅠ", "ㄱㅇㄷ", "씨발", "ㅅㅂ", "존나", "ㅈㄴ", "지랄", "미친", "젠장", "빡치다", "시발비용", "염병", "원영적사고"]),
     ("2026-08-11", ["아우라 파밍", "오살힘", "밤티", "주먹자로"]),
@@ -5459,6 +5520,16 @@ ZH_TW_TRANSLATIONS = {
     "현커": ("「現實情侶」的縮寫——戀愛實境節目裡，拍攝結束後真的在一起的一對。", "最後兩對都是現實情侶耶！"),
     "추구미": ("你嚮往的外型、氛圍或生活方式——추구（追求）＋미（美）。", "我最近的追求美是看起來沒刻意打扮的感覺。"),
     "폼 미쳤다": ("狀態炸裂——某人現在的狀態或風格好到不行。폼（form）＋미쳤다（瘋了，這裡是稱讚）。", "今天的舞台狀態炸裂！"),
+    "폴꾸": ("폴라로이드 꾸미기的縮寫，用貼紙、紙膠帶、亮片裝飾拍立得或偶像小卡。", "週末拿本命的小卡來做폴꾸了。"),
+    "탑꾸": ("탑로더 꾸미기的縮寫，裝飾用來放小卡的透明硬卡套。", "去演唱會前重新做了탑꾸。"),
+    "팬아저": ("팬이 아니어도 저장的縮寫——好到連非粉絲都會存的照片或影片。", "這張照片真的是팬아저，不是粉絲也要存。"),
+    "그잡채": ("把그 자체（本身）諧音換成잡채（雜菜冬粉），意思是「某某的化身／本體」。", "今天的穿搭就是清新그잡채。"),
+    "제곧내": ("제목이 곧 내용的縮寫——「標題就是內文」，文章裡沒有別的內容。", "제곧내。明天有人要一起去演唱會嗎？"),
+    "아보하": ("아주 보통의 하루（非常普通的一天）的縮寫，比起炫耀的小確幸，更珍惜平凡安穩的日子。", "今天平安無事，아보하完成。"),
+    "썸남": ("正在跟你搞썸（曖昧）的男生；女生版本是썸녀。", "曖昧對象會先傳訊息給我嗎？"),
+    "데이트통장": ("情侶一起存錢、專門用來支付約會開銷的共同帳戶。", "我們這個月開始用約會共同帳戶了。"),
+    "돌싱": ("돌아온 싱글（回歸單身）的縮寫，指離婚後重新單身的人。", "最近離婚單身族的戀愛節目很紅。"),
+    "연프": ("연애 프로그램的縮寫，戀愛實境節目。", "最近在看哪個戀綜？"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6241,6 +6312,16 @@ ZH_CN_TRANSLATIONS = {
     "현커": ("“现实情侣”的缩写——恋爱实境节目里，拍摄结束后真的在一起的一对。", "最后两对都是现实情侣耶！"),
     "추구미": ("你向往的外型、氛围或生活方式——추구（追求）＋미（美）。", "我最近的追求美是看起来没刻意打扮的感觉。"),
     "폼 미쳤다": ("状态炸裂——某人现在的状态或风格好到不行。폼（form）＋미쳤다（疯了，这里是称赞）。", "今天的舞台状态炸裂！"),
+    "폴꾸": ("폴라로이드 꾸미기的缩写，用贴纸、纸胶带、亮片装饰拍立得或偶像小卡。", "周末拿本命的小卡来做폴꾸了。"),
+    "탑꾸": ("탑로더 꾸미기的缩写，装饰用来放小卡的透明硬卡套。", "去演唱会前重新做了탑꾸。"),
+    "팬아저": ("팬이 아니어도 저장的缩写——好到连非粉丝都会存的照片或视频。", "这张照片真的是팬아저，不是粉丝也要存。"),
+    "그잡채": ("把그 자체（本身）谐音换成잡채（杂菜冬粉），意思是“某某的化身／本体”。", "今天的穿搭就是清新그잡채。"),
+    "제곧내": ("제목이 곧 내용的缩写——“标题就是内文”，文章里没有别的内容。", "제곧내。明天有人要一起去演唱会吗？"),
+    "아보하": ("아주 보통의 하루（非常普通的一天）的缩写，比起炫耀的小确幸，更珍惜平凡安稳的日子。", "今天平安无事，아보하完成。"),
+    "썸남": ("正在跟你搞썸（暧昧）的男生；女生版本是썸녀。", "暧昧对象会先传消息给我吗？"),
+    "데이트통장": ("情侣一起存钱、专门用来支付约会开销的共同帐户。", "我们这个月开始用约会共同帐户了。"),
+    "돌싱": ("돌아온 싱글（回归单身）的缩写，指离婚后重新单身的人。", "最近离婚单身族的恋爱节目很红。"),
+    "연프": ("연애 프로그램的缩写，恋爱实境节目。", "最近在看哪个恋综？"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7037,6 +7118,16 @@ JA_TRANSLATIONS = {
     "현커": ("「현실 커플（リアルカップル）」の略。恋リアの出演者が、撮影後に本当に付き合っていること。", "最終カップル、2組ともリアカプなんだって！"),
     "추구미": ("目指したい見た目・雰囲気・ライフスタイル。추구（追求）＋미（美）。「なりたい像」。", "最近の私のなりたい像は、頑張りすぎないナチュラル系。"),
     "폼 미쳤다": ("仕上がりがエグい。今の調子やスタイルが最高だということ。폼（フォーム）＋미쳤다（ヤバい、ほめ言葉）。", "今日のステージ、仕上がりエグい！"),
+    "폴꾸": ("폴라로이드 꾸미기の略。ポラロイドやアイドルのトレカをシール・マステ・ラメでデコること。", "週末に推しのトレカをデコった（폴꾸）。"),
+    "탑꾸": ("탑로더 꾸미기の略。トレカを入れる硬質ケース（トップローダー）をデコること。", "ライブ前に탑꾸（硬質ケースデコ）をやり直した。"),
+    "팬아저": ("팬이 아니어도 저장（ファンじゃなくても保存）の略。ファンでなくても保存したくなる写真や動画。", "この写真、ファンじゃなくても保存案件。"),
+    "그잡채": ("그 자체（そのもの）をチャプチェ（잡채）にかけたダジャレ。「〇〇そのもの」「〇〇の化身」。", "今日のコーデ、爽やかそのもの（그잡채）。"),
+    "제곧내": ("제목이 곧 내용（タイトルが本文）の略。投稿の中身はタイトルだけ、という意味。", "제곧내（タイトル通り）。明日のライブ一緒に行く人いる？"),
+    "아보하": ("아주 보통의 하루（ごく普通の一日）の略。映える小さな贅沢より、平凡で穏やかな日常を大切にすること。", "今日は何事もなく、아보하（普通の一日）完了。"),
+    "썸남": ("썸（付き合う前のいい感じ）の相手の男性。女性版は썸녀。", "썸남から先にLINE来るかな？"),
+    "데이트통장": ("カップルが二人でお金を入れて、デート代を払うための共同口座。", "今月から데이트통장（デート用の共同口座）作ったよ。"),
+    "돌싱": ("돌아온 싱글（戻ってきたシングル）の略。離婚して再び独身になった人。", "最近、돌싱（バツイチ）の恋愛番組が人気だよ。"),
+    "연프": ("연애 프로그램の略。恋愛リアリティ番組（恋リア）。", "最近どの恋リア見てる？"),
 }
 
 # ---------------------------------------------------------------------------
@@ -29584,6 +29675,12 @@ DETAILS = {
                 "publisher": "미주중앙일보 (The Korea Daily)",
                 "date": "2023-12-31",
                 "url": "https://www.koreadaily.com/article/20231231162657079"
+            },
+            {
+                "title": "[데스크 시각] 늙은 꼰대, 젊은 꼰대",
+                "publisher": "서울신문",
+                "date": "2020-07-07",
+                "url": "https://m.seoul.co.kr/news/2020/07/07/20200707030003"
             }
         ]
     },
@@ -30894,6 +30991,363 @@ DETAILS = {
             }
         ]
     },
+    "폴꾸": {
+        "nuance": {
+            "en": "A craft hobby, not just collecting — fans show off before/after shots of their decorated cards.",
+            "es": "Es un hobby manual, no solo coleccionar: los fans muestran el antes y después de sus cartas decoradas.",
+            "zh": "是一種手作興趣，不只是收藏——粉絲會曬出裝飾前後的對比照。",
+            "cn": "是一种手作兴趣，不只是收藏——粉丝会晒出装饰前后的对比照。",
+            "ja": "集めるだけでなく手作りの趣味。デコ前後の写真をSNSに載せるのが定番。"
+        },
+        "usage": {
+            "en": "Use it as a noun or with 하다: 폴꾸하다, 폴꾸 스티커, 폴꾸 재료.",
+            "es": "Se usa como sustantivo o con 하다: 폴꾸하다, 폴꾸 스티커 (stickers para decorar).",
+            "zh": "可當名詞，也可加하다：폴꾸하다、폴꾸 스티커（裝飾貼紙）。",
+            "cn": "可当名词，也可加하다：폴꾸하다、폴꾸 스티커（装饰贴纸）。",
+            "ja": "名詞でも、하다を付けて動詞でも使う：폴꾸하다、폴꾸 스티커（デコ用シール）。"
+        },
+        "culture": {
+            "en": "Part of the 꾸 (decorate) family: 다꾸 (diary), 탑꾸 (toploader). Big stationery chains even run decorating fairs for it.",
+            "es": "Forma parte de la familia 꾸 (decorar): 다꾸 (diario), 탑꾸 (toploader). Grandes tiendas de papelería hacen ferias de decoración.",
+            "zh": "屬於「꾸（裝飾）」家族：다꾸（手帳）、탑꾸（卡套）。大型文具店甚至會辦裝飾市集。",
+            "cn": "属于“꾸（装饰）”家族：다꾸（手帐）、탑꾸（卡套）。大型文具店甚至会办装饰市集。",
+            "ja": "「꾸（デコ）」系の言葉の一つ：다꾸（手帳）、탑꾸（トップローダー）。大手雑貨店がデコフェアを開くほど。"
+        },
+        "register": "casual",
+        "similar": [
+            "포카",
+            "탑로더",
+            "인생포카"
+        ],
+        "tags": [
+            "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "아성다이소, “폴꾸·다꾸 아세요?”···‘다이소 꾸미기 페어’ 진행",
+                "publisher": "이투데이",
+                "date": "2022-04-29",
+                "url": "https://www.etoday.co.kr/news/view/2129061"
+            }
+        ]
+    },
+    "탑꾸": {
+        "nuance": {
+            "en": "The card stays clean inside; only the case gets stickers, so it's a favorite for cards you carry around.",
+            "es": "La carta queda limpia por dentro; solo se decora la funda, por eso es ideal para las cartas que llevas contigo.",
+            "zh": "小卡本身不會弄髒，只裝飾卡套，所以很適合隨身帶著的小卡。",
+            "cn": "小卡本身不会弄脏，只装饰卡套，所以很适合随身带着的小卡。",
+            "ja": "トレカ自体は汚さずケースだけをデコるので、持ち歩く推しトレカにぴったり。"
+        },
+        "usage": {
+            "en": "Same pattern as 폴꾸: 탑꾸하다, 탑꾸 완성 (decorating done).",
+            "es": "Mismo patrón que 폴꾸: 탑꾸하다, 탑꾸 완성 (decoración terminada).",
+            "zh": "用法跟폴꾸一樣：탑꾸하다、탑꾸 완성（裝飾完成）。",
+            "cn": "用法跟폴꾸一样：탑꾸하다、탑꾸 완성（装饰完成）。",
+            "ja": "폴꾸と同じ使い方：탑꾸하다、탑꾸 완성（デコ完成）。"
+        },
+        "register": "casual",
+        "similar": [
+            "탑로더",
+            "폴꾸",
+            "포카"
+        ],
+        "tags": [
+            "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "아성다이소, “폴꾸·다꾸 아세요?”···‘다이소 꾸미기 페어’ 진행",
+                "publisher": "이투데이",
+                "date": "2022-04-29",
+                "url": "https://www.etoday.co.kr/news/view/2129061"
+            }
+        ]
+    },
+    "팬아저": {
+        "nuance": {
+            "en": "A compliment — the visual or moment is strong enough to win over 머글 (non-fans).",
+            "es": "Es un halago: la imagen o el momento es tan bueno que convence hasta a los 머글 (no fans).",
+            "zh": "是一種稱讚——畫面強到連머글（非粉絲）都會被收服。",
+            "cn": "是一种称赞——画面强到连머글（非粉丝）都会被收服。",
+            "ja": "褒め言葉。머글（一般人）まで惹きつけるほどのビジュアルや瞬間ということ。"
+        },
+        "usage": {
+            "en": "Usually written in comments or as a hashtag under a striking photo.",
+            "es": "Se suele escribir en comentarios o como hashtag bajo una foto impactante.",
+            "zh": "常寫在留言或當作hashtag，放在很驚艷的照片底下。",
+            "cn": "常写在留言或当作hashtag，放在很惊艳的照片底下。",
+            "ja": "インパクトのある写真のコメント欄やハッシュタグでよく使う。"
+        },
+        "register": "text",
+        "similar": [
+            "머글",
+            "짤줍",
+            "인생짤"
+        ],
+        "tags": [
+            "kpop-fan",
+            "praise"
+        ],
+        "sources": [
+            {
+                "title": "팬아저? 영탁 \"팬들의 아저씨 저장\"[이연호의 신조어 나들이]",
+                "publisher": "이데일리",
+                "date": "2023-06-19",
+                "url": "https://v.daum.net/v/QncyxBj3cC"
+            }
+        ]
+    },
+    "그잡채": {
+        "nuance": {
+            "en": "Playful and exaggerated; the food pun makes it sound lighter than plain 그 자체.",
+            "es": "Juguetón y exagerado; el chiste de comida lo hace sonar más ligero que 그 자체.",
+            "zh": "俏皮又誇張；用食物諧音比單說그 자체更輕鬆好笑。",
+            "cn": "俏皮又夸张；用食物谐音比单说그 자체更轻松好笑。",
+            "ja": "ふざけた大げさな言い方。料理のダジャレなので普通の그 자체より軽いノリ。"
+        },
+        "usage": {
+            "en": "Put it right after a noun: 귀여움 그잡채 (cuteness itself), 레전드 그잡채.",
+            "es": "Va justo después de un sustantivo: 귀여움 그잡채 (la ternura en persona), 레전드 그잡채.",
+            "zh": "直接放在名詞後面：귀여움 그잡채（可愛本人）、레전드 그잡채。",
+            "cn": "直接放在名词后面：귀여움 그잡채（可爱本人）、레전드 그잡채。",
+            "ja": "名詞のすぐ後ろに付ける：귀여움 그잡채（かわいさそのもの）、레전드 그잡채。"
+        },
+        "register": "casual",
+        "similar": [
+            "레전드",
+            "클라스",
+            "레알"
+        ],
+        "tags": [
+            "internet",
+            "praise",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "[THINK ENGLISH] 요즘대화 사전 Ep.1: 그 잡채, 스불재, 공좋카",
+                "publisher": "Korea JoongAng Daily",
+                "date": "2022-12-15",
+                "url": "https://www.koreajoongangdaily.com/korea/think-english-ep1/11828301"
+            }
+        ]
+    },
+    "제곧내": {
+        "nuance": {
+            "en": "Forum etiquette shorthand — saves the reader from clicking expecting more.",
+            "es": "Atajo de etiqueta en foros: avisa al lector que no hay nada más dentro.",
+            "zh": "論壇上的禮貌縮寫——告訴讀者點進來也沒有更多內容。",
+            "cn": "论坛上的礼貌缩写——告诉读者点进来也没有更多内容。",
+            "ja": "掲示板の作法的な略語。開いても続きはないよ、という合図。"
+        },
+        "usage": {
+            "en": "Written as the whole body of a post, or at the start before one short line.",
+            "es": "Se escribe como todo el cuerpo del post o al inicio antes de una línea corta.",
+            "zh": "可當整篇文章的內文，或放在開頭再接一句短話。",
+            "cn": "可当整篇文章的内文，或放在开头再接一句短话。",
+            "ja": "本文の全部として書くか、冒頭に書いて短い一文を続ける。"
+        },
+        "register": "text",
+        "similar": [
+            "별다줄",
+            "초성체",
+            "스압"
+        ],
+        "tags": [
+            "internet",
+            "chat"
+        ],
+        "sources": [
+            {
+                "title": "덧글에서 자주 보이는 기상천외 '초성'들의 의미",
+                "publisher": "인사이트",
+                "date": "2018-05-18",
+                "url": "https://www.insight.co.kr/news/70103"
+            }
+        ]
+    },
+    "아보하": {
+        "nuance": {
+            "en": "Positive and calm — \"ordinary\" here means safe and comfortable, not boring.",
+            "es": "Positivo y tranquilo: aquí \"normal\" significa seguro y cómodo, no aburrido.",
+            "zh": "正面又平靜——這裡的「普通」是安穩舒服，不是無聊。",
+            "cn": "正面又平静——这里的“普通”是安稳舒服，不是无聊。",
+            "ja": "前向きで穏やか。ここでの「普通」は退屈ではなく、安心で心地いいという意味。"
+        },
+        "usage": {
+            "en": "Often used as a wish or a diary caption: 아보하 보내세요 (have an ordinary day).",
+            "es": "Se usa como deseo o en el pie de un diario: 아보하 보내세요 (que tengas un día normal y tranquilo).",
+            "zh": "常當祝福或日記標語：아보하 보내세요（祝你平凡安穩的一天）。",
+            "cn": "常当祝福或日记标语：아보하 보내세요（祝你平凡安稳的一天）。",
+            "ja": "願いの言葉や日記のキャプションによく使う：아보하 보내세요（穏やかな一日を）。"
+        },
+        "culture": {
+            "en": "Picked as a trend keyword for 2025 by the Trend Korea authors, as a turn away from showy 소확행.",
+            "es": "Los autores de Trend Korea la eligieron como palabra tendencia de 2025, como giro frente al 소확행 llamativo.",
+            "zh": "被《Trend Korea》作者群選為2025年趨勢關鍵詞，象徵從炫耀式的소확행轉向平凡日常。",
+            "cn": "被《Trend Korea》作者群选为2025年趋势关键词，象征从炫耀式的소확행转向平凡日常。",
+            "ja": "『トレンド・コリア』の著者陣が2025年のトレンドキーワードに選んだ言葉。映える소확행からの転換を表す。"
+        },
+        "register": "everyday",
+        "similar": [
+            "소확행",
+            "무해력",
+            "복세편살"
+        ],
+        "tags": [
+            "worklife"
+        ],
+        "sources": [
+            {
+                "title": "‘아보하’하는 2025년이 되시길! <트렌드 코리아> 공저자 한다혜 박사",
+                "publisher": "나의 경기도 (경기도)",
+                "date": "2025-02",
+                "url": "https://www.gg.go.kr/myggd/vol188/vol188_2_1.php"
+            }
+        ]
+    },
+    "썸남": {
+        "nuance": {
+            "en": "Not a boyfriend yet — the label itself says things are still undefined.",
+            "es": "Todavía no es novio; la palabra misma dice que la relación aún no está definida.",
+            "zh": "還不是男朋友——這個詞本身就表示關係還沒確定。",
+            "cn": "还不是男朋友——这个词本身就表示关系还没确定。",
+            "ja": "まだ彼氏ではない。この呼び方自体が、関係がまだはっきりしていないことを示す。"
+        },
+        "usage": {
+            "en": "Talk about him with friends: 우리 썸남, 썸남이랑 영화 봤어.",
+            "es": "Se usa al hablar con amigas: 우리 썸남 (mi chico de 썸), 썸남이랑 영화 봤어.",
+            "zh": "跟朋友聊天時用：우리 썸남、썸남이랑 영화 봤어（跟曖昧對象看了電影）。",
+            "cn": "跟朋友聊天时用：우리 썸남、썸남이랑 영화 봤어（跟暧昧对象看了电影）。",
+            "ja": "友達との会話で使う：우리 썸남、썸남이랑 영화 봤어（썸남と映画見た）。"
+        },
+        "register": "casual",
+        "similar": [
+            "썸",
+            "썸타다",
+            "짝남"
+        ],
+        "tags": [
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "썸남썸녀① '사랑과 우정사이'부터 '썸'까지, 썸학개론의 역사",
+                "publisher": "텐아시아",
+                "date": "2014-07-04",
+                "url": "https://www.tenasia.co.kr/article/2014070483894"
+            }
+        ]
+    },
+    "데이트통장": {
+        "nuance": {
+            "en": "Seen as fair and practical by many, but some find it too calculating — a classic debate topic.",
+            "es": "Para muchos es justo y práctico, pero a otros les parece demasiado calculador; es un debate clásico.",
+            "zh": "很多人覺得公平又實際，也有人覺得太計較——是經典的爭論話題。",
+            "cn": "很多人觉得公平又实际，也有人觉得太计较——是经典的争论话题。",
+            "ja": "公平で合理的と思う人も多いが、計算高いと感じる人もいる。定番の論争テーマ。"
+        },
+        "usage": {
+            "en": "Use with 만들다 / 쓰다: 데이트통장 만들자, 데이트통장으로 계산해.",
+            "es": "Se usa con 만들다 / 쓰다: 데이트통장 만들자 (hagamos una cuenta), 데이트통장으로 계산해 (paga con la cuenta).",
+            "zh": "搭配만들다／쓰다：데이트통장 만들자（來開共同帳戶吧）、데이트통장으로 계산해（用共同帳戶付）。",
+            "cn": "搭配만들다／쓰다：데이트통장 만들자（来开共同帐户吧）、데이트통장으로 계산해（用共同帐户付）。",
+            "ja": "만들다／쓰다と一緒に：데이트통장 만들자（共同口座作ろう）、데이트통장으로 계산해（共同口座で払って）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "데이트코스",
+            "커플템",
+            "깻잎논쟁"
+        ],
+        "tags": [
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "'데이트 통장' 만들자는 남친에 '정' 떨어졌어요",
+                "publisher": "인사이트",
+                "date": "2018-05-18",
+                "url": "https://www.insight.co.kr/news/112341"
+            }
+        ]
+    },
+    "돌싱": {
+        "nuance": {
+            "en": "Lighter than saying 이혼남/이혼녀, but some divorced people still dislike being labeled by it.",
+            "es": "Suena más ligero que 이혼남/이혼녀, pero a algunas personas divorciadas no les gusta que las etiqueten así.",
+            "zh": "比說이혼남／이혼녀輕鬆，但也有離過婚的人不喜歡被這樣貼標籤。",
+            "cn": "比说이혼남／이혼녀轻松，但也有离过婚的人不喜欢被这样贴标签。",
+            "ja": "이혼남／이혼녀より軽い言い方だが、レッテルのようで嫌だと感じる当事者もいる。"
+        },
+        "usage": {
+            "en": "Refer to yourself or a group, not to label someone teasingly: 돌싱 특집, 저 돌싱이에요.",
+            "es": "Úsalo para hablar de ti o de un grupo, no para burlarte de alguien: 돌싱 특집, 저 돌싱이에요.",
+            "zh": "用來說自己或一個群體，不要拿來調侃別人：돌싱 특집、저 돌싱이에요（我是離婚單身）。",
+            "cn": "用来说自己或一个群体，不要拿来调侃别人：돌싱 특집、저 돌싱이에요（我是离婚单身）。",
+            "ja": "自分やグループについて使う。人をからかうラベルにはしない：돌싱 특집、저 돌싱이에요。"
+        },
+        "register": "everyday",
+        "similar": [
+            "재회",
+            "솔로탈출",
+            "애정촌"
+        ],
+        "tags": [
+            "romance",
+            "variety"
+        ],
+        "sources": [
+            {
+                "title": "기은세 \"돌싱이란 말 너무 싫어…이혼했다고 실패한 인생인가\"",
+                "publisher": "세계일보",
+                "date": "2026-06-01",
+                "url": "https://www.segye.com/newsView/20260601503602"
+            }
+        ]
+    },
+    "연프": {
+        "nuance": {
+            "en": "Neutral and very common; viewers love debating who will end up as a 현커 (real couple).",
+            "es": "Neutral y muy común; a la audiencia le encanta debatir quién terminará siendo 현커 (pareja real).",
+            "zh": "中性又很常用；觀眾最愛討論誰會變成현커（現實情侶）。",
+            "cn": "中性又很常用；观众最爱讨论谁会变成현커（现实情侣）。",
+            "ja": "中立的でよく使う。誰が현커（リアルカップル）になるか予想して盛り上がるのが定番。"
+        },
+        "usage": {
+            "en": "Use like a genre name: 연프 덕후 (dating-show fan), 연프 과몰입.",
+            "es": "Se usa como nombre de género: 연프 덕후 (fan de realities de citas), 연프 과몰입.",
+            "zh": "當成節目類型名稱用：연프 덕후（戀綜迷）、연프 과몰입（看戀綜太入戲）。",
+            "cn": "当成节目类型名称用：연프 덕후（恋综迷）、연프 과몰입（看恋综太入戏）。",
+            "ja": "ジャンル名として使う：연프 덕후（恋リアオタク）、연프 과몰입（恋リアにのめり込む）。"
+        },
+        "culture": {
+            "en": "Korea airs dating shows all year round, and several have become global streaming hits.",
+            "es": "Corea emite realities de citas todo el año y varios se han vuelto éxitos globales en streaming.",
+            "zh": "韓國一整年都有戀綜在播，好幾部還在串流平台紅到全球。",
+            "cn": "韩国一整年都有恋综在播，好几部还在串流平台红到全球。",
+            "ja": "韓国では一年中どこかで恋リアが放送されていて、世界的な配信ヒットになった番組もある。"
+        },
+        "register": "casual",
+        "similar": [
+            "환승연애",
+            "현커",
+            "애정촌"
+        ],
+        "tags": [
+            "romance",
+            "variety"
+        ],
+        "sources": [
+            {
+                "title": "대한민국은 ‘연프’ 공화국…K-러브 글로벌 콘텐츠 됐다[서병기의 문화와 역사]",
+                "publisher": "헤럴드경제",
+                "date": "2025-08-25",
+                "url": "https://www.heraldk.com/article/2025082518180105194"
+            }
+        ]
+    },
 }
 
 
@@ -31174,73 +31628,12 @@ QUIZ_UI = {
 # order; the home page "trending" strip shows the first three. Every entry must
 # be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
 # the pages, so edit them here only. The weekly update swaps these out.
-EDITOR_PICKS = ['테토남', '폼 미쳤다', '현커', '원영적사고', '감다살']
+EDITOR_PICKS = ['폴꾸', '연프', '그잡채', '현커', '럭키비키']
 
 # Home page "today's card" — rotates daily through this pool (by date).
-TODAYS_CARD_POOL = ['플러팅', '선톡', '깻잎논쟁', '추구미', '읽씹', '에겐남', '최애']
+TODAYS_CARD_POOL = ['썸남', '그잡채', '폴꾸', '데이트통장', '팬아저', '아보하', '탑꾸']
 
 QUIZ = [
-    {
-        "type": "situation",
-        "answer": "킹받다",
-        "options": [
-            "킹받다",
-            "소확행",
-            "찐텐",
-            "동결건조"
-        ],
-        "situation": {
-            "en": "A cast member on a variety show makes a smug face so annoying that you can't stop laughing.",
-            "es": "Alguien en un programa de variedades pone una cara tan presumida y molesta que no puedes parar de reír.",
-            "zh": "綜藝節目裡有人擺出一張欠揍到讓你笑個不停的得意臉。",
-            "cn": "综艺节目里有人摆出一张欠揍到让你笑个不停的得意脸。",
-            "ja": "バラエティ番組で出演者がムカつくほどのドヤ顔をして、笑いが止まらない。"
-        },
-        "note": {
-            "en": "킹받다 is irritation you can laugh at — not real anger.",
-            "es": "킹받다 es una molestia que da risa, no enojo real.",
-            "zh": "킹받다是讓人想笑的火大，不是真的生氣。",
-            "cn": "킹받다是让人想笑的火大，不是真的生气。",
-            "ja": "킹받다は笑えるイラつきで、本気の怒りではない。"
-        }
-    },
-    {
-        "type": "meaning",
-        "answer": "덕계못",
-        "options": [
-            "덕계못",
-            "어덕행덕",
-            "오살힘",
-            "덕메"
-        ]
-    },
-    {
-        "type": "situation",
-        "answer": "졌잘싸",
-        "options": [
-            "졌잘싸",
-            "억까",
-            "가즈아",
-            "동결건조"
-        ],
-        "situation": {
-            "en": "Your team lost the final, but everyone played their hearts out. In the comments you write:",
-            "es": "Tu equipo perdió la final, pero todos lo dieron todo. En los comentarios escribes:",
-            "zh": "你支持的隊伍輸了決賽，但每個人都拚盡全力。你在留言區寫下：",
-            "cn": "你支持的队伍输了决赛，但每个人都拼尽全力。你在评论区写下：",
-            "ja": "応援しているチームが決勝で負けたけれど、全員が全力を出し切った。コメント欄に書くなら："
-        }
-    },
-    {
-        "type": "meaning",
-        "answer": "사바사",
-        "options": [
-            "사바사",
-            "저메추",
-            "졌잘싸",
-            "크더싼"
-        ]
-    },
     {
         "type": "situation",
         "answer": "저메추",
@@ -31377,6 +31770,67 @@ QUIZ = [
             "ja": "폼 미쳤다は絶好調をほめる言葉。감다뒤はその逆で、センスが落ちたという意味。"
         }
     },
+    {
+        "type": "meaning",
+        "answer": "폴꾸",
+        "options": [
+            "폴꾸",
+            "탑로더",
+            "미공포",
+            "굿즈"
+        ]
+    },
+    {
+        "type": "meaning",
+        "answer": "그잡채",
+        "options": [
+            "그잡채",
+            "제곧내",
+            "레전드",
+            "국룰"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "연프",
+        "options": [
+            "연프",
+            "현커",
+            "자컨",
+            "몰아보기"
+        ],
+        "situation": {
+            "en": "You and your friends love shows where single people live together and look for love. In the group chat you ask: \"Which ___ are you watching these days?\"",
+            "es": "A ti y a tus amigas les encantan los programas donde solteros conviven y buscan el amor. En el chat grupal preguntas: \"¿Qué ___ estás viendo últimamente?\"",
+            "zh": "你跟朋友都超愛看單身男女一起生活、尋找戀愛的節目。你在群組裡問：「最近在看哪個___？」",
+            "cn": "你跟朋友都超爱看单身男女一起生活、寻找恋爱的节目。你在群组里问：“最近在看哪个___？”",
+            "ja": "友達みんな、独身の男女が一緒に暮らして恋を探す番組が大好き。グループチャットで聞く：「最近どの___見てる？」"
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "제곧내",
+        "options": [
+            "제곧내",
+            "그잡채",
+            "별다줄",
+            "스압"
+        ],
+        "situation": {
+            "en": "Your fan-café post title is \"Anyone want to go to Saturday's concert together?\" There's nothing else to add, so the whole body of the post is:",
+            "es": "El título de tu post en el fan café es \"¿Alguien quiere ir conmigo al concierto del sábado?\". No hay nada más que añadir, así que el cuerpo del post solo dice:",
+            "zh": "你在粉絲咖啡廳發文，標題是「週六演唱會有人要一起去嗎？」。沒有別的要補充，所以內文只寫：",
+            "cn": "你在粉丝咖啡厅发文，标题是“周六演唱会有人要一起去吗？”。没有别的要补充，所以内文只写：",
+            "ja": "ファンカフェに「土曜のライブ一緒に行く人いる？」というタイトルで投稿。付け足すことはないので、本文はこれだけ："
+        },
+        "note": {
+            "en": "제곧내 = 제목이 곧 내용, \"the title is the content.\"",
+            "es": "제곧내 = 제목이 곧 내용, \"el título es el contenido\".",
+            "zh": "제곧내 = 제목이 곧 내용（標題就是內文）。",
+            "cn": "제곧내 = 제목이 곧 내용（标题就是内文）。",
+            "ja": "제곧내 = 제목이 곧 내용（タイトルがそのまま本文）。"
+        }
+    }
 ]
 
 
