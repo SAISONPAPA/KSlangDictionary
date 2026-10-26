@@ -4175,6 +4175,18 @@ MEME = [
      "두쫀쿠 사려고 아침부터 줄 섰어.", "I lined up from the morning to buy a Dubai chewy cookie.",
      "Hice fila desde la mañana para comprar una galleta chiclosa de Dubái.",
      "Food trends, café culture, social media and news", "Verified (web-checked)"),
+    ("볼꾸", "bol-kku", "Pen decorating",
+     "Short for 볼펜 꾸미기, \"ballpoint-pen decorating\": building your own custom pen by picking a pen barrel and adding charms, beads and parts.",
+     "Abreviatura de 볼펜 꾸미기, \"decorar bolígrafos\": armar tu propio bolígrafo eligiendo el cuerpo y añadiendo dijes, cuentas y piezas.",
+     "주말에 동대문 가서 볼꾸 하고 왔어.", "I went to Dongdaemun over the weekend and decorated a pen.",
+     "El fin de semana fui a Dongdaemun a decorar un bolígrafo.",
+     "Gen Z craft trend, Dongdaemun accessory market, Instagram/TikTok", "Verified (web-checked)"),
+    ("떡켓팅", "tteok-ket-ting", "Rice-cake ticketing",
+     "떡 (rice cake) + 티켓팅 (ticketing): fighting to get a popular rice-cake treat — from a famous tteokbokki spot to a trendy rice-cake dessert — as if you were buying concert tickets.",
+     "떡 (pastel de arroz) + 티켓팅 (ticketing): pelear por conseguir un snack de pastel de arroz popular —desde un tteokbokki famoso hasta un postre de moda— como si compraras boletos para un concierto.",
+     "떡켓팅 실패해서 한 시간 넘게 기다렸어.", "I lost the rice-cake ticketing and waited over an hour.",
+     "Perdí la batalla por el pastel de arroz y esperé más de una hora.",
+     "Food trends, waiting lines, social media posts", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4777,7 +4789,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
-    ("2026-10-26", ["인만추", "번따", "스드메", "막방", "통편집", "악마의 편집", "역조공", "텍스트힙", "가심비", "두쫀쿠"]),
+    ("2026-10-26", ["인만추", "번따", "스드메", "막방", "통편집", "악마의 편집", "역조공", "텍스트힙", "가심비", "두쫀쿠", "볼꾸", "떡켓팅"]),
     ("2026-10-19", ["폴꾸", "탑꾸", "팬아저", "그잡채", "제곧내", "아보하", "썸남", "데이트통장", "돌싱", "연프"]),
     ("2026-10-14", ["플러팅", "읽씹", "안읽씹", "선톡", "깻잎논쟁", "테토남", "에겐남", "현커", "추구미", "폼 미쳤다"]),
     ("2026-10-14", ["앨포", "미공포", "엔딩요정", "퇴근길", "출근길", "막내온탑", "맏내", "메보", "4세대", "줄세우기", "올킬", "퍼올", "차트인", "음원깡패", "무대천재", "춤신춤왕", "청량", "걸크러시", "하이틴", "사녹", "팬콘", "포타", "버블", "위버스", "특전", "분철", "공구", "양도", "취켓팅", "꿀자리", "시제석", "비공굿", "나눔", "시즌그리팅", "갓기", "막콘", "슬로건", "중꺾마", "오히려좋아", "조용한퇴사", "억빠", "무지성", "어쩔티비", "저쩔티비", "킹리적갓심", "내돈내산", "머선129", "갑툭튀", "얼빡샷", "존예", "존잘", "띵곡", "띵언", "쩐다", "졸귀", "열폭", "멘붕", "지린다", "가보자고", "점메추", "할많하않", "쌉가능", "쌉인정", "킹정", "엄근진", "많관부", "관종", "유리멘탈", "멘탈갑", "씹덕", "너T야", "디토", "무야호", "킹갓제너럴", "쿨거래", "당근하다", "꼰대", "라떼는말이야", "탕진잼", "영끌", "동학개미", "퇴사각", "병맛", "핵노잼", "꿀팁", "반모", "금사빠", "ㅇㅈ", "ㅇㅋ", "ㄱㅅ", "ㅈㅅ", "ㅊㅋ", "ㅠㅠ", "ㄱㅇㄷ", "씨발", "ㅅㅂ", "존나", "ㅈㄴ", "지랄", "미친", "젠장", "빡치다", "시발비용", "염병", "원영적사고"]),
@@ -5601,6 +5613,8 @@ ZH_TW_TRANSLATIONS = {
     "텍스트힙": ("「Text」＋「hip」：把閱讀和書本當成很酷、很有型的事——曬自己在讀的書、隨身帶書、跑書展。", "最近流行텍스트힙，很多人在咖啡廳看書。"),
     "가심비": ("가격 대비 심리적 만족的縮寫，「價格對比心理滿足」：就算不是最便宜，只要買了開心就值得。由가성비（CP值）變化而來。", "雖然有點貴，但가심비超高。"),
     "두쫀쿠": ("두바이 쫀득 쿠키的縮寫，「杜拜Q彈餅乾」：爆紅的韓式甜點，用撒了可可粉的棉花糖包住開心果醬和酥脆的卡達耶夫細麵——外Q內脆。", "為了買두쫀쿠一早就去排隊。"),
+    "볼꾸": ("볼펜 꾸미기（裝飾原子筆）的縮寫：自己挑選筆桿，再加上吊飾、珠子和各種配件，做出專屬於自己的原子筆。", "週末去東大門做了볼꾸（裝飾原子筆）。"),
+    "떡켓팅": ("떡（年糕）＋티켓팅（搶票）：像搶演唱會門票一樣，拚命搶購熱門的年糕美食，從排隊名店的辣炒年糕到流行的年糕甜點都算。", "搶年糕失敗，等了一個多小時。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6403,6 +6417,8 @@ ZH_CN_TRANSLATIONS = {
     "텍스트힙": ("“Text”＋“hip”：把阅读和书本当成很酷、很有型的事——晒自己在读的书、随身带书、跑书展。", "最近流行텍스트힙，很多人在咖啡厅看书。"),
     "가심비": ("가격 대비 심리적 만족的缩写，“价格对比心理满足”：就算不是最便宜，只要买了开心就值得。由가성비（CP值）变化而来。", "虽然有点贵，但가심비超高。"),
     "두쫀쿠": ("두바이 쫀득 쿠키的缩写，“杜拜Q弹饼干”：爆红的韩式甜点，用撒了可可粉的棉花糖包住开心果酱和酥脆的卡塔尔耶夫细面——外Q内脆。", "为了买두쫀쿠一早就去排队。"),
+    "볼꾸": ("볼펜 꾸미기（装饰原子笔）的缩写：自己挑选笔杆，再加上吊饰、珠子和各种配件，做出专属于自己的原子笔。", "周末去东大门做了볼꾸（装饰原子笔）。"),
+    "떡켓팅": ("떡（年糕）＋티켓팅（抢票）：像抢演唱会门票一样，拚命抢购热门的年糕美食，从排队名店的辣炒年糕到流行的年糕甜点都算。", "抢年糕失败，等了一个多小时。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7219,6 +7235,8 @@ JA_TRANSLATIONS = {
     "텍스트힙": ("「テキスト」＋「ヒップ」。読書や本をおしゃれでかっこいいものとして楽しむトレンド。読んだ本をSNSに載せたり、本を持ち歩いたり、ブックフェアに行ったり。", "最近텍스트힙だから、カフェで本を読む人が多い。"),
     "가심비": ("가격 대비 심리적 만족の略で「価格に対する心の満足度」。一番安くなくても、買って幸せになれるなら満足という考え方。가성비（コスパ）のもじり。", "ちょっと高いけど가심비は最高。"),
     "두쫀쿠": ("두바이 쫀득 쿠키の略で「ドバイもちもちクッキー」。ピスタチオクリームとサクサクのカダイフを、ココアをまぶしたマシュマロで包んだ韓国発のバズりスイーツ。外はもちもち、中はザクザク。", "두쫀쿠を買うために朝から並んだ。"),
+    "볼꾸": ("볼펜 꾸미기（ボールペンデコ）の略。ペン軸を選んでチャームやビーズ、パーツを組み合わせ、自分だけのボールペンを作ること。", "週末に東大門でボールペンデコしてきた。"),
+    "떡켓팅": ("떡（餅）＋티켓팅（チケット争奪戦）：人気の餅グルメ（行列店のトッポッキから流行りの餅スイーツまで）を、コンサートのチケットを取るみたいに必死で手に入れようとすること。", "떡켓팅に負けて1時間以上待った。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -31798,6 +31816,84 @@ DETAILS = {
                 "publisher": "헤럴드경제",
                 "date": "2026-01-15",
                 "url": "https://www.heraldk.com/article/2026011516475506792"
+            }
+        ]
+    },
+    "볼꾸": {
+        "nuance": {
+            "en": "Part of the -꾸 (꾸미기, \"decorating\") family of hobby words like 폴꾸 and 탑꾸. The fun is in choosing and combining the parts yourself, not just buying a cute pen.",
+            "es": "Forma parte de la familia de palabras con -꾸 (꾸미기, \"decorar\"), como 폴꾸 y 탑꾸. Lo divertido es elegir y combinar las piezas tú misma, no solo comprar un bolígrafo bonito.",
+            "zh": "屬於「-꾸」（꾸미기，裝飾）系列的興趣用語，和폴꾸、탑꾸一樣。樂趣在於自己挑選、搭配配件，而不只是買一支可愛的筆。",
+            "cn": "属于“-꾸”（꾸미기，装饰）系列的兴趣用语，和폴꾸、탑꾸一样。乐趣在于自己挑选、搭配配件，而不只是买一支可爱的笔。",
+            "ja": "폴꾸や탑꾸と同じ「-꾸」（꾸미기＝デコ）系の趣味ワード。かわいいペンを買うだけでなく、パーツを自分で選んで組み合わせる過程が楽しいところ。"
+        },
+        "usage": {
+            "en": "Used like a verb with 하다: \"볼꾸 하러 가자\" (\"Let's go make decorated pens\"). People often post their finished pens with the tag #볼꾸.",
+            "es": "Se usa como verbo con 하다: \"볼꾸 하러 가자\" (\"Vamos a decorar bolígrafos\"). Mucha gente sube sus bolígrafos terminados con la etiqueta #볼꾸.",
+            "zh": "常加上하다當動詞用：「볼꾸 하러 가자」（一起去裝飾原子筆吧）。很多人會用 #볼꾸 標籤分享完成的筆。",
+            "cn": "常加上하다当动词用：“볼꾸 하러 가자”（一起去装饰原子笔吧）。很多人会用 #볼꾸 标签分享完成的笔。",
+            "ja": "하다を付けて動詞のように使う：「볼꾸 하러 가자」（ペンデコしに行こう）。完成したペンを #볼꾸 のタグで投稿する人も多い。"
+        },
+        "culture": {
+            "en": "In early 2026 it became a big trend among women in their 20s and 30s, and parts shops at Seoul's Dongdaemun market drew long lines and sold-out items.",
+            "es": "A principios de 2026 se volvió una gran tendencia entre mujeres de 20 y 30 años, y las tiendas de piezas del mercado de Dongdaemun en Seúl tuvieron largas filas y productos agotados.",
+            "zh": "2026年初在20～30歲女性之間大流行，首爾東大門市場的配件店大排長龍，還出現缺貨潮。",
+            "cn": "2026年初在20～30岁女性之间大流行，首尔东大门市场的配件店大排长龙，还出现缺货潮。",
+            "ja": "2026年初めに20〜30代女性の間で大流行し、ソウル・東大門市場のパーツ店には行列ができて品切れも続出した。"
+        },
+        "register": "casual",
+        "similar": [
+            "폴꾸",
+            "탑꾸"
+        ],
+        "tags": [
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "\"지금 동대문 가지 마세요\"…2030女 몰리더니 '품절 대란' [현장+]",
+                "publisher": "Hankyung (한국경제)",
+                "date": "2026-01-18",
+                "url": "https://www.hankyung.com/article/2026011650007"
+            },
+            {
+                "title": "Z세대는 지금 동대문에서 '볼꾸' 중! 요즘 뜨는 꾸미기 열풍 총정리",
+                "publisher": "Gogumafarm (고구마팜)",
+                "date": "2026-02-10",
+                "url": "https://gogumafarm.kr/?p=49789"
+            }
+        ]
+    },
+    "떡켓팅": {
+        "nuance": {
+            "en": "A joke that borrows fan vocabulary: 티켓팅 is the stressful race to buy idol concert tickets, so calling a food line 떡켓팅 says \"this was as hard as getting concert seats.\"",
+            "es": "Es una broma que toma prestado vocabulario fan: 티켓팅 es la carrera estresante por comprar boletos de conciertos de idols, así que llamar 떡켓팅 a una fila de comida dice \"fue tan difícil como conseguir lugares para el concierto\".",
+            "zh": "借用了粉絲用語的玩笑：티켓팅指的是搶偶像演唱會門票的激烈戰爭，把排隊買吃的叫做떡켓팅，意思就是「難搶程度跟搶演唱會門票一樣」。",
+            "cn": "借用了粉丝用语的玩笑：티켓팅指的是抢偶像演唱会门票的激烈战争，把排队买吃的叫做떡켓팅，意思就是“难抢程度跟抢演唱会门票一样”。",
+            "ja": "ファン用語を借りたジョーク。티켓팅はアイドルのコンサートチケットを取る過酷な争奪戦のことなので、食べ物の行列を떡켓팅と呼ぶと「コンサートのチケット並みに大変だった」という意味になる。"
+        },
+        "usage": {
+            "en": "Most often used to say you won or lost: \"떡켓팅 성공!\" (\"Won the rice-cake ticketing!\") or \"떡켓팅 실패\" (\"Lost it\"). The same pattern works with other foods too.",
+            "es": "Se usa sobre todo para decir si ganaste o perdiste: \"떡켓팅 성공!\" (\"¡Gané la batalla del pastel de arroz!\") o \"떡켓팅 실패\" (\"Perdí\"). El mismo patrón sirve con otras comidas.",
+            "zh": "最常用來說搶到或沒搶到：「떡켓팅 성공!」（搶年糕成功！）或「떡켓팅 실패」（失敗了）。同樣的說法也能套用在其他食物上。",
+            "cn": "最常用来说抢到或没抢到：“떡켓팅 성공!”（抢年糕成功！）或“떡켓팅 실패”（失败了）。同样的说法也能套用在其他食物上。",
+            "ja": "成功か失敗かを言うときによく使う：「떡켓팅 성공!」（餅チケッティング成功！）、「떡켓팅 실패」（失敗）。同じパターンはほかの食べ物にも使える。"
+        },
+        "register": "casual",
+        "similar": [
+            "티켓팅",
+            "오픈런"
+        ],
+        "tags": [
+            "food",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "Trend A Word 38호 : [떡켓팅]",
+                "publisher": "Trend A Word (maily)",
+                "date": "2021-05-21",
+                "url": "https://maily.so/trendaword/posts/lxyowdw2z28"
             }
         ]
     },
