@@ -1865,6 +1865,12 @@ FANDOM = [
      "이 사진 진짜 팬아저다.", "This photo is a must-save, fan or not.",
      "Esta foto se guarda aunque no seas fan.",
      "SNS comments, fan accounts, image posts", "Verified (web-checked)"),
+    ("역조공", "yeok-jo-gong", "Reverse gift",
+     "\"Reverse tribute\": gifts or treats an idol gives to fans — snacks at a recording, handwritten letters, goodies at a fan event. The reverse of 조공 (fans sending gifts to idols).",
+     "\"Tributo inverso\": regalos o detalles que un idol da a sus fans, como snacks en una grabación, cartas a mano o regalitos en un evento. Lo contrario de 조공 (los fans regalando a los idols).",
+     "사녹 끝나고 역조공으로 간식 받았어!", "After the pre-recording we got snacks as a reverse gift!",
+     "¡Después de la pregrabación nos dieron snacks de regalo!",
+     "Fan cafés, fan event reviews, social media", "Verified (web-checked)"),
 ]
 
 BROADCAST = [
@@ -2636,6 +2642,24 @@ BROADCAST = [
      "최종 커플 둘 다 현커래!", "Both final couples are dating for real!",
      "¡Las dos parejas finales están juntas de verdad!",
      "Dating reality shows, fan communities", "Verified (web-checked)"),
+    ("막방", "mak-bang", "Final broadcast",
+     "Short for 마지막 방송: the last episode of a show, or an idol's last music-show stage of a comeback.",
+     "Abreviatura de 마지막 방송: el último episodio de un programa, o la última presentación de un idol en los programas musicales durante un comeback.",
+     "오늘 막방이라 너무 아쉬워.", "It's the final broadcast today — I'm so sad it's over.",
+     "Hoy es la última emisión y me da mucha pena.",
+     "Fan talk about dramas, variety shows and music-show promotions", "Verified (web-checked)"),
+    ("통편집", "tong-pyeon-jip", "Edited out completely",
+     "When a broadcaster cuts every scene of a cast member or segment from a show — often after a scandal, sometimes just for time.",
+     "Cuando la cadena corta todas las escenas de un participante o segmento de un programa, a menudo tras un escándalo y a veces solo por tiempo.",
+     "그 출연자 결국 통편집됐대.", "I heard that cast member ended up completely edited out.",
+     "Dicen que al final cortaron por completo a ese participante.",
+     "Entertainment news, variety and reality-show fan talk", "Verified (web-checked)"),
+    ("악마의 편집", "ak-ma-ui-pyeon-jip", "Devil's editing",
+     "\"Devil's editing\": cutting and arranging footage to exaggerate conflict or make someone look bad, for drama and ratings — a common complaint about reality, audition and survival shows.",
+     "\"Edición del diablo\": cortar y ordenar las escenas para exagerar conflictos o hacer quedar mal a alguien, por el drama y la audiencia. Una queja habitual sobre realities y programas de audiciones o supervivencia.",
+     "저 장면 완전 악마의 편집이잖아.", "That scene is totally devil's editing.",
+     "Esa escena es pura edición del diablo.",
+     "Reality and survival-show discussions, entertainment news", "Verified (web-checked)"),
 ]
 
 MEME = [
@@ -3196,7 +3220,7 @@ MEME = [
      "Una jerga antigua y enfática que apila \"king\", \"wang\" (rey en hanja) y \"jjang\" (el mejor) juntos para dar más énfasis.",
      "이 노래 킹왕짱이다.", "This song is the absolute best.",
      "Esta canción es lo máximo, sin duda.",
-     "Nostalgic internet slang", "Draft — please double-check"),
+     "Nostalgic internet slang", "Verified (web-checked)"),
     ("오나전", "o-na-jeon", "Totally (stylized)",
      "A cutesy, deliberately \"mistyped\" way of writing 완전 (\"totally/completely\"), using visually similar characters.",
      "Una forma tierna y deliberadamente \"mal escrita\" de escribir 완전 (\"totalmente\"), usando caracteres visualmente similares.",
@@ -4133,6 +4157,24 @@ MEME = [
      "오늘은 별일 없이 아보하 완료.", "Nothing happened today — a very ordinary day, done.",
      "Hoy no pasó nada: un día normalito, cumplido.",
      "Lifestyle trend talk, SNS diaries, articles", "Verified (web-checked)"),
+    ("텍스트힙", "tek-seu-teu-hip", "Reading is cool",
+     "\"Text\" + \"hip\": the trend of seeing reading and books as cool and stylish — posting what you read, carrying books, going to book fairs.",
+     "\"Text\" + \"hip\": la tendencia de ver la lectura y los libros como algo cool y con estilo, publicando lo que lees, llevando libros o yendo a ferias del libro.",
+     "요즘 텍스트힙이라 카페에서 책 읽는 사람 많아.", "Reading is cool now, so lots of people read books in cafés.",
+     "Ahora leer está de moda, así que mucha gente lee en las cafeterías.",
+     "Trend news, social media, bookstore and publishing talk", "Verified (web-checked)"),
+    ("가심비", "ga-sim-bi", "Worth it for the feels",
+     "Short for 가격 대비 심리적 만족, \"psychological satisfaction for the price\": buying something because it makes you happy, even if it isn't the cheapest. A twist on 가성비 (value for money).",
+     "Abreviatura de 가격 대비 심리적 만족, \"satisfacción emocional por el precio\": comprar algo porque te hace feliz, aunque no sea lo más barato. Variante de 가성비 (relación calidad-precio).",
+     "좀 비싸도 가심비 최고야.", "It's a bit pricey, but it's so worth it for how happy it makes me.",
+     "Es un poco caro, pero me hace tan feliz que vale totalmente la pena.",
+     "Shopping talk, marketing and consumer-trend news", "Verified (web-checked)"),
+    ("두쫀쿠", "du-jjon-ku", "Dubai chewy cookie",
+     "Short for 두바이 쫀득 쿠키, \"Dubai chewy cookie\": a viral Korean dessert of pistachio cream and crispy kataifi wrapped in cocoa-dusted marshmallow — chewy outside, crunchy inside.",
+     "Abreviatura de 두바이 쫀득 쿠키, \"galleta chiclosa de Dubái\": un postre coreano viral de crema de pistacho y kataifi crujiente envuelto en malvavisco con cacao, chicloso por fuera y crujiente por dentro.",
+     "두쫀쿠 사려고 아침부터 줄 섰어.", "I lined up from the morning to buy a Dubai chewy cookie.",
+     "Hice fila desde la mañana para comprar una galleta chiclosa de Dubái.",
+     "Food trends, café culture, social media and news", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4447,7 +4489,7 @@ DATING = [
      "Una relación donde una pareja es notablemente mayor (연상) y la otra más joven (연하), una dinámica común en los K-dramas.",
      "이 드라마 연상연하 커플이야.", "This drama has an age-gap couple.",
      "Este drama tiene una pareja con diferencia de edad.",
-     "K-drama trope talk", "Draft — please double-check"),
+     "K-drama trope talk", "Verified (web-checked)"),
     ("로맨스판타지", "ro-maen-seu-pan-ta-ji", "Romance fantasy",
      "\"Romantasy\" — a hugely popular web novel and webtoon genre blending romance with a fantasy setting, often featuring reincarnation.",
      "\"Romantasía\": un género de novelas web y webtoons muy popular que combina romance con un escenario de fantasía, a menudo con reencarnación.",
@@ -4694,6 +4736,24 @@ DATING = [
      "요즘 무슨 연프 봐?", "Which dating show are you watching these days?",
      "¿Qué reality de citas estás viendo últimamente?",
      "TV and streaming talk, SNS", "Verified (web-checked)"),
+    ("인만추", "in-man-chu", "Set-up dating",
+     "Short for 인위적인 만남 추구, \"pursuing artificial meetings\": preferring to meet partners through set-ups like blind dates, apps or matchmaking events instead of waiting to meet someone naturally. The opposite of 자만추.",
+     "Abreviatura de 인위적인 만남 추구, \"buscar encuentros artificiales\": preferir conocer pareja por citas a ciegas, apps o eventos de citas en lugar de esperar a conocer a alguien de forma natural. Lo contrario de 자만추.",
+     "자만추는 포기했어, 이제 인만추야.", "I gave up on meeting someone naturally — I'm all about set-ups now.",
+     "Ya me rendí con conocer a alguien de forma natural; ahora voy a por citas organizadas.",
+     "Dating talk, news on matchmaking events and dating apps", "Verified (web-checked)"),
+    ("번따", "beon-tta", "Getting someone's number",
+     "Short for 번호 따기: walking up to a stranger you find attractive and asking for their phone number.",
+     "Abreviatura de 번호 따기: acercarte a un desconocido que te gusta y pedirle su número de teléfono.",
+     "카페에서 번따 당했어!", "Someone asked for my number at the café!",
+     "¡Alguien me pidió el número en la cafetería!",
+     "Everyday dating talk, social media, street interviews", "Verified (web-checked)"),
+    ("스드메", "seu-deu-me", "Studio, dress, makeup",
+     "Short for 스튜디오·드레스·메이크업: the wedding photo studio, wedding dress and bridal makeup package that Korean couples book when planning a wedding.",
+     "Abreviatura de 스튜디오·드레스·메이크업: el paquete de estudio de fotos, vestido de novia y maquillaje que las parejas coreanas reservan al planear la boda.",
+     "결혼 준비 중인데 스드메 견적이 너무 비싸.", "We're planning the wedding and the studio-dress-makeup quotes are so expensive.",
+     "Estamos preparando la boda y los presupuestos de estudio, vestido y maquillaje son carísimos.",
+     "Wedding planning talk, wedding fairs, news on wedding costs", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4717,6 +4777,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-10-26", ["인만추", "번따", "스드메", "막방", "통편집", "악마의 편집", "역조공", "텍스트힙", "가심비", "두쫀쿠"]),
     ("2026-10-19", ["폴꾸", "탑꾸", "팬아저", "그잡채", "제곧내", "아보하", "썸남", "데이트통장", "돌싱", "연프"]),
     ("2026-10-14", ["플러팅", "읽씹", "안읽씹", "선톡", "깻잎논쟁", "테토남", "에겐남", "현커", "추구미", "폼 미쳤다"]),
     ("2026-10-14", ["앨포", "미공포", "엔딩요정", "퇴근길", "출근길", "막내온탑", "맏내", "메보", "4세대", "줄세우기", "올킬", "퍼올", "차트인", "음원깡패", "무대천재", "춤신춤왕", "청량", "걸크러시", "하이틴", "사녹", "팬콘", "포타", "버블", "위버스", "특전", "분철", "공구", "양도", "취켓팅", "꿀자리", "시제석", "비공굿", "나눔", "시즌그리팅", "갓기", "막콘", "슬로건", "중꺾마", "오히려좋아", "조용한퇴사", "억빠", "무지성", "어쩔티비", "저쩔티비", "킹리적갓심", "내돈내산", "머선129", "갑툭튀", "얼빡샷", "존예", "존잘", "띵곡", "띵언", "쩐다", "졸귀", "열폭", "멘붕", "지린다", "가보자고", "점메추", "할많하않", "쌉가능", "쌉인정", "킹정", "엄근진", "많관부", "관종", "유리멘탈", "멘탈갑", "씹덕", "너T야", "디토", "무야호", "킹갓제너럴", "쿨거래", "당근하다", "꼰대", "라떼는말이야", "탕진잼", "영끌", "동학개미", "퇴사각", "병맛", "핵노잼", "꿀팁", "반모", "금사빠", "ㅇㅈ", "ㅇㅋ", "ㄱㅅ", "ㅈㅅ", "ㅊㅋ", "ㅠㅠ", "ㄱㅇㄷ", "씨발", "ㅅㅂ", "존나", "ㅈㄴ", "지랄", "미친", "젠장", "빡치다", "시발비용", "염병", "원영적사고"]),
@@ -5530,6 +5591,16 @@ ZH_TW_TRANSLATIONS = {
     "데이트통장": ("情侶一起存錢、專門用來支付約會開銷的共同帳戶。", "我們這個月開始用約會共同帳戶了。"),
     "돌싱": ("돌아온 싱글（回歸單身）的縮寫，指離婚後重新單身的人。", "最近離婚單身族的戀愛節目很紅。"),
     "연프": ("연애 프로그램的縮寫，戀愛實境節目。", "最近在看哪個戀綜？"),
+    "인만추": ("인위적인 만남 추구的縮寫，「追求人為的相遇」：比起等待自然認識，更喜歡透過聯誼、交友軟體、相親活動等安排好的機會認識對象。和자만추相反。", "我放棄自然相遇了，現在走인만추路線。"),
+    "번따": ("번호 따기的縮寫：主動向心動的陌生人要電話號碼，搭訕要電話。", "我在咖啡廳被要電話了！"),
+    "스드메": ("스튜디오·드레스·메이크업的縮寫：韓國新人籌備婚禮時預約的婚紗攝影、婚紗禮服和新娘妝髮套組。", "正在準備婚禮，스드메的報價好貴。"),
+    "막방": ("마지막 방송的縮寫：節目的最後一集，或偶像這波回歸在音樂節目的最後一次舞台。", "今天是막방，好捨不得。"),
+    "통편집": ("電視台把某位出演者或某段內容的所有畫面全部剪掉——常發生在爭議之後，有時只是因為時間不夠。", "聽說那位出演者最後被통편집了。"),
+    "악마의 편집": ("「惡魔剪輯」：為了製造話題和收視率，刻意剪接畫面誇大衝突或讓某人形象變差——真人秀、選秀和生存節目常被這樣批評。", "那一段根本是惡魔剪輯。"),
+    "역조공": ("「逆應援」：偶像送給粉絲的禮物或點心——錄影時的零食、手寫信、粉絲活動上的小禮物。和조공（粉絲送禮給偶像）方向相反。", "事前錄影結束後收到了역조공點心！"),
+    "텍스트힙": ("「Text」＋「hip」：把閱讀和書本當成很酷、很有型的事——曬自己在讀的書、隨身帶書、跑書展。", "最近流行텍스트힙，很多人在咖啡廳看書。"),
+    "가심비": ("가격 대비 심리적 만족的縮寫，「價格對比心理滿足」：就算不是最便宜，只要買了開心就值得。由가성비（CP值）變化而來。", "雖然有點貴，但가심비超高。"),
+    "두쫀쿠": ("두바이 쫀득 쿠키的縮寫，「杜拜Q彈餅乾」：爆紅的韓式甜點，用撒了可可粉的棉花糖包住開心果醬和酥脆的卡達耶夫細麵——外Q內脆。", "為了買두쫀쿠一早就去排隊。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6322,6 +6393,16 @@ ZH_CN_TRANSLATIONS = {
     "데이트통장": ("情侣一起存钱、专门用来支付约会开销的共同帐户。", "我们这个月开始用约会共同帐户了。"),
     "돌싱": ("돌아온 싱글（回归单身）的缩写，指离婚后重新单身的人。", "最近离婚单身族的恋爱节目很红。"),
     "연프": ("연애 프로그램的缩写，恋爱实境节目。", "最近在看哪个恋综？"),
+    "인만추": ("인위적인 만남 추구的缩写，“追求人为的相遇”：比起等待自然认识，更喜欢通过联谊、交友软件、相亲活动等安排好的机会认识对象。和자만추相反。", "我放弃自然相遇了，现在走인만추路线。"),
+    "번따": ("번호 따기的缩写：主动向心动的陌生人要电话号码，搭讪要电话。", "我在咖啡厅被要电话了！"),
+    "스드메": ("스튜디오·드레스·메이크업的缩写：韩国新人筹备婚礼时预约的婚纱摄影、婚纱礼服和新娘妆发套组。", "正在准备婚礼，스드메的报价好贵。"),
+    "막방": ("마지막 방송的缩写：节目的最后一集，或偶像这波回归在音乐节目的最后一次舞台。", "今天是막방，好舍不得。"),
+    "통편집": ("电视台把某位出演者或某段内容的所有画面全部剪掉——常发生在争议之后，有时只是因为时间不够。", "听说那位出演者最后被통편집了。"),
+    "악마의 편집": ("“恶魔剪辑”：为了制造话题和收视率，刻意剪接画面夸大冲突或让某人形象变差——真人秀、选秀和生存节目常被这样批评。", "那一段根本是恶魔剪辑。"),
+    "역조공": ("“逆应援”：偶像送给粉丝的礼物或点心——录制时的零食、手写信、粉丝活动上的小礼物。和조공（粉丝送礼给偶像）方向相反。", "事前录制结束后收到了역조공点心！"),
+    "텍스트힙": ("“Text”＋“hip”：把阅读和书本当成很酷、很有型的事——晒自己在读的书、随身带书、跑书展。", "最近流行텍스트힙，很多人在咖啡厅看书。"),
+    "가심비": ("가격 대비 심리적 만족的缩写，“价格对比心理满足”：就算不是最便宜，只要买了开心就值得。由가성비（CP值）变化而来。", "虽然有点贵，但가심비超高。"),
+    "두쫀쿠": ("두바이 쫀득 쿠키的缩写，“杜拜Q弹饼干”：爆红的韩式甜点，用撒了可可粉的棉花糖包住开心果酱和酥脆的卡塔尔耶夫细面——外Q内脆。", "为了买두쫀쿠一早就去排队。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7128,6 +7209,16 @@ JA_TRANSLATIONS = {
     "데이트통장": ("カップルが二人でお金を入れて、デート代を払うための共同口座。", "今月から데이트통장（デート用の共同口座）作ったよ。"),
     "돌싱": ("돌아온 싱글（戻ってきたシングル）の略。離婚して再び独身になった人。", "最近、돌싱（バツイチ）の恋愛番組が人気だよ。"),
     "연프": ("연애 프로그램の略。恋愛リアリティ番組（恋リア）。", "最近どの恋リア見てる？"),
+    "인만추": ("인위적인 만남 추구の略で「作られた出会いを求める」。自然な出会いを待つより、合コン・紹介・マッチングアプリなど用意された場で相手を探すこと。자만추の反対。", "自然な出会いはもう諦めた。これからは인만추でいく。"),
+    "번따": ("번호 따기の略。気になる知らない人に声をかけて電話番号を聞くこと。いわゆる逆ナン・ナンパで連絡先を聞くこと。", "カフェで번따されちゃった！"),
+    "스드메": ("스튜디오·드레스·메이크업の略。韓国のカップルが結婚準備で予約する、ウェディングフォトスタジオ・ドレス・ブライダルメイクのセット。", "結婚準備中なんだけど、스드메の見積もりが高すぎる。"),
+    "막방": ("마지막 방송の略。番組の最終回、またはアイドルのカムバック活動で最後の音楽番組ステージ。", "今日が막방で寂しすぎる。"),
+    "통편집": ("放送局がある出演者やコーナーの場面を丸ごとカットすること。不祥事の後が多いが、単に尺の都合のことも。", "あの出演者、結局통편집されたらしい。"),
+    "악마의 편집": ("「悪魔の編集」。話題や視聴率のために、対立を大げさに見せたり誰かを悪者に見せたりするよう映像をつなぐこと。リアリティ番組やオーディション・サバイバル番組でよく批判される。", "あのシーン、完全に악마의 편집じゃん。"),
+    "역조공": ("「逆差し入れ」。アイドルがファンに贈るプレゼントや差し入れ（収録時のお菓子、手書きの手紙、イベントのグッズなど）。조공（ファンからアイドルへの差し入れ）の逆。", "事前収録の後、역조공でお菓子もらった！"),
+    "텍스트힙": ("「テキスト」＋「ヒップ」。読書や本をおしゃれでかっこいいものとして楽しむトレンド。読んだ本をSNSに載せたり、本を持ち歩いたり、ブックフェアに行ったり。", "最近텍스트힙だから、カフェで本を読む人が多い。"),
+    "가심비": ("가격 대비 심리적 만족の略で「価格に対する心の満足度」。一番安くなくても、買って幸せになれるなら満足という考え方。가성비（コスパ）のもじり。", "ちょっと高いけど가심비は最高。"),
+    "두쫀쿠": ("두바이 쫀득 쿠키の略で「ドバイもちもちクッキー」。ピスタチオクリームとサクサクのカダイフを、ココアをまぶしたマシュマロで包んだ韓国発のバズりスイーツ。外はもちもち、中はザクザク。", "두쫀쿠を買うために朝から並んだ。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -31348,6 +31439,368 @@ DETAILS = {
             }
         ]
     },
+    "인만추": {
+        "nuance": {
+            "en": "Practical and a little self-deprecating — admitting that waiting for fate isn't working.",
+            "es": "Práctico y un poco autocrítico: reconocer que esperar al destino no está funcionando.",
+            "zh": "務實又帶點自嘲——承認等待緣分行不通。",
+            "cn": "务实又带点自嘲——承认等待缘分行不通。",
+            "ja": "現実的で少し自虐的。運命の出会いを待っても無理だと認めるニュアンス。"
+        },
+        "usage": {
+            "en": "Mostly set against 자만추: 나는 자만추파, 너는 인만추파? (\"Are you team natural or team set-up?\")",
+            "es": "Casi siempre se contrapone a 자만추: 나는 자만추파, 너는 인만추파? (\"¿Tú eres de encuentros naturales o de citas organizadas?\")",
+            "zh": "常和자만추對比使用：나는 자만추파, 너는 인만추파?（我是自然派，你是安排派？）",
+            "cn": "常和자만추对比使用：나는 자만추파, 너는 인만추파?（我是自然派，你是安排派？）",
+            "ja": "자만추と対比して使うことが多い：나는 자만추파, 너는 인만추파?（私は自然派、あなたは紹介派？）"
+        },
+        "culture": {
+            "en": "Korean local governments have even run matchmaking events for singles as a low-birth-rate measure, which news outlets nicknamed '인만추' policies.",
+            "es": "Algunos gobiernos locales de Corea han organizado eventos de citas para solteros como medida contra la baja natalidad, y la prensa los llamó políticas '인만추'.",
+            "zh": "韓國有些地方政府為了因應低生育率，甚至舉辦單身聯誼活動，媒體稱之為「인만추」政策。",
+            "cn": "韩国有些地方政府为了因应低生育率，甚至举办单身联谊活动，媒体称之为“인만추”政策。",
+            "ja": "韓国では少子化対策として自治体が独身者向けの出会いイベントを開くこともあり、メディアは「인만추」政策と呼んだ。"
+        },
+        "register": "casual",
+        "similar": [
+            "자만추",
+            "소개팅"
+        ],
+        "tags": [
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "'인만추' 유도하는 지자체 저출산 대책 실효성 논란",
+                "publisher": "파이낸셜뉴스",
+                "date": "2024-06-30",
+                "url": "https://www.fnnews.com/news/202406301420339897"
+            }
+        ]
+    },
+    "번따": {
+        "nuance": {
+            "en": "Light and gossipy. Being asked (번따 당하다) is a small brag; doing it (번따하다) takes courage.",
+            "es": "Ligero y de chisme. Que te lo pidan (번따 당하다) es un pequeño presumir; hacerlo (번따하다) requiere valor.",
+            "zh": "輕鬆八卦的語氣。被要電話（번따 당하다）是小小的炫耀，主動去要（번따하다）則需要勇氣。",
+            "cn": "轻松八卦的语气。被要电话（번따 당하다）是小小的炫耀，主动去要（번따하다）则需要勇气。",
+            "ja": "軽いゴシップっぽい言葉。聞かれる（번따 당하다）のはちょっとした自慢、自分から聞く（번따하다）のは勇気がいる。"
+        },
+        "usage": {
+            "en": "번따하다 (to ask for a number), 번따 당하다 / 번따 당했다 (to get asked). Also 번따 성지, a spot famous for it.",
+            "es": "번따하다 (pedir el número), 번따 당하다 / 번따 당했다 (que te lo pidan). También 번따 성지, un lugar famoso por eso.",
+            "zh": "번따하다（去要電話）、번따 당하다／번따 당했다（被要電話）。還有번따 성지，指很常發生搭訕的「聖地」。",
+            "cn": "번따하다（去要电话）、번따 당하다／번따 당했다（被要电话）。还有번따 성지，指很常发生搭讪的“圣地”。",
+            "ja": "번따하다（番号を聞く）、번따 당하다／번따 당했다（聞かれる）。よく声をかけられる場所は번따 성지（聖地）と言う。"
+        },
+        "culture": {
+            "en": "In 2026 Korean media reported large bookstores becoming a '번따 성지' as young people went there hoping to meet someone.",
+            "es": "En 2026 los medios coreanos contaron que algunas grandes librerías se volvieron un '번따 성지', porque los jóvenes iban allí con la esperanza de conocer a alguien.",
+            "zh": "2026年韓國媒體報導，大型書店成了「번따 성지」，不少年輕人去那裡希望能認識對象。",
+            "cn": "2026年韩国媒体报导，大型书店成了“번따 성지”，不少年轻人去那里希望能认识对象。",
+            "ja": "2026年、韓国メディアは大型書店が「번따 성지」になっていると報じた。出会いを期待して若者が足を運ぶという。"
+        },
+        "register": "casual",
+        "similar": [
+            "자만추",
+            "플러팅"
+        ],
+        "tags": [
+            "romance",
+            "chat"
+        ],
+        "sources": [
+            {
+                "title": "“이성 번호 따러 서점 가요”…‘번따’ 성지 된 대형서점 근황",
+                "publisher": "트윅(TWIG24)",
+                "date": "2026-04-06",
+                "url": "https://twig24.com/news/world/2026/04/06/20260406500060"
+            }
+        ]
+    },
+    "스드메": {
+        "nuance": {
+            "en": "Practical planning jargon, often said with a sigh about prices and hidden extra fees.",
+            "es": "Jerga práctica de bodas, a menudo dicha con un suspiro por los precios y los cargos extra.",
+            "zh": "很實際的婚禮籌備用語，常伴隨著對價格和隱藏加價的嘆氣。",
+            "cn": "很实际的婚礼筹备用语，常伴随着对价格和隐藏加价的叹气。",
+            "ja": "結婚準備の実用的な用語。値段や追加料金へのため息と一緒に使われがち。"
+        },
+        "usage": {
+            "en": "Used as a noun: 스드메 계약했어 (we booked our studio-dress-makeup), 스드메 투어 (visiting dress shops and studios).",
+            "es": "Se usa como sustantivo: 스드메 계약했어 (ya contratamos el paquete), 스드메 투어 (recorrer tiendas de vestidos y estudios).",
+            "zh": "當名詞用：스드메 계약했어（簽好스드메了）、스드메 투어（逛婚紗店和攝影棚）。",
+            "cn": "当名词用：스드메 계약했어（签好스드메了）、스드메 투어（逛婚纱店和摄影棚）。",
+            "ja": "名詞として使う：스드메 계약했어（스드메契約した）、스드메 투어（ドレスショップやスタジオ巡り）。"
+        },
+        "culture": {
+            "en": "Prices were long unclear and full of add-on fees, so in 2024 the Korean government moved to make 스드메 prices public.",
+            "es": "Los precios eran poco claros y llenos de cargos extra, así que en 2024 el gobierno coreano impulsó que los precios de 스드메 fueran públicos.",
+            "zh": "過去價格不透明、加價項目又多，因此韓國政府在2024年推動公開스드메價格。",
+            "cn": "过去价格不透明、加价项目又多，因此韩国政府在2024年推动公开스드메价格。",
+            "ja": "長らく価格が不透明で追加料金も多かったため、2024年に韓国政府が스드메の価格公開を進めた。"
+        },
+        "register": "everyday",
+        "similar": [
+            "결혼각"
+        ],
+        "tags": [
+            "romance",
+            "beauty"
+        ],
+        "sources": [
+            {
+                "title": "앞으로 ‘스드메’ 가격 공개된다",
+                "publisher": "보그 코리아",
+                "date": "2024-03-13",
+                "url": "https://www.vogue.co.kr/?p=462888"
+            }
+        ]
+    },
+    "막방": {
+        "nuance": {
+            "en": "Bittersweet. Fans say it to mark the end and to rally everyone to watch live one last time.",
+            "es": "Agridulce. Los fans lo dicen para marcar el final y animar a todos a verlo en vivo una última vez.",
+            "zh": "帶點不捨。粉絲用它來紀念結束，也號召大家最後一次一起看直播。",
+            "cn": "带点不舍。粉丝用它来纪念结束，也号召大家最后一次一起看直播。",
+            "ja": "ちょっと切ない言葉。終わりを惜しみつつ、最後はみんなでリアタイしようと呼びかけるときにも使う。"
+        },
+        "usage": {
+            "en": "Paired with 첫방 (first broadcast): 첫방부터 막방까지 (from the first episode to the last). 막방 사수 = don't miss the finale.",
+            "es": "Va en pareja con 첫방 (primera emisión): 첫방부터 막방까지 (del primer al último episodio). 막방 사수 = no perderse el final.",
+            "zh": "常和첫방（首播）成對：첫방부터 막방까지（從首播到最後一集）。막방 사수＝死守最後一集。",
+            "cn": "常和첫방（首播）成对：첫방부터 막방까지（从首播到最后一集）。막방 사수＝死守最后一集。",
+            "ja": "첫방（初回）とセットで：첫방부터 막방까지（初回から最終回まで）。막방 사수＝最終回は絶対見る。"
+        },
+        "register": "casual",
+        "similar": [
+            "첫방송",
+            "종영",
+            "음악방송"
+        ],
+        "tags": [
+            "variety",
+            "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "‘더 시즌즈’ 막방 눈물 터진 이영지 “너무 울어, 막방은 안 보셨으면”",
+                "publisher": "스포츠경향",
+                "date": "2025-02-19",
+                "url": "https://sports.khan.co.kr/article/202502190840013"
+            }
+        ]
+    },
+    "통편집": {
+        "nuance": {
+            "en": "Neutral news word, but being 통편집 is a big deal — it usually signals trouble.",
+            "es": "Palabra neutra de noticias, pero que te hagan 통편집 es grave: suele indicar problemas.",
+            "zh": "本身是中性的新聞用語，但被통편집通常代表出事了。",
+            "cn": "本身是中性的新闻用语，但被통편집通常代表出事了。",
+            "ja": "ニュースでも使う中立的な言葉だが、통편집されるのは大ごと。たいてい何か問題があったサイン。"
+        },
+        "usage": {
+            "en": "Usually passive: 통편집되다 / 통편집 당하다. Also jokingly: 나 오늘 분량 통편집각 (my part today will totally get cut).",
+            "es": "Suele ir en pasiva: 통편집되다 / 통편집 당하다. También en broma: 나 오늘 분량 통편집각 (seguro que hoy cortan toda mi parte).",
+            "zh": "多用被動：통편집되다／통편집 당하다。也會開玩笑說：나 오늘 분량 통편집각（我今天的鏡頭八成全被剪）。",
+            "cn": "多用被动：통편집되다／통편집 당하다。也会开玩笑说：나 오늘 분량 통편집각（我今天的镜头八成全被剪）。",
+            "ja": "受け身で使うことが多い：통편집되다／통편집 당하다。冗談で：나 오늘 분량 통편집각（今日の出番、全カットされそう）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "악마의 편집",
+            "방송사고"
+        ],
+        "tags": [
+            "variety",
+            "industry"
+        ],
+        "sources": [
+            {
+                "title": "‘나는 솔로’ 정숙 과거 범죄 논란에 ‘통편집’ 방침…“그냥 다음 기수 가라” 비판 쇄도",
+                "publisher": "세계일보",
+                "date": "2024-10-31",
+                "url": "https://www.segye.com/newsView/20241031519806"
+            }
+        ]
+    },
+    "악마의 편집": {
+        "nuance": {
+            "en": "Critical. Viewers use it to defend a cast member they think was framed by the edit.",
+            "es": "Crítico. El público lo usa para defender a alguien que cree que quedó mal por la edición.",
+            "zh": "帶批評意味。觀眾常用它替覺得被剪輯陷害的出演者抱不平。",
+            "cn": "带批评意味。观众常用它替觉得被剪辑陷害的出演者抱不平。",
+            "ja": "批判的な言葉。編集で悪者にされたと思う出演者をかばうときに使う。"
+        },
+        "usage": {
+            "en": "Often 악편 for short. 악마의 편집 피해자 = someone hurt by the edit.",
+            "es": "Se abrevia a menudo como 악편. 악마의 편집 피해자 = alguien perjudicado por la edición.",
+            "zh": "常簡稱악편。악마의 편집 피해자＝惡魔剪輯的受害者。",
+            "cn": "常简称악편。악마의 편집 피해자＝恶魔剪辑的受害者。",
+            "ja": "略して악편とも。악마의 편집 피해자＝悪魔の編集の被害者。"
+        },
+        "culture": {
+            "en": "The term became famous with audition and survival shows in the 2010s and is still raised whenever a reality show is accused of manipulation.",
+            "es": "El término se hizo famoso con los programas de audiciones y supervivencia de la década de 2010 y sigue apareciendo cada vez que acusan a un reality de manipular.",
+            "zh": "這個詞在2010年代的選秀和生存節目中爆紅，至今只要真人秀被指控操弄，就會再被提起。",
+            "cn": "这个词在2010年代的选秀和生存节目中爆红，至今只要真人秀被指控操弄，就会再被提起。",
+            "ja": "2010年代のオーディション・サバイバル番組で有名になった言葉で、今もリアリティ番組の「やらせ」疑惑が出るたびに使われる。"
+        },
+        "register": "everyday",
+        "similar": [
+            "통편집",
+            "서바이벌"
+        ],
+        "tags": [
+            "variety",
+            "industry"
+        ],
+        "sources": [
+            {
+                "title": "[D:방송 뷰] 10대 일반인에도 악마의 편집?…예능 ‘조작 논란’, 왜 계속될까",
+                "publisher": "데일리안",
+                "date": "2022-09-24",
+                "url": "https://www.dailian.co.kr/news/view/1155540/"
+            }
+        ]
+    },
+    "역조공": {
+        "nuance": {
+            "en": "Warm and proud — fans love to show off a thoughtful 역조공. A stingy one can get criticized, though.",
+            "es": "Cariñoso y con orgullo: a los fans les encanta presumir un 역조공 detallista. Aunque uno tacaño puede recibir críticas.",
+            "zh": "溫暖又驕傲——粉絲很愛曬用心的역조공。不過太敷衍的也可能被批評。",
+            "cn": "温暖又骄傲——粉丝很爱晒用心的역조공。不过太敷衍的也可能被批评。",
+            "ja": "温かくて誇らしい言葉。心のこもった역조공はファンが自慢したくなるもの。ただ手抜きだと批判されることも。"
+        },
+        "usage": {
+            "en": "역조공하다 (to give fans a gift), 역조공 받았다 (we got a gift). Often shared with photos: 오늘 역조공 인증.",
+            "es": "역조공하다 (regalar a los fans), 역조공 받았다 (nos regalaron). Se comparte con fotos: 오늘 역조공 인증.",
+            "zh": "역조공하다（送粉絲禮物）、역조공 받았다（收到了）。常附照片分享：오늘 역조공 인증（今日逆應援認證）。",
+            "cn": "역조공하다（送粉丝礼物）、역조공 받았다（收到了）。常附照片分享：오늘 역조공 인증（今日逆应援认证）。",
+            "ja": "역조공하다（ファンに贈る）、역조공 받았다（もらった）。写真付きで共有することが多い：오늘 역조공 인증。"
+        },
+        "register": "casual",
+        "similar": [
+            "조공",
+            "사녹",
+            "팬서비스"
+        ],
+        "tags": [
+            "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "팬선물도 챙겨야 하는 아이돌… 부실한 ‘역조공’땐 역풍도",
+                "publisher": "동아일보 (Daum)",
+                "date": "2025-01-06",
+                "url": "https://v.daum.net/v/20250106030342782"
+            }
+        ]
+    },
+    "텍스트힙": {
+        "nuance": {
+            "en": "Positive and trendy, sometimes with a wink that it's as much about the aesthetic as the reading.",
+            "es": "Positivo y de moda, a veces con un guiño de que importa tanto la estética como la lectura.",
+            "zh": "正面又時髦，有時也帶點調侃：重點可能是氛圍感，不只是閱讀本身。",
+            "cn": "正面又时髦，有时也带点调侃：重点可能是氛围感，不只是阅读本身。",
+            "ja": "前向きでトレンド感のある言葉。読むことと同じくらい「映え」も大事、という軽いツッコミを込めることも。"
+        },
+        "usage": {
+            "en": "Used as a noun for the trend: 텍스트힙 열풍 (the text-hip craze), 텍스트힙 감성 (that bookish vibe).",
+            "es": "Se usa como sustantivo para la tendencia: 텍스트힙 열풍 (la fiebre text-hip), 텍스트힙 감성 (ese ambiente literario).",
+            "zh": "當名詞指這股潮流：텍스트힙 열풍（텍스트힙熱潮）、텍스트힙 감성（文青氛圍）。",
+            "cn": "当名词指这股潮流：텍스트힙 열풍（텍스트힙热潮）、텍스트힙 감성（文青氛围）。",
+            "ja": "トレンドを指す名詞として：텍스트힙 열풍（텍스트힙ブーム）、텍스트힙 감성（本好きな雰囲気）。"
+        },
+        "register": "everyday",
+        "similar": [
+            "갬성",
+            "추구미"
+        ],
+        "tags": [
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "활자의 매력에 눈뜨다…!출판계를 휩쓴 ‘텍스트힙’ 열풍",
+                "publisher": "나의 경기도 (경기도)",
+                "date": "2025-02",
+                "url": "https://www.gg.go.kr/myggd/vol188/vol188_2_8.php"
+            }
+        ]
+    },
+    "가심비": {
+        "nuance": {
+            "en": "A happy justification for a treat — the opposite mindset of strict 가성비 shopping.",
+            "es": "Una justificación feliz para darse un gusto; la mentalidad opuesta a comprar solo por 가성비.",
+            "zh": "犒賞自己時的開心理由——和只看가성비的購物心態相反。",
+            "cn": "犒赏自己时的开心理由——和只看가성비的购物心态相反。",
+            "ja": "ご褒美を正当化するハッピーな言葉。가성비一辺倒の買い方とは逆の発想。"
+        },
+        "usage": {
+            "en": "가심비 좋다 / 가심비 최고 (so worth it). Fans use it for goods: 포카 가심비 미쳤다.",
+            "es": "가심비 좋다 / 가심비 최고 (vale totalmente la pena). Los fans lo usan con los goods: 포카 가심비 미쳤다.",
+            "zh": "가심비 좋다／가심비 최고（超值得）。粉絲也拿來形容周邊：포카 가심비 미쳤다（小卡的가심비瘋了）。",
+            "cn": "가심비 좋다／가심비 최고（超值得）。粉丝也拿来形容周边：포카 가심비 미쳤다（小卡的가심비疯了）。",
+            "ja": "가심비 좋다／가심비 최고（満足度が高い）。ファンはグッズにも使う：포카 가심비 미쳤다。"
+        },
+        "register": "everyday",
+        "similar": [
+            "갓성비",
+            "탕진잼",
+            "플렉스"
+        ],
+        "tags": [
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "버즈니 \"3040女 10명 중 9명, 가심비 따져 소비 경험\"",
+                "publisher": "아주경제",
+                "date": "2018-05-08",
+                "url": "https://www.ajunews.com/view/20180508112659603"
+            }
+        ]
+    },
+    "두쫀쿠": {
+        "nuance": {
+            "en": "Trendy and fun — saying it shows you're up on the latest food craze.",
+            "es": "De moda y divertido: decirlo demuestra que estás al día con la última fiebre gastronómica.",
+            "zh": "時髦又好玩——會說這個詞代表你跟得上最新的美食熱潮。",
+            "cn": "时髦又好玩——会说这个词代表你跟得上最新的美食热潮。",
+            "ja": "トレンド感があって楽しい言葉。言えるだけで最新グルメブームに乗っている感じ。"
+        },
+        "usage": {
+            "en": "Talk about finding, lining up for or making one: 두쫀쿠 맛집, 두쫀쿠 오픈런, 두쫀쿠 만들기.",
+            "es": "Se usa al hablar de encontrarla, hacer fila o prepararla: 두쫀쿠 맛집, 두쫀쿠 오픈런, 두쫀쿠 만들기.",
+            "zh": "常用在找店、排隊或自己做：두쫀쿠 맛집（好吃的店）、두쫀쿠 오픈런（開門搶購）、두쫀쿠 만들기（自己做）。",
+            "cn": "常用在找店、排队或自己做：두쫀쿠 맛집（好吃的店）、두쫀쿠 오픈런（开门抢购）、두쫀쿠 만들기（自己做）。",
+            "ja": "お店探し・行列・手作りの話でよく使う：두쫀쿠 맛집、두쫀쿠 오픈런、두쫀쿠 만들기。"
+        },
+        "culture": {
+            "en": "Inspired by the 2024 'Dubai chocolate' trend, it blew up in Korea in early 2026 and drew coverage from foreign media.",
+            "es": "Inspirado en la moda del 'chocolate de Dubái' de 2024, explotó en Corea a principios de 2026 y hasta llamó la atención de medios extranjeros.",
+            "zh": "靈感來自2024年的「杜拜巧克力」潮流，2026年初在韓國爆紅，連外國媒體都報導。",
+            "cn": "灵感来自2024年的“杜拜巧克力”潮流，2026年初在韩国爆红，连外国媒体都报导。",
+            "ja": "2024年の「ドバイチョコ」ブームから生まれ、2026年初めに韓国で大流行。海外メディアも取り上げた。"
+        },
+        "register": "everyday",
+        "similar": [
+            "오픈런",
+            "맛집"
+        ],
+        "tags": [
+            "food"
+        ],
+        "sources": [
+            {
+                "title": "“한국인 열광, 냉면집에서도 팔더라”…BBC도 주목한 ‘두쫀쿠’ 열풍",
+                "publisher": "헤럴드경제",
+                "date": "2026-01-15",
+                "url": "https://www.heraldk.com/article/2026011516475506792"
+            }
+        ]
+    },
 }
 
 
@@ -31628,80 +32081,12 @@ QUIZ_UI = {
 # order; the home page "trending" strip shows the first three. Every entry must
 # be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
 # the pages, so edit them here only. The weekly update swaps these out.
-EDITOR_PICKS = ['폴꾸', '연프', '그잡채', '현커', '럭키비키']
+EDITOR_PICKS = ['두쫀쿠', '번따', '인만추', '테토남', '폼 미쳤다']
 
 # Home page "today's card" — rotates daily through this pool (by date).
-TODAYS_CARD_POOL = ['썸남', '그잡채', '폴꾸', '데이트통장', '팬아저', '아보하', '탑꾸']
+TODAYS_CARD_POOL = ['두쫀쿠', '번따', '인만추', '텍스트힙', '역조공', '막방', '가심비']
 
 QUIZ = [
-    {
-        "type": "situation",
-        "answer": "저메추",
-        "options": [
-            "저메추",
-            "사바사",
-            "갑통알",
-            "생카"
-        ],
-        "situation": {
-            "en": "It's 7 p.m., you have no idea what to eat, so you ask the group chat for ideas:",
-            "es": "Son las 7 de la tarde, no tienes idea de qué cenar y le pides ideas al chat grupal:",
-            "zh": "晚上7點，完全不知道要吃什麼，於是在群組裡問大家：",
-            "cn": "晚上7点，完全不知道吃什么，于是在群里问大家：",
-            "ja": "夜7時、何を食べるか全然決まらないので、グループチャットでみんなに聞く："
-        }
-    },
-    {
-        "type": "situation",
-        "answer": "대박",
-        "options": [
-            "대박",
-            "탈덕",
-            "현생",
-            "저메추"
-        ],
-        "situation": {
-            "en": "Your favorite group suddenly announces a surprise comeback. Your first reaction:",
-            "es": "Tu grupo favorito anuncia de repente un comeback sorpresa. Tu primera reacción:",
-            "zh": "你最喜歡的團體突然宣布驚喜回歸。你的第一個反應：",
-            "cn": "你最喜欢的团体突然宣布惊喜回归。你的第一反应：",
-            "ja": "好きなグループがサプライズでカムバックを発表。最初のリアクションは："
-        }
-    },
-    {
-        "type": "situation",
-        "answer": "ㅋㅋ",
-        "options": [
-            "ㅋㅋ",
-            "ㄹㅇ",
-            "ㅈㅈ",
-            "8282"
-        ],
-        "situation": {
-            "en": "Someone posts something hilarious in the group chat and you type a quick laugh:",
-            "es": "Alguien publica algo divertidísimo en el chat grupal y escribes una risa rápida:",
-            "zh": "有人在群組裡發了超好笑的東西，你快速打個笑：",
-            "cn": "有人在群里发了超好笑的东西，你快速打个笑：",
-            "ja": "誰かがグループチャットに爆笑ネタを投稿。すぐに笑いを返すなら："
-        }
-    },
-    {
-        "type": "situation",
-        "answer": "ㄹㅇ",
-        "options": [
-            "ㄹㅇ",
-            "1004",
-            "ㅈㅈ",
-            "8282"
-        ],
-        "situation": {
-            "en": "Your friend says the new album is the best one yet, and you totally agree — \"for real\":",
-            "es": "Tu amigo dice que el nuevo álbum es el mejor hasta ahora y estás totalmente de acuerdo, \"en serio\":",
-            "zh": "朋友說新專輯是目前最好的一張，你完全同意——「真的」：",
-            "cn": "朋友说新专辑是目前最好的一张，你完全同意——“真的”：",
-            "ja": "友達が「新しいアルバムは今までで一番」と言い、完全に同意。「マジで」と返すなら："
-        }
-    },
     {
         "type": "meaning",
         "answer": "읽씹",
@@ -31829,6 +32214,74 @@ QUIZ = [
             "zh": "제곧내 = 제목이 곧 내용（標題就是內文）。",
             "cn": "제곧내 = 제목이 곧 내용（标题就是内文）。",
             "ja": "제곧내 = 제목이 곧 내용（タイトルがそのまま本文）。"
+        }
+    },
+    {
+        "type": "meaning",
+        "answer": "인만추",
+        "options": [
+            "인만추",
+            "자만추",
+            "소개팅",
+            "번따"
+        ]
+    },
+    {
+        "type": "meaning",
+        "answer": "역조공",
+        "options": [
+            "역조공",
+            "조공",
+            "서포트",
+            "팬서비스"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "두쫀쿠",
+        "options": [
+            "두쫀쿠",
+            "오픈런",
+            "갓성비",
+            "맛집"
+        ],
+        "situation": {
+            "en": "Everyone online is lining up for a chewy marshmallow treat filled with pistachio cream and crispy kataifi. Its short nickname is:",
+            "es": "Todo el mundo en internet hace fila por un dulce chicloso de malvavisco relleno de crema de pistacho y kataifi crujiente. Su apodo corto es:",
+            "zh": "網路上大家都在排隊買一種包著開心果醬和酥脆卡達耶夫細麵的Q彈棉花糖甜點。它的簡稱是：",
+            "cn": "网上大家都在排队买一种包着开心果酱和酥脆卡达耶夫细面的Q弹棉花糖甜点。它的简称是：",
+            "ja": "ネットでみんなが行列しているのは、ピスタチオクリームとサクサクのカダイフをマシュマロで包んだもちもちスイーツ。その略称は："
+        },
+        "note": {
+            "en": "두쫀쿠 = 두바이 쫀득 쿠키 (Dubai chewy cookie). 오픈런 is the line-up itself, not the dessert.",
+            "es": "두쫀쿠 = 두바이 쫀득 쿠키 (galleta chiclosa de Dubái). 오픈런 es la fila en sí, no el postre.",
+            "zh": "두쫀쿠 = 두바이 쫀득 쿠키（杜拜Q彈餅乾）。오픈런是指排隊搶購這件事，不是甜點本身。",
+            "cn": "두쫀쿠 = 두바이 쫀득 쿠키（迪拜Q弹饼干）。오픈런是指排队抢购这件事，不是甜点本身。",
+            "ja": "두쫀쿠 = 두바이 쫀득 쿠키（ドバイもちもちクッキー）。오픈런は行列そのもので、スイーツの名前ではない。"
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "통편집",
+        "options": [
+            "통편집",
+            "악마의 편집",
+            "막방",
+            "방송사고"
+        ],
+        "situation": {
+            "en": "A reality-show contestant gets caught up in a scandal, so the broadcaster cuts every single scene they were in. They got:",
+            "es": "Un participante de un reality se ve envuelto en un escándalo y la cadena corta todas las escenas en las que salía. Le hicieron:",
+            "zh": "某真人秀出演者捲入爭議，電視台把他出現的畫面全部剪掉。他被：",
+            "cn": "某真人秀出演者卷入争议，电视台把他出现的画面全部剪掉。他被：",
+            "ja": "リアリティ番組の出演者が騒動に巻き込まれ、放送局がその人の出る場面をすべてカット。これは："
+        },
+        "note": {
+            "en": "통편집 = cutting someone out completely. 악마의 편집 is editing that twists what happened to create drama.",
+            "es": "통편집 = cortar a alguien por completo. 악마의 편집 es una edición que tergiversa lo ocurrido para crear drama.",
+            "zh": "통편집＝把某人的畫面全部剪掉。악마의 편집則是扭曲事實、製造衝突的剪輯。",
+            "cn": "통편집＝把某人的画面全部剪掉。악마의 편집则是扭曲事实、制造冲突的剪辑。",
+            "ja": "통편집＝出演場面を丸ごとカットすること。악마의 편집は事実をゆがめて対立を演出する編集のこと。"
         }
     }
 ]
