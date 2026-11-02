@@ -1871,6 +1871,12 @@ FANDOM = [
      "사녹 끝나고 역조공으로 간식 받았어!", "After the pre-recording we got snacks as a reverse gift!",
      "¡Después de la pregrabación nos dieron snacks de regalo!",
      "Fan cafés, fan event reviews, social media", "Verified (web-checked)"),
+    ("딜루루", "dil-lu-lu", "Delulu",
+     "Short for 'delusional' — a fan who believes they'll date or marry their idol; now also a joking way to talk about wishful thinking",
+     "Abreviatura de 'delusional': fan que cree que saldrá o se casará con su ídolo; hoy también una forma en broma de hablar de ilusiones",
+     "최애가 나 보고 웃었어… 알아, 나 딜루루인 거.", "My bias smiled at me… I know, I know, I'm delulu.",
+     "Mi bias me sonrió… Ya sé, estoy 딜루루.",
+     "K-pop fandom, TikTok, fan chats", "Verified (web-checked)"),
 ]
 
 BROADCAST = [
@@ -4187,6 +4193,42 @@ MEME = [
      "떡켓팅 실패해서 한 시간 넘게 기다렸어.", "I lost the rice-cake ticketing and waited over an hour.",
      "Perdí la batalla por el pastel de arroz y esperé más de una hora.",
      "Food trends, waiting lines, social media posts", "Verified (web-checked)"),
+    ("엄미새", "eom-mi-sae", "Mom-Obsessed",
+     "Someone who's (jokingly) crazy about their mom — would rather shop, travel and hang out with Mom than go on dates",
+     "Alguien (en broma) loco por su mamá: prefiere ir de compras, viajar y pasar el rato con mamá antes que tener citas",
+     "남친? 필요 없어. 나 엄미새라 주말엔 엄마랑 여행 가.", "Boyfriend? Don't need one. I'm mom-obsessed — weekends are for trips with my mom.",
+     "¿Novio? No me hace falta. Soy 엄미새: los fines de semana viajo con mi mamá.",
+     "Gen Z social media, talking about family", "Verified (web-checked)"),
+    ("자소설", "ja-so-seol", "Cover-Letter Fiction",
+     "A job-application self-introduction so embellished it reads like a novel (자소서 'cover letter' + 소설 'novel')",
+     "Una carta de presentación para empleo tan adornada que parece una novela (자소서 'carta de presentación' + 소설 'novela')",
+     "리더십 경험 쓰라는데 없어서… 결국 자소설 썼어.", "They asked for leadership experience and I had none… so I ended up writing cover-letter fiction.",
+     "Pedían experiencia de liderazgo y no tenía… así que terminé escribiendo un 자소설.",
+     "Job hunting, university students, office workers", "Verified (web-checked)"),
+    ("엄카", "eom-ka", "Mom's Card",
+     "Short for 엄마 카드 — paying with your mom's credit card",
+     "Abreviatura de 엄마 카드: pagar con la tarjeta de tu mamá",
+     "오늘 저녁은 엄카 찬스! 엄마가 맛있는 거 사 먹으래.", "Dinner's on Mom's card tonight! She told us to get something good.",
+     "¡Hoy la cena va con 엄카! Mamá dijo que comiéramos algo rico.",
+     "Everyday chat, students, family", "Verified (web-checked)"),
+    ("지옥철", "ji-ok-cheol", "Hell Subway",
+     "The packed rush-hour subway (지옥 'hell' + 지하철 'subway')",
+     "El metro repleto en hora punta (지옥 'infierno' + 지하철 'metro')",
+     "아침 8시 2호선은 진짜 지옥철이야. 숨도 못 쉬겠어.", "Line 2 at 8 a.m. is a real hell subway. I can barely breathe.",
+     "La línea 2 a las 8 de la mañana es un verdadero 지옥철. Casi no puedo respirar.",
+     "Commuting, office workers, students in Seoul", "Verified (web-checked)"),
+    ("생파", "saeng-pa", "Bday Party",
+     "Short for 생일 파티 — birthday party",
+     "Abreviatura de 생일 파티: fiesta de cumpleaños",
+     "이번 주 토요일에 내 생파 하는데 올 수 있어?", "I'm having my bday party this Saturday — can you come?",
+     "Este sábado hago mi 생파, ¿puedes venir?",
+     "Everyday chat, texting, friends", "Verified (web-checked)"),
+    ("당모치", "dang-mo-chi", "Chicken Is Always Right",
+     "Short for 당연히 모든 치킨은 옳다 — \"Of course, all chicken is right\"; any fried chicken is a good choice",
+     "Abreviatura de 당연히 모든 치킨은 옳다: \"Obvio, todo pollo frito está bien\"; cualquier pollo frito es buena elección",
+     "양념이냐 후라이드냐? 몰라, 당모치!", "Spicy-glazed or plain fried? Who cares — all chicken is right!",
+     "¿Yangnyeom o frito clásico? Da igual: ¡당모치!",
+     "Food talk, ordering delivery, chats", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4766,6 +4808,12 @@ DATING = [
      "결혼 준비 중인데 스드메 견적이 너무 비싸.", "We're planning the wedding and the studio-dress-makeup quotes are so expensive.",
      "Estamos preparando la boda y los presupuestos de estudio, vestido y maquillaje son carísimos.",
      "Wedding planning talk, wedding fairs, news on wedding costs", "Verified (web-checked)"),
+    ("하비아모리", "ha-bi-a-mo-ri", "Hobbyamory",
+     "Putting your love into lots of hobbies instead of dating — your hobbies are your relationship",
+     "Poner tu amor en muchos hobbies en lugar de tener citas: tus pasatiempos son tu relación",
+     "연애? 지금은 하비아모리 중이라 클라이밍이랑 뜨개질이 애인이야.", "Dating? I'm in my hobbyamory era — climbing and knitting are my partners right now.",
+     "¿Citas? Estoy en mi etapa 하비아모리: ahora mis parejas son la escalada y el tejido.",
+     "Gen Z dating-trend talk, social media", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4789,6 +4837,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-11-02", ["엄미새", "하비아모리", "딜루루", "자소설", "엄카", "지옥철", "생파", "당모치"]),
     ("2026-10-26", ["인만추", "번따", "스드메", "막방", "통편집", "악마의 편집", "역조공", "텍스트힙", "가심비", "두쫀쿠", "볼꾸", "떡켓팅"]),
     ("2026-10-19", ["폴꾸", "탑꾸", "팬아저", "그잡채", "제곧내", "아보하", "썸남", "데이트통장", "돌싱", "연프"]),
     ("2026-10-14", ["플러팅", "읽씹", "안읽씹", "선톡", "깻잎논쟁", "테토남", "에겐남", "현커", "추구미", "폼 미쳤다"]),
@@ -5615,6 +5664,14 @@ ZH_TW_TRANSLATIONS = {
     "두쫀쿠": ("두바이 쫀득 쿠키的縮寫，「杜拜Q彈餅乾」：爆紅的韓式甜點，用撒了可可粉的棉花糖包住開心果醬和酥脆的卡達耶夫細麵——外Q內脆。", "為了買두쫀쿠一早就去排隊。"),
     "볼꾸": ("볼펜 꾸미기（裝飾原子筆）的縮寫：自己挑選筆桿，再加上吊飾、珠子和各種配件，做出專屬於自己的原子筆。", "週末去東大門做了볼꾸（裝飾原子筆）。"),
     "떡켓팅": ("떡（年糕）＋티켓팅（搶票）：像搶演唱會門票一樣，拚命搶購熱門的年糕美食，從排隊名店的辣炒年糕到流行的年糕甜點都算。", "搶年糕失敗，等了一個多小時。"),
+    "엄미새": ("（開玩笑地說）超愛媽媽的人——比起約會，更想跟媽媽逛街、旅行、一起玩", "男朋友？不需要。我是엄미새，週末都跟媽媽去旅行。"),
+    "하비아모리": ("把愛投注在各種興趣上而不是談戀愛——興趣就是你的戀愛對象", "戀愛？我現在是하비아모리狀態，攀岩跟打毛線就是我的戀人。"),
+    "딜루루": ("「delusional（妄想）」的縮寫——相信自己會跟偶像交往或結婚的粉絲；現在也用來開玩笑地形容一廂情願的樂觀", "本命對我笑了……我知道，我很딜루루。"),
+    "자소설": ("把求職自傳寫得太誇張、像在寫小說（자소서「自傳」+ 소설「小說」）", "要寫領導經驗但我根本沒有……最後寫成了자소설。"),
+    "엄카": ("엄마 카드（媽媽的卡）的縮寫——刷媽媽的信用卡", "今天晚餐靠엄카！媽媽說去吃點好吃的。"),
+    "지옥철": ("尖峰時段擠爆的地鐵（지옥「地獄」+ 지하철「地鐵」）", "早上8點的2號線真的是지옥철，連呼吸都困難。"),
+    "생파": ("생일 파티（生日派對）的縮寫", "這週六我要辦생파，你能來嗎？"),
+    "당모치": ("당연히 모든 치킨은 옳다（當然所有炸雞都是對的）的縮寫——炸雞永遠是好選擇", "要調味還是原味炸雞？都可以，당모치！"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6419,6 +6476,14 @@ ZH_CN_TRANSLATIONS = {
     "두쫀쿠": ("두바이 쫀득 쿠키的缩写，“杜拜Q弹饼干”：爆红的韩式甜点，用撒了可可粉的棉花糖包住开心果酱和酥脆的卡塔尔耶夫细面——外Q内脆。", "为了买두쫀쿠一早就去排队。"),
     "볼꾸": ("볼펜 꾸미기（装饰原子笔）的缩写：自己挑选笔杆，再加上吊饰、珠子和各种配件，做出专属于自己的原子笔。", "周末去东大门做了볼꾸（装饰原子笔）。"),
     "떡켓팅": ("떡（年糕）＋티켓팅（抢票）：像抢演唱会门票一样，拚命抢购热门的年糕美食，从排队名店的辣炒年糕到流行的年糕甜点都算。", "抢年糕失败，等了一个多小时。"),
+    "엄미새": ("（开玩笑地说）超爱妈妈的人——比起约会，更想跟妈妈逛街、旅行、一起玩", "男朋友？不需要。我是엄미새，周末都跟妈妈去旅行。"),
+    "하비아모리": ("把爱投注在各种兴趣上而不是谈恋爱——兴趣就是你的恋爱对象", "恋爱？我现在是하비아모리状态，攀岩跟打毛线就是我的恋人。"),
+    "딜루루": ("“delusional（妄想）”的缩写——相信自己会跟偶像交往或结婚的粉丝；现在也用来开玩笑地形容一厢情愿的乐观", "本命对我笑了……我知道，我很딜루루。"),
+    "자소설": ("把求职自传写得太夸张、像在写小说（자소서“自传”+ 소설“小说”）", "要写领导经验但我根本没有……最后写成了자소설。"),
+    "엄카": ("엄마 카드（妈妈的卡）的缩写——刷妈妈的信用卡", "今天晚餐靠엄카！妈妈说去吃点好吃的。"),
+    "지옥철": ("尖峰时段挤爆的地铁（지옥“地狱”+ 지하철“地铁”）", "早上8点的2号线真的是지옥철，连呼吸都困难。"),
+    "생파": ("생일 파티（生日派对）的缩写", "这周六我要办생파，你能来吗？"),
+    "당모치": ("당연히 모든 치킨은 옳다（当然所有炸鸡都是对的）的缩写——炸鸡永远是好选择", "要调味还是原味炸鸡？都可以，당모치！"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7237,6 +7302,14 @@ JA_TRANSLATIONS = {
     "두쫀쿠": ("두바이 쫀득 쿠키の略で「ドバイもちもちクッキー」。ピスタチオクリームとサクサクのカダイフを、ココアをまぶしたマシュマロで包んだ韓国発のバズりスイーツ。外はもちもち、中はザクザク。", "두쫀쿠を買うために朝から並んだ。"),
     "볼꾸": ("볼펜 꾸미기（ボールペンデコ）の略。ペン軸を選んでチャームやビーズ、パーツを組み合わせ、自分だけのボールペンを作ること。", "週末に東大門でボールペンデコしてきた。"),
     "떡켓팅": ("떡（餅）＋티켓팅（チケット争奪戦）：人気の餅グルメ（行列店のトッポッキから流行りの餅スイーツまで）を、コンサートのチケットを取るみたいに必死で手に入れようとすること。", "떡켓팅に負けて1時間以上待った。"),
+    "엄미새": ("（冗談っぽく）ママ大好きすぎる人。デートよりママと買い物や旅行に行きたいタイプ", "彼氏？いらない。私엄미새だから、週末はママと旅行なの。"),
+    "하비아모리": ("恋愛より色々な趣味に愛情を注ぐこと。趣味が恋人みたいなもの", "恋愛？今は하비아모리中だから、ボルダリングと編み物が恋人なの。"),
+    "딜루루": ("「delusional（妄想的）」の略。推しと付き合える・結婚できると信じているファン。今は叶いそうにない願いをネタっぽく言う時にも", "推しが私に笑いかけた…わかってる、私딜루루だって。"),
+    "자소설": ("盛りすぎて小説みたいになった就活の自己紹介書（자소서「自己紹介書」＋소설「小説」）", "リーダー経験を書けって言われても無いし…結局자소설書いちゃった。"),
+    "엄카": ("엄마 카드（ママのカード）の略。ママのクレジットカードで払うこと", "今日の夜ご飯は엄카で！ママがおいしいもの食べなって。"),
+    "지옥철": ("ラッシュ時のぎゅうぎゅう詰めの地下鉄（지옥「地獄」＋지하철「地下鉄」）", "朝8時の2号線はほんと지옥철。息もできない。"),
+    "생파": ("생일 파티（誕生日パーティー）の略", "今週の土曜に私の생파やるんだけど、来れる？"),
+    "당모치": ("당연히 모든 치킨은 옳다（当然、すべてのチキンは正しい）の略。どのチキンでも正解", "ヤンニョムかフライドか？どっちでもいい、당모치！"),
 }
 
 # ---------------------------------------------------------------------------
@@ -31897,6 +31970,290 @@ DETAILS = {
             }
         ]
     },
+    "엄미새": {
+        "nuance": {
+            "en": "Playful and affectionate, not an insult. It flips the older '~미새' (\"crazy about ~\") pattern into a proud way of saying you love hanging out with your mom.",
+            "es": "Juguetón y cariñoso, no es un insulto. Toma el patrón '~미새' (\"loco por ~\") y lo convierte en una forma orgullosa de decir que te encanta pasar tiempo con tu mamá.",
+            "zh": "語氣俏皮又親暱，不是罵人。它把原本「~미새」（為~瘋狂）的說法，翻轉成驕傲地表示自己超愛跟媽媽在一起。",
+            "cn": "语气俏皮又亲暱，不是骂人。它把原本“~미새”（为~疯狂）的说法，翻转成骄傲地表示自己超爱跟妈妈在一起。",
+            "ja": "からかいではなく、愛情たっぷりの自虐ネタ。もともとの「~미새（~に夢中すぎる人）」という形を、ママと過ごすのが好きだと胸を張る言い方に変えたもの。"
+        },
+        "usage": {
+            "en": "Use it about yourself: \"나 완전 엄미새야\" (\"I'm totally mom-obsessed\"). Siblings get their own versions too — 언미새 for an older sister, 동미새 for a younger sibling.",
+            "es": "Úsalo sobre ti: \"나 완전 엄미새야\" (\"Estoy totalmente obsesionada con mi mamá\"). También hay versiones para hermanos: 언미새 (hermana mayor) y 동미새 (hermano menor).",
+            "zh": "用來說自己：「나 완전 엄미새야」（我完全是媽寶粉）。兄弟姊妹也有版本——姊姊是언미새，弟弟妹妹是동미새。",
+            "cn": "用来说自己：“나 완전 엄미새야”（我完全是妈宝粉）。兄弟姊妹也有版本——姊姊是언미새，弟弟妹妹是동미새。",
+            "ja": "自分のことに使う：「나 완전 엄미새야」（私、完全にママ大好き人間）。きょうだい版もあって、お姉ちゃんなら언미새、弟・妹なら동미새。"
+        },
+        "culture": {
+            "en": "Korean news in 2026 described it as a Gen Z trend: young people choosing shopping and trips with their moms over dating, without the old 'mama's boy/girl' stigma.",
+            "es": "Medios coreanos en 2026 lo describieron como una tendencia de la Generación Z: jóvenes que eligen ir de compras y viajar con su mamá en lugar de tener citas, sin el viejo estigma de 'niño/niña de mamá'.",
+            "zh": "2026年韓國新聞把它形容為Z世代的趨勢：年輕人比起約會更想跟媽媽逛街旅行，而且不再有過去「媽寶」的負面印象。",
+            "cn": "2026年韩国新闻把它形容为Z世代的趋势：年轻人比起约会更想跟妈妈逛街旅行，而且不再有过去“妈宝”的负面印象。",
+            "ja": "2026年の韓国ニュースでは、Z世代のトレンドとして紹介された。デートよりママとの買い物や旅行を選び、昔の「マザコン」のような悪いイメージはない。"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "internet",
+            "funny",
+            "chat"
+        ],
+        "sources": [
+            {
+                "title": "\"남친? 필요 없어! 엄마랑 놀래\"…MZ세대 '엄미새' 열풍",
+                "publisher": "서울신문 (Seoul Shinmun)",
+                "date": "2026-07-09",
+                "url": "https://m.seoul.co.kr/news/2026/07/09/20260709500236"
+            },
+            {
+                "title": "Z세대, 남미새 아닌 '엄미새' 열풍... 엄마와 쇼핑·여행이 연애보다 편하다",
+                "publisher": "인사이트 (Insight)",
+                "date": "2026-06-29",
+                "url": "https://www.insight.co.kr/news/560607"
+            }
+        ]
+    },
+    "하비아모리": {
+        "nuance": {
+            "en": "A light, self-aware label for choosing hobbies over romance. It's not anti-dating — just saying your energy goes into things you love doing.",
+            "es": "Una etiqueta ligera y consciente para elegir hobbies en vez de romance. No es estar en contra de las citas, solo que tu energía va a lo que te encanta hacer.",
+            "zh": "輕鬆、帶點自嘲的標籤，表示選擇興趣而非戀愛。不是反對談戀愛，只是精力都花在喜歡做的事上。",
+            "cn": "轻松、带点自嘲的标签，表示选择兴趣而非恋爱。不是反对谈恋爱，只是精力都花在喜欢做的事上。",
+            "ja": "恋愛より趣味を選ぶことを軽く言う言葉。恋愛否定ではなく、好きなことにエネルギーを使っているだけ。"
+        },
+        "usage": {
+            "en": "Answer \"Are you seeing anyone?\" with \"나 요즘 하비아모리야\" (\"I'm doing hobbyamory these days\"). Sounds a bit trendy, so it fits casual chats and posts.",
+            "es": "Responde a \"¿Sales con alguien?\" con \"나 요즘 하비아모리야\" (\"Ando en modo hobbyamory\"). Suena a tendencia, así que va bien en charlas casuales y posts.",
+            "zh": "被問「有對象嗎？」時可以回「나 요즘 하비아모리야」（我最近是하비아모리）。聽起來有點潮，適合輕鬆聊天或貼文。",
+            "cn": "被问“有对象吗？”时可以回“나 요즘 하비아모리야”（我最近是하비아모리）。听起来有点潮，适合轻松聊天或贴文。",
+            "ja": "「誰かいるの？」と聞かれたら「나 요즘 하비아모리야」（最近は하비아모리なの）。ちょっと流行語っぽいので、カジュアルな会話や投稿向き。"
+        },
+        "culture": {
+            "en": "A Korean youth-trend magazine listed it in 2026 among new words describing how Gen Z around the world approaches dating.",
+            "es": "Una revista coreana de tendencias juveniles la incluyó en 2026 entre las palabras nuevas que describen cómo la Generación Z del mundo vive las citas.",
+            "zh": "韓國一本青年趨勢雜誌在2026年把它列為描述全球Z世代戀愛觀的新詞之一。",
+            "cn": "韩国一本青年趋势杂志在2026年把它列为描述全球Z世代恋爱观的新词之一。",
+            "ja": "韓国の若者トレンド誌が2026年、世界のZ世代の恋愛観を表す新語の一つとして紹介した。"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "romance",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "애인 있는 티 내는 게 노힙? 글로벌 젠지의 연애 트렌드",
+                "publisher": "캐릿 (Careet)",
+                "date": "2026-09-23",
+                "url": "https://www.careet.net/1996"
+            }
+        ]
+    },
+    "딜루루": {
+        "nuance": {
+            "en": "Started in international K-pop fandom as a tease for fans with romantic fantasies about idols. Today it's mostly self-mocking and fond — even turned into a motivational meme.",
+            "es": "Nació en el fandom internacional del K-pop para burlarse de fans con fantasías románticas con ídolos. Hoy se usa sobre todo como autoburla cariñosa, e incluso como meme motivacional.",
+            "zh": "起源於海外K-pop粉絲圈，用來調侃對偶像有戀愛幻想的粉絲。現在多半是自嘲、帶著好感的用法，甚至變成了勵志迷因。",
+            "cn": "起源于海外K-pop粉丝圈，用来调侃对偶像有恋爱幻想的粉丝。现在多半是自嘲、带着好感的用法，甚至变成了励志迷因。",
+            "ja": "海外のK-POPファンダムで、アイドルに恋愛的な妄想を抱くファンをいじる言葉として始まった。今は自虐的で愛のある使い方が中心で、前向きなミームにもなっている。"
+        },
+        "usage": {
+            "en": "Safest about yourself. Calling another fan 딜루루 can sting. The famous meme line is \"delulu is the solulu\" — believing in it makes it happen.",
+            "es": "Lo más seguro es usarlo sobre ti. Llamar 딜루루 a otro fan puede doler. La frase meme famosa es \"delulu is the solulu\": si lo crees, se cumple.",
+            "zh": "用在自己身上最安全。說別的粉絲딜루루可能會傷人。有名的迷因句是「delulu is the solulu」——相信就會實現。",
+            "cn": "用在自己身上最安全。说别的粉丝딜루루可能会伤人。有名的迷因句是“delulu is the solulu”——相信就会实现。",
+            "ja": "自分に使うのが無難。他のファンに딜루루と言うと傷つけることも。有名なミームは「delulu is the solulu」（信じれば叶う）。"
+        },
+        "culture": {
+            "en": "Cambridge Dictionary added 'delulu' in 2025; Korea JoongAng Daily traced it to international K-pop fandom communities in the mid-2010s.",
+            "es": "El Cambridge Dictionary añadió 'delulu' en 2025; Korea JoongAng Daily rastreó su origen en comunidades internacionales de fans del K-pop a mediados de la década de 2010.",
+            "zh": "劍橋詞典在2025年收錄了「delulu」；韓國中央日報英文版指出它源自2010年代中期的海外K-pop粉絲社群。",
+            "cn": "剑桥词典在2025年收录了“delulu”；韩国中央日报英文版指出它源自2010年代中期的海外K-pop粉丝社区。",
+            "ja": "ケンブリッジ辞典は2025年に「delulu」を収録。Korea JoongAng Dailyは、2010年代半ばの海外K-POPファンコミュニティが起源だと紹介している。"
+        },
+        "register": "casual",
+        "similar": [
+            "최애",
+            "덕질"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "Are we 'delulu' or did the K-pop fandom just add a word to the dictionary?",
+                "publisher": "Korea JoongAng Daily",
+                "date": "2025-08-18",
+                "url": "https://www.koreajoongangdaily.com/korea/are-we-delulu-or-did-the-k-pop-fandom-just-add-a-word-to-the-dictionary/12149667"
+            },
+            {
+                "title": "2026년, 우리는 어떤 언어로 세상을 설명할까? 올해의 단어와 신조어 트렌드",
+                "publisher": "하퍼스 바자 코리아 (Harper's Bazaar Korea)",
+                "date": "2025-11-28",
+                "url": "https://www.harpersbazaar.co.kr/article/1892657"
+            }
+        ]
+    },
+    "자소설": {
+        "nuance": {
+            "en": "A wry, self-deprecating joke about the pressure to sound impressive on paper. Everyone in Korea's tough job market gets it.",
+            "es": "Una broma irónica y autocrítica sobre la presión de sonar impresionante en papel. Todo el mundo en el duro mercado laboral coreano la entiende.",
+            "zh": "對「書面上必須看起來很厲害」的壓力自嘲的玩笑。在韓國競爭激烈的求職市場裡人人都懂。",
+            "cn": "对“书面上必须看起来很厉害”的压力自嘲的玩笑。在韩国竞争激烈的求职市场里人人都懂。",
+            "ja": "書類上すごく見せなきゃいけないプレッシャーを自虐的に笑う言葉。韓国の厳しい就活事情を知る人なら誰でも通じる。"
+        },
+        "usage": {
+            "en": "Use it among friends: \"자소설 쓰느라 밤샜어\" (\"Stayed up all night writing cover-letter fiction\"). Don't say it to a recruiter about your own application!",
+            "es": "Úsalo entre amigos: \"자소설 쓰느라 밤샜어\" (\"Me desvelé escribiendo mi 자소설\"). ¡No se lo digas a un reclutador sobre tu propia solicitud!",
+            "zh": "跟朋友說：「자소설 쓰느라 밤샜어」（為了寫자소설熬了一整夜）。千萬別對招募人員這樣說自己的履歷！",
+            "cn": "跟朋友说：“자소설 쓰느라 밤샜어”（为了写자소설熬了一整夜）。千万别对招募人员这样说自己的履历！",
+            "ja": "友達同士で：「자소설 쓰느라 밤샜어」（자소설書いてて徹夜した）。面接官の前で自分の書類のことをそう言うのはNG！"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "worklife",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (요즘 말 나들이)",
+                "publisher": "브라보마이라이프 (Bravo My Life)",
+                "date": "2017-09-22",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7677"
+            }
+        ]
+    },
+    "엄카": {
+        "nuance": {
+            "en": "Neutral to playful. Often paired with 찬스 (\"chance\") — \"엄카 찬스\" means getting to use Mom's card as a special treat. Can sound a little spoiled if overused.",
+            "es": "De neutral a juguetón. Suele ir con 찬스 (\"oportunidad\"): \"엄카 찬스\" es poder usar la tarjeta de mamá como un gusto especial. Usado mucho puede sonar un poco mimado.",
+            "zh": "語氣中性到俏皮。常跟찬스（機會）一起用——「엄카 찬스」就是難得可以刷媽媽的卡。太常說會有點被寵壞的感覺。",
+            "cn": "语气中性到俏皮。常跟찬스（机会）一起用——“엄카 찬스”就是难得可以刷妈妈的卡。太常说会有点被宠坏的感觉。",
+            "ja": "ニュートラル〜ちょっとふざけた感じ。찬스（チャンス）とセットで「엄카 찬스」と言えば、特別にママのカードを使えるラッキーな時。言いすぎると甘やかされてる印象も。"
+        },
+        "usage": {
+            "en": "\"엄카로 결제했어\" (\"I paid with Mom's card\"). Often heard as \"엄카 찬스 쓰자\" (\"Let's use the Mom's-card chance\").",
+            "es": "\"엄카로 결제했어\" (\"Pagué con la tarjeta de mamá\"). También se oye \"엄카 찬스 쓰자\" (\"Usemos la oportunidad de la tarjeta de mamá\").",
+            "zh": "「엄카로 결제했어」（我刷了媽媽的卡）。也常聽到「엄카 찬스 쓰자」（來用엄카機會吧）。",
+            "cn": "“엄카로 결제했어”（我刷了妈妈的卡）。也常听到“엄카 찬스 쓰자”（来用엄카机会吧）。",
+            "ja": "「엄카로 결제했어」（ママのカードで払った）。「엄카 찬스 쓰자」（엄카チャンス使おう）もよく聞く。"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "chat",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (요즘 말 나들이)",
+                "publisher": "브라보마이라이프 (Bravo My Life)",
+                "date": "2017-09-22",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7677"
+            }
+        ]
+    },
+    "지옥철": {
+        "nuance": {
+            "en": "A sarcastic everyday complaint, not offensive. Anyone who's squeezed onto a Seoul train at rush hour will nod along.",
+            "es": "Una queja sarcástica cotidiana, nada ofensiva. Cualquiera que se haya apretujado en un tren de Seúl en hora punta lo entiende.",
+            "zh": "日常的諷刺抱怨，不冒犯人。在首爾尖峰時段擠過地鐵的人都會點頭。",
+            "cn": "日常的讽刺抱怨，不冒犯人。在首尔尖峰时段挤过地铁的人都会点头。",
+            "ja": "皮肉っぽい日常のぼやきで、失礼な言葉ではない。ソウルのラッシュを経験した人なら誰でも共感する。"
+        },
+        "usage": {
+            "en": "\"오늘도 지옥철 뚫고 출근했다\" (\"Fought through the hell subway to work again\"). Great for commute selfies and stories.",
+            "es": "\"오늘도 지옥철 뚫고 출근했다\" (\"Hoy también sobreviví al 지옥철 para llegar al trabajo\"). Ideal para selfies y stories del trayecto.",
+            "zh": "「오늘도 지옥철 뚫고 출근했다」（今天也是殺出지옥철去上班）。很適合通勤自拍或限時動態。",
+            "cn": "“오늘도 지옥철 뚫고 출근했다”（今天也是杀出지옥철去上班）。很适合通勤自拍或限时动态。",
+            "ja": "「오늘도 지옥철 뚫고 출근했다」（今日も지옥철をくぐり抜けて出勤した）。通勤自撮りやストーリーにぴったり。"
+        },
+        "register": "everyday",
+        "similar": [
+            "출근길"
+        ],
+        "tags": [
+            "worklife",
+            "annoyed"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (요즘 말 나들이)",
+                "publisher": "브라보마이라이프 (Bravo My Life)",
+                "date": "2017-09-22",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7677"
+            }
+        ]
+    },
+    "생파": {
+        "nuance": {
+            "en": "Totally ordinary and friendly — one of the most common everyday abbreviations. Fans also throw 생파 cafés and events for their idol's birthday.",
+            "es": "Totalmente común y amistosa: una de las abreviaturas cotidianas más usadas. Los fans también organizan 생파 en cafés y eventos para el cumpleaños de su ídolo.",
+            "zh": "非常普通又親切，是最常見的日常縮寫之一。粉絲也會為偶像生日辦생파咖啡廳或活動。",
+            "cn": "非常普通又亲切，是最常见的日常缩写之一。粉丝也会为偶像生日办생파咖啡厅或活动。",
+            "ja": "ごく普通で親しみやすい、日常的によく使う略語。ファンが推しの誕生日に생파カフェやイベントを開くことも。"
+        },
+        "usage": {
+            "en": "\"생파 초대장\" (\"bday party invite\"), \"깜짝 생파\" (\"surprise bday party\"). Its sibling 생선 means 생일 선물 (\"birthday present\"), not fish!",
+            "es": "\"생파 초대장\" (\"invitación al cumple\"), \"깜짝 생파\" (\"fiesta sorpresa\"). Su hermano 생선 significa 생일 선물 (\"regalo de cumpleaños\"), ¡no pescado!",
+            "zh": "「생파 초대장」（生日派對邀請函）、「깜짝 생파」（驚喜生日派對）。姊妹詞생선是생일 선물（生日禮物），不是魚！",
+            "cn": "“생파 초대장”（生日派对邀请函）、“깜짝 생파”（惊喜生日派对）。姊妹词생선是생일 선물（生日礼物），不是鱼！",
+            "ja": "「생파 초대장」（誕生日パーティーの招待状）、「깜짝 생파」（サプライズ誕生日会）。仲間の생선は생일 선물（誕生日プレゼント）の略で、魚じゃない！"
+        },
+        "register": "everyday",
+        "similar": [
+            "최애생일",
+            "생카"
+        ],
+        "tags": [
+            "chat",
+            "kpop-fan"
+        ],
+        "sources": [
+            {
+                "title": "신조어 얼마나 알고 있나요? (요즘 말 나들이)",
+                "publisher": "브라보마이라이프 (Bravo My Life)",
+                "date": "2017-09-22",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/7677"
+            }
+        ]
+    },
+    "당모치": {
+        "nuance": {
+            "en": "Silly and upbeat. It's a way to end the eternal 'which chicken?' debate — they're all good. Shows how big chicken culture (치맥 etc.) is in Korea.",
+            "es": "Tonto y alegre. Sirve para terminar el eterno debate de '¿qué pollo pedimos?': todos están buenos. Muestra lo grande que es la cultura del pollo frito (치맥, etc.) en Corea.",
+            "zh": "傻氣又開朗，用來結束「要點哪種炸雞」的永恆爭論——全部都好。可以看出炸雞文化（치맥等）在韓國有多重要。",
+            "cn": "傻气又开朗，用来结束“要点哪种炸鸡”的永恒争论——全部都好。可以看出炸鸡文化（치맥等）在韩国有多重要。",
+            "ja": "おバカで明るい言葉。「どのチキンにする？」という永遠の論争を「全部正解」で終わらせる。韓国のチキン文化（치맥など）の大きさがわかる。"
+        },
+        "usage": {
+            "en": "Reply with \"당모치\" when someone asks which chicken to order. Works as a cheer for any chicken-related post too.",
+            "es": "Responde \"당모치\" cuando alguien pregunte qué pollo pedir. También sirve como comentario para cualquier post de pollo frito.",
+            "zh": "有人問要點哪種炸雞時就回「당모치」。也可以在任何炸雞貼文下留言。",
+            "cn": "有人问要点哪种炸鸡时就回“당모치”。也可以在任何炸鸡贴文下留言。",
+            "ja": "どのチキンを頼むか聞かれたら「당모치」と返す。チキンの投稿へのコメントにも使える。"
+        },
+        "register": "text",
+        "similar": [],
+        "tags": [
+            "food",
+            "funny",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "\"ㅋㅋ루삥뽕 알아?\"...할재·할미들 동공지진 유발하는 정체불명 요즘 10대들 '신조어' 4가지",
+                "publisher": "인사이트 (Insight)",
+                "date": "2020-12-04",
+                "url": "https://www.insight.co.kr/news/312431"
+            }
+        ]
+    },
 }
 
 
@@ -32177,80 +32534,12 @@ QUIZ_UI = {
 # order; the home page "trending" strip shows the first three. Every entry must
 # be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
 # the pages, so edit them here only. The weekly update swaps these out.
-EDITOR_PICKS = ['두쫀쿠', '번따', '인만추', '테토남', '폼 미쳤다']
+EDITOR_PICKS = ['딜루루', '엄미새', '두쫀쿠', '하비아모리', '밤티']
 
 # Home page "today's card" — rotates daily through this pool (by date).
-TODAYS_CARD_POOL = ['두쫀쿠', '번따', '인만추', '텍스트힙', '역조공', '막방', '가심비']
+TODAYS_CARD_POOL = ['딜루루', '엄미새', '하비아모리', '자소설', '지옥철', '생파', '당모치']
 
 QUIZ = [
-    {
-        "type": "meaning",
-        "answer": "읽씹",
-        "options": [
-            "읽씹",
-            "안읽씹",
-            "선톡",
-            "밀당"
-        ]
-    },
-    {
-        "type": "meaning",
-        "answer": "추구미",
-        "options": [
-            "추구미",
-            "느좋",
-            "원영적사고",
-            "억텐"
-        ]
-    },
-    {
-        "type": "situation",
-        "answer": "선톡",
-        "options": [
-            "선톡",
-            "읽씹",
-            "현커",
-            "밀당"
-        ],
-        "situation": {
-            "en": "You've waited all day for your crush to message you. Finally you decide to send the first message yourself:",
-            "es": "Llevas todo el día esperando que tu crush te escriba. Al final decides mandarle tú el primer mensaje:",
-            "zh": "你等了一整天喜歡的人傳訊息來，最後決定自己先傳：",
-            "cn": "你等了一整天喜欢的人传消息来，最后决定自己先传：",
-            "ja": "好きな人からの連絡を一日中待っていたけど、ついに自分から先にメッセージを送ることにした："
-        },
-        "note": {
-            "en": "선톡 = 선 (first) + 톡 (message). 읽씹 would be leaving their message on read.",
-            "es": "선톡 = 선 (primero) + 톡 (mensaje). 읽씹 sería dejar su mensaje en visto.",
-            "zh": "선톡＝선（先）＋톡（訊息）。읽씹則是已讀不回。",
-            "cn": "선톡＝선（先）＋톡（消息）。읽씹则是已读不回。",
-            "ja": "선톡＝선（先）＋톡（メッセージ）。읽씹は既読スルーのこと。"
-        }
-    },
-    {
-        "type": "situation",
-        "answer": "폼 미쳤다",
-        "options": [
-            "폼 미쳤다",
-            "감다뒤",
-            "억텐",
-            "늙크크"
-        ],
-        "situation": {
-            "en": "A new performance video drops and every move is razor-sharp — the group is at its absolute peak. You comment:",
-            "es": "Sale un nuevo video de una presentación y cada movimiento es perfecto: el grupo está en su mejor momento. Comentas:",
-            "zh": "新的舞台影片一上傳，每個動作都超俐落，整團狀態正在巔峰。你留言：",
-            "cn": "新的舞台视频一上传，每个动作都超俐落，整团状态正在巅峰。你留言：",
-            "ja": "新しいステージ映像が公開され、どの動きもキレッキレ。グループが絶好調。コメントするなら："
-        },
-        "note": {
-            "en": "폼 미쳤다 praises someone's form; 감다뒤 is the opposite — losing your touch.",
-            "es": "폼 미쳤다 elogia la forma de alguien; 감다뒤 es lo contrario: perder el toque.",
-            "zh": "폼 미쳤다是稱讚狀態好；감다뒤正好相反，是失去手感。",
-            "cn": "폼 미쳤다是称赞状态好；감다뒤正好相反，是失去手感。",
-            "ja": "폼 미쳤다は絶好調をほめる言葉。감다뒤はその逆で、センスが落ちたという意味。"
-        }
-    },
     {
         "type": "meaning",
         "answer": "폴꾸",
@@ -32378,6 +32667,74 @@ QUIZ = [
             "zh": "통편집＝把某人的畫面全部剪掉。악마의 편집則是扭曲事實、製造衝突的剪輯。",
             "cn": "통편집＝把某人的画面全部剪掉。악마의 편집则是扭曲事实、制造冲突的剪辑。",
             "ja": "통편집＝出演場面を丸ごとカットすること。악마의 편집は事実をゆがめて対立を演出する編集のこと。"
+        }
+    },
+    {
+        "type": "meaning",
+        "answer": "딜루루",
+        "options": [
+            "딜루루",
+            "입덕",
+            "탈덕",
+            "덕질"
+        ]
+    },
+    {
+        "type": "meaning",
+        "answer": "자소설",
+        "options": [
+            "자소설",
+            "칼퇴",
+            "조용한퇴사",
+            "갓생"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "지옥철",
+        "options": [
+            "지옥철",
+            "칼퇴",
+            "오운완",
+            "조용한퇴사"
+        ],
+        "situation": {
+            "en": "It's 8 a.m. and you're squished into a packed subway car on your way to work. You grumble about the:",
+            "es": "Son las 8 de la mañana y vas apretujada en un vagón de metro repleto camino al trabajo. Te quejas del:",
+            "zh": "早上8點，你被擠在滿滿的地鐵車廂裡去上班。你抱怨這是：",
+            "cn": "早上8点，你被挤在满满的地铁车厢里去上班。你抱怨这是：",
+            "ja": "朝8時、通勤中のぎゅうぎゅうの地下鉄に押し込まれている。思わずぼやくのは："
+        },
+        "note": {
+            "en": "지옥철 = 지옥 (hell) + 지하철 (subway). 칼퇴 is leaving work right on time — the opposite end of the day.",
+            "es": "지옥철 = 지옥 (infierno) + 지하철 (metro). 칼퇴 es salir del trabajo justo a la hora: el otro extremo del día.",
+            "zh": "지옥철＝지옥（地獄）＋지하철（地鐵）。칼퇴是準時下班，是一天的另一端。",
+            "cn": "지옥철＝지옥（地狱）＋지하철（地铁）。칼퇴是准时下班，是一天的另一端。",
+            "ja": "지옥철＝지옥（地獄）＋지하철（地下鉄）。칼퇴は定時ぴったりに退勤することで、一日の反対側の話。"
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "당모치",
+        "options": [
+            "당모치",
+            "오운완",
+            "갓생",
+            "칼퇴"
+        ],
+        "situation": {
+            "en": "Your friends can't decide between spicy-glazed and plain fried chicken. You end the debate with:",
+            "es": "Tus amigos no se deciden entre pollo yangnyeom y pollo frito clásico. Terminas el debate con:",
+            "zh": "朋友們在調味炸雞和原味炸雞之間猶豫不決。你一句話結束爭論：",
+            "cn": "朋友们在调味炸鸡和原味炸鸡之间犹豫不决。你一句话结束争论：",
+            "ja": "友達がヤンニョムチキンかフライドチキンかで決められない。あなたが一言で決着をつける："
+        },
+        "note": {
+            "en": "당모치 = 당연히 모든 치킨은 옳다 (\"of course, all chicken is right\").",
+            "es": "당모치 = 당연히 모든 치킨은 옳다 (\"obvio, todo pollo frito está bien\").",
+            "zh": "당모치＝당연히 모든 치킨은 옳다（當然所有炸雞都是對的）。",
+            "cn": "당모치＝당연히 모든 치킨은 옳다（当然所有炸鸡都是对的）。",
+            "ja": "당모치＝당연히 모든 치킨은 옳다（当然、すべてのチキンは正しい）。"
         }
     }
 ]
