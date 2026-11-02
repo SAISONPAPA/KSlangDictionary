@@ -1616,6 +1616,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/dil-lu-lu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/dae-bak.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3541,6 +3546,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/eom-mi-sae.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/ja-so-seol.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/eom-ka.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/ji-ok-cheol.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/saeng-pa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/dang-mo-chi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/sseom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -4017,6 +4052,11 @@
   </url>
   <url>
     <loc>https://hellokslang.com/word/seu-deu-me.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/ha-bi-a-mo-ri.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
