@@ -178,6 +178,7 @@ python3 check_site.py          # 마지막 검사
 - 인스타그램 자동 게시는 아이디/비번 공유 방식이 아니라 **Meta Business Suite(무료, 공식 OAuth 방식)**로 해야 함 — 계정 정지 위험 없음.
 - **자동 게시: Metricool 커넥터 (2026-10-15 연결, 무료 플랜 = 월 20개 예약 한도)**. 브랜드 blogId `7434570`, 시간대 Asia/Seoul. 이미지는 공개 URL이 필요해서 카드 PNG를 **`social` 브랜치**(사이트와 무관한 orphan 브랜치)의 `cards/<날짜>-<slug>/`에 push하고 `https://raw.githubusercontent.com/SAISONPAPA/KSlangDictionary/social/cards/...` 주소로 예약함 (Metricool이 예약 시점에 자기 서버로 복사함). main의 `assets/instagram/`은 .gitignore.
 - **주간 인스타 예약 (2026-10-15~)**: 매주 월요일 예약 작업이 `scripts/INSTAGRAM_WEEKLY.md`대로 화·목·토 오전 10시 캐러셀 3개를 Metricool에 예약. 올린 단어 기록은 `social` 브랜치의 `posted.json` (중복 방지·카테고리 로테이션용).
+- **GSC 인기 검색어** (Search Console '실적' 캡처 기준, 갱신할 때 날짜 바꿀 것 — 2026-11-04): 총공(chong gong meaning), 최애(choe definition), 하이틴(하이틴 意味), 짝남, 콜라보, 생존, 막방. 주간 인스타 단어 선정 때 우선 사용.
 - 기본 게시 시간: 한국 오전 10시 (= 미국 동부 전날 밤 9시, 멕시코시티 저녁 7시).
 - 해시태그는 3~5개면 충분 (많이 넣던 시절 지남). 저장/공유 유도 문구가 2026년 알고리즘에서 제일 중요한 신호.
 - `scripts/generate_instagram_cards.py` — 카드뉴스 PNG 자동 생성 도구. 5개 빌드 스크립트와 달리 자동 파이프라인에 안 걸려있음 (수동 실행).
