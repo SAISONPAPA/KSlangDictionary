@@ -4874,6 +4874,12 @@ DATING = [
      "걔는 초식남이라 먼저 연락하는 일이 거의 없어.", "He's such a herbivore guy — he almost never texts first.",
      "Es súper herbívoro, casi nunca escribe primero.",
      "Dating talk, relationship advice, dating reality shows", "Verified (web-checked)"),
+    ("건어물녀", "geon-eo-mul-nyeo", "Dried-fish woman",
+     "\"Dried-fish woman\": a woman who'd rather relax at home than go out dating — often busy and capable at work, but happily lazy on her days off. Borrowed from the Japanese 干物女.",
+     "\"Mujer pescado seco\": una mujer que prefiere descansar en casa antes que salir a citas; muchas veces muy capaz en el trabajo, pero feliz de no hacer nada en su día libre. Viene del japonés 干物女.",
+     "주말엔 무조건 집콕이야. 나 완전 건어물녀잖아.", "Weekends are home-only for me. I'm a total dried-fish woman.",
+     "Los fines de semana no salgo de casa. Soy toda una mujer pescado seco.",
+     "Self-deprecating jokes, dating talk, K-drama/J-drama fans", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4897,7 +4903,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
-    ("2026-11-09", ["딸깍", "저속노화", "이븐하게", "만반잘부", "젤꾸", "뒷공부", "품절남", "볼매", "초식남", "엄친아"]),
+    ("2026-11-09", ["딸깍", "저속노화", "이븐하게", "만반잘부", "젤꾸", "뒷공부", "품절남", "볼매", "초식남", "엄친아", "건어물녀"]),
     ("2026-11-02", ["엄미새", "하비아모리", "딜루루", "자소설", "엄카", "지옥철", "생파", "당모치"]),
     ("2026-10-26", ["인만추", "번따", "스드메", "막방", "통편집", "악마의 편집", "역조공", "텍스트힙", "가심비", "두쫀쿠", "볼꾸", "떡켓팅"]),
     ("2026-10-19", ["폴꾸", "탑꾸", "팬아저", "그잡채", "제곧내", "아보하", "썸남", "데이트통장", "돌싱", "연프"]),
@@ -5743,6 +5749,7 @@ ZH_TW_TRANSLATIONS = {
     "볼매": ("「볼수록 매력」的縮寫——「越看越有魅力」。越認識越覺得迷人的人。", "一開始沒感覺，但那個人真的越看越有魅力。"),
     "초식남": ("「草食男」：對約會、追求戀愛不太積極的男生，借用自日文「草食系男子」。", "他是草食男，幾乎不會先傳訊息。"),
     "엄친아": ("「엄마 친구 아들」的縮寫，「媽媽朋友的兒子」：媽媽老是拿來跟你比較、各方面都完美到讓人火大的孩子（成績好、工作好、長得好）。女生版是엄친딸。", "又在講媽媽朋友的兒子？他怎麼什麼都那麼厲害？"),
+    "건어물녀": ("「魚乾女」：比起出去約會，更喜歡在家放空的女生——工作上常常很能幹，休假時就開心地耍廢。借用自日文「干物女」。", "週末一定待在家，我根本就是魚乾女。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6565,6 +6572,7 @@ ZH_CN_TRANSLATIONS = {
     "볼매": ("“볼수록 매력”的缩写——“越看越有魅力”。越认识越觉得迷人的人。", "一开始没感觉，但那个人真的越看越有魅力。"),
     "초식남": ("“草食男”：对约会、追求恋爱不太积极的男生，借用自日文“草食系男子”。", "他是草食男，几乎不会先传消息。"),
     "엄친아": ("“엄마 친구 아들”的缩写，“妈妈朋友的儿子”：妈妈老是拿来跟你比较、各方面都完美到让人火大的孩子（成绩好、工作好、长得好）。女生版是엄친딸。", "又在讲妈妈朋友的儿子？他怎么什么都那么厉害？"),
+    "건어물녀": ("“鱼干女”：比起出去约会，更喜欢在家放空的女生——工作上常常很能干，休假时就开心地耍废。借用自日文“干物女”。", "周末一定待在家，我根本就是鱼干女。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7401,6 +7409,7 @@ JA_TRANSLATIONS = {
     "볼매": ("「볼수록 매력」の略で「見れば見るほど魅力的」。知れば知るほど魅力が増していく人。", "最初は気づかなかったけど、あの人めっちゃ見るほど魅力的なタイプだった。"),
     "초식남": ("「草食男」。恋愛やデートにあまり積極的でない男性。日本語の「草食系男子」から来た言葉。", "あの人草食系だから、自分から連絡することほとんどないよ。"),
     "엄친아": ("「엄마 친구 아들」の略で「ママの友達の息子」。成績も仕事も顔も完璧で、母親にいつも比べられる存在。女性版は엄친딸。", "またママの友達の息子の話？なんであの子は何でもできるの？"),
+    "건어물녀": ("「干物女」。デートより家でのんびりしたい女性。仕事はできるけど、休日は家でダラダラするのが幸せ、というタイプ。日本語の「干物女」から。", "週末は絶対おうち。私、完全に干物女だもん。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -32706,6 +32715,45 @@ DETAILS = {
                 "publisher": "Korea Economic Institute of America (KEI)",
                 "date": "2017-06-16",
                 "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
+        ]
+    },
+    "건어물녀": {
+        "nuance": {
+            "en": "Mostly used about yourself, with a laugh — it's a cozy \"I'm happy at home\" label, not a complaint. The male counterpart people mention is 초식남.",
+            "es": "Se usa sobre todo sobre una misma y con humor: es una etiqueta cómoda de \"soy feliz en casa\", no una queja. Su contraparte masculina es 초식남.",
+            "zh": "多半拿來自嘲、笑著說——是「我在家很快樂」的舒適標籤，不是抱怨。常被拿來對照的男生版是초식남。",
+            "cn": "多半拿来自嘲、笑着说——是“我在家很快乐”的舒适标签，不是抱怨。常被拿来对照的男生版是초식남。",
+            "ja": "主に自分のことを笑いながら言う。「家にいるのが幸せ」というゆるいラベルで、愚痴ではない。男性版としてよく並べられるのが초식남。"
+        },
+        "usage": {
+            "en": "Say it about yourself (\"나 건어물녀야\") when you'd rather stay in. Calling someone else this can sound like a jab, so keep it to close friends.",
+            "es": "Dilo de ti misma (\"나 건어물녀야\") cuando prefieras quedarte en casa. Decírselo a otra persona puede sonar a pulla, así que solo con amigas cercanas.",
+            "zh": "想待在家時拿來形容自己（「나 건어물녀야」）。說別人是魚乾女可能聽起來像在酸人，只跟很熟的朋友說就好。",
+            "cn": "想待在家时拿来形容自己（“나 건어물녀야”）。说别人是鱼干女可能听起来像在酸人，只跟很熟的朋友说就好。",
+            "ja": "家にいたいときに自分のことを（「나 건어물녀야」）。他人に言うとイヤミに聞こえることもあるので、親しい友達同士だけで。"
+        },
+        "culture": {
+            "en": "The word came from Japan, where 干物女 spread through the late-2000s manga and drama Hotaru no Hikari.",
+            "es": "La palabra viene de Japón, donde 干物女 se popularizó a finales de los 2000 con el manga y el drama Hotaru no Hikari.",
+            "zh": "這個詞來自日本，「干物女」因2000年代後期的漫畫和日劇《螢之光》流行起來。",
+            "cn": "这个词来自日本，“干物女”因2000年代后期的漫画和日剧《萤之光》流行起来。",
+            "ja": "日本から来た言葉で、「干物女」は2000年代後半の漫画・ドラマ『ホタルノヒカリ』で広まった。"
+        },
+        "register": "casual",
+        "similar": [
+            "초식남"
+        ],
+        "tags": [
+            "romance",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
             }
         ]
     },
