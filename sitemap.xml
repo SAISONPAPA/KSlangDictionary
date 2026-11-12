@@ -2276,6 +2276,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/i-beun-ha-ge.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/in-jeong.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3576,6 +3581,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hellokslang.com/word/ttal-kkak.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/jeo-sok-no-hwa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/man-ban-jal-bu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/jel-kku.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/dwit-gong-bu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/eom-chin-a.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellokslang.com/word/sseom.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -4057,6 +4092,26 @@
   </url>
   <url>
     <loc>https://hellokslang.com/word/ha-bi-a-mo-ri.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/pum-jeol-nam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/bol-mae.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/cho-sik-nam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellokslang.com/word/geon-eo-mul-nyeo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
