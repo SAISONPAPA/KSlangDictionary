@@ -2666,6 +2666,12 @@ BROADCAST = [
      "저 장면 완전 악마의 편집이잖아.", "That scene is totally devil's editing.",
      "Esa escena es pura edición del diablo.",
      "Reality and survival-show discussions, entertainment news", "Verified (web-checked)"),
+    ("이븐하게", "i-beun-ha-ge", "Evenly (just right)",
+     "English \"even\" + Korean -하게: \"evenly, perfectly balanced.\" A judge's line on the cooking show Culinary Class Wars (흑백요리사) about food being cooked evenly became a meme for anything that's just right.",
+     "\"Even\" en inglés + -하게 en coreano: \"de forma pareja, en su punto\". Una frase de un juez del programa de cocina Culinary Class Wars (흑백요리사) sobre la cocción pareja se volvió meme para todo lo que está perfecto.",
+     "오늘 화장 이븐하게 잘 먹었다.", "My makeup sat evenly today — just right.",
+     "Hoy el maquillaje me quedó parejito, en su punto.",
+     "Netflix 흑백요리사 (Culinary Class Wars) meme, food posts, everyday jokes", "Verified (web-checked)"),
 ]
 
 MEME = [
@@ -4229,6 +4235,42 @@ MEME = [
      "양념이냐 후라이드냐? 몰라, 당모치!", "Spicy-glazed or plain fried? Who cares — all chicken is right!",
      "¿Yangnyeom o frito clásico? Da igual: ¡당모치!",
      "Food talk, ordering delivery, chats", "Verified (web-checked)"),
+    ("딸깍", "ttal-kkak", "One-click (AI) result",
+     "The sound of a mouse click (\"click!\"). Used for getting a result with a single click, especially when AI does all the work — e.g. 딸깍출판, a book made by clicking a button.",
+     "El sonido de un clic del ratón (\"¡clic!\"). Se usa para conseguir un resultado con un solo clic, sobre todo cuando la IA hace todo el trabajo; por ejemplo, 딸깍출판, un libro hecho con un botón.",
+     "이 보고서 설마 딸깍으로 만든 거야?", "Wait, did you make this report with one AI click?",
+     "Oye, ¿no me digas que hiciste este informe con un clic de IA?",
+     "AI era jokes, work & school chat, news columns", "Verified (web-checked)"),
+    ("저속노화", "jeo-sok-no-hwa", "Slow aging",
+     "\"Slow aging\" — a wellness trend of slowing down how fast you age through everyday habits like good sleep, balanced meals, exercise and less drinking.",
+     "\"Envejecimiento lento\": tendencia de bienestar que busca envejecer más despacio con hábitos diarios como dormir bien, comer equilibrado, hacer ejercicio y beber menos.",
+     "요즘 저속노화 한다고 흰쌀밥 대신 잡곡밥 먹어.", "I'm doing slow aging these days, so I eat multigrain rice instead of white rice.",
+     "Ahora estoy con lo del envejecimiento lento, así que como arroz integral en vez de arroz blanco.",
+     "Wellness & diet talk, 20s–30s lifestyle content, food posts", "Verified (web-checked)"),
+    ("만반잘부", "man-ban-jal-bu", "Nice to meet you!",
+     "Short for 만나서 반가워, 잘 부탁해 — \"Nice to meet you, let's get along!\" A casual first-meeting greeting.",
+     "Abreviatura de 만나서 반가워, 잘 부탁해: \"¡Encantada de conocerte, llevémonos bien!\". Un saludo casual al conocer a alguien.",
+     "새로 들어온 동기야? 만반잘부!", "You're new in our year? Nice to meet you, let's get along!",
+     "¿Eres nueva en nuestra generación? ¡Encantada, llevémonos bien!",
+     "Group chats, new classes/clubs, fan community intros", "Verified (web-checked)"),
+    ("젤꾸", "jel-kku", "Jelly-shoe decorating",
+     "Short for 젤리슈즈 꾸미기, \"jelly-shoe decorating\": customizing clear jelly shoes by clipping on charms and parts.",
+     "Abreviatura de 젤리슈즈 꾸미기, \"decorar zapatos de gelatina\": personalizar sandalias de goma transparentes poniéndoles dijes y piezas.",
+     "이번 주말에 동대문 가서 젤꾸 재료 사 올 거야.", "This weekend I'm going to Dongdaemun to buy parts for my jelly shoes.",
+     "Este fin de semana voy a Dongdaemun a comprar piezas para decorar mis zapatos de gelatina.",
+     "Summer 2026 Gen Z fashion trend, Dongdaemun parts shops, Instagram", "Verified (web-checked)"),
+    ("뒷공부", "dwit-gong-bu", "Secret studying",
+     "\"Behind-the-back studying\": acting like you're just hanging out, then secretly studying on your own. Used to tease a friend who \"betrayed\" the group by studying.",
+     "\"Estudiar a escondidas\": hacer como que solo estás de fiesta y luego estudiar en secreto. Se usa para molestar a una amiga que \"traicionó\" al grupo estudiando.",
+     "같이 놀자며? 너 뒷공부했지!", "You said we'd hang out — you studied behind our backs, didn't you!",
+     "¿No que íbamos a salir? ¡Estudiaste a escondidas!",
+     "University exam season memes (2026), Instagram reels, friend chat", "Verified (web-checked)"),
+    ("엄친아", "eom-chin-a", "Mom's friend's son",
+     "Short for 엄마 친구 아들, \"mom's friend's son\": the annoyingly perfect kid (good grades, good job, good looks) your mom always compares you to. The female version is 엄친딸.",
+     "Abreviatura de 엄마 친구 아들, \"el hijo de la amiga de mamá\": ese chico irritantemente perfecto (buenas notas, buen trabajo, guapo) con el que tu mamá siempre te compara. La versión femenina es 엄친딸.",
+     "또 엄친아 얘기야? 걔는 왜 이렇게 다 잘해?", "The mom's-friend's-son story again? Why is he good at everything?",
+     "¿Otra vez con el hijo de tu amiga? ¿Por qué es bueno en todo?",
+     "Family jokes, comparisons, K-dramas (Netflix's Love Next Door)", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4814,6 +4856,30 @@ DATING = [
      "연애? 지금은 하비아모리 중이라 클라이밍이랑 뜨개질이 애인이야.", "Dating? I'm in my hobbyamory era — climbing and knitting are my partners right now.",
      "¿Citas? Estoy en mi etapa 하비아모리: ahora mis parejas son la escalada y el tejido.",
      "Gen Z dating-trend talk, social media", "Verified (web-checked)"),
+    ("품절남", "pum-jeol-nam", "Off-the-market guy",
+     "\"Sold-out man\": an attractive guy who is now married or about to be. The female version is 품절녀.",
+     "\"Hombre agotado\": un chico atractivo que ya se casó o está por casarse. La versión femenina es 품절녀.",
+     "우리 과 인기남이 다음 달에 결혼한대. 이제 품절남이네.", "The most popular guy in our department is getting married next month. He's off the market now.",
+     "El chico más popular de nuestra carrera se casa el mes que viene. Ya está fuera del mercado.",
+     "Wedding news, entertainment headlines, friend gossip", "Verified (web-checked)"),
+    ("볼매", "bol-mae", "Grows on you",
+     "Short for 볼수록 매력 — \"more charming the more you see them.\" Someone whose appeal grows as you get to know them.",
+     "Abreviatura de 볼수록 매력: \"más encanto cuanto más lo ves\". Alguien cuyo atractivo crece a medida que lo conoces.",
+     "처음엔 몰랐는데 걔 완전 볼매더라.", "I didn't notice at first, but they totally grow on you.",
+     "Al principio no me fijé, pero la verdad es de esas personas que te van gustando más y más.",
+     "Dating talk, dating reality shows, idol fan comments", "Verified (web-checked)"),
+    ("초식남", "cho-sik-nam", "Herbivore man",
+     "\"Herbivore man\": a guy who isn't very interested in dating or chasing romance, borrowed from the Japanese term 草食系男子.",
+     "\"Hombre herbívoro\": un chico al que no le interesa mucho tener citas ni buscar romance; viene del término japonés 草食系男子.",
+     "걔는 초식남이라 먼저 연락하는 일이 거의 없어.", "He's such a herbivore guy — he almost never texts first.",
+     "Es súper herbívoro, casi nunca escribe primero.",
+     "Dating talk, relationship advice, dating reality shows", "Verified (web-checked)"),
+    ("건어물녀", "geon-eo-mul-nyeo", "Dried-fish woman",
+     "\"Dried-fish woman\": a woman who'd rather relax at home than go out dating — often busy and capable at work, but happily lazy on her days off. Borrowed from the Japanese 干物女.",
+     "\"Mujer pescado seco\": una mujer que prefiere descansar en casa antes que salir a citas; muchas veces muy capaz en el trabajo, pero feliz de no hacer nada en su día libre. Viene del japonés 干物女.",
+     "주말엔 무조건 집콕이야. 나 완전 건어물녀잖아.", "Weekends are home-only for me. I'm a total dried-fish woman.",
+     "Los fines de semana no salgo de casa. Soy toda una mujer pescado seco.",
+     "Self-deprecating jokes, dating talk, K-drama/J-drama fans", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4837,6 +4903,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-11-09", ["딸깍", "저속노화", "이븐하게", "만반잘부", "젤꾸", "뒷공부", "품절남", "볼매", "초식남", "엄친아", "건어물녀"]),
     ("2026-11-02", ["엄미새", "하비아모리", "딜루루", "자소설", "엄카", "지옥철", "생파", "당모치"]),
     ("2026-10-26", ["인만추", "번따", "스드메", "막방", "통편집", "악마의 편집", "역조공", "텍스트힙", "가심비", "두쫀쿠", "볼꾸", "떡켓팅"]),
     ("2026-10-19", ["폴꾸", "탑꾸", "팬아저", "그잡채", "제곧내", "아보하", "썸남", "데이트통장", "돌싱", "연프"]),
@@ -5672,6 +5739,17 @@ ZH_TW_TRANSLATIONS = {
     "지옥철": ("尖峰時段擠爆的地鐵（지옥「地獄」+ 지하철「地鐵」）", "早上8點的2號線真的是지옥철，連呼吸都困難。"),
     "생파": ("생일 파티（生日派對）的縮寫", "這週六我要辦생파，你能來嗎？"),
     "당모치": ("당연히 모든 치킨은 옳다（當然所有炸雞都是對的）的縮寫——炸雞永遠是好選擇", "要調味還是原味炸雞？都可以，당모치！"),
+    "딸깍": ("滑鼠「喀」一聲的擬聲詞。用來形容按一下就得到成果，特別是全交給AI做的情況——例如「딸깍출판」，指按個按鈕就做出來的書。", "這份報告該不會是按一下AI就做出來的吧？"),
+    "저속노화": ("「慢速老化」——透過好好睡覺、均衡飲食、運動、少喝酒等日常習慣，讓自己老得慢一點的養生潮流。", "最近在實踐慢速老化，所以改吃雜糧飯不吃白飯了。"),
+    "이븐하게": ("英文「even」＋韓文「-하게」：「均勻地、剛剛好」。料理節目《黑白大廚》（흑백요리사）評審評論食物熟度是否均勻的一句話，變成形容任何事剛剛好的迷因。", "今天的妝吃得很均勻，剛剛好。"),
+    "만반잘부": ("「만나서 반가워, 잘 부탁해」的縮寫——「很高興認識你，請多指教！」初次見面時輕鬆的打招呼用語。", "你是新來的同屆嗎？很高興認識你，請多指教！"),
+    "젤꾸": ("「젤리슈즈 꾸미기」的縮寫，「果凍鞋裝飾」：在透明果凍鞋上扣上吊飾和配件，做成自己的款式。", "這週末要去東大門買果凍鞋裝飾的材料。"),
+    "뒷공부": ("「背地裡讀書」：表面上跟大家一起玩，私下卻偷偷讀書。用來調侃「背叛」大家偷讀書的朋友。", "不是說好一起玩嗎？你偷偷讀書了吧！"),
+    "품절남": ("「售罄男」：已婚或即將結婚的有魅力男生。女生版是품절녀。", "我們系的人氣男下個月要結婚了，現在是售罄男了。"),
+    "볼매": ("「볼수록 매력」的縮寫——「越看越有魅力」。越認識越覺得迷人的人。", "一開始沒感覺，但那個人真的越看越有魅力。"),
+    "초식남": ("「草食男」：對約會、追求戀愛不太積極的男生，借用自日文「草食系男子」。", "他是草食男，幾乎不會先傳訊息。"),
+    "엄친아": ("「엄마 친구 아들」的縮寫，「媽媽朋友的兒子」：媽媽老是拿來跟你比較、各方面都完美到讓人火大的孩子（成績好、工作好、長得好）。女生版是엄친딸。", "又在講媽媽朋友的兒子？他怎麼什麼都那麼厲害？"),
+    "건어물녀": ("「魚乾女」：比起出去約會，更喜歡在家放空的女生——工作上常常很能幹，休假時就開心地耍廢。借用自日文「干物女」。", "週末一定待在家，我根本就是魚乾女。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6484,6 +6562,17 @@ ZH_CN_TRANSLATIONS = {
     "지옥철": ("尖峰时段挤爆的地铁（지옥“地狱”+ 지하철“地铁”）", "早上8点的2号线真的是지옥철，连呼吸都困难。"),
     "생파": ("생일 파티（生日派对）的缩写", "这周六我要办생파，你能来吗？"),
     "당모치": ("당연히 모든 치킨은 옳다（当然所有炸鸡都是对的）的缩写——炸鸡永远是好选择", "要调味还是原味炸鸡？都可以，당모치！"),
+    "딸깍": ("鼠标“喀”一声的拟声词。用来形容按一下就得到成果，特别是全交给AI做的情况——例如“딸깍출판”，指按个按钮就做出来的书。", "这份报告该不会是按一下AI就做出来的吧？"),
+    "저속노화": ("“慢速老化”——透过好好睡觉、均衡饮食、运动、少喝酒等日常习惯，让自己老得慢一点的养生潮流。", "最近在实践慢速老化，所以改吃杂粮饭不吃白饭了。"),
+    "이븐하게": ("英文“even”＋韩文“-하게”：“均匀地、刚刚好”。料理节目《黑白大厨》（흑백요리사）评审评论食物熟度是否均匀的一句话，变成形容任何事刚刚好的迷因。", "今天的妆吃得很均匀，刚刚好。"),
+    "만반잘부": ("“만나서 반가워, 잘 부탁해”的缩写——“很高兴认识你，请多指教！”初次见面时轻松的打招呼用语。", "你是新来的同届吗？很高兴认识你，请多指教！"),
+    "젤꾸": ("“젤리슈즈 꾸미기”的缩写，“果冻鞋装饰”：在透明果冻鞋上扣上吊饰和配件，做成自己的款式。", "这周末要去东大门买果冻鞋装饰的材料。"),
+    "뒷공부": ("“背地里读书”：表面上跟大家一起玩，私下却偷偷读书。用来调侃“背叛”大家偷读书的朋友。", "不是说好一起玩吗？你偷偷读书了吧！"),
+    "품절남": ("“售罄男”：已婚或即将结婚的有魅力男生。女生版是품절녀。", "我们系的人气男下个月要结婚了，现在是售罄男了。"),
+    "볼매": ("“볼수록 매력”的缩写——“越看越有魅力”。越认识越觉得迷人的人。", "一开始没感觉，但那个人真的越看越有魅力。"),
+    "초식남": ("“草食男”：对约会、追求恋爱不太积极的男生，借用自日文“草食系男子”。", "他是草食男，几乎不会先传消息。"),
+    "엄친아": ("“엄마 친구 아들”的缩写，“妈妈朋友的儿子”：妈妈老是拿来跟你比较、各方面都完美到让人火大的孩子（成绩好、工作好、长得好）。女生版是엄친딸。", "又在讲妈妈朋友的儿子？他怎么什么都那么厉害？"),
+    "건어물녀": ("“鱼干女”：比起出去约会，更喜欢在家放空的女生——工作上常常很能干，休假时就开心地耍废。借用自日文“干物女”。", "周末一定待在家，我根本就是鱼干女。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7310,6 +7399,17 @@ JA_TRANSLATIONS = {
     "지옥철": ("ラッシュ時のぎゅうぎゅう詰めの地下鉄（지옥「地獄」＋지하철「地下鉄」）", "朝8時の2号線はほんと지옥철。息もできない。"),
     "생파": ("생일 파티（誕生日パーティー）の略", "今週の土曜に私の생파やるんだけど、来れる？"),
     "당모치": ("당연히 모든 치킨은 옳다（当然、すべてのチキンは正しい）の略。どのチキンでも正解", "ヤンニョムかフライドか？どっちでもいい、당모치！"),
+    "딸깍": ("マウスの「カチッ」というクリック音。ワンクリックで結果が出ること、特にAIに丸投げして作ることを指す。例：딸깍출판（ボタン一つで作った本）。", "このレポート、まさかAIでカチッと作ったやつ？"),
+    "저속노화": ("「スローエイジング」。よく眠る、バランスのいい食事、運動、お酒を控えるなど、日々の習慣で老化のスピードを遅らせようという健康トレンド。", "最近スローエイジング中だから、白米じゃなくて雑穀ごはん食べてる。"),
+    "이븐하게": ("英語の「even」＋韓国語の「-하게」で「均一に、ちょうどよく」。料理番組『白と黒のスプーン』（흑백요리사）の審査員の「火の通りが均一か」というコメントがミーム化し、何でもちょうどいい状態に使われるように。", "今日のメイク、イーブンにいい感じに乗った。"),
+    "만반잘부": ("「만나서 반가워, 잘 부탁해」の略で「はじめまして、よろしくね！」。初対面のカジュアルなあいさつ。", "新しく入った同期？はじめまして、よろしく！"),
+    "젤꾸": ("「젤리슈즈 꾸미기」の略で「ゼリーシューズデコ」。透明なゼリーシューズにチャームやパーツを付けて自分だけのデザインにすること。", "今週末、東大門にゼリーシューズデコのパーツ買いに行く。"),
+    "뒷공부": ("「陰で勉強」。一緒に遊んでるふりをして、こっそり勉強すること。勉強して仲間を「裏切った」友達をからかうときに使う。", "一緒に遊ぼうって言ったじゃん？陰で勉強してたでしょ！"),
+    "품절남": ("「売り切れ男」。結婚した、またはもうすぐ結婚する魅力的な男性。女性版は품절녀。", "うちの学科のモテ男、来月結婚するんだって。もう売り切れだね。"),
+    "볼매": ("「볼수록 매력」の略で「見れば見るほど魅力的」。知れば知るほど魅力が増していく人。", "最初は気づかなかったけど、あの人めっちゃ見るほど魅力的なタイプだった。"),
+    "초식남": ("「草食男」。恋愛やデートにあまり積極的でない男性。日本語の「草食系男子」から来た言葉。", "あの人草食系だから、自分から連絡することほとんどないよ。"),
+    "엄친아": ("「엄마 친구 아들」の略で「ママの友達の息子」。成績も仕事も顔も完璧で、母親にいつも比べられる存在。女性版は엄친딸。", "またママの友達の息子の話？なんであの子は何でもできるの？"),
+    "건어물녀": ("「干物女」。デートより家でのんびりしたい女性。仕事はできるけど、休日は家でダラダラするのが幸せ、というタイプ。日本語の「干物女」から。", "週末は絶対おうち。私、完全に干物女だもん。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -32254,6 +32354,409 @@ DETAILS = {
             }
         ]
     },
+    "딸깍": {
+        "nuance": {
+            "en": "Often a little sarcastic: it points out that something was made too easily, with no real effort or craft. Can also be a half-envious joke about how fast AI works.",
+            "es": "Suele ser algo sarcástico: señala que algo se hizo demasiado fácil, sin esfuerzo real. También puede ser una broma medio envidiosa sobre lo rápido que trabaja la IA.",
+            "zh": "常帶點諷刺：暗指東西做得太輕鬆、沒花真功夫。也可以半羨慕地開玩笑說AI做得好快。",
+            "cn": "常带点讽刺：暗指东西做得太轻松、没花真功夫。也可以半羡慕地开玩笑说AI做得好快。",
+            "ja": "少し皮肉っぽいことが多く、手間をかけずに楽に作ったことを指摘するニュアンス。AIの速さを半分うらやましがる冗談としても使う。"
+        },
+        "usage": {
+            "en": "Use it alone (\"딸깍 한 번이면 끝\" — \"one click and done\") or stick it in front of a noun: 딸깍출판 (click-published book), 딸깍 과제 (one-click homework).",
+            "es": "Se usa sola (\"딸깍 한 번이면 끝\", \"un clic y listo\") o delante de un sustantivo: 딸깍출판 (libro publicado con un clic), 딸깍 과제 (tarea hecha con un clic).",
+            "zh": "可以單獨用（「딸깍 한 번이면 끝」＝按一下就搞定），也可以放在名詞前：딸깍출판（一鍵出版的書）、딸깍 과제（一鍵完成的作業）。",
+            "cn": "可以单独用（“딸깍 한 번이면 끝”＝按一下就搞定），也可以放在名词前：딸깍출판（一键出版的书）、딸깍 과제（一键完成的作业）。",
+            "ja": "単独で（「딸깍 한 번이면 끝」＝ワンクリックで終わり）、または名詞の前に付けて：딸깍출판（ワンクリック出版）、딸깍 과제（ワンクリック課題）。"
+        },
+        "culture": {
+            "en": "A Korean newspaper language column (Oct 2026) explained 딸깍출판 as a satirical new word for books mass-produced with AI, noting it is not in the standard dictionary yet.",
+            "es": "Una columna de lengua de un diario coreano (oct. 2026) explicó 딸깍출판 como una palabra nueva y satírica para libros producidos en masa con IA, y señaló que aún no está en el diccionario estándar.",
+            "zh": "韓國報紙的語言專欄（2026年10月）把「딸깍출판」解釋為諷刺用AI大量生產書籍的新詞，並指出它還沒收進標準詞典。",
+            "cn": "韩国报纸的语言专栏（2026年10月）把“딸깍출판”解释为讽刺用AI大量生产书籍的新词，并指出它还没收进标准词典。",
+            "ja": "韓国紙の言葉コラム（2026年10月）は、딸깍출판をAIで量産された本を皮肉る新語として紹介し、まだ標準辞書には載っていないと説明した。"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "internet",
+            "worklife"
+        ],
+        "sources": [
+            {
+                "title": "'딸깍출판'으로 살펴 본 우리말 조어법",
+                "publisher": "생글생글 (Hankyung)",
+                "date": "2026-10-08",
+                "url": "https://sgsg.hankyung.com/article/202610081687m"
+            }
+        ]
+    },
+    "저속노화": {
+        "nuance": {
+            "en": "Sounds health-conscious but is often said with a wink — people label meals or habits \"저속노화\" the way others say \"clean eating.\" The playful opposite people joke about is 가속노화 (\"fast aging\").",
+            "es": "Suena saludable, pero muchas veces se dice con humor: la gente etiqueta comidas o hábitos como \"저속노화\", como quien dice \"comer limpio\". Lo contrario, en broma, es 가속노화 (\"envejecer rápido\").",
+            "zh": "聽起來很注重健康，但常帶點玩笑意味——大家會把餐點或習慣標上「저속노화」，就像說「乾淨飲食」一樣。開玩笑的反義詞是가속노화（加速老化）。",
+            "cn": "听起来很注重健康，但常带点玩笑意味——大家会把餐点或习惯标上“저속노화”，就像说“干净饮食”一样。开玩笑的反义词是가속노화（加速老化）。",
+            "ja": "健康志向っぽいけど、ちょっと冗談めかして使うことも多い。食事や習慣に「저속노화」とラベルを付ける感じ。冗談の反対語は가속노화（加速老化）。"
+        },
+        "usage": {
+            "en": "Use it as a label: \"저속노화 식단\" (slow-aging diet), \"저속노화 중\" (doing slow aging). Late-night ramen and soda get jokingly called 가속노화.",
+            "es": "Se usa como etiqueta: \"저속노화 식단\" (dieta de envejecimiento lento), \"저속노화 중\" (estoy en eso). Al ramen de madrugada y los refrescos se les llama en broma 가속노화.",
+            "zh": "當標籤用：「저속노화 식단」（慢老飲食）、「저속노화 중」（慢老中）。半夜泡麵和汽水則被戲稱為가속노화。",
+            "cn": "当标签用：“저속노화 식단”（慢老饮食）、“저속노화 중”（慢老中）。半夜方便面和汽水则被戏称为가속노화。",
+            "ja": "ラベルとして使う：「저속노화 식단」（スローエイジング食）、「저속노화 중」（実践中）。夜中のラーメンや炭酸は冗談で가속노화と呼ばれる。"
+        },
+        "culture": {
+            "en": "It spread in Korea around 2024 after a geriatrics doctor's book and social-media posts turned the idea into a meme; Vogue Korea described it as a trend aimed at slowing the rate of aging through healthy habits.",
+            "es": "Se popularizó en Corea hacia 2024, cuando el libro y las publicaciones en redes de un médico geriatra convirtieron la idea en meme; Vogue Korea la describió como una tendencia para envejecer más despacio con hábitos sanos.",
+            "zh": "大約2024年在韓國流行起來，一位老年醫學科醫師的書和社群貼文讓這個概念變成迷因；Vogue Korea形容它是用健康習慣減緩老化速度的潮流。",
+            "cn": "大约2024年在韩国流行起来，一位老年医学科医师的书和社区贴文让这个概念变成迷因；Vogue Korea形容它是用健康习惯减缓老化速度的潮流。",
+            "ja": "2024年ごろ、ある老年医学の医師の本とSNS投稿をきっかけにミーム化して広まった。Vogue Koreaは健康的な習慣で老化の速度を遅らせるトレンドと紹介している。"
+        },
+        "register": "everyday",
+        "similar": [
+            "갓생"
+        ],
+        "tags": [
+            "worklife",
+            "food"
+        ],
+        "sources": [
+            {
+                "title": "저속 노화 유행이 내포하는 것",
+                "publisher": "Vogue Korea",
+                "date": "2024-09-28",
+                "url": "https://www.vogue.co.kr/2024/09/28/%ec%a0%80%ec%86%8d-%eb%85%b8%ed%99%94-%ec%9c%a0%ed%96%89%ec%9d%b4-%eb%82%b4%ed%8f%ac%ed%95%98%eb%8a%94-%ea%b2%83/"
+            }
+        ]
+    },
+    "이븐하게": {
+        "nuance": {
+            "en": "Playful and a little show-offy — saying it in the judge's serious tone is the joke. It's praise: something is balanced, well done, nothing over or under.",
+            "es": "Juguetona y un poco presumida: el chiste es decirla con el tono serio del juez. Es un elogio: algo está equilibrado, bien hecho, ni de más ni de menos.",
+            "zh": "俏皮又有點裝模作樣——用評審那種認真口吻說出來就是笑點。是稱讚：東西很均衡、做得剛好，不多也不少。",
+            "cn": "俏皮又有点装模作样——用评审那种认真口吻说出来就是笑点。是称赞：东西很均衡、做得刚好，不多也不少。",
+            "ja": "ちょっとふざけた、ドヤ感のある言い方。審査員っぽい真面目な口調で言うのが笑いどころ。過不足なくちょうどいい、というほめ言葉。"
+        },
+        "usage": {
+            "en": "Swap it in where you'd say \"evenly\" or \"just right\": \"이븐하게 익었다\" (cooked evenly), \"잠을 이븐하게 잤다\" (slept just right). Brands and memes also reuse it in captions.",
+            "es": "Úsala donde dirías \"parejo\" o \"en su punto\": \"이븐하게 익었다\" (cocido parejo), \"잠을 이븐하게 잤다\" (dormí lo justo). Marcas y memes también la usan en sus textos.",
+            "zh": "在想說「均勻」「剛剛好」的地方套用：「이븐하게 익었다」（熟得很均勻）、「잠을 이븐하게 잤다」（睡得剛剛好）。品牌和迷因也常拿來當文案。",
+            "cn": "在想说“均匀”“刚刚好”的地方套用：“이븐하게 익었다”（熟得很均匀）、“잠을 이븐하게 잤다”（睡得刚刚好）。品牌和迷因也常拿来当文案。",
+            "ja": "「均一に」「ちょうどよく」と言いたいところで使う：「이븐하게 익었다」（均一に火が通った）、「잠을 이븐하게 잤다」（ちょうどよく寝た）。企業の広告やミームのキャプションでもよく使われる。"
+        },
+        "culture": {
+            "en": "Culinary Class Wars (2024, Netflix) was a huge hit in Korea; the judges' catchphrases — this one and \"익힘 정도\" (doneness) — spread across social media within weeks.",
+            "es": "Culinary Class Wars (2024, Netflix) fue un gran éxito en Corea; las frases de los jueces —esta y \"익힘 정도\" (punto de cocción)— se esparcieron por redes en pocas semanas.",
+            "zh": "《黑白大廚》（2024，Netflix）在韓國大紅，評審的口頭禪——這句和「익힘 정도」（熟度）——幾週內就紅遍社群。",
+            "cn": "《黑白大厨》（2024，Netflix）在韩国大红，评审的口头禅——这句和“익힘 정도”（熟度）——几周内就红遍社区。",
+            "ja": "『白と黒のスプーン』（2024年、Netflix）は韓国で大ヒットし、このフレーズや「익힘 정도」（火の通り具合）など審査員の決めゼリフが数週間でSNSに広まった。"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "variety",
+            "food",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "흑백요리사에서 유행한 신조어는 바로 '이 것'",
+                "publisher": "Daum 트렌드어워드",
+                "date": "2024-10-03",
+                "url": "https://v.daum.net/v/fXjRHwEQ6W"
+            }
+        ]
+    },
+    "만반잘부": {
+        "nuance": {
+            "en": "Friendly and a bit cute. It's for people your age or younger in relaxed settings — not for a boss or a formal meeting.",
+            "es": "Amistosa y un poco tierna. Es para gente de tu edad o menor en ambientes relajados, no para un jefe ni una reunión formal.",
+            "zh": "親切又有點可愛。適合對同齡或比自己小的人、在輕鬆的場合用——不要對上司或在正式場合說。",
+            "cn": "亲切又有点可爱。适合对同龄或比自己小的人、在轻松的场合用——不要对上司或在正式场合说。",
+            "ja": "フレンドリーでちょっとかわいい。同年代や年下に、くだけた場面で使う。上司やかしこまった場では使わない。"
+        },
+        "usage": {
+            "en": "Drop it as your first message when you join a new group chat, or reply with it when someone introduces themselves. Often typed with ㅎㅎ or an emoji.",
+            "es": "Escríbelo como primer mensaje al entrar a un chat grupal nuevo, o respóndelo cuando alguien se presente. Muchas veces va con ㅎㅎ o un emoji.",
+            "zh": "加入新群組時當第一句話傳，或有人自我介紹時回覆。常加上ㅎㅎ或表情符號。",
+            "cn": "加入新群组时当第一句话传，或有人自我介绍时回复。常加上ㅎㅎ或表情符号。",
+            "ja": "新しいグループチャットに入ったときの最初のメッセージや、誰かが自己紹介したときの返事に。ㅎㅎや絵文字を付けることが多い。"
+        },
+        "register": "text",
+        "similar": [
+            "별다줄"
+        ],
+        "tags": [
+            "chat",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] '만반잘부' 한마디로 끝내는 첫인사",
+                "publisher": "브라보마이라이프 (Etoday)",
+                "date": "2026-02-09",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/18536"
+            }
+        ]
+    },
+    "젤꾸": {
+        "nuance": {
+            "en": "Another member of the -꾸 (decorating) family with 폴꾸 and 볼꾸. Light, fun and summery — it's about showing off your own combination.",
+            "es": "Otra de la familia -꾸 (decorar), junto con 폴꾸 y 볼꾸. Ligera, divertida y veraniega: se trata de lucir tu propia combinación.",
+            "zh": "又一個「-꾸」（裝飾）系列用語，和폴꾸、볼꾸同類。輕鬆、好玩又有夏天感——重點是秀出自己的搭配。",
+            "cn": "又一个“-꾸”（装饰）系列用语，和폴꾸、볼꾸同类。轻松、好玩又有夏天感——重点是秀出自己的搭配。",
+            "ja": "폴꾸や볼꾸と同じ「-꾸」（デコ）系の言葉。軽くて楽しい夏っぽいワードで、自分の組み合わせを見せるのがポイント。"
+        },
+        "usage": {
+            "en": "Use it like 폴꾸: \"젤꾸 하러 가자\" (let's go decorate jelly shoes), or tag photos #젤꾸.",
+            "es": "Se usa como 폴꾸: \"젤꾸 하러 가자\" (vamos a decorar zapatos de gelatina), o en fotos con #젤꾸.",
+            "zh": "用法和폴꾸一樣：「젤꾸 하러 가자」（一起去裝飾果凍鞋吧），或在照片加上 #젤꾸。",
+            "cn": "用法和폴꾸一样：“젤꾸 하러 가자”（一起去装饰果冻鞋吧），或在照片加上 #젤꾸。",
+            "ja": "폴꾸と同じように：「젤꾸 하러 가자」（ゼリーシューズデコしに行こう）、写真に #젤꾸 タグ。"
+        },
+        "culture": {
+            "en": "Jelly shoes came back in Korea from 2024, and in summer 2026 decorating them became a trend; a Korean outlet reported crowds at Dongdaemun's accessory-parts shops buying charms.",
+            "es": "Los zapatos de gelatina volvieron en Corea desde 2024, y en el verano de 2026 decorarlos se volvió tendencia; un medio coreano informó de multitudes comprando dijes en las tiendas de piezas de Dongdaemun.",
+            "zh": "果凍鞋從2024年起在韓國重新流行，2026年夏天裝飾果凍鞋成了潮流；韓國媒體報導東大門的配件店擠滿買吊飾的人。",
+            "cn": "果冻鞋从2024年起在韩国重新流行，2026年夏天装饰果冻鞋成了潮流；韩国媒体报导东大门的配件店挤满买吊饰的人。",
+            "ja": "ゼリーシューズは2024年から韓国で再流行し、2026年夏にはデコが大ブームに。韓国メディアは東大門のパーツ店がチャームを買う人でにぎわったと報じた。"
+        },
+        "register": "casual",
+        "similar": [
+            "폴꾸",
+            "볼꾸",
+            "탑꾸"
+        ],
+        "tags": [
+            "internet",
+            "beauty"
+        ],
+        "sources": [
+            {
+                "title": "“동대문서 참 골라 내 맘대로” 올 여름 유행 ‘젤꾸’ 해보니 [잘파템연구소]",
+                "publisher": "데일리안 (Dailian)",
+                "date": "2026-08-18",
+                "url": "https://www.dailian.co.kr/news/view/1678636"
+            }
+        ]
+    },
+    "뒷공부": {
+        "nuance": {
+            "en": "A friendly accusation — mock betrayal, not real anger. The joke is that studying in secret is treated like a crime against your friends.",
+            "es": "Una acusación amistosa: traición fingida, no enojo real. El chiste es tratar estudiar en secreto como si fuera un crimen contra tus amigas.",
+            "zh": "友善的「指控」——假裝被背叛，不是真的生氣。笑點在於把偷讀書當成對朋友的罪行。",
+            "cn": "友善的“指控”——假装被背叛，不是真的生气。笑点在于把偷读书当成对朋友的罪行。",
+            "ja": "友達同士の冗談の「告発」で、本気で怒っているわけではない。こっそり勉強することを友達への裏切りのように扱うのが笑いどころ。"
+        },
+        "usage": {
+            "en": "Say it when a friend who claimed they \"didn't study at all\" gets a great score: \"뒷공부 인정?\" (admit you studied in secret?).",
+            "es": "Dilo cuando una amiga que juró \"no haber estudiado nada\" saca una gran nota: \"뒷공부 인정?\" (¿admites que estudiaste a escondidas?).",
+            "zh": "朋友說自己「完全沒讀書」結果考超高分時就說：「뒷공부 인정?」（承認你偷讀書了吧？）。",
+            "cn": "朋友说自己“完全没读书”结果考超高分时就说：“뒷공부 인정?”（承认你偷读书了吧？）。",
+            "ja": "「全然勉強してない」と言っていた友達がいい点を取ったときに：「뒷공부 인정?」（陰で勉強したって認める？）。"
+        },
+        "culture": {
+            "en": "It spread as campus exam-period slang in 2026, and an Instagram reel joking about it passed 4 million views, according to a Korean youth-trend outlet.",
+            "es": "Se popularizó como jerga universitaria en época de exámenes en 2026, y un reel de Instagram sobre esto superó los 4 millones de vistas, según un medio coreano de tendencias juveniles.",
+            "zh": "2026年在大學考試期間成為流行語，根據韓國一家年輕族群趨勢媒體，相關的Instagram短片觀看數超過400萬。",
+            "cn": "2026年在大学考试期间成为流行语，根据韩国一家年轻族群趋势媒体，相关的Instagram短片观看数超过400万。",
+            "ja": "2026年に大学の試験期間スラングとして広まり、韓国の若者トレンドメディアによると関連のInstagramリールは400万回再生を超えた。"
+        },
+        "register": "casual",
+        "similar": [],
+        "tags": [
+            "funny",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "한국, 튀르키예, 인도네시아까지? 전 세계인 대통합시킨 글로벌 밈 모음",
+                "publisher": "캐릿 (Careet, 대학내일)",
+                "date": "2026-04-29",
+                "url": "https://www.careet.net/1895"
+            }
+        ]
+    },
+    "품절남": {
+        "nuance": {
+            "en": "A compliment wrapped in a sigh — it implies he was popular and everyone \"missed their chance.\" Playful, not rude.",
+            "es": "Un cumplido con suspiro: da a entender que era popular y que todas \"perdieron su oportunidad\". Juguetón, no grosero.",
+            "zh": "帶著嘆氣的稱讚——暗示他很受歡迎，大家都「錯過機會」了。很俏皮，不失禮。",
+            "cn": "带着叹气的称赞——暗示他很受欢迎，大家都“错过机会”了。很俏皮，不失礼。",
+            "ja": "ため息まじりのほめ言葉。人気者で、みんな「チャンスを逃した」というニュアンス。軽い冗談で失礼ではない。"
+        },
+        "usage": {
+            "en": "Common in news headlines about celebrity weddings and in everyday chat: \"품절남 됐다\" (he's officially taken). Use 품절녀 for a woman.",
+            "es": "Muy común en titulares sobre bodas de famosos y en la charla diaria: \"품절남 됐다\" (ya está oficialmente comprometido). Para una mujer, 품절녀.",
+            "zh": "常出現在藝人結婚新聞標題和日常聊天：「품절남 됐다」（正式名草有主了）。女生用품절녀。",
+            "cn": "常出现在艺人结婚新闻标题和日常聊天：“품절남 됐다”（正式名草有主了）。女生用품절녀。",
+            "ja": "芸能人の結婚ニュースの見出しや日常会話でよく使う：「품절남 됐다」（正式に売り切れ）。女性には품절녀。"
+        },
+        "register": "everyday",
+        "similar": [
+            "돌싱"
+        ],
+        "tags": [
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
+            }
+        ]
+    },
+    "볼매": {
+        "nuance": {
+            "en": "Warm praise. It can hint that the person isn't flashy at first glance, but it's never an insult — the point is the charm that slowly wins you over.",
+            "es": "Un elogio cálido. Puede insinuar que la persona no llama la atención a primera vista, pero nunca es un insulto: lo importante es el encanto que te conquista poco a poco.",
+            "zh": "溫暖的稱讚。可能暗示對方第一眼不算亮眼，但絕不是貶義——重點是慢慢擄獲人心的魅力。",
+            "cn": "温暖的称赞。可能暗示对方第一眼不算亮眼，但绝不是贬义——重点是慢慢掳获人心的魅力。",
+            "ja": "あたたかいほめ言葉。第一印象は目立たないというニュアンスもあるが悪口ではなく、じわじわ惹かれる魅力がポイント。"
+        },
+        "usage": {
+            "en": "Use it about a date, a crush or an idol who keeps winning you over: \"볼매 스타일\" (the grows-on-you type).",
+            "es": "Úsalo para una cita, un crush o un idol que te sigue conquistando: \"볼매 스타일\" (del tipo que te va gustando).",
+            "zh": "用來形容約會對象、暗戀對象或越看越喜歡的偶像：「볼매 스타일」（越看越迷人型）。",
+            "cn": "用来形容约会对象、暗恋对象或越看越喜欢的偶像：“볼매 스타일”（越看越迷人型）。",
+            "ja": "デート相手や好きな人、どんどんハマっていくアイドルに：「볼매 스타일」（じわじわ魅力タイプ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "반전매력",
+            "입덕"
+        ],
+        "tags": [
+            "romance",
+            "praise"
+        ],
+        "sources": [
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
+            }
+        ]
+    },
+    "초식남": {
+        "nuance": {
+            "en": "Descriptive, not an insult, though it can be teasing. The opposite is 육식남 (\"carnivore man\"), a guy who pursues romance actively.",
+            "es": "Es descriptivo, no un insulto, aunque puede usarse para molestar. Lo contrario es 육식남 (\"hombre carnívoro\"), que busca el romance activamente.",
+            "zh": "是描述性的說法，不是罵人，但可能帶點調侃。反義是육식남（肉食男），指積極追求戀愛的男生。",
+            "cn": "是描述性的说法，不是骂人，但可能带点调侃。反义是육식남（肉食男），指积极追求恋爱的男生。",
+            "ja": "描写的な言葉で悪口ではないが、からかい気味に使うこともある。反対は육식남（肉食男）、恋愛に積極的な男性。"
+        },
+        "usage": {
+            "en": "Use it to describe someone's dating style: \"초식남 스타일\" (herbivore type). Be careful saying it to someone directly — it can sound like a jab.",
+            "es": "Úsalo para describir el estilo de alguien en el amor: \"초식남 스타일\" (tipo herbívoro). Cuidado al decírselo a alguien en la cara: puede sonar a pulla.",
+            "zh": "用來形容某人的戀愛風格：「초식남 스타일」（草食型）。當面對本人說要小心，可能聽起來像在酸人。",
+            "cn": "用来形容某人的恋爱风格：“초식남 스타일”（草食型）。当面对本人说要小心，可能听起来像在酸人。",
+            "ja": "恋愛スタイルの説明に：「초식남 스타일」（草食タイプ）。本人に直接言うとイヤミに聞こえることもあるので注意。"
+        },
+        "culture": {
+            "en": "Korean picked this up from Japan, where 草食系男子 became a buzzword in the late 2000s.",
+            "es": "El coreano lo tomó de Japón, donde 草食系男子 se volvió una palabra de moda a finales de los 2000.",
+            "zh": "韓語是從日本借來的，「草食系男子」在2000年代後期成為日本的流行語。",
+            "cn": "韩语是从日本借来的，“草食系男子”在2000年代后期成为日本的流行语。",
+            "ja": "韓国語は日本から取り入れた。「草食系男子」は2000年代後半に日本で流行語になった。"
+        },
+        "register": "everyday",
+        "similar": [
+            "모솔",
+            "금사빠"
+        ],
+        "tags": [
+            "romance"
+        ],
+        "sources": [
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
+            }
+        ]
+    },
+    "엄친아": {
+        "nuance": {
+            "en": "Half praise, half groan. It describes someone impossibly perfect, usually from the point of view of the kid being compared.",
+            "es": "Mitad elogio, mitad queja. Describe a alguien imposiblemente perfecto, casi siempre desde el punto de vista de quien sale perdiendo en la comparación.",
+            "zh": "一半稱讚，一半哀嚎。形容完美到不可思議的人，通常是從被比較的那個人的角度說的。",
+            "cn": "一半称赞，一半哀嚎。形容完美到不可思议的人，通常是从被比较的那个人的角度说的。",
+            "ja": "半分ほめ言葉、半分ぼやき。比べられる側の目線で、完璧すぎる人を言う。"
+        },
+        "usage": {
+            "en": "Call a seemingly flawless person 엄친아 or 엄친딸, or complain about \"the 엄친아 again\" when your parents compare you.",
+            "es": "Llama 엄친아 o 엄친딸 a alguien que parece perfecto, o quéjate de \"otra vez el 엄친아\" cuando tus papás te comparen.",
+            "zh": "把看似完美的人叫作엄친아或엄친딸，或是在爸媽拿你比較時抱怨「又是엄친아」。",
+            "cn": "把看似完美的人叫作엄친아或엄친딸，或是在爸妈拿你比较时抱怨“又是엄친아”。",
+            "ja": "完璧そうな人を엄친아・엄친딸と呼んだり、親に比べられたときに「また엄친아か」とぼやいたり。"
+        },
+        "culture": {
+            "en": "The comparison culture behind it ties into Korea's competitive school and job pressure; the word is old but still common, and a 2024 K-drama even used it in its Korean title (엄마친구아들).",
+            "es": "La cultura de comparación que hay detrás se relaciona con la presión escolar y laboral en Corea; la palabra es antigua pero sigue muy viva, y un K-drama de 2024 la usó en su título coreano (엄마친구아들).",
+            "zh": "背後的比較文化和韓國激烈的升學、就業壓力有關；這個詞不新但現在仍很常用，2024年還有韓劇直接用它當韓文劇名（엄마친구아들）。",
+            "cn": "背后的比较文化和韩国激烈的升学、就业压力有关；这个词不新但现在仍很常用，2024年还有韩剧直接用它当韩文剧名（엄마친구아들）。",
+            "ja": "背景には韓国の受験・就職の競争によるプレッシャーと比較文化がある。古い言葉だが今も現役で、2024年の韓ドラは韓国語タイトルにそのまま使った（엄마친구아들）。"
+        },
+        "register": "everyday",
+        "similar": [],
+        "tags": [
+            "funny",
+            "drama"
+        ],
+        "sources": [
+            {
+                "title": "10 Useful Korean Slang Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-06-16",
+                "url": "https://keia.org/analysis/10-useful-korean-slang-terms/"
+            }
+        ]
+    },
+    "건어물녀": {
+        "nuance": {
+            "en": "Mostly used about yourself, with a laugh — it's a cozy \"I'm happy at home\" label, not a complaint. The male counterpart people mention is 초식남.",
+            "es": "Se usa sobre todo sobre una misma y con humor: es una etiqueta cómoda de \"soy feliz en casa\", no una queja. Su contraparte masculina es 초식남.",
+            "zh": "多半拿來自嘲、笑著說——是「我在家很快樂」的舒適標籤，不是抱怨。常被拿來對照的男生版是초식남。",
+            "cn": "多半拿来自嘲、笑着说——是“我在家很快乐”的舒适标签，不是抱怨。常被拿来对照的男生版是초식남。",
+            "ja": "主に自分のことを笑いながら言う。「家にいるのが幸せ」というゆるいラベルで、愚痴ではない。男性版としてよく並べられるのが초식남。"
+        },
+        "usage": {
+            "en": "Say it about yourself (\"나 건어물녀야\") when you'd rather stay in. Calling someone else this can sound like a jab, so keep it to close friends.",
+            "es": "Dilo de ti misma (\"나 건어물녀야\") cuando prefieras quedarte en casa. Decírselo a otra persona puede sonar a pulla, así que solo con amigas cercanas.",
+            "zh": "想待在家時拿來形容自己（「나 건어물녀야」）。說別人是魚乾女可能聽起來像在酸人，只跟很熟的朋友說就好。",
+            "cn": "想待在家时拿来形容自己（“나 건어물녀야”）。说别人是鱼干女可能听起来像在酸人，只跟很熟的朋友说就好。",
+            "ja": "家にいたいときに自分のことを（「나 건어물녀야」）。他人に言うとイヤミに聞こえることもあるので、親しい友達同士だけで。"
+        },
+        "culture": {
+            "en": "The word came from Japan, where 干物女 spread through the late-2000s manga and drama Hotaru no Hikari.",
+            "es": "La palabra viene de Japón, donde 干物女 se popularizó a finales de los 2000 con el manga y el drama Hotaru no Hikari.",
+            "zh": "這個詞來自日本，「干物女」因2000年代後期的漫畫和日劇《螢之光》流行起來。",
+            "cn": "这个词来自日本，“干物女”因2000年代后期的漫画和日剧《萤之光》流行起来。",
+            "ja": "日本から来た言葉で、「干物女」は2000年代後半の漫画・ドラマ『ホタルノヒカリ』で広まった。"
+        },
+        "register": "casual",
+        "similar": [
+            "초식남"
+        ],
+        "tags": [
+            "romance",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "Ten Useful Korean Dating Terms",
+                "publisher": "Korea Economic Institute of America (KEI)",
+                "date": "2017-08-08",
+                "url": "https://keia.org/analysis/ten-useful-korean-dating-terms/"
+            }
+        ]
+    },
 }
 
 
@@ -32534,73 +33037,12 @@ QUIZ_UI = {
 # order; the home page "trending" strip shows the first three. Every entry must
 # be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
 # the pages, so edit them here only. The weekly update swaps these out.
-EDITOR_PICKS = ['딜루루', '엄미새', '두쫀쿠', '하비아모리', '밤티']
+EDITOR_PICKS = ['이븐하게', '젤꾸', '딸깍', '두쫀쿠', '하이틴']
 
 # Home page "today's card" — rotates daily through this pool (by date).
-TODAYS_CARD_POOL = ['딜루루', '엄미새', '하비아모리', '자소설', '지옥철', '생파', '당모치']
+TODAYS_CARD_POOL = ['만반잘부', '뒷공부', '볼매', '품절남', '저속노화', '엄친아', '이븐하게']
 
 QUIZ = [
-    {
-        "type": "meaning",
-        "answer": "폴꾸",
-        "options": [
-            "폴꾸",
-            "탑로더",
-            "미공포",
-            "굿즈"
-        ]
-    },
-    {
-        "type": "meaning",
-        "answer": "그잡채",
-        "options": [
-            "그잡채",
-            "제곧내",
-            "레전드",
-            "국룰"
-        ]
-    },
-    {
-        "type": "situation",
-        "answer": "연프",
-        "options": [
-            "연프",
-            "현커",
-            "자컨",
-            "몰아보기"
-        ],
-        "situation": {
-            "en": "You and your friends love shows where single people live together and look for love. In the group chat you ask: \"Which ___ are you watching these days?\"",
-            "es": "A ti y a tus amigas les encantan los programas donde solteros conviven y buscan el amor. En el chat grupal preguntas: \"¿Qué ___ estás viendo últimamente?\"",
-            "zh": "你跟朋友都超愛看單身男女一起生活、尋找戀愛的節目。你在群組裡問：「最近在看哪個___？」",
-            "cn": "你跟朋友都超爱看单身男女一起生活、寻找恋爱的节目。你在群组里问：“最近在看哪个___？”",
-            "ja": "友達みんな、独身の男女が一緒に暮らして恋を探す番組が大好き。グループチャットで聞く：「最近どの___見てる？」"
-        }
-    },
-    {
-        "type": "situation",
-        "answer": "제곧내",
-        "options": [
-            "제곧내",
-            "그잡채",
-            "별다줄",
-            "스압"
-        ],
-        "situation": {
-            "en": "Your fan-café post title is \"Anyone want to go to Saturday's concert together?\" There's nothing else to add, so the whole body of the post is:",
-            "es": "El título de tu post en el fan café es \"¿Alguien quiere ir conmigo al concierto del sábado?\". No hay nada más que añadir, así que el cuerpo del post solo dice:",
-            "zh": "你在粉絲咖啡廳發文，標題是「週六演唱會有人要一起去嗎？」。沒有別的要補充，所以內文只寫：",
-            "cn": "你在粉丝咖啡厅发文，标题是“周六演唱会有人要一起去吗？”。没有别的要补充，所以内文只写：",
-            "ja": "ファンカフェに「土曜のライブ一緒に行く人いる？」というタイトルで投稿。付け足すことはないので、本文はこれだけ："
-        },
-        "note": {
-            "en": "제곧내 = 제목이 곧 내용, \"the title is the content.\"",
-            "es": "제곧내 = 제목이 곧 내용, \"el título es el contenido\".",
-            "zh": "제곧내 = 제목이 곧 내용（標題就是內文）。",
-            "cn": "제곧내 = 제목이 곧 내용（标题就是内文）。",
-            "ja": "제곧내 = 제목이 곧 내용（タイトルがそのまま本文）。"
-        }
-    },
     {
         "type": "meaning",
         "answer": "인만추",
@@ -32736,8 +33178,77 @@ QUIZ = [
             "cn": "당모치＝당연히 모든 치킨은 옳다（当然所有炸鸡都是对的）。",
             "ja": "당모치＝당연히 모든 치킨은 옳다（当然、すべてのチキンは正しい）。"
         }
+    },
+    {
+        "type": "meaning",
+        "answer": "볼매",
+        "options": [
+            "볼매",
+            "반전매력",
+            "금사빠",
+            "심쿵"
+        ]
+    },
+    {
+        "type": "meaning",
+        "answer": "만반잘부",
+        "options": [
+            "만반잘부",
+            "별다줄",
+            "할많하않",
+            "많관부"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "뒷공부",
+        "options": [
+            "뒷공부",
+            "갓생",
+            "오운완",
+            "내돈내산"
+        ],
+        "situation": {
+            "en": "Your friend partied with you all week and swore she didn't study at all. Then she gets the top score on the exam. You text her: \"You totally did ___!\"",
+            "es": "Tu amiga estuvo de fiesta contigo toda la semana y juró que no estudió nada. Luego saca la mejor nota del examen. Le escribes: \"¡Seguro hiciste ___!\"",
+            "zh": "朋友整週都跟你一起玩，還發誓完全沒讀書。結果考試拿了第一名。你傳訊息給她：「你一定是___了吧！」",
+            "cn": "朋友整周都跟你一起玩，还发誓完全没读书。结果考试拿了第一名。你传消息给她：“你一定是___了吧！”",
+            "ja": "一週間ずっと一緒に遊んで「全然勉強してない」と言っていた友達が、テストで一番の点数。あなたはこう送る：「絶対___したでしょ！」"
+        },
+        "note": {
+            "en": "뒷공부 = studying behind everyone's back while acting like you're just hanging out.",
+            "es": "뒷공부 = estudiar a escondidas mientras finges que solo estás de fiesta.",
+            "zh": "뒷공부＝表面上一起玩，背地裡偷偷讀書。",
+            "cn": "뒷공부＝表面上一起玩，背地里偷偷读书。",
+            "ja": "뒷공부＝遊んでるふりをして、陰でこっそり勉強すること。"
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "이븐하게",
+        "options": [
+            "이븐하게",
+            "존맛탱",
+            "국룰",
+            "갓성비"
+        ],
+        "situation": {
+            "en": "Your friend cuts open the steak she cooked and it's the exact same pink from edge to edge. Copying the serious judge from a famous cooking show, you say: \"It's cooked ___.\"",
+            "es": "Tu amiga corta el filete que cocinó y está exactamente igual de rosado de borde a borde. Imitando al juez serio de un famoso programa de cocina, dices: \"Está cocido ___.\"",
+            "zh": "朋友切開她煎的牛排，從邊緣到中心都是一樣的粉紅色。你學著知名料理節目裡那位嚴肅的評審說：「熟度___。」",
+            "cn": "朋友切开她煎的牛排，从边缘到中心都是一样的粉红色。你学着知名料理节目里那位严肃的评审说：“熟度___。”",
+            "ja": "友達が焼いたステーキを切ると、端から端までまったく同じピンク色。有名な料理番組の真面目な審査員をまねて一言：「___火が通ってる。」"
+        },
+        "note": {
+            "en": "이븐하게 = \"evenly\" (English even + -하게), a meme from the judge's comments on Culinary Class Wars (흑백요리사).",
+            "es": "이븐하게 = \"de forma pareja\" (even en inglés + -하게), meme de los comentarios del juez en Culinary Class Wars (흑백요리사).",
+            "zh": "이븐하게＝「均勻地」（英文even＋-하게），來自《黑白大廚》（흑백요리사）評審評語的迷因。",
+            "cn": "이븐하게＝“均匀地”（英文even＋-하게），来自《黑白大厨》（흑백요리사）评审评语的迷因。",
+            "ja": "이븐하게＝「均一に」（英語のeven＋-하게）。『白と黒のスプーン』（흑백요리사）の審査員コメントから生まれたミーム。"
+        }
     }
 ]
+
 
 
 HEADERS = [
