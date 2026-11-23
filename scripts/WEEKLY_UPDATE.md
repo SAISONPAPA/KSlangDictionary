@@ -1,6 +1,6 @@
 # 주간 자동 업데이트 플레이북
 
-매주 월요일 예약 작업이 이 파일을 보고 그대로 실행함. **main에 직접 push 금지.** 결과는 PR로만 올리고, 머지는 Jay가 직접 함.
+매주 월요일 예약 작업이 이 파일을 보고 그대로 실행함. **main에 직접 push 금지.** 결과는 PR로 올리고, 검사를 다 통과하면 예약 작업이 그 PR을 직접 머지함 (Jay 결정, 2026-11-23 — 예전엔 Jay가 폰에서 머지했음).
 CLAUDE.md의 규칙(특히 "Jay의 단어 선정 규칙", DETAILS 규칙, 빌드 순서)이 이 문서보다 우선함.
 
 ## 0. 시작 전 확인
@@ -100,7 +100,7 @@ gh api repos/SAISONPAPA/KSlangDictionary/pulls -f base=main -f head=weekly/<YYYY
   -f title="주간 업데이트 <YYYY-MM-DD>" -F body=@/tmp/pr.md --jq .html_url
 ```
 
-PR 본문(`/tmp/pr.md`)은 **한국어**로, Jay가 폰에서 훑어보고 머지할 수 있게:
+PR 본문(`/tmp/pr.md`)은 **한국어**로, Jay가 나중에 폰에서 훑어볼 수 있게:
 (링크는 `[제목](URL)` 형식만. 백틱·따옴표로 감싸지 말 것 — 폰에서 링크가 깨짐.)
 1. 요약 한 줄 (새 단어 N개 / Draft 검증 N개 / 픽 교체 / 퀴즈 4문제 교체 / 검사 결과)
 1-2. Draft 검증한 단어: 단어 · 출처 링크 (뜻을 고쳤으면 무엇을 고쳤는지)
@@ -108,6 +108,16 @@ PR 본문(`/tmp/pr.md`)은 **한국어**로, Jay가 폰에서 훑어보고 머�
 3. 에디터 픽: 이전 → 이후
 4. 퀴즈: 뺀 문제 4개 / 새 문제 4개 (정답 단어 + 문제 요약)
 5. 확인해 줄 것: 애매했던 판단이 있으면 여기 (예: "이 단어는 특정 그룹 팬덤에서만 써서 넣을지 고민")
-6. "머지하면 GitHub Pages에 자동 배포됨" 한 줄
+6. "머지하면 GitHub Pages에 자동 배포됨" 한 줄 (자동 머지했으면 "자동 머지함"으로)
 
-**PR을 직접 머지하지 말 것.** main에 push하지 말 것.
+## 6. 머지 (조건부 자동)
+
+아래 조건을 **전부** 만족할 때만 PR을 머지함 (merge commit 방식, `expectedHeadSha`에 방금 push한 커밋 SHA 40자):
+- `safety_check.py` 통과 + `check_site.py`가 "check_site OK"
+- PR이 `mergeable: true` / `mergeable_state: clean` (몇 초 기다렸다 다시 조회)
+- PR 본문 "확인해 줄 것"에 **혐오·조롱 의심이나 기존 뜻 수정**처럼 Jay 판단이 꼭 필요한 항목이 없음 (출처가 오래됐다 같은 참고 사항은 괜찮음)
+
+하나라도 걸리면 머지하지 말고 PR만 열어둔 채, 왜 안 했는지 PR 코멘트와 알림으로 남길 것.
+머지 후엔 GitHub Actions(`Rebuild site data` → `pages build and deployment`)가 성공하는지 확인. 실패하면 알림.
+
+main에 직접 push하지 말 것 (항상 PR을 거쳐서 머지).

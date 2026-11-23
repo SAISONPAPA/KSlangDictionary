@@ -93,7 +93,7 @@ python3 check_site.py          # 마지막 검사
 
 ## 주간 자동 업데이트 (2026-10-14~)
 
-- 매주 월요일 아침 예약 작업이 `scripts/WEEKLY_UPDATE.md`대로 실행: 새 단어(출처 확인된 것만, 목표 10개) + 에디터 픽 교체 + 퀴즈 4문제 로테이션 → 빌드 → `scripts/check_site.py` → **`weekly/<날짜>` 브랜치로 PR**. 머지는 Jay가 폰에서 직접 함 (Jay 결정: PR 승인 방식, 주 1회).
+- 매주 월요일 아침 예약 작업이 `scripts/WEEKLY_UPDATE.md`대로 실행: 새 단어(출처 확인된 것만, 목표 10개) + 에디터 픽 교체 + 퀴즈 4문제 로테이션 → 빌드 → `scripts/check_site.py` → **`weekly/<날짜>` 브랜치로 PR** → 검사 다 통과하면 예약 작업이 직접 머지 (Jay 결정 2026-11-23, 예전엔 Jay가 폰에서 머지). 조건은 `WEEKLY_UPDATE.md` 6번.
 - 열린 `weekly/` PR이 있으면 건너뛰지 않고 그 PR 브랜치에 이번 주 내용을 쌓음 (충돌 방지, Jay 결정 2026-11-23 — 예전엔 그 주를 건너뛰었음).
 - 플레이북을 바꾸고 싶으면 `scripts/WEEKLY_UPDATE.md`만 고치면 됨 (예약 작업은 매번 이 파일을 읽음).
 
