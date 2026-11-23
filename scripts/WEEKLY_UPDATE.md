@@ -12,8 +12,10 @@ git fetch origin main
 gh api 'repos/SAISONPAPA/KSlangDictionary/pulls?state=open&per_page=50' --jq '[.[]|select(.head.ref|startswith("weekly/"))|{number,title}]'
 ```
 
-- **열려 있는 `weekly/` PR이 이미 있으면 새로 만들지 말 것.** Jay가 아직 머지를 안 한 거라서, 새 PR을 만들면 `build_kslang_db.py`에서 충돌이 남. 그 PR에 "이번 주 업데이트는 이 PR 머지 후로 미룸" 코멘트만 남기고 종료:
-  `gh api repos/SAISONPAPA/KSlangDictionary/issues/<번호>/comments -f body='...'`
+- **열려 있는 `weekly/` PR이 이미 있으면 건너뛰지 말고 그 PR 브랜치에 이번 주 내용을 쌓을 것** (Jay 결정, 2026-11-23). PR을 두 개 따로 열면 `build_kslang_db.py`에서 충돌이 나니까 새 PR은 만들지 않음:
+  1. `git checkout -B <그 브랜치> origin/<그 브랜치>` → `git merge origin/main`. 충돌이 xlsx뿐이면 `git checkout --theirs data/kslang-slang-database.xlsx`(main 버전)로 풀고, 어차피 4단계 빌드에서 다시 생성됨. 다른 파일 충돌이면 생성 파일은 빌드로 다시 만들고, `build_kslang_db.py` 충돌은 양쪽 내용을 다 살려서 풀 것.
+  2. 아래 1~4단계를 그대로 진행 (`NEW_WORDS_LOG`엔 이번 주 날짜로 새 항목, 퀴즈도 이번 주 몫 4문제 다시 로테이션).
+  3. 5단계에서 새 PR 대신 같은 브랜치에 커밋·push하고, PR 제목에 이번 주 날짜를 덧붙이고(예: "주간 업데이트 2026-11-16 + 2026-11-23") 본문 맨 위에 이번 주 섹션을 추가 (`gh api -X PATCH repos/SAISONPAPA/KSlangDictionary/pulls/<번호> -f title=... -F body=@/tmp/pr.md`). 지난주 섹션은 지우지 말 것.
 - 없으면 브랜치 생성: `git checkout -B weekly/<YYYY-MM-DD> origin/main` (날짜는 KST 오늘).
 
 ## 1. 새 단어 추가 (목표 10개, 최소 0개)

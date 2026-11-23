@@ -1907,6 +1907,18 @@ FANDOM = [
      "공항에서 사생팬 때문에 또 난리 났대.", "There was chaos at the airport again because of sasaengs.",
      "Otra vez hubo caos en el aeropuerto por culpa de las sasaeng.",
      "K-pop fandom, entertainment news", "Verified (web-checked)"),
+    ("이선좌", "i-seon-jwa", "Seat already taken",
+     "Short for 이미 선택된 좌석, \"seat already selected\": the dreaded pop-up during a ticketing rush when someone grabs the seat a split second before you.",
+     "Abreviatura de 이미 선택된 좌석, \"asiento ya seleccionado\": el temido aviso en la batalla de entradas cuando alguien te gana el asiento por un segundo.",
+     "또 이선좌 떴어… 벌써 다섯 번째야.", "\"Seat already taken\" again… that's the fifth time.",
+     "Otra vez \"asiento ya seleccionado\"… ya van cinco.",
+     "Concert ticketing, fan chats", "Verified (web-checked)"),
+    ("포도알", "po-do-al", "Grape (open seat)",
+     "Literally \"a grape\": an available seat on a ticketing seat map, which shows up as a colored dot that looks like a grape. 포도알을 잡다 = to grab an open seat.",
+     "Literalmente \"una uva\": un asiento disponible en el mapa de entradas, que aparece como un punto de color parecido a una uva. 포도알을 잡다 = conseguir un asiento libre.",
+     "포도알 하나 남았는데 누르자마자 사라졌어.", "There was one grape left and it vanished the second I clicked.",
+     "Quedaba una uva y desapareció en cuanto hice clic.",
+     "Concert and fan-meeting ticketing", "Verified (web-checked)"),
 ]
 
 BROADCAST = [
@@ -2720,6 +2732,18 @@ BROADCAST = [
      "자기 전에 숏드 한 편만 본다는 게 50편 봤어.", "I meant to watch one short drama before bed and ended up watching 50.",
      "Quería ver un solo microdrama antes de dormir y terminé viendo 50.",
      "Streaming, short-form platforms", "Verified (web-checked)"),
+    ("트민남", "teu-min-nam", "Trend-sensitive guy",
+     "Short for 트렌드에 민감한 남자, \"a man who's sensitive to trends\": someone quick to try the latest fashion, food and gadgets. The female version is 트민녀.",
+     "Abreviatura de 트렌드에 민감한 남자, \"hombre atento a las tendencias\": alguien que prueba rápido la última moda, comida o gadget. La versión femenina es 트민녀.",
+     "새로 나온 디저트 벌써 먹어봤어? 완전 트민남이네.", "You already tried that new dessert? You're such a 트민남.",
+     "¿Ya probaste el postre nuevo? Eres todo un 트민남.",
+     "Variety shows, then everyday talk", "Verified (web-checked)"),
+    ("화성인", "hwa-seong-in", "Martian (quirky person)",
+     "Literally \"Martian\": a person with very unusual habits or a one-of-a-kind personality. Popularized by the tvN show 화성인 바이러스.",
+     "Literalmente \"marciano\": alguien con hábitos muy peculiares o una personalidad única. Se popularizó con el programa de tvN 화성인 바이러스.",
+     "매일 아침 생양파를 먹는다고? 너 진짜 화성인이다.", "You eat a raw onion every morning? You're a real Martian.",
+     "¿Te comes una cebolla cruda cada mañana? Eres un marciano de verdad.",
+     "Variety TV vocabulary, everyday teasing", "Verified (web-checked)"),
 ]
 
 MEME = [
@@ -4319,6 +4343,30 @@ MEME = [
      "또 엄친아 얘기야? 걔는 왜 이렇게 다 잘해?", "The mom's-friend's-son story again? Why is he good at everything?",
      "¿Otra vez con el hijo de tu amiga? ¿Por qué es bueno en todo?",
      "Family jokes, comparisons, K-dramas (Netflix's Love Next Door)", "Verified (web-checked)"),
+    ("무공해", "mu-gong-hae", "I'll agree no matter what",
+     "Short for 무조건 공감해드림 (\"I'll empathize with you, no matter what\"). A pun on the ordinary word 무공해, \"pollution-free.\"",
+     "Abreviatura de 무조건 공감해드림 (\"te doy la razón pase lo que pase\"). Juego de palabras con 무공해, \"libre de contaminación\".",
+     "오늘은 무공해 모드야. 무슨 얘기든 다 들어줄게.", "I'm in 무공해 mode today. Tell me anything, I'm on your side.",
+     "Hoy estoy en modo 무공해. Cuéntame lo que sea, estoy de tu lado.",
+     "Chats with friends, magazine slang roundups", "Verified (web-checked)"),
+    ("김포족", "gim-po-jok", "Kimjang quitters",
+     "Short for 김장 포기족: people who skip making kimchi at home during kimjang season and buy it or get it from family instead.",
+     "Abreviatura de 김장 포기족: quienes no preparan kimchi en casa en la temporada de kimjang y lo compran o lo reciben de la familia.",
+     "올해는 나도 김포족이야. 그냥 사 먹을래.", "I'm joining the 김포족 this year. I'll just buy it.",
+     "Este año yo también soy 김포족. Lo voy a comprar y ya.",
+     "Late-autumn news and lifestyle talk", "Verified (web-checked)"),
+    ("슬세권", "seul-se-gwon", "Slipper zone",
+     "슬리퍼 (slippers) + 역세권 (near a subway station): a neighborhood where you can handle all your errands in slippers and comfy clothes, with a convenience store, café and more within walking distance.",
+     "슬리퍼 (chanclas) + 역세권 (cerca del metro): un barrio donde puedes hacer todos tus recados en chanclas y ropa cómoda, con tienda, café y más a pocos pasos.",
+     "우리 집 완전 슬세권이야. 편의점, 카페 다 걸어서 2분.", "My place is a total slipper zone. The convenience store and café are both a two-minute walk.",
+     "Mi casa es zona de chanclas total: la tienda y el café están a dos minutos.",
+     "Real-estate ads, lifestyle articles, everyday talk", "Verified (web-checked)"),
+    ("다꾸", "da-kku", "Diary decorating",
+     "Short for 다이어리 꾸미기, \"diary decorating\": decorating a planner or journal with stickers, washi tape and memo pads. People who love it are 다꾸러.",
+     "Abreviatura de 다이어리 꾸미기, \"decorar la agenda\": adornar una agenda o diario con stickers, washi tape y notas. A quienes les encanta se les llama 다꾸러.",
+     "주말에 카페에서 다꾸하면서 힐링했어.", "I spent the weekend at a café doing 다꾸. So relaxing.",
+     "Pasé el fin de semana en un café haciendo 다꾸. Qué relajante.",
+     "Hobby communities, stationery shops, social media", "Verified (web-checked)"),
 ]
 
 DATING = [
@@ -4940,6 +4988,18 @@ DATING = [
      "새벽 2시에 전남친한테 '자니?' 왔어. 답장 안 할 거야.", "My ex texted me \"자니?\" at 2 a.m. I'm not replying.",
      "Mi ex me mandó \"자니?\" a las 2 de la mañana. No le voy a contestar.",
      "Texting, breakups, memes", "Verified (web-checked)"),
+    ("정뚝떨", "jeong-ttuk-tteol", "The ick",
+     "Short for 정이 뚝 떨어지다 (\"affection drops off with a thud\"): suddenly losing all attraction to a crush or partner because of one small thing they did. Korea's version of \"the ick.\"",
+     "Abreviatura de 정이 뚝 떨어지다 (\"el cariño se cae de golpe\"): perder de repente toda la atracción por alguien por un detalle pequeño. La versión coreana de \"the ick\".",
+     "밥 먹을 때 쩝쩝거리는 거 보고 정뚝떨했어.", "He chewed so loudly at dinner that I instantly got the ick.",
+     "Masticaba tan fuerte en la cena que se me quitaron las ganas al instante.",
+     "Dating talk, magazines and group chats", "Verified (web-checked)"),
+    ("고백공격", "go-baek-gong-gyeok", "Confession attack",
+     "\"Confession attack\": suddenly confessing feelings to someone who clearly doesn't feel the same, leaving them awkward or uncomfortable.",
+     "\"Ataque de confesión\": declararse de repente a alguien que claramente no siente lo mismo, dejándole incómodo/a.",
+     "친구로만 생각했는데 갑자기 고백공격 당해서 너무 어색해.", "I only saw him as a friend, then he hit me with a confession attack. So awkward.",
+     "Solo lo veía como amigo y de repente me lanzó un ataque de confesión. Qué incómodo.",
+     "Dating talk and online posts", "Verified (web-checked)"),
 ]
 
 CATEGORIES = [
@@ -4963,6 +5023,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-11-23", ["정뚝떨", "고백공격", "무공해", "김포족", "슬세권", "트민남", "화성인", "이선좌", "포도알", "다꾸"]),
     ("2026-11-16", ["예절샷", "관크", "회전문", "포테크", "사생팬", "MSG", "마라맛", "숏드", "셀소", "자니"]),
     ("2026-11-09", ["딸깍", "저속노화", "이븐하게", "만반잘부", "젤꾸", "뒷공부", "품절남", "볼매", "초식남", "엄친아", "건어물녀"]),
     ("2026-11-02", ["엄미새", "하비아모리", "딜루루", "자소설", "엄카", "지옥철", "생파", "당모치"]),
@@ -5821,6 +5882,16 @@ ZH_TW_TRANSLATIONS = {
     "숏드": ("숏드라마（短劇）的縮寫：每集1～2分鐘、為手機和短劇平台製作的直式短劇。", "睡前說只看一集短劇，結果看了50集。"),
     "셀소": ("셀프 소개팅（自我聯誼）的縮寫：在網路上貼出自我介紹（年齡、興趣、工作等）來找對象。", "等朋友介紹等到累了，乾脆自己發셀소。"),
     "자니": ("「자니?」（睡了嗎？）：深夜傳給前任的經典訊息，真正的意思是「我睡不著，在想你」。", "凌晨兩點前男友傳「자니?」來，我才不回。"),
+    "정뚝떨": ("「정이 뚝 떨어지다」（好感瞬間掉光）的縮寫：因為對方一個小動作，突然對暗戀對象或另一半完全失去好感。就是韓國版的「ick」。", "他吃飯一直吧唧吧唧，我瞬間정뚝떨。"),
+    "고백공격": ("「告白攻擊」：突然向明顯對自己沒感覺的人告白，讓對方尷尬又不自在。", "我只把他當朋友，結果突然被告白攻擊，超尷尬。"),
+    "무공해": ("「무조건 공감해드림」（無條件挺你、跟你共感）的縮寫。和一般詞「무공해」（無公害）是諧音梗。", "今天是무공해模式，說什麼我都挺你。"),
+    "김포족": ("「김장 포기족」（放棄醃泡菜族）的縮寫：泡菜季不自己醃，改用買的或從家人那裡拿的人。", "今年我也是김포족，直接買來吃。"),
+    "슬세권": ("슬리퍼（拖鞋）＋역세권（捷運生活圈）：穿拖鞋、居家服就能把生活大小事搞定的地段，便利商店、咖啡廳都在走路範圍內。", "我家完全是슬세권，便利商店、咖啡廳走路兩分鐘。"),
+    "트민남": ("「트렌드에 민감한 남자」（對潮流很敏感的男生）的縮寫：最新的時尚、美食、3C都會搶先嘗試的人。女生版是「트민녀」。", "新出的甜點你已經吃過了？根本트민남。"),
+    "화성인": ("字面意思是「火星人」：習慣很特別、個性獨一無二的人。因tvN節目《火星人病毒》而流行。", "你每天早上吃生洋蔥？你真的是火星人。"),
+    "이선좌": ("「이미 선택된 좌석」（座位已被選取）的縮寫：搶票時最怕看到的提示，代表座位被別人搶先一步。", "又跳이선좌了……已經第五次了。"),
+    "포도알": ("字面是「葡萄粒」：售票座位圖上還能選的座位，顯示成像葡萄的彩色圓點。포도알을 잡다＝搶到空位。", "只剩一顆포도알，我一按就不見了。"),
+    "다꾸": ("「다이어리 꾸미기」（手帳裝飾）的縮寫：用貼紙、紙膠帶、便條紙裝飾手帳或日記。愛好者叫「다꾸러」。", "週末在咖啡廳다꾸，超療癒。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6654,6 +6725,16 @@ ZH_CN_TRANSLATIONS = {
     "숏드": ("숏드라마（短剧）的缩写：每集1～2分钟、为手机和短剧平台制作的直式短剧。", "睡前说只看一集短剧，结果看了50集。"),
     "셀소": ("셀프 소개팅（自我联谊）的缩写：在网络上贴出自我介绍（年龄、兴趣、工作等）来找对象。", "等朋友介绍等到累了，干脆自己发셀소。"),
     "자니": ("“자니?”（睡了吗？）：深夜传给前任的经典消息，真正的意思是“我睡不着，在想你”。", "凌晨两点前男友传“자니?”来，我才不回。"),
+    "정뚝떨": ("“정이 뚝 떨어지다”（好感瞬间掉光）的缩写：因为对方一个小动作，突然对暗恋对象或另一半完全失去好感。就是韩国版的“ick”。", "他吃饭一直吧唧吧唧，我瞬间정뚝떨。"),
+    "고백공격": ("“告白攻击”：突然向明显对自己没感觉的人告白，让对方尴尬又不自在。", "我只把他当朋友，结果突然被告白攻击，超尴尬。"),
+    "무공해": ("“무조건 공감해드림”（无条件挺你、跟你共感）的缩写。和一般词“무공해”（无公害）是谐音梗。", "今天是무공해模式，说什么我都挺你。"),
+    "김포족": ("“김장 포기족”（放弃腌泡菜族）的缩写：泡菜季不自己腌，改用买的或从家人那里拿的人。", "今年我也是김포족，直接买来吃。"),
+    "슬세권": ("슬리퍼（拖鞋）＋역세권（捷运生活圈）：穿拖鞋、居家服就能把生活大小事搞定的地段，便利商店、咖啡厅都在走路范围内。", "我家完全是슬세권，便利商店、咖啡厅走路两分钟。"),
+    "트민남": ("“트렌드에 민감한 남자”（对潮流很敏感的男生）的缩写：最新的时尚、美食、3C都会抢先尝试的人。女生版是“트민녀”。", "新出的甜点你已经吃过了？根本트민남。"),
+    "화성인": ("字面意思是“火星人”：习惯很特别、个性独一无二的人。因tvN节目《火星人病毒》而流行。", "你每天早上吃生洋葱？你真的是火星人。"),
+    "이선좌": ("“이미 선택된 좌석”（座位已被选取）的缩写：抢票时最怕看到的提示，代表座位被别人抢先一步。", "又跳이선좌了……已经第五次了。"),
+    "포도알": ("字面是“葡萄粒”：售票座位图上还能选的座位，显示成像葡萄的彩色圆点。포도알을 잡다＝抢到空位。", "只剩一颗포도알，我一按就不见了。"),
+    "다꾸": ("“다이어리 꾸미기”（手帐装饰）的缩写：用贴纸、纸胶带、便条纸装饰手帐或日记。爱好者叫“다꾸러”。", "周末在咖啡厅다꾸，超疗愈。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7501,6 +7582,16 @@ JA_TRANSLATIONS = {
     "숏드": ("숏드라마（ショートドラマ）の略。1話1～2分の縦型ドラマで、スマホやショートドラマアプリ向け。", "寝る前に숏드1話だけのつもりが50話見ちゃった。"),
     "셀소": ("셀프 소개팅（セルフ合コン）の略。年齢・趣味・仕事などの自己紹介をネットに投稿して恋人を探すこと。", "友達の紹介を待つのに疲れて、もう셀소上げた。"),
     "자니": ("「자니?」（寝てる？）：深夜に元恋人へ送る定番メッセージ。本当の意味は「起きてて、あなたのこと考えてる」。", "夜中の2時に元カレから「자니?」って来た。返信しない。"),
+    "정뚝떨": ("「정이 뚝 떨어지다（情が一気に冷める）」の略。相手のちょっとした言動で、好きだった気持ちが一瞬で冷めること。韓国版の「蛙化現象」。", "ご飯のとき音を立てて食べてるのを見て、一気に冷めた。"),
+    "고백공격": ("「告白攻撃」：全くその気がない相手にいきなり告白して、相手を困らせること。", "友達としか思ってなかったのに、いきなり告白攻撃されて気まずい。"),
+    "무공해": ("「무조건 공감해드림（無条件で共感してあげる）」の略。普通の単語「무공해（無公害）」とかけたダジャレ。", "今日は무공해モード。何でも聞くし、全部共感するよ。"),
+    "김포족": ("「김장 포기족（キムジャンあきらめ族）」の略。キムジャンの季節に自分で漬けず、買ったり家族からもらったりする人たち。", "今年は私も김포족。もう買って食べる。"),
+    "슬세권": ("슬리퍼（スリッパ）＋역세권（駅近）。スリッパと部屋着のままで、コンビニやカフェなど日常の用事が全部済む生活圏。", "うち、完全に슬세권。コンビニもカフェも歩いて2分。"),
+    "트민남": ("「트렌드에 민감한 남자（トレンドに敏感な男）」の略。最新のファッション・グルメ・ガジェットをすぐ試す人。女性版は「트민녀」。", "新作スイーツもう食べたの？完全に트민남じゃん。"),
+    "화성인": ("直訳は「火星人」。かなり変わった習慣や唯一無二の個性を持つ人。tvNの番組『火星人ウイルス』で広まった。", "毎朝生の玉ねぎ食べてるの？ほんと화성인だね。"),
+    "이선좌": ("「이미 선택된 좌석（既に選択された座席）」の略。チケット争奪戦で一瞬先に席を取られたときに出る、恐怖のメッセージ。", "また이선좌出た…もう5回目。"),
+    "포도알": ("直訳は「ぶどうの粒」。チケットの座席表で選べる席のこと。色付きの丸がぶどうに見えることから。포도알을 잡다＝空席をつかむ。", "포도알が1個残ってたのに、押した瞬間に消えた。"),
+    "다꾸": ("「다이어리 꾸미기（手帳デコ）」の略。シールやマスキングテープ、メモ帳で手帳や日記をデコること。好きな人は「다꾸러」。", "週末はカフェで다꾸して癒やされた。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -33209,6 +33300,365 @@ DETAILS = {
             }
         ]
     },
+    "정뚝떨": {
+        "nuance": {
+            "en": "It's about a sudden, often unfair turn-off over something small, not a real red flag. Usually said with a laugh.",
+            "es": "Se trata de un rechazo repentino, a veces injusto, por algo pequeño, no de una verdadera señal de alarma. Suele decirse entre risas.",
+            "zh": "重點是因為小事突然倒胃口，不一定是真正的危險信號。通常是笑著說的。",
+            "cn": "重点是因为小事突然倒胃口，不一定是真正的危险信号。通常是笑着说的。",
+            "ja": "本当に危ないサインというより、小さなことで急に冷める感覚。笑い話として言うことが多い。"
+        },
+        "usage": {
+            "en": "Use it as a verb (정뚝떨했어, \"I got the ick\") or as a noun: 정뚝떨 포인트 (ick points), 정뚝떨 모먼트.",
+            "es": "Se usa como verbo (정뚝떨했어, \"me dio el ick\") o sustantivo: 정뚝떨 포인트 (cosas que dan ick).",
+            "zh": "可當動詞用（정뚝떨했어，我冷掉了），也可當名詞：정뚝떨 포인트（倒胃口的點）。",
+            "cn": "可当动词用（정뚝떨했어，我冷掉了），也可当名词：정뚝떨 포인트（倒胃口的点）。",
+            "ja": "動詞（정뚝떨했어＝冷めた）としても、名詞（정뚝떨 포인트＝冷めポイント）としても使う。"
+        },
+        "register": "casual",
+        "similar": [
+            "썸",
+            "썸남"
+        ],
+        "tags": [
+            "romance",
+            "chat",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "예전에는 끌렸던 그 사람에게 갑자기 정떨어지는 심리학적 이유!",
+                "publisher": "Vogue Korea",
+                "date": "2026-02-20",
+                "url": "https://www.vogue.co.kr/2026/02/20/%ec%98%88%ec%a0%84%ec%97%90%eb%8a%94-%eb%81%8c%eb%a0%b8%eb%8d%98-%ea%b7%b8-%ec%82%ac%eb%9e%8c%ec%97%90%ea%b2%8c-%ea%b0%91%ec%9e%90%ea%b8%b0-%ec%a0%95%eb%96%a8%ec%96%b4%ec%a7%80%eb%8a%94-%ec%8b%ac/"
+            },
+            {
+                "title": "한순간에 식는다, 썸남썸녀 정뚝떨 포인트 10",
+                "publisher": "GQ Korea",
+                "date": "2026-01-11",
+                "url": "https://www.gqkorea.co.kr/?p=354413"
+            }
+        ]
+    },
+    "고백공격": {
+        "nuance": {
+            "en": "The word \"attack\" stresses that the feelings are one-sided and the other person is caught off guard. People also use it jokingly about themselves (\"I'm not going to confession-attack anyone\").",
+            "es": "La palabra \"ataque\" subraya que el sentimiento es unilateral y que la otra persona no lo esperaba. También se usa en broma sobre uno mismo.",
+            "zh": "「攻擊」強調感情是單方面的，對方完全沒準備。也常拿來自嘲（「我不會去告白攻擊別人啦」）。",
+            "cn": "“攻击”强调感情是单方面的，对方完全没准备。也常拿来自嘲（“我不会去告白攻击别人啦”）。",
+            "ja": "「攻撃」という言葉で、気持ちが一方通行で相手が不意打ちされることを強調する。自虐ネタとしても使われる。"
+        },
+        "usage": {
+            "en": "Common forms: 고백공격 당하다 (to get confession-attacked), 고백공격하다. It's not the same as a sweet, welcome 고백.",
+            "es": "Formas comunes: 고백공격 당하다 (recibir un ataque de confesión), 고백공격하다. No es lo mismo que un 고백 bonito y bienvenido.",
+            "zh": "常見說法：고백공격 당하다（被告白攻擊）、고백공격하다。和甜蜜、受歡迎的「고백」不一樣。",
+            "cn": "常见说法：고백공격 당하다（被告白攻击）、고백공격하다。和甜蜜、受欢迎的“고백”不一样。",
+            "ja": "よく使う形：고백공격 당하다（告白攻撃される）、고백공격하다。うれしい「고백」とは別物。"
+        },
+        "register": "casual",
+        "similar": [
+            "고백",
+            "짝사랑"
+        ],
+        "tags": [
+            "romance",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "[신조어 사전] 고백 공격",
+                "publisher": "서울경제",
+                "date": "2023-03-19",
+                "url": "https://www.sedaily.com/article/13620610"
+            },
+            {
+                "title": "'40대인데 연락해도 될까?' '고백 공격'에 경악한 이유…알고 보니",
+                "publisher": "헤럴드경제",
+                "date": "2024-06-13",
+                "url": "https://biz.heraldcorp.com/article/3414400"
+            }
+        ]
+    },
+    "무공해": {
+        "nuance": {
+            "en": "Warm and playful: you promise to just listen and take your friend's side, not give advice. The joke works because it looks like the eco word.",
+            "es": "Cálido y juguetón: prometes escuchar y ponerte de su lado, sin dar consejos. La gracia está en que parece la palabra ecológica.",
+            "zh": "溫暖又俏皮：保證只聽、只挺你，不給建議。好笑的地方在於它長得跟環保用語一模一樣。",
+            "cn": "温暖又俏皮：保证只听、只挺你，不给建议。好笑的地方在于它长得跟环保用语一模一样。",
+            "ja": "あたたかくて茶目っ気のある言葉。アドバイスはせず、ひたすら味方になって聞くよ、という宣言。エコ用語と同じ見た目なのがミソ。"
+        },
+        "usage": {
+            "en": "Say it when a friend wants to vent: \"오늘 무공해 해줄게\" (today I'll just agree with everything). Context makes it clear you don't mean \"eco-friendly.\"",
+            "es": "Úsalo cuando una amiga quiere desahogarse: \"오늘 무공해 해줄게\" (hoy te doy la razón en todo). El contexto deja claro que no hablas de ecología.",
+            "zh": "朋友想吐苦水時說：「오늘 무공해 해줄게」（今天無條件挺你）。看語境就知道不是在說環保。",
+            "cn": "朋友想吐苦水时说：“오늘 무공해 해줄게”（今天无条件挺你）。看语境就知道不是在说环保。",
+            "ja": "友達が愚痴りたいときに「오늘 무공해 해줄게（今日は全部共感するね）」と。文脈で無公害の意味じゃないとわかる。"
+        },
+        "register": "casual",
+        "similar": [
+            "취존"
+        ],
+        "tags": [
+            "chat",
+            "funny",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "신조어에 대하여",
+                "publisher": "아레나옴므플러스",
+                "date": "2026-10-01",
+                "url": "https://v.daum.net/v/fd8WFfCEhy"
+            }
+        ]
+    },
+    "김포족": {
+        "nuance": {
+            "en": "Neutral and a bit self-deprecating. It's a lifestyle word, not a criticism.",
+            "es": "Neutral y un poco autocrítico. Es una palabra de estilo de vida, no una crítica.",
+            "zh": "中性、帶點自嘲。是生活用語，不是批評。",
+            "cn": "中性、带点自嘲。是生活用语，不是批评。",
+            "ja": "ニュートラルで、少し自虐っぽい。生活スタイルの言葉で、批判ではない。"
+        },
+        "usage": {
+            "en": "Mostly heard around November and December. Don't confuse it with 김포 (Gimpo, the city and airport).",
+            "es": "Se oye sobre todo en noviembre y diciembre. No lo confundas con 김포 (Gimpo, la ciudad y el aeropuerto).",
+            "zh": "多半在11、12月聽到。別和地名、機場「김포」（金浦）搞混。",
+            "cn": "多半在11、12月听到。别和地名、机场“김포”（金浦）搞混。",
+            "ja": "主に11〜12月に聞く言葉。地名・空港の「김포（金浦）」と混同しないように。"
+        },
+        "culture": {
+            "en": "Kimjang (김장) is the late-autumn tradition of making a huge batch of kimchi for winter, often with the whole family. Busy schedules and small households mean more people now skip it.",
+            "es": "El kimjang (김장) es la tradición de finales de otoño de preparar mucho kimchi para el invierno, a menudo en familia. Con agendas ocupadas y hogares pequeños, cada vez más gente se lo salta.",
+            "zh": "김장是深秋全家一起大量醃製過冬泡菜的傳統。現在大家忙、小家庭多，跳過的人越來越多。",
+            "cn": "김장是深秋全家一起大量腌制过冬泡菜的传统。现在大家忙、小家庭多，跳过的人越来越多。",
+            "ja": "キムジャン（김장）は晩秋に家族総出で冬用のキムチを大量に漬ける伝統行事。忙しさや少人数世帯の増加で、やらない人が増えている。"
+        },
+        "register": "everyday",
+        "similar": [
+            "혼족"
+        ],
+        "tags": [
+            "tradition",
+            "food",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 올해는 나도 '김포족'",
+                "publisher": "브라보마이라이프",
+                "date": "2026-11-09",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/20364"
+            }
+        ]
+    },
+    "슬세권": {
+        "nuance": {
+            "en": "Positive and cozy: it praises convenience and comfort rather than prestige.",
+            "es": "Positivo y acogedor: elogia la comodidad, no el prestigio.",
+            "zh": "正面又溫馨：誇的是方便舒適，不是氣派。",
+            "cn": "正面又温馨：夸的是方便舒适，不是气派。",
+            "ja": "ポジティブでゆるい響き。ステータスより便利さと気楽さをほめる言葉。"
+        },
+        "usage": {
+            "en": "Part of the -세권 word family (역세권, 스세권 for Starbucks). Say \"여기 슬세권이다\" when everything you need is close by.",
+            "es": "Forma parte de la familia -세권 (역세권, 스세권 por Starbucks). Di \"여기 슬세권이다\" cuando todo está cerca.",
+            "zh": "屬於「-세권」家族（역세권、星巴克的스세권）。生活機能都在附近時可以說「여기 슬세권이다」。",
+            "cn": "属于“-세권”家族（역세권、星巴克的스세권）。生活机能都在附近时可以说“여기 슬세권이다”。",
+            "ja": "「-세권」ファミリーの一つ（역세권、スタバの스세권など）。必要な物が近くに揃っていたら「여기 슬세권이다」。"
+        },
+        "register": "everyday",
+        "similar": [
+            "스세권"
+        ],
+        "tags": [
+            "internet",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 편하게 나이 들고 싶다면 '슬세권'",
+                "publisher": "브라보마이라이프",
+                "date": "2026-06-29",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/19417"
+            },
+            {
+                "title": "신조어에 대하여",
+                "publisher": "아레나옴므플러스",
+                "date": "2026-10-01",
+                "url": "https://v.daum.net/v/fd8WFfCEhy"
+            }
+        ]
+    },
+    "트민남": {
+        "nuance": {
+            "en": "A friendly, slightly teasing compliment. It became popular after variety shows used it as a nickname for a TV host who loves trying new trends.",
+            "es": "Un cumplido amistoso con algo de burla cariñosa. Se popularizó cuando programas de variedades lo usaron como apodo de un presentador al que le encantan las modas.",
+            "zh": "友善又帶點調侃的稱讚。綜藝節目拿它當某位愛追潮流的主持人的綽號後開始流行。",
+            "cn": "友善又带点调侃的称赞。综艺节目拿它当某位爱追潮流的主持人的绰号后开始流行。",
+            "ja": "親しみのある、ちょっといじり混じりのほめ言葉。流行好きのMCのあだ名としてバラエティで使われて広まった。"
+        },
+        "usage": {
+            "en": "Use 트민남 for a guy and 트민녀 for a girl: \"우리 엄마 완전 트민녀야\" (my mom is so on-trend).",
+            "es": "트민남 para chicos, 트민녀 para chicas: \"우리 엄마 완전 트민녀야\" (mi mamá está a la última).",
+            "zh": "男生用트민남、女生用트민녀：「우리 엄마 완전 트민녀야」（我媽超跟得上潮流）。",
+            "cn": "男生用트민남、女生用트민녀：“우리 엄마 완전 트민녀야”（我妈超跟得上潮流）。",
+            "ja": "男性は트민남、女性は트민녀。「우리 엄마 완전 트민녀야（うちの母、めっちゃ流行に敏感）」。"
+        },
+        "register": "casual",
+        "similar": [
+            "핵인싸",
+            "인싸"
+        ],
+        "tags": [
+            "variety",
+            "praise",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "[요즘말 사전] 유행 좀 안다면 '트민남, 트민녀'",
+                "publisher": "브라보마이라이프",
+                "date": "2026-09-14",
+                "url": "https://bravo.etoday.co.kr/view/atc_view/19955"
+            }
+        ]
+    },
+    "화성인": {
+        "nuance": {
+            "en": "Playful and affectionate, like calling someone a lovable weirdo. Keep it friendly.",
+            "es": "Juguetón y cariñoso, como llamar a alguien \"bicho raro\" con cariño. Mejor en tono amistoso.",
+            "zh": "俏皮又親暱，像是叫人「可愛的怪咖」。語氣要友善。",
+            "cn": "俏皮又亲暱，像是叫人“可爱的怪咖”。语气要友善。",
+            "ja": "「愛すべき変わり者」くらいの、いじり混じりの愛称。仲良しの間で使うのが無難。"
+        },
+        "usage": {
+            "en": "Say it to a friend with a strange habit: \"너 화성인이야?\" Compare 낫닝겐 (not human), which is praise for looks or talent.",
+            "es": "Díselo a una amiga con una costumbre rara: \"너 화성인이야?\" Compara con 낫닝겐, que es un elogio por belleza o talento.",
+            "zh": "對有奇怪習慣的朋友說：「너 화성인이야?」。和誇外貌或才華的「낫닝겐」（不是人類）不同。",
+            "cn": "对有奇怪习惯的朋友说：“너 화성인이야?”。和夸外貌或才华的“낫닝겐”（不是人类）不同。",
+            "ja": "変わった習慣のある友達に「너 화성인이야?」。見た目や才能をほめる「낫닝겐」とは別。"
+        },
+        "register": "casual",
+        "similar": [
+            "낫닝겐",
+            "사바사"
+        ],
+        "tags": [
+            "variety",
+            "funny"
+        ],
+        "sources": [
+            {
+                "title": "화성인과 금쪽이… 일상 침투한 예능 용어",
+                "publisher": "한국일보",
+                "date": "2025-08-29",
+                "url": "https://v.daum.net/v/20250829083512985"
+            }
+        ]
+    },
+    "이선좌": {
+        "nuance": {
+            "en": "Pure ticketing frustration. Fans post it as a one-word cry of pain.",
+            "es": "Pura frustración de compra de entradas. Las fans lo publican como un grito de dolor de una sola palabra.",
+            "zh": "純粹的搶票崩潰。粉絲常只打這三個字來哀嚎。",
+            "cn": "纯粹的抢票崩溃。粉丝常只打这三个字来哀嚎。",
+            "ja": "チケット取りの絶望そのもの。この一言だけで悲鳴として投稿される。"
+        },
+        "usage": {
+            "en": "Usually with 뜨다 (to pop up): \"이선좌 떴어.\" Goes hand in hand with 피케팅 and 포도알.",
+            "es": "Suele ir con 뜨다 (aparecer): \"이선좌 떴어.\" Va de la mano con 피케팅 y 포도알.",
+            "zh": "通常搭配뜨다（跳出來）：「이선좌 떴어」。常和피케팅、포도알一起出現。",
+            "cn": "通常搭配뜨다（跳出来）：“이선좌 떴어”。常和피케팅、포도알一起出现。",
+            "ja": "たいてい뜨다（出る）と一緒に：「이선좌 떴어」。피케팅や포도알とセットで使われる。"
+        },
+        "register": "text",
+        "similar": [
+            "피케팅",
+            "티켓팅",
+            "포도알"
+        ],
+        "tags": [
+            "kpop-fan",
+            "internet"
+        ],
+        "sources": [
+            {
+                "title": "이선좌?아유미 '이건 선수 좌석'[이연호의 신조어 나들이]",
+                "publisher": "이데일리",
+                "date": "2023-05-31",
+                "url": "https://www.edaily.co.kr/news/read?mediaCodeNo=257&newsId=03299686635614496"
+            }
+        ]
+    },
+    "포도알": {
+        "nuance": {
+            "en": "Fan-insider ticketing slang. Seeing lots of 포도알 is good news; none means sold out.",
+            "es": "Jerga de fans para comprar entradas. Ver muchas 포도알 es buena señal; ninguna significa agotado.",
+            "zh": "粉絲圈的搶票術語。看到很多포도알是好消息，一顆都沒有就是賣光了。",
+            "cn": "粉丝圈的抢票术语。看到很多포도알是好消息，一颗都没有就是卖光了。",
+            "ja": "ファンの間のチケット用語。포도알がたくさん見えれば希望あり、ゼロなら完売。"
+        },
+        "usage": {
+            "en": "Common phrases: 포도알을 잡다 (grab one), 포도알이 없다 (none left). If someone beats you to it, you get 이선좌.",
+            "es": "Frases comunes: 포도알을 잡다 (conseguir una), 포도알이 없다 (no queda ninguna). Si alguien te gana, te sale 이선좌.",
+            "zh": "常見說法：포도알을 잡다（搶到）、포도알이 없다（沒了）。被別人搶先就會跳이선좌。",
+            "cn": "常见说法：포도알을 잡다（抢到）、포도알이 없다（没了）。被别人抢先就会跳이선좌。",
+            "ja": "よく使う形：포도알을 잡다（取る）、포도알이 없다（残ってない）。先を越されると이선좌が出る。"
+        },
+        "register": "casual",
+        "similar": [
+            "이선좌",
+            "티켓팅",
+            "피케팅"
+        ],
+        "tags": [
+            "kpop-fan",
+            "stage"
+        ],
+        "sources": [
+            {
+                "title": "이선좌?아유미 '이건 선수 좌석'[이연호의 신조어 나들이]",
+                "publisher": "이데일리",
+                "date": "2023-05-31",
+                "url": "https://www.edaily.co.kr/news/read?mediaCodeNo=257&newsId=03299686635614496"
+            }
+        ]
+    },
+    "다꾸": {
+        "nuance": {
+            "en": "Cute and wholesome. It's part of the -꾸 (decorating) family with 폴꾸 and 탑꾸, and K-pop fans often decorate with idol stickers too.",
+            "es": "Tierno y sano. Pertenece a la familia -꾸 (decorar) junto con 폴꾸 y 탑꾸, y muchas fans de K-pop decoran con stickers de sus idols.",
+            "zh": "可愛又療癒。和폴꾸、탑꾸同屬「-꾸」（裝飾）家族，很多K-pop粉絲也會用偶像貼紙來다꾸。",
+            "cn": "可爱又疗愈。和폴꾸、탑꾸同属“-꾸”（装饰）家族，很多K-pop粉丝也会用偶像贴纸来다꾸。",
+            "ja": "かわいくて健全な趣味。폴꾸や탑꾸と同じ「-꾸（デコ）」ファミリーで、推しのシールでデコるK-POPファンも多い。"
+        },
+        "usage": {
+            "en": "Use as a verb (다꾸하다) or noun (다꾸 용품, decorating supplies). Related slang: 마테 (masking tape), 떡메 (glue-bound memo pad).",
+            "es": "Como verbo (다꾸하다) o sustantivo (다꾸 용품, materiales). Jerga relacionada: 마테 (washi tape), 떡메 (bloc de notas).",
+            "zh": "當動詞（다꾸하다）或名詞（다꾸 용품，手帳用品）。相關用語：마테（紙膠帶）、떡메（便條本）。",
+            "cn": "当动词（다꾸하다）或名词（다꾸 용품，手帐用品）。相关用语：마테（纸胶带）、떡메（便条本）。",
+            "ja": "動詞（다꾸하다）としても名詞（다꾸 용품＝デコ用品）としても。関連語は마테（マステ）、떡메（ブロックメモ）。"
+        },
+        "register": "casual",
+        "similar": [
+            "폴꾸",
+            "탑꾸",
+            "젤꾸"
+        ],
+        "tags": [
+            "internet",
+            "favorites"
+        ],
+        "sources": [
+            {
+                "title": "캘박? 수영 '캘리포니아 박수무당'[이연호의 신조어 나들이]",
+                "publisher": "이데일리",
+                "date": "2023-06-09",
+                "url": "https://v.daum.net/v/PKqrgeNFNB"
+            }
+        ]
+    },
 }
 
 
@@ -33489,80 +33939,12 @@ QUIZ_UI = {
 # order; the home page "trending" strip shows the first three. Every entry must
 # be a `kr` that exists in CATEGORIES. update_main_pages.py injects these into
 # the pages, so edit them here only. The weekly update swaps these out.
-EDITOR_PICKS = ['예절샷', '마라맛', '자니', '총공', '하이틴']
+EDITOR_PICKS = ['정뚝떨', '김포족', '이선좌', '총공', '하이틴']
 
 # Home page "today's card" — rotates daily through this pool (by date).
-TODAYS_CARD_POOL = ['관크', '포테크', 'MSG', '숏드', '셀소', '회전문', '예절샷']
+TODAYS_CARD_POOL = ['정뚝떨', '무공해', '슬세권', '트민남', '포도알', '다꾸', '고백공격']
 
 QUIZ = [
-    {
-        "type": "meaning",
-        "answer": "딜루루",
-        "options": [
-            "딜루루",
-            "입덕",
-            "탈덕",
-            "덕질"
-        ]
-    },
-    {
-        "type": "meaning",
-        "answer": "자소설",
-        "options": [
-            "자소설",
-            "칼퇴",
-            "조용한퇴사",
-            "갓생"
-        ]
-    },
-    {
-        "type": "situation",
-        "answer": "지옥철",
-        "options": [
-            "지옥철",
-            "칼퇴",
-            "오운완",
-            "조용한퇴사"
-        ],
-        "situation": {
-            "en": "It's 8 a.m. and you're squished into a packed subway car on your way to work. You grumble about the:",
-            "es": "Son las 8 de la mañana y vas apretujada en un vagón de metro repleto camino al trabajo. Te quejas del:",
-            "zh": "早上8點，你被擠在滿滿的地鐵車廂裡去上班。你抱怨這是：",
-            "cn": "早上8点，你被挤在满满的地铁车厢里去上班。你抱怨这是：",
-            "ja": "朝8時、通勤中のぎゅうぎゅうの地下鉄に押し込まれている。思わずぼやくのは："
-        },
-        "note": {
-            "en": "지옥철 = 지옥 (hell) + 지하철 (subway). 칼퇴 is leaving work right on time — the opposite end of the day.",
-            "es": "지옥철 = 지옥 (infierno) + 지하철 (metro). 칼퇴 es salir del trabajo justo a la hora: el otro extremo del día.",
-            "zh": "지옥철＝지옥（地獄）＋지하철（地鐵）。칼퇴是準時下班，是一天的另一端。",
-            "cn": "지옥철＝지옥（地狱）＋지하철（地铁）。칼퇴是准时下班，是一天的另一端。",
-            "ja": "지옥철＝지옥（地獄）＋지하철（地下鉄）。칼퇴は定時ぴったりに退勤することで、一日の反対側の話。"
-        }
-    },
-    {
-        "type": "situation",
-        "answer": "당모치",
-        "options": [
-            "당모치",
-            "오운완",
-            "갓생",
-            "칼퇴"
-        ],
-        "situation": {
-            "en": "Your friends can't decide between spicy-glazed and plain fried chicken. You end the debate with:",
-            "es": "Tus amigos no se deciden entre pollo yangnyeom y pollo frito clásico. Terminas el debate con:",
-            "zh": "朋友們在調味炸雞和原味炸雞之間猶豫不決。你一句話結束爭論：",
-            "cn": "朋友们在调味炸鸡和原味炸鸡之间犹豫不决。你一句话结束争论：",
-            "ja": "友達がヤンニョムチキンかフライドチキンかで決められない。あなたが一言で決着をつける："
-        },
-        "note": {
-            "en": "당모치 = 당연히 모든 치킨은 옳다 (\"of course, all chicken is right\").",
-            "es": "당모치 = 당연히 모든 치킨은 옳다 (\"obvio, todo pollo frito está bien\").",
-            "zh": "당모치＝당연히 모든 치킨은 옳다（當然所有炸雞都是對的）。",
-            "cn": "당모치＝당연히 모든 치킨은 옳다（当然所有炸鸡都是对的）。",
-            "ja": "당모치＝당연히 모든 치킨은 옳다（当然、すべてのチキンは正しい）。"
-        }
-    },
     {
         "type": "meaning",
         "answer": "볼매",
@@ -33697,6 +34079,74 @@ QUIZ = [
             "zh": "MSG＝誇大加料讓故事更好笑。억텐是硬擠出來的假high，不是誇大故事。",
             "cn": "MSG＝夸大加料让故事更好笑。억텐是硬挤出来的假high，不是夸大故事。",
             "ja": "MSG＝話を盛って面白くすること。억텐は無理に上げたテンションで、話を盛ることではない。"
+        }
+    },
+    {
+        "type": "meaning",
+        "answer": "정뚝떨",
+        "options": [
+            "정뚝떨",
+            "권태기",
+            "밀당",
+            "썸"
+        ]
+    },
+    {
+        "type": "meaning",
+        "answer": "이선좌",
+        "options": [
+            "이선좌",
+            "포도알",
+            "피케팅",
+            "취켓팅"
+        ]
+    },
+    {
+        "type": "situation",
+        "answer": "무공해",
+        "options": [
+            "무공해",
+            "팩폭",
+            "답정너",
+            "할많하않"
+        ],
+        "situation": {
+            "en": "Your friend had a terrible day and just wants to vent. You promise to take her side on everything, no advice. You tell her you're in ___ mode.",
+            "es": "Tu amiga tuvo un día horrible y solo quiere desahogarse. Le prometes darle la razón en todo, sin consejos. Le dices que estás en modo ___.",
+            "zh": "朋友今天過得超慘，只想吐苦水。你保證什麼都挺她、不給建議，跟她說你現在是___模式。",
+            "cn": "朋友今天过得超惨，只想吐苦水。你保证什么都挺她、不给建议，跟她说你现在是___模式。",
+            "ja": "友達が最悪な一日で、とにかく愚痴を聞いてほしい。アドバイスなしで全部味方になると約束して、「今日は___モードだよ」と言う。"
+        },
+        "note": {
+            "en": "무공해 = 무조건 공감해드림 (\"I'll agree with you no matter what\"), a pun on 무공해 \"pollution-free.\"",
+            "es": "무공해 = 무조건 공감해드림 (\"te doy la razón pase lo que pase\"), juego de palabras con 무공해 \"sin contaminación\".",
+            "zh": "무공해＝무조건 공감해드림（無條件挺你），和「無公害」諧音。",
+            "cn": "무공해＝무조건 공감해드림（无条件挺你），和“无公害”谐音。",
+            "ja": "무공해＝무조건 공감해드림（無条件で共感してあげる）。「無公害」とかけたダジャレ。"
+        }
+    },
+    {
+        "type": "situation",
+        "answer": "슬세권",
+        "options": [
+            "슬세권",
+            "스세권",
+            "자취",
+            "혼족"
+        ],
+        "situation": {
+            "en": "Your apartment has a convenience store, a laundromat and a clinic right outside, so you run every errand in slippers and pajamas. Your neighborhood is a:",
+            "es": "Tu departamento tiene una tienda, una lavandería y una clínica justo al lado, así que haces todos tus recados en chanclas y pijama. Tu barrio es un:",
+            "zh": "你家樓下就有便利商店、自助洗衣店和診所，所以你穿拖鞋、睡衣就能辦完所有事。你住的地方是：",
+            "cn": "你家楼下就有便利商店、自助洗衣店和诊所，所以你穿拖鞋、睡衣就能办完所有事。你住的地方是：",
+            "ja": "家のすぐそばにコンビニ、コインランドリー、クリニックがあって、スリッパとパジャマのまま用事が全部済む。そんな生活圏は："
+        },
+        "note": {
+            "en": "슬세권 = 슬리퍼 (slippers) + 역세권 (near a station). 스세권 means near a Starbucks.",
+            "es": "슬세권 = 슬리퍼 (chanclas) + 역세권 (cerca de una estación). 스세권 significa cerca de un Starbucks.",
+            "zh": "슬세권＝슬리퍼（拖鞋）＋역세권（車站生活圈）。스세권則是星巴克附近。",
+            "cn": "슬세권＝슬리퍼（拖鞋）＋역세권（车站生活圈）。스세권则是星巴克附近。",
+            "ja": "슬세권＝슬리퍼（スリッパ）＋역세권（駅近）。스세권はスタバの近くという意味。"
         }
     }
 ]
