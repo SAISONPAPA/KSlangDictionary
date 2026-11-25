@@ -1033,6 +1033,12 @@ IDOL = [
      "이번 팬콘 셋리스트 좋더라.", "The setlist for this fan concert was great.",
      "El setlist de este fan concert estuvo genial.",
      "Fan events", "Verified (web-checked)"),
+    ("하이라이트 메들리", "ha-i-ra-i-teu-me-deul-li", "Highlight medley",
+     "A short preview video released a few days before an album comes out, stitching together a snippet of every track (title song and B-sides) so fans can hear the whole album in about a minute.",
+     "Un video corto que se publica unos días antes del lanzamiento de un álbum y junta un fragmento de cada canción (la principal y las demás) para que los fans escuchen todo el álbum en más o menos un minuto.",
+     "하이라이트 메들리 듣자마자 수록곡 하나에 꽂혔어.", "As soon as I heard the highlight medley, I got hooked on one of the B-sides.",
+     "En cuanto escuché el highlight medley, me enganché con una de las canciones del álbum.",
+     "Comeback promotions, YouTube and SNS teasers", "Verified (web-checked)"),
 ]
 
 
@@ -5023,6 +5029,7 @@ CATEGORIES = [
 # Format: ("YYYY-MM-DD", ["단어1", "단어2", ...])
 # ---------------------------------------------------------------------------
 NEW_WORDS_LOG = [
+    ("2026-11-25", ["하이라이트 메들리"]),
     ("2026-11-23", ["정뚝떨", "고백공격", "무공해", "김포족", "슬세권", "트민남", "화성인", "이선좌", "포도알", "다꾸"]),
     ("2026-11-16", ["예절샷", "관크", "회전문", "포테크", "사생팬", "MSG", "마라맛", "숏드", "셀소", "자니"]),
     ("2026-11-09", ["딸깍", "저속노화", "이븐하게", "만반잘부", "젤꾸", "뒷공부", "품절남", "볼매", "초식남", "엄친아", "건어물녀"]),
@@ -5892,6 +5899,7 @@ ZH_TW_TRANSLATIONS = {
     "이선좌": ("「이미 선택된 좌석」（座位已被選取）的縮寫：搶票時最怕看到的提示，代表座位被別人搶先一步。", "又跳이선좌了……已經第五次了。"),
     "포도알": ("字面是「葡萄粒」：售票座位圖上還能選的座位，顯示成像葡萄的彩色圓點。포도알을 잡다＝搶到空位。", "只剩一顆포도알，我一按就不見了。"),
     "다꾸": ("「다이어리 꾸미기」（手帳裝飾）的縮寫：用貼紙、紙膠帶、便條紙裝飾手帳或日記。愛好者叫「다꾸러」。", "週末在咖啡廳다꾸，超療癒。"),
+    "하이라이트 메들리": ("專輯發行前幾天公開的短預告影片，把每一首歌（主打歌和收錄曲）的片段串在一起，讓粉絲大約一分鐘就能先聽到整張專輯。", "一聽到하이라이트 메들리（全曲試聽影片）就迷上了其中一首收錄曲。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -6735,6 +6743,7 @@ ZH_CN_TRANSLATIONS = {
     "이선좌": ("“이미 선택된 좌석”（座位已被选取）的缩写：抢票时最怕看到的提示，代表座位被别人抢先一步。", "又跳이선좌了……已经第五次了。"),
     "포도알": ("字面是“葡萄粒”：售票座位图上还能选的座位，显示成像葡萄的彩色圆点。포도알을 잡다＝抢到空位。", "只剩一颗포도알，我一按就不见了。"),
     "다꾸": ("“다이어리 꾸미기”（手帐装饰）的缩写：用贴纸、纸胶带、便条纸装饰手帐或日记。爱好者叫“다꾸러”。", "周末在咖啡厅다꾸，超疗愈。"),
+    "하이라이트 메들리": ("专辑发行前几天公开的短预告视频，把每一首歌（主打歌和收录曲）的片段串在一起，让粉丝大约一分钟就能先听到整张专辑。", "一听到하이라이트 메들리（全曲试听视频）就迷上了其中一首收录曲。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -7592,6 +7601,7 @@ JA_TRANSLATIONS = {
     "이선좌": ("「이미 선택된 좌석（既に選択された座席）」の略。チケット争奪戦で一瞬先に席を取られたときに出る、恐怖のメッセージ。", "また이선좌出た…もう5回目。"),
     "포도알": ("直訳は「ぶどうの粒」。チケットの座席表で選べる席のこと。色付きの丸がぶどうに見えることから。포도알을 잡다＝空席をつかむ。", "포도알が1個残ってたのに、押した瞬間に消えた。"),
     "다꾸": ("「다이어리 꾸미기（手帳デコ）」の略。シールやマスキングテープ、メモ帳で手帳や日記をデコること。好きな人は「다꾸러」。", "週末はカフェで다꾸して癒やされた。"),
+    "하이라이트 메들리": ("アルバム発売の数日前に公開される短いプレビュー映像。タイトル曲もカップリング曲も全曲のサビ部分をつなげていて、ファンはアルバム全体を1分ほどで先に聴ける。", "ハイライトメドレーを聴いた瞬間、カップリング曲の一つにハマった。"),
 }
 
 # ---------------------------------------------------------------------------
@@ -33656,6 +33666,54 @@ DETAILS = {
                 "publisher": "이데일리",
                 "date": "2023-06-09",
                 "url": "https://v.daum.net/v/PKqrgeNFNB"
+            }
+        ]
+    },
+    "하이라이트 메들리": {
+        "nuance": {
+            "en": "It is one of the last teasers before a comeback. Fans use it to pick their favorite B-side early and to guess which song will be the most loved, so it builds hype right before release day.",
+            "es": "Es uno de los últimos teasers antes de un comeback. Los fans lo usan para elegir pronto su canción favorita del álbum y adivinar cuál será la más querida, así que aumenta la emoción justo antes del lanzamiento.",
+            "zh": "這是回歸前最後幾個預告之一。粉絲會藉此提早選出最喜歡的收錄曲、猜哪首會最受歡迎，所以在發行日前把期待感拉到最高。",
+            "cn": "这是回归前最后几个预告之一。粉丝会借此提早选出最喜欢的收录曲、猜哪首会最受欢迎，所以在发行日前把期待感拉到最高。",
+            "ja": "カムバック前の最後のほうに出るティーザーの一つ。ファンはこれで好きなカップリング曲を先に決めたり、どの曲が一番人気になるか予想したりするので、発売直前に期待が一気に高まる。"
+        },
+        "usage": {
+            "en": "People say it \"came out\" or was \"revealed\" (하이라이트 메들리 떴다 / 공개됐다), and often talk about which track's snippet they liked most. It is a standard term in Korean entertainment news too.",
+            "es": "Se dice que \"salió\" o \"se reveló\" (하이라이트 메들리 떴다 / 공개됐다), y la gente comenta qué fragmento le gustó más. También es un término estándar en las noticias de entretenimiento coreanas.",
+            "zh": "常說「出來了」或「公開了」（하이라이트 메들리 떴다 / 공개됐다），大家也會聊最喜歡哪一首的片段。這也是韓國娛樂新聞的固定用語。",
+            "cn": "常说“出来了”或“公开了”（하이라이트 메들리 떴다 / 공개됐다），大家也会聊最喜欢哪一首的片段。这也是韩国娱乐新闻的固定用语。",
+            "ja": "「出た」「公開された」（하이라이트 메들리 떴다 / 공개됐다）と言い、どの曲の部分が一番好きかを語り合うことが多い。韓国の芸能ニュースでも定番の言葉。"
+        },
+        "culture": {
+            "en": "English-language K-pop news uses the same words, \"highlight medley,\" so international fans meet the term as-is.",
+            "es": "Las noticias de K-pop en inglés usan las mismas palabras, \"highlight medley\", así que los fans internacionales conocen el término tal cual.",
+            "zh": "英文K-pop新聞也直接用「highlight medley」這個詞，所以海外粉絲看到的就是原本的說法。",
+            "cn": "英文K-pop新闻也直接用“highlight medley”这个词，所以海外粉丝看到的就是原本的说法。",
+            "ja": "英語のK-POPニュースでもそのまま「highlight medley」と書かれるので、海外ファンもこの言葉をそのまま目にする。"
+        },
+        "register": "everyday",
+        "similar": [
+            "티저",
+            "수록곡",
+            "컴백",
+            "타이틀곡"
+        ],
+        "tags": [
+            "kpop-fan",
+            "industry"
+        ],
+        "sources": [
+            {
+                "title": "'12일 발매' 청하, 음악+비주얼 다 미쳤다! 새 EP 'Alivio' 하이라이트 메들리 공개",
+                "publisher": "Sports Kyunghyang (스포츠경향)",
+                "date": "2025-02-06",
+                "url": "https://sports.khan.co.kr/article/202502062227003"
+            },
+            {
+                "title": "Twice shares highlight medley for 'More & More' EP",
+                "publisher": "UPI",
+                "date": "2020-05-29",
+                "url": "https://www.upi.com/Entertainment_News/Music/2020/05/29/Twice-shares-highlight-medley-for-More-More-EP/9391590770895/"
             }
         ]
     },
